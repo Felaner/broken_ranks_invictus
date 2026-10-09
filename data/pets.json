@@ -97,11 +97,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 35 <p><b>Цена</b>: <span style=\"color:#ffd700\">25 империалов</span> </p><p><b>Покупка</b>: у Хуберта </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Kruk.png\"/></span></span> </td><td colspan=\"2\">Klasyczny kruk. Wyszkolony przez najlepsze wiedźmy. Nikt nie opędzi się przed czarną mocą jego skrzydeł ani nie uchowa przed złowieszczym spojrzeniem. <p><br/> <b>Atakuje urokami.</b> </p><p><b>Używa</b>: Szpila w oko, Mistycyzm, Okrzyk bojowy, Ukłucie lalki. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Kruk.png\"/></span></span> </td><td colspan=\"2\">Klasyczny kruk. Wyszkolony przez najlepsze wiedźmy. Nikt nie opędzi się przed czarną mocą jego skrzydeł ani nie uchowa przed złowieszczym spojrzeniem. <p><br/> <b>Атакует ментально.</b> </p><p><b>Использует</b>: Игла в глаз, Мистицизм, Боевой клич, Укол куклы. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -168,11 +168,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 7 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 złota</span> </p><p><b>Zakup</b>: u Godrewa w <span data-items=\"wb_trentis\">Trentis</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 7 <p><b>Цена</b>: <span style=\"color:#ffd700\">1 500  золота</span> </p><p><b>Покупка</b>: u Godrewa w <span data-items=\"wb_trentis\">Трентис</span> </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/e0/WilczurPet.png\"/></span></span> </td><td colspan=\"2\">Burek jak to burek. Wiernie biega przy swoim panu, gdy trzeba ugryzie, wywołując krwawienie. Jeżąc sierść na karku wprowadza się w bojowy trans i może wywołać w przeciwnikach strach. Swoim skowytem może dodatkowo sparaliżować ofiarę, ułatwiając sobie wykończenie wroga. <p><br/> <b>Atakuje fizyczne.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/e0/WilczurPet.png\"/></span></span> </td><td colspan=\"2\">Burek jak to burek. Wiernie biega przy swoim panu, gdy trzeba ugryzie, wywołując krwawienie. Jeżąc sierść na karku wprowadza się w bojowy trans i może wywołać w przeciwnikach strach. Swoim skowytem może dodatkowo sparaliżować ofiarę, ułatwiając sobie wykończenie wroga. <p><br/> <b>Atakuje fizyczne.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -243,11 +243,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 22 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 złota</span> </p><p><b>Zakup</b>: u Wiedźmy Hoberl na <span data-items=\"wb_bagna\">Bagnach</span> </p><p>Możliwość otrzymania w trakcie zadania głównego \"Zielona Granica\" </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 22 <p><b>Цена</b>: <span style=\"color:#ffd700\">6 000  золота</span> </p><p><b>Покупка</b>: у Ведьмы Хоберль на <span data-items=\"wb_bagna\">Болоте</span> </p><p>Możliwość otrzymania w trakcie zadania głównego \"Zielona Granica\" </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/18/Nietoperz.png\"/></span></span> </td><td colspan=\"2\">Niepozorny gacek, który potrafi pomóc w walce. Swoimi kłami przegryzie skórę ofiary, wywołując krwawienie, może również zakazić ranę. Potrafi zadać dodatkowe obrażenia falami dźwiękowymi. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Fala dźwiękowa, Gryzienie, Zakażenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/18/Nietoperz.png\"/></span></span> </td><td colspan=\"2\">Niepozorny gacek, który potrafi pomóc w walce. Swoimi kłami przegryzie skórę ofiary, wywołując krwawienie, może również zakazić ranę. Potrafi zadać dodatkowe obrażenia falami dźwiękowymi. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Звуковая волна, Укус, Заражение. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -318,11 +318,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 35 <p><b>Цена</b>: <span style=\"color:#ffd700\">25 империалов</span> </p><p><b>Покупка</b>: у Хуберта </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Bia%C5%82y_Ogar.png\"/></span></span> </td><td colspan=\"2\">Biały ogar to uniwersalny pies myśliwski. Dopada ofiarę i zaciska szczęki na jej szyi. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Bia%C5%82y_Ogar.png\"/></span></span> </td><td colspan=\"2\">Biały ogar to uniwersalny pies myśliwski. Dopada ofiarę i zaciska szczęki na jej szyi. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -393,11 +393,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 35 <p><b>Цена</b>: <span style=\"color:#ffd700\">25 империалов</span> </p><p><b>Покупка</b>: у Виолы </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/ac/Czarny_Ogar.png\"/></span></span> </td><td colspan=\"2\">Czarny ogar to uniwersalny pies myśliwski, prawie jak biały ogar. Dopada ofiarę i rozszarpuje na strzępy. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/ac/Czarny_Ogar.png\"/></span></span> </td><td colspan=\"2\">Czarny ogar to uniwersalny pies myśliwski, prawie jak biały ogar. Dopada ofiarę i rozszarpuje na strzępy. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -468,11 +468,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 35 <p><b>Цена</b>: <span style=\"color:#ffd700\">25 империалов</span> </p><p><b>Покупка</b>: у Виолы </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Atakuje dystansowo i urokami.</b> </p><p><b>Używa</b>: Furia, Twoja stara, Okrzyk bojowy, Rzut kamieniem. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Atakuje dystansowo i urokami.</b> </p><p><b>Использует</b>: Furia, Twoja stara, Okrzyk bojowy, Rzut kamieniem. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -551,11 +551,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item718\">Рецепт Тона</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Призыв</b>: Требуется <span data-items=\"item718\">Рецепт Тона</span> </p><p><b>Цена выкупа</b>: 3 × <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 × <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 × <span data-items=\"item190\">Средняя Фляга Маны</span> у Азарии в Деревне друидов. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/6f/Ton.png\"/></span></span> </td><td colspan=\"2\">Woda zaklęta w kamień i drzewo równocześnie. Połączone byty, które stawiają na słabość przeciwnika. Podwójnymi atakami wyniszcza wroga tak skutecznie, że mord staje się łatwizną. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Bolesne uderzenie, Dyńka, Gruboskórność, Grupowa kontrola oddechu, Potężne uderzenie, Ryk, Lodowa tarcza, Taran, Twoja stara. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/6f/Ton.png\"/></span></span> </td><td colspan=\"2\">Woda zaklęta w kamień i drzewo równocześnie. Połączone byty, które stawiają na słabość przeciwnika. Podwójnymi atakami wyniszcza wroga tak skutecznie, że mord staje się łatwizną. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Bolesne uderzenie, Dyńka, Gruboskórność, Grupowa kontrola oddechu, Potężne uderzenie, Ryk, Lodowa tarcza, Taran, Twoja stara. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -633,11 +633,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item719\">Рецепт Сола</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Призыв</b>: Требуется <span data-items=\"item719\">Рецепт Сола</span> </p><p><b>Цена выкупа</b>: 3 × <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 × <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 × <span data-items=\"item190\">Средняя Фляга Маны</span> у Азарии в Деревне друидов. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami.</b> </p><p><b>Dominują ataki obszarowe.</b> </p><p><b>Używa</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Атакует физически, издалека, ментально.</b> </p><p><b>Dominują ataki obszarowe.</b> </p><p><b>Использует</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -719,11 +719,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item720\">Рецепт Эры</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Призыв</b>: Требуется <span data-items=\"item720\">Рецепт Эры</span> </p><p><b>Цена выкупа</b>: 3 × <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 × <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 × <span data-items=\"item190\">Средняя Фляга Маны</span> у Азарии в Деревне друидов. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/97/Era.png\"/></span></span> </td><td colspan=\"2\">Stworzona z wody, pełną mocą tego żywiołu zniszczy wszystko, co stanie jej na drodze. Ogłuszy i ukatrupi, wiernie wspomagając swojego pana w walce. Żywiołak, który wysysa życie i ma większą szansę na atak krytyczny. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Front kick, Haduoken, Krytyczne uderzenie, Ogłuszenie, Penetrujące uderzenie, Poświęcenie, Potężne uderzenie, Ryk, Trans, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/97/Era.png\"/></span></span> </td><td colspan=\"2\">Stworzona z wody, pełną mocą tego żywiołu zniszczy wszystko, co stanie jej na drodze. Ogłuszy i ukatrupi, wiernie wspomagając swojego pana w walce. Żywiołak, który wysysa życie i ma większą szansę na atak krytyczny. <p><br/> <b>Атакует физически, издалека, ментально</b> </p><p><b>Использует</b>: Front kick, Haduoken, Krytyczne uderzenie, Ogłuszenie, Penetrujące uderzenie, Poświęcenie, Potężne uderzenie, Ryk, Trans, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -801,11 +801,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item505\">Receptura na Hohgrata</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Belenosa w Lesie Koldów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Призыв</b>: Требуется <span data-items=\"item505\">Receptura na Hohgrata</span> </p><p><b>Цена выкупа</b>: 3 × <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 × <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 × <span data-items=\"item190\">Средняя Фляга Маны</span> u Belenosa w Lesie Koldów. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Atakuje fizycznie, urokami</b> </p><p><b>Używa</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Atakuje fizycznie, urokami</b> </p><p><b>Использует</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -882,11 +882,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 30 <p><b>Przywołanie</b>: Wymagana jest <span data-items=\"wb_receptura_adelweiga\">Receptura Adelweiga</span> </p><p><b>Cena odkupienia</b>: 2 x <span data-items=\"wb_dusza_nietoperza\">Dusza nietoperza</span>, 5 x <span data-items=\"wb_dusza_nieumarlego\">Dusza nieumarłego</span>, 4 x <span data-items=\"wb_dusza_gada\">Dusza gada</span>, 10 <span data-items=\"item679\">Imperiałów</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 30 <p><b>Призыв</b>: Wymagana jest <span data-items=\"wb_receptura_adelweiga\">Рецепт Адельвеига</span> </p><p><b>Цена выкупа</b>: 2 × <span data-items=\"wb_dusza_nietoperza\">Душа летучей мыши</span>, 5 × <span data-items=\"wb_dusza_nieumarlego\">Душа нежити</span>, 4 x <span data-items=\"wb_dusza_gada\">Душа рептилии</span>, 10 <span data-items=\"item679\">империалов</span> у Азарии в Деревне друидов. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/80/Uwi%C4%99zionyPet.png\"/></span></span> </td><td colspan=\"2\">Natura tego stworzenia jest niejasna. Ni to roślina, ni to zwierz. Nie zmienia to jednak trafu, że potrafi dzielnie wspierać swoich towarzyszy w walce z każdym niebezpieczeństwem. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Okrzyk bojowy, Rzut głazem, Gruboskórność, Potężne uderzenie, Zwykły atak, Taran. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/80/Uwi%C4%99zionyPet.png\"/></span></span> </td><td colspan=\"2\">Natura tego stworzenia jest niejasna. Ni to roślina, ni to zwierz. Nie zmienia to jednak trafu, że potrafi dzielnie wspierać swoich towarzyszy w walce z każdym niebezpieczeństwem. <p><br/> <b>Атакует физически, издалека, ментально</b> </p><p><b>Использует</b>: Okrzyk bojowy, Rzut głazem, Gruboskórność, Potężne uderzenie, Zwykły atak, Taran. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -963,11 +963,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 500 000 złota</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 50 <p><b>Цена</b>: <span style=\"color:#ffd700\">3 500 000  золота</span> </p><p><b>Покупка</b>: I гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Hiena.png\"/></span></span> </td><td colspan=\"2\">Hiena okalecza swoje ofiary w wyjątkowo paskudny sposób, sprawiając, że wykrwawiają się na śmierć w przeciągu sekund. Dodatkowo swoim dzikim zawodzeniem potrafi osłąbić wrogów swojego pana, dzięki czemu dobiera się do ich gardeł z przerażającą łatwością. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Zwykły atak, Ryk, Okrzyk bojowy, Bolesne uderzenie, Latające kolano. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Hiena.png\"/></span></span> </td><td colspan=\"2\">Hiena okalecza swoje ofiary w wyjątkowo paskudny sposób, sprawiając, że wykrwawiają się na śmierć w przeciągu sekund. Dodatkowo swoim dzikim zawodzeniem potrafi osłąbić wrogów swojego pana, dzięki czemu dobiera się do ich gardeł z przerażającą łatwością. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Gryzienie, Zwykły atak, Ryk, Okrzyk bojowy, Bolesne uderzenie, Latające kolano. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1042,11 +1042,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 50 <p><b>Цена</b>: <span style=\"color:#ffd700\">1 500 000  золота</span> и <span style=\"color:#7de0de\">300  платины</span> </p><p><b>Покупка</b>: I гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/0c/Kobra.png\"/></span></span> </td><td colspan=\"2\">Kobra potrafi w mgnieniu oka znaleźć się tam, gdzie się jej najmniej spodziewają. Bezszelestnie atakuje z ogromną precyzją, zatruwając na śmierć każdego, kogo wskaże jej właściciel. Idealna pomoc dla osób walczących z dystansu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Trujące plucie, Rzyg, Potężne uderzenie, Otępienie, Ukłucie lalki, Trująca tarcza. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/0c/Kobra.png\"/></span></span> </td><td colspan=\"2\">Kobra potrafi w mgnieniu oka znaleźć się tam, gdzie się jej najmniej spodziewają. Bezszelestnie atakuje z ogromną precyzją, zatruwając na śmierć każdego, kogo wskaże jej właściciel. Idealna pomoc dla osób walczących z dystansu. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Trujące plucie, Rzyg, Potężne uderzenie, Otępienie, Ukłucie lalki, Trująca tarcza. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1121,11 +1121,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 700 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 50 <p><b>Цена</b>: <span style=\"color:#ffd700\">1 700 000  золота</span> и <span style=\"color:#7de0de\">300  платины</span> </p><p><b>Покупка</b>: I гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d3/Jaguar.png\"/></span></span> </td><td colspan=\"2\">Potężny dziki kot, który z furią rzuca się na wrogów, szarpiąc i tnąc. Jego ofiary najczęściej umierają z wykrwawienia, nie wiedząc nawet, co je zabiło. Dziki kot jest świetnym towarzyszem dla każdego bohatera. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d3/Jaguar.png\"/></span></span> </td><td colspan=\"2\">Potężny dziki kot, który z furią rzuca się na wrogów, szarpiąc i tnąc. Jego ofiary najczęściej umierają z wykrwawienia, nie wiedząc nawet, co je zabiło. Dziki kot jest świetnym towarzyszem dla każdego bohatera. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1196,15 +1196,15 @@
     },
     {
      "title": "Статистика",
-     "html": "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 4</span> </p> <div> <span><b>Punkty życia</b>: 1400</span></div> <div> <span><b>Мана</b>: 1300</span></div> <div> <span><b>Выносливость</b>: 700</span></div>"
+     "html": "<p><span><b>Уровень</b>: 50</span> <span><b>Ранг</b>: 4</span> </p> <div> <span><b>Здоровье</b>: 1400</span></div> <div> <span><b>Мана</b>: 1300</span></div> <div> <span><b>Выносливость</b>: 700</span></div>"
     },
     {
      "title": "Доп. информация",
-     "html": "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<span><b>Требуемый уровень</b>: 50</span> <p><b>Покупка</b>: I гильдейская клетка </p><p><b>Цена</b>: <span style=\"color:#ffd700\">2 000 000  золота</span> и <span style=\"color:#7de0de\">500  платины</span> </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Atakuje z dystansu i urokami.</b><br/> <b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Атакует издалека и ментально.</b><br/> <b>Использует</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1275,15 +1275,15 @@
     },
     {
      "title": "Статистика",
-     "html": "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 5</span> </p> <div> <span><b>Punkty życia</b>: 1300</span></div> <div> <span><b>Мана</b>: 1200</span></div> <div> <span><b>Выносливость</b>: 800</span></div>"
+     "html": "<p><span><b>Уровень</b>: 50</span> <span><b>Ранг</b>: 5</span> </p> <div> <span><b>Здоровье</b>: 1300</span></div> <div> <span><b>Мана</b>: 1200</span></div> <div> <span><b>Выносливость</b>: 800</span></div>"
     },
     {
      "title": "Доп. информация",
-     "html": "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">1 800 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<span><b>Требуемый уровень</b>: 50</span> <p><b>Покупка</b>: I гильдейская клетка </p><p><b>Цена</b>: <span style=\"color:#ffd700\">1 800 000  золота</span> и <span style=\"color:#7de0de\">400  платины</span> </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Atakuje fizycznie, z dystansu i urokami.</b><br/> <b>Używa</b>: Rój os, Leczenie, Trujące plucie, Uderzenie, Rzyg. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Атакует физически, издалека и ментально.</b><br/> <b>Использует</b>: Rój os, Leczenie, Trujące plucie, Uderzenie, Rzyg. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1358,11 +1358,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 000 złota</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Цена</b>: <span style=\"color:#ffd700\">6 000 000  золота</span> </p><p><b>Покупка</b>: II гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Ryk, Rzyg, Gryzienie, Bolesne uderzenie, Plucie jadem. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Ryk, Rzyg, Gryzienie, Bolesne uderzenie, Plucie jadem. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1437,11 +1437,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Цена</b>: <span style=\"color:#ffd700\">2 000 000  золота</span> и <span style=\"color:#7de0de\">400  платины</span> </p><p><b>Покупка</b>: II гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/ff/Fenix.png\"/></span></span> </td><td colspan=\"2\">Żywioł ognia na usługach człowieka. Roziskrzony ptak spopieli każdego, kto waży się podnieść rękę na jego pana. Miota kule ognia, chroni się za ognistą tarczą i wyprali mózg każdego, kto ośmieli się z nim zmierzyć. Idealne dopełnienie postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Wrażliwość na ogień, Inkantacja, Ognista sfera, Magiczna iskra, Meteoryt, Kula ognia, Podpalenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/ff/Fenix.png\"/></span></span> </td><td colspan=\"2\">Żywioł ognia na usługach człowieka. Roziskrzony ptak spopieli każdego, kto waży się podnieść rękę na jego pana. Miota kule ognia, chroni się za ognistą tarczą i wyprali mózg każdego, kto ośmieli się z nim zmierzyć. Idealne dopełnienie postaci walczącej w zwarciu. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Wrażliwość na ogień, Inkantacja, Ognista sfera, Magiczna iskra, Meteoryt, Kula ognia, Podpalenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1516,11 +1516,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Цена</b>: <span style=\"color:#ffd700\">2 200 000  золота</span> и <span style=\"color:#7de0de\">500  платины</span> </p><p><b>Покупка</b>: II гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/ee/Pantera.png\"/></span></span> </td><td colspan=\"2\">Pantera wtapia się w otoczenie i wyskakuje z nicości jak czarna błyskawica. Jej oręż to potężne szczęki i łapy, który bez trudu powala nawet orka, Obżarta mięsem ofiary, mruczeniem umila wędrówkę swojego pana. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/ee/Pantera.png\"/></span></span> </td><td colspan=\"2\">Pantera wtapia się w otoczenie i wyskakuje z nicości jak czarna błyskawica. Jej oręż to potężne szczęki i łapy, który bez trudu powala nawet orka, Obżarta mięsem ofiary, mruczeniem umila wędrówkę swojego pana. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1595,11 +1595,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Цена</b>: <span style=\"color:#ffd700\">2 200 000  золота</span> и <span style=\"color:#7de0de\">600  платины</span> </p><p><b>Покупка</b>: II гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/82/Papug.png\"/></span></span> </td><td colspan=\"2\">Przyjaciel z dalekich krajów. Spokojny, medytujący, egzotyczny ptak, którego kojące barwy i łagodne usposobienie dają poczucie bezpieczeństwa. Ale tylko dla jego pana. Pozostałych potrafi zlikwidować kilkoma nieznaczącymi acz morderczymi ruchami. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Kontrola oddechu, Fala dźwiękowa, Gryzienie, Potężne uderzenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/82/Papug.png\"/></span></span> </td><td colspan=\"2\">Przyjaciel z dalekich krajów. Spokojny, medytujący, egzotyczny ptak, którego kojące barwy i łagodne usposobienie dają poczucie bezpieczeństwa. Ale tylko dla jego pana. Pozostałych potrafi zlikwidować kilkoma nieznaczącymi acz morderczymi ruchami. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Kontrola oddechu, Fala dźwiękowa, Gryzienie, Potężne uderzenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1670,11 +1670,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">9 000 000 złota</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 80 <p><b>Цена</b>: <span style=\"color:#ffd700\">9 000 000  золота</span> </p><p><b>Покупка</b>: III гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Ryk, Dyńka, Taran, Gryzienie, Ochrona. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Ryk, Dyńka, Taran, Gryzienie, Ochrona. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1749,11 +1749,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 80 <p><b>Цена</b>: <span style=\"color:#ffd700\">3 000 000  золота</span> и <span style=\"color:#7de0de\">400  платины</span> </p><p><b>Покупка</b>: III гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/8a/T%C5%82uk.png\"/></span></span> </td><td colspan=\"2\">Tłuk zatłucze każdego, kto wejdzie ci w drogę. Jego zakrzywione zęby zostawiają głębokie rany, powodując potężne krwawienie. Ogromna wytrzymałość stwora czynią z niego doskonałego kompana, szczególnie dla postaci walczących na odległość. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Twoja stara, Ryk, Gryzienie, Front kick, Bolesne uderzenie, Furia. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/8a/T%C5%82uk.png\"/></span></span> </td><td colspan=\"2\">Tłuk zatłucze każdego, kto wejdzie ci w drogę. Jego zakrzywione zęby zostawiają głębokie rany, powodując potężne krwawienie. Ogromna wytrzymałość stwora czynią z niego doskonałego kompana, szczególnie dla postaci walczących na odległość. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Twoja stara, Ryk, Gryzienie, Front kick, Bolesne uderzenie, Furia. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1828,11 +1828,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 80 <p><b>Цена</b>: <span style=\"color:#ffd700\">3 200 000  золота</span> и <span style=\"color:#7de0de\">600  платины</span> </p><p><b>Покупка</b>: III гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d0/Darkling.png\"/></span></span> </td><td colspan=\"2\">Twój prywatny smok. Wzbudza nie tylko podziw, ale i lęk. Wytrzymały i odporny, atakuje ogniem i dotkliwie kąsa. Błyskawicznie rozszarpie i spopieli wszystko, co mu stanie na drodze. Szczególnie przydatny dla postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gruboskórność, Ryk, Magiczna iskra, Kula ognia, Potężne uderzenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d0/Darkling.png\"/></span></span> </td><td colspan=\"2\">Twój prywatny smok. Wzbudza nie tylko podziw, ale i lęk. Wytrzymały i odporny, atakuje ogniem i dotkliwie kąsa. Błyskawicznie rozszarpie i spopieli wszystko, co mu stanie na drodze. Szczególnie przydatny dla postaci walczącej w zwarciu. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Gruboskórność, Ryk, Magiczna iskra, Kula ognia, Potężne uderzenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1907,11 +1907,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 400 000 złota</span> i <span style=\"color:#7de0de\">700 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 80 <p><b>Цена</b>: <span style=\"color:#ffd700\">3 400 000  золота</span> и <span style=\"color:#7de0de\">700  платины</span> </p><p><b>Покупка</b>: III гильдейская клетка </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/b2/Twig.png\"/></span></span> </td><td colspan=\"2\">Cieniutki jak gałązka, ale twardszy od stali. Twig posiada zdolności voodoo i stanowi nieocenione wsparcie dla właściciela. Pomoże walczyć w krainach, gdzie nie zawsze udaje się zebrać odpowiednią drużynę. Twig to przyjaciel dla wymagających. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia, Ukłucie lalki, Potężne uderzenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/b2/Twig.png\"/></span></span> </td><td colspan=\"2\">Cieniutki jak gałązka, ale twardszy od stali. Twig posiada zdolności voodoo i stanowi nieocenione wsparcie dla właściciela. Pomoże walczyć w krainach, gdzie nie zawsze udaje się zebrać odpowiednią drużynę. Twig to przyjaciel dla wymagających. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia, Ukłucie lalki, Potężne uderzenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1978,11 +1978,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 60 <p><b>Cena</b>: <span style=\"color:#ffd700\">50 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 60 <p><b>Цена</b>: <span style=\"color:#ffd700\">50 Imperiałów</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/59/Maab.png\"/></span></span> </td><td colspan=\"2\">Skorupiak o tytanowym pancerzu, który chroni wybranych członków drużyny, Oprócz tego potrafi dodać sił sojusznikom oraz przerazić przeciwników. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Okrzyk bojowy, Ryk, Gruboskórność, Siła jedności, Gryzienie, Plucie jadem, Ochrona. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/59/Maab.png\"/></span></span> </td><td colspan=\"2\">Skorupiak o tytanowym pancerzu, który chroni wybranych członków drużyny, Oprócz tego potrafi dodać sił sojusznikom oraz przerazić przeciwników. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Okrzyk bojowy, Ryk, Gruboskórność, Siła jedności, Gryzienie, Plucie jadem, Ochrona. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2049,11 +2049,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 50 <p><b>Цена</b>: <span style=\"color:#ffd700\">30 империалов</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/91/Stefan.png\"/></span></span> </td><td colspan=\"2\">Przemykający pod stopami szczur wzbudza strach, a w obliczu zagrożenia wpada w furię i dotkliwie gryzie. Może doprowadzić do zakażenia. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Rzyg, Zakażenie, Furia, Okrzyk bojowy, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/91/Stefan.png\"/></span></span> </td><td colspan=\"2\">Przemykający pod stopami szczur wzbudza strach, a w obliczu zagrożenia wpada w furię i dotkliwie gryzie. Może doprowadzić do zakażenia. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Gryzienie, Rzyg, Zakażenie, Furia, Okrzyk bojowy, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2120,11 +2120,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">15 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 40 <p><b>Цена</b>: <span style=\"color:#ffd700\">15 Imperiałów</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/54/Tsetse.png\"/></span></span> </td><td colspan=\"2\">Nikt nie lubi, jak mu coś bzyczy nad uchem. Rój owadów budzi strach swoich przeciwników i błyskawicznie zabija trucizną. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Mierzony cios, Zatrucie, Rzyg, Plucie jadem, Okrzyk bojowy, Ryk, Naturalna odporność, Zakażenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/54/Tsetse.png\"/></span></span> </td><td colspan=\"2\">Nikt nie lubi, jak mu coś bzyczy nad uchem. Rój owadów budzi strach swoich przeciwników i błyskawicznie zabija trucizną. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Gryzienie, Mierzony cios, Zatrucie, Rzyg, Plucie jadem, Okrzyk bojowy, Ryk, Naturalna odporność, Zakażenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2191,11 +2191,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 55 <p><b>Cena</b>: <span style=\"color:#ffd700\">35 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 55 <p><b>Цена</b>: <span style=\"color:#ffd700\">35 Imperiałów</span> </p><p><b>Покупка</b>: у Работорговца </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Atakuje z dystansu i urokami.</b> </p><p><b>Używa</b>: Leczenie, Grupowe leczenie, Korzeń, Osy, Piorun kulisty. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Leczenie, Grupowe leczenie, Korzeń, Osy, Piorun kulisty. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2262,11 +2262,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">20 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 40 <p><b>Цена</b>: <span style=\"color:#ffd700\">20 Imperiałów</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Plujka.png\"/></span></span> </td><td colspan=\"2\">Mała i kolorowa żabka, która wydając różne dźwięki, oślepia i otępia przeciwników. Pluje jadem i poparzy każdego, kto spróbuje ją dotknąć. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Szpila w oko, Zatrucie, Rzyg, Hak w brzuch, Ukłucie lalki, Aura cienia, Plucie jadem, Gryzienie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Plujka.png\"/></span></span> </td><td colspan=\"2\">Mała i kolorowa żabka, która wydając różne dźwięki, oślepia i otępia przeciwników. Pluje jadem i poparzy każdego, kto spróbuje ją dotknąć. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Otępienie, Szpila w oko, Zatrucie, Rzyg, Hak w brzuch, Ukłucie lalki, Aura cienia, Plucie jadem, Gryzienie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2333,11 +2333,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 45 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 45 <p><b>Цена</b>: <span style=\"color:#ffd700\">30 империалов</span> </p><p><b>Покупка</b>: у Работорговца </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/74/Spopielacz.png\"/></span></span> </td><td colspan=\"2\">Wirtuoz żywiołu ognia. Atakuje w bezpośrednim starciu lub z dystansu. Za jednym zamachem potrafi unicestwić całą grupę wrogów. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Magiczna iskra, Wrażliwość na ogień, Ognista sfera, Inkantacja, Podpalenie, Kula ognia, Deszcz ognia, Meteoryt, Okrzyk bojowy. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/74/Spopielacz.png\"/></span></span> </td><td colspan=\"2\">Wirtuoz żywiołu ognia. Atakuje w bezpośrednim starciu lub z dystansu. Za jednym zamachem potrafi unicestwić całą grupę wrogów. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Magiczna iskra, Wrażliwość na ogień, Ognista sfera, Inkantacja, Podpalenie, Kula ognia, Deszcz ognia, Meteoryt, Okrzyk bojowy. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2404,11 +2404,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 75 <p><b>Cena</b>: <span style=\"color:#ffd700\">45 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 75 <p><b>Цена</b>: <span style=\"color:#ffd700\">45 империалов</span> </p><p><b>Покупка</b>: у Работорговца </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/a8/GnidaPet.png\"/></span></span> </td><td colspan=\"2\">Plugawy twór magicznych eksperymentów. Atakuje z zaskoczenia, uderzając we wrażliwe punkty osłabia celność ataków oraz skuteczność zasłony przeciwnika. <p><br/> <b>Atakuje fizycznie i z dystansu.</b> </p><p><b>Używa</b>: Lewy prawy, Front Kick, Kontrola oddechu, Bolesne uderzenie, Cios w wątrobę, Latające kolano, Uniki, Haduoken, Uderzenie Chi, Rzyg. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/a8/GnidaPet.png\"/></span></span> </td><td colspan=\"2\">Plugawy twór magicznych eksperymentów. Atakuje z zaskoczenia, uderzając we wrażliwe punkty osłabia celność ataków oraz skuteczność zasłony przeciwnika. <p><br/> <b>Атакует физически и издалека.</b> </p><p><b>Использует</b>: Lewy prawy, Front Kick, Kontrola oddechu, Bolesne uderzenie, Cios w wątrobę, Latające kolano, Uniki, Haduoken, Uderzenie Chi, Rzyg. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2475,11 +2475,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">40 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Цена</b>: <span style=\"color:#ffd700\">40 империалов</span> </p><p><b>Покупка</b>: у Работорговца </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/5f/Amorek.png\"/></span></span> </td><td colspan=\"2\">To urocze latające stworzenie zamienia przeciwników w bezradne kukły. Na jego strzały i urok nie ma odpornych, jak na Amorka przystało. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Atak zaciemniający, Szpila w oko, Plucie trujące, Plucie kaleczące, Twoja stara, Aura zimna. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/5f/Amorek.png\"/></span></span> </td><td colspan=\"2\">To urocze latające stworzenie zamienia przeciwników w bezradne kukły. Na jego strzały i urok nie ma odpornych, jak na Amorka przystało. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Atak zaciemniający, Szpila w oko, Plucie trujące, Plucie kaleczące, Twoja stara, Aura zimna. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2550,11 +2550,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Wymagany poziom</b>: 70 <p>Pojawia się losowo na polach w <span data-items=\"wb_przysiolek_trentis\">Przysiółku Trentis</span> oraz w <span data-items=\"wb_wymarla_osada\">Wymarłej osadzie</span> </p><p>Cena: <span style=\"color:#7de0de\">100 platyny</span> </p><p>Po odesłaniu możliwa do odbioru u <span data-items=\"wb_przysiolek_trentis\">Romana</span> za <span style=\"color:#ffd700\">1 000 złota</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 70 <p>Pojawia się losowo na polach w <span data-items=\"wb_przysiolek_trentis\">Przysiółku Trentis</span> oraz w <span data-items=\"wb_wymarla_osada\">Wymarłej osadzie</span> </p><p>Цена: <span style=\"color:#7de0de\">100  платины</span> </p><p>Po odesłaniu możliwa do odbioru u <span data-items=\"wb_przysiolek_trentis\">Romana</span> за <span style=\"color:#ffd700\">1 000  золота</span> </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Atakuje fizycznie, mentalnie i z dystansu.</b> </p><p><b>Używa</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Atakuje fizycznie, mentalnie i z dystansu.</b> </p><p><b>Использует</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -4180,22 +4180,18 @@
      "15"
     ],
     [
-     "Wartość",
-     "1 000"
-    ],
-    [
-     "Waga",
+     "Вес",
      "0"
     ]
    ],
    "blocks": [
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Surowiec umożliwiający inkrustację sprzętu. </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Сырьё для инкрустации снаряжения. </td></tr></table>"
     },
     {
-     "title": "Sposoby pozyskiwania",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Rarów, Setów, Rarów dla petów oraz Synergetyków,</li> <li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Orbów.</li></ul> </td></tr></table>"
+     "title": "Способы получения",
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>В процессе <span data-items=\"wb_modyfikacje_sprzetu\">разбивания</span> раров, сетов, раров для питомцев и синергетиков,</li> <li>В процессе <span data-items=\"wb_modyfikacje_sprzetu\">разбивания</span> Орбов.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",

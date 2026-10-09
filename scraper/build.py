@@ -635,24 +635,61 @@ untranslated = Counter()
 LATIN = re.compile(r"[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]")
 
 
+# Шаблоны с числами: «300 platyny», «30 minut», «48H», «20-40 lvl», «10 000 złota».
+TR_PATTERNS = [
+    (re.compile(r"^([\d\s.,]+)\s*złot(a|ych|o|e)?$", re.I), r"\1 золота"),
+    (re.compile(r"^([\d\s.,]+)\s*platyn(y|a)?$", re.I), r"\1 платины"),
+    (re.compile(r"^([\d\s.,]+)\s*minut(y|a)?$", re.I), r"\1 мин"),
+    (re.compile(r"^([\d\s.,]+)\s*sekund(y|a)?$", re.I), r"\1 сек"),
+    (re.compile(r"^([\d\s.,]+)\s*godzin(y|a)?$", re.I), r"\1 ч"),
+    (re.compile(r"^([\d\s.,]+)\s*dni$", re.I), r"\1 дн."),
+    (re.compile(r"^(\d+)\s*H$"), r"\1 ч"),
+    (re.compile(r"^([\d\s]+(?:[-–]\s*[\d\s]+)?)\s*lvl$", re.I), r"\1 ур."),
+    (re.compile(r"^([\d\s]+)\s*szt\.?$", re.I), r"\1 шт."),
+    (re.compile(r"^(\d+)\s*x$", re.I), r"\1 ×"),
+    (re.compile(r"^x$", re.I), "×"),
+    (re.compile(r"^(\d+)\s*vs\s*(\d+)$", re.I), r"\1 на \2"),
+    (re.compile(r"^([IVX]+)$"), r"\1"),
+    (re.compile(r"^(\d+)\s*PA$"), r"\1 ОД"),
+]
+
+
+def tr_core(core):
+    """Перевод фрагмента без крайних пробелов или None, если перевода нет."""
+    if not LATIN.search(core):
+        return core
+    if core in TR:
+        return TR[core]
+    for rx, rep in TR_PATTERNS:
+        if rx.match(core):
+            return rx.sub(rep, core)
+    m = re.match(r"^(.*?)([\s,.:;!?)]*)$", core)
+    if m.group(1).lower() in PL2RU:
+        return PL2RU[m.group(1).lower()] + m.group(2)
+    if m.group(1) in TR:
+        return TR[m.group(1)] + m.group(2)
+    # «Метка: значение» и «: значение»
+    lm = re.match(r"^([^:]{0,40}?)\s*:\s*(.*)$", core)
+    if lm:
+        label = tr_core(lm.group(1)) if lm.group(1) else ""
+        value = tr_core(lm.group(2)) if lm.group(2) else ""
+        if label is not None and value is not None:
+            return (label + ": " + value).strip() if lm.group(1) else (": " + value).rstrip()
+    # «Метка +число» (характеристики предметов: «Pancerz kłute +37»)
+    pm = re.match(r"^(.+?)\s*([+\-]\s*[\d.,]+%?)$", core)
+    if pm and pm.group(1) in TR:
+        return TR[pm.group(1)] + " " + pm.group(2)
+    return None
+
+
 def tr_text(s):
     core = re.sub(r"\s+", " ", s).strip()
     if not core or not LATIN.search(core):
         return s
-    lm = re.match(r"^([^:]{2,40}?)\s*:\s*(.*)$", core)
-    if core in TR:
-        out = TR[core]
-    elif lm and lm.group(1) in TR and (not lm.group(2) or not LATIN.search(lm.group(2)) or lm.group(2) in TR):
-        # «Метка: значение» — метка из словаря, значение число или тоже из словаря
-        out = TR[lm.group(1)] + ":" + (" " + TR.get(lm.group(2), lm.group(2)) if lm.group(2) else "")
-    else:
-        m = re.match(r"^(.*?)([\s,.:;!?)]*)$", core)
-        key = m.group(1).lower()
-        if key in PL2RU:
-            out = PL2RU[key] + m.group(2)
-        else:
-            untranslated[core] += 1
-            out = core
+    out = tr_core(core)
+    if out is None:
+        untranslated[core] += 1
+        out = core
     lead = " " if s[:1].isspace() else ""
     trail = " " if s[-1:].isspace() else ""
     return lead + out + trail

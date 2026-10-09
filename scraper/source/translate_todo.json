@@ -1,2290 +1,14 @@
 [
 {
-"pl": "Tak",
-"count": 634
-},
-{
-"pl": "Punkty życia",
-"count": 371
-},
-{
-"pl": "Poziom:",
-"count": 364
-},
-{
-"pl": "Nie",
-"count": 359
-},
-{
-"pl": "Wartość",
-"count": 336
-},
-{
-"pl": "Waga",
-"count": 336
-},
-{
-"pl": "Bonus",
-"count": 280
-},
-{
-"pl": "Szeląg",
-"count": 209
-},
-{
-"pl": "Ścieżka przygody",
-"count": 198
-},
-{
-"pl": "Epiki",
-"count": 196
-},
-{
-"pl": "Wręcz",
-"count": 150
-},
-{
-"pl": "Dystansowa",
-"count": 150
-},
-{
-"pl": "Mentalna",
-"count": 150
-},
-{
-"pl": "Inne:",
-"count": 123
-},
-{
-"pl": "Wymagany poziom",
-"count": 108
-},
-{
-"pl": "Waga: 2",
-"count": 108
-},
-{
-"pl": "Składnik potrzebny do wykonania",
-"count": 106
-},
-{
-"pl": "Ranga: V",
-"count": 106
-},
-{
-"pl": "Otrzymujemy za pokonanie:",
-"count": 97
-},
-{
-"pl": "Ścieżka wyzwania",
-"count": 95
-},
-{
-"pl": "Sposoby pozyskiwania",
-"count": 94
-},
-{
-"pl": "Slot na orb",
-"count": 93
-},
-{
-"pl": "Slot na drif",
-"count": 86
-},
-{
-"pl": "300 platyny",
-"count": 81
-},
-{
-"pl": "1 x",
-"count": 79
-},
-{
-"pl": "zlecenia",
-"count": 77
-},
-{
-"pl": "Ścieżka poznania",
-"count": 77
-},
-{
-"pl": "Ranga: IX",
-"count": 76
-},
-{
-"pl": "Ranga: X",
-"count": 74
-},
-{
-"pl": "30 minut",
-"count": 74
-},
-{
-"pl": "Rary",
-"count": 73
-},
-{
-"pl": "Boss",
-"count": 73
-},
-{
-"pl": "Waga: 8",
-"count": 72
-},
-{
-"pl": "Waga: 10",
-"count": 70
-},
-{
-"pl": "1vs1",
-"count": 70
-},
-{
-"pl": "Uczeń I",
-"count": 68
-},
-{
-"pl": "Uczeń II",
-"count": 68
-},
-{
-"pl": "Uczeń III",
-"count": 68
-},
-{
-"pl": "Uczeń IV",
-"count": 68
-},
-{
-"pl": "Uczeń V",
-"count": 68
-},
-{
-"pl": "Uczeń VI",
-"count": 68
-},
-{
-"pl": "Uczeń VII",
-"count": 68
-},
-{
-"pl": "Adept I",
-"count": 68
-},
-{
-"pl": "Adept II",
-"count": 68
-},
-{
-"pl": "Adept III",
-"count": 68
-},
-{
-"pl": "Adept IV",
-"count": 68
-},
-{
-"pl": "Adept V",
-"count": 68
-},
-{
-"pl": "Adept VI",
-"count": 68
-},
-{
-"pl": "Adept VII",
-"count": 68
-},
-{
-"pl": "Ranga: III",
-"count": 68
-},
-{
-"pl": "Rodzaj akcji",
-"count": 67
-},
-{
-"pl": "Warunek",
-"count": 67
-},
-{
-"pl": "Poziom umiejętności",
-"count": 67
-},
-{
-"pl": "2vs2",
-"count": 66
-},
-{
-"pl": "1x",
-"count": 65
-},
-{
-"pl": "Czempion",
-"count": 64
-},
-{
-"pl": "Mistrz I",
-"count": 64
-},
-{
-"pl": "Mistrz II",
-"count": 64
-},
-{
-"pl": "Mistrz III",
-"count": 64
-},
-{
-"pl": "Mistrz IV",
-"count": 64
-},
-{
-"pl": "Mistrz V",
-"count": 64
-},
-{
-"pl": "Mistrz VI",
-"count": 64
-},
-{
-"pl": "Mistrz VII",
-"count": 64
-},
-{
-"pl": "Aithar",
-"count": 64
-},
-{
-"pl": "Sety",
-"count": 62
-},
-{
-"pl": "Zbieranie w lokalizacji:",
-"count": 62
-},
-{
-"pl": "Umiejętność na: 1 PA (100%)",
-"count": 62
-},
-{
-"pl": "Kategoria: Hełmy",
-"count": 61
-},
-{
-"pl": "Waga: 15",
-"count": 60
-},
-{
-"pl": "Kategoria: Amulety",
-"count": 60
-},
-{
-"pl": "Wymagany poziom: 100",
-"count": 59
-},
-{
-"pl": "Kategoria: Pierścienie",
-"count": 58
-},
-{
-"pl": "Wartość: 700 000 złota",
-"count": 57
-},
-{
-"pl": "Wymagany poziom: 50",
-"count": 57
-},
-{
-"pl": "Do ukończenia",
-"count": 56
-},
-{
-"pl": "Zakres rang: I - XII",
-"count": 56
-},
-{
-"pl": "Zakres rang: IV - XII",
-"count": 56
-},
-{
-"pl": "Zakres rang: VII - XII",
-"count": 56
-},
-{
-"pl": "Zakres rang: X - XII",
-"count": 56
-},
-{
-"pl": "Wytwarzanie",
-"count": 55
-},
-{
-"pl": "Waga: 20",
-"count": 54
-},
-{
-"pl": "Kategoria: Buty",
-"count": 54
-},
-{
-"pl": "350 platyny",
-"count": 54
-},
-{
-"pl": "Przedmioty",
-"count": 53
-},
-{
-"pl": "DQ",
-"count": 53
-},
-{
-"pl": "Elita",
-"count": 53
-},
-{
-"pl": "Kategoria: Zbroje",
-"count": 53
-},
-{
-"pl": "Wartość: 220 000 złota",
-"count": 52
-},
-{
-"pl": "Kategoria: Rękawice",
-"count": 51
-},
-{
-"pl": "Kategoria: Pasy",
-"count": 51
-},
-{
-"pl": "3 x",
-"count": 50
-},
-{
-"pl": ": Brak",
-"count": 50
-},
-{
-"pl": "20 lvl",
-"count": 48
-},
-{
-"pl": "+ 0,5% co poziom",
-"count": 48
-},
-{
-"pl": "Ranga: VII",
-"count": 48
-},
-{
-"pl": "Kategoria: Płaszcze",
-"count": 48
-},
-{
-"pl": "Rundy",
-"count": 47
-},
-{
-"pl": "Waga: 5",
-"count": 47
-},
-{
-"pl": "Efekt",
-"count": 46
-},
-{
-"pl": "Kategoria: Spodnie",
-"count": 46
-},
-{
-"pl": "Fizyczne",
-"count": 45
-},
-{
-"pl": "Dystansowe",
-"count": 45
-},
-{
-"pl": "Mentalne",
-"count": 45
-},
-{
-"pl": "Wzór",
-"count": 45
-},
-{
-"pl": "Obrażenia",
-"count": 45
-},
-{
-"pl": "Strefa akcji",
-"count": 44
-},
-{
-"pl": "Wymagany poziom: 60",
-"count": 44
-},
-{
-"pl": "Ranga: IV",
-"count": 44
-},
-{
-"pl": "Wymagany poziom: 110",
-"count": 44
-},
-{
-"pl": "Szansa trafienia",
-"count": 43
-},
-{
-"pl": "Pojemność: 4",
-"count": 42
-},
-{
-"pl": "2x",
-"count": 41
-},
-{
-"pl": "Waga: 12",
-"count": 41
-},
-{
-"pl": "lub",
-"count": 40
-},
-{
-"pl": "Nazwa",
-"count": 40
-},
-{
-"pl": "Ranga: XII",
-"count": 40
-},
-{
-"pl": "Typ: Ofensywny",
-"count": 40
-},
-{
-"pl": "Ranga: VIII",
-"count": 40
-},
-{
-"pl": "Ranga: II",
-"count": 40
-},
-{
-"pl": ": Atak",
-"count": 39
-},
-{
-"pl": "Pancerz Nieśmiertelności",
-"count": 38
-},
-{
-"pl": "Pancerz Żywiołów",
-"count": 38
-},
-{
-"pl": "Oko Bogów",
-"count": 38
-},
-{
-"pl": "Pocałunek Miliona Gwiazd",
-"count": 38
-},
-{
-"pl": "Pancerz Vorlingów",
-"count": 38
-},
-{
-"pl": "Dusza Świata",
-"count": 38
-},
-{
-"pl": "Zasłona Śmierci",
-"count": 38
-},
-{
-"pl": "Typ obrażeń",
-"count": 38
-},
-{
-"pl": "Wartość: 200 000 złota",
-"count": 38
-},
-{
-"pl": "Możliwość zdobywania doświadczenia -",
-"count": 37
-},
-{
-"pl": "Używa",
-"count": 37
-},
-{
-"pl": "4x",
-"count": 37
-},
-{
-"pl": "Drop",
-"count": 37
-},
-{
-"pl": "Wymagany poziom: 40",
-"count": 37
-},
-{
-"pl": "Ranga: VI",
-"count": 37
-},
-{
-"pl": "Wartość: 10 000 000 złota",
-"count": 37
-},
-{
-"pl": "5vs5",
-"count": 37
-},
-{
-"pl": "20-40 lvl",
-"count": 36
-},
-{
-"pl": "Informacje dodatkowe:",
-"count": 36
-},
-{
-"pl": "Ikonka na mapie",
-"count": 36
-},
-{
-"pl": "Skład grupy",
-"count": 36
-},
-{
-"pl": "Typ: Defensywny",
-"count": 36
-},
-{
-"pl": "Kategoria: Karwasze",
-"count": 36
-},
-{
-"pl": "3vs3",
-"count": 36
-},
-{
-"pl": "Hak w brzuch",
-"count": 33
-},
-{
-"pl": "oraz",
-"count": 33
-},
-{
-"pl": "Proces wymaga dodatkowo",
-"count": 32
-},
-{
-"pl": "Inhibitora",
-"count": 32
-},
-{
-"pl": "+ 1% co poziom",
-"count": 32
-},
-{
-"pl": "Waga: 4",
-"count": 32
-},
-{
-"pl": "Wymagany poziom: 70",
-"count": 32
-},
-{
-"pl": "Wymagany poziom: 120",
-"count": 31
-},
-{
-"pl": "Okowy Snu",
-"count": 30
-},
-{
-"pl": "Resztki Reffa",
-"count": 30
-},
-{
-"pl": "Wartość: 27 500 złota",
-"count": 30
-},
-{
-"pl": "Wartość: 55 000 złota",
-"count": 30
-},
-{
-"pl": "Wartość: 110 000 złota",
-"count": 30
-},
-{
-"pl": "2 x",
-"count": 29
-},
-{
-"pl": "PŻ: +100",
-"count": 29
-},
-{
-"pl": "Mana: +20",
-"count": 29
-},
-{
-"pl": "TAK",
-"count": 28
-},
-{
-"pl": "Typ: Uniwersalny",
-"count": 28
-},
-{
-"pl": "Odporność uroki: +10",
-"count": 28
-},
-{
-"pl": "Wymagany poziom: 80",
-"count": 28
-},
-{
-"pl": "Pojemność: 24",
-"count": 28
-},
-{
-"pl": "Ranga: XI",
-"count": 28
-},
-{
-"pl": "Cena",
-"count": 27
-},
-{
-"pl": "Zakup",
-"count": 27
-},
-{
-"pl": "TUTAJ",
-"count": 27
-},
-{
-"pl": "Pojemność: 10",
-"count": 27
-},
-{
-"pl": "Wymagany poziom: 90",
-"count": 27
-},
-{
-"pl": "40-60 lvl",
-"count": 26
-},
-{
-"pl": ": Fizyczne",
-"count": 26
-},
-{
-"pl": "Nakłada na przeciwnika efekt",
-"count": 26
-},
-{
-"pl": "Do góry",
-"count": 26
-},
-{
-"pl": "Typ obrażeń: Obuchowe",
-"count": 26
-},
-{
-"pl": "Kondycja: +100",
-"count": 26
-},
-{
-"pl": "Wartość: 25 000 złota",
-"count": 26
-},
-{
-"pl": "Wartość: 50 000 złota",
-"count": 26
-},
-{
-"pl": "Wartość: 100 000 złota",
-"count": 26
-},
-{
-"pl": "Wartość: 120 000 złota",
-"count": 26
-},
-{
-"pl": "Wymagany poziom: 20",
-"count": 26
-},
-{
-"pl": "Odporność uroki: +20",
-"count": 26
-},
-{
-"pl": "Mana: +40",
-"count": 26
-},
-{
-"pl": "Wymagany poziom: 140",
-"count": 26
-},
-{
-"pl": "Zlecenie z wróżbą",
-"count": 25
-},
-{
-"pl": "Mana: +50",
-"count": 25
-},
-{
-"pl": "Odporność ogień: +10",
-"count": 25
-},
-{
-"pl": "Kondycja: +60",
-"count": 25
-},
-{
-"pl": "Wymagany poziom: 30",
-"count": 25
-},
-{
-"pl": "200 platyny",
-"count": 25
-},
-{
-"pl": "Zlecenia",
-"count": 24
-},
-{
-"pl": "20-30 lvl",
-"count": 24
-},
-{
-"pl": "4 x",
-"count": 24
-},
-{
-"pl": "5 x",
-"count": 24
-},
-{
-"pl": "Przedmiot zablokowany w handlu.",
-"count": 24
-},
-{
-"pl": "6x",
-"count": 24
-},
-{
-"pl": "PŻ: +120",
-"count": 24
-},
-{
-"pl": "Wymagany poziom: 130",
-"count": 24
-},
-{
-"pl": "450 platyny",
-"count": 24
-},
-{
-"pl": "Power",
-"count": 23
-},
-{
-"pl": "Rzut",
-"count": 23
-},
-{
-"pl": "Kondycja: +50",
-"count": 23
-},
-{
-"pl": "Gryzienie",
-"count": 22
-},
-{
-"pl": "Gniew Żywiołów",
-"count": 22
-},
-{
-"pl": "Żądło Bogów",
-"count": 22
-},
-{
-"pl": "Szaty Płynnego Ognia",
-"count": 22
-},
-{
-"pl": "Sztorm Haugura",
-"count": 22
-},
-{
-"pl": "Ostrze Równowagi",
-"count": 22
-},
-{
-"pl": "Ukazanie Killarasuna",
-"count": 22
-},
-{
-"pl": "20-60 lvl",
-"count": 22
-},
-{
-"pl": "Trudność",
-"count": 22
-},
-{
-"pl": "Inteligencja",
-"count": 22
-},
-{
-"pl": "Ilość",
-"count": 22
-},
-{
-"pl": "Wpływ na umiejętność",
-"count": 22
-},
-{
-"pl": "Umiejętność na: 2 PA (100%)",
-"count": 22
-},
-{
-"pl": "Ikona",
-"count": 22
-},
-{
-"pl": "Funkcje",
-"count": 22
-},
-{
-"pl": "PŻ: +80",
-"count": 22
-},
-{
-"pl": "PŻ: +150",
-"count": 22
-},
-{
-"pl": "Mana: +30",
-"count": 22
-},
-{
-"pl": "Pancerz obuchowe: +37",
-"count": 22
-},
-{
-"pl": "Wartość: 22 500 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 67 500 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 400 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 1 250 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 2 250 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 4 000 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 7 500 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 13 500 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 24 000 000 złota",
-"count": 22
-},
-{
-"pl": "Wartość: 42 500 000 złota",
-"count": 22
-},
-{
-"pl": "Plucie",
-"count": 21
-},
-{
-"pl": "Typ obrażeń: Sieczne",
-"count": 21
-},
-{
-"pl": "Kategoria: Laski",
-"count": 21
-},
-{
-"pl": "żółtym",
-"count": 21
-},
-{
-"pl": "Wartość: 160 000 złota",
-"count": 21
-},
-{
-"pl": "Wymagany poziom: 35",
-"count": 21
-},
-{
-"pl": "Wartość: 37 500 złota",
-"count": 21
-},
-{
-"pl": "Beirn",
-"count": 20
-},
-{
-"pl": "Kondycja: +40",
-"count": 20
-},
-{
-"pl": "Pancerz sieczne: +37",
-"count": 20
-},
-{
-"pl": "Pancerz obuchowe: +32",
-"count": 20
-},
-{
-"pl": "Odporność ogień: +5",
-"count": 20
-},
-{
-"pl": "Odporność zimno: +5",
-"count": 20
-},
-{
-"pl": "Odporność energia: +5",
-"count": 20
-},
-{
-"pl": "Odporność uroki: +5",
-"count": 20
-},
-{
-"pl": "Ognista sfera",
-"count": 19
-},
-{
-"pl": ": Wręcz",
-"count": 19
-},
-{
-"pl": ": Buff",
-"count": 19
-},
-{
-"pl": "Rundy: +1",
-"count": 19
-},
-{
-"pl": "PŻ: +250",
-"count": 19
-},
-{
-"pl": "żółtego pola",
-"count": 19
-},
-{
-"pl": "Umieszczony na mapie układ grup losowych jest przykładowy",
-"count": 19
-},
-{
-"pl": "Moc: +10",
-"count": 19
-},
-{
-"pl": "Wymagana moc: 70",
-"count": 19
-},
-{
-"pl": "Mana: +100",
-"count": 19
-},
-{
-"pl": "Odporność ogień: +15",
-"count": 19
-},
-{
-"pl": "Pancerz kłute +37",
-"count": 19
-},
-{
-"pl": "15 minut",
-"count": 19
-},
-{
-"pl": "Solnai",
-"count": 18
-},
-{
-"pl": ": Niska",
-"count": 18
-},
-{
-"pl": "Pojemność: 32",
-"count": 18
-},
-{
-"pl": "Odporność zimno: +10",
-"count": 18
-},
-{
-"pl": "Odporność energia: +10",
-"count": 18
-},
-{
-"pl": "Aby użyć, kliknij na przedmiot w oknie eliksirów.",
-"count": 17
-},
-{
-"pl": "Zakup u NPC,",
-"count": 17
-},
-{
-"pl": "500 platyny",
-"count": 17
-},
-{
-"pl": "Jak dotrzeć na instancję",
-"count": 17
-},
-{
-"pl": "czerwonego pola",
-"count": 17
-},
-{
-"pl": "Synergetyki (20)",
-"count": 17
-},
-{
-"pl": "Wiedza: +10",
-"count": 17
-},
-{
-"pl": "PŻ: +70",
-"count": 17
-},
-{
-"pl": "Pancerz sieczne: +30",
-"count": 17
-},
-{
-"pl": "Pancerz sieczne: +25",
-"count": 17
-},
-{
-"pl": "Waga: 18",
-"count": 17
-},
-{
-"pl": "PŻ: +50",
-"count": 17
-},
-{
-"pl": "Odporność energia: +15",
-"count": 17
-},
-{
-"pl": "Pojemność: 15",
-"count": 17
-},
-{
-"pl": "Pojemność: 18",
-"count": 17
-},
-{
-"pl": "150 platyny",
-"count": 17
-},
-{
-"pl": "Losowo jedno działanie z poniższych:",
-"count": 17
-},
-{
-"pl": "Lochy",
-"count": 16
-},
-{
-"pl": "x",
-"count": 16
-},
-{
-"pl": "Wytwarzanie.",
-"count": 16
-},
-{
-"pl": "10 x",
-"count": 16
-},
-{
-"pl": "30-50 lvl",
-"count": 16
-},
-{
-"pl": "8x",
-"count": 16
-},
-{
-"pl": "144H",
-"count": 16
-},
-{
-"pl": "Grupy przeciwników oznaczone na mapie kolorem",
-"count": 16
-},
-{
-"pl": "Waga: 6",
-"count": 16
-},
-{
-"pl": "Zręczność: +18",
-"count": 16
-},
-{
-"pl": "Odporność zimno: +15",
-"count": 16
-},
-{
-"pl": "Wymagana siła: 110",
-"count": 16
-},
-{
-"pl": "Wymagana zręczność: 110",
-"count": 16
-},
-{
-"pl": "i",
-"count": 15
-},
-{
-"pl": "Płaskowyż Dmorther",
-"count": 15
-},
-{
-"pl": ": (0.7 * Siła + 0.3 * Zręczność + Broń) * Obrażenia",
-"count": 15
-},
-{
-"pl": ": Dystansowa",
-"count": 15
-},
-{
-"pl": "48H",
-"count": 15
-},
-{
-"pl": "PŻ: +40",
-"count": 15
-},
-{
-"pl": "Wymagany poziom: 55",
-"count": 15
-},
-{
-"pl": "Wiedza: +13",
-"count": 15
-},
-{
-"pl": "Siła: +19",
-"count": 15
-},
-{
-"pl": "Pancerz obuchowe: +35",
-"count": 15
-},
-{
-"pl": "Wymagana moc: 110",
-"count": 15
-},
-{
-"pl": "Pancerz kłute +32",
-"count": 15
-},
-{
-"pl": "Trentis",
-"count": 14
-},
-{
-"pl": "80-110 lvl",
-"count": 14
-},
-{
-"pl": "Umożliwia wejście na instancje",
-"count": 14
-},
-{
-"pl": "Zranienie",
-"count": 14
-},
-{
-"pl": "Grafika",
-"count": 14
-},
-{
-"pl": "Siła: +15",
-"count": 14
-},
-{
-"pl": "Dodatkowe PA: 1",
-"count": 14
-},
-{
-"pl": "Typ obrażeń: Kłute",
-"count": 14
-},
-{
-"pl": "Synergetyki (20-30)",
-"count": 14
-},
-{
-"pl": "96H",
-"count": 14
-},
-{
-"pl": "Kondycja: +20",
-"count": 14
-},
-{
-"pl": "Wartość: 950 000 złota",
-"count": 14
-},
-{
-"pl": "Wymagana siła: 55",
-"count": 14
-},
-{
-"pl": "Wymiana:",
-"count": 14
-},
-{
-"pl": "Moc: +8",
-"count": 14
-},
-{
-"pl": "Odporność zimno: +20",
-"count": 14
-},
-{
-"pl": "Siła: +9",
-"count": 14
-},
-{
-"pl": "Odporność energia: +20",
-"count": 14
-},
-{
-"pl": "PŻ: +60",
-"count": 14
-},
-{
-"pl": "Pancerz sieczne: +35",
-"count": 14
-},
-{
-"pl": "Wymagana zręczność: 60",
-"count": 14
-},
-{
-"pl": "Odporność uroki: +15",
-"count": 14
-},
-{
-"pl": "Wymagana siła: 70",
-"count": 14
-},
-{
-"pl": "Wymagana zręczność: 85",
-"count": 14
-},
-{
-"pl": "Wymagana wiedza: 110",
-"count": 14
-},
-{
-"pl": "Pancerz sieczne: +32",
-"count": 14
-},
-{
-"pl": "110 poziom postaci.",
-"count": 14
-},
-{
-"pl": ", 2 x",
-"count": 14
-},
-{
-"pl": "Podzamcze",
-"count": 13
-},
-{
-"pl": "Atakuje fizycznie, z dystansu i urokami.",
-"count": 13
-},
-{
-"pl": "Jaskinie pod Mokradłami",
-"count": 13
-},
-{
-"pl": "Las Koldów",
-"count": 13
-},
-{
-"pl": "Ranga",
-"count": 13
-},
-{
-"pl": "Oznaczenia na mapie",
-"count": 13
-},
-{
-"pl": "Miejsce:",
-"count": 13
-},
-{
-"pl": "IV",
-"count": 13
-},
-{
-"pl": "V",
-"count": 13
-},
-{
-"pl": "Kondycja: +120",
-"count": 13
-},
-{
-"pl": "Rodzaj",
-"count": 13
-},
-{
-"pl": "Odporność ogień: +25",
-"count": 13
-},
-{
-"pl": "Siła: +10",
-"count": 13
-},
-{
-"pl": "Zręczność: +7",
-"count": 13
-},
-{
-"pl": "Moc: +12",
-"count": 13
-},
-{
-"pl": "Kondycja: +30",
-"count": 13
-},
-{
-"pl": "Wymagana moc: 60",
-"count": 13
-},
-{
-"pl": "Wymagana moc: 30",
-"count": 13
-},
-{
-"pl": "Wymagana siła: 30",
-"count": 13
-},
-{
-"pl": "Wartość: 152 000 złota",
-"count": 13
-},
-{
-"pl": "Wymagany poziom: 34",
-"count": 13
-},
-{
-"pl": "Odporność ogień: +20",
-"count": 13
-},
-{
-"pl": "Siła: +12",
-"count": 13
-},
-{
-"pl": "PŻ: +200",
-"count": 13
-},
-{
-"pl": "Wymagana moc: 55",
-"count": 13
-},
-{
-"pl": "Wymagana wiedza: 60",
-"count": 13
-},
-{
-"pl": "Wartość: 2 700 000 złota",
-"count": 13
-},
-{
-"pl": "Wymagany poziom: 75",
-"count": 13
-},
-{
-"pl": "Wymagana wiedza: 85",
-"count": 13
-},
-{
-"pl": "Można zdobyć z:",
-"count": 13
-},
-{
-"pl": "Prestiż.",
-"count": 13
-},
-{
-"pl": "Jaskinia Południowa",
-"count": 12
-},
-{
-"pl": "Wymarła osada",
-"count": 12
-},
-{
-"pl": "Światła Tellabagu",
-"count": 12
-},
-{
-"pl": "Grobowiec Vorlingów",
-"count": 12
-},
-{
-"pl": "Przebranie Ludobójcy",
-"count": 12
-},
-{
-"pl": "Rundy: +2",
-"count": 12
-},
-{
-"pl": "+ 1,5% co poziom",
-"count": 12
-},
-{
-"pl": "+ 0,35% co poziom",
-"count": 12
-},
-{
-"pl": ": Magiczne",
-"count": 12
-},
-{
-"pl": "Obszar wydobycia",
-"count": 12
-},
-{
-"pl": "Zbiór przedmiotu:",
-"count": 12
-},
-{
-"pl": "Zręczność: +20",
-"count": 12
-},
-{
-"pl": "5x",
-"count": 12
-},
-{
-"pl": "10x",
-"count": 12
-},
-{
-"pl": "II",
-"count": 12
-},
-{
-"pl": "Doładowanie możliwe raz dziennie.",
-"count": 12
-},
-{
-"pl": "Waga: 3",
-"count": 12
-},
-{
-"pl": "PŻ: +160",
-"count": 12
-},
-{
-"pl": "Wymagany poziom: 45",
-"count": 12
-},
-{
-"pl": "Zręczność: +10",
-"count": 12
-},
-{
-"pl": "Wymagana moc: 20",
-"count": 12
-},
-{
-"pl": "Zręczność: +9",
-"count": 12
-},
-{
-"pl": "Pancerz obuchowe: +25",
-"count": 12
-},
-{
-"pl": "Siła: +13",
-"count": 12
-},
-{
-"pl": "Mana: +60",
-"count": 12
-},
-{
-"pl": "Wymagana zręczność: 45",
-"count": 12
-},
-{
-"pl": "Wymagana wiedza: 45",
-"count": 12
-},
-{
-"pl": "Mana: +80",
-"count": 12
-},
-{
-"pl": "Wartość: 1 200 000 złota",
-"count": 12
-},
-{
-"pl": "Wymagana wiedza: 55",
-"count": 12
-},
-{
-"pl": "Odporność energia: +25",
-"count": 12
-},
-{
-"pl": "Wymagana zręczność: 55",
-"count": 12
-},
-{
-"pl": "Wymagana siła: 85",
-"count": 12
-},
-{
-"pl": "Pancerz obuchowe: +40",
-"count": 12
-},
-{
-"pl": "Wymagana siła: 95",
-"count": 12
-},
-{
-"pl": "Zręczność: +16",
-"count": 12
-},
-{
-"pl": "Wymagana moc: 40",
-"count": 12
-},
-{
-"pl": "Data",
-"count": 12
-},
-{
-"pl": "Godzina",
-"count": 12
-},
-{
-"pl": "Min lvl",
-"count": 12
-},
-{
-"pl": "Max lvl",
-"count": 12
-},
-{
-"pl": "MSL",
-"count": 12
-},
-{
-"pl": "Atakuje fizycznie i urokami.",
-"count": 11
-},
-{
-"pl": "Otrzymujemy za wykonanie",
-"count": 11
-},
-{
-"pl": "Grupowy atak dystansowy",
-"count": 11
-},
-{
-"pl": "100 platyny",
-"count": 11
-},
-{
-"pl": "Otchłań",
-"count": 11
-},
-{
-"pl": "Potęga: 3",
-"count": 11
-},
-{
-"pl": "Potęga: 3 / 6",
-"count": 11
-},
-{
-"pl": "Potęga: 3 / 6 / 9",
-"count": 11
-},
-{
-"pl": "Potęga: 3 / 6 / 9 / 12",
-"count": 11
-},
-{
-"pl": "Okno",
-"count": 11
-},
-{
-"pl": "I",
-"count": 11
-},
-{
-"pl": "III",
-"count": 11
-},
-{
-"pl": "VI",
-"count": 11
-},
-{
-"pl": "Nasycenia",
-"count": 11
-},
-{
-"pl": "Pojemność: 12",
-"count": 11
-},
-{
-"pl": "Wymagana siła: 20",
-"count": 11
-},
-{
-"pl": "Siła: +8",
-"count": 11
-},
-{
-"pl": "Wymagana zręczność: 20",
-"count": 11
-},
-{
-"pl": "PŻ: +110",
-"count": 11
-},
-{
-"pl": "Moc: +7",
-"count": 11
-},
-{
-"pl": "Wiedza: +9",
-"count": 11
-},
-{
-"pl": "Wymagana siła: 45",
-"count": 11
-},
-{
-"pl": "Wymagana siła: 60",
-"count": 11
-},
-{
-"pl": "Wymagana wiedza: 80",
-"count": 11
-},
-{
-"pl": "Wymagana zręczność: 80",
-"count": 11
-},
-{
-"pl": "Wymagana wiedza: 70",
-"count": 11
-},
-{
-"pl": "Wymagana moc: 85",
-"count": 11
-},
-{
-"pl": "Wymagana zręczność: 95",
-"count": 11
-},
-{
-"pl": "Wymagana zręczność: 100",
-"count": 11
-},
-{
-"pl": "Wymagana moc: 100",
-"count": 11
-},
-{
-"pl": "Wymagana wiedza: 95",
-"count": 11
-},
-{
-"pl": "Pancerz kłute +20",
-"count": 11
-},
-{
-"pl": "Wymagana wiedza: 40",
-"count": 11
-},
-{
-"pl": "Wymagana siła: 40",
-"count": 11
-},
-{
-"pl": "Przeciwnicy",
-"count": 10
-},
-{
-"pl": "50-70 lvl",
-"count": 10
-},
-{
-"pl": "Byczek Staska",
-"count": 10
-},
-{
-"pl": "Hegun",
-"count": 10
-},
-{
-"pl": "2 000 000 złota",
-"count": 10
-},
-{
-"pl": "Yantrei",
-"count": 10
-},
-{
-"pl": "Zamarznięte Jezioro",
-"count": 10
-},
-{
-"pl": "Kosani",
-"count": 10
-},
-{
-"pl": "Wąwóz Dmorther,",
-"count": 10
-},
-{
-"pl": ": Mentalna",
-"count": 10
-},
-{
-"pl": "Zręczność: +15",
-"count": 10
-},
-{
-"pl": "+0,5% co poziom",
-"count": 10
-},
-{
-"pl": "Moc: +20",
-"count": 10
-},
-{
-"pl": "Kategoria: Kastety",
-"count": 10
-},
-{
-"pl": "pomarańczowym",
-"count": 10
-},
-{
 "pl": "posiadają losowe miejsca respawnu. Poniżej znajduje się szczegółowy ich opis.",
 "count": 10
-},
-{
-"pl": "Bez inhibitora",
-"count": 10
-},
-{
-"pl": "Z inhibitorem",
-"count": 10
-},
-{
-"pl": ": (1.4 * Moc + 0.6 * Wiedza) * Obrażenia",
-"count": 10
-},
-{
-"pl": "Pancerz sieczne: +36",
-"count": 10
-},
-{
-"pl": "Pancerz obuchowe: +30",
-"count": 10
-},
-{
-"pl": "Pancerz kłute: +30",
-"count": 10
-},
-{
-"pl": "PŻ: +30",
-"count": 10
-},
-{
-"pl": "Zręczność: +5",
-"count": 10
-},
-{
-"pl": "Wiedza: +14",
-"count": 10
-},
-{
-"pl": "Mana: +70",
-"count": 10
-},
-{
-"pl": "Waga: 30",
-"count": 10
-},
-{
-"pl": "Pancerz obuchowe: +20",
-"count": 10
-},
-{
-"pl": "PŻ: +20",
-"count": 10
-},
-{
-"pl": "Zręczność: +8",
-"count": 10
-},
-{
-"pl": "Moc: +4",
-"count": 10
-},
-{
-"pl": "Siła: +7",
-"count": 10
-},
-{
-"pl": "Pancerz obuchowe: +27",
-"count": 10
-},
-{
-"pl": "Wartość: 450 000 złota",
-"count": 10
-},
-{
-"pl": "Wymagana moc: 45",
-"count": 10
-},
-{
-"pl": "Odporność zimno: +25",
-"count": 10
-},
-{
-"pl": "PŻ: +180",
-"count": 10
-},
-{
-"pl": "Wartość: 4 900 000 złota",
-"count": 10
-},
-{
-"pl": "Wymagany poziom: 85",
-"count": 10
-},
-{
-"pl": "Siła: +20",
-"count": 10
-},
-{
-"pl": "Kategoria: Opaski",
-"count": 10
-},
-{
-"pl": "Wiedza: +19",
-"count": 10
-},
-{
-"pl": "8 min - 10 min",
-"count": 10
-},
-{
-"pl": "699 platyny",
-"count": 10
-},
-{
-"pl": "Wymagana siła: 15",
-"count": 10
-},
-{
-"pl": "Wymagana zręczność: 15",
-"count": 10
-},
-{
-"pl": "Wymagana moc: 15",
-"count": 10
-},
-{
-"pl": "Wymagana wiedza: 15",
-"count": 10
-},
-{
-"pl": "Wymagana wiedza: 20",
-"count": 10
-},
-{
-"pl": "Wymagana zręczność: 30",
-"count": 10
-},
-{
-"pl": "Wymagana wiedza: 30",
-"count": 10
-},
-{
-"pl": "Wymagana zręczność: 40",
-"count": 10
-},
-{
-"pl": "Wymagana zręczność: 70",
-"count": 10
-},
-{
-"pl": "Wymagana siła: 80",
-"count": 10
-},
-{
-"pl": "Wymagana moc: 80",
-"count": 10
-},
-{
-"pl": "Wymagana moc: 95",
-"count": 10
-},
-{
-"pl": "Wymagana siła: 100",
-"count": 10
-},
-{
-"pl": "Wymagana wiedza: 100",
-"count": 10
-},
-{
-"pl": "Ukończone zadanie",
-"count": 10
-},
-{
-"pl": "60 minut",
-"count": 10
-},
-{
-"pl": "NIE",
-"count": 9
-},
-{
-"pl": "70-80 lvl",
-"count": 9
-},
-{
-"pl": "Wybrzeże",
-"count": 9
-},
-{
-"pl": "Imperiałów",
-"count": 9
-},
-{
-"pl": "Zakup w Sklepie Premium.",
-"count": 9
-},
-{
-"pl": "Cmentarz w górach",
-"count": 9
-},
-{
-"pl": "Thalia Uniwersytecka",
-"count": 9
-},
-{
-"pl": "Łup z przeciwników,",
-"count": 9
-},
-{
-"pl": ", 3 x",
-"count": 9
-},
-{
-"pl": "Sala Konstrukta V2",
-"count": 9
-},
-{
-"pl": "6 000 000 złota",
-"count": 9
-},
-{
-"pl": "z/d",
-"count": 9
-},
-{
-"pl": "Wymagana klasa: Rycerz",
-"count": 9
-},
-{
-"pl": "Kategoria: Łuki",
-"count": 9
-},
-{
-"pl": "Waluta",
-"count": 9
-},
-{
-"pl": "Kamień",
-"count": 9
-},
-{
-"pl": "Kryształ",
-"count": 9
-},
-{
-"pl": "Czas budowy",
-"count": 9
-},
-{
-"pl": "72H",
-"count": 9
-},
-{
-"pl": "+n",
-"count": 9
-},
-{
-"pl": "Wartość: 35 000 000 złota",
-"count": 9
-},
-{
-"pl": "Mana: +150",
-"count": 9
-},
-{
-"pl": "PŻ: +300",
-"count": 9
-},
-{
-"pl": ". Celem gracza na",
-"count": 9
-},
-{
-"pl": "Wymagany poziom: 1",
-"count": 9
-},
-{
-"pl": "Wiedza: +8",
-"count": 9
-},
-{
-"pl": "Wiedza: +12",
-"count": 9
-},
-{
-"pl": "Ranga: I",
-"count": 9
-},
-{
-"pl": "Siła: +5",
-"count": 9
-},
-{
-"pl": "Pancerz kłute: +25",
-"count": 9
-},
-{
-"pl": "Wiedza: +5",
-"count": 9
-},
-{
-"pl": "PŻ: +140",
-"count": 9
-},
-{
-"pl": "Mana: +10",
-"count": 9
-},
-{
-"pl": "Kondycja: +10",
-"count": 9
-},
-{
-"pl": "Pancerz obuchowe: +38",
-"count": 9
-},
-{
-"pl": "Pancerz sieczne: +38",
-"count": 9
-},
-{
-"pl": "Pancerz kłute: +35",
-"count": 9
-},
-{
-"pl": "Odporność uroki: +25",
-"count": 9
-},
-{
-"pl": "Pancerz sieczne: +33",
-"count": 9
-},
-{
-"pl": "Moc: +18",
-"count": 9
-},
-{
-"pl": "Moc: +28",
-"count": 9
-},
-{
-"pl": "Pancerz sieczne: +40",
-"count": 9
-},
-{
-"pl": "Pancerz obuchowe: +34",
-"count": 9
-},
-{
-"pl": "1 500 talarów",
-"count": 9
-},
-{
-"pl": "Bagna",
-"count": 8
-},
-{
-"pl": "Przysiółek Trentis",
-"count": 8
-},
-{
-"pl": "Wioska Rybacka",
-"count": 8
-},
-{
-"pl": "Trzęsienie ziemi",
-"count": 8
-},
-{
-"pl": "Zamek Gastlehof",
-"count": 8
-},
-{
-"pl": "Jaskinie pod Wieżami",
-"count": 8
-},
-{
-"pl": "Statek Admirała",
-"count": 8
-},
-{
-"pl": "Stok",
-"count": 8
-},
-{
-"pl": "Seleny",
-"count": 8
-},
-{
-"pl": "na instancji",
-"count": 8
-},
-{
-"pl": "Pokusa Selene",
-"count": 8
-},
-{
-"pl": "Siedziba Sidragi",
-"count": 8
-},
-{
-"pl": "Klasztor Volkharda",
-"count": 8
-},
-{
-"pl": "Uszkodzenie pancerza",
-"count": 8
-},
-{
-"pl": "30-70 lvl",
-"count": 8
-},
-{
-"pl": "40-80 lvl",
-"count": 8
-},
-{
-"pl": "Wąwóz Dmorther",
-"count": 8
-},
-{
-"pl": "Esencji",
-"count": 8
-},
-{
-"pl": "Gherudu",
-"count": 8
 },
 {
 "pl": "Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III.",
 "count": 8
 },
 {
-"pl": "Velhar",
-"count": 8
-},
-{
 "pl": "Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII.",
-"count": 8
-},
-{
-"pl": "Magazyn Osłabionego Konstrukta",
-"count": 8
-},
-{
-"pl": "Las Orków",
-"count": 8
-},
-{
-"pl": "Zbroja Pinari",
-"count": 8
-},
-{
-"pl": "3 000 000 złota",
 "count": 8
 },
 {
@@ -2296,1015 +20,11 @@
 "count": 8
 },
 {
-"pl": "• Miasto Widmowych Uruków",
-"count": 8
-},
-{
-"pl": "250 szt.",
-"count": 8
-},
-{
-"pl": "Jaskinie pod Wieżami,",
-"count": 8
-},
-{
-"pl": "- 1% co poziom",
-"count": 8
-},
-{
-"pl": "Potęga: 1",
-"count": 8
-},
-{
-"pl": "+ 0,15% co poziom",
-"count": 8
-},
-{
-"pl": "Potęga: 1 / 2",
-"count": 8
-},
-{
-"pl": "Potęga: 1 / 2 / 3",
-"count": 8
-},
-{
-"pl": "Magnidrif band",
-"count": 8
-},
-{
-"pl": "Szansa na trafienie krytyczne: 2%",
-"count": 8
-},
-{
-"pl": "Potęga: 1 / 2 / 3 / 4",
-"count": 8
-},
-{
-"pl": "Wiedza: +30",
-"count": 8
-},
-{
-"pl": "Siła: +25",
-"count": 8
-},
-{
-"pl": "Wiedza: +25",
-"count": 8
-},
-{
-"pl": "3x",
-"count": 8
-},
-{
-"pl": "4 000 000 złota",
-"count": 8
-},
-{
-"pl": "8 000 000 złota",
-"count": 8
-},
-{
-"pl": "288H",
-"count": 8
-},
-{
-"pl": "24H",
-"count": 8
-},
-{
-"pl": "Kondycja: +150",
-"count": 8
-},
-{
-"pl": "Zręczność: +30",
-"count": 8
-},
-{
-"pl": "Mana: +120",
-"count": 8
-},
-{
-"pl": "Wiedza: +2",
-"count": 8
-},
-{
-"pl": "Pancerz obuchowe: +33",
-"count": 8
-},
-{
-"pl": "Pancerz obuchowe: +36",
-"count": 8
-},
-{
-"pl": "Moc: +19",
-"count": 8
-},
-{
-"pl": "Waga: 40",
-"count": 8
-},
-{
-"pl": "Moc: +9",
-"count": 8
-},
-{
-"pl": "PŻ: +10",
-"count": 8
-},
-{
-"pl": "Kondycja: +80",
-"count": 8
-},
-{
-"pl": "Pancerz sieczne: +31",
-"count": 8
-},
-{
-"pl": "Pancerz obuchowe: +31",
-"count": 8
-},
-{
-"pl": "Siła: +4",
-"count": 8
-},
-{
-"pl": "Pojemność: 8",
-"count": 8
-},
-{
-"pl": "Wiedza: +20",
-"count": 8
-},
-{
-"pl": "Zręczność: +25",
-"count": 8
-},
-{
-"pl": "Zręczność: +23",
-"count": 8
-},
-{
-"pl": "Moc: +13",
-"count": 8
-},
-{
-"pl": "Pancerz obuchowe: +39",
-"count": 8
-},
-{
-"pl": "Pancerz sieczne: +22",
-"count": 8
-},
-{
-"pl": "Pancerz kłute +28",
-"count": 8
-},
-{
-"pl": "Pancerz kłute +35",
-"count": 8
-},
-{
-"pl": "1 450 platyny - kompletny zestaw",
-"count": 8
-},
-{
-"pl": "Pancerz sieczne: +20",
-"count": 8
-},
-{
-"pl": "Od kogo",
-"count": 8
-},
-{
-"pl": "Wymagania",
-"count": 8
-},
-{
-"pl": "Nagroda",
-"count": 8
-},
-{
-"pl": "Znajdź i przynieś: 1 x",
-"count": 8
-},
-{
-"pl": "Wieża Ghadiry",
-"count": 7
-},
-{
-"pl": "Wieża bandytów",
-"count": 7
-},
-{
-"pl": "Rzyg",
-"count": 7
-},
-{
-"pl": "Jeden z przedmiotów potrzebny do przywołania",
-"count": 7
-},
-{
-"pl": "Możemy otrzymać za wykonanie",
-"count": 7
-},
-{
-"pl": "Łup z przeciwników.",
-"count": 7
-},
-{
-"pl": "Umożliwia wejście na instancję",
-"count": 7
-},
-{
-"pl": "Sokolniczka",
-"count": 7
-},
-{
-"pl": "Śmiertelne uderzenie",
-"count": 7
-},
-{
-"pl": "Grupowy atak fizyczny",
-"count": 7
-},
-{
-"pl": "Raniące uderzenie",
-"count": 7
-},
-{
-"pl": "Zbójecki las",
-"count": 7
-},
-{
-"pl": ", 5 x",
-"count": 7
-},
-{
-"pl": "Umiejętności klasowe",
-"count": 7
-},
-{
 "pl": "Brak możliwości użycia umiejętności na innym członku drużyny.",
 "count": 7
 },
 {
-"pl": "Odporności fizyczne",
-"count": 7
-},
-{
-"pl": "Obrona mentalna",
-"count": 7
-},
-{
-"pl": "Potęga: 2",
-"count": 7
-},
-{
-"pl": "Potęga: 2 / 4",
-"count": 7
-},
-{
-"pl": "Potęga: 2 / 4 / 6",
-"count": 7
-},
-{
-"pl": "Potęga: 2 / 4 / 6 / 8",
-"count": 7
-},
-{
-"pl": "Kategoria: Miecze jednoręczne",
-"count": 7
-},
-{
-"pl": "Waga przedmiotu: 15",
-"count": 7
-},
-{
-"pl": "Wartość: 3 000 000 złota",
-"count": 7
-},
-{
-"pl": "Wzmocnienie drifów: +60%",
-"count": 7
-},
-{
-"pl": "Moc: +15",
-"count": 7
-},
-{
-"pl": "Wielkie flasze ulepszeń",
-"count": 7
-},
-{
-"pl": "Unici",
-"count": 7
-},
-{
-"pl": "Wolni",
-"count": 7
-},
-{
-"pl": "Łotry",
-"count": 7
-},
-{
-"pl": "5 000 000 złota",
-"count": 7
-},
-{
-"pl": "192H",
-"count": 7
-},
-{
-"pl": "240H",
-"count": 7
-},
-{
-"pl": "120H",
-"count": 7
-},
-{
-"pl": "Wzmocnienie drifów:",
-"count": 7
-},
-{
-"pl": "Pancerz sieczne: +34",
-"count": 7
-},
-{
-"pl": "Moc: +5",
-"count": 7
-},
-{
-"pl": "Czempiony",
-"count": 7
-},
-{
-"pl": "Zręczność: +6",
-"count": 7
-},
-{
-"pl": "Wymagany poziom: 22",
-"count": 7
-},
-{
-"pl": "PŻ: +90",
-"count": 7
-},
-{
-"pl": "Moc: +14",
-"count": 7
-},
-{
-"pl": "Mana: +110",
-"count": 7
-},
-{
-"pl": "Siła: +14",
-"count": 7
-},
-{
-"pl": "Kondycja: +70",
-"count": 7
-},
-{
-"pl": "Zręczność: +28",
-"count": 7
-},
-{
-"pl": "Siła: +16",
-"count": 7
-},
-{
-"pl": "Zręczność: +17",
-"count": 7
-},
-{
-"pl": "Moc: +16",
-"count": 7
-},
-{
-"pl": "PŻ: +220",
-"count": 7
-},
-{
-"pl": "Pancerz sieczne: +45",
-"count": 7
-},
-{
-"pl": "Pancerz kłute +30",
-"count": 7
-},
-{
-"pl": "Pancerz kłute +31",
-"count": 7
-},
-{
-"pl": "Oszukać przeznaczenie: 1",
-"count": 7
-},
-{
-"pl": "Wiedza: +23",
-"count": 7
-},
-{
-"pl": "Kategoria: Ryngrafy",
-"count": 7
-},
-{
-"pl": "Pancerz sieczne: +27",
-"count": 7
-},
-{
-"pl": "8 min",
-"count": 7
-},
-{
-"pl": "Brak",
-"count": 7
-},
-{
-"pl": "Moc: +23",
-"count": 7
-},
-{
-"pl": "30 poziom postaci.",
-"count": 7
-},
-{
-"pl": "Przebieg zlecenia",
-"count": 7
-},
-{
-"pl": "Czas na wykonanie zlecenia",
-"count": 7
-},
-{
-"pl": "Czas oczekiwania",
-"count": 7
-},
-{
-"pl": "8 x",
-"count": 6
-},
-{
-"pl": "Okucie",
-"count": 6
-},
-{
-"pl": "Kula energii",
-"count": 6
-},
-{
-"pl": "80-100 lvl",
-"count": 6
-},
-{
-"pl": "Zlecenia Bedisy",
-"count": 6
-},
-{
-"pl": "Mrok",
-"count": 6
-},
-{
-"pl": "Grobowiec Duchów Żywiołów",
-"count": 6
-},
-{
-"pl": "20 x",
-"count": 6
-},
-{
-"pl": "Dezorientacja",
-"count": 6
-},
-{
-"pl": "Ziarno Chaosu",
-"count": 6
-},
-{
-"pl": "Jaskinia Geomorpha",
-"count": 6
-},
-{
-"pl": "Przełamanie gardy",
-"count": 6
-},
-{
-"pl": "W procesie",
-"count": 6
-},
-{
-"pl": "Okręt Admirała",
-"count": 6
-},
-{
-"pl": "Pustkowie Hvara",
-"count": 6
-},
-{
-"pl": "Chram",
-"count": 6
-},
-{
-"pl": "Pod mostem",
-"count": 6
-},
-{
-"pl": "Grań",
-"count": 6
-},
-{
-"pl": "Do otwarcia zejścia na dolny poziom",
-"count": 6
-},
-{
-"pl": "Laboratorium",
-"count": 6
-},
-{
-"pl": "Poziom",
-"count": 6
-},
-{
-"pl": "Lokalizacja",
-"count": 6
-},
-{
-"pl": "Grań,",
-"count": 6
-},
-{
-"pl": "Jaskinia pod wodospadem,",
-"count": 6
-},
-{
-"pl": ", to instancja w której bossem jest",
-"count": 6
-},
-{
-"pl": "to instancja, w której bossem jest",
-"count": 6
-},
-{
-"pl": "Średnia",
-"count": 6
-},
-{
-"pl": "Wielka",
-"count": 6
-},
-{
-"pl": "Olbrzymia",
-"count": 6
-},
-{
-"pl": "Orbów",
-"count": 6
-},
-{
-"pl": "Siła: +30",
-"count": 6
-},
-{
-"pl": "Mana: +90",
-"count": 6
-},
-{
-"pl": "Zręczność: +3",
-"count": 6
-},
-{
-"pl": "Odporność uroki: +30",
-"count": 6
-},
-{
-"pl": "Pancerz obuchowe: +28",
-"count": 6
-},
-{
-"pl": "Mana: +130",
-"count": 6
-},
-{
-"pl": "Wytwarzanie:",
-"count": 6
-},
-{
-"pl": "Wiedza: +6",
-"count": 6
-},
-{
-"pl": "Moc: +6",
-"count": 6
-},
-{
-"pl": "Wartość: 56 000 złota",
-"count": 6
-},
-{
-"pl": "Wiedza: +7",
-"count": 6
-},
-{
-"pl": "Pancerz sieczne: +23",
-"count": 6
-},
-{
-"pl": "Siła: +6",
-"count": 6
-},
-{
-"pl": "Wartość: 136 000 złota",
-"count": 6
-},
-{
-"pl": "Wymagany poziom: 32",
-"count": 6
-},
-{
-"pl": "Wymagana moc: 35",
-"count": 6
-},
-{
-"pl": "Wymagana siła: 35",
-"count": 6
-},
-{
-"pl": "Kategoria: Tarcze",
-"count": 6
-},
-{
-"pl": "Kondycja: +110",
-"count": 6
-},
-{
-"pl": "Zręczność: +14",
-"count": 6
-},
-{
-"pl": "Pancerz obuchowe: +26",
-"count": 6
-},
-{
-"pl": "Zręczność: +26",
-"count": 6
-},
-{
-"pl": "Wiedza: +26",
-"count": 6
-},
-{
-"pl": "PŻ: +240",
-"count": 6
-},
-{
-"pl": "PŻ: +130",
-"count": 6
-},
-{
-"pl": "Odporność zimno: +30",
-"count": 6
-},
-{
-"pl": "Wiedza: +22",
-"count": 6
-},
-{
-"pl": "Zręczność: +11",
-"count": 6
-},
-{
-"pl": "Pancerz kłute: +40",
-"count": 6
-},
-{
-"pl": "Moc: +22",
-"count": 6
-},
-{
-"pl": "Siła: +26",
-"count": 6
-},
-{
-"pl": "Moc: +25",
-"count": 6
-},
-{
-"pl": "Kondycja: +90",
-"count": 6
-},
-{
-"pl": "Siła: +18",
-"count": 6
-},
-{
-"pl": "Moc: +17",
-"count": 6
-},
-{
-"pl": "Pojemność: 28",
-"count": 6
-},
-{
-"pl": "Wartość: 68 750 000 złota",
-"count": 6
-},
-{
-"pl": "Wymagany poziom: 135",
-"count": 6
-},
-{
-"pl": "Bonus Szansa na zredukowanie otrzymanych: Описание",
-"count": 6
-},
-{
-"pl": "Pancerz kłute +22",
-"count": 6
-},
-{
-"pl": "Pancerz kłute +34",
-"count": 6
-},
-{
-"pl": "Mana: +160",
-"count": 6
-},
-{
-"pl": "Moc: +26",
-"count": 6
-},
-{
-"pl": "Kategoria: Pancerze",
-"count": 6
-},
-{
-"pl": "Pancerz sieczne: +15",
-"count": 6
-},
-{
-"pl": "Pancerz obuchowe: +15",
-"count": 6
-},
-{
-"pl": "Pancerz kłute: +15",
-"count": 6
-},
-{
-"pl": "Zadania",
-"count": 6
-},
-{
-"pl": "10 min - 15 min",
-"count": 6
-},
-{
-"pl": "900 platyny - kompletny zestaw",
-"count": 6
-},
-{
-"pl": "Pancerz obuchowe: +23",
-"count": 6
-},
-{
-"pl": "Pancerz sieczne: +24",
-"count": 6
-},
-{
-"pl": "PŻ: +137",
-"count": 6
-},
-{
-"pl": "PŻ: +101",
-"count": 6
-},
-{
-"pl": "Zręczność: +22",
-"count": 6
-},
-{
-"pl": "Babadka",
-"count": 6
-},
-{
-"pl": "Gregoriusa",
-"count": 6
-},
-{
-"pl": "fioletowego pola",
-"count": 6
-},
-{
-"pl": "Zdobądź: 1 x",
-"count": 6
-},
-{
-"pl": ": Założona broń dystansowa",
-"count": 6
-},
-{
-"pl": "Awans Epika",
-"count": 5
-},
-{
-"pl": "Dorsz",
-"count": 5
-},
-{
-"pl": "Filet z dorsza",
-"count": 5
-},
-{
-"pl": "Jaskinia Amorfy",
-"count": 5
-},
-{
-"pl": "Leik",
-"count": 5
-},
-{
-"pl": "Port",
-"count": 5
-},
-{
-"pl": "Tunel Krzyżaka",
-"count": 5
-},
-{
-"pl": "Umiejętności",
-"count": 5
-},
-{
-"pl": "Zbójecki Las",
-"count": 5
-},
-{
-"pl": "Więzienie Angwalf-Htaga",
-"count": 5
-},
-{
-"pl": "Drużyna",
-"count": 5
-},
-{
-"pl": "Przedmiot potrzebny do przywołania zwierzaków:",
-"count": 5
-},
-{
-"pl": "Hohgrata",
-"count": 5
-},
-{
-"pl": "Zakup za Talary",
-"count": 5
-},
-{
-"pl": "u Haine w Trentis,",
-"count": 5
-},
-{
-"pl": "Zakup za Szelągi",
-"count": 5
-},
-{
-"pl": "od Warnika w Siedziba Warnika.",
-"count": 5
-},
-{
-"pl": "Przywołanie",
-"count": 5
-},
-{
-"pl": "Cena odkupienia",
-"count": 5
-},
-{
-"pl": "bossów",
-"count": 5
-},
-{
-"pl": "Zapasy dla Garnizonu",
-"count": 5
-},
-{
-"pl": "40 x",
-"count": 5
-},
-{
-"pl": "8 platyny",
-"count": 5
-},
-{
-"pl": "Niedźwiedzia jaskinia",
-"count": 5
-},
-{
-"pl": "Miasto Draugula",
-"count": 5
-},
-{
-"pl": "Robacze Jaskinie",
-"count": 5
-},
-{
-"pl": "Pałac Morany",
-"count": 5
-},
-{
-"pl": "Miasto Tarula",
-"count": 5
-},
-{
-"pl": "za",
-"count": 5
-},
-{
-"pl": "30 lvl",
-"count": 5
-},
-{
 "pl": "Zwierzaka możemy stworzyć samodzielnie, po zebraniu składników:",
-"count": 5
-},
-{
-"pl": "150 x",
-"count": 5
-},
-{
-"pl": "Jeden z elementów potrzebnych do stworzenia",
-"count": 5
-},
-{
-"pl": "Klucza Alkazaara",
-"count": 5
-},
-{
-"pl": "Służy do przywołania Ivravula.",
-"count": 5
-},
-{
-"pl": "Głębia",
-"count": 5
-},
-{
-"pl": ": (1.2 * Siła + 0.8 * Zręczność) * Obrażenia",
-"count": 5
-},
-{
-"pl": "Ucznia",
-"count": 5
-},
-{
-"pl": "Adepta",
-"count": 5
-},
-{
-"pl": "Mistrza",
-"count": 5
-},
-{
-"pl": "Kategoria: Topory dwuręczne",
-"count": 5
-},
-{
-"pl": "Wymagana klasa: Barbarzyńca",
-"count": 5
-},
-{
-"pl": "Wiedza: +15",
-"count": 5
-},
-{
-"pl": "50x",
-"count": 5
-},
-{
-"pl": "100x",
-"count": 5
-},
-{
-"pl": "150x",
-"count": 5
-},
-{
-"pl": "200x",
-"count": 5
-},
-{
-"pl": "250x",
-"count": 5
-},
-{
-"pl": "2 800 000 złota i 1 000 platyny",
-"count": 5
-},
-{
-"pl": "4 200 000 złota i 1 500 platyny",
-"count": 5
-},
-{
-"pl": "5 600 000 złota i 2 000 platyny",
 "count": 5
 },
 {
@@ -3312,336 +32,8 @@
 "count": 5
 },
 {
-"pl": "VIII",
-"count": 5
-},
-{
-"pl": "IX",
-"count": 5
-},
-{
-"pl": "Drifów",
-"count": 5
-},
-{
-"pl": "Opcjonalnie:",
-"count": 5
-},
-{
-"pl": "Inhibitor",
-"count": 5
-},
-{
-"pl": "Redukcja",
-"count": 5
-},
-{
-"pl": "Odbicie",
-"count": 5
-},
-{
-"pl": "Celność",
-"count": 5
-},
-{
-"pl": "Obrona",
-"count": 5
-},
-{
-"pl": "Waga: 14",
-"count": 5
-},
-{
-"pl": "Hełm Urgrima",
-"count": 5
-},
-{
-"pl": "Kategoria: Młoty dwuręczne",
-"count": 5
-},
-{
-"pl": "Siła: +28",
-"count": 5
-},
-{
-"pl": "Gdzie:",
-"count": 5
-},
-{
-"pl": "Modyfikator trafień mentalnych",
-"count": 5
-},
-{
-"pl": "Wiedza: +4",
-"count": 5
-},
-{
-"pl": "Pancerz obuchowe: +24",
-"count": 5
-},
-{
-"pl": "Pancerz obuchowe: +22",
-"count": 5
-},
-{
-"pl": "Zręczność: +2",
-"count": 5
-},
-{
-"pl": "Wiedza: +3",
-"count": 5
-},
-{
-"pl": "Pancerz sieczne: +29",
-"count": 5
-},
-{
-"pl": "Wymagana zręczność: 50",
-"count": 5
-},
-{
-"pl": "Siła: +11",
-"count": 5
-},
-{
-"pl": "Zręczność: +13",
-"count": 5
-},
-{
-"pl": "Pancerz obuchowe: +29",
-"count": 5
-},
-{
-"pl": "Zręczność: +24",
-"count": 5
-},
-{
-"pl": "Wartość: 3 200 000 złota",
-"count": 5
-},
-{
-"pl": "Waga: 17",
-"count": 5
-},
-{
-"pl": "Wartość: 2 200 000 złota",
-"count": 5
-},
-{
-"pl": "Waga: 13",
-"count": 5
-},
-{
-"pl": "Wartość: 6 600 000 złota",
-"count": 5
-},
-{
-"pl": "Siła: +29",
-"count": 5
-},
-{
-"pl": "Pancerz obuchowe: +45",
-"count": 5
-},
-{
-"pl": "Siła: +22",
-"count": 5
-},
-{
-"pl": "Moc: +24",
-"count": 5
-},
-{
-"pl": "Wiedza: +46",
-"count": 5
-},
-{
-"pl": "Wartość: 80 000 000 złota",
-"count": 5
-},
-{
-"pl": "Wzmocnienie drifów: +15%",
-"count": 5
-},
-{
-"pl": "Obrażenia: 126",
-"count": 5
-},
-{
-"pl": "Wiedza: +16",
-"count": 5
-},
-{
-"pl": "PŻ: +170",
-"count": 5
-},
-{
-"pl": "Siła: +17",
-"count": 5
-},
-{
-"pl": "Wiedza: +27",
-"count": 5
-},
-{
-"pl": "Wartość: 650 000 złota",
-"count": 5
-},
-{
-"pl": "1 h - 1 h 15 min",
-"count": 5
-},
-{
-"pl": "10 min",
-"count": 5
-},
-{
-"pl": "nałoży dodatkowy efekt",
-"count": 5
-},
-{
-"pl": "Szansa na dodatkowy efekt",
-"count": 5
-},
-{
-"pl": "1 150 platyny - kompletny zestaw",
-"count": 5
-},
-{
-"pl": "Bal zakochanych",
-"count": 5
-},
-{
-"pl": "Do kupienia od 6.03 do 4.04.2025 r.",
-"count": 5
-},
-{
-"pl": "Zdobył go gracz o nicku: SłodkaKotka (Izin)",
-"count": 5
-},
-{
-"pl": "Pancerz kłute +36",
-"count": 5
-},
-{
-"pl": "Pancerz kłute +40",
-"count": 5
-},
-{
-"pl": "Wiedza: +33",
-"count": 5
-},
-{
-"pl": "Pancerz kłute +43",
-"count": 5
-},
-{
 "pl": "Konkretnego bossa co najmniej ze ścieżki przygody o nagrodzie 5",
 "count": 5
-},
-{
-"pl": "20 poziom postaci.",
-"count": 5
-},
-{
-"pl": "25 minut",
-"count": 5
-},
-{
-"pl": "Losowo dwa działania z poniższych:",
-"count": 5
-},
-{
-"pl": "40 poziom postaci.",
-"count": 5
-},
-{
-"pl": "Bossy",
-"count": 4
-},
-{
-"pl": "Dusza nietoperza",
-"count": 4
-},
-{
-"pl": "Dusza nieumarłego",
-"count": 4
-},
-{
-"pl": "Dusza gada",
-"count": 4
-},
-{
-"pl": "Gawra",
-"count": 4
-},
-{
-"pl": "Elity",
-"count": 4
-},
-{
-"pl": "Eliksiry",
-"count": 4
-},
-{
-"pl": "Jaskinia Golema",
-"count": 4
-},
-{
-"pl": "Jaskinia Niedźwiedzia",
-"count": 4
-},
-{
-"pl": "Nasycenie",
-"count": 4
-},
-{
-"pl": "Przeklęty Las",
-"count": 4
-},
-{
-"pl": "25 Imperiałów",
-"count": 4
-},
-{
-"pl": ": u Handlarza Niewolników",
-"count": 4
-},
-{
-"pl": "Możesz sprzedać ten przedmiot w sklepie.",
-"count": 4
-},
-{
-"pl": "Laboratorium Aqua Regis",
-"count": 4
-},
-{
-"pl": "Ryk",
-"count": 4
-},
-{
-"pl": "Starożytna Hala",
-"count": 4
-},
-{
-"pl": "6 x",
-"count": 4
-},
-{
-"pl": "Druid Zohar w Wioska druidów,",
-"count": 4
-},
-{
-"pl": "Pozostały Rolin w Siedziba Pozostałych,",
-"count": 4
-},
-{
-"pl": "Koldzica Borghilda w Kemenak,",
-"count": 4
-},
-{
-"pl": "Kowal Verstein w Beirn.",
-"count": 4
 },
 {
 "pl": "Wykonuje go Frahlump w Norze dveirów za 40 000 sztuk złota, po dostarczeniu składników:",
@@ -3652,75 +44,7 @@
 "count": 4
 },
 {
-"pl": ": III Klatka gildyjna",
-"count": 4
-},
-{
-"pl": "Surowiec do budowy budynków Gildyjnych.",
-"count": 4
-},
-{
 "pl": "Jeden z podstawowych surowców potrzebnych do powstania budynków na działce Gildyjnej.",
-"count": 4
-},
-{
-"pl": "u Parvana Razoffa w Trentis.",
-"count": 4
-},
-{
-"pl": "20-50 lvl",
-"count": 4
-},
-{
-"pl": "Jaskinia Herszta,",
-"count": 4
-},
-{
-"pl": "Vorlińskich Dukatów",
-"count": 4
-},
-{
-"pl": "drifów",
-"count": 4
-},
-{
-"pl": "Wytworzenie w trakcie",
-"count": 4
-},
-{
-"pl": "od Versteina w Beirn po dostarczeniu składników:",
-"count": 4
-},
-{
-"pl": "Łup z przeciwników:",
-"count": 4
-},
-{
-"pl": "Do wytworzenia w czasie aktywnego",
-"count": 4
-},
-{
-"pl": "400 platyny",
-"count": 4
-},
-{
-"pl": ": II Klatka gildyjna",
-"count": 4
-},
-{
-"pl": ": Wymagany jest",
-"count": 4
-},
-{
-"pl": ": 3 x",
-"count": 4
-},
-{
-"pl": "u Azarii w Wiosce Druidów.",
-"count": 4
-},
-{
-"pl": "Leże Garthmoga",
 "count": 4
 },
 {
@@ -3732,175 +56,11 @@
 "count": 4
 },
 {
-"pl": "Bagno Ropuchy",
-"count": 4
-},
-{
-"pl": "Eterycznej lampy",
-"count": 4
-},
-{
-"pl": "do",
-"count": 4
-},
-{
-"pl": "Dzielnica Heurokratosa",
-"count": 4
-},
-{
-"pl": "Odporność na ataki dystansowe",
-"count": 4
-},
-{
-"pl": "Wulkan Hvara",
-"count": 4
-},
-{
-"pl": "Leże Valdaroga",
-"count": 4
-},
-{
-"pl": "Góry Koldów",
-"count": 4
-},
-{
-"pl": ": u Tresera Pitera",
-"count": 4
-},
-{
-"pl": "rozbijania",
-"count": 4
-},
-{
-"pl": "Możemy go zdobyć w trakcie wykonywania zadania",
-"count": 4
-},
-{
-"pl": "Elementu limetytowego",
-"count": 4
-},
-{
 "pl": "Jeden z pięciu artefaktów potrzebnych do zerwania Pieczęci Alkazaara i przywołania lodowego smoka Valdaroga.",
 "count": 4
 },
 {
 "pl": "Wymagane aby dostać się na ścieżkę wyzwania następujących instancji:",
-"count": 4
-},
-{
-"pl": "W",
-"count": 4
-},
-{
-"pl": "Aby zaliczyć ścieżkę",
-"count": 4
-},
-{
-"pl": "Wymagana ilość ubić",
-"count": 4
-},
-{
-"pl": "Liczba otrzymywanych drzazg",
-"count": 4
-},
-{
-"pl": "Łącznie do zdobycia:",
-"count": 4
-},
-{
-"pl": "Drzazg",
-"count": 4
-},
-{
-"pl": "Do zdobycia za wygraną w konkursach podczas TaernCon.",
-"count": 4
-},
-{
-"pl": "Możliwość odkupienia",
-"count": 4
-},
-{
-"pl": "12 000 złota",
-"count": 4
-},
-{
-"pl": "u Treser Piter.",
-"count": 4
-},
-{
-"pl": ": Buff Grupowy",
-"count": 4
-},
-{
-"pl": ": Wysoka",
-"count": 4
-},
-{
-"pl": "Umiejętność na: 3 PA (100%)",
-"count": 4
-},
-{
-"pl": "PA",
-"count": 4
-},
-{
-"pl": "Podzamcze,",
-"count": 4
-},
-{
-"pl": "Jaskinie pod Mokradłami,",
-"count": 4
-},
-{
-"pl": "Jaskinie pod Granicą,",
-"count": 4
-},
-{
-"pl": "Niedźwiedzia jaskinia,",
-"count": 4
-},
-{
-"pl": "Las Orków,",
-"count": 4
-},
-{
-"pl": "Jaskinia na Masywie,",
-"count": 4
-},
-{
-"pl": "Opuszczona Wieża,",
-"count": 4
-},
-{
-"pl": "Potęga: 4",
-"count": 4
-},
-{
-"pl": "Potęga: 4 / 8",
-"count": 4
-},
-{
-"pl": "Potęga: 4 / 8 / 12",
-"count": 4
-},
-{
-"pl": "Potęga: 4 / 8 / 12 / 16",
-"count": 4
-},
-{
-"pl": "Wymagana klasa: Łucznik",
-"count": 4
-},
-{
-"pl": "Wymagana klasa: Druid",
-"count": 4
-},
-{
-"pl": "Wymagana klasa: Sheed",
-"count": 4
-},
-{
-"pl": "Wymagana klasa: Mag Ognia",
 "count": 4
 },
 {
@@ -3912,822 +72,6 @@
 "count": 4
 },
 {
-"pl": "Więcej informacji o zaniżaniu dropu znajdziesz",
-"count": 4
-},
-{
-"pl": "70 lvl",
-"count": 4
-},
-{
-"pl": "zleceń",
-"count": 4
-},
-{
-"pl": "Ranga I",
-"count": 4
-},
-{
-"pl": "Ranga IV",
-"count": 4
-},
-{
-"pl": "Tablica Rady Frakcji",
-"count": 4
-},
-{
-"pl": "Zdobywanie",
-"count": 4
-},
-{
-"pl": "Synergetyków",
-"count": 4
-},
-{
-"pl": "1 400 000 złota i 1 000 platyny",
-"count": 4
-},
-{
-"pl": "1 400 000 złota i 500 platyny",
-"count": 4
-},
-{
-"pl": "2 100 000 złota i 750 platyny",
-"count": 4
-},
-{
-"pl": "3 500 000 złota i 1 250 platyny",
-"count": 4
-},
-{
-"pl": ". Fragmenty",
-"count": 4
-},
-{
-"pl": "Synergetyki (20-40)",
-"count": 4
-},
-{
-"pl": "Szczególne mechaniki walki z bossem:",
-"count": 4
-},
-{
-"pl": "Mała",
-"count": 4
-},
-{
-"pl": "Ranga I - III Ranga IV - VI: Ulepszenie",
-"count": 4
-},
-{
-"pl": "Ranga I - III Ranga IV - VI: Ilość statystyk",
-"count": 4
-},
-{
-"pl": "Ranga I - III Ranga IV - VI: Suma",
-"count": 4
-},
-{
-"pl": "Rary, Sety, Epiki, Legendy",
-"count": 4
-},
-{
-"pl": "X",
-"count": 4
-},
-{
-"pl": "XI",
-"count": 4
-},
-{
-"pl": "XII",
-"count": 4
-},
-{
-"pl": "Korundowy",
-"count": 4
-},
-{
-"pl": "Diamentowy",
-"count": 4
-},
-{
-"pl": "Platynowy",
-"count": 4
-},
-{
-"pl": "Odłamki wymagane do ornamentu",
-"count": 4
-},
-{
-"pl": "Suma odłamków do ornamentu",
-"count": 4
-},
-{
-"pl": "Rarów",
-"count": 4
-},
-{
-"pl": "PŻ: +320",
-"count": 4
-},
-{
-"pl": "Odporność na ogień",
-"count": 4
-},
-{
-"pl": "Redukcja rozładowania sprzętu:",
-"count": 4
-},
-{
-"pl": "Szybszy odpoczynek:",
-"count": 4
-},
-{
-"pl": "Dodatkowe PXP:",
-"count": 4
-},
-{
-"pl": "Dodatkowe doświadczenie:",
-"count": 4
-},
-{
-"pl": "Większy udźwig:",
-"count": 4
-},
-{
-"pl": "Dodatkowe złoto:",
-"count": 4
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku wręcz:",
-"count": 4
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku dystansowego:",
-"count": 4
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku mentalnego:",
-"count": 4
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od czempionów i elit:",
-"count": 4
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku obszarowego:",
-"count": 4
-},
-{
-"pl": "Szansa na unik gdy ciężko ranny:",
-"count": 4
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od zwykłych przeciwników:",
-"count": 4
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od bossów:",
-"count": 4
-},
-{
-"pl": "Większa szansa trafienia po chybieniu:",
-"count": 4
-},
-{
-"pl": "Szansa na przejęcie zdrowia:",
-"count": 4
-},
-{
-"pl": "Większa siła ataku gdy ciężko ranny:",
-"count": 4
-},
-{
-"pl": "Większe obrażenia na zwykłych przeciwnikach:",
-"count": 4
-},
-{
-"pl": "Szansa na mocniejszy atak krytyczny:",
-"count": 4
-},
-{
-"pl": "Większe obrażenia na czempiony i elity:",
-"count": 4
-},
-{
-"pl": "Szansa na przejęcie many:",
-"count": 4
-},
-{
-"pl": "Szansa na przejęcie kondycji:",
-"count": 4
-},
-{
-"pl": "Szansa na przełamanie farida i holma:",
-"count": 4
-},
-{
-"pl": "Większe obrażenia na bossy:",
-"count": 4
-},
-{
-"pl": "Alchemia Złota",
-"count": 4
-},
-{
-"pl": "Zakarzenie",
-"count": 4
-},
-{
-"pl": "Farao",
-"count": 4
-},
-{
-"pl": "Pancerz kłute: +33",
-"count": 4
-},
-{
-"pl": "Pojemność: 21",
-"count": 4
-},
-{
-"pl": "Pancerz kłute: +36",
-"count": 4
-},
-{
-"pl": "Wartość: 500 000 złota i 70 platyny",
-"count": 4
-},
-{
-"pl": "Wartość: 650 000 złota i 70 platyny",
-"count": 4
-},
-{
-"pl": "Wiedza: -5",
-"count": 4
-},
-{
-"pl": "Zuoo",
-"count": 4
-},
-{
-"pl": "Ulepszenie",
-"count": 4
-},
-{
-"pl": "Szansa z Flaszą",
-"count": 4
-},
-{
-"pl": "Szansa z Flaszą i Esencją",
-"count": 4
-},
-{
-"pl": "Wartość: 72 000 złota",
-"count": 4
-},
-{
-"pl": "Wymagany poziom: 24",
-"count": 4
-},
-{
-"pl": "Zręczność: +4",
-"count": 4
-},
-{
-"pl": "Waga: 35",
-"count": 4
-},
-{
-"pl": "Siła: +2",
-"count": 4
-},
-{
-"pl": "Waga: 22",
-"count": 4
-},
-{
-"pl": "Wiedza: +24",
-"count": 4
-},
-{
-"pl": "Wiedza: +18",
-"count": 4
-},
-{
-"pl": "Pancerz sieczne: +28",
-"count": 4
-},
-{
-"pl": "Siła: +39",
-"count": 4
-},
-{
-"pl": "Siła: +34",
-"count": 4
-},
-{
-"pl": "Zręczność: +21",
-"count": 4
-},
-{
-"pl": "Moc: +38",
-"count": 4
-},
-{
-"pl": "Wymagana zręczność: 75",
-"count": 4
-},
-{
-"pl": "Zręczność: +33",
-"count": 4
-},
-{
-"pl": "Wiedza: +35",
-"count": 4
-},
-{
-"pl": "Mana: +170",
-"count": 4
-},
-{
-"pl": "Wiedza: +40",
-"count": 4
-},
-{
-"pl": "Wartość: 8 300 000 złota",
-"count": 4
-},
-{
-"pl": "Wymagany poziom: 95",
-"count": 4
-},
-{
-"pl": "Wiedza: +17",
-"count": 4
-},
-{
-"pl": "Mana: +180",
-"count": 4
-},
-{
-"pl": "Kondycja: +130",
-"count": 4
-},
-{
-"pl": "Moc: +50",
-"count": 4
-},
-{
-"pl": "Obrażenia: 239",
-"count": 4
-},
-{
-"pl": "Mana: +200",
-"count": 4
-},
-{
-"pl": "Zręczność: +55",
-"count": 4
-},
-{
-"pl": "PŻ: +230",
-"count": 4
-},
-{
-"pl": "PŻ: +280",
-"count": 4
-},
-{
-"pl": "PŻ: +400",
-"count": 4
-},
-{
-"pl": "Wartość: 28 750 000 złota",
-"count": 4
-},
-{
-"pl": "Wymagany poziom: 115",
-"count": 4
-},
-{
-"pl": "Moc: +21",
-"count": 4
-},
-{
-"pl": "Kondycja: +160",
-"count": 4
-},
-{
-"pl": "Wiedza: +36",
-"count": 4
-},
-{
-"pl": "Pancerz sieczne: +39",
-"count": 4
-},
-{
-"pl": "Moc: +40",
-"count": 4
-},
-{
-"pl": "Pancerz kłute: +45",
-"count": 4
-},
-{
-"pl": "Wartość: 50 750 000 złota",
-"count": 4
-},
-{
-"pl": "Wymagany poziom: 127",
-"count": 4
-},
-{
-"pl": "Punkty Zdrowia [Poz. 1]: +0.5%",
-"count": 4
-},
-{
-"pl": "Bonus losowany jest w momencie zdropienia sprzętu",
-"count": 4
-},
-{
-"pl": "Pancerz sieczne: +21",
-"count": 4
-},
-{
-"pl": "Pancerz kłute +27",
-"count": 4
-},
-{
-"pl": "Moc: +2",
-"count": 4
-},
-{
-"pl": "Pancerz kłute +38",
-"count": 4
-},
-{
-"pl": "Zręczność: +19",
-"count": 4
-},
-{
-"pl": "Moc: +31",
-"count": 4
-},
-{
-"pl": "Wiedza: +21",
-"count": 4
-},
-{
-"pl": "Zręczność: +32",
-"count": 4
-},
-{
-"pl": "Moc: +29",
-"count": 4
-},
-{
-"pl": "Waga: 9",
-"count": 4
-},
-{
-"pl": "20 min - 30 min",
-"count": 4
-},
-{
-"pl": "30 min - 40 min",
-"count": 4
-},
-{
-"pl": "1 h - 1 h 10 min",
-"count": 4
-},
-{
-"pl": "15 min - 20 min",
-"count": 4
-},
-{
-"pl": "Etap pierwszy instancji złożony jest z",
-"count": 4
-},
-{
-"pl": "Etap drugi instancji złożony jest z",
-"count": 4
-},
-{
-"pl": "Etap trzeci instancji złożony jest z",
-"count": 4
-},
-{
-"pl": "Jeśli przeciwnik ma nałożony efekt z umiejętności",
-"count": 4
-},
-{
-"pl": ": (1.4 * Siła + 0.6 * Zręczność) * Obrażenia",
-"count": 4
-},
-{
-"pl": "+17% + Wzór",
-"count": 4
-},
-{
-"pl": "+20% + Wzór",
-"count": 4
-},
-{
-"pl": "+11% + Wzór",
-"count": 4
-},
-{
-"pl": "+23% + Wzór",
-"count": 4
-},
-{
-"pl": "+14% + Wzór",
-"count": 4
-},
-{
-"pl": "Nazwa przedmiotu",
-"count": 4
-},
-{
-"pl": "Można zdobyć z",
-"count": 4
-},
-{
-"pl": "PŻ: +39",
-"count": 4
-},
-{
-"pl": "Pancerz kłute +24",
-"count": 4
-},
-{
-"pl": "Pancerz kłute +25",
-"count": 4
-},
-{
-"pl": "PŻ: +78",
-"count": 4
-},
-{
-"pl": "Zręczność: +12",
-"count": 4
-},
-{
-"pl": "Pancerz kłute +29",
-"count": 4
-},
-{
-"pl": "PŻ: +91",
-"count": 4
-},
-{
-"pl": "Mana: +106",
-"count": 4
-},
-{
-"pl": "PŻ: +86",
-"count": 4
-},
-{
-"pl": "Mana: +147",
-"count": 4
-},
-{
-"pl": "Pancerz sieczne: +43",
-"count": 4
-},
-{
-"pl": "Pancerz kłute +45",
-"count": 4
-},
-{
-"pl": "Pancerz sieczne: +44",
-"count": 4
-},
-{
-"pl": "Pancerz kłute +41",
-"count": 4
-},
-{
-"pl": "Pancerz sieczne: +42",
-"count": 4
-},
-{
-"pl": "THANAR",
-"count": 4
-},
-{
-"pl": "KADARIN",
-"count": 4
-},
-{
-"pl": "IZIN",
-"count": 4
-},
-{
-"pl": "Sklep:",
-"count": 4
-},
-{
-"pl": "- kolejny etap instancji.",
-"count": 4
-},
-{
-"pl": "- ostatniego etapu instancji.",
-"count": 4
-},
-{
-"pl": "Zarządca Eredan",
-"count": 4
-},
-{
-"pl": "90 poziom postaci.",
-"count": 4
-},
-{
-"pl": "Konkretnego bossa ze ścieżki wyzwania o nagrodzie 15",
-"count": 4
-},
-{
-"pl": "ok. 3 000 złota,",
-"count": 4
-},
-{
-"pl": "ok. 100 złota.",
-"count": 4
-},
-{
-"pl": "200 x",
-"count": 4
-},
-{
-"pl": "ok. 30 000 punktów doświadczenia dla gracza,",
-"count": 4
-},
-{
-"pl": "Znajdź i przynieś: 4 x",
-"count": 4
-},
-{
-"pl": "Bursztyny",
-"count": 3
-},
-{
-"pl": "Borsuk",
-"count": 3
-},
-{
-"pl": "Czempioni",
-"count": 3
-},
-{
-"pl": "Frakcje",
-"count": 3
-},
-{
-"pl": "Jaskinia Smoka",
-"count": 3
-},
-{
-"pl": "Legendy",
-"count": 3
-},
-{
-"pl": "Lodowy kryształ",
-"count": 3
-},
-{
-"pl": "Orby",
-"count": 3
-},
-{
-"pl": "Nazgulica",
-"count": 3
-},
-{
-"pl": "Pozostałe",
-"count": 3
-},
-{
-"pl": "Plany wrogiej frakcji",
-"count": 3
-},
-{
-"pl": "Pod Złotym Świniakiem",
-"count": 3
-},
-{
-"pl": "Siedziba Herszta",
-"count": 3
-},
-{
-"pl": "Szczapy drewna",
-"count": 3
-},
-{
-"pl": "Zadania codzienne",
-"count": 3
-},
-{
-"pl": ": Trans, Okrzyk bojowy, Ryk, Gryzienie.",
-"count": 3
-},
-{
-"pl": "Admirała Utoru",
-"count": 3
-},
-{
-"pl": "• Maszynownia",
-"count": 3
-},
-{
-"pl": "nie",
-"count": 3
-},
-{
-"pl": "Jaszczurzy Cmentarz",
-"count": 3
-},
-{
-"pl": "Oczyszczenie",
-"count": 3
-},
-{
-"pl": "Ukucie lalki",
-"count": 3
-},
-{
-"pl": "Grupowe odwrócenie",
-"count": 3
-},
-{
-"pl": "Kowal Woberg w",
-"count": 3
-},
-{
-"pl": "Cyganka Issa w Alairl,",
-"count": 3
-},
-{
-"pl": "Handlarz Eryk w Garnizon Dmother,",
-"count": 3
-},
-{
-"pl": "Buławy haligardzkie",
-"count": 3
-},
-{
-"pl": "Chorągwie haligardzkie",
-"count": 3
-},
-{
-"pl": "Sola",
-"count": 3
-},
-{
-"pl": "Przedmiot potrzebny do wykonania",
-"count": 3
-},
-{
-"pl": "Obroży",
-"count": 3
-},
-{
-"pl": "dla Petów.",
-"count": 3
-},
-{
-"pl": "Przysmak z Yoko",
-"count": 3
-},
-{
-"pl": "Tona",
-"count": 3
-},
-{
-"pl": "Ery",
-"count": 3
-},
-{
-"pl": "Tunele pająków",
-"count": 3
-},
-{
-"pl": "Wieża - parter",
-"count": 3
-},
-{
-"pl": "Zakup w Sklepie Premium,",
-"count": 3
-},
-{
-"pl": "Z platynowych skrzynek,",
-"count": 3
-},
-{
 "pl": "Wykonuje je Lukas Landau w Posesji Landau za 3 200 sztuk złota, po dostarczeniu składników:",
 "count": 3
 },
@@ -4736,23 +80,7 @@
 "count": 3
 },
 {
-"pl": "przetapiania",
-"count": 3
-},
-{
-"pl": "Składnik potrzebny do wytworzenia",
-"count": 3
-},
-{
-"pl": "Wzmocnionych raków",
-"count": 3
-},
-{
 "pl": "Pozostałości haligardzkiego żołnierza, który poległ w walkach z Vorlingami. Magiczny artefakt, służący do przywołania Selene.",
-"count": 3
-},
-{
-"pl": "Pamiątka",
 "count": 3
 },
 {
@@ -4760,107 +88,7 @@
 "count": 3
 },
 {
-"pl": "Składnik do zebrania w trakcie aktywnego",
-"count": 3
-},
-{
-"pl": "Grzybobranie",
-"count": 3
-},
-{
-"pl": "Niezbędny składnik",
-"count": 3
-},
-{
-"pl": "Pasaż Fyodora",
-"count": 3
-},
-{
-"pl": "Jaskinia pod wodospadem",
-"count": 3
-},
-{
-"pl": "Jaskinia (na północy jeziora)",
-"count": 3
-},
-{
-"pl": ": I Klatka gildyjna",
-"count": 3
-},
-{
-"pl": "Kamienne kociątko",
-"count": 3
-},
-{
-"pl": "Odporność na ataki mentalne",
-"count": 3
-},
-{
-"pl": "Statystyki",
-"count": 3
-},
-{
-"pl": "Przywołany jako I",
-"count": 3
-},
-{
-"pl": "Przywołany jako II",
-"count": 3
-},
-{
-"pl": "Przywołany jako III",
-"count": 3
-},
-{
-"pl": "80-90 lvl",
-"count": 3
-},
-{
-"pl": "Dotkliwie uderzenie",
-"count": 3
-},
-{
-"pl": "Władcy Marionetek",
-"count": 3
-},
-{
-"pl": "Ziołowego wywaru",
-"count": 3
-},
-{
-"pl": "Siedziba Krzyżaka",
-"count": 3
-},
-{
-"pl": "u Dillega w Górach Koldów.",
-"count": 3
-},
-{
-"pl": "Wrak statku",
-"count": 3
-},
-{
-"pl": "Strategiczny strzał",
-"count": 3
-},
-{
-"pl": "Grupowe ogłuszenie",
-"count": 3
-},
-{
-"pl": "Rozstaje",
-"count": 3
-},
-{
 "pl": "Wykonuje je Iga w Szpitalu za 20 sztuk złota, po dostarczeniu składników:",
-"count": 3
-},
-{
-"pl": "Dusze nietoperzy",
-"count": 3
-},
-{
-"pl": "Dusze gadów",
 "count": 3
 },
 {
@@ -4868,135 +96,7 @@
 "count": 3
 },
 {
-"pl": "Inhibitora turkusowego",
-"count": 3
-},
-{
-"pl": "Grupowe ogłsuszenie",
-"count": 3
-},
-{
-"pl": "Magazyn Osłabionego Konstrutka",
-"count": 3
-},
-{
-"pl": "Jaskinia pod lodem",
-"count": 3
-},
-{
-"pl": "Odkleszczanie",
-"count": 3
-},
-{
-"pl": "Krew Jeti",
-"count": 3
-},
-{
-"pl": "Prawdziwe kłamstwa",
-"count": 3
-},
-{
-"pl": "lub kupić u Azarii w Wiosce Druidów za 500 platyny.",
-"count": 3
-},
-{
-"pl": "70 x",
-"count": 3
-},
-{
-"pl": "Bezwodnika średniego",
-"count": 3
-},
-{
-"pl": "80 x",
-"count": 3
-},
-{
-"pl": "Sposób na żelazo",
-"count": 3
-},
-{
 "pl": "Składnik używany do produkcji Inhibitora Topazowego. Wykonuje go Aegustahephium w Wiosce Druidów.",
-"count": 3
-},
-{
-"pl": "Inhibitora Topazowego",
-"count": 3
-},
-{
-"pl": "Zakurzone grymuary",
-"count": 3
-},
-{
-"pl": "Jaskinia u orków",
-"count": 3
-},
-{
-"pl": "Dusze nieumarłych",
-"count": 3
-},
-{
-"pl": "40 000 złota.",
-"count": 3
-},
-{
-"pl": "Wzmocnienie statystyk",
-"count": 3
-},
-{
-"pl": "Olbrzymie Flasze Ulepszeń",
-"count": 3
-},
-{
-"pl": "Jaskinia Herszta",
-"count": 3
-},
-{
-"pl": "Namiot wodza orków",
-"count": 3
-},
-{
-"pl": "Schronisko",
-"count": 3
-},
-{
-"pl": "Żabi raj",
-"count": 3
-},
-{
-"pl": "Jaskinie pod lodem",
-"count": 3
-},
-{
-"pl": "Mortus",
-"count": 3
-},
-{
-"pl": "W etapie",
-"count": 3
-},
-{
-"pl": "wymagane jest oddanie",
-"count": 3
-},
-{
-"pl": "50 szt.",
-"count": 3
-},
-{
-"pl": ", który wzmacnia obrażenia z umiejętności",
-"count": 3
-},
-{
-"pl": "Modyfikator trafień wręcz i dystansowych",
-"count": 3
-},
-{
-"pl": "na poziomach",
-"count": 3
-},
-{
-"pl": ": Założona broń biała",
 "count": 3
 },
 {
@@ -5008,34 +108,6 @@
 "count": 3
 },
 {
-"pl": "Otrzymujemy w nagrodę za wykonanie",
-"count": 3
-},
-{
-"pl": "od Wiedźmy Hoberl na Bagnach.",
-"count": 3
-},
-{
-"pl": ": brak",
-"count": 3
-},
-{
-"pl": "Redukcja Leczenia",
-"count": 3
-},
-{
-"pl": "Obrażenia: (120+lvl)",
-"count": 3
-},
-{
-"pl": "+1% co poziom",
-"count": 3
-},
-{
-"pl": "Moc: +30",
-"count": 3
-},
-{
 "pl": "Więcej o naprawie, ładowaniu oraz modyfikacjach sprzętu dowiesz się",
 "count": 3
 },
@@ -5044,99 +116,7 @@
 "count": 3
 },
 {
-"pl": "Szybszy odpoczynek",
-"count": 3
-},
-{
-"pl": "Szansa na unik gdy ciężko ranny",
-"count": 3
-},
-{
-"pl": "Szansa na mocniejszy atak krytyczny",
-"count": 3
-},
-{
-"pl": "Większa szansa trafienia po chybieniu",
-"count": 3
-},
-{
-"pl": "Większe obrażenia na bossy",
-"count": 3
-},
-{
-"pl": "Większe obrażenia na zwykłych przeciwnikach",
-"count": 3
-},
-{
-"pl": "Szansa na przejęcie kondycji",
-"count": 3
-},
-{
-"pl": "Szansa na przejęcie many",
-"count": 3
-},
-{
-"pl": "Szansa na przejęcie zdrowia",
-"count": 3
-},
-{
-"pl": "Większa siła ataku gdy ciężko ranny",
-"count": 3
-},
-{
-"pl": "Setów",
-"count": 3
-},
-{
-"pl": "2 100 000 złota i 1 500 platyny",
-"count": 3
-},
-{
-"pl": "2 800 000 złota i 2 000 platyny",
-"count": 3
-},
-{
-"pl": "3 500 000 złota i 2 500 platyny",
-"count": 3
-},
-{
-"pl": "4 200 000 złota i 3 000 platyny",
-"count": 3
-},
-{
-"pl": "5 600 000 złota i 4 000 platyny",
-"count": 3
-},
-{
-"pl": "z",
-"count": 3
-},
-{
-"pl": "Odporności magiczne",
-"count": 3
-},
-{
 "pl": "przez gildię. Wraz z wzrostem poziomu tego budynku zwiększa się liczba pozyskiwanego surowca w ciągu godziny.",
-"count": 3
-},
-{
-"pl": "Geomorpha",
-"count": 3
-},
-{
-"pl": "Szczególnym przypadkiem są Skalne Golemy znajdujące się w",
-"count": 3
-},
-{
-"pl": "Prawej Odnodze",
-"count": 3
-},
-{
-"pl": ", ponieważ posiadają gwarantowany drop",
-"count": 3
-},
-{
-"pl": "Granitu",
 "count": 3
 },
 {
@@ -5144,55 +124,7 @@
 "count": 3
 },
 {
-"pl": "Służy do przywołania Dragula.",
-"count": 3
-},
-{
-"pl": "Tylko na ścieżce wyzwania",
-"count": 3
-},
-{
 "pl": "Rodzaj sprzętu Jakość ornamentu I - III : Rodzaj sprzętu / Jakość ornamentu / I - III / IV - VI / VII - IX / X - XII",
-"count": 3
-},
-{
-"pl": "Kwarcowy",
-"count": 3
-},
-{
-"pl": "Łączenie",
-"count": 3
-},
-{
-"pl": "Zręczność: +35",
-"count": 3
-},
-{
-"pl": "Obrażenia: 180 (+lvl)",
-"count": 3
-},
-{
-"pl": "Moc: +45",
-"count": 3
-},
-{
-"pl": "Wiedza: +45",
-"count": 3
-},
-{
-"pl": "PŻ: +350",
-"count": 3
-},
-{
-"pl": "Alaril Południowy",
-"count": 3
-},
-{
-"pl": "Thalia",
-"count": 3
-},
-{
-"pl": ": Atak Grupowy",
 "count": 3
 },
 {
@@ -5204,427 +136,7 @@
 "count": 3
 },
 {
-"pl": "Większa szansa obrony po udanym ataku przeciwnika",
-"count": 3
-},
-{
-"pl": "Dodatkowy daimonit:",
-"count": 3
-},
-{
-"pl": "Większa szansa obrony po udanym ataku przeciwnika :",
-"count": 3
-},
-{
-"pl": "180 000 złota.",
-"count": 3
-},
-{
-"pl": "250 000 złota,",
-"count": 3
-},
-{
-"pl": "(w zależności od profesji).",
-"count": 3
-},
-{
-"pl": "Poziom nasycenia",
-"count": 3
-},
-{
-"pl": "Aspekcie",
-"count": 3
-},
-{
-"pl": "Pancerz sieczne: +12",
-"count": 3
-},
-{
-"pl": "Pancerz obuchowe: +12",
-"count": 3
-},
-{
-"pl": "Pancerz kłute: +12",
-"count": 3
-},
-{
-"pl": "Marturg",
-"count": 3
-},
-{
-"pl": "Pancerze kłute: +4",
-"count": 3
-},
-{
-"pl": "Wymagany poziom: 28",
-"count": 3
-},
-{
-"pl": "Wymagany poziom: 57",
-"count": 3
-},
-{
-"pl": "Mroczny Wąs",
-"count": 3
-},
-{
-"pl": "Nagroda w konkursie na Event",
-"count": 3
-},
-{
-"pl": "Wartość: 5 000 złota",
-"count": 3
-},
-{
-"pl": "Przedmiot przestał istnieć po procesie morfowania",
-"count": 3
-},
-{
-"pl": "Wymagana wiedza: 90",
-"count": 3
-},
-{
-"pl": "Urgoth",
-"count": 3
-},
-{
-"pl": "Obrażenia: 150",
-"count": 3
-},
-{
 "pl": "zawsze znajdują się w tych samych miejscach oraz posiadają taki sam skład. Poniżej znajduje się szczegółowy ich opis.",
-"count": 3
-},
-{
-"pl": "Modyfikator",
-"count": 3
-},
-{
-"pl": "wsp orb",
-"count": 3
-},
-{
-"pl": "wsp qual",
-"count": 3
-},
-{
-"pl": "wsp kat",
-"count": 3
-},
-{
-"pl": "10 000 punktów doświadczenia dla gracza,",
-"count": 3
-},
-{
-"pl": "Sklep ze zwierzakami:",
-"count": 3
-},
-{
-"pl": "Podatki,",
-"count": 3
-},
-{
-"pl": "Psia sfora.",
-"count": 3
-},
-{
-"pl": "Wartość: 36 000 złota",
-"count": 3
-},
-{
-"pl": "Wymagany poziom: 18",
-"count": 3
-},
-{
-"pl": "Wartość: 40 000 złota",
-"count": 3
-},
-{
-"pl": "Wymagana siła: 25",
-"count": 3
-},
-{
-"pl": "Wymagana zręczność: 35",
-"count": 3
-},
-{
-"pl": "Waga: 1",
-"count": 3
-},
-{
-"pl": "Wymagana wiedza: 35",
-"count": 3
-},
-{
-"pl": "Kategoria: Miecze dwuręczne",
-"count": 3
-},
-{
-"pl": "Pancerz sieczne: +26",
-"count": 3
-},
-{
-"pl": "Odporność uroki: +35",
-"count": 3
-},
-{
-"pl": "Pancerz kłute: +37",
-"count": 3
-},
-{
-"pl": "Pancerz kłute: +38",
-"count": 3
-},
-{
-"pl": "Wymagana wiedza: 50",
-"count": 3
-},
-{
-"pl": "Obrażenia: 148",
-"count": 3
-},
-{
-"pl": "Moc: -5",
-"count": 3
-},
-{
-"pl": "Wartość: 1 700 000 złota",
-"count": 3
-},
-{
-"pl": "Wymagany poziom: 65",
-"count": 3
-},
-{
-"pl": "Wymagana zręczność: 65",
-"count": 3
-},
-{
-"pl": "Moc: +11",
-"count": 3
-},
-{
-"pl": "Wymagana moc: 75",
-"count": 3
-},
-{
-"pl": "Wymagana siła: 75",
-"count": 3
-},
-{
-"pl": "Zręczność: +37",
-"count": 3
-},
-{
-"pl": "Zręczność: +38",
-"count": 3
-},
-{
-"pl": "Waga: 16",
-"count": 3
-},
-{
-"pl": "Kondycja: +200",
-"count": 3
-},
-{
-"pl": "Waga: 19",
-"count": 3
-},
-{
-"pl": "Waga: 25",
-"count": 3
-},
-{
-"pl": "Siła: +27",
-"count": 3
-},
-{
-"pl": "Wiedza: +43",
-"count": 3
-},
-{
-"pl": "Waga: 21",
-"count": 3
-},
-{
-"pl": "Zręczność: +48",
-"count": 3
-},
-{
-"pl": "Kondycja: +250",
-"count": 3
-},
-{
-"pl": "Zręczność: +43",
-"count": 3
-},
-{
-"pl": "Kondycja: +140",
-"count": 3
-},
-{
-"pl": "Wiedza: +34",
-"count": 3
-},
-{
-"pl": "Zręczność: +31",
-"count": 3
-},
-{
-"pl": "Siła: +40",
-"count": 3
-},
-{
-"pl": "Moc: +27",
-"count": 3
-},
-{
-"pl": "Wymagana siła: 50",
-"count": 3
-},
-{
-"pl": "Pancerz sieczne: +50",
-"count": 3
-},
-{
-"pl": "Pancerz obuchowe: +50",
-"count": 3
-},
-{
-"pl": "Pancerz kłute: +50",
-"count": 3
-},
-{
-"pl": "Siła: +45",
-"count": 3
-},
-{
-"pl": "Odporność energia: +30",
-"count": 3
-},
-{
-"pl": "Wymagana moc: 50",
-"count": 3
-},
-{
-"pl": "Odporność uroki: +60",
-"count": 3
-},
-{
-"pl": "PŻ: +190",
-"count": 3
-},
-{
-"pl": "Regeneracja many: 2%",
-"count": 3
-},
-{
-"pl": "Siła: -5",
-"count": 3
-},
-{
-"pl": "Szansa na zredukowanie otrzymanych obrażeń: 9%",
-"count": 3
-},
-{
-"pl": "Siła: +32",
-"count": 3
-},
-{
-"pl": "Szansa na unik: 7%",
-"count": 3
-},
-{
-"pl": "Szansa na podwójny atak: 5%",
-"count": 3
-},
-{
-"pl": "Wartość: 20 złota",
-"count": 3
-},
-{
-"pl": "Siła: +1",
-"count": 3
-},
-{
-"pl": "Moc: +1",
-"count": 3
-},
-{
-"pl": "Czas respawnu",
-"count": 3
-},
-{
-"pl": "Czas do zniknięcia",
-"count": 3
-},
-{
-"pl": "25 min - 30 min",
-"count": 3
-},
-{
-"pl": "10 min - 12 min",
-"count": 3
-},
-{
-"pl": "15 min - 19 min",
-"count": 3
-},
-{
-"pl": "15 min - 25 min",
-"count": 3
-},
-{
-"pl": "2 h - 3 h",
-"count": 3
-},
-{
-"pl": "15 min",
-"count": 3
-},
-{
-"pl": "Mapa",
-"count": 3
-},
-{
-"pl": "+18% + Wzór",
-"count": 3
-},
-{
-"pl": "+21% + Wzór",
-"count": 3
-},
-{
-"pl": "+12% + Wzór",
-"count": 3
-},
-{
-"pl": "+13% + Wzór",
-"count": 3
-},
-{
-"pl": "+15% + Wzór",
-"count": 3
-},
-{
-"pl": "650 platyny - kompletny zestaw",
-"count": 3
-},
-{
-"pl": "1 700 talarów",
-"count": 3
-},
-{
-"pl": "1 200 talarów",
-"count": 3
-},
-{
-"pl": "349 platyny",
-"count": 3
-},
-{
-"pl": "Dostępny od 3.03 od godz. 11.30 do 10.03. do godz. 12.00.",
 "count": 3
 },
 {
@@ -5632,207 +144,7 @@
 "count": 3
 },
 {
-"pl": "Do kupienia w trakcie eventu dziady w 2024 r.",
-"count": 3
-},
-{
-"pl": "Zdobył go gracz o nicku: Hoax (Izin)",
-"count": 3
-},
-{
-"pl": "Hełm Potwora",
-"count": 3
-},
-{
-"pl": "Kondycja: +31",
-"count": 3
-},
-{
-"pl": "Pancerz obuchowe: +21",
-"count": 3
-},
-{
-"pl": "Pancerz kłute +23",
-"count": 3
-},
-{
-"pl": "PŻ: +68",
-"count": 3
-},
-{
-"pl": "PŻ: +28",
-"count": 3
-},
-{
-"pl": "PŻ: +51",
-"count": 3
-},
-{
-"pl": "PŻ: +41",
-"count": 3
-},
-{
-"pl": "Mana: +61",
-"count": 3
-},
-{
-"pl": "PŻ: +77",
-"count": 3
-},
-{
-"pl": "PŻ: +84",
-"count": 3
-},
-{
-"pl": "PŻ: +65",
-"count": 3
-},
-{
-"pl": "PŻ: +62",
-"count": 3
-},
-{
-"pl": "PŻ: +121",
-"count": 3
-},
-{
-"pl": "Kondycja: +68",
-"count": 3
-},
-{
-"pl": "PŻ: +64",
-"count": 3
-},
-{
-"pl": "PŻ: +139",
-"count": 3
-},
-{
-"pl": "PŻ: +102",
-"count": 3
-},
-{
-"pl": "Kondycja: +79",
-"count": 3
-},
-{
-"pl": "Siła: +21",
-"count": 3
-},
-{
-"pl": "PŻ: +158",
-"count": 3
-},
-{
-"pl": "Kondycja: +95",
-"count": 3
-},
-{
-"pl": "Kondycja: +81",
-"count": 3
-},
-{
-"pl": "Siła: +23",
-"count": 3
-},
-{
-"pl": "PŻ: +104",
-"count": 3
-},
-{
-"pl": "Pancerz kłute +33",
-"count": 3
-},
-{
-"pl": "Siła: +36",
-"count": 3
-},
-{
-"pl": "Kondycja: +138",
-"count": 3
-},
-{
-"pl": "Siła: +33",
-"count": 3
-},
-{
-"pl": "Kondycja: +114",
-"count": 3
-},
-{
-"pl": "PŻ: +138",
-"count": 3
-},
-{
-"pl": "PŻ: +155",
-"count": 3
-},
-{
-"pl": "PŻ: +178",
-"count": 3
-},
-{
-"pl": "Zręczność: +34",
-"count": 3
-},
-{
-"pl": "Pancerz obuchowe: +46",
-"count": 3
-},
-{
-"pl": "Pancerz kłute +42",
-"count": 3
-},
-{
-"pl": "Pancerz obuchowe: +43",
-"count": 3
-},
-{
-"pl": "Pancerz kłute +44",
-"count": 3
-},
-{
-"pl": "Kondycja: +177",
-"count": 3
-},
-{
-"pl": "Zręczność: +49",
-"count": 3
-},
-{
-"pl": "Wytwarzania",
-"count": 3
-},
-{
-"pl": "Trwający od",
-"count": 3
-},
-{
-"pl": "Retu",
-"count": 3
-},
-{
-"pl": "Umiejętności Specjalne",
-"count": 3
-},
-{
-"pl": "Reset",
-"count": 3
-},
-{
-"pl": "to instancja, w której spotkamy aż trójkę bossów -",
-"count": 3
-},
-{
-"pl": "Ghadirę",
-"count": 3
-},
-{
 "pl": ". Przewidziana jest dla graczy powyżej poziomu 30. Quest wprowadzający do instancji to",
-"count": 3
-},
-{
-"pl": "Spirala",
 "count": 3
 },
 {
@@ -5844,263 +156,11 @@
 "count": 3
 },
 {
-"pl": "Piętrze II",
-"count": 3
-},
-{
-"pl": "jest pokonanie pierwszego bossa instancji -",
-"count": 3
-},
-{
-"pl": "oraz przedostanie się do przejścia na",
-"count": 3
-},
-{
-"pl": "Piętro III",
-"count": 3
-},
-{
-"pl": "Piętrze III",
-"count": 3
-},
-{
-"pl": "jest pokonanie kolejnego bossa instancji -",
-"count": 3
-},
-{
-"pl": "oraz przedostanie się do przejścia do",
-"count": 3
-},
-{
-"pl": "Skarbca",
-"count": 3
-},
-{
-"pl": ". Celem gracza w",
-"count": 3
-},
-{
-"pl": "Skarbcu",
-"count": 3
-},
-{
-"pl": "jest pokonanie ostatniego bossa instancji -",
-"count": 3
-},
-{
-"pl": "Ghadiry",
-"count": 3
-},
-{
-"pl": "6 000 punktów doświadczenia dla gracza,",
-"count": 3
-},
-{
-"pl": "0-2 x",
-"count": 3
-},
-{
-"pl": "0-3 x",
-"count": 3
-},
-{
-"pl": "W przypadku niepowodzenia zadania:",
-"count": 3
-},
-{
-"pl": "40 poziom postaci,",
-"count": 3
-},
-{
-"pl": "60 poziom postaci.",
-"count": 3
-},
-{
-"pl": "70 poziom postaci.",
-"count": 3
-},
-{
 "pl": "Konkretnego bossa co najmniej ze ścieżki poznania lub co najmniej ze ścieżki przygody o nagrodzie 2",
 "count": 3
 },
 {
-"pl": "Murrag",
-"count": 3
-},
-{
-"pl": "Sołtys Przysiółka Trentis",
-"count": 3
-},
-{
-"pl": "6 poziom postaci,",
-"count": 3
-},
-{
-"pl": "Wybory Sołtysa",
-"count": 3
-},
-{
-"pl": "20 minut",
-"count": 3
-},
-{
-"pl": "7 minut",
-"count": 3
-},
-{
-"pl": "Wiedźma Horbel",
-"count": 3
-},
-{
-"pl": "5 minut",
-"count": 3
-},
-{
-"pl": "10 minut",
-"count": 3
-},
-{
-"pl": "60 x",
-"count": 3
-},
-{
-"pl": "12 minut",
-"count": 3
-},
-{
-"pl": "ok. 30 000 złota.",
-"count": 3
-},
-{
-"pl": "80 poziom postaci,",
-"count": 3
-},
-{
-"pl": "Znajdź i przynieś: 2 x",
-"count": 3
-},
-{
-"pl": "Broken HUD",
-"count": 2
-},
-{
-"pl": "Custoder",
-"count": 2
-},
-{
-"pl": "Druidzki Pył Życia",
-"count": 2
-},
-{
-"pl": "Drogie wino",
-"count": 2
-},
-{
-"pl": "Grobowiec Duchów",
-"count": 2
-},
-{
-"pl": "Flasze ulepszeń",
-"count": 2
-},
-{
-"pl": "Instancje",
-"count": 2
-},
-{
-"pl": "Jaskinia Wilków",
-"count": 2
-},
-{
-"pl": "Inhibitory",
-"count": 2
-},
-{
-"pl": "Inkarra",
-"count": 2
-},
-{
-"pl": "Kombinacje na filarach",
-"count": 2
-},
-{
-"pl": "Modyfikacje Sprzętu",
-"count": 2
-},
-{
-"pl": "Księga Nieumarłych vol. 666",
-"count": 2
-},
-{
-"pl": "Okręt Komandora",
-"count": 2
-},
-{
-"pl": "Sala Konstrukta v1",
-"count": 2
-},
-{
-"pl": "Receptura Adelweiga",
-"count": 2
-},
-{
-"pl": "Rycerz",
-"count": 2
-},
-{
-"pl": "Skiny",
-"count": 2
-},
-{
-"pl": "Surowce i składniki",
-"count": 2
-},
-{
-"pl": "Skrypt Uwagi",
-"count": 2
-},
-{
-"pl": "Umiejętności ogólne",
-"count": 2
-},
-{
-"pl": "Wrak Statku",
-"count": 2
-},
-{
-"pl": "Wymiar Klaudiusa",
-"count": 2
-},
-{
-"pl": "Wyzwania",
-"count": 2
-},
-{
-"pl": "Wódka",
-"count": 2
-},
-{
-"pl": "Żabi Raj",
-"count": 2
-},
-{
-"pl": "Źródło bytu",
-"count": 2
-},
-{
-"pl": "Żabka ulotna",
-"count": 2
-},
-{
-"pl": "Łza Driady",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Inhibitora Korundowego. Wykonuje go Lukas Landau na Posesji Landaua.",
-"count": 2
-},
-{
-"pl": "Inhibitora Korundowego",
 "count": 2
 },
 {
@@ -6108,15 +168,7 @@
 "count": 2
 },
 {
-"pl": "Wielkiej Flaszy Siły",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Małej Flaszy Zręczności. Wykonuje ją Daria w Trentis.",
-"count": 2
-},
-{
-"pl": "Małej Flaszy Zręczności",
 "count": 2
 },
 {
@@ -6124,175 +176,11 @@
 "count": 2
 },
 {
-"pl": ": u Huberta",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Średniej Flaszy Siły. Wykonuje ją Miranda w Karczmie Lesgara.",
 "count": 2
 },
 {
-"pl": "Średniej Flaszy Siły",
-"count": 2
-},
-{
-"pl": "Eliksiru zdrowia",
-"count": 2
-},
-{
-"pl": "Eliksiru many",
-"count": 2
-},
-{
-"pl": "Eliksiru kondycji",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Olbrzymiej Flaszy Życia. Wykonuje ją Huncwyl w Garnizonie Dmorther.",
-"count": 2
-},
-{
-"pl": "Olbrzymiej Flaszy Życia",
-"count": 2
-},
-{
-"pl": "Jaskinia wilków",
-"count": 2
-},
-{
-"pl": "Palinki",
-"count": 2
-},
-{
-"pl": "Biblioteka Klaudiusa",
-"count": 2
-},
-{
-"pl": "Strzał",
-"count": 2
-},
-{
-"pl": "70-90 lvl",
-"count": 2
-},
-{
-"pl": "Twoja stara",
-"count": 2
-},
-{
-"pl": "Odporność na ogłuszenie",
-"count": 2
-},
-{
-"pl": "Ognista Sfera",
-"count": 2
-},
-{
-"pl": "Wymiana na jedną z nagród podczas aktywnego",
-"count": 2
-},
-{
-"pl": "Służy do wydobycia",
-"count": 2
-},
-{
-"pl": "Moczarki",
-"count": 2
-},
-{
-"pl": "w trakcie aktywnego",
-"count": 2
-},
-{
-"pl": "Można zakupić u Versteina w trakcie aktywnego",
-"count": 2
-},
-{
-"pl": "Przedmiot potrzebny do ukończenia",
-"count": 2
-},
-{
-"pl": "Jaskinia Olbrzymów",
-"count": 2
-},
-{
-"pl": "Przedmiot zablokowany w handlu",
-"count": 2
-},
-{
-"pl": ": u Violi",
-"count": 2
-},
-{
-"pl": "600 platyny",
-"count": 2
-},
-{
-"pl": "Porażenie",
-"count": 2
-},
-{
-"pl": "Zdradziecki parobek",
-"count": 2
-},
-{
-"pl": "Arcyłotrzy",
-"count": 2
-},
-{
-"pl": "Grobowiec Ducha Zamku",
-"count": 2
-},
-{
-"pl": "Przedmiot wymagany do",
-"count": 2
-},
-{
-"pl": "Zakup za 20 000 złota u następujących NPC:",
-"count": 2
-},
-{
-"pl": "ulepszania",
-"count": 2
-},
-{
-"pl": "Vorlińskich dukatów",
-"count": 2
-},
-{
-"pl": "u Bedisy w Karczmie pod Szczytem,",
-"count": 2
-},
-{
-"pl": "Łup z niektórych przeciwników.",
-"count": 2
-},
-{
-"pl": "Ducha Zamku",
-"count": 2
-},
-{
-"pl": "Szpila energetyczna",
-"count": 2
-},
-{
-"pl": "Stworzona na podstawie receptury mistrza Aleksa.",
-"count": 2
-},
-{
-"pl": "u Zaopatrzeniowca w Posesji Landaua.",
-"count": 2
-},
-{
-"pl": "Jaskinie pod Lodem",
-"count": 2
-},
-{
-"pl": "Esencję",
-"count": 2
-},
-{
-"pl": "za 25 000 złota u Frahlumpa w Norze dveirów;",
 "count": 2
 },
 {
@@ -6304,23 +192,7 @@
 "count": 2
 },
 {
-"pl": "Atakuje fizycznie, dystansowo, urokami",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Wielkiej Flaszy Wiedzy. Wykonuje ją Pierwszy Kapłan w Górach Koldów.",
-"count": 2
-},
-{
-"pl": "Wielkiej Flaszy Wiedzy",
-"count": 2
-},
-{
-"pl": "u Tizemlina w Wiosce Rybackiej,",
-"count": 2
-},
-{
-"pl": "u Zaopatrzeniowca na Posesji Landaua,",
 "count": 2
 },
 {
@@ -6328,99 +200,11 @@
 "count": 2
 },
 {
-"pl": "Olbrzymiej Flaszy Zręczności",
-"count": 2
-},
-{
-"pl": "20-40lvl",
-"count": 2
-},
-{
-"pl": "Krwi wampira",
-"count": 2
-},
-{
-"pl": "Eteryczne lampy",
-"count": 2
-},
-{
-"pl": "Eteryczne Lampy",
-"count": 2
-},
-{
-"pl": "Błędni wojownicy",
-"count": 2
-},
-{
-"pl": "zwierzaka",
-"count": 2
-},
-{
-"pl": "podczas aktywnego",
-"count": 2
-},
-{
 "pl": ": Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak.",
 "count": 2
 },
 {
-"pl": "Małej Flaszy Many",
-"count": 2
-},
-{
-"pl": "Statek Ichtiona",
-"count": 2
-},
-{
-"pl": "Windykacja",
-"count": 2
-},
-{
-"pl": "Zlecenie na paszę",
-"count": 2
-},
-{
-"pl": "Jaskinie pod Granicą",
-"count": 2
-},
-{
-"pl": "Gniazdo Jastrzębiora",
-"count": 2
-},
-{
-"pl": "60-100 lvl",
-"count": 2
-},
-{
-"pl": "Opuszczona Wieża",
-"count": 2
-},
-{
-"pl": "Ostygły meteoryt",
-"count": 2
-},
-{
-"pl": "Gabrysię",
-"count": 2
-},
-{
-"pl": "Dwa kawałki mapy do zdobycia osobno.",
-"count": 2
-},
-{
-"pl": "Fragment mapy prowadzący do Władcy Marionetek.",
-"count": 2
-},
-{
 "pl": "Drop - Zdobycie poprzez zabicie Adelweiga i Starego Adelweiga",
-"count": 2
-},
-{
-"pl": "Występowanie",
-"count": 2
-},
-{
-"pl": "Atakuje z dystansu i urokami.",
 "count": 2
 },
 {
@@ -6432,19 +216,7 @@
 "count": 2
 },
 {
-"pl": "Średniej Flaszy Kondycji",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Olbrzymiej Flaszy Niszczenia. Wykonuje ją Huncwyl w Garnizonie Dmorther.",
-"count": 2
-},
-{
-"pl": "Olbrzymiej Flaszy Niszczenia",
-"count": 2
-},
-{
-"pl": "Małej Flaszy Kondycji",
 "count": 2
 },
 {
@@ -6452,15 +224,7 @@
 "count": 2
 },
 {
-"pl": "Wielkiej Flaszy Zręczności",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Olbrzymiej Flaszy Wiedzy. Wykonuje ją Enna w Garnizonie Dmorther.",
-"count": 2
-},
-{
-"pl": "Olbrzymiej Flaszy Wiedzy",
 "count": 2
 },
 {
@@ -6468,27 +232,7 @@
 "count": 2
 },
 {
-"pl": "Średniej Flaszy Many",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Średniej Flaszy Życia. Wykonuje ją Wiła w Alarilu.",
-"count": 2
-},
-{
-"pl": "Średniej Flaszy Życia",
-"count": 2
-},
-{
-"pl": "Obroża",
-"count": 2
-},
-{
-"pl": "Tresura",
-"count": 2
-},
-{
-"pl": "i 50 x",
 "count": 2
 },
 {
@@ -6508,31 +252,11 @@
 "count": 2
 },
 {
-"pl": "Małej Flaszy Niszczenia",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Olbrzymiej Flaszy Mocy. Wykonuje ją Daron w Garnizonie Dmorther.",
 "count": 2
 },
 {
-"pl": "Olbrzymiej Flaszy Mocy",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Inhibitora Kwarcowego. Wykonuje go Sigius po przebudzeniu.",
-"count": 2
-},
-{
-"pl": "Inhibitora Kwarcowego",
-"count": 2
-},
-{
-"pl": "Trucizna",
-"count": 2
-},
-{
-"pl": "Przyzwanie: Fanatyk",
 "count": 2
 },
 {
@@ -6552,15 +276,7 @@
 "count": 2
 },
 {
-"pl": ": I klatka gildyjna",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Wielkiej Flaszy Życia. Wykonuje ją Rentor w Górach Koldów.",
-"count": 2
-},
-{
-"pl": "Wielkiej Flaszy Życia",
 "count": 2
 },
 {
@@ -6568,47 +284,7 @@
 "count": 2
 },
 {
-"pl": "Wielkiej Flaszy Niszczenia",
-"count": 2
-},
-{
-"pl": "Elementu antracytowego",
-"count": 2
-},
-{
-"pl": "Przedmiot potrzebny do przywołania zwierzaka:",
-"count": 2
-},
-{
-"pl": "Ochrona Nienażarty",
-"count": 2
-},
-{
-"pl": "Surowiec umożliwiający inkrustację sprzętu.",
-"count": 2
-},
-{
-"pl": "Rarów, Setów, Rarów dla petów oraz Synergetyków,",
-"count": 2
-},
-{
-"pl": "Orbów.",
-"count": 2
-},
-{
-"pl": "55 x",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Małej Flaszy Wiedzy. Wykonuje ją Daria w Trentis.",
-"count": 2
-},
-{
-"pl": "Małej Flaszy Wiedzy",
-"count": 2
-},
-{
-"pl": "Elementu amarantowego",
 "count": 2
 },
 {
@@ -6616,27 +292,7 @@
 "count": 2
 },
 {
-"pl": "2 200 000 złota",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Wielkiej Flaszy Many. Wykonuje ją Neilin w Posesji Darko.",
-"count": 2
-},
-{
-"pl": "Wielkiej Flaszy Many",
-"count": 2
-},
-{
-"pl": "Małej Flaszy Siły",
-"count": 2
-},
-{
-"pl": "Małej Flaszy Życia",
-"count": 2
-},
-{
-"pl": "Przepis, który umożliwia stworzenie zwierzaka.",
 "count": 2
 },
 {
@@ -6644,47 +300,7 @@
 "count": 2
 },
 {
-"pl": "Olbrzymiej Flaszy Many",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Średniej Flaszy Zręczności. Wykonuje ją Żwieja w Wiosce Druidów.",
-"count": 2
-},
-{
-"pl": "Średniej Flaszy Zręczności",
-"count": 2
-},
-{
-"pl": "Odporność na nieuruchomienie",
-"count": 2
-},
-{
-"pl": "Zamarznięte jezioro",
-"count": 2
-},
-{
-"pl": "Składnik używany do produkcji Elementu limetytowego.",
-"count": 2
-},
-{
-"pl": "Zlecenia zielarki",
-"count": 2
-},
-{
-"pl": "Wielkie polowanie",
-"count": 2
-},
-{
-"pl": "Niedźwiedzia non grata",
-"count": 2
-},
-{
-"pl": "Nagroda za udział w Evencie",
-"count": 2
-},
-{
-"pl": "Leże Wendigo",
 "count": 2
 },
 {
@@ -6692,15 +308,7 @@
 "count": 2
 },
 {
-"pl": "Średniej Flaszy Mocy",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Średniej Flaszy Niszczenia. Wykonuje ją Wiła w Alarilu.",
-"count": 2
-},
-{
-"pl": "Średniej Flaszy Niszczenia",
 "count": 2
 },
 {
@@ -6708,19 +316,7 @@
 "count": 2
 },
 {
-"pl": "Wielkiej Flaszy Mocy",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Olbrzymiej Flaszy Siły. Wykonuje ją Daron w Garnizonie Dmorther.",
-"count": 2
-},
-{
-"pl": "Olbrzymiej Flaszy Siły",
-"count": 2
-},
-{
-"pl": "Plaża",
 "count": 2
 },
 {
@@ -6728,99 +324,11 @@
 "count": 2
 },
 {
-"pl": "Wyzwań tygodniowych",
-"count": 2
-},
-{
-"pl": "90-120 lvl",
-"count": 2
-},
-{
-"pl": "Uderzenia cienia",
-"count": 2
-},
-{
-"pl": "40 lvl",
-"count": 2
-},
-{
-"pl": "Plażowe menu",
-"count": 2
-},
-{
-"pl": "30 Imperiałów",
-"count": 2
-},
-{
-"pl": "Małej Flaszy Mocy",
-"count": 2
-},
-{
-"pl": "Goblin Szaman",
-"count": 2
-},
-{
-"pl": "Upadły Łucznik",
-"count": 2
-},
-{
 "pl": "Składnik używany do produkcji Średniej Flaszy Wiedzy. Wykonuje ją Żwieja w Wiosce Druidów.",
 "count": 2
 },
 {
-"pl": "Średniej Flaszy Wiedzy",
-"count": 2
-},
-{
-"pl": "Polowanie na wilki",
-"count": 2
-},
-{
-"pl": "Polowanie na burkany",
-"count": 2
-},
-{
 "pl": "Pamiątka po burzliwej przeszłości masywu Dmother. Przedmiot wymagany do przywołania Selene. Sołtys Beirn - Halagar, powinien wiedzieć coś więcej.",
-"count": 2
-},
-{
-"pl": "od Lebera w Karczmie pod Szczytem,",
-"count": 2
-},
-{
-"pl": "Dzienniki haligardzkie",
-"count": 2
-},
-{
-"pl": "Statek Komandora",
-"count": 2
-},
-{
-"pl": "Jaskinia na Masywie",
-"count": 2
-},
-{
-"pl": "30-80 lvl",
-"count": 2
-},
-{
-"pl": "Statek",
-"count": 2
-},
-{
-"pl": "50 lvl",
-"count": 2
-},
-{
-"pl": "Gniazdo Jastrzębiora,",
-"count": 2
-},
-{
-"pl": "Cmentarz Seleny",
-"count": 2
-},
-{
-"pl": "Pałac Morany,",
 "count": 2
 },
 {
@@ -6844,26 +352,6 @@
 "count": 2
 },
 {
-"pl": "Wielkiej Flaszy Kondycji",
-"count": 2
-},
-{
-"pl": "Grupowe leczenie",
-"count": 2
-},
-{
-"pl": "Las Marionetek",
-"count": 2
-},
-{
-"pl": "Elementu cyjanowego",
-"count": 2
-},
-{
-"pl": "Niedźwiedzia",
-"count": 2
-},
-{
 "pl": "Wykonuje ją Żwieja w Wiosce Druidów za 1 000 sztuk złota, po dostarczeniu składników:",
 "count": 2
 },
@@ -6884,223 +372,7 @@
 "count": 2
 },
 {
-"pl": "Olbrzymiej Flaszy Kondycji",
-"count": 2
-},
-{
-"pl": "Koldy i kłusownicy",
-"count": 2
-},
-{
-"pl": "Miedziany interes",
-"count": 2
-},
-{
-"pl": "Uderzenia Cienia",
-"count": 2
-},
-{
-"pl": "Płaskowyż Dmorther,",
-"count": 2
-},
-{
-"pl": "Beirn,",
-"count": 2
-},
-{
-"pl": "Półka Skalna",
-"count": 2
-},
-{
-"pl": "10 000 szt.",
-"count": 2
-},
-{
-"pl": "Cienia",
-"count": 2
-},
-{
-"pl": "Mroku",
-"count": 2
-},
-{
 "pl": "Unikat. Stworzony głosami wielu, rękami jednego, dostępny nielicznym. Niepodobny do niczego. Tylko wybrańcy mogą posiadać swojego własnego Borsuka.",
-"count": 2
-},
-{
-"pl": "Atakuje fizycznie, dystansowo i urokami.",
-"count": 2
-},
-{
-"pl": ", który zadaje obrażenia bierne.",
-"count": 2
-},
-{
-"pl": "Modyfikator trafień wręcz, dystansowych i mentalnych",
-"count": 2
-},
-{
-"pl": "Rozbicie",
-"count": 2
-},
-{
-"pl": "zapewnia punktowy bonus do odporności, a na poziomach",
-"count": 2
-},
-{
-"pl": "Na",
-"count": 2
-},
-{
-"pl": "Falę Gniewu",
-"count": 2
-},
-{
-"pl": "Najazd Pantarików",
-"count": 2
-},
-{
-"pl": ": z/d",
-"count": 2
-},
-{
-"pl": "Zapomniany Korytarz,",
-"count": 2
-},
-{
-"pl": "Wilcza jama",
-"count": 2
-},
-{
-"pl": "Wybrzeże,",
-"count": 2
-},
-{
-"pl": "Statek,",
-"count": 2
-},
-{
-"pl": "Góry Koldów,",
-"count": 2
-},
-{
-"pl": "Jaskinia Olbrzymów,",
-"count": 2
-},
-{
-"pl": "Rarom",
-"count": 2
-},
-{
-"pl": "Setom",
-"count": 2
-},
-{
-"pl": "95% efektu",
-"count": 2
-},
-{
-"pl": "87% efektu",
-"count": 2
-},
-{
-"pl": "80% efektu",
-"count": 2
-},
-{
-"pl": "74% efektu",
-"count": 2
-},
-{
-"pl": "69% efektu",
-"count": 2
-},
-{
-"pl": "64% efektu",
-"count": 2
-},
-{
-"pl": "59% efektu",
-"count": 2
-},
-{
-"pl": "54% efektu",
-"count": 2
-},
-{
-"pl": "50% efektu",
-"count": 2
-},
-{
-"pl": "Poziom drifu",
-"count": 2
-},
-{
-"pl": "Magnidrif err",
-"count": 2
-},
-{
-"pl": "Wyssanie many: 2%",
-"count": 2
-},
-{
-"pl": "Magnidrif astah",
-"count": 2
-},
-{
-"pl": "Modyfikator obrażeń fizycznych: 2%",
-"count": 2
-},
-{
-"pl": "Magnidrif teld",
-"count": 2
-},
-{
-"pl": "Szansa na podwójny atak: 2%",
-"count": 2
-},
-{
-"pl": "Magnidrif unn",
-"count": 2
-},
-{
-"pl": "Dodatkowe obrażenia od ognia: 1,4%",
-"count": 2
-},
-{
-"pl": "Magnidrif ling",
-"count": 2
-},
-{
-"pl": "Modyfikator trafień dystansowych: 4%",
-"count": 2
-},
-{
-"pl": "Magnidrif oda",
-"count": 2
-},
-{
-"pl": "Magnidrif ulk",
-"count": 2
-},
-{
-"pl": "Modyfikator trafień wręcz: 4%",
-"count": 2
-},
-{
-"pl": "Ann - Regeneracja many",
-"count": 2
-},
-{
-"pl": "Eras - Regeneracja kondycji",
-"count": 2
-},
-{
-"pl": "Lun - Odporność na efekty krępujące i ukazanie",
-"count": 2
-},
-{
-"pl": "Faln - Redukcja otrzymanych obrażeń krytycznych",
 "count": 2
 },
 {
@@ -7108,283 +380,7 @@
 "count": 2
 },
 {
-"pl": "Grud - Obrona mentalna",
-"count": 2
-},
-{
-"pl": "Tall - Obrona wręcz",
-"count": 2
-},
-{
-"pl": "Tovi - Obrona dystansowa",
-"count": 2
-},
-{
-"pl": "Amad - Zużycie kondycji",
-"count": 2
-},
-{
-"pl": "Verd - Szansa na odczarowanie",
-"count": 2
-},
-{
-"pl": "Von - Zużycie many",
-"count": 2
-},
-{
-"pl": "Elen - Podwójne losowanie obrony",
-"count": 2
-},
-{
-"pl": "Grod - Odporność na trafienie krytyczne",
-"count": 2
-},
-{
-"pl": "Dur - Podwójne losowanie trafienia",
-"count": 2
-},
-{
-"pl": "Lorb - Przełamanie odporności na uroki",
-"count": 2
-},
-{
-"pl": "Err - Wyssanie many",
-"count": 2
-},
-{
-"pl": "Holm - Szansa na zredukowanie otrzymanych obrażeń",
-"count": 2
-},
-{
-"pl": "Iori - Redukcja otrzymanych obrażeń biernych",
-"count": 2
-},
-{
-"pl": "Abaf - Modyfikator obrażeń magicznych",
-"count": 2
-},
-{
-"pl": "Astah - Modyfikator obrażeń fizycznych",
-"count": 2
-},
-{
-"pl": "Kalh - Dodatkowe obrażenia od zimna",
-"count": 2
-},
-{
-"pl": "Unn - Dodatkowe obrażenia od ognia",
-"count": 2
-},
-{
-"pl": "Val - Dodatkowe obrażenia od energii",
-"count": 2
-},
-{
-"pl": "Ling - Modyfikator trafień dystansowych",
-"count": 2
-},
-{
-"pl": "Oda - Modyfikator trafień mentalnych",
-"count": 2
-},
-{
-"pl": "Ulk - Modyfikator trafień wręcz",
-"count": 2
-},
-{
-"pl": "Farid - Szansa na unik",
-"count": 2
-},
-{
-"pl": "Alorn - Redukcja otrzymanych obrażeń",
-"count": 2
-},
-{
-"pl": "Band - Szansa na trafienie krytyczne",
-"count": 2
-},
-{
-"pl": "Teld - Szansa na podwójny atak",
-"count": 2
-},
-{
-"pl": ": (1.3 * Moc + 0.7 * Wiedza) * Obrażenia",
-"count": 2
-},
-{
-"pl": "Siła leczenia PŻ: +5%",
-"count": 2
-},
-{
-"pl": "wpływa na siłę leczenia PŻ, ale tylko o",
-"count": 2
-},
-{
-"pl": "swojej wartości.",
-"count": 2
-},
-{
-"pl": "Każde użycie umiejętności nakłada na postać efekt",
-"count": 2
-},
-{
-"pl": ". Efekt ten kumuluje się i obniża wartość leczenia o",
-"count": 2
-},
-{
-"pl": "10% * ilość rund",
-"count": 2
-},
-{
-"pl": ", maksymalnie 90%.",
-"count": 2
-},
-{
-"pl": "Zakup u Karczmarz w",
-"count": 2
-},
-{
-"pl": "Tawernie",
-"count": 2
-},
-{
-"pl": "Wymagana klasa: Voodoo",
-"count": 2
-},
-{
-"pl": "Zdrowie: +150",
-"count": 2
-},
-{
-"pl": "Zdrowie: +200",
-"count": 2
-},
-{
-"pl": "Guardoria",
-"count": 2
-},
-{
-"pl": "+2% co poziom",
-"count": 2
-},
-{
-"pl": "Legendom",
-"count": 2
-},
-{
-"pl": "Drop z:",
-"count": 2
-},
-{
-"pl": "Ducha Energii",
-"count": 2
-},
-{
-"pl": "Ducha Ognia",
-"count": 2
-},
-{
-"pl": "Ducha Zimna",
-"count": 2
-},
-{
-"pl": "znajdują się przy grupie oznaczonej",
-"count": 2
-},
-{
-"pl": "Grupa przeciwników oznaczona na mapie kolorem",
-"count": 2
-},
-{
 "pl": ". W przypadku śmierci na instancji, postać odradza się poza nią, na Konarze w Lesie Koldów.",
-"count": 2
-},
-{
-"pl": "Większy udźwig",
-"count": 2
-},
-{
-"pl": "Dodatkowe doświadczenie",
-"count": 2
-},
-{
-"pl": "Dodatkowe złoto",
-"count": 2
-},
-{
-"pl": "Redukcja rozładowania sprzętu",
-"count": 2
-},
-{
-"pl": "Trentis,",
-"count": 2
-},
-{
-"pl": "Zbójecki las,",
-"count": 2
-},
-{
-"pl": "Wioska Rybacka,",
-"count": 2
-},
-{
-"pl": "Alaril,",
-"count": 2
-},
-{
-"pl": "zwierzaków",
-"count": 2
-},
-{
-"pl": "U",
-"count": 2
-},
-{
-"pl": "Brak limitu",
-"count": 2
-},
-{
-"pl": "Ranga II",
-"count": 2
-},
-{
-"pl": "Żołnierz",
-"count": 2
-},
-{
-"pl": "Ranga III",
-"count": 2
-},
-{
-"pl": "Ranga V",
-"count": 2
-},
-{
-"pl": "Codzienne zadania PvP",
-"count": 2
-},
-{
-"pl": "daily questów",
-"count": 2
-},
-{
-"pl": "Przebieg zadania",
-"count": 2
-},
-{
-"pl": "Rekonesans",
-"count": 2
-},
-{
-"pl": "Zarządzanie Gildią",
-"count": 2
-},
-{
-"pl": "\"O Gildii\"",
-"count": 2
-},
-{
-"pl": "\"Zespół\"",
 "count": 2
 },
 {
@@ -7392,15 +388,7 @@
 "count": 2
 },
 {
-"pl": "\"Aktualności\"",
-"count": 2
-},
-{
 "pl": "pozwala na umieszczenie aktualności Gildii oraz na wgląd do Skarbca.",
-"count": 2
-},
-{
-"pl": "\"Forum\"",
 "count": 2
 },
 {
@@ -7408,87 +396,11 @@
 "count": 2
 },
 {
-"pl": "\"Składki\"",
-"count": 2
-},
-{
 "pl": "pozwala na sprawdzanie wpłaconych przez członków Gildii składek.",
 "count": 2
 },
 {
-"pl": "\"Historia\"",
-"count": 2
-},
-{
 "pl": "pozwala na sprawdzanie historii Gildii. Znajdziemy w niej takie informacje jak pobieranie podatku, czy komunikaty opuszczenia Gildii przez jej członków.",
-"count": 2
-},
-{
-"pl": "Prestiż",
-"count": 2
-},
-{
-"pl": "Czempionów",
-"count": 2
-},
-{
-"pl": "Elit",
-"count": 2
-},
-{
-"pl": "216H",
-"count": 2
-},
-{
-"pl": "Zwiększa maksymalną liczbę członków gildii do 24",
-"count": 2
-},
-{
-"pl": "Koszt ładowania",
-"count": 2
-},
-{
-"pl": "Ilość ładunków 130.",
-"count": 2
-},
-{
-"pl": "Ilość ładunków 160.",
-"count": 2
-},
-{
-"pl": "Ilość ładunków 190.",
-"count": 2
-},
-{
-"pl": "Ilość ładunków 220.",
-"count": 2
-},
-{
-"pl": "Ilość ładunków 250.",
-"count": 2
-},
-{
-"pl": "Ilość ładunków 280.",
-"count": 2
-},
-{
-"pl": "Współczynnik bonusu",
-"count": 2
-},
-{
-"pl": "- Pozwala na wytwarzanie",
-"count": 2
-},
-{
-"pl": ", natomiast fragmenty",
-"count": 2
-},
-{
-"pl": "Grupy przeciwników oznaczone na mapie",
-"count": 2
-},
-{
-"pl": "Świeżego mięcha",
 "count": 2
 },
 {
@@ -7508,143 +420,7 @@
 "count": 2
 },
 {
-"pl": "Grupy oznaczone na mapie kolorem",
-"count": 2
-},
-{
-"pl": "posiadają posiadają losowe obszary respawnu.",
-"count": 2
-},
-{
-"pl": "Ranga II - III",
-"count": 2
-},
-{
-"pl": "(1 runda)",
-"count": 2
-},
-{
-"pl": "Suborb",
-"count": 2
-},
-{
-"pl": "Sub 1",
-"count": 2
-},
-{
-"pl": "Ranga Koszt (złoto) Typ Inhibitora Typ F: Ranga",
-"count": 2
-},
-{
-"pl": "Ranga Koszt (złoto) Typ Inhibitora Typ F: Koszt (złoto)",
-"count": 2
-},
-{
-"pl": "Ranga Koszt (złoto) Typ Inhibitora Typ F: Typ Inhibitora",
-"count": 2
-},
-{
 "pl": "Ranga Koszt (złoto) Typ Inhibitora Typ F: Typ Flaszy ulepszeń",
-"count": 2
-},
-{
-"pl": "Biorb",
-"count": 2
-},
-{
-"pl": "Magniorb",
-"count": 2
-},
-{
-"pl": "Arcyorb",
-"count": 2
-},
-{
-"pl": "brak",
-"count": 2
-},
-{
-"pl": "Rodzaj sprzętu Ranga sprzętu Ładunki dod: III",
-"count": 2
-},
-{
-"pl": "Rodzaj sprzętu Ranga sprzętu Ładunki dod: VI",
-"count": 2
-},
-{
-"pl": "Bi 1",
-"count": 2
-},
-{
-"pl": "Bi 2",
-"count": 2
-},
-{
-"pl": "Bi 3",
-"count": 2
-},
-{
-"pl": "Magni 1",
-"count": 2
-},
-{
-"pl": "Magni 2",
-"count": 2
-},
-{
-"pl": "Magni 3",
-"count": 2
-},
-{
-"pl": "Arcy 1",
-"count": 2
-},
-{
-"pl": "Arcy 2",
-"count": 2
-},
-{
-"pl": "Arcy 3",
-"count": 2
-},
-{
-"pl": "Ranga Koszt (złoto) Typ Inhibitora Typ F: Описание",
-"count": 2
-},
-{
-"pl": "Topazowy",
-"count": 2
-},
-{
-"pl": "Szmaragdowy",
-"count": 2
-},
-{
-"pl": "Andilunirowy",
-"count": 2
-},
-{
-"pl": "Osadzanie",
-"count": 2
-},
-{
-"pl": "to proces umieszczania ich w",
-"count": 2
-},
-{
-"pl": "Rarach",
-"count": 2
-},
-{
-"pl": "Setach",
-"count": 2
-},
-{
-"pl": "Wyjmowanie",
-"count": 2
-},
-{
-"pl": "Suborb - 10 000 złota,",
 "count": 2
 },
 {
@@ -7656,162 +432,6 @@
 "count": 2
 },
 {
-"pl": "to proces pozwalający uzyskać",
-"count": 2
-},
-{
-"pl": "Esencje",
-"count": 2
-},
-{
-"pl": "Rarów dla petów",
-"count": 2
-},
-{
-"pl": "Odłamki",
-"count": 2
-},
-{
-"pl": "Flasza ulepszeń",
-"count": 2
-},
-{
-"pl": "Siła: +35",
-"count": 2
-},
-{
-"pl": "Obrażenia: 165 (+lvl)",
-"count": 2
-},
-{
-"pl": "Zręczność: +65",
-"count": 2
-},
-{
-"pl": "Zlecenia Deona",
-"count": 2
-},
-{
-"pl": "Alaril Północny",
-"count": 2
-},
-{
-"pl": "lvl * -0.18",
-"count": 2
-},
-{
-"pl": "lvl * -0.2",
-"count": 2
-},
-{
-"pl": "lvl * -0.22",
-"count": 2
-},
-{
-"pl": "lvl * -0.24",
-"count": 2
-},
-{
-"pl": "lvl * -0.26",
-"count": 2
-},
-{
-"pl": "lvl * -0.28",
-"count": 2
-},
-{
-"pl": "Mroźne badania",
-"count": 2
-},
-{
-"pl": "Mróz",
-"count": 2
-},
-{
-"pl": "Pokładzie kajut",
-"count": 2
-},
-{
-"pl": "Karwasze",
-"count": 2
-},
-{
-"pl": "Tarcze",
-"count": 2
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku wręcz",
-"count": 2
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku dystansowego",
-"count": 2
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku mentalnego",
-"count": 2
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od czempionów i elit",
-"count": 2
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od ataku obszarowego",
-"count": 2
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od zwykłych przeciwników",
-"count": 2
-},
-{
-"pl": "Redukcja otrzymanych obrażeń od bossów",
-"count": 2
-},
-{
-"pl": "Większe obrażenia na czempiony i elity",
-"count": 2
-},
-{
-"pl": "Szansa na przełamanie farida i holma",
-"count": 2
-},
-{
-"pl": "Tabela nagród za DQ",
-"count": 2
-},
-{
-"pl": "100 000 złota",
-"count": 2
-},
-{
-"pl": "300 000 doświadczenia,",
-"count": 2
-},
-{
-"pl": "Ogar Utoru: Статистика",
-"count": 2
-},
-{
-"pl": "Ogar Utoru: Зоны атаки",
-"count": 2
-},
-{
-"pl": "Ogar Utoru: Умения",
-"count": 2
-},
-{
-"pl": "Ogar Utoru: Локация",
-"count": 2
-},
-{
-"pl": "Ogar Utoru: Иммунитеты / особые умения",
-"count": 2
-},
-{
-"pl": "Ogar Utoru: Дроп",
-"count": 2
-},
-{
 "pl": "Poziom : 80 Ranga : 9 Punkty życia : 2 800 Mana : 1 300 Kondycja : 1 500",
 "count": 2
 },
@@ -7820,527 +440,7 @@
 "count": 2
 },
 {
-"pl": "Aspekt",
-"count": 2
-},
-{
-"pl": "Odbite obrażenia",
-"count": 2
-},
-{
-"pl": "Zwiększenie poziomu",
-"count": 2
-},
-{
-"pl": "Okno Wzmocnień Loży",
-"count": 2
-},
-{
-"pl": "Aspektów",
-"count": 2
-},
-{
-"pl": "Typ przeciwnika",
-"count": 2
-},
-{
-"pl": "Anaia",
-"count": 2
-},
-{
-"pl": "Wymagany poziom: 26",
-"count": 2
-},
-{
-"pl": "Odporność ogień: +40",
-"count": 2
-},
-{
-"pl": "Zdobyty przez: Irbloss",
-"count": 2
-},
-{
-"pl": "Wiedza: +1",
-"count": 2
-},
-{
-"pl": "Pancerze sieczne: +4",
-"count": 2
-},
-{
-"pl": "Pancerze obuchowe: +4",
-"count": 2
-},
-{
-"pl": "Smuga Cienia",
-"count": 2
-},
-{
-"pl": "Pochodzenie nieznane",
-"count": 2
-},
-{
-"pl": "Disolver",
-"count": 2
-},
-{
-"pl": "Pancerz Odkrywcy",
-"count": 2
-},
-{
-"pl": "Otrzymał go gracz o nicku: Wulgarf",
-"count": 2
-},
-{
-"pl": "Przedmiot przestał istnieć w chwili usunięcia postaci",
-"count": 2
-},
-{
 "pl": "posiadają losowy obszar respawnu w początkowej części mapy. Grupy oznaczone kolorem",
-"count": 2
-},
-{
-"pl": "Power Statystyk",
-"count": 2
-},
-{
-"pl": "Power Odporności",
-"count": 2
-},
-{
-"pl": "Power Poziomu",
-"count": 2
-},
-{
-"pl": "Power Bonusów",
-"count": 2
-},
-{
-"pl": "poziom",
-"count": 2
-},
-{
-"pl": "Odporność na efekty krępujące i ukazanie",
-"count": 2
-},
-{
-"pl": "Leia",
-"count": 2
-},
-{
-"pl": "Felian",
-"count": 2
-},
-{
-"pl": "Krowa_Mućka",
-"count": 2
-},
-{
-"pl": "Krowa Mućka",
-"count": 2
-},
-{
-"pl": "Wymagana wiedza: 25",
-"count": 2
-},
-{
-"pl": "Wartość: 104 000 złota",
-"count": 2
-},
-{
-"pl": "Obrażenia: 95",
-"count": 2
-},
-{
-"pl": "Odporność ogień: +30",
-"count": 2
-},
-{
-"pl": "Odporność energia: +40",
-"count": 2
-},
-{
-"pl": "Pancerz kłute: +29",
-"count": 2
-},
-{
-"pl": "Pancerz kłute: +26",
-"count": 2
-},
-{
-"pl": "Odporność energia: +35",
-"count": 2
-},
-{
-"pl": "Mana: +140",
-"count": 2
-},
-{
-"pl": "Moc: +39",
-"count": 2
-},
-{
-"pl": "Odporności ogień: +20",
-"count": 2
-},
-{
-"pl": "Odporności zimno: +20",
-"count": 2
-},
-{
-"pl": "Wartość: 1 500 000 złota",
-"count": 2
-},
-{
-"pl": "Wymagany poziom: 63",
-"count": 2
-},
-{
-"pl": "PŻ: +290",
-"count": 2
-},
-{
-"pl": "Kategoria: Młoty jednoręczne",
-"count": 2
-},
-{
-"pl": "Kondycja: +170",
-"count": 2
-},
-{
-"pl": "Obrażenia: 179",
-"count": 2
-},
-{
-"pl": "Moc: +37",
-"count": 2
-},
-{
-"pl": "Siła: +24",
-"count": 2
-},
-{
-"pl": "Wymagana wiedza: 75",
-"count": 2
-},
-{
-"pl": "Pancerz kłute: +39",
-"count": 2
-},
-{
-"pl": "Wiedza: +37",
-"count": 2
-},
-{
-"pl": "Siła: +38",
-"count": 2
-},
-{
-"pl": "Waga: 24",
-"count": 2
-},
-{
-"pl": "Kondycja: +180",
-"count": 2
-},
-{
-"pl": "Wiedza: +32",
-"count": 2
-},
-{
-"pl": "Zręczność: +40",
-"count": 2
-},
-{
-"pl": "Siła: +44",
-"count": 2
-},
-{
-"pl": "Wymagana siła: 90",
-"count": 2
-},
-{
-"pl": "Wiedza: +39",
-"count": 2
-},
-{
-"pl": "Siła: +63",
-"count": 2
-},
-{
-"pl": "Zręczność: +42",
-"count": 2
-},
-{
-"pl": "Wiedza: +50",
-"count": 2
-},
-{
-"pl": "Siła: +50",
-"count": 2
-},
-{
-"pl": "Zręczność: +50",
-"count": 2
-},
-{
-"pl": "Odporność energia: +55",
-"count": 2
-},
-{
-"pl": "Siła: +53",
-"count": 2
-},
-{
-"pl": "Wymagana zręczność: 115",
-"count": 2
-},
-{
-"pl": "Zręczność: +45",
-"count": 2
-},
-{
-"pl": "PŻ: +700",
-"count": 2
-},
-{
-"pl": "Wymagana wiedza: 115",
-"count": 2
-},
-{
-"pl": "Siła: +49",
-"count": 2
-},
-{
-"pl": "PŻ: +340",
-"count": 2
-},
-{
-"pl": "Waga: 7",
-"count": 2
-},
-{
-"pl": "PŻ: +750",
-"count": 2
-},
-{
-"pl": "PŻ: +310",
-"count": 2
-},
-{
-"pl": "Wiedza: +58",
-"count": 2
-},
-{
-"pl": "Wartość: 57 500 000 złota",
-"count": 2
-},
-{
-"pl": "Odporność zimno: +60",
-"count": 2
-},
-{
-"pl": "Wymagana moc: 140",
-"count": 2
-},
-{
-"pl": "Moc [Poz. 1]: +0.5%",
-"count": 2
-},
-{
-"pl": "Wiedza [Poz. 1]: +0.5%",
-"count": 2
-},
-{
-"pl": "Wiedza: +56",
-"count": 2
-},
-{
-"pl": "Wymagana siła: 140",
-"count": 2
-},
-{
-"pl": "Siła [Poz. 1]: +0.5%",
-"count": 2
-},
-{
-"pl": "Zręczność [Poz. 1]: +0.5%",
-"count": 2
-},
-{
-"pl": "- nazywane również",
-"count": 2
-},
-{
-"pl": "Szansa na trafienie krytyczne: 8%",
-"count": 2
-},
-{
-"pl": "Szansa na zredukowanie otrzymanych obrażeń: 10%",
-"count": 2
-},
-{
-"pl": "Modyfikator obrażeń magicznych: 10%",
-"count": 2
-},
-{
-"pl": "Szansa na podwójny atak: 6%",
-"count": 2
-},
-{
-"pl": "Pancerz kłute +26",
-"count": 2
-},
-{
-"pl": "Szansa na podwójny atak: 8%",
-"count": 2
-},
-{
-"pl": "Obrażenia: 109",
-"count": 2
-},
-{
-"pl": "Mana: +260",
-"count": 2
-},
-{
-"pl": "Regeneracja kondycji: 2%",
-"count": 2
-},
-{
-"pl": "Zręczność: +27",
-"count": 2
-},
-{
-"pl": "Waga: 28",
-"count": 2
-},
-{
-"pl": "Wymagana klasa: VooDoo",
-"count": 2
-},
-{
-"pl": "Modyfikator trafień wręcz: 15%",
-"count": 2
-},
-{
-"pl": "Waga: 11",
-"count": 2
-},
-{
-"pl": "PŻ: +210",
-"count": 2
-},
-{
-"pl": "Modyfikator obrażeń magicznych: 15%",
-"count": 2
-},
-{
-"pl": "Wiedza: +41",
-"count": 2
-},
-{
-"pl": "Wiedza: +28",
-"count": 2
-},
-{
-"pl": "Modyfikator trafień dystansowych: 15%",
-"count": 2
-},
-{
-"pl": "Zręczność: +36",
-"count": 2
-},
-{
-"pl": "Bonus Szansa na unik: 7% Modyfikator tra: Описание",
-"count": 2
-},
-{
-"pl": "PŻ: +260",
-"count": 2
-},
-{
-"pl": "Zręczność: +41",
-"count": 2
-},
-{
-"pl": "Zręczność: +29",
-"count": 2
-},
-{
-"pl": "Zręczność: +44",
-"count": 2
-},
-{
-"pl": "Pancerz sieczne: +10",
-"count": 2
-},
-{
-"pl": "Pancerz obuchowe: +10",
-"count": 2
-},
-{
-"pl": "Pancerz kłute: +10",
-"count": 2
-},
-{
-"pl": "Waga: 23",
-"count": 2
-},
-{
-"pl": "Pancerz kłute: +27",
-"count": 2
-},
-{
-"pl": "Rękawice Sanji",
-"count": 2
-},
-{
-"pl": "Medalion z korpusu Werodesa",
-"count": 2
-},
-{
-"pl": "Buty z trupa",
-"count": 2
-},
-{
-"pl": "Chusta do zamaskowania",
-"count": 2
-},
-{
-"pl": "Wartość: 1 000 złota",
-"count": 2
-},
-{
-"pl": "Szpadel",
-"count": 2
-},
-{
-"pl": "Wartość: 0 platyny",
-"count": 2
-},
-{
-"pl": "Chusta Strażników Tryfkina",
-"count": 2
-},
-{
-"pl": "Hełm Qamdaka",
-"count": 2
-},
-{
-"pl": "Wartość: 250 000 złota",
-"count": 2
-},
-{
-"pl": "Pancerze sieczne: +25",
-"count": 2
-},
-{
-"pl": "Pancerze obuchowe: +25",
-"count": 2
-},
-{
-"pl": "Pancerze kłute: +22",
 "count": 2
 },
 {
@@ -8352,98 +452,6 @@
 "count": 2
 },
 {
-"pl": "Laska Marao",
-"count": 2
-},
-{
-"pl": "Pas Janaki",
-"count": 2
-},
-{
-"pl": "Rękawice Janaki",
-"count": 2
-},
-{
-"pl": "Medalion Marao",
-"count": 2
-},
-{
-"pl": "2 h - 2 h 30 min",
-"count": 2
-},
-{
-"pl": "45 min - 1 h",
-"count": 2
-},
-{
-"pl": "Zamek Gastelhof",
-"count": 2
-},
-{
-"pl": "12 min - 15 min",
-"count": 2
-},
-{
-"pl": "1 h 30 min - 2 h",
-"count": 2
-},
-{
-"pl": "45 min - 1 h 5 min",
-"count": 2
-},
-{
-"pl": "Wybrzeże, Statek,",
-"count": 2
-},
-{
-"pl": "40 min - 48 min",
-"count": 2
-},
-{
-"pl": "35 min - 47 min",
-"count": 2
-},
-{
-"pl": "25 min - 40 min",
-"count": 2
-},
-{
-"pl": "25 min",
-"count": 2
-},
-{
-"pl": "1 min",
-"count": 2
-},
-{
-"pl": "Dekonstrukcja",
-"count": 2
-},
-{
-"pl": "Grupa oznaczona na mapie",
-"count": 2
-},
-{
-"pl": "zawsze znajduje się w tym samym miejscu.",
-"count": 2
-},
-{
-"pl": "gildii",
-"count": 2
-},
-{
-"pl": "Informacje",
-"count": 2
-},
-{
-"pl": "Jak dotrzeć",
-"count": 2
-},
-{
-"pl": "Przebieg instancji",
-"count": 2
-},
-{
 "pl": "- oraz pokonanie go. W przypadku śmierci postać odradza się wewnątrz instancji.",
 "count": 2
 },
@@ -8452,15 +460,7 @@
 "count": 2
 },
 {
-"pl": "Odsłonięcie",
-"count": 2
-},
-{
 "pl": ", który powoduje zwiększenie obrażeń ze wszystkich ataków Sheeda ze strefy wręcz. Wartość wzmocnienia wyrażana jest w % i jest równa niższemu z poziomów tych umiejętności (np. Adept V = +12%)",
-"count": 2
-},
-{
-"pl": "Wrażliwość na ostrzał",
 "count": 2
 },
 {
@@ -8468,103 +468,7 @@
 "count": 2
 },
 {
-"pl": "Modyfikator trafień dystansowych i mentalnych",
-"count": 2
-},
-{
-"pl": "+8% + Wzór",
-"count": 2
-},
-{
-"pl": "+9% + Wzór",
-"count": 2
-},
-{
-"pl": "+10% + Wzór",
-"count": 2
-},
-{
-"pl": "+24% + Wzór",
-"count": 2
-},
-{
-"pl": "+26% + Wzór",
-"count": 2
-},
-{
-"pl": "+27% + Wzór",
-"count": 2
-},
-{
-"pl": "+29% + Wzór",
-"count": 2
-},
-{
-"pl": "+30% + Wzór",
-"count": 2
-},
-{
-"pl": "+16% + Wzór",
-"count": 2
-},
-{
-"pl": "+19% + Wzór",
-"count": 2
-},
-{
-"pl": "+22% + Wzór",
-"count": 2
-},
-{
-"pl": ": Założona broń",
-"count": 2
-},
-{
-"pl": "499 platyny",
-"count": 2
-},
-{
-"pl": "Zbroje premium",
-"count": 2
-},
-{
-"pl": "Blask",
-"count": 2
-},
-{
-"pl": "Do kupienia w trakcie eventu dziady w 2025 r.",
-"count": 2
-},
-{
-"pl": "Nagroda za ukończenie Questu Eventowego",
-"count": 2
-},
-{
-"pl": "Przerwane Dostawy",
-"count": 2
-},
-{
-"pl": "Do kupienia w trakcie eventu Black Friday w 2025 r.",
-"count": 2
-},
-{
-"pl": "Rogi Wojownika",
-"count": 2
-},
-{
 "pl": "Nagroda za zajęcie 1 miejsca w Lidze Niepokonanych w V sezonie Turniejowym",
-"count": 2
-},
-{
-"pl": "Irokez",
-"count": 2
-},
-{
-"pl": "Hełm Trevena",
-"count": 2
-},
-{
-"pl": "Bazinga",
 "count": 2
 },
 {
@@ -8572,499 +476,7 @@
 "count": 2
 },
 {
-"pl": "Odporność ogień: +12",
-"count": 2
-},
-{
-"pl": "Odporność zimno: +12",
-"count": 2
-},
-{
-"pl": "Odporność energia: +12",
-"count": 2
-},
-{
-"pl": "Odporność uroki: +12",
-"count": 2
-},
-{
-"pl": "Kondycja: +39",
-"count": 2
-},
-{
-"pl": "Mana: +42",
-"count": 2
-},
-{
-"pl": "PŻ: +109",
-"count": 2
-},
-{
-"pl": "PŻ: +21",
-"count": 2
-},
-{
-"pl": "Mana: +39",
-"count": 2
-},
-{
-"pl": "PŻ: +61",
-"count": 2
-},
-{
-"pl": "PŻ: +58",
-"count": 2
-},
-{
-"pl": "Kondycja: +57",
-"count": 2
-},
-{
-"pl": "PŻ: +49",
-"count": 2
-},
-{
-"pl": "Kondycja: +24",
-"count": 2
-},
-{
-"pl": "Mana: +38",
-"count": 2
-},
-{
-"pl": "PŻ: +83",
-"count": 2
-},
-{
-"pl": "PŻ: +59",
-"count": 2
-},
-{
-"pl": "Kondycja: +67",
-"count": 2
-},
-{
-"pl": "PŻ: +67",
-"count": 2
-},
-{
-"pl": "PŻ: +98",
-"count": 2
-},
-{
-"pl": "Odporność zimno: +24",
-"count": 2
-},
-{
-"pl": "PŻ: +46",
-"count": 2
-},
-{
-"pl": "PŻ: +136",
-"count": 2
-},
-{
-"pl": "PŻ: +129",
-"count": 2
-},
-{
-"pl": "Mana: +58",
-"count": 2
-},
-{
-"pl": "Kondycja: +69",
-"count": 2
-},
-{
-"pl": "Mana: +85",
-"count": 2
-},
-{
-"pl": "Mana: +71",
-"count": 2
-},
-{
-"pl": "PŻ: +66",
-"count": 2
-},
-{
-"pl": "Mana: +46",
-"count": 2
-},
-{
-"pl": "Odporność energia: +24",
-"count": 2
-},
-{
-"pl": "Odporność ogień: +27",
-"count": 2
-},
-{
-"pl": "Mana: +81",
-"count": 2
-},
-{
-"pl": "Mana: +84",
-"count": 2
-},
-{
-"pl": "Kondycja: +83",
-"count": 2
-},
-{
-"pl": "Mana: +88",
-"count": 2
-},
-{
-"pl": "Mana: +68",
-"count": 2
-},
-{
-"pl": "PŻ: +163",
-"count": 2
-},
-{
-"pl": "PŻ: +73",
-"count": 2
-},
-{
-"pl": "PŻ: +82",
-"count": 2
-},
-{
-"pl": "PŻ: +156",
-"count": 2
-},
-{
-"pl": "PŻ: +168",
-"count": 2
-},
-{
-"pl": "PŻ: +85",
-"count": 2
-},
-{
-"pl": "PŻ: +108",
-"count": 2
-},
-{
-"pl": "PŻ: +189",
-"count": 2
-},
-{
-"pl": "PŻ: +182",
-"count": 2
-},
-{
-"pl": "Odporność energia: +36",
-"count": 2
-},
-{
-"pl": "PŻ: +103",
-"count": 2
-},
-{
-"pl": "PŻ: +93",
-"count": 2
-},
-{
-"pl": "Mana: +92",
-"count": 2
-},
-{
-"pl": "PŻ: +115",
-"count": 2
-},
-{
-"pl": "PŻ: +186",
-"count": 2
-},
-{
-"pl": "Mana: +75",
-"count": 2
-},
-{
-"pl": "Odporność ogień: +38",
-"count": 2
-},
-{
-"pl": "PŻ: +124",
-"count": 2
-},
-{
-"pl": "Kondycja: +106",
-"count": 2
-},
-{
-"pl": "Mana: +108",
-"count": 2
-},
-{
-"pl": "Kondycja: +94",
-"count": 2
-},
-{
-"pl": "Odporność zimno: +46",
-"count": 2
-},
-{
-"pl": "Mana: +133",
-"count": 2
-},
-{
-"pl": "PŻ: +227",
-"count": 2
-},
-{
-"pl": "Mana: +141",
-"count": 2
-},
-{
-"pl": "PŻ: +113",
-"count": 2
-},
-{
-"pl": "Wiedza: +31",
-"count": 2
-},
-{
-"pl": "Odporność energia: +44",
-"count": 2
-},
-{
-"pl": "Odporność uroki: +44",
-"count": 2
-},
-{
-"pl": "Odporność ogień: +44",
-"count": 2
-},
-{
-"pl": "PŻ: +141",
-"count": 2
-},
-{
-"pl": "Kondycja: +149",
-"count": 2
-},
-{
-"pl": "Moc: +34",
-"count": 2
-},
-{
-"pl": "Mana: +144",
-"count": 2
-},
-{
-"pl": "Siła: +42",
-"count": 2
-},
-{
-"pl": "Kondycja: +133",
-"count": 2
-},
-{
-"pl": "Moc: +43",
-"count": 2
-},
-{
-"pl": "Pancerz kłute +46",
-"count": 2
-},
-{
-"pl": "Pancerz obuchowe: +44",
-"count": 2
-},
-{
-"pl": "PŻ: +142",
-"count": 2
-},
-{
-"pl": "Moc: +41",
-"count": 2
-},
-{
-"pl": "PŻ: +188",
-"count": 2
-},
-{
-"pl": "Moc: +48",
-"count": 2
-},
-{
-"pl": "Kondycja: +192",
-"count": 2
-},
-{
-"pl": "Zręczność: +46",
-"count": 2
-},
-{
-"pl": "Wiedza: +44",
-"count": 2
-},
-{
-"pl": "Kondycja: +245",
-"count": 2
-},
-{
-"pl": "Wiedza: +53",
-"count": 2
-},
-{
-"pl": "Flasz ulepszeń",
-"count": 2
-},
-{
-"pl": "80 lvl",
-"count": 2
-},
-{
-"pl": "Zaćmienie słońca",
-"count": 2
-},
-{
-"pl": "Parvan Razoff",
-"count": 2
-},
-{
-"pl": "Sprzedawca biżuterii",
-"count": 2
-},
-{
-"pl": "Sprzedawca",
-"count": 2
-},
-{
-"pl": "Haine",
-"count": 2
-},
-{
-"pl": "Jeśli postać jest pod wpływem efektu",
-"count": 2
-},
-{
-"pl": "Odwrócenia",
-"count": 2
-},
-{
-"pl": "Uciszenia",
-"count": 2
-},
-{
-"pl": ", mechanika gniewu zadziała zgodnie z nałożonym efektem.",
-"count": 2
-},
-{
-"pl": "Karczmarz",
-"count": 2
-},
-{
-"pl": "Atak Miotany",
-"count": 2
-},
-{
-"pl": "Umiejętności Ogólne",
-"count": 2
-},
-{
-"pl": "Umiejętności Pasywne",
-"count": 2
-},
-{
-"pl": "Adept",
-"count": 2
-},
-{
 "pl": "W tej lokacji nie znajdziemy żadnych innych grup przeciwników, poza bossem. Ghadira jest przeciwnikiem nieagresywnym (nie atakuje automatycznie w momencie zbliżenia się do niej).",
-"count": 2
-},
-{
-"pl": "Etap I - Przyniesienie Kamieni Tresera:",
-"count": 2
-},
-{
-"pl": "Kamieni Tresera",
-"count": 2
-},
-{
-"pl": "Etap II - Przyniesienie Elementów:",
-"count": 2
-},
-{
-"pl": "3 osobne zlecenia na dostarczenie każdorazowo 2 szt.",
-"count": 2
-},
-{
-"pl": "Elementów amarantowych",
-"count": 2
-},
-{
-"pl": "3 osobne zlecenia na dostarczenie każdorazowo 6 szt.",
-"count": 2
-},
-{
-"pl": "Elementów antracytowych",
-"count": 2
-},
-{
-"pl": "3 osobne zlecenia na dostarczenie każdorazowo 3 szt.",
-"count": 2
-},
-{
-"pl": "Elementów cyjanowych",
-"count": 2
-},
-{
-"pl": "Etap III - Zlecenia Tresera:",
-"count": 2
-},
-{
-"pl": "UWAGA - DQ",
-"count": 2
-},
-{
-"pl": "22 poziom postaci.",
-"count": 2
-},
-{
-"pl": "W przypadku powodzenia zadania:",
-"count": 2
-},
-{
-"pl": "50 honoru,",
-"count": 2
-},
-{
-"pl": "Wolne zlecenie.",
-"count": 2
-},
-{
-"pl": "65 poziom postaci.",
-"count": 2
-},
-{
-"pl": "Etap I:",
-"count": 2
-},
-{
-"pl": "Etap II:",
-"count": 2
-},
-{
-"pl": "Etap III:",
-"count": 2
-},
-{
-"pl": "Etap IV:",
-"count": 2
-},
-{
-"pl": "ok. 30 000 punktów doświadczenia dla zwierzaka.",
-"count": 2
-},
-{
-"pl": "Wykonanie",
 "count": 2
 },
 {
@@ -9072,435 +484,15 @@
 "count": 2
 },
 {
-"pl": "Imperiałami",
-"count": 2
-},
-{
-"pl": ", to kolejne otrzymywane wyzwania będą na pokonanie:",
-"count": 2
-},
-{
-"pl": "Dodaje:",
-"count": 2
-},
-{
-"pl": "polem czerwonym",
-"count": 2
-},
-{
-"pl": "5 poziom postaci.",
-"count": 2
-},
-{
-"pl": "ok. 350 punktów doświadczenia dla gracza,",
-"count": 2
-},
-{
-"pl": "ok. 200 złota.",
-"count": 2
-},
-{
-"pl": "10 poziom postaci.",
-"count": 2
-},
-{
-"pl": "ok. 1 000 punktów doświadczenia dla gracza,",
-"count": 2
-},
-{
 "pl": "Upoluj: 10 x Szkielet Mag, Upadły Łucznik, Upadły Strzelec, Kościej, Upadły Wojownik, Szkielet;",
 "count": 2
-},
-{
-"pl": "Znajdź i przynieś: 10 x",
-"count": 2
-},
-{
-"pl": "Znajdź i przynieś: 8 x",
-"count": 2
-},
-{
-"pl": "Losowe nagrody.",
-"count": 2
-},
-{
-"pl": "27 minut",
-"count": 2
-},
-{
-"pl": "ok. 4 000 punktów doświadczenia dla gracza,",
-"count": 2
-},
-{
-"pl": "ok. 5 000 punktów doświadczenia dla gracza,",
-"count": 2
-},
-{
-"pl": "Znajdź i zabij drużynę: Bandzior Frajerów;",
-"count": 2
-},
-{
-"pl": "ok. 10 000 punktów doświadczenia dla gracza,",
-"count": 2
-},
-{
-"pl": "ok. 15 000 złota.",
-"count": 2
-},
-{
-"pl": "Odnajdź: Kryształ energetyczny (5 szt);",
-"count": 2
-},
-{
-"pl": "Koldy",
-"count": 2
-},
-{
-"pl": "35 poziom postaci.",
-"count": 2
-},
-{
-"pl": "Znajdź i przynieś: 5 x",
-"count": 2
-},
-{
-"pl": "45 poziom postaci.",
-"count": 2
-},
-{
-"pl": "50 poziom postaci.",
-"count": 2
-},
-{
-"pl": "Losowo trzy działania z poniższych:",
-"count": 2
-},
-{
-"pl": "oraz jedno stałe:",
-"count": 2
-},
-{
-"pl": "ok. 20 000 złota.",
-"count": 2
-},
-{
-"pl": "ok. 10 000 złota.",
-"count": 2
-},
-{
-"pl": "Dmorther",
-"count": 2
-},
-{
-"pl": "Czarodzieje Lodu",
-"count": 2
-},
-{
-"pl": "Znajdź i zabij drużynę: Mróz;",
-"count": 2
-},
-{
-"pl": "Odpowiednio ukończone zadanie",
-"count": 2
-},
-{
-"pl": "Porządek musi być",
-"count": 2
-},
-{
-"pl": "ok. 45 000 złota.",
-"count": 2
-},
-{
-"pl": "Aromatyczny pył",
-"count": 1
-},
-{
-"pl": "Artefakty",
-"count": 1
-},
-{
-"pl": "Aktywności w grze",
-"count": 1
-},
-{
-"pl": "Barbarzyńca",
-"count": 1
-},
-{
-"pl": "Arail",
-"count": 1
-},
-{
-"pl": "Budulec",
-"count": 1
-},
-{
-"pl": "Dynamit Landaua",
-"count": 1
-},
-{
-"pl": "Ekwipunek",
-"count": 1
-},
-{
-"pl": "Drugie urodziny",
-"count": 1
-},
-{
-"pl": "Działki Gildii",
-"count": 1
-},
-{
-"pl": "Cząstka Czasu",
-"count": 1
-},
-{
-"pl": "Dzika Wyspa",
-"count": 1
-},
-{
-"pl": "FAQ",
-"count": 1
-},
-{
-"pl": "Granitowy Golem Elita",
-"count": 1
-},
-{
-"pl": "Elita Szalona Gorgona",
-"count": 1
-},
-{
-"pl": "Głowa demona",
-"count": 1
-},
-{
-"pl": "Jaskinia Golema (Poznanie)",
-"count": 1
-},
-{
-"pl": "Jaski Golema (Wyzwanie)",
-"count": 1
-},
-{
-"pl": "Kadzielnica hordy",
-"count": 1
-},
-{
-"pl": "Kadzielnica uruków",
-"count": 1
-},
-{
-"pl": "Koncept",
-"count": 1
-},
-{
-"pl": "Klucz do maszynowni (Admirał)",
-"count": 1
-},
-{
-"pl": "Klucz do maszynowni (Komandor)",
-"count": 1
-},
-{
-"pl": "Karczma u Lesgara",
-"count": 1
-},
-{
-"pl": "Korytarz w karczmie",
-"count": 1
-},
-{
-"pl": "Mag Ognia",
-"count": 1
-},
-{
-"pl": "Lina z hakiem",
-"count": 1
-},
-{
-"pl": "Laska Cos",
-"count": 1
-},
-{
-"pl": "Nagrody DQ Alchemia Złota",
-"count": 1
-},
-{
-"pl": "Ogara Utoru Boss",
-"count": 1
-},
-{
-"pl": "Ogara Utoru Testy",
-"count": 1
-},
-{
-"pl": "Przyprawa",
-"count": 1
-},
-{
-"pl": "Pył uruków",
-"count": 1
-},
-{
-"pl": "Powodzenie ulepszania bez inhibitora",
-"count": 1
-},
-{
-"pl": "Pokój w Karczmie",
-"count": 1
-},
-{
-"pl": "Rary dla petów",
-"count": 1
-},
-{
-"pl": "Questowe",
-"count": 1
-},
-{
-"pl": "Respawn",
-"count": 1
-},
-{
-"pl": "Płomień uruków",
-"count": 1
-},
-{
-"pl": "Rozkład Działek",
-"count": 1
-},
-{
-"pl": "Ratusz",
-"count": 1
-},
-{
-"pl": "Sheed",
-"count": 1
-},
-{
-"pl": "Tabela Dropu Drifów",
-"count": 1
-},
-{
-"pl": "Sklep Premium",
-"count": 1
-},
-{
-"pl": "Szpital",
-"count": 1
-},
-{
-"pl": "Szablon przedmioty",
-"count": 1
-},
-{
-"pl": "Turnieje",
-"count": 1
-},
-{
-"pl": "Tabela Dropu Synergetyków",
-"count": 1
-},
-{
-"pl": "Widmowe zioło",
-"count": 1
-},
-{
-"pl": "Trucizna kłusowaników",
-"count": 1
-},
-{
-"pl": "Widmowy heros rycerz",
-"count": 1
-},
-{
-"pl": "Widmowy heros mag",
-"count": 1
-},
-{
-"pl": "Voodoo",
-"count": 1
-},
-{
-"pl": "Umiejętności specjalne",
-"count": 1
-},
-{
-"pl": "Tawerna",
-"count": 1
-},
-{
-"pl": "Zaniżanie Dropu",
-"count": 1
-},
-{
-"pl": "Wieża Ghadiry (Ścieżka przygody)",
-"count": 1
-},
-{
-"pl": "Wieża Ghadiry (Ścieżka wielkości)",
-"count": 1
-},
-{
-"pl": "Widmowy płomień",
-"count": 1
-},
-{
-"pl": "Wilczurr",
-"count": 1
-},
-{
-"pl": "Zadanie \"Obroża\"",
-"count": 1
-},
-{
-"pl": "Zwierzaki",
-"count": 1
-},
-{
-"pl": "Zioło uruków",
-"count": 1
-},
-{
-"pl": "Łucznik",
-"count": 1
-},
-{
-"pl": "1 x Aragonit możemy wymienić na 6 x",
-"count": 1
-},
-{
-"pl": "u Dillega w Górach Koldów,",
-"count": 1
 },
 {
 "pl": "Możemy go użyć, aby dostać się do Miasta Widmowej Hordy oraz Miasta Widmowych Uruków,",
 "count": 1
 },
 {
-"pl": "Niedźwiedzia jaskinia - Pieczara aragonitowa (136, 31)",
-"count": 1
-},
-{
-"pl": "Bagna - Trzęsawisko (120, 60)",
-"count": 1
-},
-{
 "pl": "Poziom : 22 Ranga : 2 Punkty życia : 700 Mana : 400 Kondycja : 600",
-"count": 1
-},
-{
-"pl": "6 000 złota",
-"count": 1
-},
-{
-"pl": ": u Wiedźmy Hoberl na",
-"count": 1
-},
-{
-"pl": "Bagnach",
 "count": 1
 },
 {
@@ -9512,19 +504,11 @@
 "count": 1
 },
 {
-"pl": ": Fala dźwiękowa, Gryzienie, Zakażenie.",
-"count": 1
-},
-{
 "pl": "Biały ogar to uniwersalny pies myśliwski. Dopada ofiarę i zaciska szczęki na jej szyi.",
 "count": 1
 },
 {
 "pl": "Poziom : 65 Ranga : 5 Punkty życia : 2200 Mana : 1000 Kondycja : 1200",
-"count": 1
-},
-{
-"pl": "40 Imperiałów",
 "count": 1
 },
 {
@@ -9540,23 +524,7 @@
 "count": 1
 },
 {
-"pl": "Służy do stworzenia kuli armatniej.",
-"count": 1
-},
-{
 "pl": "Najpierw udajemy się do Halagara po jego dynamit, następnie z dynamitem na Stok i w drugiej komorze Jaskini Olbrzymów możemy pozyskać granit.",
-"count": 1
-},
-{
-"pl": "Wybrzeże - Dzika plaża (30, 111)",
-"count": 1
-},
-{
-"pl": "Przyzwanie: Komar",
-"count": 1
-},
-{
-"pl": "Przyzwanie: Skażony Komar",
 "count": 1
 },
 {
@@ -9564,43 +532,7 @@
 "count": 1
 },
 {
-"pl": "Wymagana do zebrania",
-"count": 1
-},
-{
 "pl": "Zakup u Kolda Jorisa w Jaskiniach pod Mokradłami za 800 złota.",
-"count": 1
-},
-{
-"pl": "Dispel",
-"count": 1
-},
-{
-"pl": "Zapomniany Korytarz",
-"count": 1
-},
-{
-"pl": "Dotkliwe",
-"count": 1
-},
-{
-"pl": "Rozkaz",
-"count": 1
-},
-{
-"pl": "Przyzywanie: Ogar Utoru",
-"count": 1
-},
-{
-"pl": "Do budowy Rusztowania podczas Eventu",
-"count": 1
-},
-{
-"pl": "Za pomocą",
-"count": 1
-},
-{
-"pl": "Toporka do sekwoi",
 "count": 1
 },
 {
@@ -9612,35 +544,7 @@
 "count": 1
 },
 {
-"pl": "W czasie aktywnego",
-"count": 1
-},
-{
 "pl": ", możemy wytworzyć eliksir u Reni za 50 000 złota. Potrzebujemy do tego:",
-"count": 1
-},
-{
-"pl": "Umożliwia wyjęcie arcydrifu z przedmiotu.",
-"count": 1
-},
-{
-"pl": "Umożliwia wyjęcie",
-"count": 1
-},
-{
-"pl": "Arcydrifu",
-"count": 1
-},
-{
-"pl": "ze sprzętu.",
-"count": 1
-},
-{
-"pl": "Zakup za 1 000 000 złota u następujących NPC:",
-"count": 1
-},
-{
-"pl": "Vorlińskiego pocisku",
 "count": 1
 },
 {
@@ -9660,47 +564,7 @@
 "count": 1
 },
 {
-"pl": "Karczma pod Szczytem",
-"count": 1
-},
-{
-"pl": "Składzik kowala",
-"count": 1
-},
-{
 "pl": "Dusza wodza Vorlingów, którego nienawiść otwiera przejście do więzienia Angwalf-Htagi.",
-"count": 1
-},
-{
-"pl": "Boss Ilość: Boss",
-"count": 1
-},
-{
-"pl": "Boss Ilość: Ilość",
-"count": 1
-},
-{
-"pl": "Umożliwia awansowanie orbów w sprzęcie.",
-"count": 1
-},
-{
-"pl": "Boss Ilość: Описание",
-"count": 1
-},
-{
-"pl": ", to przedmiot wymagany do",
-"count": 1
-},
-{
-"pl": "awansowania",
-"count": 1
-},
-{
-"pl": "orbów",
-"count": 1
-},
-{
-"pl": "oraz w procesie o stworzenia",
 "count": 1
 },
 {
@@ -9712,27 +576,11 @@
 "count": 1
 },
 {
-"pl": "Zakup - u Frahlumpa w Norze dveirów za 195",
-"count": 1
-},
-{
-"pl": "50 x",
-"count": 1
-},
-{
 "pl": "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 1200 Kondycja : 800",
 "count": 1
 },
 {
 "pl": "Klasyczny kruk. Wyszkolony przez najlepsze wiedźmy. Nikt nie opędzi się przed czarną mocą jego skrzydeł ani nie uchowa przed złowieszczym spojrzeniem.",
-"count": 1
-},
-{
-"pl": "Atakuje urokami.",
-"count": 1
-},
-{
-"pl": ": Szpila w oko, Mistycyzm, Okrzyk bojowy, Ukłucie lalki.",
 "count": 1
 },
 {
@@ -9744,10 +592,6 @@
 "count": 1
 },
 {
-"pl": "3 200 000 złota",
-"count": 1
-},
-{
 "pl": "Twój prywatny smok. Wzbudza nie tylko podziw, ale i lęk. Wytrzymały i odporny, atakuje ogniem i dotkliwie kąsa. Błyskawicznie rozszarpie i spopieli wszystko, co mu stanie na drodze. Szczególnie przydatny dla postaci walczącej w zwarciu.",
 "count": 1
 },
@@ -9756,55 +600,7 @@
 "count": 1
 },
 {
-"pl": "Do budowy Klatek podczas Eventu",
-"count": 1
-},
-{
-"pl": "Wioska Rybacka - Chaszcze (95, 90)",
-"count": 1
-},
-{
-"pl": "Zamarznięte Jezioro - Las (101, 108)",
-"count": 1
-},
-{
-"pl": "możemy wymienić na 7 x Deski u Larsa w Alarilu,",
-"count": 1
-},
-{
-"pl": "możemy wymienić na 5 x Deski u Dillega w Górach Koldów,",
-"count": 1
-},
-{
-"pl": "20 x Deski otrzymamy za wykonanie",
-"count": 1
-},
-{
-"pl": "od Lukasa Landaua na Posesji Landaua,",
-"count": 1
-},
-{
-"pl": "60 x Deski otrzymamy za wykonanie",
-"count": 1
-},
-{
-"pl": "od Sekretarza Kemenak w Domu Pierwszego,",
-"count": 1
-},
-{
-"pl": "200 x Deski otrzymamy za wykonanie",
-"count": 1
-},
-{
-"pl": "od Izidrula Althi w Lesie Orków,",
-"count": 1
-},
-{
 "pl": "Półprodukt wykorzystywany w różnych przepisach. Jest wiele dróg wykonania Elementu amarantowego.",
-"count": 1
-},
-{
-"pl": "Zakup - u Frahlumpa w Norze dveirów za 100",
 "count": 1
 },
 {
@@ -9812,23 +608,7 @@
 "count": 1
 },
 {
-"pl": "Zakup - u Frahlumpa w Norze dveirów za 350",
-"count": 1
-},
-{
-"pl": "30 x",
-"count": 1
-},
-{
-"pl": "Przyzwanie: Zgrzyt",
-"count": 1
-},
-{
 "pl": "Półprodukt wykorzystywany w różnych przepisach. Jest kilka dróg jego wykonania.",
-"count": 1
-},
-{
-"pl": "Zakup - u Frahlumpa w Norze dveirów za 1000",
 "count": 1
 },
 {
@@ -9840,43 +620,7 @@
 "count": 1
 },
 {
-"pl": "u Frahlumpa w Norze dveirów.",
-"count": 1
-},
-{
 "pl": "Umożliwia przetopienie sprzętów rzadkich, setowych i drifów na esencję.",
-"count": 1
-},
-{
-"pl": "rarów",
-"count": 1
-},
-{
-"pl": "setów",
-"count": 1
-},
-{
-"pl": "rarów dla petów",
-"count": 1
-},
-{
-"pl": "na",
-"count": 1
-},
-{
-"pl": "esencje",
-"count": 1
-},
-{
-"pl": "Zwiększa szansę na mega ulepszenie.",
-"count": 1
-},
-{
-"pl": "Zwiększa szansę na mega ulepszenie o 2% w procesie",
-"count": 1
-},
-{
-"pl": "Zakup za 70",
 "count": 1
 },
 {
@@ -9888,55 +632,11 @@
 "count": 1
 },
 {
-"pl": "Po wypiciu zapewni wiele punktów doświadczenia.",
-"count": 1
-},
-{
 "pl": "Wymiana na 300 000 punktów doświadczenia dla gracza podczas aktywnego",
 "count": 1
 },
 {
-"pl": "Zniszczona zabawka.",
-"count": 1
-},
-{
-"pl": "Wymiana na 7 500 złota podczas aktywnego",
-"count": 1
-},
-{
-"pl": "Można znaleźć przeszukując trupy w czasie aktywnego",
-"count": 1
-},
-{
 "pl": "Dusza północnego Vorlinga, dzięki której można skruszyć lód w Starożytnej Hali.",
-"count": 1
-},
-{
-"pl": "Do skruszenia lodu w jednym etapów instancji",
-"count": 1
-},
-{
-"pl": "Potrzebny do wzmocnienia efektu wampirzego sprzętu.",
-"count": 1
-},
-{
-"pl": "Jeden z składników",
-"count": 1
-},
-{
-"pl": "Zwoju krwawego wglądu",
-"count": 1
-},
-{
-"pl": "Otrzymujemy za pokonanie przeciwników na instancji",
-"count": 1
-},
-{
-"pl": "Bardziej wydajne źródło Kamiennych bloczków.",
-"count": 1
-},
-{
-"pl": "6 x Granit możemy wymienić na 2 x",
 "count": 1
 },
 {
@@ -9948,22 +648,6 @@
 "count": 1
 },
 {
-"pl": "Zakup 3 x Flaszka gorzały za 55 000 złota i 1 x",
-"count": 1
-},
-{
-"pl": "u Berer w Garnizonie Dmorther.",
-"count": 1
-},
-{
-"pl": "Zakup 3 x Flaszka gorzały za 50 000 złota i 1 x",
-"count": 1
-},
-{
-"pl": "u Łowcy.",
-"count": 1
-},
-{
 "pl": "możemy wymienić na 20 000 złota i 1 x Flaszkę gorzały u jednego z NPC w Garnizonie Dmorther.",
 "count": 1
 },
@@ -9972,23 +656,11 @@
 "count": 1
 },
 {
-"pl": "Można połączyć 2 x Glif elementarny w 1 x",
-"count": 1
-},
-{
 "pl": "Przedmiot o niezwykłej mocy. Wykorzystuje się go przy tworzeniu różnych rzeczy. Dwa glify uczniowskie można połączyć u Frahlumpa w jeden, potężniejszy, glif bakalarski.",
 "count": 1
 },
 {
-"pl": "Można połączyć 2 x Glif uczniowski w 1 x",
-"count": 1
-},
-{
 "pl": "W celu uzyskania dodatkowych bonusów na instancji Miasta Widmowych Uruków,",
-"count": 1
-},
-{
-"pl": "Do wejścia na instancję Miasta Tarula;",
 "count": 1
 },
 {
@@ -10008,15 +680,7 @@
 "count": 1
 },
 {
-"pl": "45 Imperiałów",
-"count": 1
-},
-{
 "pl": "Plugawy twór magicznych eksperymentów. Atakuje z zaskoczenia, uderzając we wrażliwe punkty osłabia celność ataków oraz skuteczność zasłony przeciwnika.",
-"count": 1
-},
-{
-"pl": "Atakuje fizycznie i z dystansu.",
 "count": 1
 },
 {
@@ -10036,18 +700,6 @@
 "count": 1
 },
 {
-"pl": "Las Koldów - zachodni (207, 127)",
-"count": 1
-},
-{
-"pl": "10 x Halit możemy wymienić za 100 złota na 1 x",
-"count": 1
-},
-{
-"pl": "5 x Halit możemy wymienić na 1 x",
-"count": 1
-},
-{
 "pl": "Jaskinie pod Wieżami -> Jaszczurzy Cmentarz - Jaskinia (104, 104)",
 "count": 1
 },
@@ -10056,35 +708,7 @@
 "count": 1
 },
 {
-"pl": "Grzyby naskalne można jedynie zebrać w trakcie aktywnego",
-"count": 1
-},
-{
 "pl": "Grzyby rosną na skałach i możemy je zebrać gdy są podświetlone. Znajdują się w lokacji:",
-"count": 1
-},
-{
-"pl": "Stok -> Jaskinia Olbrzymów -> Jaskinia Olbrzymów",
-"count": 1
-},
-{
-"pl": "Tąpnięcie",
-"count": 1
-},
-{
-"pl": "Mariahn",
-"count": 1
-},
-{
-"pl": "Zionięcie",
-"count": 1
-},
-{
-"pl": "tak",
-"count": 1
-},
-{
-"pl": "Zwóju krwawego wglądu",
 "count": 1
 },
 {
@@ -10144,19 +768,11 @@
 "count": 1
 },
 {
-"pl": "Eteryczne Lampy.",
-"count": 1
-},
-{
 "pl": "Surowiec pozyskany z przetopionych rarów lub drifów.",
 "count": 1
 },
 {
 "pl": "Rarów, Setów oraz Rarów dla zwierzaków,",
-"count": 1
-},
-{
-"pl": "Drifów,",
 "count": 1
 },
 {
@@ -10248,23 +864,11 @@
 "count": 1
 },
 {
-"pl": "3 platyny",
-"count": 1
-},
-{
 "pl": "Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi I.",
 "count": 1
 },
 {
 "pl": "Wykonuje go Tizemlin w Wiosce Rybackiej za 15 000 sztuk złota, po dostarczeniu składników:",
-"count": 1
-},
-{
-"pl": "15 x",
-"count": 1
-},
-{
-"pl": "4 platyny",
 "count": 1
 },
 {
@@ -10276,19 +880,11 @@
 "count": 1
 },
 {
-"pl": "5 platyny",
-"count": 1
-},
-{
 "pl": "Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi IV.",
 "count": 1
 },
 {
 "pl": "Wykonuje go Aegustahephium w Wiosce Druidów za 30 000 sztuk złota, po dostarczeniu składników:",
-"count": 1
-},
-{
-"pl": "6 platyny",
 "count": 1
 },
 {
@@ -10300,10 +896,6 @@
 "count": 1
 },
 {
-"pl": "7 platyny",
-"count": 1
-},
-{
 "pl": "Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi VII.",
 "count": 1
 },
@@ -10312,15 +904,7 @@
 "count": 1
 },
 {
-"pl": "10 platyny",
-"count": 1
-},
-{
 "pl": "Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi X.",
-"count": 1
-},
-{
-"pl": "12 platyny",
 "count": 1
 },
 {
@@ -10332,19 +916,11 @@
 "count": 1
 },
 {
-"pl": "1 700 000 złota",
-"count": 1
-},
-{
 "pl": "Potężny dziki kot, który z furią rzuca się na wrogów, szarpiąc i tnąc. Jego ofiary najczęściej umierają z wykrwawienia, nie wiedząc nawet, co je zabiło. Dziki kot jest świetnym towarzyszem dla każdego bohatera.",
 "count": 1
 },
 {
 "pl": "Poziom : 50 Ranga : 4 Punkty życia : 1350 Mana : 800 Kondycja : 1200",
-"count": 1
-},
-{
-"pl": "3 500 000 złota",
 "count": 1
 },
 {
@@ -10417,10 +993,6 @@
 },
 {
 "pl": "możemy wymienić na 1 x Jedzenie u Wiedźmy Hoberl na Bagnach,",
-"count": 1
-},
-{
-"pl": "9 x",
 "count": 1
 },
 {
@@ -10645,10 +1217,6 @@
 },
 {
 "pl": "Poziom : 50 Ranga : 4 Punkty życia : 1400 Mana : 1000 Kondycja : 1000",
-"count": 1
-},
-{
-"pl": "1 500 000 złota",
 "count": 1
 },
 {
@@ -10924,10 +1492,6 @@
 "count": 1
 },
 {
-"pl": "9 000 000 złota",
-"count": 1
-},
-{
 "pl": "Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów.",
 "count": 1
 },
@@ -11108,10 +1672,6 @@
 "count": 1
 },
 {
-"pl": "1 800 000 złota",
-"count": 1
-},
-{
 "pl": "Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć.",
 "count": 1
 },
@@ -11140,19 +1700,11 @@
 "count": 1
 },
 {
-"pl": "Cena:",
-"count": 1
-},
-{
 "pl": "Po odesłaniu możliwa do odbioru u",
 "count": 1
 },
 {
 "pl": "Romana",
-"count": 1
-},
-{
-"pl": "1 000 złota",
 "count": 1
 },
 {
@@ -11340,15 +1892,7 @@
 "count": 1
 },
 {
-"pl": "35 x",
-"count": 1
-},
-{
 "pl": "Rafi Linde dał Ci ten przepis na zwierzaka w nagrodę za Twoją dobroć. Niestety, jest napisany niezrozumiałym językiem. Skontaktuj się z Azarią w Wiosce Druidów - może będzie mogła Ci pomóc.",
-"count": 1
-},
-{
-"pl": "18 x",
 "count": 1
 },
 {
@@ -11473,10 +2017,6 @@
 },
 {
 "pl": "(Zdobywamy go w formie jednorazowej, krótkiej Misji).",
-"count": 1
-},
-{
-"pl": "14 x",
 "count": 1
 },
 {
@@ -11764,10 +2304,6 @@
 "count": 1
 },
 {
-"pl": "Atakuje fizycznie, dystansowo, urokami.",
-"count": 1
-},
-{
 "pl": "Dominują ataki obszarowe.",
 "count": 1
 },
@@ -11877,18 +2413,6 @@
 },
 {
 "pl": "5 x Skóra burkana możemy sprzedać za 4 000 złota u Grozdana w Siedzibie Pozostałych,",
-"count": 1
-},
-{
-"pl": "Poziom: 30",
-"count": 1
-},
-{
-"pl": "Poziom: 45",
-"count": 1
-},
-{
-"pl": "Poziom: 65",
 "count": 1
 },
 {
@@ -12012,14 +2536,6 @@
 "count": 1
 },
 {
-"pl": "3 400 000 złota",
-"count": 1
-},
-{
-"pl": "700 platyny",
-"count": 1
-},
-{
 "pl": "Cieniutki jak gałązka, ale twardszy od stali. Twig posiada zdolności voodoo i stanowi nieocenione wsparcie dla właściciela. Pomoże walczyć w krainach, gdzie nie zawsze udaje się zebrać odpowiednią drużynę. Twig to przyjaciel dla wymagających.",
 "count": 1
 },
@@ -12052,10 +2568,6 @@
 "count": 1
 },
 {
-"pl": ": 2 x",
-"count": 1
-},
-{
 "pl": ", 4 x",
 "count": 1
 },
@@ -12085,10 +2597,6 @@
 },
 {
 "pl": "Niedźwiedzia jaskinia - Zaułek Topazowy (12, 95)",
-"count": 1
-},
-{
-"pl": "60 lvl",
 "count": 1
 },
 {
@@ -12136,59 +2644,7 @@
 "count": 1
 },
 {
-"pl": "Bagno Ropuchy,",
-"count": 1
-},
-{
-"pl": "Statek Ichtiona,",
-"count": 1
-},
-{
-"pl": "Wieża bandytów,",
-"count": 1
-},
-{
-"pl": "Jaskinia Geomorpha,",
-"count": 1
-},
-{
-"pl": "Grobowiec Duchów Żywiołów,",
-"count": 1
-},
-{
-"pl": "Las Marionetek.",
-"count": 1
-},
-{
 "pl": "Echo emocji umierającego przeciwnika. Dzięki niemu możesz podążyć ścieżkami wyzwania prowadzącymi do bossów, z których można zdobyć sprzęty rangi IV-VI.",
-"count": 1
-},
-{
-"pl": "Magazyn Osłabionego Konstrukta,",
-"count": 1
-},
-{
-"pl": "Leże Garthmoga,",
-"count": 1
-},
-{
-"pl": "Statek Komandora,",
-"count": 1
-},
-{
-"pl": "Pasaż Fyodora,",
-"count": 1
-},
-{
-"pl": "Grobowiec Ducha Zamku,",
-"count": 1
-},
-{
-"pl": "Dzielnica Heurokratosa,",
-"count": 1
-},
-{
-"pl": "Leże Wendigo.",
 "count": 1
 },
 {
@@ -12208,27 +2664,7 @@
 "count": 1
 },
 {
-"pl": "Laboratorium Aqua Regis,",
-"count": 1
-},
-{
-"pl": "Wulkan Hvara,",
-"count": 1
-},
-{
 "pl": "Echo emocji umierającego przeciwnika. Dzięki niemu możesz podążyć ścieżkami wyzwania prowadzącymi do bossów, z których można zdobyć sprzęty rangi X-XII.",
-"count": 1
-},
-{
-"pl": "Miasto Draugula,",
-"count": 1
-},
-{
-"pl": "Statek Admirała,",
-"count": 1
-},
-{
-"pl": "Miasto Tarula.",
 "count": 1
 },
 {
@@ -12292,15 +2728,7 @@
 "count": 1
 },
 {
-"pl": "110 lvl",
-"count": 1
-},
-{
 "pl": "Poziom : 7 Ranga : 1 Punkty życia : 350 Mana : 350 Kondycja : 650",
-"count": 1
-},
-{
-"pl": "1 500 złota",
 "count": 1
 },
 {
@@ -12632,10 +3060,6 @@
 "count": 1
 },
 {
-"pl": "Leże Wendigo,",
-"count": 1
-},
-{
 "pl": "Gniazdo Jaskółki",
 "count": 1
 },
@@ -12808,10 +3232,6 @@
 "count": 1
 },
 {
-"pl": "250 000 szt.",
-"count": 1
-},
-{
 "pl": "Walka",
 "count": 1
 },
@@ -12833,10 +3253,6 @@
 },
 {
 "pl": "Bonus do ilości zdobywanych drzazg",
-"count": 1
-},
-{
-"pl": "Ścieżka",
 "count": 1
 },
 {
@@ -13304,15 +3720,7 @@
 "count": 1
 },
 {
-"pl": "Zużycie kondycji: -1%",
-"count": 1
-},
-{
 "pl": "Subdrif ann",
-"count": 1
-},
-{
-"pl": "Regeneracja many: 0,15%",
 "count": 1
 },
 {
@@ -13320,15 +3728,7 @@
 "count": 1
 },
 {
-"pl": "Regeneracja kondycji: 0,15%",
-"count": 1
-},
-{
 "pl": "Subdrif err",
-"count": 1
-},
-{
-"pl": "Wyssanie many: 0,5%",
 "count": 1
 },
 {
@@ -13336,15 +3736,7 @@
 "count": 1
 },
 {
-"pl": "Odporność na efekty krępujące i ukazanie: 0,5%",
-"count": 1
-},
-{
 "pl": "Subdrif verd",
-"count": 1
-},
-{
-"pl": "Szansa na odczarowanie: 0,5%",
 "count": 1
 },
 {
@@ -13352,15 +3744,7 @@
 "count": 1
 },
 {
-"pl": "Zużycie many: -1%",
-"count": 1
-},
-{
 "pl": "Subdrif elen",
-"count": 1
-},
-{
-"pl": "Podwójne losowanie obrony: 1%",
 "count": 1
 },
 {
@@ -13368,15 +3752,7 @@
 "count": 1
 },
 {
-"pl": "Odporność na trafienie krytyczne: 0,5%",
-"count": 1
-},
-{
 "pl": "Subdrif grud",
-"count": 1
-},
-{
-"pl": "Obrona mentalna: 1,5%",
 "count": 1
 },
 {
@@ -13384,15 +3760,7 @@
 "count": 1
 },
 {
-"pl": "Obrona wręcz: 1,5%",
-"count": 1
-},
-{
 "pl": "Subdrif tovi",
-"count": 1
-},
-{
-"pl": "Obrona dystansowa: 1,5%",
 "count": 1
 },
 {
@@ -13416,10 +3784,6 @@
 "count": 1
 },
 {
-"pl": "Szansa na unik: 0,5%",
-"count": 1
-},
-{
 "pl": "Subdrif holm",
 "count": 1
 },
@@ -13429,10 +3793,6 @@
 },
 {
 "pl": "Subdrif iori",
-"count": 1
-},
-{
-"pl": "Redukcja otrzymanych obrażeń biernych: 1%",
 "count": 1
 },
 {
@@ -13448,15 +3808,7 @@
 "count": 1
 },
 {
-"pl": "Modyfikator obrażeń magicznych: 0,5%",
-"count": 1
-},
-{
 "pl": "Subdrif astah",
-"count": 1
-},
-{
-"pl": "Modyfikator obrażeń fizycznych: 0,5%",
 "count": 1
 },
 {
@@ -13464,15 +3816,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na trafienie krytyczne: 0,5%",
-"count": 1
-},
-{
 "pl": "Subdrif kalh",
-"count": 1
-},
-{
-"pl": "Dodatkowe obrażenia od zimna: 0,35%",
 "count": 1
 },
 {
@@ -13480,15 +3824,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na podwójny atak: 0,5%",
-"count": 1
-},
-{
 "pl": "Subdrif unn",
-"count": 1
-},
-{
-"pl": "Dodatkowe obrażenia od ognia: 0,35%",
 "count": 1
 },
 {
@@ -13496,23 +3832,11 @@
 "count": 1
 },
 {
-"pl": "Dodatkowe obrażenia od energii: 0,35%",
-"count": 1
-},
-{
 "pl": "Subdrif dur",
 "count": 1
 },
 {
-"pl": "Podwójne losowanie trafienia: 0,5%",
-"count": 1
-},
-{
 "pl": "Subdrif ling",
-"count": 1
-},
-{
-"pl": "Modyfikator trafień dystansowych: 1%",
 "count": 1
 },
 {
@@ -13536,15 +3860,7 @@
 "count": 1
 },
 {
-"pl": "Modyfikator trafień wręcz: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif amad",
-"count": 1
-},
-{
-"pl": "Zużycie kondycji: -2%",
 "count": 1
 },
 {
@@ -13552,15 +3868,7 @@
 "count": 1
 },
 {
-"pl": "Regeneracja many: 0,3%",
-"count": 1
-},
-{
 "pl": "Bidrif eras",
-"count": 1
-},
-{
-"pl": "Regeneracja kondycji: 0,3%",
 "count": 1
 },
 {
@@ -13568,15 +3876,7 @@
 "count": 1
 },
 {
-"pl": "Wyssanie many: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif lun",
-"count": 1
-},
-{
-"pl": "Odporność na efekty krępujące i ukazanie: 1%",
 "count": 1
 },
 {
@@ -13584,15 +3884,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na odczarowanie: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif von",
-"count": 1
-},
-{
-"pl": "Zużycie many: -2%",
 "count": 1
 },
 {
@@ -13600,15 +3892,7 @@
 "count": 1
 },
 {
-"pl": "Podwójne losowanie obrony: 2%",
-"count": 1
-},
-{
 "pl": "Bidrif grod",
-"count": 1
-},
-{
-"pl": "Odporność na trafienie krytyczne: 1%",
 "count": 1
 },
 {
@@ -13616,23 +3900,11 @@
 "count": 1
 },
 {
-"pl": "Obrona mentalna: 3%",
-"count": 1
-},
-{
 "pl": "Bidrif tall",
 "count": 1
 },
 {
-"pl": "Obrona wręcz: 3%",
-"count": 1
-},
-{
 "pl": "Bidrif tovi",
-"count": 1
-},
-{
-"pl": "Obrona dystansowa: 3%",
 "count": 1
 },
 {
@@ -13656,10 +3928,6 @@
 "count": 1
 },
 {
-"pl": "Szansa na unik: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif holm",
 "count": 1
 },
@@ -13669,10 +3937,6 @@
 },
 {
 "pl": "Bidrif iori",
-"count": 1
-},
-{
-"pl": "Redukcja otrzymanych obrażeń biernych: 2%",
 "count": 1
 },
 {
@@ -13688,15 +3952,7 @@
 "count": 1
 },
 {
-"pl": "Modyfikator obrażeń magicznych: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif astah",
-"count": 1
-},
-{
-"pl": "Modyfikator obrażeń fizycznych: 1%",
 "count": 1
 },
 {
@@ -13704,15 +3960,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na trafienie krytyczne: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif kalh",
-"count": 1
-},
-{
-"pl": "Dodatkowe obrażenia od zimna: 0,7%",
 "count": 1
 },
 {
@@ -13720,15 +3968,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na podwójny atak: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif unn",
-"count": 1
-},
-{
-"pl": "Dodatkowe obrażenia od ognia: 0,7%",
 "count": 1
 },
 {
@@ -13736,23 +3976,11 @@
 "count": 1
 },
 {
-"pl": "Dodatkowe obrażenia od energii: 0,7%",
-"count": 1
-},
-{
 "pl": "Bidrif dur",
 "count": 1
 },
 {
-"pl": "Podwójne losowanie trafienia: 1%",
-"count": 1
-},
-{
 "pl": "Bidrif ling",
-"count": 1
-},
-{
-"pl": "Modyfikator trafień dystansowych: 2%",
 "count": 1
 },
 {
@@ -13776,15 +4004,7 @@
 "count": 1
 },
 {
-"pl": "Modyfikator trafień wręcz: 2%",
-"count": 1
-},
-{
 "pl": "Magnidrif amad",
-"count": 1
-},
-{
-"pl": "Zużycie kondycji: -4%",
 "count": 1
 },
 {
@@ -13792,15 +4012,7 @@
 "count": 1
 },
 {
-"pl": "Regeneracja many: 0,6%",
-"count": 1
-},
-{
 "pl": "Magnidrif eras",
-"count": 1
-},
-{
-"pl": "Regeneracja kondycji: 0,6%",
 "count": 1
 },
 {
@@ -13808,15 +4020,7 @@
 "count": 1
 },
 {
-"pl": "Odporność na efekty krępujące i ukazanie: 2%",
-"count": 1
-},
-{
 "pl": "Magnidrif verd",
-"count": 1
-},
-{
-"pl": "Szansa na odczarowanie: 2%",
 "count": 1
 },
 {
@@ -13824,15 +4028,7 @@
 "count": 1
 },
 {
-"pl": "Zużycie many: -4%",
-"count": 1
-},
-{
 "pl": "Magnidrif elen",
-"count": 1
-},
-{
-"pl": "Podwójne losowanie obrony: 4%",
 "count": 1
 },
 {
@@ -13840,15 +4036,7 @@
 "count": 1
 },
 {
-"pl": "Odporność na trafienie krytyczne: 2%",
-"count": 1
-},
-{
 "pl": "Magnidrif grud",
-"count": 1
-},
-{
-"pl": "Obrona mentalna: 6%",
 "count": 1
 },
 {
@@ -13856,15 +4044,7 @@
 "count": 1
 },
 {
-"pl": "Obrona wręcz: 6%",
-"count": 1
-},
-{
 "pl": "Magnidrif tovi",
-"count": 1
-},
-{
-"pl": "Obrona dystansowa: 6%",
 "count": 1
 },
 {
@@ -13888,10 +4068,6 @@
 "count": 1
 },
 {
-"pl": "Szansa na unik: 2%",
-"count": 1
-},
-{
 "pl": "Magnidrif holm",
 "count": 1
 },
@@ -13901,10 +4077,6 @@
 },
 {
 "pl": "Magnidrif iori",
-"count": 1
-},
-{
-"pl": "Redukcja otrzymanych obrażeń biernych: 4%",
 "count": 1
 },
 {
@@ -13920,15 +4092,7 @@
 "count": 1
 },
 {
-"pl": "Modyfikator obrażeń magicznych: 2%",
-"count": 1
-},
-{
 "pl": "Magnidrif kalh",
-"count": 1
-},
-{
-"pl": "Dodatkowe obrażenia od zimna: 1,4%",
 "count": 1
 },
 {
@@ -13936,15 +4100,7 @@
 "count": 1
 },
 {
-"pl": "Dodatkowe obrażenia od energii: 1,4%",
-"count": 1
-},
-{
 "pl": "Magnidrif dur",
-"count": 1
-},
-{
-"pl": "Podwójne losowanie trafienia: 2%",
 "count": 1
 },
 {
@@ -13964,15 +4120,7 @@
 "count": 1
 },
 {
-"pl": "Zużycie kondycji: -6%",
-"count": 1
-},
-{
 "pl": "Arcydrif ann",
-"count": 1
-},
-{
-"pl": "Regeneracja many: 0,9%",
 "count": 1
 },
 {
@@ -13980,15 +4128,7 @@
 "count": 1
 },
 {
-"pl": "Regeneracja kondycji: 0,9%",
-"count": 1
-},
-{
 "pl": "Arcydrif err",
-"count": 1
-},
-{
-"pl": "Wyssanie many: 3%",
 "count": 1
 },
 {
@@ -13996,15 +4136,7 @@
 "count": 1
 },
 {
-"pl": "Odporność na efekty krępujące i ukazanie: 3%",
-"count": 1
-},
-{
 "pl": "Arcydrif verd",
-"count": 1
-},
-{
-"pl": "Szansa na odczarowanie: 3%",
 "count": 1
 },
 {
@@ -14012,15 +4144,7 @@
 "count": 1
 },
 {
-"pl": "Zużycie many: -6%",
-"count": 1
-},
-{
 "pl": "Arcydrif elen",
-"count": 1
-},
-{
-"pl": "Podwójne losowanie obrony: 6%",
 "count": 1
 },
 {
@@ -14028,15 +4152,7 @@
 "count": 1
 },
 {
-"pl": "Odporność na trafienie krytyczne: 3%",
-"count": 1
-},
-{
 "pl": "Arcydrif grud",
-"count": 1
-},
-{
-"pl": "Obrona mentalna: 9%",
 "count": 1
 },
 {
@@ -14044,15 +4160,7 @@
 "count": 1
 },
 {
-"pl": "Obrona wręcz: 9%",
-"count": 1
-},
-{
 "pl": "Arcydrif tovi",
-"count": 1
-},
-{
-"pl": "Obrona dystansowa: 9%",
 "count": 1
 },
 {
@@ -14076,10 +4184,6 @@
 "count": 1
 },
 {
-"pl": "Szansa na unik: 3%",
-"count": 1
-},
-{
 "pl": "Arcydrif holm",
 "count": 1
 },
@@ -14089,10 +4193,6 @@
 },
 {
 "pl": "Arcydrif iori",
-"count": 1
-},
-{
-"pl": "Redukcja otrzymanych obrażeń biernych: 6%",
 "count": 1
 },
 {
@@ -14108,15 +4208,7 @@
 "count": 1
 },
 {
-"pl": "Modyfikator obrażeń magicznych: 3%",
-"count": 1
-},
-{
 "pl": "Arcydrif astah",
-"count": 1
-},
-{
-"pl": "Modyfikator obrażeń fizycznych: 3%",
 "count": 1
 },
 {
@@ -14124,15 +4216,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na trafienie krytyczne: 3%",
-"count": 1
-},
-{
 "pl": "Arcydrif kalh",
-"count": 1
-},
-{
-"pl": "Dodatkowe obrażenia od zimna: 2,1%",
 "count": 1
 },
 {
@@ -14140,15 +4224,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na podwójny atak: 3%",
-"count": 1
-},
-{
 "pl": "Arcydrif unn",
-"count": 1
-},
-{
-"pl": "Dodatkowe obrażenia od ognia: 2,1%",
 "count": 1
 },
 {
@@ -14156,23 +4232,11 @@
 "count": 1
 },
 {
-"pl": "Dodatkowe obrażenia od energii: 2,1%",
-"count": 1
-},
-{
 "pl": "Arcydrif dur",
 "count": 1
 },
 {
-"pl": "Podwójne losowanie trafienia: 3%",
-"count": 1
-},
-{
 "pl": "Arcydrif ling",
-"count": 1
-},
-{
-"pl": "Modyfikator trafień dystansowych: 6%",
 "count": 1
 },
 {
@@ -14193,10 +4257,6 @@
 },
 {
 "pl": "Arcydrif ulk",
-"count": 1
-},
-{
-"pl": "Modyfikator trafień wręcz: 6%",
 "count": 1
 },
 {
@@ -14249,10 +4309,6 @@
 },
 {
 "pl": "W zeszłym roku nie mieliśmy takich mocy, żeby podjąć się tak dużego przedsięwzięcia, ale w tym roku postanowiliśmy spróbować! Tak, to już nasze drugie urodziny i z tej okazji poza live'em przygotowaliśmy dla was również kilka nagród - rozdamy AŻ 7 kodów na platynę, o łącznej wartości",
-"count": 1
-},
-{
-"pl": "4 500 platyny",
 "count": 1
 },
 {
@@ -14472,10 +4528,6 @@
 "count": 1
 },
 {
-"pl": "Modyfikator trafień mentalnych: 4%",
-"count": 1
-},
-{
 "pl": "Obrażenia: (130+lvl)",
 "count": 1
 },
@@ -14537,10 +4589,6 @@
 },
 {
 "pl": "Pancerze kłute: +40",
-"count": 1
-},
-{
-"pl": "Oszukać przeznaczenie: 100",
 "count": 1
 },
 {
@@ -15812,10 +5860,6 @@
 "count": 1
 },
 {
-"pl": "36H",
-"count": 1
-},
-{
 "pl": "Zwiększa maksymalną liczbę członków gildii do 18",
 "count": 1
 },
@@ -15824,15 +5868,7 @@
 "count": 1
 },
 {
-"pl": "108H",
-"count": 1
-},
-{
 "pl": "Zwiększa maksymalną liczbę członków gildii do 22",
-"count": 1
-},
-{
-"pl": "10 000 000 złota",
 "count": 1
 },
 {
@@ -15840,27 +5876,7 @@
 "count": 1
 },
 {
-"pl": "12 000 000 złota",
-"count": 1
-},
-{
-"pl": "360H",
-"count": 1
-},
-{
 "pl": "8 400 000 złota i 3 000 platyny",
-"count": 1
-},
-{
-"pl": "180H",
-"count": 1
-},
-{
-"pl": "16 000 000 złota",
-"count": 1
-},
-{
-"pl": "432H",
 "count": 1
 },
 {
@@ -16601,14 +6617,6 @@
 },
 {
 "pl": "Test",
-"count": 1
-},
-{
-"pl": "60-110 lvl",
-"count": 1
-},
-{
-"pl": "Warunek : brak: Описание",
 "count": 1
 },
 {
@@ -17484,19 +7492,7 @@
 "count": 1
 },
 {
-"pl": "PŻ: +440",
-"count": 1
-},
-{
 "pl": "W mieczu zaklęto duszę wielkiego rycerza Taernu. Dotyk jego ostrza jest dla łotrów i potworów jak rozżarzone żelazo.",
-"count": 1
-},
-{
-"pl": "Wiedza: +65",
-"count": 1
-},
-{
-"pl": "Mana: +190",
 "count": 1
 },
 {
@@ -17508,15 +7504,7 @@
 "count": 1
 },
 {
-"pl": "Siła: +70",
-"count": 1
-},
-{
 "pl": "W broni zaklęto duszę wielkiego wojownika Vorlingów. Ostrze płonie jego wieczną żądzą walki i nieposkromionym gniewem.",
-"count": 1
-},
-{
-"pl": "PŻ: + 300",
 "count": 1
 },
 {
@@ -17533,10 +7521,6 @@
 },
 {
 "pl": "Rękawice poświęcone legendarnej Washi. Ich użytkownicy zyskują nadludzką szybkość i precyzję ciosów.",
-"count": 1
-},
-{
-"pl": "Moc: +70",
 "count": 1
 },
 {
@@ -17820,10 +7804,6 @@
 "count": 1
 },
 {
-"pl": "Mroźne badania.",
-"count": 1
-},
-{
 "pl": "Do wydropienia podczas wykonywania",
 "count": 1
 },
@@ -18072,39 +8052,7 @@
 "count": 1
 },
 {
-"pl": "Amulety",
-"count": 1
-},
-{
-"pl": "Pierścienie",
-"count": 1
-},
-{
-"pl": "Hełmy",
-"count": 1
-},
-{
-"pl": "Buty",
-"count": 1
-},
-{
-"pl": "Spodnie",
-"count": 1
-},
-{
-"pl": "Zbroje",
-"count": 1
-},
-{
-"pl": "Rękawice",
-"count": 1
-},
-{
 "pl": "Broń",
-"count": 1
-},
-{
-"pl": "Pasy",
 "count": 1
 },
 {
@@ -18124,23 +8072,11 @@
 "count": 1
 },
 {
-"pl": "Uniwersalny",
-"count": 1
-},
-{
 "pl": "Dodatkowy daimonit",
 "count": 1
 },
 {
 "pl": "Dodatkowe PXP",
-"count": 1
-},
-{
-"pl": "Defensywny",
-"count": 1
-},
-{
-"pl": "Ofensywny",
 "count": 1
 },
 {
@@ -18716,10 +8652,6 @@
 "count": 1
 },
 {
-"pl": "40 000 złota",
-"count": 1
-},
-{
 "pl": "20 000 doświadczenia,",
 "count": 1
 },
@@ -19076,10 +9008,6 @@
 "count": 1
 },
 {
-"pl": "Umiejętności.",
-"count": 1
-},
-{
 "pl": "Wybrany przez nas efekt",
 "count": 1
 },
@@ -19224,10 +9152,6 @@
 "count": 1
 },
 {
-"pl": "Odporność uroki: +43",
-"count": 1
-},
-{
 "pl": "Uwaga statystyki przedmiotu +6",
 "count": 1
 },
@@ -19237,10 +9161,6 @@
 },
 {
 "pl": "Wartość: 13 643 złota i 8 platyny",
-"count": 1
-},
-{
-"pl": "Wymagany poziom: 12",
 "count": 1
 },
 {
@@ -19260,23 +9180,11 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 110",
-"count": 1
-},
-{
 "pl": "Zdobyty przez: Shade",
 "count": 1
 },
 {
 "pl": "Pętla Mroku",
-"count": 1
-},
-{
-"pl": "Ranga: ?",
-"count": 1
-},
-{
-"pl": "Wartość: 45 000 złota",
 "count": 1
 },
 {
@@ -19293,10 +9201,6 @@
 },
 {
 "pl": "Zdobyty przez: Cronon",
-"count": 1
-},
-{
-"pl": "Wymagany poziom: 21",
 "count": 1
 },
 {
@@ -19364,14 +9268,6 @@
 "count": 1
 },
 {
-"pl": "Odporność zimno: +45",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +45",
-"count": 1
-},
-{
 "pl": "Przedmiot można było zakupić u NPC do 04.04.2023",
 "count": 1
 },
@@ -19384,47 +9280,11 @@
 "count": 1
 },
 {
-"pl": "Pancerz sieczne: +4",
-"count": 1
-},
-{
-"pl": "Pancerz obuchowe: +4",
-"count": 1
-},
-{
-"pl": "Pancerz kłute: +4",
-"count": 1
-},
-{
 "pl": "Hełm Pioniera",
 "count": 1
 },
 {
-"pl": "Wymagany poziom: 3",
-"count": 1
-},
-{
-"pl": "Pancerz sieczne: +6",
-"count": 1
-},
-{
-"pl": "Pancerz obuchowe: +6",
-"count": 1
-},
-{
-"pl": "Pancerz kłute: +6",
-"count": 1
-},
-{
 "pl": "Płaszcz Zwiadowcy",
-"count": 1
-},
-{
-"pl": "Wymagany poziom: 6",
-"count": 1
-},
-{
-"pl": "Wartość: 50 złota",
 "count": 1
 },
 {
@@ -19456,19 +9316,11 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 140",
-"count": 1
-},
-{
 "pl": "Nagroda za drugie miejsce w konkursie cosplay'owym na TaernCon 2013",
 "count": 1
 },
 {
 "pl": "Otrzymał go gracz o nicku: Suah",
-"count": 1
-},
-{
-"pl": "Obrażenia: 122",
 "count": 1
 },
 {
@@ -19908,10 +9760,6 @@
 "count": 1
 },
 {
-"pl": "15x",
-"count": 1
-},
-{
 "pl": "oraz 5x",
 "count": 1
 },
@@ -19928,27 +9776,7 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 66",
-"count": 1
-},
-{
-"pl": "Obrażenia: 71",
-"count": 1
-},
-{
 "pl": "Arcanscape Kategoria: Pierścienie Ranga:: Описание",
-"count": 1
-},
-{
-"pl": "Obrażenia: 74",
-"count": 1
-},
-{
-"pl": "Pancerz sieczne: +19",
-"count": 1
-},
-{
-"pl": "Pancerz kłute: +21",
 "count": 1
 },
 {
@@ -19956,15 +9784,7 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 83",
-"count": 1
-},
-{
 "pl": "Basileus Kategoria: Pierścienie Ranga: I: Описание",
-"count": 1
-},
-{
-"pl": "Pancerz kłute: +28",
 "count": 1
 },
 {
@@ -19972,19 +9792,7 @@
 "count": 1
 },
 {
-"pl": "Wymagana zręczność: 25",
-"count": 1
-},
-{
-"pl": "Obrażenia: 81",
-"count": 1
-},
-{
 "pl": "Davgretor Kategoria: Młoty dwuręczne Ran: Описание",
-"count": 1
-},
-{
-"pl": "Obrażenia: 103",
 "count": 1
 },
 {
@@ -19992,23 +9800,11 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 98",
-"count": 1
-},
-{
 "pl": "Fulgur Kategoria: Pierścienie Ranga: III: Описание",
 "count": 1
 },
 {
-"pl": "Odporność energia +20",
-"count": 1
-},
-{
 "pl": "Ishelm Kategoria: Hełmy Ranga: III Waga:: Описание",
-"count": 1
-},
-{
-"pl": "Obrażenia: 90",
 "count": 1
 },
 {
@@ -20020,10 +9816,6 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 107",
-"count": 1
-},
-{
 "pl": "Gest Władcy Kategoria: Rękawice Ranga: I: Описание",
 "count": 1
 },
@@ -20032,23 +9824,7 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 100",
-"count": 1
-},
-{
 "pl": "Caratris Kategoria: Amulety Ranga: IV Wa: Описание",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +35",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +35",
-"count": 1
-},
-{
-"pl": "Obrażenia: 117",
 "count": 1
 },
 {
@@ -20060,23 +9836,11 @@
 "count": 1
 },
 {
-"pl": "PŻ: -90",
-"count": 1
-},
-{
-"pl": "Mana: -50",
-"count": 1
-},
-{
 "pl": "Danthum Kategoria: Amulety Ranga: V Waga: Описание",
 "count": 1
 },
 {
 "pl": "Berglisy Kategoria: Karwasze Ranga: V Wa: Описание",
-"count": 1
-},
-{
-"pl": "Wiedza: -9",
 "count": 1
 },
 {
@@ -20092,23 +9856,7 @@
 "count": 1
 },
 {
-"pl": "Mana: +310",
-"count": 1
-},
-{
-"pl": "PŻ: -40",
-"count": 1
-},
-{
-"pl": "Kondycja: -50",
-"count": 1
-},
-{
 "pl": "Biltabandury Kategoria: Rękawice Ranga: : Описание",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +40",
 "count": 1
 },
 {
@@ -20116,15 +9864,7 @@
 "count": 1
 },
 {
-"pl": "Kondycja: 50",
-"count": 1
-},
-{
 "pl": "Kategoria obrażeń: obuchowe",
-"count": 1
-},
-{
-"pl": "Obrażenia: 121",
 "count": 1
 },
 {
@@ -20132,15 +9872,7 @@
 "count": 1
 },
 {
-"pl": "Pancerz kłute: +32",
-"count": 1
-},
-{
 "pl": "Istnieją w grze warianty Władcy Losu wymagające wiedzy, zamiast mocy. Pojawiły się jako rekompensaty reformy sprzętu dla graczy posiadających - niedostępny już - Gniew Zapomnianych.",
-"count": 1
-},
-{
-"pl": "PŻ: +500",
 "count": 1
 },
 {
@@ -20156,23 +9888,7 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 160",
-"count": 1
-},
-{
-"pl": "Obrażenia: 143",
-"count": 1
-},
-{
 "pl": "Dracorporis Kategoria: Płaszcze Ranga: V: Описание",
-"count": 1
-},
-{
-"pl": "Obrażenia: 169",
-"count": 1
-},
-{
-"pl": "Siła: +31",
 "count": 1
 },
 {
@@ -20180,19 +9896,7 @@
 "count": 1
 },
 {
-"pl": "PŻ: +550",
-"count": 1
-},
-{
 "pl": "Harttraum Kategoria: Zbroje Ranga: VII W: Описание",
-"count": 1
-},
-{
-"pl": "Waga: 45",
-"count": 1
-},
-{
-"pl": "Pancerz kłute: +31",
 "count": 1
 },
 {
@@ -20200,19 +9904,7 @@
 "count": 1
 },
 {
-"pl": "Waga: 32",
-"count": 1
-},
-{
 "pl": "Batagur Kategoria: Młoty dwuręczne Ranga: Описание",
-"count": 1
-},
-{
-"pl": "Obrażenia: 217",
-"count": 1
-},
-{
-"pl": "Siła: +47",
 "count": 1
 },
 {
@@ -20220,31 +9912,11 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 196",
-"count": 1
-},
-{
 "pl": "Exuvium Kategoria: Pasy Ranga: VIII Waga: Описание",
 "count": 1
 },
 {
-"pl": "Mana: +320",
-"count": 1
-},
-{
 "pl": "Rozdzieracz Światów Kategoria: Topory dw: Описание",
-"count": 1
-},
-{
-"pl": "Obrażenia: 227",
-"count": 1
-},
-{
-"pl": "Wymagana moc: 90",
-"count": 1
-},
-{
-"pl": "PŻ: +270",
 "count": 1
 },
 {
@@ -20260,10 +9932,6 @@
 "count": 1
 },
 {
-"pl": "Zręczność: +51",
-"count": 1
-},
-{
 "pl": "Ariarchy Kategoria: Karwasze Ranga: X Wa: Описание",
 "count": 1
 },
@@ -20272,31 +9940,7 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 211",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +55",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +55",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +55",
-"count": 1
-},
-{
 "pl": "Admiralski gronostaj Kategoria: Płaszcze: Описание",
-"count": 1
-},
-{
-"pl": "Mana: +240",
-"count": 1
-},
-{
-"pl": "Moc: +65",
 "count": 1
 },
 {
@@ -20304,23 +9948,7 @@
 "count": 1
 },
 {
-"pl": "Obrażenia: 266",
-"count": 1
-},
-{
-"pl": "Moc: +44",
-"count": 1
-},
-{
 "pl": "Aeterus Passio Kategoria: Rękawice Ranga: Описание",
-"count": 1
-},
-{
-"pl": "Wymagana moc: 120",
-"count": 1
-},
-{
-"pl": "Wymagana siła: 120",
 "count": 1
 },
 {
@@ -20328,99 +9956,11 @@
 "count": 1
 },
 {
-"pl": "Wymagana zręczność: 125",
-"count": 1
-},
-{
-"pl": "Zręczność: +53",
-"count": 1
-},
-{
-"pl": "Wymagana wiedza: 125",
-"count": 1
-},
-{
 "pl": "Cień Tarula Kategoria: Płaszcze Ranga: X: Описание",
 "count": 1
 },
 {
-"pl": "Wymagana moc: 130",
-"count": 1
-},
-{
-"pl": "Moc: +68",
-"count": 1
-},
-{
-"pl": "Wiedza: +63",
-"count": 1
-},
-{
-"pl": "Wymagana siła: 130",
-"count": 1
-},
-{
 "pl": "Dar Skrzydlatej Kategoria: Pierścienie R: Описание",
-"count": 1
-},
-{
-"pl": "PŻ: +640",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +60",
-"count": 1
-},
-{
-"pl": "Odporność energia: +60",
-"count": 1
-},
-{
-"pl": "Wymagana zręczność: 135",
-"count": 1
-},
-{
-"pl": "Siła: +58",
-"count": 1
-},
-{
-"pl": "Zręczność: +70",
-"count": 1
-},
-{
-"pl": "Wymagana siła: 135",
-"count": 1
-},
-{
-"pl": "Siła +68",
-"count": 1
-},
-{
-"pl": "Zręczność: +56",
-"count": 1
-},
-{
-"pl": "Wymagana moc: 135",
-"count": 1
-},
-{
-"pl": "Moc +74",
-"count": 1
-},
-{
-"pl": "Wiedza: +54",
-"count": 1
-},
-{
-"pl": "Wymagana wiedza: 135",
-"count": 1
-},
-{
-"pl": "Moc +52",
-"count": 1
-},
-{
-"pl": "Wiedza: +72",
 "count": 1
 },
 {
@@ -20432,14 +9972,6 @@
 "count": 1
 },
 {
-"pl": "Moc: +80",
-"count": 1
-},
-{
-"pl": "Wiedza: +69",
-"count": 1
-},
-{
 "pl": "PZ: +130",
 "count": 1
 },
@@ -20448,27 +9980,11 @@
 "count": 1
 },
 {
-"pl": "Moc: +58",
-"count": 1
-},
-{
 "pl": "PZ: +420",
 "count": 1
 },
 {
-"pl": "Siła: +59",
-"count": 1
-},
-{
 "pl": "PZ: +360",
-"count": 1
-},
-{
-"pl": "Siła: +93",
-"count": 1
-},
-{
-"pl": "Zręczność: +72",
 "count": 1
 },
 {
@@ -20540,27 +10056,7 @@
 "count": 1
 },
 {
-"pl": "Regeneracja kondycji: 6%",
-"count": 1
-},
-{
-"pl": "Wartość: 56000 złota",
-"count": 1
-},
-{
-"pl": "Pancerz sieczne: +18",
-"count": 1
-},
-{
-"pl": "Pancerz obuchowe: +19",
-"count": 1
-},
-{
 "pl": "Bonus Modyfikator obrażeń fizycznych: 10: Описание",
-"count": 1
-},
-{
-"pl": "Modyfikator obrażeń fizycznych: 10%",
 "count": 1
 },
 {
@@ -20568,23 +10064,7 @@
 "count": 1
 },
 {
-"pl": "Szansa na unik: 10%",
-"count": 1
-},
-{
 "pl": "Szansa na zredukowanie otrzymanych obrażeń: 12%",
-"count": 1
-},
-{
-"pl": "Obrażenia: 99",
-"count": 1
-},
-{
-"pl": "Waga: 55",
-"count": 1
-},
-{
-"pl": "Obrażenia: 119",
 "count": 1
 },
 {
@@ -20592,31 +10072,7 @@
 "count": 1
 },
 {
-"pl": "Modyfikator obrażeń fizycznych: 8%",
-"count": 1
-},
-{
-"pl": "Szansa na trafienie krytyczne: 7%",
-"count": 1
-},
-{
-"pl": "Obrażenia: 138",
-"count": 1
-},
-{
-"pl": "Zręczność: -5",
-"count": 1
-},
-{
 "pl": "Bonus Modyfikator obrażeń magicznych: 17: Описание",
-"count": 1
-},
-{
-"pl": "Modyfikator obrażeń magicznych: 17%",
-"count": 1
-},
-{
-"pl": "Regeneracja many: 3%",
 "count": 1
 },
 {
@@ -20628,23 +10084,7 @@
 "count": 1
 },
 {
-"pl": "Mana: +220",
-"count": 1
-},
-{
 "pl": "Bonus Szansa na trafienie krytyczne: 10%: Описание",
-"count": 1
-},
-{
-"pl": "Szansa na trafienie krytyczne: 10%",
-"count": 1
-},
-{
-"pl": "Zużycie kondycji: -8%",
-"count": 1
-},
-{
-"pl": "Obrażenia: 113",
 "count": 1
 },
 {
@@ -20652,51 +10092,11 @@
 "count": 1
 },
 {
-"pl": "Kondycja: +220",
-"count": 1
-},
-{
 "pl": "Bonus Zużycie many: -8% Szansa na podwój: Описание",
 "count": 1
 },
 {
-"pl": "Zużycie many: -8%",
-"count": 1
-},
-{
-"pl": "Szansa na podwójny atak: 10%",
-"count": 1
-},
-{
-"pl": "Modyfikator obrażeń fizycznych: 15%",
-"count": 1
-},
-{
-"pl": "Siła: +41",
-"count": 1
-},
-{
 "pl": "Bonus Szansa na unik: 7% Regeneracja man: Описание",
-"count": 1
-},
-{
-"pl": "Zręczność: +57",
-"count": 1
-},
-{
-"pl": "Waga: 27",
-"count": 1
-},
-{
-"pl": "Redukcja otrzymanych obrażeń biernych: 15%",
-"count": 1
-},
-{
-"pl": "Redukcja obrażeń: 7%",
-"count": 1
-},
-{
-"pl": "Modyfikator trafień mentalnych: 15%",
 "count": 1
 },
 {
@@ -20737,10 +10137,6 @@
 },
 {
 "pl": "Isghir Kategoria: Ryngrafy Ranga: III Wa: Описание",
-"count": 1
-},
-{
-"pl": "PŻ: 70",
 "count": 1
 },
 {
@@ -20796,10 +10192,6 @@
 "count": 1
 },
 {
-"pl": "Zręczność: +1",
-"count": 1
-},
-{
 "pl": "Pancerze sieczne: +3",
 "count": 1
 },
@@ -20816,23 +10208,11 @@
 "count": 1
 },
 {
-"pl": "Wartość: 1 złota",
-"count": 1
-},
-{
 "pl": "Szpadel Kategoria: Młoty dwuręczne Ranga: Описание",
 "count": 1
 },
 {
-"pl": "Obrażenia: 5",
-"count": 1
-},
-{
 "pl": "Chusta Strażników Tryfkina Kategoria: He: Описание",
-"count": 1
-},
-{
-"pl": "Wymagany poziom: 8",
 "count": 1
 },
 {
@@ -20845,10 +10225,6 @@
 },
 {
 "pl": "Hełm Qamdaka Kategoria: Hełmy Ranga: VII: Описание",
-"count": 1
-},
-{
-"pl": "Moc: +3",
 "count": 1
 },
 {
@@ -21108,10 +10484,6 @@
 "count": 1
 },
 {
-"pl": "Przysiółek Trentis,",
-"count": 1
-},
-{
 "pl": "1 h",
 "count": 1
 },
@@ -21281,10 +10653,6 @@
 },
 {
 "pl": "Opłacalność na poziomach",
-"count": 1
-},
-{
-"pl": "Nagrody",
 "count": 1
 },
 {
@@ -22028,10 +11396,6 @@
 "count": 1
 },
 {
-"pl": "250 platyny",
-"count": 1
-},
-{
 "pl": "Zdobywane z Przeciwników",
 "count": 1
 },
@@ -22460,95 +11824,7 @@
 "count": 1
 },
 {
-"pl": "Wartość: 37 500",
-"count": 1
-},
-{
 "pl": "Halval Duchów Kategoria: Hełmy Ranga: II: Описание",
-"count": 1
-},
-{
-"pl": "Pancerz kłute +21",
-"count": 1
-},
-{
-"pl": "Kondycja: +19",
-"count": 1
-},
-{
-"pl": "PŻ: +117",
-"count": 1
-},
-{
-"pl": "Mana: +12",
-"count": 1
-},
-{
-"pl": "Mana: +37",
-"count": 1
-},
-{
-"pl": "Siła: +3",
-"count": 1
-},
-{
-"pl": "PŻ: +22",
-"count": 1
-},
-{
-"pl": "PŻ: +19",
-"count": 1
-},
-{
-"pl": "Kondycja: +51",
-"count": 1
-},
-{
-"pl": "Mana: +51",
-"count": 1
-},
-{
-"pl": "PŻ: +48",
-"count": 1
-},
-{
-"pl": "Mana: +52",
-"count": 1
-},
-{
-"pl": "Kondycja: +11",
-"count": 1
-},
-{
-"pl": "Kondycja: +29",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +17",
-"count": 1
-},
-{
-"pl": "Odporność energia: +18",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +14",
-"count": 1
-},
-{
-"pl": "PŻ: +71",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +16",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +17",
-"count": 1
-},
-{
-"pl": "Odporność energia: +16",
 "count": 1
 },
 {
@@ -22556,135 +11832,7 @@
 "count": 1
 },
 {
-"pl": "Kondycja: +32",
-"count": 1
-},
-{
-"pl": "Kondycja: +53",
-"count": 1
-},
-{
-"pl": "PŻ: +122",
-"count": 1
-},
-{
-"pl": "Kondycja: +48",
-"count": 1
-},
-{
-"pl": "Mana: +49",
-"count": 1
-},
-{
-"pl": "Kondycja: +65",
-"count": 1
-},
-{
-"pl": "PŻ: +29",
-"count": 1
-},
-{
-"pl": "Mana: +59",
-"count": 1
-},
-{
-"pl": "Mana: +62",
-"count": 1
-},
-{
-"pl": "Kondycja: +21",
-"count": 1
-},
-{
-"pl": "Mana: +32",
-"count": 1
-},
-{
-"pl": "Kondycja: +41",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +21",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +19",
-"count": 1
-},
-{
-"pl": "Odporność energia: +22",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +18",
-"count": 1
-},
-{
-"pl": "PŻ: +99",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +22",
-"count": 1
-},
-{
-"pl": "Odporność energia: +14",
-"count": 1
-},
-{
 "pl": "Halval Szponów Kategoria: Hełmy Ranga: V: Описание",
-"count": 1
-},
-{
-"pl": "Kondycja: +47",
-"count": 1
-},
-{
-"pl": "PŻ: +38",
-"count": 1
-},
-{
-"pl": "Kondycja: +56",
-"count": 1
-},
-{
-"pl": "Kondycja: +66",
-"count": 1
-},
-{
-"pl": "PŻ: +44",
-"count": 1
-},
-{
-"pl": "Kondycja: +76",
-"count": 1
-},
-{
-"pl": "Kondycja: +72",
-"count": 1
-},
-{
-"pl": "Mana: +69",
-"count": 1
-},
-{
-"pl": "Mana: +48",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +24",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +23",
-"count": 1
-},
-{
-"pl": "PŻ: +133",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +21",
 "count": 1
 },
 {
@@ -22692,79 +11840,7 @@
 "count": 1
 },
 {
-"pl": "PŻ: +52",
-"count": 1
-},
-{
-"pl": "Kondycja: +86",
-"count": 1
-},
-{
-"pl": "PŻ: +177",
-"count": 1
-},
-{
-"pl": "Kondycja: +52",
-"count": 1
-},
-{
-"pl": "PŻ: +94",
-"count": 1
-},
-{
-"pl": "Mana: +73",
-"count": 1
-},
-{
-"pl": "Wiedza: +11",
-"count": 1
-},
-{
 "pl": "Wymagany poziom: 60Wymagana moc: 45",
-"count": 1
-},
-{
-"pl": "PŻ: +81",
-"count": 1
-},
-{
-"pl": "Mana: +78",
-"count": 1
-},
-{
-"pl": "Kondycja: +43",
-"count": 1
-},
-{
-"pl": "Kondycja: +49",
-"count": 1
-},
-{
-"pl": "PŻ: +79",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +27",
-"count": 1
-},
-{
-"pl": "Odporność energia: +28",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +28",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +32",
-"count": 1
-},
-{
-"pl": "Odporność energia: +26",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +26",
 "count": 1
 },
 {
@@ -22772,155 +11848,7 @@
 "count": 1
 },
 {
-"pl": "PŻ: +75",
-"count": 1
-},
-{
-"pl": "Mana: +79",
-"count": 1
-},
-{
-"pl": "Kondycja: +99",
-"count": 1
-},
-{
-"pl": "Mana: +105",
-"count": 1
-},
-{
-"pl": "Kondycja: +85",
-"count": 1
-},
-{
-"pl": "Mana: +103",
-"count": 1
-},
-{
-"pl": "PŻ: +107",
-"count": 1
-},
-{
-"pl": "Kondycja: +102",
-"count": 1
-},
-{
-"pl": "Kondycja: +78",
-"count": 1
-},
-{
-"pl": "PŻ: +88",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +32",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +26",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +31",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +31",
-"count": 1
-},
-{
 "pl": "Halval Vorlingów Kategoria: Hełmy Ranga:: Описание",
-"count": 1
-},
-{
-"pl": "PŻ: +87",
-"count": 1
-},
-{
-"pl": "Mana: +87",
-"count": 1
-},
-{
-"pl": "PŻ: +187",
-"count": 1
-},
-{
-"pl": "Kondycja: +93",
-"count": 1
-},
-{
-"pl": "PŻ: +116",
-"count": 1
-},
-{
-"pl": "PŻ: +127",
-"count": 1
-},
-{
-"pl": "Mana: +77",
-"count": 1
-},
-{
-"pl": "Kondycja: +111",
-"count": 1
-},
-{
-"pl": "Mana: +116",
-"count": 1
-},
-{
-"pl": "Kondycja: +122",
-"count": 1
-},
-{
-"pl": "Mana: +109",
-"count": 1
-},
-{
-"pl": "Kondycja: +108",
-"count": 1
-},
-{
-"pl": "Mana: +107",
-"count": 1
-},
-{
-"pl": "Kondycja: +98",
-"count": 1
-},
-{
-"pl": "Mana: +101",
-"count": 1
-},
-{
-"pl": "Kondycja: +92",
-"count": 1
-},
-{
-"pl": "Mana: +96",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +38",
-"count": 1
-},
-{
-"pl": "Odporność energia: +33",
-"count": 1
-},
-{
-"pl": "PŻ: +221",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +31",
-"count": 1
-},
-{
-"pl": "Odporność energia: +41",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +34",
 "count": 1
 },
 {
@@ -22928,191 +11856,7 @@
 "count": 1
 },
 {
-"pl": "Mana: +82",
-"count": 1
-},
-{
-"pl": "Kondycja: +112",
-"count": 1
-},
-{
-"pl": "PŻ: +106",
-"count": 1
-},
-{
-"pl": "PŻ: +191",
-"count": 1
-},
-{
-"pl": "Kondycja: +124",
-"count": 1
-},
-{
-"pl": "PŻ: +224",
-"count": 1
-},
-{
-"pl": "PŻ: +112",
-"count": 1
-},
-{
-"pl": "Mana: +86",
-"count": 1
-},
-{
-"pl": "Kondycja: +137",
-"count": 1
-},
-{
-"pl": "PŻ: +134",
-"count": 1
-},
-{
-"pl": "Mana: +114",
-"count": 1
-},
-{
-"pl": "Kondycja: +132",
-"count": 1
-},
-{
-"pl": "PŻ: +125",
-"count": 1
-},
-{
-"pl": "PŻ: +119",
-"count": 1
-},
-{
-"pl": "Kondycja: +97",
-"count": 1
-},
-{
-"pl": "Mana: +123",
-"count": 1
-},
-{
-"pl": "PŻ: +96",
-"count": 1
-},
-{
-"pl": "Mana: +76",
-"count": 1
-},
-{
-"pl": "PŻ: +114",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +42",
-"count": 1
-},
-{
-"pl": "Odporność energia: +38",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +40",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +37",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +41",
-"count": 1
-},
-{
 "pl": "Halval Dawnych Orków Kategoria: Hełmy Ra: Описание",
-"count": 1
-},
-{
-"pl": "PŻ: +118",
-"count": 1
-},
-{
-"pl": "Mana: +99",
-"count": 1
-},
-{
-"pl": "PŻ: +231",
-"count": 1
-},
-{
-"pl": "Pancerz kłute +39",
-"count": 1
-},
-{
-"pl": "PŻ: +131",
-"count": 1
-},
-{
-"pl": "Wiedza: +29",
-"count": 1
-},
-{
-"pl": "PŻ: +153",
-"count": 1
-},
-{
-"pl": "Mana: +89",
-"count": 1
-},
-{
-"pl": "Kondycja: +143",
-"count": 1
-},
-{
-"pl": "PŻ: +128",
-"count": 1
-},
-{
-"pl": "PŻ: +173",
-"count": 1
-},
-{
-"pl": "Kondycja: +109",
-"count": 1
-},
-{
-"pl": "Mana: +163",
-"count": 1
-},
-{
-"pl": "Mana: +118",
-"count": 1
-},
-{
-"pl": "PŻ: +97",
-"count": 1
-},
-{
-"pl": "Kondycja: +118",
-"count": 1
-},
-{
-"pl": "PŻ: +277",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +45",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +43",
-"count": 1
-},
-{
-"pl": "PŻ: +273",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +41",
-"count": 1
-},
-{
-"pl": "Odporność energia: +47",
 "count": 1
 },
 {
@@ -23120,139 +11864,7 @@
 "count": 1
 },
 {
-"pl": "Kondycja: +147",
-"count": 1
-},
-{
-"pl": "Mana: +148",
-"count": 1
-},
-{
-"pl": "PŻ: +241",
-"count": 1
-},
-{
-"pl": "Kondycja: +148",
-"count": 1
-},
-{
-"pl": "PŻ: +256",
-"count": 1
-},
-{
-"pl": "PŻ: +154",
-"count": 1
-},
-{
-"pl": "Kondycja: +163",
-"count": 1
-},
-{
-"pl": "Mana: +164",
-"count": 1
-},
-{
-"pl": "Kondycja: +190",
-"count": 1
-},
-{
-"pl": "PŻ: +184",
-"count": 1
-},
-{
-"pl": "Kondycja: +126",
-"count": 1
-},
-{
-"pl": "Moc: +33",
-"count": 1
-},
-{
-"pl": "PŻ: +157",
-"count": 1
-},
-{
-"pl": "Kondycja: +107",
-"count": 1
-},
-{
-"pl": "Moc: +32",
-"count": 1
-},
-{
-"pl": "Mana: +129",
-"count": 1
-},
-{
-"pl": "Kondycja: +129",
-"count": 1
-},
-{
-"pl": "PŻ: +330",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +50",
-"count": 1
-},
-{
-"pl": "Odporność energia: +48",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +50",
-"count": 1
-},
-{
-"pl": "PŻ: +323",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +48",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +54",
-"count": 1
-},
-{
 "pl": "Halval Torisa Kategoria: Hełmy Ranga: X : Описание",
-"count": 1
-},
-{
-"pl": "PŻ: +205",
-"count": 1
-},
-{
-"pl": "Kondycja: +139",
-"count": 1
-},
-{
-"pl": "Mana: +169",
-"count": 1
-},
-{
-"pl": "Mana: +136",
-"count": 1
-},
-{
-"pl": "PŻ: +255",
-"count": 1
-},
-{
-"pl": "PŻ: +247",
-"count": 1
-},
-{
-"pl": "PŻ: +151",
-"count": 1
-},
-{
-"pl": "Mana: +167",
-"count": 1
-},
-{
-"pl": "Kondycja: +152",
 "count": 1
 },
 {
@@ -23260,419 +11872,11 @@
 "count": 1
 },
 {
-"pl": "PŻ: +179",
-"count": 1
-},
-{
-"pl": "Mana: +122",
-"count": 1
-},
-{
-"pl": "Kondycja: +157",
-"count": 1
-},
-{
-"pl": "PŻ: +152",
-"count": 1
-},
-{
-"pl": "Mana: +145",
-"count": 1
-},
-{
-"pl": "Siła: +43",
-"count": 1
-},
-{
-"pl": "Kondycja: +125",
-"count": 1
-},
-{
-"pl": "Siła: +37",
-"count": 1
-},
-{
-"pl": "Zręczność: +39",
-"count": 1
-},
-{
-"pl": "Mana: +139",
-"count": 1
-},
-{
-"pl": "PŻ: +369",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +51",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +48",
-"count": 1
-},
-{
-"pl": "Odporność energia: +56",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +53",
-"count": 1
-},
-{
-"pl": "PŻ: +398",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +53",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +56",
-"count": 1
-},
-{
-"pl": "Odporność energia: +51",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +48",
-"count": 1
-},
-{
 "pl": "Halval Medy Kategoria: Hełmy Ranga: XI W: Описание",
 "count": 1
 },
 {
-"pl": "PŻ: +193",
-"count": 1
-},
-{
-"pl": "Kondycja: +222",
-"count": 1
-},
-{
-"pl": "Mana: +228",
-"count": 1
-},
-{
-"pl": "PŻ: +309",
-"count": 1
-},
-{
-"pl": "Pancerz sieczne: +41",
-"count": 1
-},
-{
-"pl": "PŻ: +331",
-"count": 1
-},
-{
-"pl": "Pancerz obuchowe: +41",
-"count": 1
-},
-{
-"pl": "PŻ: +198",
-"count": 1
-},
-{
-"pl": "Kondycja: +142",
-"count": 1
-},
-{
-"pl": "Mana: +158",
-"count": 1
-},
-{
-"pl": "PŻ: +218",
-"count": 1
-},
-{
-"pl": "Kondycja: +214",
-"count": 1
-},
-{
-"pl": "Mana: +201",
-"count": 1
-},
-{
-"pl": "Pancerz obuchowe: +42",
-"count": 1
-},
-{
-"pl": "PŻ: +228",
-"count": 1
-},
-{
-"pl": "Kondycja: +206",
-"count": 1
-},
-{
-"pl": "Pancerz sieczne: +46",
-"count": 1
-},
-{
-"pl": "PŻ: +213",
-"count": 1
-},
-{
-"pl": "Mana: +212",
-"count": 1
-},
-{
-"pl": "PŻ: +166",
-"count": 1
-},
-{
-"pl": "Kondycja: +168",
-"count": 1
-},
-{
-"pl": "Mana: +177",
-"count": 1
-},
-{
-"pl": "Kondycja: +119",
-"count": 1
-},
-{
-"pl": "Moc: +36",
-"count": 1
-},
-{
-"pl": "PŻ: +143",
-"count": 1
-},
-{
-"pl": "Mana: +128",
-"count": 1
-},
-{
-"pl": "Kondycja: +165",
-"count": 1
-},
-{
-"pl": "Moc: +47",
-"count": 1
-},
-{
-"pl": "PŻ: +148",
-"count": 1
-},
-{
-"pl": "Mana: +171",
-"count": 1
-},
-{
-"pl": "PŻ: +449",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +54",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +63",
-"count": 1
-},
-{
-"pl": "Odporność energia: +49",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +58",
-"count": 1
-},
-{
-"pl": "PŻ: +451",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +52",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +57",
-"count": 1
-},
-{
 "pl": "Halval Venegilda Kategoria: Hełmy Ranga:: Описание",
-"count": 1
-},
-{
-"pl": "Pancerz kłute +49",
-"count": 1
-},
-{
-"pl": "Wiedza: +38",
-"count": 1
-},
-{
-"pl": "PŻ: +202",
-"count": 1
-},
-{
-"pl": "Siła: +51",
-"count": 1
-},
-{
-"pl": "Kondycja: +209",
-"count": 1
-},
-{
-"pl": "Wiedza: +52",
-"count": 1
-},
-{
-"pl": "PŻ: +169",
-"count": 1
-},
-{
-"pl": "Mana: +189",
-"count": 1
-},
-{
-"pl": "PŻ: +319",
-"count": 1
-},
-{
-"pl": "Kondycja: +254",
-"count": 1
-},
-{
-"pl": "PŻ: +341",
-"count": 1
-},
-{
-"pl": "Mana: +248",
-"count": 1
-},
-{
-"pl": "PŻ: +204",
-"count": 1
-},
-{
-"pl": "Moc: +54",
-"count": 1
-},
-{
-"pl": "PŻ: +215",
-"count": 1
-},
-{
-"pl": "Mana: +178",
-"count": 1
-},
-{
-"pl": "PŻ: +278",
-"count": 1
-},
-{
-"pl": "Pancerz sieczne: +47",
-"count": 1
-},
-{
-"pl": "PŻ: +301",
-"count": 1
-},
-{
-"pl": "Mana: +204",
-"count": 1
-},
-{
-"pl": "PŻ: +253",
-"count": 1
-},
-{
-"pl": "PŻ: +276",
-"count": 1
-},
-{
-"pl": "Mana: +229",
-"count": 1
-},
-{
-"pl": "Siła: +54",
-"count": 1
-},
-{
-"pl": "PŻ: +207",
-"count": 1
-},
-{
-"pl": "Moc: +42",
-"count": 1
-},
-{
-"pl": "Wiedza: +55",
-"count": 1
-},
-{
-"pl": "PŻ: +232",
-"count": 1
-},
-{
-"pl": "Siła: +57",
-"count": 1
-},
-{
-"pl": "PŻ: +181",
-"count": 1
-},
-{
-"pl": "Mana: +202",
-"count": 1
-},
-{
-"pl": "Siła: +55",
-"count": 1
-},
-{
-"pl": "Moc: +51",
-"count": 1
-},
-{
-"pl": "Wymagany poziom: +140",
-"count": 1
-},
-{
-"pl": "Siła: +52",
-"count": 1
-},
-{
-"pl": "Mana: +184",
-"count": 1
-},
-{
-"pl": "PŻ: +537",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +64",
-"count": 1
-},
-{
-"pl": "Odporność zimno: +59",
-"count": 1
-},
-{
-"pl": "Odporność energia: +57",
-"count": 1
-},
-{
-"pl": "PŻ: +529",
-"count": 1
-},
-{
-"pl": "Odporność ogień: +58",
-"count": 1
-},
-{
-"pl": "Odporność energia: +61",
-"count": 1
-},
-{
-"pl": "Odporność uroki: +61",
 "count": 1
 },
 {
@@ -23953,10 +12157,6 @@
 },
 {
 "pl": "Opłacalność na poziomach:",
-"count": 1
-},
-{
-"pl": "Nagrody:",
 "count": 1
 },
 {
@@ -24640,14 +12840,6 @@
 "count": 1
 },
 {
-"pl": "Uczeń",
-"count": 1
-},
-{
-"pl": "Mistrz",
-"count": 1
-},
-{
 "pl": "Żeton resetu Umiejętności",
 "count": 1
 },
@@ -24949,10 +13141,6 @@
 },
 {
 "pl": "W zależności od wyboru:",
-"count": 1
-},
-{
-"pl": "Prestiż,",
 "count": 1
 },
 {
@@ -25272,10 +13460,6 @@
 "count": 1
 },
 {
-"pl": "15 000 złota",
-"count": 1
-},
-{
 "pl": "Zbierz 20",
 "count": 1
 },
@@ -25297,10 +13481,6 @@
 },
 {
 "pl": "Dostarcz materiały na bukłaki, następnie wypełnij je krwią Jeti.",
-"count": 1
-},
-{
-"pl": "100 x",
 "count": 1
 },
 {
@@ -25820,10 +14000,6 @@
 "count": 1
 },
 {
-"pl": "Zlecenia Deona.",
-"count": 1
-},
-{
 "pl": "to instancja przeznaczona dla pojedynczego gracza, w której bossem jest",
 "count": 1
 },
@@ -26245,10 +14421,6 @@
 },
 {
 "pl": "Opuszczenie więzienia.",
-"count": 1
-},
-{
-"pl": "90 minut",
 "count": 1
 },
 {
@@ -26816,10 +14988,6 @@
 "count": 1
 },
 {
-"pl": "45 minut",
-"count": 1
-},
-{
 "pl": "Odnajdź: Drewno na strzały;",
 "count": 1
 },
@@ -26936,10 +15104,6 @@
 "count": 1
 },
 {
-"pl": "40 minut",
-"count": 1
-},
-{
 "pl": "55 poziom postaci.",
 "count": 1
 },
@@ -27009,10 +15173,6 @@
 },
 {
 "pl": "Znajdź i zabij drużynę: Kot górski.",
-"count": 1
-},
-{
-"pl": "350 x",
 "count": 1
 },
 {
@@ -27205,10 +15365,6 @@
 },
 {
 "pl": "Znajdź i przynieś: 1 x Kamień szlifierski.",
-"count": 1
-},
-{
-"pl": "6 minut",
 "count": 1
 },
 {
