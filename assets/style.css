@@ -632,3 +632,5 @@ table.art img { max-height: 48px; vertical-align: middle; }
 :root[data-theme="dark"] .c-purple { color: #c99bff; }
 .block-html td > div, .block-html th > div { display: block; }
 table.art td, table.art th { overflow-wrap: normal; }
+.side-note .side-contact { margin-top: 8px; }
+.side-note .side-contact a { display: inline; margin: 0; }

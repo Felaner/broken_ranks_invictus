@@ -301,18 +301,22 @@
     }
     html += `</div>
       <div class="side-note">Неофициальная фанатская вики. Не связана с Whitemoon Games.
-        <a href="#/about" class="${kind === "about" ? "active" : ""}">О сайте</a></div>`;
+        <a href="#/about" class="${kind === "about" ? "active" : ""}">О сайте</a>
+        <div class="side-contact">Идеи и вопросы — в Telegram: ${TG}</div></div>`;
     els.sidebar.innerHTML = html;
   }
 
   // ---------- main views ----------
 
+  const TG = `<a href="https://t.me/felaner" target="_blank" rel="noopener">@felaner</a>`;
+
   function renderHome() {
     let html = db.demo ? demoBanner() : "";
-    html += `<h1 class="page-title">Broken Ranks Wiki</h1>
+    html += `<h1 class="page-title">Broken Ranks Fandom Wiki</h1>
       <p class="page-sub">Личная база по игре: экипировка, питомцы, противники, предметы, НПС и навыки.</p>
       <div class="notice">Это <b>неофициальная</b> фанатская вики, сделанная игроками. Она не связана с разработчиком
-        игры и не одобрена им. <a href="#/about">Подробнее</a></div>
+        игры и не одобрена им. <a href="#/about">Подробнее</a><br>
+        Есть идея, нашли ошибку или хотите что-то спросить — пишите в Telegram: ${TG}</div>
       <div class="home-grid">`;
     for (const sec of SECTIONS) {
       const data = db.sections[sec.id];
@@ -583,6 +587,8 @@
       <h3>Отношение к разработчику</h3>
       <p>Сайт не связан с компанией Whitemoon Games (разработчик и издатель Broken Ranks), не одобрен, не спонсирован
         и не поддерживается ею. Мнения и сведения на сайте не являются официальной позицией разработчика.</p>
+      <p>Слово «Fandom» в названии означает «фанатская» вики. Сайт не связан с платформой Fandom (Fandom, Inc.)
+        и не размещён на ней.</p>
       <h3>Права на материалы</h3>
       <p>Broken Ranks, названия, логотипы, изображения, тексты и другие игровые материалы являются собственностью
         их правообладателей. Они используются здесь исключительно в информационных, некоммерческих целях —
@@ -594,10 +600,12 @@
       <p>Сведения собраны из общедоступных источников и могут быть неполными, неточными или устаревшими.
         Актуальную информацию смотрите в самой игре и на официальных ресурсах разработчика. Сайт не несёт
         ответственности за решения, принятые на основе его материалов.</p>
+      <h3>Связь</h3>
+      <p>Идеи, вопросы, найденные ошибки — пишите в Telegram: ${TG}</p>
       <h3>Для правообладателей</h3>
       <p>Если вы правообладатель и считаете, что какой-либо материал размещён неправомерно, сообщите об этом —
-        он будет оперативно исправлен или удалён:
-        <a href="https://github.com/Felaner/broken_ranks_invictus/issues" target="_blank" rel="noopener">написать</a>.</p>
+        он будет оперативно исправлен или удалён: Telegram ${TG} или
+        <a href="https://github.com/Felaner/broken_ranks_invictus/issues" target="_blank" rel="noopener">GitHub</a>.</p>
     </div>`;
   }
 
