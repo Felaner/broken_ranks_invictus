@@ -910,9 +910,19 @@
   const splitPoints = p => [p % 14, Math.floor(p / 14) % 14, Math.floor(p / 196)];
   const skillLevelLabel = lv => lv ? `${(lv - 1) % 7 + 1}` : "0";
   const tierOf = lv => lv ? TIERS[Math.min(2, Math.floor((lv - 1) / 7))][1] : "t0";
+  // Значок ступени как в игре: три кружка треугольником, нужный закрашен цветом ступени.
+  function tierIcon(i) {
+    const pts = [[4, 13], [9, 4], [14, 13]]; // ученик — левый нижний, адепт — верхний, мастер — правый нижний
+    const on = [0, 1, 2][i];
+    return `<svg class="sp-ico" viewBox="0 0 18 17" aria-hidden="true">
+      <path d="M4 13 L9 4 L14 13" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.2"/>
+      ${pts.map(([x, y], k) => `<circle cx="${x}" cy="${y}" r="3.2" ${k === on
+        ? 'fill="var(--sp-c)" stroke="var(--sp-c)"' : 'fill="var(--panel)" stroke="currentColor" stroke-opacity=".7"'} stroke-width="1.4"/>`).join("")}
+    </svg>`;
+  }
   const pointsHtml = (p, compact) => {
     const parts = splitPoints(p).map((n, i) => [n, i]).filter(([n], i) => !compact || n || (p === 0 && i === 0));
-    return parts.map(([n, i]) => `<span class="sp ${TIERS[i][1]}" title="Очки: ${TIERS[i][0]}">${n}</span>`).join("");
+    return parts.map(([n, i]) => `<span class="sp ${TIERS[i][1]}" title="Очки: ${TIERS[i][0]}">${tierIcon(i)}<b>${n}</b></span>`).join("");
   };
   function classSkills() {
     return db.sections.skills.entries.filter(e => e.skillReq && (e.skillClass === build.cls || e.skillClass === "Особые"))

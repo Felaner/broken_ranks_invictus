@@ -668,7 +668,7 @@ body.static { background: var(--bg); }
 .tip-desc b { color: var(--accent); font-weight: 600; }
 
 /* ---------- переодевалка ---------- */
-.builder { display: grid; grid-template-columns: minmax(280px, 1fr) minmax(300px, 1.3fr) minmax(240px, 1fr); gap: 18px; align-items: start; }
+.builder { margin-top: 26px; display: grid; grid-template-columns: minmax(280px, 1fr) minmax(300px, 1.3fr) minmax(240px, 1fr); gap: 18px; align-items: start; }
 @media (max-width: 1350px) { .builder { grid-template-columns: 1fr 1fr; } .builder .b-doll { grid-column: 1 / -1; order: -1; } }
 @media (max-width: 760px) { .builder { grid-template-columns: 1fr; } }
 .b-panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
@@ -733,11 +733,15 @@ body.static { background: var(--bg); }
 .b-skills { margin-top: 18px; }
 .sk-head { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
 .sk-head .btn { margin-left: auto; }
-.sp { display: inline-grid; place-items: center; min-width: 22px; height: 20px; padding: 0 5px; border-radius: 10px;
-  font-size: 12px; font-weight: 700; margin: 0 2px; border: 2px solid; }
-.sp.t1, .sk-lv.t1 { color: #b8960b; border-color: #e0c040; }
-.sp.t2, .sk-lv.t2 { color: #d0661a; border-color: #f08a3c; }
-.sp.t3, .sk-lv.t3 { color: #c62f2f; border-color: #e05050; }
+.sp { display: inline-flex; align-items: center; gap: 3px; margin: 0 6px 0 2px; font-weight: 700; font-size: 15px;
+  color: var(--text); vertical-align: middle; }
+.sp b { color: var(--sp-c); }
+.sp-ico { width: 20px; height: 19px; }
+.sp.t1 { --sp-c: #d4a514; } .sp.t2 { --sp-c: #ee7a1e; } .sp.t3 { --sp-c: #e0342c; }
+.sk-main small .sp { font-size: 13px; } .sk-main small .sp-ico { width: 17px; height: 16px; }
+.sk-lv.t1 { color: #b8960b; border-color: #e0c040; }
+.sk-lv.t2 { color: #d0661a; border-color: #f08a3c; }
+.sk-lv.t3 { color: #c62f2f; border-color: #e05050; }
 .sk-cols { display: grid; grid-template-columns: 2fr 1fr; gap: 18px; }
 @media (max-width: 900px) { .sk-cols { grid-template-columns: 1fr; } }
 .sk-cols h4 { margin: 4px 0 6px; font-size: 12px; text-transform: uppercase; color: var(--muted); }
@@ -750,3 +754,5 @@ body.static { background: var(--bg); }
 .sk-btn:disabled { opacity: .35; cursor: default; }
 .sk-lv { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; font-weight: 700; border: 2px solid var(--line); }
 .sk-lv.t0 { color: var(--muted); }
+
+.b-doll { padding-top: 6px; }
