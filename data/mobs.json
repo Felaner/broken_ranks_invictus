@@ -4794,7 +4794,7 @@
     },
     {
      "title": "Локация",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Stok - Event <i>Dziedziniec Morany</i> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Склон — ивент <i>Двор Мораны</i> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/mobs/mobs/",
@@ -7374,7 +7374,7 @@
     },
     {
      "title": "Локация",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Alaril <p>Распутье </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Аларил <p>Распутье </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/mobs/mobs/",
@@ -12797,7 +12797,7 @@
    "blocks": [
     {
      "title": "Дроп",
-     "html": "60х <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/>, <img data-items=\"sinsSpis\" src=\"data/raresImg/lists/synergetyki_zliczanie.png\"/><span style=\"color:#FF1493\">(20)</span><hr><table class=\"wb\"><tr><td colspan=\"2\">Предметы </td><td colspan=\"2\">Синергетики </td><td colspan=\"2\">Эпики </td></tr><tr><td colspan=\"2\"><span><img data-items=\"item114\" src=\"data/wikibr/images/0/00/Kamienie.png\"/></span>x60 </td><td colspan=\"2\"><span data-items=\"wb_synergetyki\"><span style=\"color:#a70c5e\"><b>20  ур.</b></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/6/6a/Nie.png\" title=\"Нет\"/></span></span> </td></tr></table>"
+     "html": "60х <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/>, <img data-items=\"sinsSpis\" src=\"data/raresImg/lists/synergetyki_zliczanie.png\"/><span style=\"color:#FF1493\">(20)</span><hr><table class=\"wb\"><tr><td colspan=\"2\">Предметы </td><td colspan=\"2\">Синергетики </td><td colspan=\"2\">Эпики </td></tr><tr><td colspan=\"2\"><span><img data-items=\"item114\" src=\"data/wikibr/images/0/00/Kamienie.png\"/></span>×60 </td><td colspan=\"2\"><span data-items=\"wb_synergetyki\"><span style=\"color:#a70c5e\"><b>20  ур.</b></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/6/6a/Nie.png\" title=\"Нет\"/></span></span> </td></tr></table>"
     },
     {
      "title": "Статистика",
@@ -15366,7 +15366,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Дезориентация <p>Болезненный Удар </p><p>Таран </p><p>Обычная атака </p> </td><td colspan=\"2\">Огненный Шар </td><td colspan=\"2\">Wola walki <p>Боевой Клич </p><p>Паника </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Дезориентация <p>Болезненный Удар </p><p>Таран </p><p>Обычная атака </p> </td><td colspan=\"2\">Огненный Шар </td><td colspan=\"2\">Воля к бою <p>Боевой Клич </p><p>Паника </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -18333,7 +18333,7 @@
     },
     {
      "title": "Локация",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Las Koldów - Event <i>Kłopoty Sany</i> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Лес Колдов — ивент <i>Неприятности Саны</i> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/mobs/mobs/",
@@ -19270,7 +19270,7 @@
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Za pomocą odpowiednich <span data-items=\"wb_kombinacje_na_filarach\">Kombinacji</span> mogą wywoływać specjalne właściwości podczas walki z <span data-items=\"admiral1a\">Admirałem</span>. </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">С помощью соответствующих <span data-items=\"wb_kombinacje_na_filarach\">комбинаций</span> могут вызывать особые свойства в бою с <span data-items=\"admiral1a\">Адмиралом</span>. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -22623,7 +22623,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Поджог </td><td colspan=\"2\">Огненный Дождь <p>Огненный Шар </p><p>Meteor </p><p>Магическая Искра </p> </td><td colspan=\"2\">Инкантация <p>Огненная сфера </p><p>Боевой Клич </p><p>Чувствительность к огню </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Поджог </td><td colspan=\"2\">Огненный Дождь <p>Огненный Шар </p><p>Метеор </p><p>Магическая Искра </p> </td><td colspan=\"2\">Инкантация <p>Огненная сфера </p><p>Боевой Клич </p><p>Чувствительность к огню </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -22749,7 +22749,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Болезненный Удар <p>Летающее Колено </p><p>Удар в Печень </p><p>Удар Чи </p><p>Фронтальный Удар </p> </td><td colspan=\"2\">Hauduoken </td><td colspan=\"2\">Контроль дыхания <p>Увороты </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Болезненный Удар <p>Летающее Колено </p><p>Удар в Печень </p><p>Удар Чи </p><p>Фронтальный Удар </p> </td><td colspan=\"2\">Хадукен </td><td colspan=\"2\">Контроль дыхания <p>Увороты </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -23936,11 +23936,11 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение <p>Обычная атака </p> </td><td colspan=\"2\">Plucie jadem </td><td colspan=\"2\">Боевой Клич <p>Паника </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение <p>Обычная атака </p> </td><td colspan=\"2\">Плевок ядом </td><td colspan=\"2\">Боевой Клич <p>Паника </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div>Przyzwanie: <span data-items=\"spider12a\">Маленький паук</span></div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div>Призыв: <span data-items=\"spider12a\">Маленький паук</span></div> </td></tr></table>"
     },
     {
      "title": "Локация",
@@ -26299,7 +26299,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Удар кулаком <p>Обычная атака </p> <p>Пробитие защиты</p> <p>Удар в Печень</p> <p>Удар Головой</p> </td><td colspan=\"2\">Бросок <p>Trzęsienie ziemii </p> </td><td colspan=\"2\">Паника </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Удар кулаком <p>Обычная атака </p> <p>Пробитие защиты</p> <p>Удар в Печень</p> <p>Удар Головой</p> </td><td colspan=\"2\">Бросок <p>Землетрясение </p> </td><td colspan=\"2\">Паника </td></tr></table>"
     },
     {
      "title": "Локация",
@@ -27189,11 +27189,11 @@
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Групповой разворот <p>Przyzwanie: Harpiątko </p> <p>Устойчивость к ближним атакам</p> <p>Иммунитет к дальним атакам</p> <p>Иммунитет к ментальным атакам</p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Групповой разворот <p>Призыв: Гарпиёнок </p> <p>Устойчивость к ближним атакам</p> <p>Иммунитет к дальним атакам</p> <p>Иммунитет к ментальным атакам</p> </td></tr></table>"
     },
     {
      "title": "Локация",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Skała Harpii </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Скала Гарпий </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/mobs/mobs/",
@@ -27639,7 +27639,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Групповой зев <p>Кровотечение </p><p>Замораживание </p><p>Обычная атака </p> </td><td colspan=\"2\">Град <p>Ледяной снаряд </p><p>Групповая дальняя атака </p> </td><td colspan=\"2\">Grupowa odporność na uroki <p>Массовая аура холода </p><p>Отупление </p><p>Очищение </p><p>Повышение точности </p><p>Усиление характеристик </p><p>Замораживание </p><p>Ледяной Щит </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Групповой зев <p>Кровотечение </p><p>Замораживание </p><p>Обычная атака </p> </td><td colspan=\"2\">Град <p>Ледяной снаряд </p><p>Групповая дальняя атака </p> </td><td colspan=\"2\">Групповое сопротивление менталу <p>Массовая аура холода </p><p>Отупление </p><p>Очищение </p><p>Повышение точности </p><p>Усиление характеристик </p><p>Замораживание </p><p>Ледяной Щит </p> </td></tr></table>"
     },
     {
      "title": "Команда",
@@ -27780,7 +27780,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Групповая физическая атака <p>Ранящий удар </p><p>Rzyg mrożący </p><p>Укус </p> </td><td colspan=\"2\">Ледяной снаряд </td><td colspan=\"2\">Теневая аура <p>Булавка в глаз </p><p>Удар в живот </p><p>Отравление </p><p>Немота </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Групповая физическая атака <p>Ранящий удар </p><p>Замораживающая рвота </p><p>Укус </p> </td><td colspan=\"2\">Ледяной снаряд </td><td colspan=\"2\">Теневая аура <p>Булавка в глаз </p><p>Удар в живот </p><p>Отравление </p><p>Немота </p> </td></tr></table>"
     },
     {
      "title": "Команда",
@@ -28498,7 +28498,7 @@
     },
     {
      "title": "Статистика",
-     "html": "<table class=\"wb\"><tr><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"3\">Уровень: <b>130</b> </td><td colspan=\"3\">Уровень: <b>145</b> </td></tr><tr><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 8 800</b></div><div><b> <span></span></b>Мана<b>: 5 000</b></div><div><b> <span></span></b>Выносливость<b>: 5 000</b></div></center> </td><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 18 000</b></div><div><b> <span></span></b>Мана<b>: 10 000</b></div><div><b> <span></span></b>Выносливость<b>: 10 000</b></div></center> </td></tr><tr><td colspan=\"6\"><b>Po transformacji</b> </td></tr><tr><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 13 200</b></div><div><b> <span></span></b>Мана<b>: 5 000</b></div><div><b> <span></span></b>Выносливость<b>: 5 000</b></div></center> </td><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 27 000</b></div><div><b> <span></span></b>Мана<b>: 10 000</b></div><div><b> <span></span></b>Выносливость<b>: 10 000</b></div></center> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"3\">Уровень: <b>130</b> </td><td colspan=\"3\">Уровень: <b>145</b> </td></tr><tr><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 8 800</b></div><div><b> <span></span></b>Мана<b>: 5 000</b></div><div><b> <span></span></b>Выносливость<b>: 5 000</b></div></center> </td><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 18 000</b></div><div><b> <span></span></b>Мана<b>: 10 000</b></div><div><b> <span></span></b>Выносливость<b>: 10 000</b></div></center> </td></tr><tr><td colspan=\"6\"><b>После трансформации</b> </td></tr><tr><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 13 200</b></div><div><b> <span></span></b>Мана<b>: 5 000</b></div><div><b> <span></span></b>Выносливость<b>: 5 000</b></div></center> </td><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 27 000</b></div><div><b> <span></span></b>Мана<b>: 10 000</b></div><div><b> <span></span></b>Выносливость<b>: 10 000</b></div></center> </td></tr></table>"
     },
     {
      "title": "Зоны атаки",
@@ -28506,11 +28506,11 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Болезненный удар <p>Удар Головой </p><p>Поджог </p><p>Пробитие защиты </p><p>Обычная атака </p> </td><td colspan=\"2\">Ogniste spojrzenie <p>Mały meteoryt </p> </td><td colspan=\"2\">Aura stłumienia <p>Паника </p><p>Укол Куклы </p><p>Ярость </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Болезненный удар <p>Удар Головой </p><p>Поджог </p><p>Пробитие защиты </p><p>Обычная атака </p> </td><td colspan=\"2\">Огненный взгляд <p>Малый метеорит </p> </td><td colspan=\"2\">Аура подавления <p>Паника </p><p>Укол Куклы </p><p>Ярость </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div>Устойчивость перед лицом смерти <p>Устойчивость к обездвиживанию </p><p>Transformacja </p> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div>Устойчивость перед лицом смерти <p>Устойчивость к обездвиживанию </p><p>Трансформация </p> </div> </td></tr></table>"
     },
     {
      "title": "Команда",
@@ -28917,15 +28917,15 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Grupowy atak wręcz <p>Смертельный удар </p><p>Боль </p><p>Мощный Удар </p><p>Летающее Колено </p><p>Кровотечение </p><p>Удар Головой </p> </td><td colspan=\"2\">Групповая дальняя атака <p>Звуковая волна </p><p>Nalot </p> </td><td colspan=\"2\">Боевой Клич <p>Ярость </p><p>Немота </p><p>Транс </p><p>Паника </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Групповая ближняя атака <p>Смертельный удар </p><p>Боль </p><p>Мощный Удар </p><p>Летающее Колено </p><p>Кровотечение </p><p>Удар Головой </p> </td><td colspan=\"2\">Групповая дальняя атака <p>Звуковая волна </p><p>Налёт </p> </td><td colspan=\"2\">Боевой Клич <p>Ярость </p><p>Немота </p><p>Транс </p><p>Паника </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div> <p>Устойчивость к обездвиживанию </p><p>Przyzwanie: Jastrząbek </p> </div> </td></tr><tr><td colspan=\"6\"><b>Команда</b> </td></tr><tr><td colspan=\"6\"><span><img src=\"data/wikibr/images/5/53/Jastrz%C4%85bek.png\"/></span> <span><img src=\"data/wikibr/images/5/53/Jastrz%C4%85bek.png\"/></span> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div> <p>Устойчивость к обездвиживанию </p><p>Призыв: Ястребёнок </p> </div> </td></tr><tr><td colspan=\"6\"><b>Команда</b> </td></tr><tr><td colspan=\"6\"><span><img src=\"data/wikibr/images/5/53/Jastrz%C4%85bek.png\"/></span> <span><img src=\"data/wikibr/images/5/53/Jastrz%C4%85bek.png\"/></span> </td></tr></table>"
     },
     {
      "title": "Локация",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\"> <p>Гнездо Ястребора </p><p>Беирн </p><p>Półka skalna </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\"> <p>Гнездо Ястребора </p><p>Беирн </p><p>Скальный уступ </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/mobs/mobs/",
@@ -29198,7 +29198,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Kradzież kondycji <p>Замораживание </p> </td><td colspan=\"2\">Звуковая волна <p>Удара тени </p> </td><td colspan=\"2\">Аура Ужаса <p>Массовая аура холода </p><p>Удар в живот </p><p>Отупление </p><p>Энергетическая игла </p><p>Булавка в глаз </p><p>Явление смерти </p><p>Отравление </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кража выносливости <p>Замораживание </p> </td><td colspan=\"2\">Звуковая волна <p>Удара тени </p> </td><td colspan=\"2\">Аура Ужаса <p>Массовая аура холода </p><p>Удар в живот </p><p>Отупление </p><p>Энергетическая игла </p><p>Булавка в глаз </p><p>Явление смерти </p><p>Отравление </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -29623,11 +29623,11 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr><tr><td colspan=\"6\"><b>Умения</b> </td></tr></table>"
     },
     {
-     "title": "Z obstawą",
+     "title": "С охраной",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Удар </td><td colspan=\"2\">Шар энергии </td><td colspan=\"2\">Групповое Лечение <p>Лечение </p><p>Рассеивание </p><p>Корни </p><p>Рой ос </p> </td></tr></table>"
     },
     {
-     "title": "Bez obstawy",
+     "title": "Без охраны",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Боль <p>Оглушение </p><p>Мощный Удар </p><p>Булавка в глаз </p> </td><td colspan=\"2\">Шар энергии <p>Теневой Удар </p> </td><td colspan=\"2\">Удар в живот <p>Оглушение </p><p>Отупление </p><p>Булавка в глаз </p><p>Отравление </p> </td></tr></table>"
     },
     {
@@ -29745,11 +29745,11 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Пыль в глаза <p>Обычная атака </p><p>Таран </p> </td><td colspan=\"2\">Групповая дальняя атака <p>Бросок </p><p>Шаровая молния </p><p>Молния </p><p>Буря </p> </td><td colspan=\"2\">Сила Единства <p>Grupowa aura zima </p><p>Ярость </p><p>Паника </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Пыль в глаза <p>Обычная атака </p><p>Таран </p> </td><td colspan=\"2\">Групповая дальняя атака <p>Бросок </p><p>Шаровая молния </p><p>Молния </p><p>Буря </p> </td><td colspan=\"2\">Сила Единства <p>Групповая аура зимы </p><p>Ярость </p><p>Паника </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div>Устойчивость к обездвиживанию <p>Устойчивость перед лицом смерти </p><p>Устойчивость к рубящему урону </p><p>Прорыв Защиты </p><p>Przyzwanie: Przywrócony Isher </p><p>Przyzwanie: Przywrócony Brenadir </p><p>Przyzwanie: Przywrócony Eldingur </p> Przyzwanie: Przywrócony Hellar</div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div>Устойчивость к обездвиживанию <p>Устойчивость перед лицом смерти </p><p>Устойчивость к рубящему урону </p><p>Прорыв Защиты </p><p>Призыв: Возвращённый Ишер </p><p>Призыв: Возвращённый Бренадир </p><p>Призыв: Возвращённый Эльдингур </p> Призыв: Возвращённый Хеллар</div> </td></tr></table>"
     },
     {
      "title": "Команда",
@@ -29872,7 +29872,7 @@
     },
     {
      "title": "Статистика",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>260</b><br/> <span><span><img src=\"data/wikibr/images/3/35/Power_icon.png\" title=\"Сила (PvE)\"/></span></span> <b>63 982</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: <span><span><img src=\"data/wikibr/images/e/e3/Tarcza.png\" title=\"Tarcza\"/></span></span> + 750 000</b></div><div><b> <span></span></b>Мана<b>: 44 000</b></div><div><b> <span></span></b>Выносливость<b>: 44 000</b></div></center> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>260</b><br/> <span><span><img src=\"data/wikibr/images/3/35/Power_icon.png\" title=\"Сила (PvE)\"/></span></span> <b>63 982</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: <span><span><img src=\"data/wikibr/images/e/e3/Tarcza.png\" title=\"Щит\"/></span></span> + 750 000</b></div><div><b> <span></span></b>Мана<b>: 44 000</b></div><div><b> <span></span></b>Выносливость<b>: 44 000</b></div></center> </td></tr></table>"
     },
     {
      "title": "Зоны атаки",
@@ -29880,11 +29880,11 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение <p>Заражение </p><p>Отравление </p><p>Ранение </p><p>Обычная атака </p> </td><td colspan=\"2\"><span>Chmara nietoperzy</span> <p>Tsunami krwi </p><p>Fala krwi </p> </td><td colspan=\"2\">Теневая аура <p>Аура Ужаса </p><p>Grupowe ukłucie lalki </p><p>Оглушение </p><p>Отупление </p><p>Булавка в глаз </p><p>Ukłcie lalki </p><p>Ярость </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение <p>Заражение </p><p>Отравление </p><p>Ранение </p><p>Обычная атака </p> </td><td colspan=\"2\"><span>Туча летучих мышей</span> <p>Цунами крови </p><p>Волна крови </p> </td><td colspan=\"2\">Теневая аура <p>Аура Ужаса </p><p>Групповой укол куклы </p><p>Оглушение </p><p>Отупление </p><p>Булавка в глаз </p><p>Укол куклы </p><p>Ярость </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div><span>Ofiara krwi</span> <p>Устойчивость к колющему урону </p><p>Устойчивость к дробящему урону </p><p>Устойчивость к рубящему урону </p><p>Устойчивость перед лицом смерти </p><p>Устойчивость к обездвиживанию </p><p>Przyzwanie: Hemorf </p> Przyzwanie: Krwiocień</div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\"><div><span>Кровавая жертва</span> <p>Устойчивость к колющему урону </p><p>Устойчивость к дробящему урону </p><p>Устойчивость к рубящему урону </p><p>Устойчивость перед лицом смерти </p><p>Устойчивость к обездвиживанию </p><p>Призыв: Хеморф </p> Призыв: Кровотень</div> </td></tr></table>"
     },
     {
      "title": "Локация",
@@ -30873,7 +30873,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Волна Гнева <p>Болезненный Удар </p><p>Кровотечение </p><p>Пыль в глаза </p><p>Булавка в глаз </p><p>Заражение </p><p>Отравление </p><p>Обычная атака </p> </td><td colspan=\"2\"> </td><td colspan=\"2\">Ярость <p>Боевой Клич </p><p>Паника </p><p>Wścieklizna </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Волна Гнева <p>Болезненный Удар </p><p>Кровотечение </p><p>Пыль в глаза </p><p>Булавка в глаз </p><p>Заражение </p><p>Отравление </p><p>Обычная атака </p> </td><td colspan=\"2\"> </td><td colspan=\"2\">Ярость <p>Боевой Клич </p><p>Паника </p><p>Бешенство </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -31423,7 +31423,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Drenaż kondycji <p>Удар Головой </p><p>Фронтальный Удар </p><p>Таран </p> </td><td colspan=\"2\">Град <p>Бросок </p> </td><td colspan=\"2\">Боевой Клич <p>Паника </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Высасывание выносливости <p>Удар Головой </p><p>Фронтальный Удар </p><p>Таран </p> </td><td colspan=\"2\">Град <p>Бросок </p> </td><td colspan=\"2\">Боевой Клич <p>Паника </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -31948,7 +31948,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Летающее Колено <p>Uderzenie mrozu </p> </td><td colspan=\"2\">Град <p>Ледяной снаряд </p> </td><td colspan=\"2\">Аура чистоты <p>Массовая аура холода </p><p>Теневая аура </p><p>Аура холода </p><p>Удар в живот </p><p>Отупление </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Летающее Колено <p>Удар мороза </p> </td><td colspan=\"2\">Град <p>Ледяной снаряд </p> </td><td colspan=\"2\">Аура чистоты <p>Массовая аура холода </p><p>Теневая аура </p><p>Аура холода </p><p>Удар в живот </p><p>Отупление </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -32302,7 +32302,7 @@
     },
     {
      "title": "Иммунитеты / особые умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Przyzwanie: Kruczydło <p>Неуязвимость </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Призыв: Вороньё <p>Неуязвимость </p> </td></tr></table>"
     },
     {
      "title": "Локация",
@@ -32379,7 +32379,7 @@
    "blocks": [
     {
      "title": "Команда",
-     "html": "<img data-items=\"lempo1a\" src=\"data/raresImg/mobs/lempo.moblogo.png\"/><hr><table class=\"wb\"><tr><td colspan=\"6\"><span><img src=\"data/wikibr/images/f/f3/Lempo.png\" title=\"Zimowe Lempo\"/></span> </td></tr></table>"
+     "html": "<img data-items=\"lempo1a\" src=\"data/raresImg/mobs/lempo.moblogo.png\"/><hr><table class=\"wb\"><tr><td colspan=\"6\"><span><img src=\"data/wikibr/images/f/f3/Lempo.png\" title=\"Зимний Лемпо\"/></span> </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -33539,7 +33539,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Фронтальный Удар <p>Оглушение </p><p>Таран </p><p>Повреждение брони </p><p>Обычная атака </p> </td><td colspan=\"2\">Землетрясение <p>Бросок </p> </td><td colspan=\"2\">Паника <p>Wymuszenie ucieczki </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Фронтальный Удар <p>Оглушение </p><p>Таран </p><p>Повреждение брони </p><p>Обычная атака </p> </td><td colspan=\"2\">Землетрясение <p>Бросок </p> </td><td colspan=\"2\">Паника <p>Принуждение к бегству </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -33924,7 +33924,7 @@
     },
     {
      "title": "Локация",
-     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Wymarła Osada - Event <i>Наблюдатель</i> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"6\">Вымершее поселение — ивент <i>Наблюдатель</i> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/mobs/mobs/",
@@ -34104,7 +34104,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Поджог </td><td colspan=\"2\">Ognisty podmuch <p>Землетрясение </p><p>Огненный Шар </p><p>Магическая Искра </p><p>Wyrzut lawy </p> </td><td colspan=\"2\">Инкантация <p>Отупление </p><p>Рой ос </p><p>Чувствительность к огню </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Поджог </td><td colspan=\"2\">Огненный порыв <p>Землетрясение </p><p>Огненный Шар </p><p>Магическая Искра </p><p>Выброс лавы </p> </td><td colspan=\"2\">Инкантация <p>Отупление </p><p>Рой ос </p><p>Чувствительность к огню </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -35167,7 +35167,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Вымеренный Удар <p>Оглушение </p><p>Мощный Удар </p><p>Булавка в глаз </p> </td><td colspan=\"2\">Hadouken <p>Ранение </p> </td><td colspan=\"2\">Рассеивание <p>Боевой Клич </p><p>Паника </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Вымеренный Удар <p>Оглушение </p><p>Мощный Удар </p><p>Булавка в глаз </p> </td><td colspan=\"2\">Хадукен <p>Ранение </p> </td><td colspan=\"2\">Рассеивание <p>Боевой Клич </p><p>Паника </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",
@@ -35904,7 +35904,7 @@
     },
     {
      "title": "Умения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Боль <p>Удар Головой </p><p>Таран </p><p>Обычная атака </p> </td><td colspan=\"2\"> </td><td colspan=\"2\">Толстокожесть <p>Ярость </p><p>Odczarownie </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Боль <p>Удар Головой </p><p>Таран </p><p>Обычная атака </p> </td><td colspan=\"2\"> </td><td colspan=\"2\">Толстокожесть <p>Ярость </p><p>Расколдовывание </p> </td></tr></table>"
     },
     {
      "title": "Иммунитеты / особые умения",

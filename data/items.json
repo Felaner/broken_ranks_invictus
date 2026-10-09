@@ -81,11 +81,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Do przetworzenia w specjalnym piecu na <span data-items=\"item631\">Заряженный элемент питания</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Для переработки в особой печи в <span data-items=\"item631\">Заряженный элемент питания</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Элемент питания</i> od Trun na Posesji Landaua.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Элемент питания</i> у Труна в Поместье Ландау.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -347,7 +347,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Palinkę możemy zebrać z beczek, znajdujących się na instancji Ichtiona - Wraku Statku. <p>Aby zbiór był możliwy, musimy wcześniej zakupić <span data-items=\"item225\">Butlę z grubego szkła</span>. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Palinkę możemy zebrać z beczek, znajdujących się na instancji Ichtiona - Wraku Statku. <p>Чтобы собирать, нужно сначала купить <span data-items=\"item225\">Бутыль из толстого стекла</span>. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -659,7 +659,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zakup u Larsa w Alaril za 1 000 złota.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Покупка у Ларса в Аларилe за 1 000 золота.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -754,7 +754,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Łup z <span data-items=\"wb_bossy\">боссов</span> na ścieżce wyzwania wymagających <span data-items=\"item1218\">tropów lęku</span>, <span data-items=\"item1219\">trwogi</span> или <span data-items=\"item1220\">przerażenia</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Добыча с <span data-items=\"wb_bossy\">боссов</span> на пути испытания, требующих <span data-items=\"item1218\">троп страха</span>, <span data-items=\"item1219\">тревоги</span> или <span data-items=\"item1220\">ужаса</span>.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -1061,7 +1061,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Вы чувствуете исходящую от нее силу. <br>Вес: 1<hr><table class=\"wb\"><tr><td colspan=\"2\">Czuć bijącą od niej moc. </td></tr></table>"
+     "html": "Вы чувствуете исходящую от нее силу. <br>Вес: 1<hr><table class=\"wb\"><tr><td colspan=\"2\">Чувствуется исходящая от неё сила. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -1108,7 +1108,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Очень острый. Лучше обращаться с ним осторожно. <br>Вес: 1<hr><table class=\"wb\"><tr><td colspan=\"2\">Bardzo ostry. Lepiej obchodzić się z nim ostrożnie. </td></tr></table>"
+     "html": "Очень острый. Лучше обращаться с ним осторожно. <br>Вес: 1<hr><table class=\"wb\"><tr><td colspan=\"2\">Очень острый. Лучше обращаться с ним осторожно. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -1120,7 +1120,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <ul><li>Трупный Усач</li></ul> <ul><li>Sarcophahus</li></ul> <ul><li><span><span><img src=\"data/wikibr/images/8/85/Czempiony_korona.png\" title=\"Чемпион\"/></span></span> <span data-items=\"sarcophagus2a\">Венерина</span></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <ul><li>Трупный Усач</li></ul> <ul><li>Саркофаг</li></ul> <ul><li><span><span><img src=\"data/wikibr/images/8/85/Czempiony_korona.png\" title=\"Чемпион\"/></span></span> <span data-items=\"sarcophagus2a\">Венерина</span></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -1155,7 +1155,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Вы можете продать ее <img data-items=\"grozdan1a\" src=\"data/raresImg/npc/grozdan1a.npc.png\" title=\"Гроздан\"/> в Штабе Оставшихся. <br>Вес: 5<hr><table class=\"wb\"><tr><td colspan=\"2\">Możesz ją sprzedać u Grozdana w Siedzibie Pozostałych. </td></tr></table>"
+     "html": "Вы можете продать ее <img data-items=\"grozdan1a\" src=\"data/raresImg/npc/grozdan1a.npc.png\" title=\"Гроздан\"/> в Штабе Оставшихся. <br>Вес: 5<hr><table class=\"wb\"><tr><td colspan=\"2\">Можно продать у Гроздана в Логове Оставшихся. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -1295,7 +1295,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Сущность ледяных созданий из Дмортера. Предмет, нужный чародеям <img data-items=\"magmalusa\" src=\"data/raresImg/npc/magmalusa.npc.png\" title=\"Малус\"/> и <img data-items=\"magalwana\" src=\"data/raresImg/npc/magalwana.npc.png\" title=\"Алван\"/> для их таинственных исследований. <br>Требуется для выполнения различных заданий и создания <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/> <br>Требуется для покупки <img data-items=\"item1030\" src=\"data/raresImg/items2/1030.items2.png\" title=\"Средство криозащиты\"/> у <img data-items=\"gardar3ac\" src=\"data/raresImg/npc/gardar3a.npc.png\" title=\"Зенлин\"/> <br>Вес: 1<hr><table class=\"wb\"><tr><td colspan=\"2\">Istota lodołaków z Dmother. </td></tr></table>"
+     "html": "Сущность ледяных созданий из Дмортера. Предмет, нужный чародеям <img data-items=\"magmalusa\" src=\"data/raresImg/npc/magmalusa.npc.png\" title=\"Малус\"/> и <img data-items=\"magalwana\" src=\"data/raresImg/npc/magalwana.npc.png\" title=\"Алван\"/> для их таинственных исследований. <br>Требуется для выполнения различных заданий и создания <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/> <br>Требуется для покупки <img data-items=\"item1030\" src=\"data/raresImg/items2/1030.items2.png\" title=\"Средство криозащиты\"/> у <img data-items=\"gardar3ac\" src=\"data/raresImg/npc/gardar3a.npc.png\" title=\"Зенлин\"/> <br>Вес: 1<hr><table class=\"wb\"><tr><td colspan=\"2\">Сущность ледолаков из Дмортера. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -1303,7 +1303,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item779\">Эфирной лампы</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item1030\">Środka krioprotekcji</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item779\">Эфирной лампы</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item1030\">Криозащитного средства</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -1397,7 +1397,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Один из предметов, нужных для призыва <span data-items=\"ghost3a\">Селены</span> в инстансе <i>Кладбище в горах</i>,</li> <li>Jeden z przedmiotów potrzebny do wykonania <span data-items=\"item779\">Эфирной лампы</span>.</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Снятие клещей</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Один из предметов, нужных для призыва <span data-items=\"ghost3a\">Селены</span> в инстансе <i>Кладбище в горах</i>,</li> <li>Один из предметов, нужных для изготовления <span data-items=\"item779\">Эфирной лампы</span>.</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Снятие клещей</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -1490,7 +1490,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Do przetworzenia na <span data-items=\"item774\">Кардованный мех яка</span>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Запасы для гарнизона</i>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручения Бедисы</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Для переработки в <span data-items=\"item774\">Кардованный мех яка</span>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Запасы для гарнизона</i>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручения Бедисы</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -1537,7 +1537,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Do przetworzenia w wędzarni na <span data-items=\"item773\">Копченое мясо яка</span>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Запасы для гарнизона</i>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручения Бедисы</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Для переработки в коптильне в <span data-items=\"item773\">Копченое мясо яка</span>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Запасы для гарнизона</i>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручения Бедисы</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -1576,7 +1576,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Требуется для создания <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/>. <br>Остатки блуждающего огонька.<hr><table class=\"wb\"><tr><td colspan=\"2\">Pozostałość po błędnym ogniku. </td></tr></table>"
+     "html": "Требуется для создания <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/>. <br>Остатки блуждающего огонька.<hr><table class=\"wb\"><tr><td colspan=\"2\">Остаток блуждающего огонька. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -2703,7 +2703,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>9 x Surowizna możemy wymienić na 10 x <span data-items=\"item77\">Еда</span> u Sany w Lesie Koldów.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>9 × Сырец можно обменять на 10 × <span data-items=\"item77\">Еда</span> у Саны в Лесу Колдов.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -3266,7 +3266,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <ul><li>Летучая мышь</li></ul> <ul><li>Nietoperz Fioletowy</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <ul><li>Летучая мышь</li></ul> <ul><li>Фиолетовая летучая мышь</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -3301,7 +3301,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<img data-items=\"wilczyfixa\" src=\"data/raresImg/npc/wilczyfixa.npc.png\" title=\"Волчий\"/> может им заинтересоваться<hr><table class=\"wb\"><tr><td colspan=\"2\">Wilczy może być nim zainteresowany. </td></tr></table>"
+     "html": "<img data-items=\"wilczyfixa\" src=\"data/raresImg/npc/wilczyfixa.npc.png\" title=\"Волчий\"/> может им заинтересоваться<hr><table class=\"wb\"><tr><td colspan=\"2\">Волчий может им заинтересоваться. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -3356,7 +3356,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item190\">Средней фляги маны</span>.</li> <li>Składnik potrzebny do zdobycia <span data-items=\"item652\">Nasionek aumazji</span>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение с предсказанием</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item190\">Средней фляги маны</span>.</li> <li>Ингредиент, нужный для получения <span data-items=\"item652\">Семян аумазии</span>,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение с предсказанием</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -3446,7 +3446,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Источник <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\" title=\"Кристаллы\"/>, необходимых для расширения гильдии. Ими интересуется <img data-items=\"unena\" src=\"data/raresImg/npc/unena.npc.png\" title=\"Снабженец\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Źródło kryształów potrzebnych do rozbudowy Gildii. </td></tr></table>"
+     "html": "Источник <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\" title=\"Кристаллы\"/>, необходимых для расширения гильдии. Ими интересуется <img data-items=\"unena\" src=\"data/raresImg/npc/unena.npc.png\" title=\"Снабженец\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Источник кристаллов для развития гильдии. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -3458,7 +3458,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>4 x Kryształ morski możemy wymienić na 5 x <span data-items=\"item116\">Кристаллы</span> у Снабженца в Поместье Ландау,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение с предсказанием</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>4 × Морской кристалл можно обменять на 5 × <span data-items=\"item116\">Кристаллы</span> у Снабженца в Поместье Ландау,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение с предсказанием</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -4149,7 +4149,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Менее эффективный источник <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\" title=\"Железо\"/>, необходимого для развития гильдии. Обмен у <img data-items=\"woberg1a\" src=\"data/raresImg/npc/woberg1a.npc.png\" title=\"Воберг\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Mniej wydajne źródło żelaza, potrzebnego do rozwoju GIldii. </td></tr></table>"
+     "html": "Менее эффективный источник <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\" title=\"Железо\"/>, необходимого для развития гильдии. Обмен у <img data-items=\"woberg1a\" src=\"data/raresImg/npc/woberg1a.npc.png\" title=\"Воберг\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Менее выгодный источник железа для развития гильдии. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -4161,7 +4161,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 x Złom z upadłych możemy wymienić na 2 x <span data-items=\"item115\">Железо</span> u Woberga w Trentis.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × Лом павших можно обменять на 2 × <span data-items=\"item115\">Железо</span> у Воберга в Трентисе.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -4360,7 +4360,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Perła możemy sprzedać za 1 000 złota u Leili w Porcie.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Жемчужину можно продать за 1 000 золота у Лейлы в Порту.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -4834,7 +4834,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Wymagane aby dostać się na ścieżkę wyzwania następujących instancji: <ul><li><i>Miasto Ivravula,</i></li> <li><i>Логово Вальдарога</i>,</li> <li><i>Gniazdo Jaskółki,</i></li> <li><i>Magazyn Konstrukta,</i></li> <li><i>Лаборатория Аква Регис,</i></li> <li><i>Пещеры подо льдом</i>,</li> <li><i>Вулкан Хвара,</i></li> <li><i>Тюрьма Ангвальф-Хтаги</i>.</li></ul></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Wymagane aby dostać się na ścieżkę wyzwania następujących instancji: <ul><li><i>Город Ивравула,</i></li> <li><i>Логово Вальдарога</i>,</li> <li><i>Гнездо Ласточки,</i></li> <li><i>Склад Конструкта,</i></li> <li><i>Лаборатория Аква Регис,</i></li> <li><i>Пещеры подо льдом</i>,</li> <li><i>Вулкан Хвара,</i></li> <li><i>Тюрьма Ангвальф-Хтаги</i>.</li></ul></li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -4955,7 +4955,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item27\">Mikstury Zdrowia</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item28\">Mikstury Many</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item29\">Mikstury Kondycji</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item27\">Микстуры здоровья</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item28\">Микстуры маны</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item29\">Микстуры выносливости</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -5336,7 +5336,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Złodziejski łup możemy wymienić na 20 000 złota i 1 x <span data-items=\"item519\">Flaszkę gorzały</span> u Talliarda lub Vinebruck w Garnizonie Dmorther.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Воровскую добычу можно обменять на 20 000 золота и 1 × <span data-items=\"item519\">Бутылку горилки</span> у Таллиарда или Винебрук в Гарнизоне Дмортер.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -5444,7 +5444,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Aby zdobyć Nasiona Aumazji musimy umieścić <span data-items=\"item222\">Кровь комара</span> w kwiatach, znajdujących się na Moczarach. Po chwili Nasionka Aumazji wyrastają na pnączach, umożliwiając zbiór. </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Чтобы получить семена аумазии, нужно поместить <span data-items=\"item222\">Кровь комара</span> w kwiatach, znajdujących się na Moczarach. Po chwili Nasionka Aumazji wyrastają na pnączach, umożliwiając zbiór. </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -5602,7 +5602,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Pozwala wejść na instancje <i>Пещера Аморфы</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет войти в инстансы <i>Пещера Аморфы</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -5749,7 +5749,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Глубина Дыхания</i> od Zhohara w Wiosce Druidów,</li> <li>Zakup za 3 500 złota u Zhohara w Wiosce Druidów.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Глубина Дыхания</i> у Зохара в Деревне друидов,</li> <li>Покупка за 3 500 золота у Зохара в Деревне друидов.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -5797,7 +5797,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Obręcz Przeniesienia można odebrać za darmo raz w tygodniu u Bedisy w Karczmie Pod Szczytem w Beirn,</li> <li>Zakup u Bedisy w Karczmie Pod Szczytem w Beirn: <ul><li>Koszt pierwszego zakupu: 100 x <span data-items=\"item822\">Ворлинский Дукат</span>,</li> <li>Koszt drugiego zakupu: 200 x <span data-items=\"item822\">Ворлинский Дукат</span>,</li> <li>Koszt każdego następnego zakupu: 300 x <span data-items=\"item822\">Ворлинский Дукат</span>.</li></ul></li></ul> <p><br/> </p> <center>Cena wraca do wartości podstawowej co 48 godzin. <br/>Jeśli posiadamy w ekwipunku 50 sztuk lub więcej Obręczy Przeniesienia, odbiór jak i zakup następnych jest zablokowany.</center> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Obręcz Przeniesienia można odebrać za darmo raz w tygodniu u Bedisy w Karczmie Pod Szczytem w Beirn,</li> <li>Покупка у Бедисы в Корчме под Вершиной в Беирне: <ul><li>Стоимость первой покупки: 100 × <span data-items=\"item822\">Ворлинский Дукат</span>,</li> <li>Стоимость второй покупки: 200 × <span data-items=\"item822\">Ворлинский Дукат</span>,</li> <li>Стоимость каждой следующей покупки: 300 × <span data-items=\"item822\">Ворлинский Дукат</span>.</li></ul></li></ul> <p><br/> </p> <center>Цена возвращается к базовой каждые 48 часов. <br/>Jeśli posiadamy w ekwipunku 50 sztuk lub więcej Obręczy Przeniesienia, odbiór jak i zakup następnych jest zablokowany.</center> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -5844,7 +5844,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zakup za 1 000 000 złota u Versteina w Beirn,</li> <li>1 x Raki wspinaczkowe można odebrać za darmo co 72 godziny u Versteina w Beirn.</li></ul> <p><br/> </p> <center>Jeśli posiadamy w ekwipunku 50 sztuk lub więcej Raków wspinaczkowych odbiór jak i zakup następnych jest zablokowany.</center> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Покупка за 1 000 000 золота у Верштейна в Беирне,</li> <li>1 x Raki wspinaczkowe można odebrać za darmo co 72 godziny u Versteina w Beirn.</li></ul> <p><br/> </p> <center>Jeśli posiadamy w ekwipunku 50 sztuk lub więcej Raków wspinaczkowych odbiór jak i zakup następnych jest zablokowany.</center> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -5894,11 +5894,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет войти в инстансы <i>Mroczny Pasaż</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет войти в инстансы <i>Тёмный пассаж</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Зерно Хаоса</i> у Варника в Логове Варника.</li></ul> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Ключ от лаборатории</i> od Cai w Lesie Koldów,</li></ul> <ul><li>Otrzymujemy za pokonanie <span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"hobgoblin3ac\">Хобгоблин-Ключник</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Зерно Хаоса</i> у Варника в Логове Варника.</li></ul> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Ключ от лаборатории</i> у Кай в Лесу Колдов,</li></ul> <ul><li>Получаем за победу над <span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"hobgoblin3ac\">Хобгоблин-Ключник</span>.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -5982,7 +5982,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Robacz Przewodnik doprowadzi nas losowo do <span data-items=\"mantis1a\">Modliszki</span> или <span data-items=\"tiger1a\">Tygrysa</span> za opłatą: <ul><li>40 000 złota - ścieżka poznania,</li> <li>100 000 złota - ścieżka przygody oraz wyzwania.</li></ul></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Червь-проводник отведёт нас случайно к <span data-items=\"mantis1a\">Богомолу</span> или <span data-items=\"tiger1a\">Тигру</span> за плату: <ul><li>40 000 золота — путь познания,</li> <li>100 000 золота — путь приключения и испытания.</li></ul></li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -6021,7 +6021,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Для получения требуется убить специальную группу волков во главе с <img data-items=\"wolf5a\" src=\"data/raresImg/mobs/alfa.moblogo.png\" title=\"Альфа\"/> в волчьей пещере в <span data-maps=\"m57\" style=\"color:#e0d074\">Медвежьей пещере</span>. <br>Требуется для призыва <img data-items=\"bear1a\" src=\"data/raresImg/bosses/medved.bosslogo.png\" title=\"Медведь\"/>. <br>Также можно получить во время различных игровых ивентов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Mięso Alphy, które zwabia Niedźwiedzia z Gawry. </td></tr></table>"
+     "html": "Для получения требуется убить специальную группу волков во главе с <img data-items=\"wolf5a\" src=\"data/raresImg/mobs/alfa.moblogo.png\" title=\"Альфа\"/> в волчьей пещере в <span data-maps=\"m57\" style=\"color:#e0d074\">Медвежьей пещере</span>. <br>Требуется для призыва <img data-items=\"bear1a\" src=\"data/raresImg/bosses/medved.bosslogo.png\" title=\"Медведь\"/>. <br>Также можно получить во время различных игровых ивентов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Мясо Альфы, которое выманивает Медведя из Берлоги. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -6029,7 +6029,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Umożliwia przyzwanie <span data-items=\"bear1a\">Медвежья</span> w Gawrze.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет призвать <span data-items=\"bear1a\">Медвежья</span> в Берлоге.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -6071,7 +6071,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Нужна, чтобы войти в <span data-maps=\"m480\" style=\"color:#e0d074\">монастырь</span> Волькхарда. Продает <img data-items=\"lorvenda\" src=\"data/raresImg/npc/lorvenda.npc.png\" title=\"Лорвенд\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Potrzebna, by wejść do klasztoru Volkharda. </td></tr></table>"
+     "html": "Нужна, чтобы войти в <span data-maps=\"m480\" style=\"color:#e0d074\">монастырь</span> Волькхарда. Продает <img data-items=\"lorvenda\" src=\"data/raresImg/npc/lorvenda.npc.png\" title=\"Лорвенд\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Нужна, чтобы войти в монастырь Вольхарда. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -6083,7 +6083,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"><center> <p>Zakup u Lorvend na Błoniach Klasztornych: </p> </center> <ul><li>7 x Krew wampira za 35 000 000 złota, 21 x <span data-items=\"item703\">Гроссмейстерский глиф</span>, 21 x <span data-items=\"item1344\">Кровь чудовища</span>.</li></ul> <p><br/> </p> <center>Czas odnowienia zakupu Krwi wampira następuje raz w tygodniu, w środy o 4:00.<br/> Jeśli posiadamy w ekwipunku 7 sztuk lub więcej Krwi wampira zakup następnych jest zablokowany.</center> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"><center> <p>Покупка у Лорвенд на Монастырских лугах: </p> </center> <ul><li>7 × Кровь вампира за 35 000 000 золота, 21 × <span data-items=\"item703\">Гроссмейстерский глиф</span>, 21 × <span data-items=\"item1344\">Кровь чудовища</span>.</li></ul> <p><br/> </p> <center>Czas odnowienia zakupu Krwi wampira następuje raz w tygodniu, w środy o 4:00.<br/> Jeśli posiadamy w ekwipunku 7 sztuk lub więcej Krwi wampira zakup następnych jest zablokowany.</center> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6240,11 +6240,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет войти в инстансы <i>Biała Dzielnica</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет войти в инстансы <i>Белый квартал</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1x Wywar Przedarcia kupimy za 100 000 złota oraz 5 dowolnych <span data-items=\"wb_flasze_ulepszen\">Małych Flasz Ulepszeń</span> u Kudłaty w Siedzibie Pozostałych,</li></ul> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Зерно Хаоса</i> у Варника в Логове Варника.</li></ul> <ul><li>Możemy otrzymać za pokonanie <span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"mutantfailure2a\">Ненажравшийся</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Отвар прорыва покупаем за 100 000 золота и 5 любых <span data-items=\"wb_flasze_ulepszen\">малых фляг улучшений</span> у Лохматого в Логове Оставшихся,</li></ul> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Зерно Хаоса</i> у Варника в Логове Варника.</li></ul> <ul><li>Можем получить за победу над <span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"mutantfailure2a\">Ненажравшийся</span>.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6291,7 +6291,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Zakup u Obserwatora Glanachaina w Garnizon Dmorther:</center> <ul><li>Pierwszy za 5 x <span data-items=\"item268\">Эссенции</span> и 50 × <span data-items=\"item679\">империалов</span></li> <li>Drugi za 10 x <span data-items=\"item268\">Эссенции</span> i 100 x <span data-items=\"item679\">империалов</span></li> <li>Trzeci i każdy kolejny za 20 x <span data-items=\"item268\">Эссенции</span> i 200 x <span data-items=\"item679\">империалов</span></li></ul> <p><br/> </p> <center>Czas odnowienia ceny Kryształu Czasu następuje codziennie o 4:00. <p><br/> </p> Jeśli posiadamy w ekwipunku 50 sztuk lub więcej Kryształu Czasu zakup następnych jest zablokowany.</center> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Покупка у Наблюдателя Гланахайна в Гарнизоне Дмортер:</center> <ul><li>Первый за 5 × <span data-items=\"item268\">Эссенции</span> и 50 × <span data-items=\"item679\">империалов</span></li> <li>Второй за 10 × <span data-items=\"item268\">Эссенции</span> и 100 × <span data-items=\"item679\">империалов</span></li> <li>Третий и каждый следующий за 20 × <span data-items=\"item268\">Эссенции</span> и 200 × <span data-items=\"item679\">империалов</span></li></ul> <p><br/> </p> <center>Czas odnowienia ceny Kryształu Czasu następuje codziennie o 4:00. <p><br/> </p> Jeśli posiadamy w ekwipunku 50 sztuk lub więcej Kryształu Czasu zakup następnych jest zablokowany.</center> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6343,7 +6343,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Нужен, чтобы осветить путь к логову <img data-items=\"wendigo1a\" src=\"data/raresImg/bosses/wendigo.bosslogo.png\" title=\"Вендиго\"/>. <br>Получить можно бесплатно 25x один раз в день у <img data-items=\"starzec1a\" src=\"data/raresImg/npc/starzec1a.npc.png\" title=\"Старик\"/>. <br>Этот предмет нельзя продать.<hr><table class=\"wb\"><tr><td colspan=\"2\">Potrzebna, by oświetlić drogę do leża Wendigo. <br/> Предмет нельзя передать другим игрокам. <br/> </td></tr></table>"
+     "html": "Нужен, чтобы осветить путь к логову <img data-items=\"wendigo1a\" src=\"data/raresImg/bosses/wendigo.bosslogo.png\" title=\"Вендиго\"/>. <br>Получить можно бесплатно 25x один раз в день у <img data-items=\"starzec1a\" src=\"data/raresImg/npc/starzec1a.npc.png\" title=\"Старик\"/>. <br>Этот предмет нельзя продать.<hr><table class=\"wb\"><tr><td colspan=\"2\">Нужна, чтобы осветить путь в логово Вендиго. <br/> Предмет нельзя передать другим игрокам. <br/> </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -6427,7 +6427,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zakup u Versteina w Beirn: <ul><li>Koszt pierwszego zakupu: 1 x <span data-items=\"item741\">Альпинистские кошки</span> lub 1 000 000 złota, 1 x <span data-items=\"item820\">Реол</span>, 1 x <span data-items=\"item821\">Двигг</span> i 100 000 złota,</li> <li>Koszt drugiego zakupu: 1 x <span data-items=\"item741\">Альпинистские кошки</span> lub 1 000 000 złota, 2 x <span data-items=\"item820\">Реол</span>, 3 × <span data-items=\"item821\">Двигг</span> i 250 000 złota,</li> <li>Koszt trzeciego zakupu: 1 x <span data-items=\"item741\">Альпинистские кошки</span> lub 1 000 000 złota, 3 x <span data-items=\"item820\">Реол</span>, 5 × <span data-items=\"item821\">Двигг</span> i 500 000 złota.</li></ul></li></ul> <p>Jeśli posiadamy w ekwipunku 3 sztuki Wzmocnionych raków zakup następnych jest zablokowany. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Покупка у Верштейна в Беирне: <ul><li>Стоимость первой покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 1 × <span data-items=\"item820\">Реол</span>, 1 × <span data-items=\"item821\">Двигг</span> и 100 000 золота,</li> <li>Стоимость второй покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 2 × <span data-items=\"item820\">Реол</span>, 3 × <span data-items=\"item821\">Двигг</span> и 250 000 золота,</li> <li>Стоимость третьей покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 3 × <span data-items=\"item820\">Реол</span>, 5 × <span data-items=\"item821\">Двигг</span> и 500 000 золота.</li></ul></li></ul> <p>Jeśli posiadamy w ekwipunku 3 sztuki Wzmocnionych raków zakup następnych jest zablokowany. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6455,7 +6455,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Обеспечивает защиту от высоких температур внутри вулкана <br>Требуется для входа в инстанс <img data-items=\"hvar1a\" src=\"data/raresImg/bosses/hvar.bosslogo.png\" title=\"Хвар\"/>. Получить можно у <img data-items=\"gardar3ac\" src=\"data/raresImg/npc/gardar3a.npc.png\"/> либо во время событий.<hr><table class=\"wb\"><tr><td colspan=\"2\">Zapewnia ochronę przed wysoką temperaturą wewnątrz wulkanu. </td></tr></table>"
+     "html": "Обеспечивает защиту от высоких температур внутри вулкана <br>Требуется для входа в инстанс <img data-items=\"hvar1a\" src=\"data/raresImg/bosses/hvar.bosslogo.png\" title=\"Хвар\"/>. Получить можно у <img data-items=\"gardar3ac\" src=\"data/raresImg/npc/gardar3a.npc.png\"/> либо во время событий.<hr><table class=\"wb\"><tr><td colspan=\"2\">Защищает от высокой температуры внутри вулкана. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -6467,7 +6467,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1x Środek krioprotekcji kupimy za 50 000 złota oraz 5 x <span data-items=\"item367\">Ледяное ядро мощи</span> u Zenlina na Pustkowiu Hvara.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Криозащитное средство покупаем за 50 000 золота и 5 × <span data-items=\"item367\">Ледяное ядро мощи</span> у Зенлина на Пустоши Хвара.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6503,11 +6503,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет войти в инстансы <span data-items=\"hawk2a\">Jastrzębiora</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет войти в инстансы <span data-items=\"hawk2a\">Ястребора</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i> od Bedisy w Karczmie pod Szczytem,</li> <li>Награда за участие в ивенте <i>Ястреб</i>,</li> <li>Получаем за победу над: <ul><li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"tick1ac\">Аргасид</span>,</li> <li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"yak1ac\">Бугай</span>,</li> <li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"hawk1ac\">Разъяренный Ястребенок</span>.</li></ul></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i> у Бедисы в Корчме под Вершиной,</li> <li>Награда за участие в ивенте <i>Ястреб</i>,</li> <li>Получаем за победу над: <ul><li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"tick1ac\">Аргасид</span>,</li> <li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"yak1ac\">Бугай</span>,</li> <li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"hawk1ac\">Разъяренный Ястребенок</span>.</li></ul></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6554,7 +6554,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Зерно Хаоса</i> od Warnika w Siedziba Warnika,</li> <li>Награда за участие в ивенте <i>Вендиго</i>,</li> <li>Otrzymamy za pokonanie: <ul><li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"wb_elita_szalona_gorgona\">Безумная Горгона</span>.</li></ul></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можем получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Зерно Хаоса</i> у Варника в Логове Варника,</li> <li>Награда за участие в ивенте <i>Вендиго</i>,</li> <li>Получаем за победу над: <ul><li><span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"wb_elita_szalona_gorgona\">Безумная Горгона</span>.</li></ul></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6597,11 +6597,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Składnik potrzebny do uruchomienia Inferny na Stoku,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручения Бедисы</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент, нужный для запуска Инферны на Склоне,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручения Бедисы</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Lochy - Źródło (38, 42) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Подземелья — Источник (38, 42) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6688,7 +6688,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Las Koldów - Zastygła lawa (178, 153) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Лес Колдов — Застывшая лава (178, 153) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6735,7 +6735,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Jaskinie pod Wieżami - Podziemne łowisko (93, 94) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Пещеры под Башнями — Подземный промысел (93, 94) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6788,7 +6788,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Jaskinie pod Granicą - Zerwany most (126, 33) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Пещеры под Границей — Разрушенный мост (126, 33) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6831,11 +6831,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item157\">Огромной фляги мощи</span>,</li> <li>Składnik potrzebny do wykonania jednego z wariantów <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Бычок Стаськи</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item157\">Огромной фляги мощи</span>,</li> <li>Ингредиент для одного из вариантов <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Бычок Стаськи</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Garnizon Dmorther - Masyw Dmorther (60, 83) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Гарнизон Дмортер — Массив Дмортер (60, 83) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6883,7 +6883,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Płaskowyż Dmorther -&gt; Jaskinia w górach - Jaskinia (50, 10) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Плато Дмортер → Пещера в горах — Пещера (50, 10) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -6977,7 +6977,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Płaskowyż Dmorther - Teren harpii (41, 50) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Плато Дмортер — Земли гарпий (41, 50) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7024,7 +7024,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Zamarznięte Jezioro - Ubocze (31, 74) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Замерзшее Озеро — Окраина (31, 74) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7071,7 +7071,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Garnizon Dmorther - Masyw Dmorther (133, 111) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Гарнизон Дмортер — Массив Дмортер (133, 111) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7118,7 +7118,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Niedźwiedzia jaskinia - Zaułek Topazowy (12, 95) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Медвежья пещера — Топазовый закоулок (12, 95) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7165,7 +7165,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Góry Koldów -&gt; Dziura - Robacza wnęka (36, 66) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Горы Колдов → Дыра — Червивая ниша (36, 66) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7218,7 +7218,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Las Orków - Las Orków (163, 78) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Лес Орков — Лес Орков (163, 78) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7265,7 +7265,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Zamarznięte Jezioro - Ołtarz (129, 103) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Замерзшее Озеро — Алтарь (129, 103) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7365,7 +7365,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Jaskinia nad Garnizonem - Zakamarek (68, 45) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Пещера над Гарнизоном — Закуток (68, 45) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7471,7 +7471,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Niedźwiedzia jaskinia - Źródło (125, 25) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Медвежья пещера — Источник (125, 25) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7518,7 +7518,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Niedźwiedzia jaskinia - Zaułek (94, 87) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Медвежья пещера — Закоулок (94, 87) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7565,7 +7565,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Bagna - Mokradła (20, 121) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Болото — Топи (20, 121) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7653,7 +7653,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Менее продуктивный источник <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\" title=\"Камень\"/>. Обмен у <img data-items=\"barbarian1aSt\" src=\"data/raresImg/npc/barbarian1aSt.npc.png\" title=\"Каменщик\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Mniej wydajne źródło Kamiennych bloczków. </td></tr></table>"
+     "html": "Менее продуктивный источник <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\" title=\"Камень\"/>. Обмен у <img data-items=\"barbarian1aSt\" src=\"data/raresImg/npc/barbarian1aSt.npc.png\" title=\"Каменщик\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Менее выгодный источник каменных блоков. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -7665,11 +7665,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 x Kruszywo możemy wymienić na 1 x <span data-items=\"item114\">Камень</span> u Kamieniarza w Porcie.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × Щебень можно обменять на 1 × <span data-items=\"item114\">Камень</span> у Каменщика в Порту.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Podzamcze - Osypisko (20, 90) </p> <div> <span> <span><img data-items=\"wb_podzamcze\" src=\"data/wikibr/images/d/d4/Podzamcze.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Подзамок — Осыпь (20, 90) </p> <div> <span> <span><img data-items=\"wb_podzamcze\" src=\"data/wikibr/images/d/d4/Podzamcze.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7717,7 +7717,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Zbójecki Las - Zagajnik (81, 52) </p> <div> <span> <span><img data-items=\"wb_zbojecki_las\" src=\"data/wikibr/images/c/c8/Zbojecki_Las_Map.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Разбойничий Лес — Роща (81, 52) </p> <div> <span> <span><img data-items=\"wb_zbojecki_las\" src=\"data/wikibr/images/c/c8/Zbojecki_Las_Map.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7757,7 +7757,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Wioska Druidów - Moczary (110, 70) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Деревня друидов — Болотина (110, 70) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7909,11 +7909,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Możemy przetworzyć je na ognisku na <span data-items=\"item644\">Жареные мидии</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можно переработать на костре в <span data-items=\"item644\">Жареные мидии</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Zatoka Małży - Plaża (66,50) oraz (13, 20) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Залив Моллюсков — Пляж (66, 50) и (13, 20) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7948,7 +7948,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Наименее эффективный источник <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\" title=\"Еда\"/> в Гильдии.<hr><table class=\"wb\"><tr><td colspan=\"2\">Najmniej wydajne źródło paszy dla zwierząt w Gildii. </td></tr></table>"
+     "html": "Наименее эффективный источник <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\" title=\"Еда\"/> в Гильдии.<hr><table class=\"wb\"><tr><td colspan=\"2\">Наименее выгодный источник корма для гильдейских питомцев. </td></tr></table>"
     },
     {
      "title": "Где найти",
@@ -7956,11 +7956,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 x Stare Jadło możemy wymienić na 1 x <span data-items=\"item77\">Еда</span> u Wiedźmy Hoberl na Bagnach.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × Старая еда можно обменять на 1 × <span data-items=\"item77\">Еда</span> у Ведьмы Хоберль на Болоте.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Wybrzeże -&gt; Statek - Stara mesa (28,11) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Побережье → Корабль — Старая кают-компания (28, 11) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -7995,7 +7995,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Самый эффективный источник <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\" title=\"Камень\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Najbardziej wydajne źródło kamiennych bloczków. </td></tr></table>"
+     "html": "Самый эффективный источник <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\" title=\"Камень\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Самый выгодный источник каменных блоков. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -8007,11 +8007,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>10 x Skaleń możemy wymienić na 5 x <span data-items=\"item114\">Камень</span> u Dillega w Kemenak.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>10 × Полевой шпат можно обменять на 5 × <span data-items=\"item114\">Камень</span> у Диллега в Кеменаке.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Jaskinia Niedźwiedzia - Wyrobisko (53, 99) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Медвежья пещера — Выработка (53, 99) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8059,7 +8059,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Zamek Gastelhof -&gt; Podziemia Zamku - Resztki magii (20, 21) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Замок Гастельхоф → Подземелья замка — Остатки магии (20, 21) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8107,7 +8107,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Zbójecki Las - Pajęczy zagajnik (155, 40) </p> <div> <span> <span><img data-items=\"wb_zbojecki_las\" src=\"data/wikibr/images/c/c8/Zbojecki_Las_Map.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Разбойничий Лес — Паучья роща (155, 40) </p> <div> <span> <span><img data-items=\"wb_zbojecki_las\" src=\"data/wikibr/images/c/c8/Zbojecki_Las_Map.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8154,7 +8154,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Wioska Rybacka - Łąka (87, 50) </p> <div> <span> <span><img data-items=\"wb_wioska_rybacka\" src=\"data/wikibr/images/7/7f/Wioska_RybackaMap.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Рыбацкая Деревня — Луг (87, 50) </p> <div> <span> <span><img data-items=\"wb_wioska_rybacka\" src=\"data/wikibr/images/7/7f/Wioska_RybackaMap.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8283,7 +8283,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Przysiółek Trentis - Kartoflisko (104, 53) </p> <div> <span> <span><img data-items=\"wb_przysiolek_trentis\" src=\"data/wikibr/images/a/ac/Mapa_Przysi%C3%B3%C5%82ek_Trentis.png\"/></span> </span> </div> <p><br/>Przysiółek Trentis - Kartoflisko (42, 104) </p> <div> <span> <span><img data-items=\"wb_przysiolek_trentis\" src=\"data/wikibr/images/a/ac/Mapa_Przysi%C3%B3%C5%82ek_Trentis.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Приселок Трентиса — Картофельное поле (104, 53) </p> <div> <span> <span><img data-items=\"wb_przysiolek_trentis\" src=\"data/wikibr/images/a/ac/Mapa_Przysi%C3%B3%C5%82ek_Trentis.png\"/></span> </span> </div> <p><br/>Приселок Трентиса — Картофельное поле (42, 104) </p> <div> <span> <span><img data-items=\"wb_przysiolek_trentis\" src=\"data/wikibr/images/a/ac/Mapa_Przysi%C3%B3%C5%82ek_Trentis.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8332,11 +8332,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Składnik potrzebny do wykoniania <span data-items=\"item1138\">Малой фляги выносливости</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item12\">Травяного отвара</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item1138\">Малой фляги выносливости</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item12\">Травяного отвара</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Przysiółek Trentis - Łączka (10, 110) </p> <div> <span> <span><img data-items=\"wb_przysiolek_trentis\" src=\"data/wikibr/images/a/ac/Mapa_Przysi%C3%B3%C5%82ek_Trentis.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Приселок Трентиса — Лужайка (10, 110) </p> <div> <span> <span><img data-items=\"wb_przysiolek_trentis\" src=\"data/wikibr/images/a/ac/Mapa_Przysi%C3%B3%C5%82ek_Trentis.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8383,7 +8383,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Trentis - Pole Lnu (38, 10) </p> <div> <span> <span><img data-items=\"wb_trentis\" src=\"data/wikibr/images/e/e8/TrentisMap.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Трентис — Льняное поле (38, 10) </p> <div> <span> <span><img data-items=\"wb_trentis\" src=\"data/wikibr/images/e/e8/TrentisMap.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8430,7 +8430,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Wymarła Osada - Uroczysko (20, 120) </p> <div> <span> <span><img data-items=\"wb_wymarla_osada\" src=\"data/wikibr/images/b/bd/120_Wymarla_Osada.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Вымершее поселение — Урочище (20, 120) </p> <div> <span> <span><img data-items=\"wb_wymarla_osada\" src=\"data/wikibr/images/b/bd/120_Wymarla_Osada.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8477,7 +8477,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Jaskinie pod Mokradłami - Korytarz (40, 39) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Пещеры под Топями — Коридор (40, 39) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8524,7 +8524,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Jaskinie Pod Mokradłami - Brzeg (1, 100) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Пещеры под Топями — Берег (1, 100) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8571,7 +8571,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Podziemne jeziorko - Jaskinia (46, 27) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Подземное озерцо — Пещера (46, 27) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8618,7 +8618,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Wilcza Jama - Wilcza jama (29, 16) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Волчья яма — Волчья яма (29, 16) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8665,7 +8665,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Las Orków - Las Orków (154, 121) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Лес Орков — Лес Орков (154, 121) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8719,11 +8719,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>10 x Pniaki możemy wymienić na 5 x <span data-items=\"item113\">Доски</span> у Диллега в Горах Колдов.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>10 × Пни можно обменять на 5 × <span data-items=\"item113\">Доски</span> у Диллега в Горах Колдов.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Las Orków - Wyrąbisko (33, 77) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Лес Орков — Вырубка (33, 77) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8771,11 +8771,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>2 x Ruda Żelaza możemy wymienić na 1 x <span data-items=\"item115\">Железо</span> у Диллега в Горах Колдов.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>2 × Железная руда можно обменять на 1 × <span data-items=\"item115\">Железо</span> у Диллега в Горах Колдов.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Grań -&gt; Jaskinia na Masywie - Wyrobisko (13, 7) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Гребень → Пещера на Массиве — Выработка (13, 7) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8811,7 +8811,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Малоэффективный источник <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\" title=\"Железо\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Mniej wydajne źródło Sztabek Żelaza. </td></tr></table>"
+     "html": "Малоэффективный источник <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\" title=\"Железо\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Менее выгодный источник железных слитков. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -8823,11 +8823,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 x Szczątki rudy możemy wymienić na 1 x <span data-items=\"item115\">Железо</span> у Снабженца в Поместье Ландау.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × Остатки руды можно обменять на 1 × <span data-items=\"item115\">Железо</span> у Снабженца в Поместье Ландау.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Wymarła Osada -&gt; Kopalnia - Szczątki rudy (7, 18) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Вымершее поселение → Шахта — Остатки руды (7, 18) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8875,11 +8875,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>3 x Limetyt możemy wymienić za 20 złota na 1 x <span data-items=\"item73\">Ограненный лиметит</span> у Тиземлина в Рыбацкой Деревне,</li> <li>1 x Limetyt możemy sprzedać za 21 złota u Tizemlina w Wiosce Rybackiej,</li> <li>Możemy go użyć, aby dostać się do Miasta Ivravula oraz Miasta Draugula,</li> <li>Do ukończenia zadania pobocznego <i>Sprawa kolda</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>3 × Лиметит можно обменять за 20 золота на 1 × <span data-items=\"item73\">Ограненный лиметит</span> у Тиземлина в Рыбацкой Деревне,</li> <li>1 x Limetyt możemy sprzedać za 21 złota u Tizemlina w Wiosce Rybackiej,</li> <li>Możemy go użyć, aby dostać się do Miasta Ivravula oraz Miasta Draugula,</li> <li>Для выполнения побочного задания <i>Дело колда</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Jaskinia Południowa - Złoża minerałów (104, 86) </p> <div> <span> <span><img data-items=\"wb_jaskinia_poludniowa\" src=\"data/wikibr/images/2/27/Jaskinia_Po%C5%82udniowa_map.png\"/></span> </span> </div> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Южная Пещера — Залежи минералов (104, 86) </p> <div> <span> <span><img data-items=\"wb_jaskinia_poludniowa\" src=\"data/wikibr/images/2/27/Jaskinia_Po%C5%82udniowa_map.png\"/></span> </span> </div> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8923,11 +8923,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item27\">Mikstury zdrowia</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item28\">Mikstury many</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item29\">Mikstury kondycji</span>,</li> <li>1 x Pajęcze jaja możemy wymienić za 30 złota na 4 x <span data-items=\"item92\">Паучье волокно</span> u Johkabala na Bagnach.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item27\">Микстуры здоровья</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item28\">Микстуры маны</span>,</li> <li>Ингредиент для изготовления <span data-items=\"item29\">Микстуры выносливости</span>,</li> <li>1 × Паучьи яйца можно обменять за 30 золота на 4 × <span data-items=\"item92\">Паучье волокно</span> у Джохкабала на Болоте.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Pajęcze tunele - Tunele (56, 31) </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Сбор в локации: <br/>Паучьи туннели — Туннели (56, 31) </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -8962,11 +8962,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Ресурс, полученный из переплавленных редких предметов. <br>Требуется для зарядки экипировки, синэргетиков и эпичных предметов. Для улучшения экипировки. Для расплавки требуется <img data-items=\"item480\" src=\"data/raresImg/items/480.items.png\"/>. Для зарядки требуется <img data-items=\"item483\" src=\"data/raresImg/items/483.items.png\"/>. <br>Можно получить 10x выполнив ежедневное задание <img data-items=\"quest1\" src=\"data/raresImg/quests/dq/dq.png\" title=\"Хвартитовая руда (ЕЗ)\"/> у <img data-items=\"imperialknight1acc\" src=\"data/raresImg/npc/imperialknight1a.npc.png\"/> на Заставе в Северном Алариле.<hr><table class=\"wb\"><tr><td colspan=\"2\">Surowiec pozyskany z przetopionych rarów lub drifów. </td></tr></table>"
+     "html": "Ресурс, полученный из переплавленных редких предметов. <br>Требуется для зарядки экипировки, синэргетиков и эпичных предметов. Для улучшения экипировки. Для расплавки требуется <img data-items=\"item480\" src=\"data/raresImg/items/480.items.png\"/>. Для зарядки требуется <img data-items=\"item483\" src=\"data/raresImg/items/483.items.png\"/>. <br>Можно получить 10x выполнив ежедневное задание <img data-items=\"quest1\" src=\"data/raresImg/quests/dq/dq.png\" title=\"Хвартитовая руда (ЕЗ)\"/> у <img data-items=\"imperialknight1acc\" src=\"data/raresImg/npc/imperialknight1a.npc.png\"/> на Заставе в Северном Алариле.<hr><table class=\"wb\"><tr><td colspan=\"2\">Сырьё, полученное при переплавке раров или дрифов. </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>В процессе <span data-items=\"wb_modyfikacje_sprzetu\">переплавки</span> Rarów, Setów oraz Rarów dla zwierzaków,</li> <li>В процессе <span data-items=\"wb_modyfikacje_sprzetu\">переплавки</span> Дрифов,</li> <li>Добыча с противников.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>В процессе <span data-items=\"wb_modyfikacje_sprzetu\">переплавки</span> раров, сетов и раров для питомцев,</li> <li>В процессе <span data-items=\"wb_modyfikacje_sprzetu\">переплавки</span> Дрифов,</li> <li>Добыча с противников.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -9971,11 +9971,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Podnosi poziom Krwawych Arkanów do gracza w drużynie który ma ich najwyższy poziom, na czas jednej instancji <i>Klasztoru Volkharda</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Podnosi poziom Krwawych Arkanów do gracza w drużynie który ma ich najwyższy poziom, na czas jednej instancji <i>Монастыря Вольхарда</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Zwój krwawego wglądu otrzymamy od Wulgarf na Błoniach Klasztornych po dostarczeniu składników: <ul><li>3 000 000 złota,</li> <li>1 × <span data-items=\"item703\">Гроссмейстерский глиф</span>,</li> <li>1 × <span data-items=\"item691\">Багряный элемент</span>.</li></ul></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Zwój krwawego wglądu otrzymamy od Wulgarf na Błoniach Klasztornych po dostarczeniu składników: <ul><li>3 000 000 золота,</li> <li>1 × <span data-items=\"item703\">Гроссмейстерский глиф</span>,</li> <li>1 × <span data-items=\"item691\">Багряный элемент</span>.</li></ul></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10034,11 +10034,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Wymagany aby dostać się na Podzamcze.</li> <li>Do wystrzelenia z armat podczas eventu <i>Dziedziniec Morany.</i></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Нужен, чтобы попасть в Подзамок.</li> <li>Для стрельбы из пушек во время ивента <i>Двор Мораны.</i></li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × <span data-items=\"item750\">Пушечное ядро</span> wrzucamy do pieca, znajdującego się w Lochach.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × <span data-items=\"item750\">Пушечное ядро</span> бросаем в печь в Подземельях.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10078,11 +10078,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Toporek do sekwoi ścina jedno drzewo Sekwoi tworząc obok stos z którego zbierzemy <span data-items=\"item722\">Belki sekwoi</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Toporek do sekwoi ścina jedno drzewo Sekwoi tworząc obok stos z którego zbierzemy <span data-items=\"item722\">Брёвна секвойи</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Odbiór u Mateja w Berin: <ul><li>5 x Toporek do sekwoi,</li> <li>50 z Toporek do sekwoi.</li></ul></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получение у Матея в Беирне: <ul><li>5 × Топорик для секвойи,</li> <li>50 × Топорик для секвойи.</li></ul></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10118,7 +10118,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zakup u NPC: <ul><li>Urzędnik w Ratuszu w Trentis,</li> <li>Lesgar w Karczmie u Lesgara w Alarilu,</li> <li>Kudłaty w Siedzibie Pozostałych w Thalii,</li> <li>Herewald w Górach Koldów,</li> <li>Berer w Pokój Berera w Garnizonie Dmother,</li> <li>Ortred na Błoniach Klasztornych.</li></ul></li></ul> <ul><li>Koszt zakupu Imperiałów: <ul><li>25 x Imperiał za 125 000 złota,</li> <li>250 x Imperiał za 1 250 000 złota,</li> <li>1 000 x Imperiał za 5 000 000 złota,</li> <li>25 x Imperiał za 3 platyny,</li> <li>250 x Imperiał za 30 platyny,</li> <li>1 000 x Imperiał za 120 platyny.</li></ul></li></ul> <ul><li>Добыча с противников.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Покупка у НПС: <ul><li>Чиновник в Ратуше Трентиса,</li> <li>Лезгар в Корчме у Лезгара в Аларилe,</li> <li>Лохматый в Логове Оставшихся в Талии,</li> <li>Херевальд в Горах Колдов,</li> <li>Берер в комнате Берера в Гарнизоне Дмортер,</li> <li>Ортред на Монастырских лугах.</li></ul></li></ul> <ul><li>Стоимость империалов: <ul><li>25 × империал за 125 000 золота,</li> <li>250 × империал за 1 250 000 золота,</li> <li>1 000 × империал за 5 000 000 золота,</li> <li>25 × империал за 3 платины,</li> <li>250 × империал за 30 платины,</li> <li>1 000 × империал за 120 платины.</li></ul></li></ul> <ul><li>Добыча с противников.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10200,7 +10200,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>100 x Vorliński Dukat możemy otrzymać za wykonanie <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Кровь Йети</i>,</li> <li>Łup z przeciwników z strefy Beirn.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>100 × Ворлингский дукат можно получить за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Кровь Йети</i>,</li> <li>Добыча с противников зоны Беирна.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10358,7 +10358,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Дает возможность пользоваться <img data-items=\"teleport\" src=\"data/raresImg/guild/teleport.guild.png\" title=\"Башня Телепортации\"/> в гильдии.<hr><table class=\"wb\"><tr><td colspan=\"2\">Umożliwia korzystanie z wieży teleportacyjnej w gildii. </td></tr></table>"
+     "html": "Дает возможность пользоваться <img data-items=\"teleport\" src=\"data/raresImg/guild/teleport.guild.png\" title=\"Башня Телепортации\"/> в гильдии.<hr><table class=\"wb\"><tr><td colspan=\"2\">Позволяет пользоваться телепортационной башней гильдии. </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -10366,7 +10366,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Poprzez pobranie z portalu Wieży Teleportacji (pobrana ilość zależy od indywidualnych ustawień Gildii),</li> <li>Zakup - w sklepie premium za platynę.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Poprzez pobranie z portalu Wieży Teleportacji (pobrana ilość zależy od indywidualnych ustawień Gildii),</li> <li>Покупка — в премиум-магазине за платину.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10401,15 +10401,15 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Используется для кормёжки питомцев гильдии. <br><dl> <dt>Можно получить:</dt> <dd>Выполнив задание у <img data-items=\"turvil1a\" src=\"data/raresImg/npc/turvil1a.npc.png\" title=\"Турвиль\"/> в Деревне Друидов <img src=\"data/raresImg/icons/arrowxchange.png\"/> 80х</dd> <dd>Выполнив задание у <img data-items=\"facesKronikarza\" src=\"data/raresImg/npc/facesKronikarza.npc.png\" title=\"Аким\"/> в Нижнем Кеменаке <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х</dd> <dd>Выполнив задание у <img data-items=\"rycerzberer\" src=\"data/raresImg/npc/rycerzberer.npc.png\" title=\"Берер\"/> в Гарнизоне <img src=\"data/raresImg/icons/arrowxchange.png\"/> 350х</dd> <dd>Обменяв 1x <img data-items=\"item471\" src=\"data/raresImg/items/471.items.png\"/> у <img data-items=\"facesDillega\" src=\"data/raresImg/npc/facesDillega.npc.png\" title=\"Диллег\"/> в Кеменаке <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х</dd> <dd>Обменяв 1x <img data-items=\"item927\" src=\"data/raresImg/items/927.items.png\"/> у <img data-items=\"kupiecWedrownya\" src=\"data/raresImg/npc/kupiec_wedrowny.npc.png\" title=\"Бродячий торговец\"/> в Гарнизоне Дмортера <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х</dd> <dd>Купив у <img data-items=\"kupiecWedrownya\" src=\"data/raresImg/npc/kupiec_wedrowny.npc.png\" title=\"Бродячий торговец\"/> за <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 50х, 100x, 150x</dd> </dl><hr><table class=\"wb\"><tr><td colspan=\"2\">Karma dla zwierzaków Gildyjnych. </td></tr></table>"
+     "html": "Используется для кормёжки питомцев гильдии. <br><dl> <dt>Можно получить:</dt> <dd>Выполнив задание у <img data-items=\"turvil1a\" src=\"data/raresImg/npc/turvil1a.npc.png\" title=\"Турвиль\"/> в Деревне Друидов <img src=\"data/raresImg/icons/arrowxchange.png\"/> 80х</dd> <dd>Выполнив задание у <img data-items=\"facesKronikarza\" src=\"data/raresImg/npc/facesKronikarza.npc.png\" title=\"Аким\"/> в Нижнем Кеменаке <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х</dd> <dd>Выполнив задание у <img data-items=\"rycerzberer\" src=\"data/raresImg/npc/rycerzberer.npc.png\" title=\"Берер\"/> в Гарнизоне <img src=\"data/raresImg/icons/arrowxchange.png\"/> 350х</dd> <dd>Обменяв 1x <img data-items=\"item471\" src=\"data/raresImg/items/471.items.png\"/> у <img data-items=\"facesDillega\" src=\"data/raresImg/npc/facesDillega.npc.png\" title=\"Диллег\"/> в Кеменаке <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х</dd> <dd>Обменяв 1x <img data-items=\"item927\" src=\"data/raresImg/items/927.items.png\"/> у <img data-items=\"kupiecWedrownya\" src=\"data/raresImg/npc/kupiec_wedrowny.npc.png\" title=\"Бродячий торговец\"/> в Гарнизоне Дмортера <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х</dd> <dd>Купив у <img data-items=\"kupiecWedrownya\" src=\"data/raresImg/npc/kupiec_wedrowny.npc.png\" title=\"Бродячий торговец\"/> за <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 50х, 100x, 150x</dd> </dl><hr><table class=\"wb\"><tr><td colspan=\"2\">Корм для гильдейских питомцев. </td></tr></table>"
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Niezbędny surowiec do karmienia zwierzaków Gildyjnych.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Необходимое сырьё для кормления гильдейских питомцев.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item469\">Объедки</span> możemy wymienić na 1 x Jedzenie u Wiedźmy Hoberl na Bagnach,</li></ul> <ul><li>9 × <span data-items=\"item470\">Сырое Мясо</span> możemy wymienić na 10 x Jedzenie u Sany w Lesie Koldów,</li></ul> <ul><li>1 × <span data-items=\"item471\">Труп вендиго</span> możemy wymienić na 200 x Jedzenie u Dillega w Górach Koldów,</li></ul> <ul><li>1 × <span data-items=\"item927\">Печень чудовища</span> możemy wymienić na 200 x Jedzenie u Kupca wędrownego w Garnizonie Dmorther (pojawia się losowo),</li></ul> <ul><li>80 x Jedzenie otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Раглит</i> od Turvilla w Wiosce Druidów,</li></ul> <ul><li>200 x Jedzenie otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Взыскание долгов</i> od Akeema w Dolnym Kemenak,</li></ul> <ul><li>350 x Jedzenie otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение на корм</i> od Berera w Garnizonie Dmorther (Pokój Berera),</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> u Parvana Razoffa w Trentis,</li></ul> <ul><li>Zakup za Imperiały <span><span><img src=\"data/wikibr/images/b/be/Imperia%C5%82y.png\"/></span></span> u Kupca Wędrownego w Garnizonie Dmorther (NPC pojawia się losowo).</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item469\">Объедки</span> можно обменять на 1 × Еда у Ведьмы Хоберль на Болоте,</li></ul> <ul><li>9 × <span data-items=\"item470\">Сырое Мясо</span> можно обменять на 10 × Еда у Саны в Лесу Колдов,</li></ul> <ul><li>1 × <span data-items=\"item471\">Труп вендиго</span> можно обменять на 200 × Еда у Диллега в Горах Колдов,</li></ul> <ul><li>1 × <span data-items=\"item927\">Печень чудовища</span> możemy wymienić na 200 x Jedzenie u Kupca wędrownego w Garnizonie Dmorther (pojawia się losowo),</li></ul> <ul><li>80 × Еда получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Раглит</i> у Турвилла в Деревне друидов,</li></ul> <ul><li>200 × Еда получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Взыскание долгов</i> у Акима в Нижнем Кеменаке,</li></ul> <ul><li>350 × Еда получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение на корм</i> у Берера в Гарнизоне Дмортер (комната Берера),</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе,</li></ul> <ul><li>Покупка за империалы <span><span><img src=\"data/wikibr/images/b/be/Imperia%C5%82y.png\"/></span></span> u Kupca Wędrownego w Garnizonie Dmorther (NPC pojawia się losowo).</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10456,7 +10456,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Медное дело</i> od Taisha w Lesie Koldów.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Медное дело</i> у Тайша в Лесу Колдов.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10500,7 +10500,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Można otrzymać z dziennego losowania nagród - tylko posiadacze konta premium,</li> <li>Zakup od innego gracza.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Można otrzymać z dziennego losowania nagród - tylko posiadacze konta premium,</li> <li>Покупка у другого игрока.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/"
@@ -11348,7 +11348,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Увеличивает прочность предмета при улучшении на 20%. Продает <img data-items=\"dziwka2a\" src=\"data/raresImg/npc/dziwka2a.npc.png\" title=\"Бедиса\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Zwiększa wytrzymałość przedmiotu przy ulepszaniu. </td></tr></table>"
+     "html": "Увеличивает прочность предмета при улучшении на 20%. Продает <img data-items=\"dziwka2a\" src=\"data/raresImg/npc/dziwka2a.npc.png\" title=\"Бедиса\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Повышает прочность предмета при улучшении. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -11356,11 +11356,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zwiększa wytrzymałość sprzętu o 20% w procesie <span data-items=\"wb_modyfikacje_sprzetu\">улучшения</span>,</li></ul> <ul><li>Ингредиент для изготовления <span data-items=\"item1213\">Усиленных кошек</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Повышает прочность снаряжения на 20% в процессе <span data-items=\"wb_modyfikacje_sprzetu\">улучшения</span>,</li></ul> <ul><li>Ингредиент для изготовления <span data-items=\"item1213\">Усиленных кошек</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zakup za 100 <span data-items=\"item822\">ворлингских дукатов</span> у Бедисы в Корчме под Вершиной,</li></ul> <ul><li>Добыча с некоторых противников.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Покупка за 100 <span data-items=\"item822\">ворлингских дукатов</span> у Бедисы в Корчме под Вершиной,</li></ul> <ul><li>Добыча с некоторых противников.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -11468,7 +11468,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>4 × <span data-items=\"item468\">Морской кристалл</span> możemy wymienić na 5 x Kryształy u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>5 × <span data-items=\"item48\">Галит</span> możemy wymienić na 1 x Kryształy u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>1 × <span data-items=\"item121\">Арагонит</span> możemy wymienić na 6 x Kryształy u Dillega w Górach Koldów,</li></ul> <ul><li>200 x Kryształy otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Ледяной кристалл</i> od Mistrza Arkanegrina w Dolnym Kemenak,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>4 × <span data-items=\"item468\">Морской кристалл</span> możemy wymienić na 5 x Kryształy u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>5 × <span data-items=\"item48\">Галит</span> możemy wymienić na 1 x Kryształy u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>1 × <span data-items=\"item121\">Арагонит</span> можно обменять на 6 × Кристаллы у Диллега в Горах Колдов,</li></ul> <ul><li>200 × Кристаллы получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Ледяной кристалл</i> у Мастера Арканегрина в Нижнем Кеменаке,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -11558,7 +11558,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item458c\">Щебень</span> możemy wymienić na 1 x Kamienie u Kamieniarza w Porcie,</li></ul> <ul><li>6 × <span data-items=\"item459\">Гранит</span> możemy wymienić na 2 x Kamienie u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>10 × <span data-items=\"item458\">Полевой шпат</span> możemy wymienić na 5 x Kamienie u Dillega w Górach Koldów,</li></ul> <ul><li>60 x Kamienie otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Старое вино</i> od Lesgara w Karczmie u Lesgara,</li></ul> <ul><li>150 x Kamienie otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Каменный котёнок</i> od Dillega w Górach Koldów,</li></ul> <ul><li>60 x Kamienie otrzymamy za pokonanie drużyny <span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"kholdpriest3a\">Морквирр</span>,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item458c\">Щебень</span> можно обменять на 1 × Камни у Каменщика в Порту,</li></ul> <ul><li>6 × <span data-items=\"item459\">Гранит</span> możemy wymienić na 2 x Kamienie u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>10 × <span data-items=\"item458\">Полевой шпат</span> можно обменять на 5 × Камни у Диллега в Горах Колдов,</li></ul> <ul><li>60 × Камни получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Старое вино</i> у Лезгара в Корчме у Лезгара,</li></ul> <ul><li>150 × Камни получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Каменный котёнок</i> у Диллега в Горах Колдов,</li></ul> <ul><li>60 × Камни получаем за победу над отрядом <span><span><img src=\"data/wikibr/images/0/04/Elity_korona.png\" title=\"Элита\"/></span></span> <span data-items=\"kholdpriest3a\">Морквирр</span>,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -11605,7 +11605,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item464\">Лом из Павших</span> możemy wymienić na 2 x Żelazo u Woberga w Trentis,</li></ul> <ul><li>5 × <span data-items=\"item466\">Обломки руды</span> możemy wymienić na 1 x Żelazo u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>2 × <span data-items=\"item465\">Железная руда</span> możemy wymienić na 1 x Żelazo u Dillega w Górach Koldów,</li></ul> <ul><li>60 x Żelazo otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Способ добыть железо</i> od Pogranicznika w Alarilu,</li></ul> <ul><li>200 x Żelazo otrzymamy za wykonanie <span data-items=\"wb_zlecenia\">поручения</span> <i>Колды и браконьеры</i> od Herewalda w Górach Koldów,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item464\">Лом из Павших</span> можно обменять на 2 × Железо у Воберга в Трентисе,</li></ul> <ul><li>5 × <span data-items=\"item466\">Обломки руды</span> możemy wymienić na 1 x Żelazo u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>2 × <span data-items=\"item465\">Железная руда</span> можно обменять на 1 × Железо у Диллега в Горах Колдов,</li></ul> <ul><li>60 × Железо получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Способ добыть железо</i> у Пограничника в Аларилe,</li></ul> <ul><li>200 × Железо получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Колды и браконьеры</i> у Херевальда в Горах Колдов,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -11643,7 +11643,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Позволяет зарядить снаряжение.<hr><table class=\"wb\"><tr><td colspan=\"2\">Umożliwia doładowanie sprzętu. </td></tr></table>"
+     "html": "Позволяет зарядить снаряжение.<hr><table class=\"wb\"><tr><td colspan=\"2\">Позволяет подзарядить снаряжение. </td></tr></table>"
     },
     {
      "title": "Стоимость",
@@ -11651,7 +11651,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Предмет нужен для <span data-items=\"wb_modyfikacje_sprzetu\">przywrócenia</span> ładunków w sprzętach: <span data-items=\"wb_synergetyki\"><span style=\"color:#a70c5e\">Синергетики</span></span>, <span data-items=\"wb_rary\"><span style=\"color:aqua\">rary</span></span>, <span data-items=\"wb_sety\"><span>sety</span></span>, <span data-items=\"wb_epiki\"><span style=\"color:gold\">epiki</span></span>, <span data-items=\"wb_legendy\"><span style=\"color:#ccff66\">legendy</span></span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Предмет нужен для <span data-items=\"wb_modyfikacje_sprzetu\">восстановления</span> зарядов в снаряжении: <span data-items=\"wb_synergetyki\"><span style=\"color:#a70c5e\">Синергетики</span></span>, <span data-items=\"wb_rary\"><span style=\"color:aqua\">рары</span></span>, <span data-items=\"wb_sety\"><span>сеты</span></span>, <span data-items=\"wb_epiki\"><span style=\"color:gold\">эпики</span></span>, <span data-items=\"wb_legendy\"><span style=\"color:#ccff66\">легенды</span></span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -14086,7 +14086,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Предмет, необходимый для создания легенды. Можно получить во время ежедневного задания \"Эфирная лампа\", обменяв <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\"/> на катализатор в <span data-maps=\"m172\" style=\"color:#e0d074\">Кузне Судьбы</span>. <br>Этот предмет нельзя продать<hr><table class=\"wb\"><tr><td colspan=\"2\">Przedmiot potrzebny do stworzenia legendy. <p><b>Предмет нельзя передать другим игрокам.</b></p> </td></tr></table>"
+     "html": "Предмет, необходимый для создания легенды. Можно получить во время ежедневного задания \"Эфирная лампа\", обменяв <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\"/> на катализатор в <span data-maps=\"m172\" style=\"color:#e0d074\">Кузне Судьбы</span>. <br>Этот предмет нельзя продать<hr><table class=\"wb\"><tr><td colspan=\"2\">Предмет, нужный для создания легенды. <p><b>Предмет нельзя передать другим игрокам.</b></p> </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -14094,7 +14094,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Poprzez oddanie <span data-items=\"item779\">Eterycznej Lampy</span> Kowalowi Losu w czasie aktywnego <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Эфирные лампы</i> i zadania <i><span data-items=\"wb_awans_epika\">Возвышение эпика</span></i>, ale <b>dopiero po odblokowaniu II Etapu zbieractwa</b>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Сдав <span data-items=\"item779\">Эфирной лампы</span> Кузнецу Судьбы во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Эфирные лампы</i> и задания <i><span data-items=\"wb_awans_epika\">Возвышение эпика</span></i>, но <b>только после открытия II этапа собирательства</b>.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -14185,7 +14185,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Korpus Wendigo możemy wymienić na 200 x <span data-items=\"item77\">Еда</span> у Диллега в Горах Колдов.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Тело Вендиго можно обменять на 200 × <span data-items=\"item77\">Еда</span> у Диллега в Горах Колдов.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -14237,7 +14237,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Wątroba potwora możemy wymienić na 200 x <span data-items=\"item77\">Еда</span> u Kupca wędrownego w Garnizonie Dmorther (pojawia się losowo).</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Печень чудовища можно обменять на 200 × <span data-items=\"item77\">Еда</span> u Kupca wędrownego w Garnizonie Dmorther (pojawia się losowo).</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -14280,11 +14280,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Kamień Tresera możemy wymienić na 22 000 punktów doświadczenia dla zwierzaka u Tresera Pitera w Lesie Koldów.</li> <li>Przedmiot potrzebny w jednym z etapów zadania <span data-wikibr='Zadanie \"Obroża\"'>Ошейник</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Kamień Tresera możemy wymienić na 22 000 punktów doświadczenia dla zwierzaka u Tresera Pitera w Lesie Koldów.</li> <li>Предмет, нужный на одном из этапов задания <span data-wikibr='Zadanie \"Obroża\"'>Ошейник</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Nagroda za wykonanie każdego z etapów <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Дрессировка</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Награда за выполнение каждого этапа <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Дрессировка</i>.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -14326,7 +14326,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Szkatuła z minerałami możemy wymienić na 22 000 punktów doświadczenia dla zwierzaka u Tresera Pitera w Lesie Koldów.</li> <li>1 x Szkatuła z minerałami możemy wymienić na 1 x <span data-items=\"item812\">Камень Дрессировщика</span> u Tresera Pitera w Lesie Koldów.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Szkatuła z minerałami możemy wymienić na 22 000 punktów doświadczenia dla zwierzaka u Tresera Pitera w Lesie Koldów.</li> <li>1 × Шкатулку с минералами можно обменять на 1 × <span data-items=\"item812\">Камень Дрессировщика</span> у дрессировщика Питера в Лесу Колдов.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -14365,7 +14365,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Молодое животное, нужное <img data-items=\"facesDillega\" src=\"data/raresImg/npc/facesDillega.npc.png\" title=\"Диллег\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Młody zwierzak potrzebny Dillegowi. </td></tr></table>"
+     "html": "Молодое животное, нужное <img data-items=\"facesDillega\" src=\"data/raresImg/npc/facesDillega.npc.png\" title=\"Диллег\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Молодой зверь, нужный Диллегу. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -14478,7 +14478,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Сырье для торговли. Покупает <img data-items=\"szefkuchnia\" src=\"data/raresImg/npc/szefkuchnia.npc.png\" title=\"Шеф-повар\"/> <br>Для получения требуется обжарить <img data-items=\"item643\" src=\"data/raresImg/items3/643.items3.png\" title=\"Мидии\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Surowiec do handlu. </td></tr></table>"
+     "html": "Сырье для торговли. Покупает <img data-items=\"szefkuchnia\" src=\"data/raresImg/npc/szefkuchnia.npc.png\" title=\"Шеф-повар\"/> <br>Для получения требуется обжарить <img data-items=\"item643\" src=\"data/raresImg/items3/643.items3.png\" title=\"Мидии\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Сырьё для торговли. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -14622,7 +14622,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Крепкий минерал, необходимый <img data-items=\"turvil1a\" src=\"data/raresImg/npc/turvil1a.npc.png\" title=\"Турвиль\"/>. <br>Требуется для задачи на 80х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> у <img data-items=\"turvil1a\" src=\"data/raresImg/npc/turvil1a.npc.png\" title=\"Турвиль\"/> в Деревне Друидов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Silny materiał potrzebny Turvilowi. </td></tr></table>"
+     "html": "Крепкий минерал, необходимый <img data-items=\"turvil1a\" src=\"data/raresImg/npc/turvil1a.npc.png\" title=\"Турвиль\"/>. <br>Требуется для задачи на 80х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> у <img data-items=\"turvil1a\" src=\"data/raresImg/npc/turvil1a.npc.png\" title=\"Турвиль\"/> в Деревне Друидов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Прочный материал, нужный Турвилу. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -14753,7 +14753,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Moczarkę można zebrać jedynie w trakcie aktywnego <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Бычок Стаськи</i>. </p><p>Do zebrania Moczarki są nam potrzebne narzędzia (<span data-items=\"item791\">Секира</span> и <span data-items=\"item792\">Багор</span>), kupujemy je u Versteina za 10 000 złota. </p><p>Moczarkę wydobywamy na Zamarzniętym jeziorze z przerębla znajdującego się przed wejściem do jaskiń Pod lodem. </p> <center>Wydobywanie w lokalizacji: <p>Zamarznięte jezioro (113,56) </p> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <p><br/> </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Мочарку можно собрать только во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Бычок Стаськи</i>. </p><p>Для сбора мочарки нужны инструменты (<span data-items=\"item791\">Секира</span> и <span data-items=\"item792\">Багор</span>), покупаем их у Верштейна за 10 000 золота. </p><p>Moczarkę wydobywamy na Zamarzniętym jeziorze z przerębla znajdującego się przed wejściem do jaskiń Pod lodem. </p> <center>Добыча в локации: <p>Замерзшее озеро (113, 56) </p> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <p><br/> </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -14950,7 +14950,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Krew Krwiopijców</i> od Wulgarfa z Błoni Klasztornych,</li> <li>Możemy jednorazowo otrzymać 21 x Krew bestii za wykonanie zadania pobocznego <i>\"Do ostatniej kropli krwii\"</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Кровь Кровопийц</i> у Вульгарфа с Монастырских лугов,</li> <li>Możemy jednorazowo otrzymać 21 x Krew bestii za wykonanie zadania pobocznego <i>«До последней капли крови»</i>.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15237,11 +15237,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Jedn z przedmiotów potrzebny do przywołania <span data-items=\"ghost3a\">Селены</span> в инстансе <i>Кладбище в горах</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Один из предметов, нужных для призыва <span data-items=\"ghost3a\">Селены</span> в инстансе <i>Кладбище в горах</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Галигардские булавы</i> у Лебера в Корчме под Вершиной,</li> <li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Галигардские знамёна</i> у Лебера в Корчме под Вершиной,</li> <li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Галигардские дневники</i> od Lebera w Karczmie pod Szczytem.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Галигардские булавы</i> у Лебера в Корчме под Вершиной,</li> <li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Галигардские знамёна</i> у Лебера в Корчме под Вершиной,</li> <li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Галигардские дневники</i> у Лебера в Корчме под Вершиной.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15385,7 +15385,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Шлифовальный камень</i> od Versteina w Beirn.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Шлифовальный камень</i> у Верштейна в Беирне.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15421,7 +15421,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Wspólny język</i> od Staska w Beirn.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Общий язык</i> у Стаськи в Беирне.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15648,7 +15648,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zabieramy z Groty Oczu po umieszczeniu trzech <span data-items=\"item422\">Spojrzeń Smoka</span> w pomniku na środku groty. Wejście do groty kosztuje 40 000 złota.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Забираем из Грота Глаз, поместив три <span data-items=\"item422\">Взгляда Дракона</span> w pomniku na środku groty. Wejście do groty kosztuje 40 000 złota.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15676,7 +15676,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Необходим для получения Глаза Дракона. <br>Требуются 3х для получения <img data-items=\"item425\" src=\"data/raresImg/items2/425.items2.png\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Potrzebne do zdobycia Smoczego Oka. </td></tr></table>"
+     "html": "Необходим для получения Глаза Дракона. <br>Требуются 3х для получения <img data-items=\"item425\" src=\"data/raresImg/items2/425.items2.png\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Нужны для получения Драконьего Ока. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -15684,7 +15684,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Jeden z elementów potrzebnych do zdobycia <span data-items=\"item425\">Smoczego Oka</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Один из элементов, нужных для получения <span data-items=\"item425\">Драконьего Ока</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -15728,7 +15728,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Драконье Дыхание</i> od Groty Oddechu w lokacji Smocza próba.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Драконье Дыхание</i> от Грота Дыхания в локации «Драконье испытание».</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15937,11 +15937,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Do złożenia w studni, w trakcie Eventu <i>Наблюдатель</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Бросить в колодец во время ивента <i>Наблюдатель</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <div> <ul><li>Диббук</li> <li>Кощей</li> <li>Скелет</li> <li>Скелет-Маг</li> <li>Павший Стрелок</li> <li>Павший Воин</li> <li>Призрак</li> <li>Зомби</li></ul> </div> <p><br/> </p> <center>Tylko podczas trwania eventu.</center> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <div> <ul><li>Диббук</li> <li>Кощей</li> <li>Скелет</li> <li>Скелет-Маг</li> <li>Павший Стрелок</li> <li>Павший Воин</li> <li>Призрак</li> <li>Зомби</li></ul> </div> <p><br/> </p> <center>Только во время ивента.</center> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/"
@@ -15995,11 +15995,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Gabrysie wypuszczamy na Stoku (134,52), aby pozyskać <span data-items=\"item787\">Яйцо ястребят</span> до <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Габрысю выпускаем на Склоне (134, 52), чтобы получить <span data-items=\"item787\">Яйцо ястребят</span> до <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Zakup u Staska za 50 000 złota w czasie aktywnego <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>. <p>Jeżeli Gabrysia przyniesie <span data-items=\"item790\">Разбитое яйцо ястребенка</span>, można kupić ją ponownie. </p> <br/><center> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <br/> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Покупка у Стаськи за 50 000 золота во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>. <p>Если Габрыся принесёт <span data-items=\"item790\">Разбитое яйцо ястребенка</span>, её можно купить снова. </p> <br/><center> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <br/> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -16027,7 +16027,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Яйцо взято из ястребиного гнезда.<hr><table class=\"wb\"><tr><td colspan=\"2\">Jajko wyjęte z gniazda jastrząbków. </td></tr></table>"
+     "html": "Яйцо взято из ястребиного гнезда.<hr><table class=\"wb\"><tr><td colspan=\"2\">Яйцо из гнезда ястребков. </td></tr></table>"
     },
     {
      "title": "Где найти",
@@ -16035,11 +16035,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Wymiana na nagrodę podczas aktywnego <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Обмен на награду во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Wykorzystując <span data-items=\"item786\">Габрысю</span> w czasie aktywnego <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>. <br/> </p> <center> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <p><br/> </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Используя <span data-items=\"item786\">Габрысю</span> во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i>. <br/> </p> <center> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <p><br/> </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -16079,7 +16079,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Jeżeli w czasie aktywnego <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i> otrzymamy Rozbite jajo jastrząbka, należy ponownie udać się do Staska i jeszcze raz kupić <span data-items=\"item786\">Габрысю</span>. <br/> </p> <center> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <p><br/> </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p>Если во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Сокольничья</i> otrzymamy Rozbite jajo jastrząbka, należy ponownie udać się do Staska i jeszcze raz kupić <span data-items=\"item786\">Габрысю</span>. <br/> </p> <center> <span><img src=\"data/wikibr/images/a/af/Youtube.png\"/></span> </center> <p><br/> </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -17040,7 +17040,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Wymiana na 300 000 punktów doświadczenia dla <span data-items=\"wb_zwierzaki\">питомца</span> во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Формула</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Обмен на 300 000 опыта для <span data-items=\"wb_zwierzaki\">питомца</span> во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Формула</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -17072,11 +17072,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Создана по формуле Алекса. Выпив ее, вы получите много очков психоопыта.<hr><table class=\"wb\"><tr><td colspan=\"2\">Создано по рецепту мастера Алекса. <p>Po wypiciu zapewni wiele punktów psychodoświadczenia. </p> </td></tr></table>"
+     "html": "Создана по формуле Алекса. Выпив ее, вы получите много очков психоопыта.<hr><table class=\"wb\"><tr><td colspan=\"2\">Создано по рецепту мастера Алекса. <p>После употребления даёт много психоопыта. </p> </td></tr></table>"
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Wymiana na 800 punktów doświadczenia dla <span data-items=\"wb_drify\">дрифов</span> во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Формула</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Обмен на 800 опыта для <span data-items=\"wb_drify\">дрифов</span> во время активного <span data-items=\"wb_zadania_codzienne\">Ежедневное задание</span> <i>Формула</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -17709,11 +17709,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Сбрасывает время обновления всех ежедневных заданий. <br>Можно выбрать 1x в наградах за выполнение еженедельного задания.<hr><table class=\"wb\"><tr><td colspan=\"2\">Resetuje czas odnowienia wszystkich zadań codziennych.<br/> <p>Чтобы использовать, нажмите на предмет в окне эликсиров.<br/> <b>Предмет нельзя передать другим игрокам.</b> </p> </td></tr></table>"
+     "html": "Сбрасывает время обновления всех ежедневных заданий. <br>Можно выбрать 1x в наградах за выполнение еженедельного задания.<hr><table class=\"wb\"><tr><td colspan=\"2\">Сбрасывает время перезарядки всех ежедневных заданий.<br/> <p>Чтобы использовать, нажмите на предмет в окне эликсиров.<br/> <b>Предмет нельзя передать другим игрокам.</b> </p> </td></tr></table>"
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Resetuje czas odnowienia wszystkich <span data-items=\"wb_zadania_codzienne\">Daily Questów</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Сбрасывает время перезарядки всех <span data-items=\"wb_zadania_codzienne\">ежедневных заданий</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -17749,7 +17749,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Resetuje czas odnowienia do wejścia na instancje bossów: <span data-items=\"aquaregis1a\">Аква Регис</span>, <span data-items=\"ghost3a\">Селена</span>;</li> <li>Resetuje czas odnowienia odbioru wejściówek na instancje bossów: <span data-items=\"admiral1a\">Уторский Адмирал</span>, Draugul, <span data-items=\"morana1a\">Морана</span>, <span data-items=\"sidraga1a\">Сидрага</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Сбрасывает время до повторного входа в инстансы боссов: <span data-items=\"aquaregis1a\">Аква Регис</span>, <span data-items=\"ghost3a\">Селена</span>;</li> <li>Resetuje czas odnowienia odbioru wejściówek na instancje bossów: <span data-items=\"admiral1a\">Уторский Адмирал</span>, Драугул, <span data-items=\"morana1a\">Морана</span>, <span data-items=\"sidraga1a\">Сидрага</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -18277,7 +18277,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Przedmiot do wrzucenia do palenisk podczas trwania Eventu <i>Stonki</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Предмет, который бросают в очаги во время ивента <i>Колорадского жука</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -18544,7 +18544,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Странные руны и символы складываются в таинственную схему. Но без помощи кого-то, кто сможет это прочесть, вы не справитесь с этим. Начните с друидов.', 'pl': 'Dziwne runy i symbole układają się w tajemniczy schemat. Ale bez pomocy kogoś, kto potrafiłby go odczytać nie dasz sobie z tym rady. Zacznij od druidów.', 'en': 'Strange runes and symbols make up a mysterious pattern. You need someone who can read it. Ask the druids.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Рецепт, позволяющий создать питомца. <p>Możemy go nabyć u Heremona za 500 platyny, wymogiem jednak jest ukończony 65 poziom. </p><p>(Zdobywamy go w formie jednorazowej, krótkiej Misji). </p> </td></tr><tr><td colspan=\"2\"> <center>Zwierzaka możemy stworzyć samodzielnie, po zebraniu składników:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>80 × <span data-items=\"item185\">Средняя Фляга Знания</span></li></ul> <ul><li>80 × <span data-items=\"item156\">Средняя Фляга Ловкости</span></li></ul> <ul><li>14 × <span data-items=\"item685\">Амарантовый элемент</span></li></ul> <ul><li>8 × <span data-items=\"item686\">Антрацитовый элемент</span></li></ul> <ul><li>6 × <span data-items=\"item687\">Циановый элемент</span></li></ul> <ul><li>10 × <span data-items=\"item230\">Семечко мощи</span></li></ul> </td></tr></table>"
+     "html": "{'ru': 'Странные руны и символы складываются в таинственную схему. Но без помощи кого-то, кто сможет это прочесть, вы не справитесь с этим. Начните с друидов.', 'pl': 'Dziwne runy i symbole układają się w tajemniczy schemat. Ale bez pomocy kogoś, kto potrafiłby go odczytać nie dasz sobie z tym rady. Zacznij od druidów.', 'en': 'Strange runes and symbols make up a mysterious pattern. You need someone who can read it. Ask the druids.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Рецепт, позволяющий создать питомца. <p>Możemy go nabyć u Heremona za 500 platyny, wymogiem jednak jest ukończony 65 poziom. </p><p>(Получаем его в виде одноразовой короткой миссии). </p> </td></tr><tr><td colspan=\"2\"> <center>Zwierzaka możemy stworzyć samodzielnie, po zebraniu składników:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>80 × <span data-items=\"item185\">Средняя Фляга Знания</span></li></ul> <ul><li>80 × <span data-items=\"item156\">Средняя Фляга Ловкости</span></li></ul> <ul><li>14 × <span data-items=\"item685\">Амарантовый элемент</span></li></ul> <ul><li>8 × <span data-items=\"item686\">Антрацитовый элемент</span></li></ul> <ul><li>6 × <span data-items=\"item687\">Циановый элемент</span></li></ul> <ul><li>10 × <span data-items=\"item230\">Семечко мощи</span></li></ul> </td></tr></table>"
     },
     {
      "title": "Рецепт",

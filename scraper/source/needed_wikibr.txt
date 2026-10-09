@@ -489,7 +489,6 @@
 /images/3/30/Smierc-zwierzaka-menu.png
 /images/3/30/Szczypce_Krabostwora.png
 /images/3/31/Arcydrif_grod.png
-/images/3/31/BANER_2.png
 /images/3/31/GarthmogM.png
 /images/3/31/Krabostw%C3%B3r.png
 /images/3/31/Murrim_2.png

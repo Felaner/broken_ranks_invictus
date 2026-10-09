@@ -168,11 +168,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 7 <p><b>Цена</b>: <span style=\"color:#ffd700\">1 500  золота</span> </p><p><b>Покупка</b>: u Godrewa w <span data-items=\"wb_trentis\">Трентис</span> </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 7 <p><b>Цена</b>: <span style=\"color:#ffd700\">1 500  золота</span> </p><p><b>Покупка</b>: у Годрева в <span data-items=\"wb_trentis\">Трентис</span> </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/e0/WilczurPet.png\"/></span></span> </td><td colspan=\"2\">Burek jak to burek. Wiernie biega przy swoim panu, gdy trzeba ugryzie, wywołując krwawienie. Jeżąc sierść na karku wprowadza się w bojowy trans i może wywołać w przeciwnikach strach. Swoim skowytem może dodatkowo sparaliżować ofiarę, ułatwiając sobie wykończenie wroga. <p><br/> <b>Atakuje fizyczne.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/e0/WilczurPet.png\"/></span></span> </td><td colspan=\"2\">Burek jak to burek. Wiernie biega przy swoim panu, gdy trzeba ugryzie, wywołując krwawienie. Jeżąc sierść na karku wprowadza się w bojowy trans i może wywołać w przeciwnikach strach. Swoim skowytem może dodatkowo sparaliżować ofiarę, ułatwiając sobie wykończenie wroga. <p><br/> <b>Атакует физически.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -472,7 +472,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Atakuje dystansowo i urokami.</b> </p><p><b>Использует</b>: Furia, Twoja stara, Okrzyk bojowy, Rzut kamieniem. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Ярость, Твоя старуха, Боевой клич, Бросок камнем. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -637,7 +637,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Атакует физически, издалека, ментально.</b> </p><p><b>Dominują ataki obszarowe.</b> </p><p><b>Использует</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Атакует физически, издалека, ментально.</b> </p><p><b>Преобладают атаки по площади.</b> </p><p><b>Использует</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -801,11 +801,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 65 <p><b>Призыв</b>: Требуется <span data-items=\"item505\">Receptura na Hohgrata</span> </p><p><b>Цена выкупа</b>: 3 × <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 × <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 × <span data-items=\"item190\">Средняя Фляга Маны</span> u Belenosa w Lesie Koldów. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 65 <p><b>Призыв</b>: Требуется <span data-items=\"item505\">Рецепт Хохграта</span> </p><p><b>Цена выкупа</b>: 3 × <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 × <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 × <span data-items=\"item190\">Средняя Фляга Маны</span> у Беленоса в Лесу Колдов. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Atakuje fizycznie, urokami</b> </p><p><b>Использует</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Атакует физически, ментально</b> </p><p><b>Использует</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -882,7 +882,7 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 30 <p><b>Призыв</b>: Wymagana jest <span data-items=\"wb_receptura_adelweiga\">Рецепт Адельвеига</span> </p><p><b>Цена выкупа</b>: 2 × <span data-items=\"wb_dusza_nietoperza\">Душа летучей мыши</span>, 5 × <span data-items=\"wb_dusza_nieumarlego\">Душа нежити</span>, 4 x <span data-items=\"wb_dusza_gada\">Душа рептилии</span>, 10 <span data-items=\"item679\">империалов</span> у Азарии в Деревне друидов. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 30 <p><b>Призыв</b>: Требуется <span data-items=\"wb_receptura_adelweiga\">Рецепт Адельвеига</span> </p><p><b>Цена выкупа</b>: 2 × <span data-items=\"wb_dusza_nietoperza\">Душа летучей мыши</span>, 5 × <span data-items=\"wb_dusza_nieumarlego\">Душа нежити</span>, 4 × <span data-items=\"wb_dusza_gada\">Душа рептилии</span>, 10 <span data-items=\"item679\">империалов</span> у Азарии в Деревне друидов. </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
@@ -1204,7 +1204,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Атакует издалека и ментально.</b><br/> <b>Использует</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Атакует издалека и ментально.</b><br/> <b>Использует</b>: Отупение, Отравление, Игла в глаз, Удар тени. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1283,7 +1283,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Атакует физически, издалека и ментально.</b><br/> <b>Использует</b>: Rój os, Leczenie, Trujące plucie, Uderzenie, Rzyg. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Атакует физически, издалека и ментально.</b><br/> <b>Использует</b>: Рой ос, Лечение, Ядовитый плевок, Удар, Рвота. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1362,7 +1362,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Ryk, Rzyg, Gryzienie, Bolesne uderzenie, Plucie jadem. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Рёв, Рвота, Укус, Болезненный удар, Плевок ядом. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1674,7 +1674,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Ryk, Dyńka, Taran, Gryzienie, Ochrona. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Рёв, Удар головой, Таран, Укус, Защита. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1978,7 +1978,7 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 60 <p><b>Цена</b>: <span style=\"color:#ffd700\">50 Imperiałów</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 60 <p><b>Цена</b>: <span style=\"color:#ffd700\">50 империалов</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
@@ -2120,7 +2120,7 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 40 <p><b>Цена</b>: <span style=\"color:#ffd700\">15 Imperiałów</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 40 <p><b>Цена</b>: <span style=\"color:#ffd700\">15 империалов</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
@@ -2191,11 +2191,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 55 <p><b>Цена</b>: <span style=\"color:#ffd700\">35 Imperiałów</span> </p><p><b>Покупка</b>: у Работорговца </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 55 <p><b>Цена</b>: <span style=\"color:#ffd700\">35 империалов</span> </p><p><b>Покупка</b>: у Работорговца </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Leczenie, Grupowe leczenie, Korzeń, Osy, Piorun kulisty. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Лечение, Групповое лечение, Корень, Осы, Шаровая молния. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2262,7 +2262,7 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 40 <p><b>Цена</b>: <span style=\"color:#ffd700\">20 Imperiałów</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 40 <p><b>Цена</b>: <span style=\"color:#ffd700\">20 империалов</span> </p><p><b>Покупка</b>: у дрессировщика Питера </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
@@ -2550,11 +2550,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 70 <p>Pojawia się losowo na polach w <span data-items=\"wb_przysiolek_trentis\">Przysiółku Trentis</span> oraz w <span data-items=\"wb_wymarla_osada\">Wymarłej osadzie</span> </p><p>Цена: <span style=\"color:#7de0de\">100  платины</span> </p><p>Po odesłaniu możliwa do odbioru u <span data-items=\"wb_przysiolek_trentis\">Romana</span> за <span style=\"color:#ffd700\">1 000  золота</span> </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 70 <p>Появляется случайно на полях в <span data-items=\"wb_przysiolek_trentis\">Приселке Трентиса</span> а также в <span data-items=\"wb_wymarla_osada\">Вымершем поселении</span> </p><p>Цена: <span style=\"color:#7de0de\">100  платины</span> </p><p>После отправки можно забрать у <span data-items=\"wb_przysiolek_trentis\">Романа</span> за <span style=\"color:#ffd700\">1 000  золота</span> </p><p>Может получать опыт — <span style=\"color:#AA0000\"><b>НЕТ</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Atakuje fizycznie, mentalnie i z dystansu.</b> </p><p><b>Использует</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Атакует физически, ментально и издалека.</b> </p><p><b>Использует</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",

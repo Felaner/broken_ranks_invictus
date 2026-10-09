@@ -3155,19 +3155,6 @@
     "Żerca"
    ]
   },
-  "Drugie urodziny": {
-   "kind": "guide",
-   "title": "Drugie urodziny",
-   "image": "/images/3/31/BANER_2.png",
-   "fields": [],
-   "blocks": [
-    {
-     "title": "Статья",
-     "html": "<div><center> <p>Witajcie Taernijczycy, <br/><br/> Dzisiaj duże info :) <br/><br/> Chcielibyśmy was wszystkich bardzo serdecznie zaprosić na <b>urodzinowy live</b> Wiki BR na naszym kanale YouTube. <br/> W zeszłym roku nie mieliśmy takich mocy, żeby podjąć się tak dużego przedsięwzięcia, ale w tym roku postanowiliśmy spróbować! Tak, to już nasze drugie urodziny i z tej okazji poza live'em przygotowaliśmy dla was również kilka nagród - rozdamy AŻ 7 kodów na platynę, o łącznej wartości <b>4 500 platyny</b>. Jest tylko jeden mały haczyk ;) <br/><br/> Dwa z kodów zostaną rozdane w formie giveway'a, a o pozostałe 5 trzeba będzie powalczyć. Jak? Odpowiedzieć na zadane w trakcie live'a pytania konkursowe. Kto pierwszy, ten lepszy. 5 kodów - 5 pytań. <br/> Live odbędzie się lada dzień, bo już jutro - <b>01.03.2025</b>, start o godzinie <b>20:00</b>. <br/><br/> Oczywiście nie samymi konkursami live żyje - na ekranie będzie towarzyszyć nam rozgrywka w Broken Ranks i zapraszamy was do zadawania nam w trakcie pytań na tematy wszelakie, chętnie odpowiemy, a może nawet i będzie okazja wpaść do nas na voice chat i pogadać :) <br/><br/> Pozdrawiamy i zapraszamy, <br/> Administracja Wiki BR <br><br></p> <span><img data-wikibr-img=\"/images/3/31/BANER_2.png\"/></span> </center> </div>"
-    }
-   ],
-   "links": []
-  },
   "Działki Gildii": {
    "kind": "guide",
    "title": "Działki Gildii",
@@ -18385,36 +18372,6 @@
     "Ziołowy wywar"
    ]
   },
-  "Szablon przedmioty": {
-   "kind": "item",
-   "title": "Szablon przedmioty",
-   "image": null,
-   "fields": [
-    [
-     "Wartość",
-     "Tu wpisujemy wartość przedmiotu"
-    ],
-    [
-     "Waga",
-     "Tu wpisujemy wagę przedmiotu"
-    ]
-   ],
-   "blocks": [
-    {
-     "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p><span><span>Plik:Nazwa przedmiotu.png</span></span><br/><b>Nazwa przedmiotu</b> </p> </td></tr><tr><td colspan=\"2\">Opis przedmiotu w grze </td></tr></table>"
-    },
-    {
-     "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Tu wymieniamy zastosowanie przedmiotu</li></ul> </td></tr></table>"
-    },
-    {
-     "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Wymieniamy jak zdobyć, Czy z DQ, zlecenia, z jakich przeciwników wypada. </td></tr></table>"
-    }
-   ],
-   "links": []
-  },
   "Siekiera": {
    "kind": "item",
    "title": "Siekiera",
@@ -24349,7 +24306,6 @@
   "/images/3/30/Smierc-zwierzaka-menu.png",
   "/images/3/30/Szczypce_Krabostwora.png",
   "/images/3/31/Arcydrif_grod.png",
-  "/images/3/31/BANER_2.png",
   "/images/3/31/GarthmogM.png",
   "/images/3/31/Krabostw%C3%B3r.png",
   "/images/3/31/Murrim_2.png",

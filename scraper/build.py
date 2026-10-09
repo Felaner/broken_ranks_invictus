@@ -651,6 +651,17 @@ TR_PATTERNS = [
     (re.compile(r"^(\d+)\s*vs\s*(\d+)$", re.I), r"\1 на \2"),
     (re.compile(r"^([IVX]+)$"), r"\1"),
     (re.compile(r"^(\d+)\s*PA$"), r"\1 ОД"),
+    (re.compile(r"^Subdrif (\w+)$"), r"Субдриф \1"),
+    (re.compile(r"^Bidrif (\w+)$"), r"Бидриф \1"),
+    (re.compile(r"^Magnidrif (\w+)$"), r"Магнидриф \1"),
+    (re.compile(r"^Arcydrif (\w+)$"), r"Архидриф \1"),
+    (re.compile(r"^lvl \* (-?[\d.]+)$"), r"ур. × \1"),
+    (re.compile(r"^Obrażenia: \((\d+)\s*\+\s*lvl\)$"), r"Урон: (\1 + ур.)"),
+    (re.compile(r"^\+(\d+)% \+ Wzór$"), r"+\1% + формула"),
+    (re.compile(r"^\+(\d+) i \+([\d.,]+)%$"), r"+\1 и +\2%"),
+    (re.compile(r"^(\d+) poziom postaci([.,])$"), r"\1 уровень персонажа\2"),
+    (re.compile(r"^Ilość ładunków (\d+)\.$"), r"Количество зарядов: \1."),
+    (re.compile(r"^(\d+) Imperiałów$"), r"\1 империалов"),
 ]
 
 

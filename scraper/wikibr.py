@@ -24,7 +24,8 @@ HERE = Path(__file__).resolve().parent
 MIRROR = HERE / "mirror" / "wikibr.pl"
 OUT = HERE / "source" / "wikibr.json"
 
-SKIP_TITLES = {"Strona główna", "Zgłoś błąd", "Test D", "Test lista", "Szablon", "Itemki roboczo"}
+SKIP_TITLES = {"Strona główna", "Zgłoś błąd", "Test D", "Test lista", "Szablon", "Itemki roboczo",
+               "Drugie urodziny", "Szablon przedmioty"}
 
 # Перевод частых заголовков; содержимое остаётся польским.
 HEADERS = {
