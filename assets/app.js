@@ -302,6 +302,7 @@
     html += `</div>
       <div class="side-note">Неофициальная фанатская вики. Не связана с Whitemoon Games.
         <a href="#/about" class="${kind === "about" ? "active" : ""}">О сайте</a>
+        <a href="e/index.html">Все страницы списком</a>
         <div class="side-contact">Идеи и вопросы — в Telegram: ${TG}</div></div>`;
     els.sidebar.innerHTML = html;
   }
@@ -831,6 +832,8 @@
         <a class="icon-btn" ${prev ? `href="${entryHrefHere(prev)}"` : "aria-disabled=true"} title="Предыдущая (←)">‹</a>
         <a class="icon-btn" ${next ? `href="${entryHrefHere(next)}"` : "aria-disabled=true"} title="Следующая (→)">›</a>
         <span class="spacer"></span>
+        <a class="icon-btn" href="e/${esc(e.id.replace(/[^A-Za-z0-9_.-]/g, "_"))}.html" target="_blank" rel="noopener"
+          title="Отдельная страница — удобно делиться ссылкой">🔗</a>
         <button class="icon-btn" id="wideBtn" title="Шире / уже">⤢</button>
         <button class="icon-btn mark-btn ${marks.has(e.id) ? "on" : ""}" id="markBtn" title="Есть у меня">✓</button>
         <button class="icon-btn cmp-btn ${compare.has(e.id) ? "on" : ""}" id="cmpBtn" title="Сравнить">⚖</button>

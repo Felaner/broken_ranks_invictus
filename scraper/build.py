@@ -1175,6 +1175,8 @@ def main():
     add_backrefs()
     for sid, (cats, entries) in SECTIONS_OUT.items():
         write_out(sid, cats, entries)
+    import static_pages
+    static_pages.generate(SECTIONS_OUT)
     build_maps()
     (SRC / "needed_images.txt").write_text("\n".join(sorted(needed_images)) + "\n", "utf-8")
     print(f"Недостающих картинок: {len(needed_images)} (scraper/source/needed_images.txt)")

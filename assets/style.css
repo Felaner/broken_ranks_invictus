@@ -634,3 +634,25 @@ table.art img { max-height: 48px; vertical-align: middle; }
 table.art td, table.art th { overflow-wrap: normal; }
 .side-note .side-contact { margin-top: 8px; }
 .side-note .side-contact a { display: inline; margin: 0; }
+
+/* ---------- статические страницы (e/*.html) ---------- */
+body.static { background: var(--bg); }
+.static .topbar { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.static-nav { margin-left: auto; font-size: 14px; }
+.static-page { max-width: 980px; margin: 0 auto; padding: 24px 16px 40px; }
+.static-page h1 { font-size: 26px; margin: 0 0 4px; }
+.static-page .block > h2 { font-size: 13px; margin: 0 0 6px; color: var(--accent); text-transform: uppercase; letter-spacing: .04em; }
+.static-page .detail-head { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 8px; }
+.static-open { display: inline-block; padding: 6px 12px; border-radius: 8px; background: var(--accent-soft);
+  color: var(--accent); font-weight: 600; text-decoration: none; }
+.static-page .props { margin: 12px 0; }
+.static-list { columns: 3 220px; padding-left: 18px; margin: 6px 0 14px; }
+.static-list li { break-inside: avoid; margin: 2px 0; }
+.static-toc { margin: 10px 0 18px; }
+.static-page h2 small { color: var(--muted); font-weight: normal; font-size: 14px; }
+.static-foot { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+.static-page .block-html a img { cursor: pointer; }
+.static-page .ref-link { display: inline-flex; flex-direction: column; align-items: center; max-width: 110px;
+  margin: 2px 4px; vertical-align: top; text-align: center; text-decoration: none; }
+.static-page .ref-name { font-size: 11px; line-height: 1.25; }
+.static-page .ref-link .img-missing { display: none; }
