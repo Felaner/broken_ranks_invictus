@@ -588,7 +588,12 @@ def build_maps():
     for mp in maps.values():
         for p in mp["portals"]:
             p["name"] = MAP_NAMES.get(p["to"], p["to"])
-    out = sorted(maps.values(), key=lambda x: int(re.sub(r"\D", "", x["id"]) or 0))
+    for mp in maps.values():
+        # У части карт на сайте вместо имени заглушка — подписываем номером и уводим в конец.
+        if mp["name"] in ("Название", mp["id"]):
+            mp["name"] = f"Безымянная локация №{mp['id'][1:]}"
+            mp["unnamed"] = True
+    out = sorted(maps.values(), key=lambda x: (bool(x.get("unnamed")), int(re.sub(r"\D", "", x["id"]) or 0)))
     payload = json.dumps(out, ensure_ascii=False, separators=(",", ":"))
     (DATA / "maps.js").write_text(f"window.BR_MAPS = {payload};\n", "utf-8")
     print(f"maps: {len(out)} карт, точек: {sum(len(x['points']) for x in out)}, "
