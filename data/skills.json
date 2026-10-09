@@ -51,7 +51,18 @@
      "html": "Аура холода - снижает выносливость врага, ОД, и защиту от холода. <br>Тип: дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "harpykid2a",
+      "ghostcastle3a",
+      "valdarognew1a",
+      "morana1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills27",
@@ -73,7 +84,18 @@
      "html": "Щит не защищает от ментальных атак, поэтому Рыцарь должен был найти против них другой способ. Результатом многолетних тренировок является способность вызывать вокруг себя или союзника Ауру чистоты, которая увеличивает ментальную защиту и снижает любой урон. Однако ее поддержание требует усилий, из-за чего персонаж хуже защищается в остальных зонах и теряет часть маны в начале каждого раунда. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "treeture3a",
+      "masterofpuppets1a",
+      "castlespecter1a",
+      "admiral1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills35",
@@ -95,7 +117,15 @@
      "html": "Разрушительный потенциал Мага Огня не является ни для кого секретом, но существует и другое применение его силы. Аура рассеивания - это мощное защитное заклинание, заключающееся в создании вокруг своей команды полуматериального барьера. Он поглощает часть силы атаки врага, тем самым уменьшая получаемые повреждения. <br>Тип: групповой бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "hvar1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills176",
@@ -112,7 +142,18 @@
      "html": "Аура Ужаса - массовый дебафф снижающий точность ближних атак врага. <br>Тип: массовый дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "utorinspector1a",
+      "ghost3a",
+      "admiral1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills311",
@@ -224,7 +265,35 @@
      "html": "Боевой Клич - снижает точность всех атак. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "seagull2a",
+      "dogs7a",
+      "dogs1a",
+      "dogs3a",
+      "monkey2a",
+      "treeture5a",
+      "hyena1a",
+      "tiger4a",
+      "tiger3a",
+      "crab3a",
+      "rat4a",
+      "madbees2a",
+      "goblin4a",
+      "yak2a",
+      "chieftain1a",
+      "geomorph1a",
+      "ghadira1a",
+      "tiger1a",
+      "vough1a",
+      "vidvar1a",
+      "hawk2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills324c",
@@ -285,7 +354,23 @@
      "html": "Дебафф уменьшает успех атаки и защиты из всех зон. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaton1a",
+      "hyena1a",
+      "scorpio1a",
+      "monkey4a",
+      "breed4a",
+      "nazgulica1a",
+      "nazgulica1ac",
+      "geomorph1a",
+      "hawk2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills3",
@@ -302,7 +387,23 @@
      "html": "Бросок камнем - дальняя атака. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "monkey2a",
+      "aquaton1a",
+      "treeture5a",
+      "babadek1a",
+      "geomorph1a",
+      "construct31a",
+      "wendigo1a",
+      "construct31ac",
+      "vough1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills321",
@@ -341,7 +442,19 @@
      "html": "Бросок топора - дальняя атака. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "chieftain1a",
+      "ghadira1a",
+      "gmo1a",
+      "vidvar1a",
+      "tarul4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills62",
@@ -363,7 +476,40 @@
      "html": "В царстве слепых одноглазый - король. Булавка в глаз - мощное заклинание, которое наносит небольшой урон, но сильно ограничивает боевые возможности врага. Ухудшение зрения значительно снижает эффективность защиты и атак противника в ближнем и дальнем бою. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "seagull2a",
+      "plox6a",
+      "pteranodon1a",
+      "frog2a",
+      "harpykid2a",
+      "badger1a",
+      "badger1ac",
+      "gregorius1a",
+      "admiral2a",
+      "fyodor1a",
+      "utorinspector1a",
+      "nidhogg1a",
+      "htaga1a",
+      "aquaregis1a",
+      "lugus1a",
+      "morana1a",
+      "ghost3a",
+      "admiral1a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    },
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "skills69"
+     ]
+    }
+   ]
   },
   {
    "id": "skills312",
@@ -473,7 +619,18 @@
      "html": "Во время многолетних тренировок Рыцари фокусировались прежде всего на защитных техниках. Однако, как гласит старая поговорка, лучшая защита - это нападение. Ошеломленный Вымеренным ударом противник начинает хуже защищаться вблизи и реже попадать из остальных зон. Кроме того, он наносит меньший урон из ментальной зоны. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "madbees2a",
+      "castlespecter1a",
+      "vough1a",
+      "lugus1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills63",
@@ -495,7 +652,17 @@
      "html": "Суть колдовства Вуду заключается в преобразовании энергии других существ для собственных целей. В этом случае требуется непосредственный контакт с противником. С помощью прикосновения Вуду проникает сквозь духовные барьеры врага и присваивает себе часть его маны. Благодаря этому навыку чародей может дольше активно сражаться. <br>Тип: ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "gregorius1a",
+      "htaga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills0132",
@@ -534,7 +701,17 @@
      "html": "Град - массовая дальняя атака. Урон холодом. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "valdarognew1a",
+      "aquaregis1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills99",
@@ -578,7 +755,17 @@
      "html": "Необходимость собираться в группы, чтобы противостоять захватчикам, вынудила Друидов разработать технику, которая одновременно поддерживала бы всех союзников. Плодом их труда стало Групповое лечение. Хоть оно и слабее обычного, но зато восстанавливает часть здоровья всем членам группы сразу. Этот навык также накладывает эффект, уменьшающий силу следующего лечения, однако он длится всего один раунд."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "hobgoblin4a",
+      "masterofpuppets1a",
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills144",
@@ -595,7 +782,17 @@
      "html": "Групповой зев - массовая ближняя атака. <br>Тип: массовая ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "yak2a",
+      "geomorph1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills73",
@@ -612,7 +809,15 @@
      "html": "Групповой контроль дыхания - Бафф повышающий ОД и увеличивающий регенерацию маны и выносливости в бою. ОД +1 <br>Тип: групповой бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaton1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills150c",
@@ -629,7 +834,16 @@
      "html": "Групповое оглушение - дебафф способный парализовать всю группу на 1 раунд. <br>Тип: массовый дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "construct31a",
+      "construct31ac"
+     ]
+    }
+   ]
   },
   {
    "id": "skills147c",
@@ -668,7 +882,19 @@
      "html": "Благодаря глубокому пониманию тайн природы Друид способен мгновенно усилить свои физические устойчивости. Он призывает древние силы, которые собираются вокруг него, образуя природную броню. В результате Друид получает меньше урона."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "treeture3a",
+      "tiger4a",
+      "tiger3a",
+      "madbees2a",
+      "tiger1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills48",
@@ -685,7 +911,20 @@
      "html": "Замораживание - дебафф обездвиживающий врага и невозможностью что-либо делать. <br>Тип: ближняя атака либо ментальная, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "ghostcastle3a",
+      "valdarognew1a",
+      "nidhogg1a",
+      "lugus1a",
+      "morana1a",
+      "ghost3a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills25",
@@ -707,7 +946,16 @@
      "html": "Рыцарь - это прежде всего лидер и защитник. Этос предписывает ему защищать своих самых уязвимых товарищей даже ценой собственной жизни. Поэтому он заслоняет их собой, принимая на себя большую часть урона от ближних и дальних атак, направленных на союзников. Защита на 3% ослабляет эффективность Блока щитом. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "furry1a",
+      "crab3a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills1007",
@@ -724,7 +972,18 @@
      "html": "Звуковая волна - дальняя атака. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "bat4a",
+      "nightmare3a",
+      "hawk2a",
+      "ghost3a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills34",
@@ -746,7 +1005,18 @@
      "html": "Техника медитации, с помощью которой Маги Огня контролируют поток магической энергии, перенаправляя ее с защиты на атаку. За счет повышенной чувствительности к чарам и огню они способны наносить огромный урон своими способностями. Кроме того, Маги Огня под действием Заклинания могут убивать врагов Метеоритом. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nightmare2a",
+      "goblin4a",
+      "ghostcastle2a",
+      "castlespecter1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills397",
@@ -802,7 +1072,23 @@
      "html": "Заражение - дебафф наносит небольшой пассивный урон каждый раунд. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "bat4a",
+      "butterfly1a",
+      "scorpio1a",
+      "rat4a",
+      "madbees2a",
+      "fishell3a",
+      "frogboss1a",
+      "htaga1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills107",
@@ -824,7 +1110,15 @@
      "html": "Связанный телом и душой с природой, Друид знает, как черпать из бесконечных источников магии, окружающей мир. Благодаря этому он способен уменьшить расход маны, что позволяет дольше активно сражаться. Благами Источника природы может воспользоваться как Друид, так и выбранный им союзник. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "treeture3a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills73c",
@@ -846,7 +1140,18 @@
      "html": "Древние боевые искусства - это не только обучение ударам, но и экономии сил во время боя. Сосредоточенность и концентрация позволяют более эффективно управлять своим телом, благодаря чему персонаж получает дополнительные Очки Действия и регенерирует больше ресурсов за раунд. Эти знания может использовать любой союзник Шида, с которым он ими поделится. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nightmare3a",
+      "breed4a",
+      "nazgulica1a",
+      "nazgulica1ac"
+     ]
+    }
+   ]
   },
   {
    "id": "skills109",
@@ -868,7 +1173,16 @@
      "html": "Друид может контролировать растения и с их помощью обвить противника корнями. Из-за этого он теряет здоровье в момент наложения заклинания и в течение нескольких следующих раундов, а также хуже защищается из дальней зоны. Повторное наложение Корней парализует врага, блокируя ему возможность выполнять ближние атаки. В бою с другим игроком каждое последующее использование Корней в этом же раунде на 15% менее точно, чем предыдущее. <br>Тип: ментал атака, дебафф, обездвиживание"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "hobgoblin4a",
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills92",
@@ -890,7 +1204,15 @@
      "html": "Лучники сохранили забытое ныне знание об использовании порошка из магномита в бою. Стрела рассеивает его над целью, а его частицы сталкиваются друг с другом и высвобождают множество крошечных электрических зарядов. Противника поражают штормовые разряды, делая его легкой мишенью. <br>Тип: дальняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "skills91"
+     ]
+    }
+   ]
   },
   {
    "id": "skills19",
@@ -912,7 +1234,18 @@
      "html": "У Варвара всего одна цель - убить врага. Насмерть. Поэтому он уделяет большое внимание тому, чтобы его атаки наносили как можно больше урона. Критический удар - это навык, который шокирует своей силой, но потребляет при этом много энергии, поэтому Варвары могут быстро почувствовать недостаток выносливости. <br>Тип: ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaera1a",
+      "yak2a",
+      "ghadira1a",
+      "vidvar1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills0",
@@ -929,7 +1262,52 @@
      "html": "Кровотечение - ближняя или ментальная атака, наносится пассивный урон каждый раунд. <br>Тип: ближняя атака, ментальная атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "dogs7a",
+      "bat4a",
+      "dogs1a",
+      "dogs3a",
+      "hyena1a",
+      "tiger4a",
+      "tiger3a",
+      "nightmare3a",
+      "furry1a",
+      "monkey4a",
+      "crab3a",
+      "rat4a",
+      "madbees2a",
+      "frog2a",
+      "yak2a",
+      "badger1a",
+      "spider1a",
+      "fishell3a",
+      "gregorius1a",
+      "frogboss1a",
+      "bear1a",
+      "garthmog1a",
+      "admiral2a",
+      "mantis1a",
+      "tiger1a",
+      "wendigo1a",
+      "tit1a",
+      "valdarognew1a",
+      "nidhogg1a",
+      "vough1a",
+      "htaga1a",
+      "lugus1a",
+      "hawk2a",
+      "morana1a",
+      "ghost3a",
+      "admiral1a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills71",
@@ -951,7 +1329,15 @@
      "html": "Благодаря отличной координации движений и изматывающим тренировкам под бдительным взглядом таэрнийских мастеров Шиды стали специализироваться на рукопашном бою. Левый правый не самый сильный удар кулаком, зато самый точный. Кроме того, он не требует маны, необходимой для других атакующих способностей Шидов. <br>Тип: ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "breed4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills1370",
@@ -968,7 +1354,19 @@
      "html": "Ледяная волна - ближняя массовая атака холодом. <br>Тип: ближняя массовая атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "valdarognew1a",
+      "nidhogg1a",
+      "aquaregis1a",
+      "hawk2a",
+      "morana1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills147",
@@ -985,7 +1383,15 @@
      "html": "Ледяное дыхание - массовая дальняя атака холодом. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "valdarognew1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills98",
@@ -1024,7 +1430,15 @@
      "html": "Ледяной метеорит. Дальняя массовая атака холодом. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "morana1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills45",
@@ -1041,7 +1455,17 @@
      "html": "Ледяной Щит - повышает сопротивление ко всем атакам. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaton1a",
+      "ghostcastle3a",
+      "valdarognew1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills41",
@@ -1058,7 +1482,21 @@
      "html": "Ледяной снаряд - дальняя атака. Урон холодом. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "ghostcastle3a",
+      "valdarognew1a",
+      "nidhogg1a",
+      "aquaregis1a",
+      "lugus1a",
+      "morana1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills76",
@@ -1080,7 +1518,17 @@
      "html": "Фирменный удар Шидов. Они подбегают к противнику и в прыжке бьют его коленом по лицу, разбивая ему нос в кровь. Таким образом, врагу становится трудно дышать, а значит, каждое его действие затрачивает больше выносливости, чем обычно, а его атаки становятся заметно слабее. Летающее колено сильнее усложняет бой физическим персонажам, чем магическим. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "hyena1a",
+      "breed4a",
+      "hawk2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills101",
@@ -1102,7 +1550,17 @@
      "html": "Глубокое знание сил природы позволяет Друиду обращать вспять процессы, разрушающие живых существ, и восстанавливать часть здоровья себе и союзнику. Однако лечение персонажа связано с наложением на него эффекта, уменьшающего силу следующего лечения. Он длится один раунд, а каждое следующее Лечение продлевает действие эффекта еще на один. Чем больше раундов этого эффекта накоплено, тем меньше здоровья Друид может восполнить."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "treeture3a",
+      "butterfly1a",
+      "hobgoblin4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills31",
@@ -1124,7 +1582,19 @@
      "html": "Искра - это простое заклинание, которое позволяет Магам Огня выпустить из руки небольшой снаряд огромной температуры. Высокая точность и очень низкая затрата маны делают это заклинание незаменимым, хоть оно и не наносит большого урона. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "nightmare2a",
+      "pteranodon4a",
+      "goblin4a",
+      "ghostcastle2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills42",
@@ -1141,7 +1611,20 @@
      "html": "Массовая аура холода - снижает ОД, и защиту от холода. <br>Тип: массовый дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "aquaregis1a",
+      "lugus1a",
+      "morana1a",
+      "ghost3a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills144c",
@@ -1158,7 +1641,22 @@
      "html": "Массовая дальняя атака. <br>Тип: Массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "babadek1a",
+      "bear1a",
+      "garthmog1a",
+      "gmo1a",
+      "mantis1a",
+      "vough1a",
+      "hawk2a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills39",
@@ -1180,7 +1678,17 @@
      "html": "Благодаря силе своего разума, усиленного многоразовой Инкантацией, Маги Огня могут притягивать с орбиты огромный обломок скалы. Он воспламеняется в атмосфере и, окруженный пламенем, падает на противника, нанося большой урон. Есть шанс, что обломки, образовавшиеся в процессе, достанут и других врагов, но с меньшей силой. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nightmare2a",
+      "goblin4a",
+      "castlespecter1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills161",
@@ -1197,7 +1705,16 @@
      "html": "Мистицизм - бафф увеличивающий знание. Каст только на себя. <br>Тип: ментал, бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "seagull2a",
+      "treeture3a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills55",
@@ -1214,7 +1731,19 @@
      "html": "Молния - дальняя энергетическая атака. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "ghostcastle1a",
+      "admiral2a",
+      "fyodor1a",
+      "admiral1a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills26",
@@ -1236,7 +1765,23 @@
      "html": "Даже такой сдержанный таэрниец, как Рыцарь, может просто броситься в водоворот боя, чтобы покромсать врагов своим мечом. Мощный удар - это навык, наносящий значительный урон, который можно дополнительно увеличить, предварительно повредив броню врага Ударом щитом. <br>Тип: ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaton1a",
+      "aquaera1a",
+      "treeture5a",
+      "cobra1a",
+      "nightmare3a",
+      "pteranodon4a",
+      "pteranodon1a",
+      "nazgulica1a",
+      "hawk2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills142",
@@ -1253,7 +1798,16 @@
      "html": "Немота - дебафф делающий невозможным использование положительных эффектов. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nidhogg1a",
+      "hawk2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills236",
@@ -1287,7 +1841,15 @@
      "html": "Неуязвимость. Все действия направленные на врага не проходят. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "ghost3a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills100",
@@ -1304,7 +1866,15 @@
      "html": "Обездвиживание - делает невозможным использование атак ближнего боя. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills94",
@@ -1326,7 +1896,15 @@
      "html": "Именно годам, проведенным в лесах, Лучник обязан своим невероятным знанием трав и корней. Считается, что обыкновенный Чертов Коготь - лучший друг стрелка. Жевание этой травы обостряет чувства каждого, кто ее употребит, и значительно повышает шансы на попадание в ближнем и дальнем бою. Кроме того, под ее влиянием Лучник наносит больше урона от Точного выстрела. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaregis1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills5",
@@ -1343,7 +1921,44 @@
      "html": "Обычная атака - атака ближнего боя. <br>Тип: ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaera1a",
+      "treeture5a",
+      "hyena1a",
+      "tiger4a",
+      "tiger3a",
+      "rat4a",
+      "badger1a",
+      "badger1ac",
+      "chieftain1a",
+      "spider1a",
+      "ghostcastle1a",
+      "babadek1a",
+      "fishell3a",
+      "geomorph1a",
+      "gregorius1a",
+      "ghadira1a",
+      "frogboss1a",
+      "garthmog1a",
+      "gmo1a",
+      "castlespecter1a",
+      "tiger1a",
+      "utorinspector1a",
+      "wendigo1a",
+      "valdarognew1a",
+      "vough1a",
+      "hvar1a",
+      "lugus1a",
+      "tarul4a",
+      "sidraga1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills150",
@@ -1360,7 +1975,17 @@
      "html": "Оглушение - удар в ближнем бою способный парализовать врага. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaera1a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills232",
@@ -1438,7 +2063,19 @@
      "html": "Воспитанным среди пламени Магам Огня прекрасно известно, как управлять этой стихией, чтобы обеспечить ее поддержку себе или союзникам. Огненная сфера увеличивает физическое сопротивление и наносит урон тому, кто поражает персонажа в ближнем бою. Сфера перестает работать, когда примет на себя определенное количество таких ударов. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nightmare2a",
+      "goblin4a",
+      "ghostcastle2a",
+      "construct31a",
+      "construct31ac"
+     ]
+    }
+   ]
   },
   {
    "id": "skills38",
@@ -1460,7 +2097,16 @@
      "html": "Огненный дождь - это эффект ментальных тренировок Магов Огня, которые, обучаемые непосредственно элементалями, достигли более высокого уровня власти над огнем. Это мощное заклинание, мгновенно обрушивающее на всех противников ливень из горящих обломков скал, которые могут нанести им урон. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "goblin4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills37",
@@ -1482,7 +2128,20 @@
      "html": "Призыв гигантского пылающего шара - самый важный навык, который должен освоить каждый Маг Огня. По сравнению с другими одноцелевыми заклинаниями расходует немало маны, но зато наносит много урона. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nightmare2a",
+      "pteranodon4a",
+      "goblin4a",
+      "ghostcastle2a",
+      "castlespecter1a",
+      "utorinspector1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills143c",
@@ -1499,7 +2158,15 @@
      "html": "Одиночный Энергетический разряд - дальняя атака. Урон энергией. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills197",
@@ -1538,7 +2205,41 @@
      "html": "Магия Вуду бывает коварной. Отравление - одно из тех заклинаний, которые не наносят урона, но существенно влияют на способности противника. Под его воздействием жертва начинает чувствовать себя так плохо, что каждое действие требует от нее больше ресурсов. Кроме того, ее атаки становятся заметно слабее, особенно если они магические. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "cobra1a",
+      "plox6a",
+      "butterfly1a",
+      "scorpio1a",
+      "pteranodon1a",
+      "madbees2a",
+      "frog2a",
+      "gregorius1a",
+      "frogboss1a",
+      "garthmog1a",
+      "admiral2a",
+      "fyodor1a",
+      "utorinspector1a",
+      "nidhogg1a",
+      "htaga1a",
+      "lugus1a",
+      "morana1a",
+      "ghost3a",
+      "admiral1a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    },
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "skills69"
+     ]
+    }
+   ]
   },
   {
    "id": "skills93",
@@ -1560,7 +2261,21 @@
      "html": "Леса кишат смертоносными травами. Лучники знают, из чего приготовить отвар, чтобы проварить в нем наконечники. Отравленная стрела - это ужасающая смесь знаний и навыков стрельбы. Токсины ослабляют врага, из-за чего тот не может атаковать в полную силу и наносит меньше урона. Кроме того, его потребление маны значительно увеличивается. <br>Тип: дальняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "harpykid2a"
+     ]
+    },
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "skills91"
+     ]
+    }
+   ]
   },
   {
    "id": "skills67",
@@ -1582,7 +2297,38 @@
      "html": "Колдуны Вуду способны значительно влиять на умственные способности противника. Они отупляют противника, уменьшая его защитные и наступательные возможности в ментальной зоне. Кроме того, оно снижает устойчивость врага к ментальным атакам, благодаря чему его оборона слабеет еще больше, а атаки Вуду наносят ему дополнительный урон. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "cobra1a",
+      "plox6a",
+      "pteranodon1a",
+      "frog2a",
+      "gregorius1a",
+      "garthmog1a",
+      "admiral2a",
+      "fyodor1a",
+      "utorinspector1a",
+      "valdarognew1a",
+      "htaga1a",
+      "aquaregis1a",
+      "lugus1a",
+      "morana1a",
+      "ghost3a",
+      "admiral1a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    },
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "skills69"
+     ]
+    }
+   ]
   },
   {
    "id": "skills18",
@@ -1599,7 +2345,43 @@
      "html": "Паника - снижает точность всех типов атак, снижает сопротивление. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "dogs7a",
+      "dogs1a",
+      "dogs3a",
+      "aquaton1a",
+      "aquaera1a",
+      "hyena1a",
+      "tiger4a",
+      "scorpio1a",
+      "tiger3a",
+      "furry1a",
+      "monkey4a",
+      "pteranodon4a",
+      "crab3a",
+      "madbees2a",
+      "yak2a",
+      "spider1a",
+      "ghadira1a",
+      "bear1a",
+      "garthmog1a",
+      "gmo1a",
+      "tiger1a",
+      "wendigo1a",
+      "tit1a",
+      "nidhogg1a",
+      "vough1a",
+      "vidvar1a",
+      "hvar1a",
+      "hawk2a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills96",
@@ -1621,7 +2403,16 @@
      "html": "Как только Лучники покинули свои пущи и увидели, насколько бесчестным может быть поединок с человеком, то сами решили освоить приемы, которые уравняли бы их шансы при прямом столкновении. Для этого идеально подходит бросок пыли в глаза противнику, что резко снижает точность его атак со всех зон и немного снижает защиту от ближних атак. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "harpykid2a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills145c",
@@ -1638,7 +2429,24 @@
      "html": "Плевок - дальняя атака. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "crab3a",
+      "rat4a",
+      "madbees2a",
+      "frog2a",
+      "breed4a",
+      "spider1a",
+      "fishell3a",
+      "frogboss1a",
+      "mantis1a",
+      "aquaregis1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills6",
@@ -1672,7 +2480,15 @@
      "html": "Побуждение - увеличивает ОД, расход выносливости и маны. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "ghostcastle1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills180",
@@ -1689,7 +2505,16 @@
      "html": "Повышение точности. Повышает здоровье, ловкость и знание персонажа. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "masterofpuppets1a",
+      "valdarognew1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills30",
@@ -1711,7 +2536,20 @@
      "html": "Маг Огня сражается не только на расстоянии. При прямом столкновении он может на какое-то время поджечь врага, с каждым раундом отнимая у него очки здоровья. Кроме того, сияние, излучаемое пламенем, ослепляет противника, снижая точность его ближних и дальних атак, а также повышая уязвимость к огненным атакам. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nightmare2a",
+      "goblin4a",
+      "ghostcastle2a",
+      "construct31a",
+      "construct31ac",
+      "hvar1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills28",
@@ -1733,7 +2571,16 @@
      "html": "Самопожертвование и желание творить добро - приоритеты Рыцаря. Однако он понимает, что не каждый конфликт можно уладить без кровопролития, а во имя принципов нужно быть готовым отдать жизнь. Под воздействием самопожертвования персонаж наносит значительно больший урон и чаще попадает в ближнем бою, но при этом получает более серьезные ранения. Усиление становится тем больше, чем опытнее и сильнее Рыцарь. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaera1a",
+      "vough1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills155",
@@ -1767,7 +2614,19 @@
      "html": "Призыв - возможность призвать в бой подкрепление. <br>Тип: суммон"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "spider1a",
+      "tit1a",
+      "lugus1a",
+      "hawk2a",
+      "admiral1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills154",
@@ -1784,7 +2643,16 @@
      "html": "Проникающий удар - дебафф снижающий сопротивление к ближним атакам. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaera1a",
+      "utorinspector1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills224",
@@ -1801,7 +2669,15 @@
      "html": "Игнорирует навык Защиты (покров рыцарем). <br>Тип: устойчивость"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills148",
@@ -1818,7 +2694,17 @@
      "html": "Разворот. Превращает позитивные эффекты в Укол Куклы нанося дружественный урон. <br>Тип: ментал, массовый дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "tit1a",
+      "lugus1a",
+      "admiral1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills200",
@@ -1835,7 +2721,15 @@
      "html": "Разрыв корней. Снимает наложеный эффект корней и обездвиживания. <br>Тип: чистка"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "tarul4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills235",
@@ -1874,7 +2768,19 @@
      "html": "Ритуал Рассеивания позволяет Друиду вернуть состояние изначальной гармонии и очистить союзника от наложенных на него эффектов - как негативных, так и положительных. Эффективность показывает, сколько из них будут сняты одновременно. Сложность большинства эффектов составляет 100 (то есть, например, Рассеивание силы 180 снимет минимум один эффект, а также будет 80% шанс на удаление второго). Однако некоторые могут требовать большего количества очищений. <br>Тип: очищение положительных и отрицательных эффектов"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "masterofpuppets1a",
+      "valdarognew1a",
+      "htaga1a",
+      "admiral1a",
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills1004",
@@ -1891,7 +2797,15 @@
      "html": "Рассеивание - снимает все положительные эффекты с противника. <br>Тип: чистка"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaregis1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills103",
@@ -1913,7 +2827,17 @@
      "html": "У Друида есть друзья и в мире насекомых. На его зов откликается гигантский рой ос, который обрушивается на выбранного противника, лишая его Очков Действия и больно кусая. Эффект длится несколько раундов подряд. Возвращение Роя ос, пока они еще активны, увеличивает пассивный урон на 30%."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "butterfly1a",
+      "hobgoblin4a",
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills29",
@@ -1935,7 +2859,16 @@
      "html": "Рыцарь использует свои природные лидерские качества и харизму, чтобы поддержать своих товарищей по оружию. Под воздействием его пламенных речей и окликов каждый в команде находит в себе дополнительные запасы ловкости и знания. Благодаря этому все чаще попадают, лучше защищаются и наносят немного больший урон. Усиление становится тем больше, чем опытнее и ловче Рыцарь. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "crab3a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills74c",
@@ -1952,7 +2885,15 @@
      "html": "Сильная боль - дебафф снижающий ближнюю защиту и атаку врага. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "hvar1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills170",
@@ -1969,7 +2910,16 @@
      "html": "Смертельный удар атакующий дебафф делающий последующее попадание практически смертельным. Первый удар отнимает 30% ХП, последующие 60% и 95%. Длительность 99 раундов. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "hawk2a",
+      "tarul4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills167",
@@ -1986,7 +2936,15 @@
      "html": "Снижение ОД - каждый ход отнимает 1 ОД. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaregis1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills10",
@@ -2030,7 +2988,21 @@
      "html": "Стратегический выстрел(Ранение) - У Лучников есть специально изготовленные стрелы, которые ломаются внутри тела жертвы, что делает их извлечение невозможным. У соперника, получившего такой удар, сильно затруднены движения, что делает его неэффективным на поле боя. Стрела застревает в теле, причиняет боль, мешает. Поэтому каждая атака забирает также гораздо больше кондиции. <br>Тип: дальняя атака, ближняя атака(ранение), дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "harpykid2a",
+      "badger1a",
+      "badger1ac",
+      "construct31a",
+      "construct31ac",
+      "nidhogg1a",
+      "lugus1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills13",
@@ -2052,7 +3024,25 @@
      "html": "Варвары часто боролись между собой за статус в группе, выбирая один из наименее агрессивных способов рукопашного боя - таран противника. Мощный выпад вдавливает грудину врага, перекрывая дыхание. Шатающийся противник начинает не только хуже защищаться ментально и на расстоянии, но также теряет часть своих Очков Действия. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaton1a",
+      "treeture5a",
+      "furry1a",
+      "yak2a",
+      "chieftain1a",
+      "geomorph1a",
+      "bear1a",
+      "vough1a",
+      "vidvar1a",
+      "lugus1a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills68",
@@ -2073,7 +3063,30 @@
      "html": "I +9% 27 -23% шанс попадания -9% 2 II +10% 30 -25% шанс попадания -10% 2 III +11% 32 -28% шанс попадания -11% 2 IV +12% 35 -30% шанс попадания -12% 2 V +13% 38 -33% шанс попадания -13% 2 VI +14% 41 -35% шанс попадания -14% 3 VII +15% 43 -38% шанс попадания -15% 3 I +16% 47 -40% шанс попадания -16% 3 II +17% 51 -43% шанс попадания -17% 3 III +18% 55 -45% шанс попадания -18% 3 IV +19% 59 -48% шанс попадания -19% 3 V +20% 63 -50% шанс попадания -20% 4 VI +21% 68 -53% шанс попадания -21% 4 VII +22% 72 -55% шанс попадания -22% 4 I +23% 77 -58% шанс попадания -23% 4 II +24% 82 -60% шанс попадания -24% 4 III +25% 88 -63% шанс попадания -25% 5 IV +26% 93 -65% шанс попадания -26% 5 V +27% 99 -68% шанс попадания -27% 5 VI +28% 104 -70% шанс попадания -28% 5 VII +29% 109 -73% шанс попадания -29% 5 Уровень навыка: Требуемый уровень: Шанс попадания: Мана: Дальняя атака: Дальняя защита: Раунды: Poziom umiejętnośći: Wymagany poziom: Szansa trafienia: Mana: Atak dystansowy: Obrona dystansowa: Rundy: Skill level: Required level: Chance to hit: Mana: Ranged attack: Ranged defense: Rounds: Солнечное Затмение активирует дополнительное свойство в <img data-items=\"skills66\" src=\"data/raresImg/skills/66.skills.png\" title=\"Теневой Удар\"/>. Zaćmienie Słońca uaktywnia dodatkową właściwość w <img data-items=\"skills66\" src=\"data/raresImg/skills/66.skills.png\" title=\"Uderzenie cienia\"/>. Eclipse makes <img data-items=\"skills66\" src=\"data/raresImg/skills/66.skills.png\" title=\"Shadow Strike\"/> more powerful."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "frog2a",
+      "yak2a",
+      "badger1a",
+      "badger1ac",
+      "admiral2a",
+      "fyodor1a",
+      "utorinspector1a",
+      "nidhogg1a",
+      "vough1a",
+      "htaga1a",
+      "lugus1a",
+      "morana1a",
+      "ghost3a",
+      "admiral1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills66",
@@ -2094,7 +3107,24 @@
      "html": "I 72% +18% 14 +9% II 80% +20% 15 +10% III 88% +22% 17 +11% IV 96% +24% 18 +12% V 104% +26% 20 +13% VI 112% +28% 21 +14% VII 120% +30% 22 +15% I 128% +32% 24 +16% II 136% +34% 27 +17% III 144% +36% 29 +18% IV 152% +38% 31 +19% V 160% +40% 33 +20% VI 168% +42% 35 +21% VII 176% +44% 37 +22% I 184% +46% 40 +23% II 192% +48% 43 +24% III 200% +50% 45 +25% IV 208% +52% 48 +26% V 216% +54% 51 +27% VI 224% +56% 54 +28% VII 232% +58% 57 +29% Уровень навыка: Требуемый уровень: Урон: Шанс попадания: Мана: Шанс отравления: Poziom umiejętnośći: Wymagany poziom: Obrażenia: Szansa trafienia: Mana: Szansa na zatrucie: Skill level: Required level: Damage: Chance to hit: Mana: Chance to poison: Формула: 1.4 * мощь + 0.6 * знания Formuła: 1.4 * moc + 0.6 * wiedza Formula: 1.4 * power + 0.6 * knowledge Активное <img data-items=\"skills68\" src=\"data/raresImg/skills/68.skills.png\"/> вызывает увеличение урона от Теневого Удара Aktywne <img data-items=\"skills68\" src=\"data/raresImg/skills/68.skills.png\"/> powoduje wzrost obrażeń z Uderzenia Cienia. Active <img data-items=\"skills68\" src=\"data/raresImg/skills/68.skills.png\"/> increases the damage of Shadow Strike."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "plox6a",
+      "pteranodon1a",
+      "badger1ac",
+      "gregorius1a",
+      "garthmog1a",
+      "utorinspector1a",
+      "htaga1a",
+      "lugus1a",
+      "ghost3a",
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills64",
@@ -2138,7 +3168,24 @@
      "html": "Суровый климат северного Таэрна вынудил Варваров развить способность повышать устойчивость к внешним раздражителям как у себя, так и у своих спутников. Толстокожесть заставляет кожу мгновенно затвердевать, так что каждое заклинание, физическая и стихийная атака наносят меньше урона. <br>Тип: групповой бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaton1a",
+      "treeture5a",
+      "pteranodon4a",
+      "crab3a",
+      "yak2a",
+      "nazgulica1a",
+      "nazgulica1ac",
+      "chieftain1a",
+      "vough1a",
+      "vidvar1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills91",
@@ -2176,7 +3223,21 @@
      "html": "Транс - бафф повышающий точность ближних атак и физическое сопротивление. Снижается ближняя и дальняя защита. Каст только на себя. <br>Тип: ментал, бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "dogs7a",
+      "dogs1a",
+      "dogs3a",
+      "aquaera1a",
+      "aquaregis1a",
+      "hawk2a",
+      "tarul4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills77",
@@ -2198,7 +3259,15 @@
      "html": "Невероятная ловкость и контроль над телом позволяют Шидам избегать ударов даже по несколько раз за раунд. Однако это требует исключительной концентрации на протяжении всего хода, поэтому каждое последующее действие расходует больше выносливости, а шанс каждого уклонения становится на 10% ниже предыдущего. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "breed4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills106",
@@ -2220,7 +3289,17 @@
      "html": "Природа умеет постоять за себя. Друид тоже. Используя свои знания, слуга природы призывает силу стихий, благодаря которой его удары становятся сокрушительными. Удар - это жестокая ближняя атака, единственной целью которой является нанесение урона врагу. Он становится тем больше, чем менее эффективно Друид способен восстанавливать свое здоровье - каждый раунд действия эффекта, ослабляющего силу Лечения, увеличивает урон на 4%."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "treeture3a",
+      "butterfly1a",
+      "tarul1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills11",
@@ -2242,7 +3321,28 @@
      "html": "Варваров с малых лет учат решать все проблемы головой. Вот они и решают. Часто и с удовольствием. Точный удар головой дезориентирует противника, ослабляя его ближнюю защиту. Кроме того, он открывает существующие раны, так что в следующем раунде противник получит больше урона от кровотечения, если находился под его воздействием. Эффект разбития должен полностью закончиться, чтобы удар головой снова его усилил. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaton1a",
+      "furry1a",
+      "yak2a",
+      "badger1a",
+      "fishell3a",
+      "ghadira1a",
+      "bear1a",
+      "gmo1a",
+      "castlespecter1a",
+      "wendigo1a",
+      "vough1a",
+      "hvar1a",
+      "lugus1a",
+      "hawk2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills79",
@@ -2264,7 +3364,15 @@
      "html": "Чи - это сила, движущая вселенной. Шиды научились использовать ее в своих интересах. Удар Чи - это проявление силы, сеющее разрушение среди противников в виде мощного рукопашного удара. Этот навык не только наносит врагу урон, но и лишает его части маны. <br>Тип: ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "breed4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills75",
@@ -2286,7 +3394,16 @@
      "html": "Знание анатомии человека позволяет Шидам поразить противника в уязвимое место. Разработанный мастерами боевых искусств Удар в печень заставляет ее перестать работать должным образом. Благодаря соответствующим токсинам, выделяемым в мозг, шанс попадания дальними и ментальными атаками врага снижается вместе с его защитой от них. Кроме того, увеличивается его чувствительность к дальним атакам, из-за чего он получает больше урона. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "breed4a",
+      "gmo1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills1",
@@ -2303,7 +3420,17 @@
      "html": "Удар кулаком - ближняя атака. <br>Тип: ближняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "chieftain1a",
+      "ghostcastle3a",
+      "gmo1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills324",
@@ -2347,7 +3474,30 @@
      "html": "Чародей Вуду может вонзить булавку в куклу, изображающую его противника, и одновременно испустить мощный духовный импульс. Как только он доберется до разума жертвы, то превратится в реальный урон, отнимая часть ее здоровья. Укол куклы - это мощная ментальная атака, которая в схватке с независимыми противниками игнорирует устойчивости при подсчете шанса попадания. <br>Тип: ментал, атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "seagull2a",
+      "cobra1a",
+      "pteranodon1a",
+      "frog2a",
+      "badger1a",
+      "badger1ac",
+      "nazgulica1a",
+      "nazgulica1ac",
+      "gregorius1a",
+      "garthmog1a",
+      "admiral2a",
+      "tit1a",
+      "hvar1a",
+      "admiral1a",
+      "tarul4a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills179",
@@ -2364,7 +3514,15 @@
      "html": "Усиление. Повышает здоровье, силу и мощь персонажа. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "valdarognew1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills105",
@@ -2403,7 +3561,15 @@
      "html": "Устойчивость к ближним атакам. Делает невозможным использование атак ближнего боя. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "masterofpuppets1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills115",
@@ -2420,7 +3586,15 @@
      "html": "Устойчивость к дальним атакам. Делает невозможным использование атак дальнего боя. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "masterofpuppets1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills122",
@@ -2437,7 +3611,19 @@
      "html": "Устойчивость к дробящему урону. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "lugus1a",
+      "morana1a",
+      "tarul4a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills113",
@@ -2471,7 +3657,19 @@
      "html": "Устойчивость к колющему урону. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "morana1a",
+      "admiral1a",
+      "tarul4a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills111",
@@ -2488,7 +3686,18 @@
      "html": "Устойчивость к кровотечению - урон от кровотока не наносится. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "construct31a",
+      "construct31ac",
+      "lugus1a",
+      "tarul4a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills1003",
@@ -2505,7 +3714,15 @@
      "html": "Устойчивость к ментальным атакам. Делает невозможным использование ментальных атак. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "masterofpuppets1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills330",
@@ -2539,7 +3756,22 @@
      "html": "Устойчивость к обездвиживанию. Снижает шанс обездвижить противника. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "utorinspector1a",
+      "nidhogg1a",
+      "vough1a",
+      "hvar1a",
+      "hawk2a",
+      "tarul4a",
+      "sidraga1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills117",
@@ -2556,7 +3788,15 @@
      "html": "Устойчивость к оглушению - невозможно оглушить. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "admiral1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills121",
@@ -2573,7 +3813,20 @@
      "html": "Устойчивость к рубящему урону. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "lugus1a",
+      "morana1a",
+      "admiral1a",
+      "tarul4a",
+      "tarul1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills116",
@@ -2607,7 +3860,15 @@
      "html": "Устойчивость к чарам. Делает невозможным использование ментальных атак. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "valdarognew1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills112",
@@ -2624,7 +3885,24 @@
      "html": "Устойчивость перед лицом смерти. Снижает шансы применить Явление Смерти. <br>Тип: защита"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "utorinspector1a",
+      "vough1a",
+      "htaga1a",
+      "hvar1a",
+      "morana1a",
+      "ghost3a",
+      "tarul4a",
+      "tarul1a",
+      "sidraga1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills72",
@@ -2646,7 +3924,21 @@
      "html": "Шид умеет застать врага врасплох. Фронтальный удар - это тактический, мощный пинок, который разбивает гард противника, снижая его способность сражаться и защищаться в ближнем бою. Эта способность в сочетании с Болезненным ударом подвергает врага большему урону от Шида в ближнем бою, а вместе с Ударом в печень - большему урону от любых дальних атак. Значение усиления равно меньшему из уровней этих навыков. <br>Тип: ближняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaera1a",
+      "monkey4a",
+      "breed4a",
+      "chieftain1a",
+      "fishell3a",
+      "gmo1a",
+      "hvar1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills78",
@@ -2668,7 +3960,18 @@
      "html": "Древние практики мастеров боевых искусств позволили Шидам научиться трансформировать свою энергию в материальную силу. Долгие годы тренировок позволили им в совершенстве овладеть ею и по желанию формировать в руках шарообразный снаряд. Они ударяют им противника на расстоянии, нанося ему урон. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquaera1a",
+      "breed4a",
+      "badger1ac",
+      "nazgulica1ac"
+     ]
+    }
+   ]
   },
   {
    "id": "skills32",
@@ -2690,7 +3993,17 @@
      "html": "В течение многих лет Маги Огня изучали тайны стихии, которой они управляют. Они научились воздействовать на сознание противника таким образом, чтобы тот гораздо сильнее ощущал высокие температуры. Противник становится менее устойчивым к огню, благодаря чему каждая атака, использующая этот элемент, сильнее ранит его. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nightmare2a",
+      "goblin4a",
+      "ghostcastle2a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills51",
@@ -2707,7 +4020,21 @@
      "html": "Шаровая молния - дальняя атака. Урон энергией. <br>Тип: дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "hobgoblin4a",
+      "ghostcastle1a",
+      "construct31a",
+      "fyodor1a",
+      "construct31ac",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills91c",
@@ -2741,7 +4068,19 @@
      "html": "Буря - массовая дальняя атака. Урон энергией. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "admiral2a",
+      "fyodor1a",
+      "admiral1a",
+      "sidraga1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills54",
@@ -2758,7 +4097,18 @@
      "html": "Электромагнитные помехи - снижает урон, шанс попадания и ментальную защиту. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "nazgulica1a",
+      "nazgulica1ac",
+      "ghostcastle1a",
+      "fyodor1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills196",
@@ -2792,7 +4142,19 @@
      "html": "Энергетический разряд - массовая атака. Урон энергией. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "aquasol1a",
+      "construct31a",
+      "admiral2a",
+      "construct31ac",
+      "admiral1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills52",
@@ -2809,7 +4171,18 @@
      "html": "Энергетическое шило - энергетическая ментальная атака. <br>Тип: массовая дальняя атака"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "construct31a",
+      "construct31ac",
+      "ghost3a",
+      "admiral1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills69",
@@ -2830,7 +4203,22 @@
      "html": "I +5% 36 +9% +2% -14 -14% шанс попадания -14% 2 II +5% 40 +10% +2% -15 -15% шанс попадания -15% 2 III +6% 43 +11% +3% -17 -17% шанс попадания -17% 2 IV +6% 47 +12% +3% -18 -18% шанс попадания -18% 2 V +7% 50 +13% +3% -20 -20% шанс попадания -20% 2 VI +7% 54 +14% +3% -21 -21% шанс попадания -21% 3 VII +8% 58 +15% +3% -23 -23% шанс попадания -23% 3 I +8% 63 +16% +4% -24 -24% шанс попадания -24% 3 II +9% 68 +17% +4% -26 -26% шанс попадания -26% 3 III +9% 74 +18% +4% -27 -27% шанс попадания -27% 3 IV +10% 79 +19% +4% -29 -29% шанс попадания -29% 3 V +10% 85 +20% +5% -30 -30% шанс попадания -30% 4 VI +11% 90 +21% +5% -32 -32% шанс попадания -32% 4 VII +11% 95 +22% +5% -33 -33% шанс попадания -33% 4 I +12% 103 +23% +5% -35 -35% шанс попадания -35% 4 II +12% 110 +24% +6% -36 -36% шанс попадания -36% 4 III +13% 117 +25% +6% -38 -38% шанс попадания -38% 5 IV +13% 124 +26% +6% -39 -39% шанс попадания -39% 5 V +14% 131 +27% +6% -41 -41% шанс попадания -41% 5 VI +14% 139 +28% +6% -42 -42% шанс попадания -42% 5 VII +15% 146 +29% +7% -44 -44% шанс попадания -44% 5 Уровень навыка: Требуемый уровень: Шанс попадания: Мана: Шанс убийства: Увеличение шанса на убийство: Устойчив. к ментальным атакам: Ментальная атака: Ментальная защита: Раунды: Poziom umiejętnośći: Wymagany poziom: Szansa trafienia: Mana: Szansa na zabicie: Увеличение шанса на убийство: Odporność na uroki: Atak mentalny: Obrona mentalna: Rundy: Skill level: Required level: Chance to hit: Mana: Chance to kill: Увеличение шанса на убийство: Mental resistance: Mental attack: Mental defense: Rounds: Активные <img data-items=\"skills62\" src=\"data/raresImg/skills/62.skills.png\"/><img data-items=\"skills65\" src=\"data/raresImg/skills/65.skills.png\"/><img data-items=\"skills67\" src=\"data/raresImg/skills/67.skills.png\"/>, В PvE убийство возможно, если противник имеет не более чем 4000 ОЗ или 60% от максимальных ОЗ. aktywne <img data-items=\"skills62\" src=\"data/raresImg/skills/62.skills.png\"/><img data-items=\"skills65\" src=\"data/raresImg/skills/65.skills.png\"/><img data-items=\"skills67\" src=\"data/raresImg/skills/67.skills.png\"/>, W PvE zabicie możliwe, gdy przeciwnik ma nie więcej niż 4000 PZ lub 60% maksymalnych PZ. active <img data-items=\"skills62\" src=\"data/raresImg/skills/62.skills.png\"/><img data-items=\"skills65\" src=\"data/raresImg/skills/65.skills.png\"/><img data-items=\"skills67\" src=\"data/raresImg/skills/67.skills.png\"/>, In PvE, instant kill is possible only if the opponent has 4000 HP or less, or 60% of their maximum HP."
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "gregorius1a",
+      "admiral2a",
+      "utorinspector1a",
+      "htaga1a",
+      "lugus1a",
+      "morana1a",
+      "ghost3a",
+      "admiral1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills145",
@@ -2847,7 +4235,17 @@
      "html": "Ядовитый плевок - наносит небольшой урон с возможностью отравить врага. <br>Тип: дальняя атака, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "cobra1a",
+      "butterfly1a",
+      "scorpio1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills153",
@@ -2864,7 +4262,18 @@
      "html": "Ядовитый щит - при попадании врага по щиту он получает урон. <br>Тип: бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "cobra1a",
+      "nazgulica1a",
+      "nazgulica1ac",
+      "frogboss1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills0133",
@@ -2903,7 +4312,22 @@
      "html": "Ярость - дебафф снижает точность всех атак, снижает защиту всех типов, увеличивает урон. <br>Тип: ментал, дебафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "monkey2a",
+      "aquaton1a",
+      "monkey4a",
+      "harpykid2a",
+      "hvar1a",
+      "hawk2a",
+      "sidraga1a",
+      "volkhard1a"
+     ]
+    }
+   ]
   },
   {
    "id": "skills16",
@@ -2925,7 +4349,24 @@
      "html": "Доведенные до ручки Варвары могут впасть в неистовство. Тогда в них пробуждается первобытный инстинкт выживания, что значительно усиливает их атаки. Однако они бьют немного вслепую, что снижает их шансы попасть в противника. <br>Тип: ментал, бафф"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/"
+   "sourceUrl": "https://anteikutaern.at.ua/",
+   "backrefs": [
+    {
+     "title": "Есть у",
+     "ids": [
+      "monkey2a",
+      "monkey4a",
+      "rat4a",
+      "nazgulica1a",
+      "nazgulica1ac",
+      "bear1a",
+      "wendigo1a",
+      "vough1a",
+      "vidvar1a",
+      "aquaregis1a"
+     ]
+    }
+   ]
   },
   {
    "id": "statBliz",

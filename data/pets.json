@@ -419,7 +419,8 @@
      "html": "<img data-items=\"petskin5\" src=\"data/raresImg/pet_skin/5.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "aquasol1a",
@@ -477,7 +478,8 @@
      "html": "<img data-items=\"petskin4\" src=\"data/raresImg/pet_skin/4.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "aquaera1a",
@@ -539,7 +541,8 @@
      "html": "<img data-items=\"petskin3\" src=\"data/raresImg/pet_skin/3.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "treeture3a",
@@ -2068,15 +2071,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "aquaera1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin4",
@@ -2089,15 +2096,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "aquasol1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin5",
@@ -2110,15 +2121,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "aquaton1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin6",
@@ -2131,15 +2146,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "150 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "bat4a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin7",
@@ -2152,15 +2171,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "dogs1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin8",
@@ -2173,15 +2196,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "dogs1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin9",
@@ -2194,15 +2221,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "dogs3a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin10",
@@ -2215,15 +2246,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "dogs3a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin11",
@@ -2236,15 +2271,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "350 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "pteranodon4a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin12",
@@ -2257,15 +2296,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "nightmare2a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin13",
@@ -2278,15 +2321,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "hyena1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin14",
@@ -2299,15 +2346,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "treeture3a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin15",
@@ -2320,15 +2371,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "tiger4a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin16",
@@ -2341,15 +2396,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "cobra1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin17",
@@ -2362,15 +2421,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "seagull2a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin18",
@@ -2383,15 +2446,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "seagull2a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin19",
@@ -2404,15 +2471,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "butterfly1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin20",
@@ -2424,10 +2495,6 @@
    "level": null,
    "fields": [],
    "blocks": [
-    {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
     {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
@@ -2446,15 +2513,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "butterfly1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin22",
@@ -2467,15 +2538,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "tiger3a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin23",
@@ -2488,15 +2563,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "nightmare3a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin24",
@@ -2509,15 +2588,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "plox6a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin25",
@@ -2530,15 +2613,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "plox6a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin26",
@@ -2551,15 +2638,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "monkey2a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin27",
@@ -2572,15 +2663,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "200 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "monkey2a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin28",
@@ -2593,15 +2688,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "300 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "scorpio1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin29",
@@ -2614,15 +2713,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "350 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "monkey4a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin30",
@@ -2635,15 +2738,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "350 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "pteranodon1a"
+     ]
+    }
+   ]
   },
   {
    "id": "petskin31",
@@ -2656,15 +2763,19 @@
    "fields": [],
    "blocks": [
     {
-     "title": "Навыки питомца",
-     "html": "+"
-    },
-    {
      "title": "Цена",
      "html": "250 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": [
+    {
+     "title": "Скин для",
+     "ids": [
+      "yak2a"
+     ]
+    }
+   ]
   },
   {
    "id": "petO4",
@@ -2726,7 +2837,8 @@
      "html": "<img data-items=\"librarian1a\" src=\"data/raresImg/champs/librarian1_a.champslogo.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "petB7",
@@ -2788,7 +2900,8 @@
      "html": "<img data-items=\"librarian1a\" src=\"data/raresImg/champs/librarian1_a.champslogo.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "petP11",
@@ -2842,7 +2955,8 @@
      "html": "<img data-items=\"librarian1a\" src=\"data/raresImg/champs/librarian1_a.champslogo.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "petO5",
@@ -2904,7 +3018,8 @@
      "html": "<img data-items=\"librarian1a\" src=\"data/raresImg/champs/librarian1_a.champslogo.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "petB8",
@@ -2966,7 +3081,8 @@
      "html": "<img data-items=\"librarian1a\" src=\"data/raresImg/champs/librarian1_a.champslogo.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "petP8",
@@ -3020,7 +3136,8 @@
      "html": "<img data-items=\"librarian1a\" src=\"data/raresImg/champs/librarian1_a.champslogo.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "backrefs": []
   },
   {
    "id": "petO6",
@@ -3762,10 +3879,6 @@
    ],
    "blocks": [
     {
-     "title": "Бонус",
-     "html": "+"
-    },
-    {
      "title": "Дроп",
      "html": "<img data-items=\"fyodor1a\" src=\"data/raresImg/bosses/fyodor.bosslogo.png\" title=\"Фёдор\"/> <img data-items=\"construct31a\" src=\"data/raresImg/bosses/konstrukt.bosslogo.png\" title=\"Ослабленный Конструкт\"/>"
     }
@@ -3827,10 +3940,6 @@
     ]
    ],
    "blocks": [
-    {
-     "title": "Бонус",
-     "html": "+"
-    },
     {
      "title": "Дроп",
      "html": "<img data-items=\"tiger1a\" src=\"data/raresImg/bosses/tigr.bosslogo.png\" title=\"Тигр\"/> <img data-items=\"mantis1a\" src=\"data/raresImg/bosses/bogomol.bosslogo.png\" title=\"Богомол\"/> <img data-items=\"gmo1a\" src=\"data/raresImg/bosses/gmo.bosslogo.png\" title=\"Гмо\"/>"

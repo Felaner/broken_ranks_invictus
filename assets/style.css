@@ -371,4 +371,149 @@ img.ref:hover { outline: 2px solid var(--accent); }
   .toolbar { flex-wrap: wrap; }
   .toolbar .local-search { flex-basis: 100%; }
   .grid { grid-template-columns: 1fr; }
+  .cat-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+  .cat-chips .chip { flex: none; }
+  .zoom { margin-left: 0; }
 }
+
+/* ---------- filters ---------- */
+.filters {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  margin-top: 8px;
+}
+.filters select { width: auto; height: 32px; font-size: 13px; }
+.flt {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 13px; color: var(--muted);
+}
+.flt input[type="number"] {
+  width: 64px; height: 32px; padding: 0 8px;
+  border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg); color: var(--text); font: inherit;
+}
+.flt input:focus { outline: none; border-color: var(--accent); }
+.flt.chk { cursor: pointer; }
+.link-btn {
+  border: 0; background: none; color: var(--accent);
+  font: inherit; font-size: 13px; cursor: pointer; padding: 4px 6px;
+}
+.link-btn:hover { text-decoration: underline; }
+.diff-seg button { width: auto; padding: 0 10px; font-size: 12px; height: 30px; }
+.detail .diff-seg { display: flex; margin: 0 0 12px; }
+.detail .diff-seg button { flex: 1; }
+
+/* ---------- marks ---------- */
+.card.have { box-shadow: inset 3px 0 0 #3a9a5b; }
+.card.have .card-name::after { content: " ✓"; color: #3a9a5b; }
+.tbl tr.have td:first-child { box-shadow: inset 3px 0 0 #3a9a5b; }
+.mark-btn.on { color: #fff; background: #3a9a5b; border-color: #3a9a5b; }
+.cmp-btn.on { color: #fff; background: var(--accent); border-color: var(--accent); }
+.note textarea {
+  width: 100%; resize: vertical;
+  padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg); color: var(--text); font: inherit;
+}
+.note textarea:focus { outline: none; border-color: var(--accent); }
+
+/* ---------- backrefs ---------- */
+.block h3 i { font-style: normal; color: var(--muted); font-weight: normal; }
+.brefs { display: flex; flex-wrap: wrap; gap: 6px; }
+.bref {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 3px 8px 3px 3px; max-width: 100%;
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px;
+  color: var(--text); font-size: 13px;
+}
+.bref span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bref:hover { border-color: var(--accent); text-decoration: none; }
+.bref.hl { border-color: var(--accent); background: var(--accent-soft); }
+.map-link { color: var(--accent); cursor: pointer; border-bottom: 1px dashed currentColor; }
+
+/* ---------- tooltip ---------- */
+.tip {
+  position: fixed; z-index: 100; pointer-events: none;
+  max-width: 300px; padding: 10px 12px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
+  font-size: 12px;
+}
+.tip-head { display: flex; gap: 8px; align-items: center; }
+.tip-head b { display: block; font-size: 13px; }
+.tip-head small { color: var(--muted); }
+.tip table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+.tip th { text-align: left; color: var(--muted); font-weight: normal; padding: 1px 8px 1px 0; }
+.tip td { text-align: right; padding: 1px 0; }
+
+/* ---------- compare ---------- */
+.tbl.cmp th, .tbl.cmp td { white-space: normal; vertical-align: top; }
+.tbl.cmp tbody th { color: var(--muted); font-weight: normal; background: var(--panel); position: static; width: 180px; }
+.tbl.cmp tbody tr { cursor: default; }
+.tbl.cmp tbody tr:hover { background: none; }
+.tbl.cmp tr.differ td { background: color-mix(in srgb, var(--accent-soft) 45%, transparent); }
+.tbl.cmp td.best { color: #3a9a5b; font-weight: 700; }
+.cmp-head { display: flex; align-items: center; gap: 6px; }
+.cmp-head a { display: flex; align-items: center; gap: 6px; color: var(--text); }
+.cmp-head .x { border: 0; background: none; color: var(--muted); cursor: pointer; margin-left: auto; }
+.cmp-head .x:hover { color: var(--accent); }
+.tbl.cmp small { color: var(--muted); font-weight: normal; }
+
+/* ---------- maps ---------- */
+.map-grid {
+  display: grid; gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.map-card {
+  display: flex; flex-direction: column;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; color: var(--text);
+}
+.map-card:hover { border-color: var(--accent); text-decoration: none; }
+.map-thumb {
+  height: 110px; background: var(--panel-2)
+    repeating-linear-gradient(45deg, transparent 0 10px, rgba(127, 127, 127, .06) 10px 20px);
+}
+.map-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.map-card-body { padding: 8px 10px; }
+.map-card-body b { display: block; }
+.map-card-body small { color: var(--muted); }
+.zoom { display: flex; align-items: center; gap: 6px; margin-left: auto; font-size: 12px; color: var(--muted); }
+.map-wrap {
+  overflow: auto; max-height: 75vh;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel-2);
+}
+.map-canvas { position: relative; min-width: 100%; }
+.map-img { display: block; width: 100%; }
+.map-canvas.noimg { aspect-ratio: 4 / 3;
+  background: repeating-linear-gradient(45deg, transparent 0 14px, rgba(127, 127, 127, .08) 14px 28px); }
+.marker {
+  position: absolute; transform: translate(-50%, -50%);
+  display: grid; place-items: center; text-decoration: none;
+}
+.marker:hover { text-decoration: none; z-index: 3; }
+.marker.point .ico {
+  width: 30px; height: 30px; border-radius: 50%;
+  border: 2px solid #fff; box-shadow: 0 1px 6px rgba(0, 0, 0, .6);
+}
+.marker.point:hover .ico { border-color: var(--accent); transform: scale(1.15); }
+.marker.hl { z-index: 4; }
+.marker.hl .ico { border-color: var(--accent); animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(224, 129, 79, .9); }
+  50% { box-shadow: 0 0 0 10px rgba(224, 129, 79, 0); }
+}
+.marker.portal span {
+  width: 22px; height: 22px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #1aa0d8; color: #fff; font-size: 12px;
+  border: 2px solid #fff; box-shadow: 0 1px 6px rgba(0, 0, 0, .6);
+}
+.marker.portal em {
+  position: absolute; top: 24px; white-space: nowrap;
+  font-style: normal; font-size: 11px; color: #fff;
+  background: rgba(0, 0, 0, .7); padding: 1px 5px; border-radius: 4px;
+  opacity: 0; pointer-events: none; transition: opacity .1s;
+}
+.marker.portal:hover em { opacity: 1; }
+.small { font-size: 12px; }
+.tip-desc { margin: 6px 0 0; color: var(--muted); line-height: 1.4; }

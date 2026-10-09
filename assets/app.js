@@ -2,8 +2,8 @@
   "use strict";
 
   const SECTIONS = window.BR_CONFIG.sections;
-  const SECTION_BY_ID = Object.fromEntries(SECTIONS.map(s => [s.id, s]));
   const $ = sel => document.querySelector(sel);
+  const $$ = sel => document.querySelectorAll(sel);
 
   const els = {
     sidebar: $("#sidebar"),
@@ -28,11 +28,29 @@
     },
   };
 
-  const favorites = new Set(store.get("favorites", []));
-  const toggleFavorite = id => {
-    favorites.has(id) ? favorites.delete(id) : favorites.add(id);
-    store.set("favorites", [...favorites]);
-  };
+  // Наборы id, которые хранятся в браузере: избранное, «есть у меня», сравнение.
+  function idSet(key) {
+    const set = new Set(store.get(key, []));
+    return {
+      has: id => set.has(id),
+      get size() { return set.size; },
+      values: () => [...set],
+      toggle(id, limit) {
+        if (set.has(id)) set.delete(id);
+        else {
+          if (limit && set.size >= limit) set.delete(set.values().next().value);
+          set.add(id);
+        }
+        store.set(key, [...set]);
+      },
+      clear() { set.clear(); store.set(key, []); },
+    };
+  }
+  const favorites = idSet("favorites");
+  const marks = idSet("marks");
+  const compare = idSet("compare");
+  const notes = store.get("notes", {});
+  const COMPARE_MAX = 4;
 
   // ---------- helpers ----------
 
@@ -40,7 +58,7 @@
     { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const norm = s => String(s ?? "").toLowerCase().replace(/ё/g, "е").trim();
   const num = v => {
-    const m = String(v ?? "").replace(",", ".").match(/-?\d+(\.\d+)?/);
+    const m = String(v ?? "").replace(/\s/g, "").replace(",", ".").match(/-?\d+(\.\d+)?/);
     return m ? parseFloat(m[0]) : NaN;
   };
   const plural = (n, one, few, many) => {
@@ -54,6 +72,12 @@
   const stripTags = html => String(html ?? "").replace(/<[^>]*>/g, " ");
   const countLabel = n => `${n} ${plural(n, "запись", "записи", "записей")}`;
 
+  // Значение поля может зависеть от сложности босса: {e, n, h}.
+  const DIFFS = [["e", "Лёгкая"], ["n", "Нормальная"], ["h", "Тяжёлая"]];
+  const isDiff = v => v && typeof v === "object";
+  const fv = v => isDiff(v) ? (v[view.diff] ?? v.n ?? "") : v;
+  const hasDiff = e => e.fields.some(([, v]) => isDiff(v));
+
   function iconHtml(entry, cls = "") {
     const letter = esc((entry.name || "?").trim().charAt(0).toUpperCase());
     if (!entry.icon) return `<div class="ico ico-empty ${cls}">${letter}</div>`;
@@ -63,7 +87,8 @@
 
   // ---------- data ----------
 
-  const db = { sections: {}, all: [], byId: new Map(), byName: new Map(), demo: false };
+  const db = { sections: {}, all: [], byId: new Map(), byName: new Map(), demo: false,
+               maps: [], mapById: new Map(), mapsOf: new Map() };
 
   function loadScript(src) {
     return new Promise(resolve => {
@@ -77,17 +102,15 @@
 
   async function loadData() {
     window.BR_DATA = window.BR_DATA || {};
-    await Promise.all(SECTIONS.map(s => loadScript(`data/${s.id}.js`)));
+    await Promise.all([...SECTIONS.map(s => loadScript(`data/${s.id}.js`)), loadScript("data/maps.js")]);
     const hasReal = SECTIONS.some(s => window.BR_DATA[s.id]?.entries?.length);
-    if (!hasReal) {
-      db.demo = await loadScript("data/demo.js");
-    }
+    if (!hasReal) db.demo = await loadScript("data/demo.js");
 
     for (const sec of SECTIONS) {
       const raw = window.BR_DATA[sec.id] || {};
       const entries = (raw.entries || []).map((e, i) => normalizeEntry(e, sec.id, i));
 
-      // Категории: сначала из конфига, затем найденные парсером, затем встреченные в записях.
+      // Категории: сначала из конфига, затем из данных, затем встреченные в записях.
       const cats = [];
       const seen = new Set();
       const addCat = c => {
@@ -99,7 +122,7 @@
       (raw.categories || []).forEach(addCat);
       entries.forEach(e => addCat({ id: e.category, name: e.category === "_" ? "Прочее" : e.category }));
       for (const c of cats) c.count = entries.filter(e => e.category === c.id).length;
-      // Раздел без настоящих категорий («Питомцы», «НПС») показываем одним списком.
+      // Раздел без настоящих категорий («НПС», «Навыки») показываем одним списком.
       if (cats.length === 1 && cats[0].id === "_") cats.length = 0;
 
       db.sections[sec.id] = { ...sec, categories: cats, entries, updated: raw.updated };
@@ -108,6 +131,15 @@
         db.byId.set(e.id, e);
         const key = norm(e.name);
         if (!db.byName.has(key)) db.byName.set(key, e);
+      }
+    }
+
+    db.maps = window.BR_MAPS || [];
+    for (const m of db.maps) {
+      db.mapById.set(m.id, m);
+      for (const p of m.points) {
+        if (!db.mapsOf.has(p.id)) db.mapsOf.set(p.id, []);
+        if (!db.mapsOf.get(p.id).includes(m.id)) db.mapsOf.get(p.id).push(m.id);
       }
     }
   }
@@ -119,9 +151,10 @@
     let level = e.level ?? null;
     if (level == null) {
       const lf = fields.find(([k]) => isLevelLabel(k));
-      if (lf && !isNaN(num(lf[1]))) level = num(lf[1]);
+      if (lf && !isNaN(num(fv(lf[1])))) level = num(lf[1]);
     }
     const name = e.name || "Без названия";
+    const flatVals = fields.flatMap(([k, v]) => [k, ...(isDiff(v) ? Object.values(v) : [v])]);
     return {
       id: e.id || `${sectionId}/${e.category || "_"}/${index}`,
       section: sectionId,
@@ -133,36 +166,48 @@
       description: e.description || "",
       lists: Array.isArray(e.lists) ? e.lists : [],
       blocks: Array.isArray(e.blocks) ? e.blocks : [],
+      backrefs: Array.isArray(e.backrefs) ? e.backrefs : [],
       image: e.image || "",
       nameEN: e.nameEN || "",
       sourceUrl: e.sourceUrl || "",
       search: norm(name + " " + (e.nameEN || "")),
-      searchFull: norm([name, e.nameEN, e.description, ...fields.flat(),
+      searchFull: norm([name, e.nameEN, e.description, ...flatVals,
         ...(e.blocks || []).map(b => stripTags(b.html))].join(" ")),
     };
   }
+
+  const fieldOf = (e, label) => e.fields.find(([k]) => k === label)?.[1];
 
   // ---------- routing ----------
 
   // #/                         — главная
   // #/s/<section>[/<category>] — раздел / категория
-  // #/fav                      — избранное
-  // ?e=<entryId>               — открытая карточка
+  // #/fav, #/marks, #/cmp      — избранное, отмеченное, сравнение
+  // #/maps[/<mapId>]           — карты
+  // ?e=<entryId>&hl=<entryId>  — открытая карточка / подсветка на карте
   function parseRoute() {
     const [path, query = ""] = location.hash.replace(/^#/, "").split("?");
     const parts = path.split("/").filter(Boolean).map(decodeURIComponent);
     const params = new URLSearchParams(query);
-    return { parts, entryId: params.get("e") };
+    return { parts, entryId: params.get("e"), hl: params.get("hl") };
   }
 
-  function href(parts, entryId) {
+  function href(parts, entryId, extra = {}) {
     const p = "#/" + parts.map(encodeURIComponent).join("/");
-    return entryId ? `${p}?e=${encodeURIComponent(entryId)}` : p;
+    const q = new URLSearchParams();
+    if (entryId) q.set("e", entryId);
+    for (const [k, v] of Object.entries(extra)) if (v) q.set(k, v);
+    const qs = q.toString();
+    return qs ? `${p}?${qs}` : p;
   }
 
-  function entryHref(e) {
-    return href(["s", e.section, e.category], e.id);
-  }
+  const entryHref = e => href(["s", e.section, e.category], e.id);
+  // Внутри карты, сравнения и т.п. карточка открывается поверх текущей страницы.
+  const entryHrefHere = e => {
+    const { parts } = parseRoute();
+    return ["maps", "cmp", "fav", "marks"].includes(parts[0]) ? href(parts, e.id) : entryHref(e);
+  };
+  const mapHref = (mid, hl, e) => href(["maps", mid], e, { hl });
 
   // ---------- view state ----------
 
@@ -171,18 +216,59 @@
     sort: store.get("sort", "name"),
     sortDir: 1,
     mode: store.get("mode", "grid"),
+    diff: store.get("diff", "n"),
+    myLevel: store.get("myLevel", ""),
+    onlyMine: false,
+    lvlMin: "",
+    lvlMax: "",
+    facets: {},
+    mark: "all",
+    mapZoom: 1,
     list: [],           // текущий отображаемый список (для навигации стрелками)
     routeKey: "",
   };
+
+  function resetFilters() {
+    view.query = "";
+    view.lvlMin = view.lvlMax = "";
+    view.facets = {};
+    view.mark = "all";
+    view.onlyMine = false;
+  }
+
+  // Перерисовка с сохранением фокуса и курсора в поле ввода.
+  function refresh() {
+    const a = document.activeElement;
+    const id = a && a.id && /^(INPUT|SELECT|TEXTAREA)$/.test(a.tagName) ? a.id : null;
+    const pos = id && a.selectionStart != null ? a.selectionStart : null;
+    const route = parseRoute();
+    renderSidebar(route);
+    renderMain(route);
+    renderDetail(route);
+    if (id) {
+      const again = document.getElementById(id);
+      if (again) {
+        again.focus();
+        if (pos != null && again.setSelectionRange) try { again.setSelectionRange(pos, pos); } catch { /* number */ }
+      }
+    }
+  }
 
   // ---------- sidebar ----------
 
   function renderSidebar(route) {
     const [kind, secId, catId] = route.parts;
+    const item = (active, link, ico, title, count) =>
+      `<a class="nav-item ${active ? "active" : ""}" href="${link}"><span class="nav-ico">${ico}</span>${title}
+        ${count != null ? `<span class="count">${count}</span>` : ""}</a>`;
     let html = `<div class="nav-group">`;
-    html += `<a class="nav-item ${!kind ? "active" : ""}" href="#/"><span class="nav-ico">🏠</span>Главная</a>`;
-    html += `<a class="nav-item ${kind === "fav" ? "active" : ""}" href="#/fav"><span class="nav-ico">⭐</span>Избранное
-      <span class="count">${favorites.size}</span></a>`;
+    html += item(!kind, "#/", "🏠", "Главная");
+    html += item(kind === "fav", "#/fav", "⭐", "Избранное", favorites.size);
+    html += item(kind === "marks", "#/marks", "✅", "Есть у меня", marks.size);
+    html += item(kind === "cmp", "#/cmp", "⚖️", "Сравнение", compare.size);
+    html += item(kind === "maps", "#/maps", "🗺️", "Карты", db.maps.length || null);
+    html += item(kind === "s" && secId === "equipment" && catId === "kits", href(["s", "equipment", "kits"]), "🧩",
+      "Комплекты", db.sections.equipment?.categories.find(c => c.id === "kits")?.count);
     html += `</div><div class="nav-title">Разделы</div><div class="nav-group">`;
 
     for (const sec of SECTIONS) {
@@ -206,10 +292,9 @@
   // ---------- main views ----------
 
   function renderHome() {
-    let html = "";
-    if (db.demo) html += demoBanner();
+    let html = db.demo ? demoBanner() : "";
     html += `<h1 class="page-title">Broken Ranks Wiki</h1>
-      <p class="page-sub">Личная база по игре: экипировка, питомцы, противники, предметы и НПС.</p>
+      <p class="page-sub">Личная база по игре: экипировка, питомцы, противники, предметы, НПС и навыки.</p>
       <div class="home-grid">`;
     for (const sec of SECTIONS) {
       const data = db.sections[sec.id];
@@ -223,6 +308,15 @@
           || `<span class="muted">Все записи одним списком</span>`}</div>
       </div>`;
     }
+    if (db.maps.length) {
+      html += `<div class="home-card">
+        <a class="home-card-head" href="#/maps">
+          <span class="home-ico">🗺️</span>
+          <span><b>Карты</b><small>${db.maps.length} ${plural(db.maps.length, "локация", "локации", "локаций")}</small></span>
+        </a>
+        <span class="muted">Локации с порталами, НПС, предметами и противниками</span>
+      </div>`;
+    }
     html += `</div>`;
     els.main.innerHTML = html;
     view.list = [];
@@ -230,33 +324,67 @@
 
   function demoBanner() {
     return `<div class="banner">Показаны <b>демо-данные</b> — настоящих данных ещё нет.
-      Запусти парсер (<code>python scraper/scrape.py</code>), он создаст файлы в <code>data/</code>.</div>`;
+      Запусти <code>python scraper/build.py</code>, он создаст файлы в <code>data/</code>.</div>`;
   }
 
-  function renderList(title, subtitle, entries, opts = {}) {
-    const q = norm(view.query);
-    let list = q
-      ? entries.filter(e => e.search.includes(q) || e.searchFull.includes(q))
-      : entries.slice();
+  // Поля, по которым можно фильтровать выпадающим списком.
+  const FACETS = ["Редкость", "Требуемый класс", "Тип урона", "Тип", "Аспект арены", "Группа боссов", "Атаки"];
 
+  function applyFilters(entries) {
+    const q = norm(view.query);
+    const min = num(view.lvlMin), max = num(view.lvlMax), mine = num(view.myLevel);
+    return entries.filter(e => {
+      if (q && !e.search.includes(q) && !e.searchFull.includes(q)) return false;
+      if (!isNaN(min) && !(e.level >= min)) return false;
+      if (!isNaN(max) && !(e.level <= max)) return false;
+      if (view.onlyMine && !isNaN(mine) && e.level != null && e.level > mine) return false;
+      for (const [label, val] of Object.entries(view.facets)) {
+        if (val && String(fv(fieldOf(e, label)) ?? "") !== val) return false;
+      }
+      if (view.mark === "have" && !marks.has(e.id)) return false;
+      if (view.mark === "no" && marks.has(e.id)) return false;
+      return true;
+    });
+  }
+
+  function sortList(list) {
     const dir = view.sortDir;
-    if (view.sort === "name") list.sort((a, b) => dir * a.name.localeCompare(b.name, "ru"));
-    else if (view.sort === "level") list.sort((a, b) => dir * ((a.level ?? 1e9) - (b.level ?? 1e9)) || a.name.localeCompare(b.name, "ru"));
+    const byName = (a, b) => a.name.localeCompare(b.name, "ru");
+    if (view.sort === "name") list.sort((a, b) => dir * byName(a, b));
+    else if (view.sort === "level") list.sort((a, b) => dir * ((a.level ?? 1e9) - (b.level ?? 1e9)) || byName(a, b));
     else if (view.sort.startsWith("f:")) {
       const label = view.sort.slice(2);
-      const val = e => e.fields.find(([k]) => k === label)?.[1];
       list.sort((a, b) => {
-        const va = val(a), vb = val(b);
-        if (va == null) return 1;
-        if (vb == null) return -1;
+        const va = fv(fieldOf(a, label)), vb = fv(fieldOf(b, label));
+        if (va == null || va === "") return 1;
+        if (vb == null || vb === "") return -1;
         const na = num(va), nb = num(vb);
         if (!isNaN(na) && !isNaN(nb) && na !== nb) return dir * (na - nb);
         return dir * String(va).localeCompare(String(vb), "ru");
       });
     }
+    return list;
+  }
+
+  function diffSwitch(id) {
+    return `<div class="seg diff-seg" id="${id}" title="Сложность босса">
+      ${DIFFS.map(([k, n]) => `<button data-diff="${k}" class="${view.diff === k ? "active" : ""}">${n}</button>`).join("")}
+    </div>`;
+  }
+
+  function renderList(title, subtitle, entries, opts = {}) {
+    const list = sortList(applyFilters(entries));
     view.list = list;
 
     const hasLevels = entries.some(e => e.level != null);
+    const anyDiff = entries.some(hasDiff);
+    const facetOpts = FACETS.map(label => {
+      const vals = [...new Set(entries.map(e => fieldOf(e, label)).filter(v => v != null && v !== "").map(v => String(fv(v))))];
+      return vals.length >= 2 ? [label, vals.sort((a, b) => a.localeCompare(b, "ru"))] : null;
+    }).filter(Boolean);
+    const filtersActive = view.query || view.lvlMin || view.lvlMax || view.onlyMine || view.mark !== "all" ||
+      Object.values(view.facets).some(Boolean);
+
     let html = db.demo ? demoBanner() : "";
     html += `<div class="list-head">
       <div>
@@ -287,10 +415,30 @@
         <button data-mode="table" class="${view.mode === "table" ? "active" : ""}" title="Таблица">☰</button>
       </div>
     </div>
-    <div class="result-count">${q ? `Найдено: ${list.length} из ${entries.length}` : countLabel(list.length)}</div>`;
+    <div class="filters">
+      ${hasLevels ? `<label class="flt">Ур.
+          <input id="lvlMin" type="number" min="0" placeholder="от" value="${esc(view.lvlMin)}">
+          <input id="lvlMax" type="number" min="0" placeholder="до" value="${esc(view.lvlMax)}"></label>
+        <label class="flt">Мой ур.
+          <input id="myLevel" type="number" min="0" placeholder="—" value="${esc(view.myLevel)}"></label>
+        <label class="flt chk"><input id="onlyMine" type="checkbox" ${view.onlyMine ? "checked" : ""}
+          ${view.myLevel ? "" : "disabled"}> не выше моего</label>` : ""}
+      ${facetOpts.map(([label, vals]) => `<select class="facet" data-facet="${esc(label)}" id="facet-${esc(label)}">
+          <option value="">${esc(label)}: все</option>
+          ${vals.map(v => `<option value="${esc(v)}" ${view.facets[label] === v ? "selected" : ""}>${esc(v)}</option>`).join("")}
+        </select>`).join("")}
+      <select id="markSel" title="Отметки">
+        <option value="all" ${view.mark === "all" ? "selected" : ""}>Отметки: все</option>
+        <option value="have" ${view.mark === "have" ? "selected" : ""}>✓ есть у меня</option>
+        <option value="no" ${view.mark === "no" ? "selected" : ""}>✗ нет у меня</option>
+      </select>
+      ${anyDiff ? diffSwitch("diffList") : ""}
+      ${filtersActive ? `<button class="link-btn" id="resetFlt">Сбросить фильтры</button>` : ""}
+    </div>
+    <div class="result-count">${list.length !== entries.length ? `Найдено: ${list.length} из ${entries.length}` : countLabel(list.length)}</div>`;
 
     if (!list.length) {
-      html += `<div class="empty">${entries.length ? "Ничего не найдено" : "Здесь пока пусто"}</div>`;
+      html += `<div class="empty">${entries.length ? "Ничего не найдено" : (opts.empty || "Здесь пока пусто")}</div>`;
     } else if (view.mode === "table") {
       html += renderTable(list, opts.showSection);
     } else {
@@ -307,16 +455,18 @@
     const sec = db.sections[e.section];
     const cat = sec.categories.find(c => c.id === e.category);
     const preview = e.fields.filter(([k]) => !isLevelLabel(k) && !PREVIEW_SKIP.test(k)).slice(0, 3);
-    return `<a class="card ${favorites.has(e.id) ? "fav" : ""}" href="${entryHref(e)}" data-id="${esc(e.id)}">
+    const lvl = fv(fieldOf(e, "Уровень")) || e.level;
+    return `<a class="card ${favorites.has(e.id) ? "fav" : ""} ${marks.has(e.id) ? "have" : ""}"
+        href="${entryHrefHere(e)}" data-id="${esc(e.id)}">
       ${iconHtml(e)}
       <div class="card-body">
         <div class="card-name">${esc(e.name)}</div>
         <div class="card-meta">
-          ${e.level != null ? `<span class="lvl">ур. ${esc(e.level)}</span>` : ""}
+          ${lvl != null && lvl !== "" ? `<span class="lvl">ур. ${esc(lvl)}</span>` : ""}
           <span>${showSection ? esc(sec.title) + " · " : ""}${esc(cat?.name || "")}</span>
         </div>
         ${preview.length ? `<div class="card-fields">${preview.map(([k, v]) =>
-          `<span><em>${esc(k)}:</em> ${esc(v)}</span>`).join("")}</div>` : ""}
+          `<span><em>${esc(k)}:</em> ${esc(fv(v))}</span>`).join("")}</div>` : ""}
       </div>
     </a>`;
   }
@@ -325,8 +475,7 @@
     const freq = new Map();
     for (const e of list) for (const [k] of e.fields) freq.set(k, (freq.get(k) || 0) + 1);
     // Колонки с одинаковым у всех значением ничего не дают для сравнения.
-    const varies = k => list.length < 2 ||
-      new Set(list.map(e => e.fields.find(([l]) => l === k)?.[1] ?? "")).size > 1;
+    const varies = k => list.length < 2 || new Set(list.map(e => String(fv(fieldOf(e, k)) ?? ""))).size > 1;
     const cols = [...freq.entries()]
       .filter(([k]) => !isLevelLabel(k) && varies(k))
       .sort((a, b) => b[1] - a[1]).slice(0, 10).map(([k]) => k);
@@ -340,12 +489,11 @@
       ${cols.map(c => `<th class="sortable" data-sort="f:${esc(c)}">${esc(c)}${arrow("f:" + c)}</th>`).join("")}
     </tr></thead><tbody>`;
     for (const e of list) {
-      const fm = new Map(e.fields);
-      html += `<tr data-href="${esc(entryHref(e))}">
-        <td class="tname"><a href="${entryHref(e)}">${iconHtml(e, "ico-sm")}<span>${esc(e.name)}</span></a></td>
+      html += `<tr data-href="${esc(entryHrefHere(e))}" class="${marks.has(e.id) ? "have" : ""}">
+        <td class="tname"><a href="${entryHrefHere(e)}">${iconHtml(e, "ico-sm")}<span>${esc(e.name)}</span></a></td>
         ${showSection ? `<td>${esc(db.sections[e.section].title)}</td>` : ""}
-        ${hasLevels ? `<td class="num">${esc(e.level ?? "")}</td>` : ""}
-        ${cols.map(c => `<td>${esc(fm.get(c) ?? "")}</td>`).join("")}
+        ${hasLevels ? `<td class="num">${esc(fv(fieldOf(e, "Уровень")) || (e.level ?? ""))}</td>` : ""}
+        ${cols.map(c => `<td>${esc(fv(fieldOf(e, c)) ?? "")}</td>`).join("")}
       </tr>`;
     }
     html += `</tbody></table></div>`;
@@ -353,49 +501,180 @@
   }
 
   function bindToolbar() {
-    const ls = $("#localSearch");
-    if (ls) {
-      ls.addEventListener("input", () => {
-        view.query = ls.value;
-        const pos = ls.selectionStart;
-        renderMain(parseRoute());
-        const again = $("#localSearch");
-        again.focus();
-        again.setSelectionRange(pos, pos);
-      });
-    }
-    $("#sortSel")?.addEventListener("change", ev => {
-      view.sort = ev.target.value;
-      store.set("sort", view.sort);
-      renderMain(parseRoute());
+    const on = (sel, ev, fn) => $(sel)?.addEventListener(ev, fn);
+    on("#localSearch", "input", ev => { view.query = ev.target.value; refresh(); });
+    on("#sortSel", "change", ev => { view.sort = ev.target.value; store.set("sort", view.sort); refresh(); });
+    on("#dirBtn", "click", () => { view.sortDir *= -1; refresh(); });
+    on("#lvlMin", "input", ev => { view.lvlMin = ev.target.value; refresh(); });
+    on("#lvlMax", "input", ev => { view.lvlMax = ev.target.value; refresh(); });
+    on("#myLevel", "input", ev => {
+      view.myLevel = ev.target.value;
+      store.set("myLevel", view.myLevel);
+      if (view.myLevel && !view.onlyMine) view.onlyMine = true;
+      refresh();
     });
-    $("#dirBtn")?.addEventListener("click", () => {
-      view.sortDir *= -1;
-      renderMain(parseRoute());
-    });
-    document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
+    on("#onlyMine", "change", ev => { view.onlyMine = ev.target.checked; refresh(); });
+    on("#markSel", "change", ev => { view.mark = ev.target.value; refresh(); });
+    on("#resetFlt", "click", () => { resetFilters(); refresh(); });
+    $$(".facet").forEach(s => s.addEventListener("change", () => { view.facets[s.dataset.facet] = s.value; refresh(); }));
+    $$(".main .seg:not(.diff-seg) button").forEach(b => b.addEventListener("click", () => {
       view.mode = b.dataset.mode;
       store.set("mode", view.mode);
-      renderMain(parseRoute());
+      refresh();
     }));
-    document.querySelectorAll("th.sortable").forEach(th => th.addEventListener("click", () => {
+    bindDiff(els.main);
+    $$("th.sortable").forEach(th => th.addEventListener("click", () => {
       const key = th.dataset.sort;
       if (view.sort === key) view.sortDir *= -1;
       else { view.sort = key; view.sortDir = 1; }
-      renderMain(parseRoute());
+      refresh();
     }));
-    document.querySelectorAll("tr[data-href]").forEach(tr => tr.addEventListener("click", ev => {
+    $$("tr[data-href]").forEach(tr => tr.addEventListener("click", ev => {
       if (ev.target.closest("a")) return;
       location.hash = tr.dataset.href;
     }));
   }
+
+  function bindDiff(root) {
+    root.querySelectorAll(".diff-seg button").forEach(b => b.addEventListener("click", () => {
+      view.diff = b.dataset.diff;
+      store.set("diff", view.diff);
+      refresh();
+    }));
+  }
+
+  // ---------- compare ----------
+
+  // Для этих характеристик меньшее значение лучше.
+  const LOWER_BETTER = /^(требуем|цена|стоимость|ремонт|вес)/i;
+
+  function renderCompare() {
+    const items = compare.values().map(id => db.byId.get(id)).filter(Boolean);
+    view.list = items;
+    let html = `<div class="list-head"><div>
+        <h1 class="page-title">Сравнение</h1>
+        <p class="page-sub">Добавляй записи кнопкой ⚖ в карточке (до ${COMPARE_MAX})</p>
+      </div>
+      ${items.length ? `<button class="link-btn" id="cmpClear">Очистить</button>` : ""}
+    </div>`;
+    if (!items.length) {
+      els.main.innerHTML = html + `<div class="empty">Пока ничего не выбрано</div>`;
+      $("#cmpClear")?.addEventListener("click", () => { compare.clear(); refresh(); });
+      return;
+    }
+    const labels = [];
+    for (const e of items) for (const [k] of e.fields) if (!labels.includes(k)) labels.push(k);
+    const anyDiff = items.some(hasDiff);
+    html += anyDiff ? `<div class="filters">${diffSwitch("diffCmp")}</div>` : "";
+    html += `<div class="table-wrap"><table class="tbl cmp"><thead><tr><th></th>
+      ${items.map(e => `<th><div class="cmp-head">
+          <a href="${href(["cmp"], e.id)}">${iconHtml(e, "ico-sm")}<span>${esc(e.name)}</span></a>
+          <button class="x" data-rm="${esc(e.id)}" title="Убрать">✕</button>
+        </div><small>${esc(db.sections[e.section].title)}</small></th>`).join("")}
+    </tr></thead><tbody>`;
+    for (const label of labels) {
+      const vals = items.map(e => fv(fieldOf(e, label)));
+      const nums = vals.map(v => (v == null || v === "" ? NaN : num(v)));
+      const valid = nums.filter(n => !isNaN(n));
+      const differ = new Set(vals.map(v => String(v ?? ""))).size > 1;
+      let best = null;
+      if (differ && valid.length >= 2) best = LOWER_BETTER.test(label) ? Math.min(...valid) : Math.max(...valid);
+      html += `<tr class="${differ ? "differ" : ""}"><th>${esc(label)}</th>
+        ${vals.map((v, i) => `<td class="${best != null && nums[i] === best ? "best" : ""}">${esc(v ?? "—")}</td>`).join("")}
+      </tr>`;
+    }
+    html += `</tbody></table></div>`;
+    els.main.innerHTML = html;
+    $("#cmpClear")?.addEventListener("click", () => { compare.clear(); refresh(); });
+    $$("[data-rm]").forEach(b => b.addEventListener("click", ev => {
+      ev.preventDefault();
+      compare.toggle(b.dataset.rm);
+      refresh();
+    }));
+    bindDiff(els.main);
+  }
+
+  // ---------- maps ----------
+
+  function renderMapsList() {
+    const q = norm(view.query);
+    const list = db.maps.filter(m => !q || norm(m.name).includes(q) ||
+      m.points.some(p => norm(db.byId.get(p.id)?.name).includes(q)));
+    view.list = [];
+    let html = `<div class="list-head"><div>
+        <h1 class="page-title">Карты</h1>
+        <p class="page-sub">Поиск по названию локации или по тому, что на ней находится</p>
+      </div></div>
+      <div class="toolbar"><input class="local-search" id="localSearch" type="search"
+        placeholder="Локация, НПС, предмет…" value="${esc(view.query)}" autocomplete="off"></div>
+      <div class="result-count">${list.length} ${plural(list.length, "локация", "локации", "локаций")}</div>`;
+    if (!db.maps.length) html += `<div class="empty">Данных карт нет — запусти <code>python scraper/build.py</code></div>`;
+    html += `<div class="map-grid">${list.map(m => `<a class="map-card" href="${mapHref(m.id)}">
+        <div class="map-thumb">${m.image ? `<img src="${esc(m.image)}" alt="" loading="lazy" onerror="this.remove()">` : ""}</div>
+        <div class="map-card-body"><b>${esc(m.name)}</b>
+          <small>${m.points.length ? `${m.points.length} ${plural(m.points.length, "объект", "объекта", "объектов")} · ` : ""}${m.portals.length} ${plural(m.portals.length, "переход", "перехода", "переходов")}</small>
+        </div></a>`).join("")}</div>`;
+    els.main.innerHTML = html;
+    $("#localSearch")?.addEventListener("input", ev => { view.query = ev.target.value; refresh(); });
+  }
+
+  function renderMap(mid, hl) {
+    const m = db.mapById.get(mid);
+    if (!m) { els.main.innerHTML = `<div class="empty">Карта не найдена</div>`; return; }
+    const pts = m.points.map(p => ({ ...p, e: db.byId.get(p.id) })).filter(p => p.e);
+    view.list = [...new Map(pts.map(p => [p.e.id, p.e])).values()];
+    const z = view.mapZoom;
+    let html = `<div class="list-head"><div>
+        <h1 class="page-title">${esc(m.name)}</h1>
+        <p class="page-sub"><a href="#/maps">Карты</a> / ${esc(m.name)}</p>
+      </div>
+      <div class="zoom">
+        <button class="icon-btn" data-zoom="-1" title="Уменьшить">−</button>
+        <span>${Math.round(z * 100)}%</span>
+        <button class="icon-btn" data-zoom="1" title="Увеличить">+</button>
+      </div></div>
+      <div class="map-wrap"><div class="map-canvas ${m.image ? "" : "noimg"}" style="width:${z * 100}%">
+        ${m.image ? `<img class="map-img" src="${esc(m.image)}" alt=""
+          onerror="this.parentNode.classList.add('noimg');this.remove()">` : ""}
+        ${m.portals.map(p => `<a class="marker portal" href="${mapHref(p.to)}" style="left:${p.x}%;top:${p.y}%"
+            title="→ ${esc(p.name)}"><span>➜</span><em>${esc(p.name)}</em></a>`).join("")}
+        ${pts.map(p => `<a class="marker point ${p.id === hl ? "hl" : ""}" data-items="${esc(p.id)}"
+            href="${mapHref(mid, hl, p.id)}" style="left:${p.x}%;top:${p.y}%">${iconHtml(p.e, "ico-sm")}</a>`).join("")}
+      </div></div>`;
+    if (hl && !pts.some(p => p.id === hl)) {
+      const elsewhere = (db.mapsOf.get(hl) || []).filter(x => x !== mid);
+      const name = db.byId.get(hl)?.name || hl;
+      html += `<p class="muted small">«${esc(name)}» на этой карте точкой не отмечен${elsewhere.length
+        ? ` — он есть на: ${elsewhere.map(x => `<a href="${mapHref(x, hl, hl)}">${esc(db.mapById.get(x)?.name || x)}</a>`).join(", ")}`
+        : " (локация указана на сайте-источнике без координат)"}.</p>`;
+    }
+    if (!m.image) html += `<p class="muted small">Картинки этой карты нет — докачай: <code>python scraper/fetch_db.py --browser firefox --needed</code></p>`;
+    if (m.portals.length) {
+      html += `<div class="block"><h3>Переходы</h3><div class="chips">${[...new Map(m.portals.map(p => [p.to, p])).values()]
+        .map(p => `<a class="chip" href="${mapHref(p.to)}">→ ${esc(p.name)}</a>`).join("")}</div></div>`;
+    }
+    if (pts.length) {
+      html += `<div class="block"><h3>На карте</h3><div class="brefs">${view.list.map(e =>
+        `<a class="bref ${e.id === hl ? "hl" : ""}" href="${mapHref(mid, hl, e.id)}" data-items="${esc(e.id)}">
+          ${iconHtml(e, "ico-sm")}<span>${esc(e.name)}</span></a>`).join("")}</div></div>`;
+    }
+    els.main.innerHTML = html;
+    $$("[data-zoom]").forEach(b => b.addEventListener("click", () => {
+      view.mapZoom = Math.min(4, Math.max(1, view.mapZoom + Number(b.dataset.zoom) * 0.5));
+      refresh();
+    }));
+    const hlNode = els.main.querySelector(".marker.hl");
+    if (hlNode) setTimeout(() => hlNode.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" }), 50);
+  }
+
+  // ---------- main router ----------
 
   function renderMain(route) {
     const [kind, secId, catId] = route.parts;
     const key = route.parts.join("/");
     if (key !== view.routeKey) {
       view.routeKey = key;
-      view.query = "";
+      resetFilters();
       if (view.sort.startsWith("f:")) view.sort = "name";
       els.main.scrollTop = 0;
     }
@@ -413,8 +692,16 @@
         showSection: false,
       });
     } else if (kind === "fav") {
-      const entries = [...favorites].map(id => db.byId.get(id)).filter(Boolean);
-      renderList("Избранное", "Отмечай записи звёздочкой в карточке", entries, { showSection: true });
+      const entries = favorites.values().map(id => db.byId.get(id)).filter(Boolean);
+      renderList("Избранное", "Отмечай записи звёздочкой ★ в карточке", entries, { showSection: true });
+    } else if (kind === "marks") {
+      const entries = marks.values().map(id => db.byId.get(id)).filter(Boolean);
+      renderList("Есть у меня", "Отмечай записи кнопкой ✓ в карточке", entries,
+        { showSection: true, empty: "Пока ничего не отмечено" });
+    } else if (kind === "cmp") {
+      renderCompare();
+    } else if (kind === "maps") {
+      secId ? renderMap(secId, route.hl) : renderMapsList();
     } else {
       renderHome();
     }
@@ -424,9 +711,24 @@
 
   function linkify(text) {
     const target = db.byName.get(norm(text));
-    return target
-      ? `<a href="${entryHref(target)}">${esc(text)}</a>`
-      : esc(text);
+    return target ? `<a href="${entryHrefHere(target)}">${esc(text)}</a>` : esc(text);
+  }
+
+  const BACKREF_LIMIT = 40;
+
+  function renderBackrefs(e) {
+    return e.backrefs.map((g, gi) => {
+      const items = g.ids.map(id => db.byId.get(id)).filter(Boolean);
+      if (!items.length) return "";
+      const shown = items.slice(0, BACKREF_LIMIT);
+      return `<div class="block">
+        <h3>${esc(g.title)} <i>${items.length}</i></h3>
+        <div class="brefs" data-group="${gi}">${shown.map(t =>
+          `<a class="bref" href="${entryHrefHere(t)}" data-items="${esc(t.id)}">${iconHtml(t, "ico-sm")}<span>${esc(t.name)}</span></a>`).join("")}
+          ${items.length > shown.length ? `<button class="link-btn" data-more="${gi}">ещё ${items.length - shown.length}</button>` : ""}
+        </div>
+      </div>`;
+    }).join("");
   }
 
   function renderDetail(route) {
@@ -442,12 +744,18 @@
     const idx = view.list.findIndex(x => x.id === e.id);
     const prev = idx > 0 ? view.list[idx - 1] : null;
     const next = idx >= 0 && idx < view.list.length - 1 ? view.list[idx + 1] : null;
+    const lvl = fv(fieldOf(e, "Уровень")) || fv(fieldOf(e, "Требуемый уровень"));
+    // Карты, где объект отмечен точкой, но которых нет в его блоках «Где найти» / «Путь».
+    const linkedMaps = new Set(e.blocks.flatMap(b => [...b.html.matchAll(/data-maps="([^"]+)"/g)].map(m => m[1])));
+    const extraMaps = (db.mapsOf.get(e.id) || []).filter(mid => !linkedMaps.has(mid));
 
     els.detail.innerHTML = `
       <div class="detail-bar">
-        <a class="icon-btn" ${prev ? `href="${entryHref(prev)}"` : "aria-disabled=true"} title="Предыдущая (←)">‹</a>
-        <a class="icon-btn" ${next ? `href="${entryHref(next)}"` : "aria-disabled=true"} title="Следующая (→)">›</a>
+        <a class="icon-btn" ${prev ? `href="${entryHrefHere(prev)}"` : "aria-disabled=true"} title="Предыдущая (←)">‹</a>
+        <a class="icon-btn" ${next ? `href="${entryHrefHere(next)}"` : "aria-disabled=true"} title="Следующая (→)">›</a>
         <span class="spacer"></span>
+        <button class="icon-btn mark-btn ${marks.has(e.id) ? "on" : ""}" id="markBtn" title="Есть у меня">✓</button>
+        <button class="icon-btn cmp-btn ${compare.has(e.id) ? "on" : ""}" id="cmpBtn" title="Сравнить">⚖</button>
         <button class="icon-btn fav-btn ${favorites.has(e.id) ? "on" : ""}" id="favBtn" title="В избранное">★</button>
         <button class="icon-btn" id="closeDetail" title="Закрыть (Esc)">✕</button>
       </div>
@@ -460,62 +768,89 @@
             <a href="${href(["s", sec.id])}">${esc(sec.title)}</a>
             ${cat ? ` / <a href="${href(["s", sec.id, cat.id])}">${esc(cat.name)}</a>` : ""}
           </div>
-          ${e.level != null ? `<span class="lvl">Уровень ${esc(e.level)}</span>` : ""}
+          ${lvl ? `<span class="lvl">Уровень ${esc(lvl)}</span>` : ""}
         </div>
       </div>
+      ${hasDiff(e) ? diffSwitch("diffDetail") : ""}
       ${e.image ? `<div class="model"><img src="${esc(e.image)}" alt="" onerror="this.parentNode.remove()"></div>` : ""}
       ${e.fields.length ? `<table class="props">${e.fields.map(([k, v]) =>
-        `<tr><th>${esc(k)}</th><td>${linkify(v)}</td></tr>`).join("")}</table>` : ""}
+        `<tr><th>${esc(k)}</th><td>${linkify(fv(v))}${isDiff(v) ? ` <small class="muted">(${esc(DIFFS.find(d => d[0] === view.diff)[1].toLowerCase())})</small>` : ""}</td></tr>`).join("")}</table>` : ""}
       ${e.description ? `<div class="desc">${esc(e.description).replace(/\n/g, "<br>")}</div>` : ""}
       ${e.blocks.map(b => `<div class="block">
         <h3>${esc(b.title)}</h3>
         <div class="block-html">${b.html}</div>
       </div>`).join("")}
+      ${extraMaps.length ? `<div class="block"><h3>На карте</h3><div class="block-html">${extraMaps.map(mid =>
+        `<span data-maps="${esc(mid)}">${esc(db.mapById.get(mid)?.name || mid)}</span>`).join(", ")}</div></div>` : ""}
+      ${renderBackrefs(e)}
       ${e.lists.map(l => `<div class="detail-list">
         <h3>${esc(l.title)}</h3>
         <ul>${(l.items || []).map(it => `<li>${linkify(it)}</li>`).join("")}</ul>
       </div>`).join("")}
+      <div class="block note">
+        <h3>Моя заметка</h3>
+        <textarea id="noteText" rows="3" placeholder="Например: где фармлю, сколько уже собрано…">${esc(notes[e.id] || "")}</textarea>
+      </div>
       ${e.sourceUrl ? `<a class="src-link" href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">Открыть на источнике ↗</a>` : ""}
     `;
+    const wasHidden = els.detail.hidden;
     els.detail.hidden = false;
-    els.detail.scrollTop = 0;
+    if (wasHidden || els.detail.dataset.id !== e.id) els.detail.scrollTop = 0;
+    els.detail.dataset.id = e.id;
     document.body.classList.add("detail-open");
     els.backdrop.hidden = false;
 
-    bindRefs(els.detail);
+    bindRefs(els.detail, e);
+    bindDiff(els.detail);
     $("#closeDetail").addEventListener("click", closeDetail);
-    $("#favBtn").addEventListener("click", ev => {
-      toggleFavorite(e.id);
-      ev.currentTarget.classList.toggle("on", favorites.has(e.id));
-      renderSidebar(parseRoute());
-      document.querySelector(`.card[data-id="${CSS.escape(e.id)}"]`)?.classList.toggle("fav", favorites.has(e.id));
+    $("#favBtn").addEventListener("click", () => { favorites.toggle(e.id); refresh(); });
+    $("#markBtn").addEventListener("click", () => { marks.toggle(e.id); refresh(); });
+    $("#cmpBtn").addEventListener("click", () => { compare.toggle(e.id, COMPARE_MAX); refresh(); });
+    $("#noteText").addEventListener("input", ev => {
+      const t = ev.target.value;
+      if (t.trim()) notes[e.id] = t; else delete notes[e.id];
+      store.set("notes", notes);
     });
-    document.querySelectorAll(".card.selected, tr.selected").forEach(n => n.classList.remove("selected"));
+    els.detail.querySelectorAll("[data-more]").forEach(b => b.addEventListener("click", () => {
+      const g = e.backrefs[Number(b.dataset.more)];
+      const box = b.parentNode;
+      b.remove();
+      box.insertAdjacentHTML("beforeend", g.ids.slice(BACKREF_LIMIT).map(id => db.byId.get(id)).filter(Boolean)
+        .map(t => `<a class="bref" href="${entryHrefHere(t)}" data-items="${esc(t.id)}">${iconHtml(t, "ico-sm")}<span>${esc(t.name)}</span></a>`).join(""));
+    }));
+    $$(".card.selected").forEach(n => n.classList.remove("selected"));
     document.querySelector(`.card[data-id="${CSS.escape(e.id)}"]`)?.classList.add("selected");
   }
 
-  // Иконки с data-items в HTML-блоках — ссылки на другие записи вики.
-  function bindRefs(root) {
+  // Иконки с data-items в HTML-блоках — ссылки на другие записи; data-maps — ссылки на карты.
+  function bindRefs(root, e) {
     root.querySelectorAll(".block-html [data-items]").forEach(node => {
       const target = db.byId.get(node.getAttribute("data-items"));
       if (!target) return;
       node.classList.add("ref");
-      node.setAttribute("title", target.name);
+      node.removeAttribute("title");
       node.addEventListener("click", ev => {
         ev.preventDefault();
-        location.hash = entryHref(target);
+        location.hash = entryHrefHere(target);
       });
+    });
+    root.querySelectorAll(".block-html [data-maps]").forEach(node => {
+      const mid = node.getAttribute("data-maps");
+      if (!db.mapById.has(mid)) return;
+      node.classList.add("map-link");
+      node.title = "Открыть карту";
+      node.addEventListener("click", () => { location.hash = mapHref(mid, e?.id, e?.id); });
     });
     root.querySelectorAll(".block-html img").forEach(img => {
       img.loading = "lazy";
       img.addEventListener("error", () => {
-        const t = img.getAttribute("title") || db.byId.get(img.getAttribute("data-items"))?.name;
+        const target = db.byId.get(img.getAttribute("data-items"));
+        const t = img.getAttribute("title") || target?.name;
         if (t) {
           const span = document.createElement("span");
-          span.className = "img-missing" + (img.classList.contains("ref") ? " ref" : "");
+          span.className = "img-missing" + (target ? " ref" : "");
           span.textContent = t;
-          const target = db.byId.get(img.getAttribute("data-items"));
-          if (target) span.addEventListener("click", () => { location.hash = entryHref(target); });
+          if (target) span.addEventListener("click", () => { location.hash = entryHrefHere(target); });
           img.replaceWith(span);
         } else img.remove();
       }, { once: true });
@@ -523,8 +858,47 @@
   }
 
   function closeDetail() {
-    const { parts } = parseRoute();
-    location.hash = href(parts);
+    const { parts, hl } = parseRoute();
+    location.hash = href(parts, null, { hl });
+  }
+
+  // ---------- hover tooltip ----------
+
+  const tip = document.createElement("div");
+  tip.className = "tip";
+  tip.hidden = true;
+  document.body.appendChild(tip);
+  let tipFor = null;
+
+  function showTip(node, x, y) {
+    const e = db.byId.get(node.getAttribute("data-items"));
+    if (!e) return;
+    if (tipFor !== e.id) {
+      tipFor = e.id;
+      const sec = db.sections[e.section];
+      const cat = sec.categories.find(c => c.id === e.category);
+      const rows = e.fields.filter(([k]) => !PREVIEW_SKIP.test(k)).slice(0, 6);
+      tip.innerHTML = `<div class="tip-head">${iconHtml(e, "ico-sm")}<div><b>${esc(e.name)}</b>
+          <small>${esc(sec.title)}${cat ? " · " + esc(cat.name) : ""}</small></div></div>
+        ${rows.length ? `<table>${rows.map(([k, v]) => `<tr><th>${esc(k)}</th><td>${esc(fv(v))}</td></tr>`).join("")}</table>` : ""}
+        ${rows.length < 3 && e.blocks[0] ? `<p class="tip-desc">${esc(stripTags(e.blocks[0].html).replace(/\s+/g, " ").trim().slice(0, 180))}</p>` : ""}`;
+    }
+    tip.hidden = false;
+    const r = tip.getBoundingClientRect();
+    let left = x + 14, top = y + 14;
+    if (left + r.width > innerWidth - 8) left = x - r.width - 14;
+    if (top + r.height > innerHeight - 8) top = y - r.height - 14;
+    tip.style.left = Math.max(8, left) + "px";
+    tip.style.top = Math.max(8, top) + "px";
+  }
+
+  if (matchMedia("(hover: hover)").matches) {
+    document.addEventListener("mousemove", ev => {
+      const node = ev.target.closest?.(".ref[data-items], .bref[data-items], .marker[data-items], .img-missing.ref");
+      if (node && node.getAttribute("data-items")) showTip(node, ev.clientX, ev.clientY);
+      else if (!tip.hidden) { tip.hidden = true; tipFor = null; }
+    });
+    window.addEventListener("hashchange", () => { tip.hidden = true; tipFor = null; });
   }
 
   // ---------- global search ----------
@@ -540,15 +914,19 @@
       else if (e.search.includes(q)) contains.push(e);
       else if (e.searchFull.includes(q)) deep.push(e);
     }
+    const mapsFound = db.maps.filter(m => norm(m.name).includes(q)).slice(0, 5);
     const found = [...starts, ...contains, ...deep];
     const shown = found.slice(0, 40);
-    activeResult = shown.length ? 0 : -1;
-    els.results.innerHTML = shown.length
-      ? shown.map((e, i) => `<a class="sr ${i === 0 ? "active" : ""}" href="${entryHref(e)}">
+    activeResult = shown.length || mapsFound.length ? 0 : -1;
+    const mapRows = mapsFound.map(m => `<a class="sr" href="${mapHref(m.id)}"><div class="ico ico-sm ico-empty">🗺</div>
+      <span class="sr-name">${esc(m.name)}</span><span class="sr-sec">Карта</span></a>`).join("");
+    els.results.innerHTML = shown.length || mapsFound.length
+      ? shown.map(e => `<a class="sr" href="${entryHref(e)}">
           ${iconHtml(e, "ico-sm")}<span class="sr-name">${esc(e.name)}</span>
-          <span class="sr-sec">${esc(db.sections[e.section].title)}</span></a>`).join("")
+          <span class="sr-sec">${esc(db.sections[e.section].title)}</span></a>`).join("") + mapRows
         + (found.length > shown.length ? `<div class="sr-more">…и ещё ${found.length - shown.length}</div>` : "")
       : `<div class="sr-more">Ничего не найдено</div>`;
+    els.results.querySelector(".sr")?.classList.add("active");
     els.results.hidden = false;
   }
 
@@ -622,8 +1000,8 @@
     const route = parseRoute();
     document.body.classList.remove("nav-open");
     renderSidebar(route);
-    const listKey = route.parts.join("/");
-    // Перерисовываем список только при смене раздела, чтобы карточка открывалась без прыжков.
+    const listKey = route.parts.join("/") + "|" + (route.hl || "");
+    // Перерисовываем список только при смене страницы, чтобы карточка открывалась без прыжков.
     if (listKey !== lastListKey) {
       renderMain(route);
       lastListKey = listKey;

@@ -8,6 +8,7 @@
 (их докачивает: python scraper/fetch_db.py --browser firefox --needed).
 """
 
+import ast
 import json
 import re
 from collections import Counter
@@ -54,6 +55,8 @@ def icon_of(o):
         return ""
     if img.startswith("/raresImg/"):
         return img_rel(img)
+    if cat == "lists":
+        return img_rel(f"/raresImg/lists/{img}.png")
     if cat == "orb":
         return img_rel(f"/raresImg/orb/{img}_4.orb.png")
     if re.search(r"\.(png|webp|jpe?g|gif)$", img, re.I):
@@ -155,7 +158,7 @@ LABELS = {
 BLOCK_LABELS = {
     "drop": "Дроп", "dropdB": "Дроп", "bonus": "Бонус", "setName": "Комплект", "setBonus": "Бонус комплекта",
     "owner": "Где взять", "cenap": "Цена", "skills": "Навыки", "skillsB": "Навыки", "skins": "Скины",
-    "team": "Команда", "teamB": "Команда", "morfs": "Образы", "forCrt": "Используется для создания",
+    "team": "Команда", "teamB": "Команда", "morfs": "Образы",
     "reqB": "Требования", "petsk": "Навыки питомца", "dopbonus": "Доп. бонус", "vycup": "Выкуп",
 }
 SKIP = {"id", "idType", "idClass", "idCatalog", "img", "imgM", "img1", "navigation", "stats", "coordId",
@@ -171,6 +174,8 @@ DIFF = (("e", "лёгк."), ("n", "норм."), ("h", "тяжел."))
 
 
 def fmt(v):
+    if isinstance(v, dict):
+        return v
     if isinstance(v, float) and v.is_integer():
         v = int(v)
     if isinstance(v, int) and abs(v) >= 10000:
@@ -179,7 +184,7 @@ def fmt(v):
 
 
 def diff_value(v):
-    """{'e':..,'n':..,'h':..} -> '1100' или '900 / 1100 / 1500 (лёгк./норм./тяжел.)'."""
+    """{'e':..,'n':..,'h':..} -> '1100' или {'e': '900', 'n': '1100', 'h': '1500'}."""
     if not isinstance(v, dict):
         return fmt(v)
     vals = [v.get(k) for k, _ in DIFF if k in v]
@@ -188,7 +193,8 @@ def diff_value(v):
         return ""
     if len(set(map(str, vals))) == 1:
         return fmt(vals[0])
-    return " / ".join(fmt(v.get(k, "-")) for k, _ in DIFF) + " (" + "/".join(n for _, n in DIFF) + ")"
+    # Разные значения по сложностям — интерфейс показывает выбранную.
+    return {k: fmt(v.get(k, "-")) for k, _ in DIFF}
 
 
 def ref_html(oid):
@@ -197,6 +203,13 @@ def ref_html(oid):
         if isinstance(sec, dict) and isinstance(sec.get(oid), dict):
             o = sec[oid]
             return f'<img data-items="{oid}" src="{icon_of(o)}" title="{o.get("title", oid)}">'
+    return oid
+
+
+def find_title(oid):
+    for sec in DB.values():
+        if isinstance(sec, dict) and isinstance(sec.get(oid), dict):
+            return sec[oid].get("title", oid)
     return oid
 
 
@@ -226,13 +239,15 @@ def build_entry(o, section, category):
     level = None
 
     lvl = o.get("trebLvl", o.get("lvl"))
+    lvl_diff = diff_value(lvl) if isinstance(lvl, dict) else None
     if isinstance(lvl, dict):
         lvl = lvl.get("n") or next((x for x in lvl.values() if isinstance(x, (int, float))), None)
     if isinstance(lvl, str) and lvl.isdigit():
         lvl = int(lvl)
     if isinstance(lvl, (int, float)) and lvl:
         level = int(lvl)
-        fields.append(["Уровень" if section in ("mobs", "pets") and "lvl" in o else "Требуемый уровень", fmt(level)])
+        fields.append(["Уровень" if section in ("mobs", "pets") and "lvl" in o else "Требуемый уровень",
+                       lvl_diff if isinstance(lvl_diff, dict) else fmt(level)])
 
     rar = next((name for key, name in RARITY if o.get(key)), None)
     if rar:
@@ -259,9 +274,27 @@ def build_entry(o, section, category):
             a, b = o[k].split(":", 1)
             fields.append([a.strip(), b.strip()])
 
+    recipes, makers = [], []
+    for k, v in o.items():
+        if k.startswith("forCrt") and isinstance(v, list):
+            for r in v:
+                if not isinstance(r, dict):
+                    continue
+                price = clean_html(r.get("price", ""))
+                kind = r.get("type") or "Создание"
+                recipes.append(f"<b>{kind}:</b> {price}" if price else f"<b>{kind}</b>")
+                if r.get("who"):
+                    makers.append(clean_html(r["who"]))
+    if recipes:
+        blocks.append({"title": "Рецепт", "html": "<br>".join(recipes)})
+    if makers:
+        blocks.append({"title": "Где создать", "html": " ".join(dict.fromkeys(makers))})
+
     descr_parts = []
     for k, v in o.items():
-        if k in SKIP or k.startswith(("title", "otstup")) or v in (None, "", [], {}):
+        if k in SKIP or k.startswith(("title", "otstup", "forCrt")) or v in (None, "", [], {}):
+            continue
+        if v == "+" and k in BLOCK_LABELS:
             continue
         if k.startswith("descr"):
             descr_parts.append((descr_order(k), v))
@@ -280,6 +313,8 @@ def build_entry(o, section, category):
             v = ", ".join(map(fmt, v))
         if v in ("", "+"):
             continue
+        if k == "trebClass":
+            v = CLASSES.get(v, v)
         if k in ("sila", "lovkost", "mosh", "znanie", "hp", "mana", "stamina", "intellect") \
                 and section in ("equipment", "pets") and str(v) == "0":
             continue
@@ -306,9 +341,15 @@ def build_entry(o, section, category):
             parts.append(f"<b>{n}:</b> " + " ".join(out))
         blocks.append({"title": "Требования для входа", "html": "<br>".join(parts)})
 
-    if isinstance(o.get("modif"), dict) and o["modif"]:
+    modif = o.get("modif")
+    if isinstance(modif, str) and modif.startswith("{"):
+        try:
+            modif = ast.literal_eval(modif)
+        except (ValueError, SyntaxError):
+            modif = None
+    if isinstance(modif, dict) and modif:
         items = []
-        for _, pair in o["modif"].items():
+        for _, pair in modif.items():
             if isinstance(pair, list) and len(pair) == 2:
                 mod = DB.get("modsMain", {}).get(pair[0], {})
                 items.append(f"{mod.get('title', pair[0])} +{fmt(pair[1])}")
@@ -325,9 +366,10 @@ def build_entry(o, section, category):
         flat = []
         for m in o["areaMap"]:
             flat.extend(m if isinstance(m, list) else [m])
-        names = list(dict.fromkeys(MAP_NAMES.get(m, m) for m in flat if isinstance(m, str)))
+        ids = list(dict.fromkeys(m for m in flat if isinstance(m, str)))
+        links = [f'<span data-maps="{m}">{MAP_NAMES.get(m, m)}</span>' for m in ids]
         blocks.append({"title": "Путь по картам" if section == "mobs" else "Где найти",
-                       "html": " → ".join(names) if section == "mobs" else ", ".join(names)})
+                       "html": " → ".join(links) if section == "mobs" else ", ".join(links)})
 
     descr = " <br>".join(clean_html(v) for _, v in sorted(descr_parts, key=lambda x: x[0]) if clean_html(v))
     if descr:
@@ -358,6 +400,8 @@ SECTION_URL = {
     "npc": "https://anteikutaern.at.ua/others/npc/",
     "skills": "https://anteikutaern.at.ua/",
 }
+CLASSES = {"ryc": "Рыцарь", "dru": "Друид", "om": "Огненный маг", "vd": "Вуду", "monk": "Шид",
+           "var": "Варвар", "luk": "Лучник"}
 BOSS_GROUPS = {"bossesNep": "Непокой", "bossesStr": "Страх", "bossesTrv": "Тревога", "bossesUzhs": "Ужас"}
 
 EQUIP = [  # (раздел базы, категория, название)
@@ -401,6 +445,19 @@ def equipment():
         if cls.endswith("Skins"):
             continue
         entries.append(build_entry(o, "equipment", wcls.get(cls, "sets")))
+    cats.append({"id": "kits", "name": "Комплекты"})
+    for o in DB["othersMain"].values():
+        if o.get("idClass") == "setlists" and o.get("descr"):
+            e = build_entry(o, "equipment", "kits")
+            e["name"] = re.sub(r"^Сет\s+", "", e["name"])
+            for b in e["blocks"]:
+                b["title"] = {"Описание": "Части комплекта", "Модификаторы": "Бонус комплекта",
+                              "Дроп": "Где добыть"}.get(b["title"], b["title"])
+                if b["title"] == "Части комплекта":
+                    ids = list(dict.fromkeys(re.findall(r'data-items="([^"]+)"', b["html"])))
+                    b["html"] = "<br>".join(f'{ref_html(i)} {find_title(i)}' for i in ids)
+            e["fields"] = [f for f in e["fields"] if f[0] != "Тип"]
+            entries.append(e)
     cats.append({"id": "skins", "name": "Образы (скины)"})
     for sec in [s for s, _, _ in EQUIP] + ["weaponsMain"]:
         for o in DB[sec].values():
@@ -441,7 +498,108 @@ def items():
     return cats + [c for c in oc if c["id"] != "_"], entries + oe
 
 
+SECTIONS_OUT = {}
+
+# Как называется обратная связь: (раздел-источник или "*", заголовок блока) -> заголовок у цели.
+REVERSE = {
+    ("mobs", "Дроп"): "Падает с",
+    ("*", "Дроп"): "Дропает",
+    ("*", "Где добыть"): "Дропает (комплекты)",
+    ("*", "Навыки"): "Есть у",
+    ("*", "Команда"): "В команде у",
+    ("*", "Требования для входа"): "Нужен для входа к",
+    ("*", "Где взять"): "Продаёт / выдаёт",
+    ("*", "Рецепт"): "Ингредиент для",
+    ("*", "Где создать"): "Создаёт",
+    ("*", "Части комплекта"): "Входит в комплект",
+    ("*", "Скины"): "Скин для",
+    ("*", "Цена"): "Оплата за",
+    ("*", "Образы"): "Образ для",
+}
+
+
+def add_backrefs():
+    known = {e["id"]: e for _, ents in SECTIONS_OUT.values() for e in ents}
+    back = {}
+    for sid, (_, entries) in SECTIONS_OUT.items():
+        for e in entries:
+            for b in e["blocks"]:
+                title = REVERSE.get((sid, b["title"])) or REVERSE.get(("*", b["title"])) or "Упоминается в"
+                for tid in dict.fromkeys(re.findall(r'data-items="([^"]+)"', b["html"])):
+                    if tid != e["id"] and tid in known:
+                        back.setdefault(tid, {}).setdefault(title, [])
+                        if e["id"] not in back[tid][title]:
+                            back[tid][title].append(e["id"])
+    for tid, groups in back.items():
+        # Не повторяем то, что уже есть в собственных блоках записи.
+        own = set(re.findall(r'data-items="([^"]+)"', " ".join(b["html"] for b in known[tid]["blocks"])))
+        refs = [{"title": t, "ids": [i for i in ids if i not in own]} for t, ids in groups.items()]
+        known[tid]["backrefs"] = [r for r in refs if r["ids"]]
+    print(f"Обратных связей: {sum(len(i) for g in back.values() for i in g.values())}")
+
+
+def build_maps():
+    """data/maps.js: карты с картинками, порталами и точками объектов."""
+    images = {}
+    m = re.search(r"const MAPS = \{(.*?)\};", _js, re.S)
+    if m:
+        for k, v in re.findall(r'(m\d+): "([^"]+)"', m.group(1)):
+            images[k] = v
+    elements = {}
+    me = SRC / "all_map_elements.json"
+    if me.exists():
+        elements = json.loads(me.read_text("utf-8")).get("data", {})
+    known = {e["id"] for _, ents in SECTIONS_OUT.values() for e in ents}
+
+    maps = {}
+
+    def get(mid):
+        if mid not in maps:
+            maps[mid] = {"id": mid, "name": MAP_NAMES.get(mid, mid),
+                         "image": img_rel(images[mid]) if mid in images else "",
+                         "portals": [], "points": []}
+        return maps[mid]
+
+    def add_point(mid, oid, c):
+        if oid not in known or not isinstance(c, dict) or "x" not in c:
+            return
+        pts = get(mid)["points"]
+        if not any(p["id"] == oid and abs(p["x"] - c["x"]) < 0.5 and abs(p["y"] - c["y"]) < 0.5 for p in pts):
+            pts.append({"id": oid, "x": c["x"], "y": c["y"]})
+
+    for mid, el in elements.items():
+        mp = get(mid)
+        for p in el.get("portals", []):
+            c = p.get("coordId") or {}
+            if "x" in c and p.get("targetMap"):
+                mp["portals"].append({"to": p["targetMap"], "x": c["x"], "y": c["y"]})
+        for kind in ("npc", "items", "enemies", "others"):
+            for it in el.get(kind, []):
+                add_point(mid, it.get("id"), it.get("coordId"))
+    for mid in images:
+        get(mid)
+    for o in (x for sec in DB.values() if isinstance(sec, dict) for x in sec.values() if isinstance(x, dict)):
+        areas, coords = o.get("areaMap"), o.get("coordId")
+        if isinstance(areas, list) and isinstance(coords, list):
+            for a, c in zip(areas, coords):
+                for mid in (a if isinstance(a, list) else [a]):
+                    if isinstance(mid, str):
+                        add_point(mid, o.get("id"), c)
+    for mp in maps.values():
+        for p in mp["portals"]:
+            p["name"] = MAP_NAMES.get(p["to"], p["to"])
+    out = sorted(maps.values(), key=lambda x: int(re.sub(r"\D", "", x["id"]) or 0))
+    payload = json.dumps(out, ensure_ascii=False, separators=(",", ":"))
+    (DATA / "maps.js").write_text(f"window.BR_MAPS = {payload};\n", "utf-8")
+    print(f"maps: {len(out)} карт, точек: {sum(len(x['points']) for x in out)}, "
+          f"порталов: {sum(len(x['portals']) for x in out)}")
+
+
 def write(sid, cats, entries):
+    SECTIONS_OUT[sid] = (cats, entries)
+
+
+def write_out(sid, cats, entries):
     ids = Counter(e["id"] for e in entries)
     dup = [i for i, n in ids.items() if n > 1]
     if dup:
@@ -463,6 +621,10 @@ def main():
     write("items", *items())
     write("npc", [], [build_entry(o, "npc", "_") for o in DB["npcMain"].values()])
     write("skills", [], [build_entry(o, "skills", "_") for o in DB["skillsMain"].values()])
+    add_backrefs()
+    for sid, (cats, entries) in SECTIONS_OUT.items():
+        write_out(sid, cats, entries)
+    build_maps()
     (SRC / "needed_images.txt").write_text("\n".join(sorted(needed_images)) + "\n", "utf-8")
     print(f"Недостающих картинок: {len(needed_images)} (scraper/source/needed_images.txt)")
 
