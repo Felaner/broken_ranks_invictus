@@ -542,11 +542,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item198\">Бирюзового ингибитора</span>,</li> <li>1 x Ziołowy wywar możemy sprzedać za 320 złota u Igi w Szpitalu Trentis.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Ингредиент для изготовления <span data-items=\"item198\">Бирюзового ингибитора</span>,</li> <li>1 × Травяной отвар можно продать за 320 золота у Иги в Госпитале Трентиса.</li></ul> </td></tr></table>"
     },
     {
      "title": "Изготовление",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Wykonuje go Wiedźma Hoberl na Bagnach za 30 złota, po dostarczeniu składników:</center> <ul><li>10 × <span data-items=\"item80\">Валериана</span></li> <li>10 × <span data-items=\"item87\">Мятка</span></li> <li>10 × <span data-items=\"item88\">Алтей</span></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Изготавливает Ведьма Хоберль на Болоте за 30 золота после доставки ингредиентов:</center> <ul><li>10 × <span data-items=\"item80\">Валериана</span></li> <li>10 × <span data-items=\"item87\">Мятка</span></li> <li>10 × <span data-items=\"item88\">Алтей</span></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -1163,7 +1163,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 x Skóra burkana możemy sprzedać za 4 000 złota u Grozdana w Siedzibie Pozostałych,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Охота на бурканов</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × Шкура буркана можно продать за 4 000 золота у Гроздана в Логове Оставшихся,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Охота на бурканов</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -1389,7 +1389,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Сувенир из бурного прошлого Беирна. Магический артефакт, служащий для призыва <img data-items=\"ghost3a\" src=\"data/raresImg/bosses/selena.bosslogo.png\" title=\"Селена\"/>. Из дошедших до вас слухов вы делаете вывод, что когда вы добудете <img data-items=\"item756\" src=\"data/raresImg/items/756.items.png\" title=\"Кости Халигардийца\"/>, <img data-items=\"item757\" src=\"data/raresImg/items/757.items.png\" title=\"Рука Халигардийца\"/>, <img data-items=\"item758\" src=\"data/raresImg/items/758.items.png\" title=\"Череп Халигардийца\"/>, <img data-items=\"item717\" src=\"data/raresImg/items/717.items.png\" title=\"Останки Халигардийца\"/>, <img data-items=\"nikodemhalagarac\" src=\"data/raresImg/npc/nikodemhalagara.npc.png\" title=\"Халагар\"/> из Беирна поведает вам, как призвать <img data-items=\"ghost3a\" src=\"data/raresImg/bosses/selena.bosslogo.png\" title=\"Селена\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Pamiątka po burzliwej przeszłość Beirn. Przedmiot wymagany do przywołania Selene.<br/> <p>Z zasłyszanych plotek wnioskujesz, że kiedy zdobędziesz jeszcze Kości Haligardczyka, Rękę Haligardczyka, Czaszkę Haligardczyka, Halagar z Beirn powie ci jak przyzwać Selene. </p> </td></tr></table>"
+     "html": "Сувенир из бурного прошлого Беирна. Магический артефакт, служащий для призыва <img data-items=\"ghost3a\" src=\"data/raresImg/bosses/selena.bosslogo.png\" title=\"Селена\"/>. Из дошедших до вас слухов вы делаете вывод, что когда вы добудете <img data-items=\"item756\" src=\"data/raresImg/items/756.items.png\" title=\"Кости Халигардийца\"/>, <img data-items=\"item757\" src=\"data/raresImg/items/757.items.png\" title=\"Рука Халигардийца\"/>, <img data-items=\"item758\" src=\"data/raresImg/items/758.items.png\" title=\"Череп Халигардийца\"/>, <img data-items=\"item717\" src=\"data/raresImg/items/717.items.png\" title=\"Останки Халигардийца\"/>, <img data-items=\"nikodemhalagarac\" src=\"data/raresImg/npc/nikodemhalagara.npc.png\" title=\"Халагар\"/> из Беирна поведает вам, как призвать <img data-items=\"ghost3a\" src=\"data/raresImg/bosses/selena.bosslogo.png\" title=\"Селена\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Память о бурном прошлом Беирна. Предмет нужен для призыва Селены.<br/> <p>Из подслушанных слухов ты понимаешь: когда добудешь ещё Кости, Руку и Череп галигардца, Халагар из Беирна расскажет, как призвать Селену. </p> </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -2046,7 +2046,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 x Skóra z wilka czarnego możemy sprzedać za 1 500 złota u Wilczego w Lesie Koldów;</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Охота на волков</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × Шкура чёрного волка можно продать за 1 500 золота у Волчьего в Лесу Колдов;</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Охота на волков</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -2707,7 +2707,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <ul><li>Гризли</li></ul> <ul><li>Drużyny Ork [3] znajdującej się w lokalizacji Las Orków - Wejście do namiotu (Wodza Orków),</li></ul> <ul><li>Drużyny Ork Szaman [3] znajdującej się w lokalizacji Las Orków - Wejście do namiotu (Wodza Orków),</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <center>Получаем за победу над:</center> <ul><li>Гризли</li></ul> <ul><li>Отряда Орк [3] в локации Лес Орков — Вход в шатёр (Вождя орков),</li></ul> <ul><li>Отряда Орк-шаман [3] в локации Лес Орков — Вход в шатёр (Вождя орков),</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -4308,7 +4308,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>10 x Skóra dzika możemy sprzedać za 900 złota u Drwala Jacka w Zbójeckim Lesie,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение с предсказанием</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>10 × Шкура кабана можно продать за 900 золота у Лесоруба Яцека в Разбойничьем Лесу,</li> <li>Для завершения <span data-items=\"wb_zlecenia\">поручения</span> <i>Поручение с предсказанием</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -4401,7 +4401,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Компонент, используемый для изготовления <img data-items=\"item1141\" src=\"data/raresImg/items/1141.items.png\" title=\"Малая Фляга Уничтожения\"/>. Её создает <img data-items=\"leilaa\" src=\"data/raresImg/npc/leilaa.npc.png\" title=\"Лейла\"/> в порту Трентиса.<hr><table class=\"wb\"><tr><td colspan=\"2\">Składnik używany do produkcji Małej Flaszy Niszczenia. Wykonuje ją Leila w Porcie. </td></tr></table>"
+     "html": "Компонент, используемый для изготовления <img data-items=\"item1141\" src=\"data/raresImg/items/1141.items.png\" title=\"Малая Фляга Уничтожения\"/>. Её создает <img data-items=\"leilaa\" src=\"data/raresImg/npc/leilaa.npc.png\" title=\"Лейла\"/> в порту Трентиса.<hr><table class=\"wb\"><tr><td colspan=\"2\">Ингредиент для изготовления Малой фляги разрушения. Изготавливает Лейла в Порту. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -4722,7 +4722,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение I-III ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Echo emocji umierającego przeciwnika. Dzięki niemu możesz podążyć ścieżkami wyzwania prowadzącymi do bossów, z których można zdobyć sprzęty rangi I-III. </td></tr></table>"
+     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение I-III ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Отголосок эмоций умирающего противника. С ним можно пройти путями испытания к боссам, с которых падает снаряжение ранга I–III. </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -4773,7 +4773,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение IV-VI ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Echo emocji umierającego przeciwnika. Dzięki niemu możesz podążyć ścieżkami wyzwania prowadzącymi do bossów, z których można zdobyć sprzęty rangi IV-VI. </td></tr></table>"
+     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение IV-VI ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Отголосок эмоций умирающего противника. С ним можно пройти путями испытания к боссам, с которых падает снаряжение ранга IV–VI. </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -4830,7 +4830,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение VII-IX ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Echo emocji umierającego przeciwnika. Dzięki niemu możesz podążyć ścieżkami wyzwania prowadzącymi do bossów, z których można zdobyć sprzęty rangi VII-IX. </td></tr></table>"
+     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение VII-IX ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Отголосок эмоций умирающего противника. С ним можно пройти путями испытания к боссам, с которых падает снаряжение ранга VII–IX. </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -4889,7 +4889,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение X-XII ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Echo emocji umierającego przeciwnika. Dzięki niemu możesz podążyć ścieżkami wyzwania prowadzącymi do bossów, z których można zdobyć sprzęty rangi X-XII. </td></tr></table>"
+     "html": "Эхо эмоций умирающего противника. Позволяет вам пройти по путям испытания, ведущим к боссам, с которых вы можете получить снаряжение X-XII ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Отголосок эмоций умирающего противника. С ним можно пройти путями испытания к боссам, с которых падает снаряжение ранга X–XII. </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -5328,7 +5328,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Награбленное у путешественника на Дмортере. Возможно, вы знаете кого-то, кому вы можете перепродать это.<hr><table class=\"wb\"><tr><td colspan=\"2\">Łup zrabowany włóczęgom na Dmorther. Być może znasz kogoś, komu można to odsprzedać. </td></tr></table>"
+     "html": "Награбленное у путешественника на Дмортере. Возможно, вы знаете кого-то, кому вы можете перепродать это.<hr><table class=\"wb\"><tr><td colspan=\"2\">Добыча, отнятая у бродяг на Дмортере. Может, ты знаешь, кому это можно перепродать. </td></tr></table>"
     },
     {
      "title": "Дроп",
@@ -6232,7 +6232,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Позволяет прорваться сквозь разряды на дороге, ведущей в Белый Район. Требуется для входа в инстанс <img data-items=\"utorinspector1a\" src=\"data/raresImg/bosses/utor_inspector.bosslogo.png\" title=\"Геурократос\"/>. Покупается у <img data-items=\"kudlatyv2a\" src=\"data/raresImg/npc/kudlatyv2a.npc.png\" title=\"Лохматый\"/> <br><p> - Можно получить убив 3 группы вокруг бассейна в центре Белого Района и убив появившегося <img data-items=\"mutantfailure2a\" src=\"data/raresImg/mobs2/mutant_failure2a.moblogo2.png\"/></p> <p> - Выполнив ежедневное задание \"Зерно Хаоса\" у <img data-items=\"warnika\" src=\"data/raresImg/npc/warnika.npc.png\" title=\"Варник\"/> (но награда меняется)</p> <p> - Во время событий в игре</p><hr><table class=\"wb\"><tr><td colspan=\"2\">Pozwala przejść przez wyładowania na drodze prowadzącej do Białej Dzielnicy. </td></tr></table>"
+     "html": "Позволяет прорваться сквозь разряды на дороге, ведущей в Белый Район. Требуется для входа в инстанс <img data-items=\"utorinspector1a\" src=\"data/raresImg/bosses/utor_inspector.bosslogo.png\" title=\"Геурократос\"/>. Покупается у <img data-items=\"kudlatyv2a\" src=\"data/raresImg/npc/kudlatyv2a.npc.png\" title=\"Лохматый\"/> <br><p> - Можно получить убив 3 группы вокруг бассейна в центре Белого Района и убив появившегося <img data-items=\"mutantfailure2a\" src=\"data/raresImg/mobs2/mutant_failure2a.moblogo2.png\"/></p> <p> - Выполнив ежедневное задание \"Зерно Хаоса\" у <img data-items=\"warnika\" src=\"data/raresImg/npc/warnika.npc.png\" title=\"Варник\"/> (но награда меняется)</p> <p> - Во время событий в игре</p><hr><table class=\"wb\"><tr><td colspan=\"2\">Позволяет пройти сквозь разряды на дороге в Белый квартал. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -6415,7 +6415,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Для спуска вглубь расщелины необходимы приличные альпинистские кошки. <br>Требуются для входа в инстанс <img data-items=\"sidraga1a\" src=\"data/raresImg/bosses/sidraga.bosslogo.png\" title=\"Сидрага\"/>. Получить можно у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/> (<span style=\"color:red\">не более 3x в день</span>)<hr><table class=\"wb\"><tr><td colspan=\"2\">Porządne raki wspinaczkowe potrzebne do zejścia w głąb szczeliny.<br/> <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table>"
+     "html": "Для спуска вглубь расщелины необходимы приличные альпинистские кошки. <br>Требуются для входа в инстанс <img data-items=\"sidraga1a\" src=\"data/raresImg/bosses/sidraga.bosslogo.png\" title=\"Сидрага\"/>. Получить можно у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/> (<span style=\"color:red\">не более 3x в день</span>)<hr><table class=\"wb\"><tr><td colspan=\"2\">Хорошие альпинистские кошки, нужные для спуска вглубь расщелины.<br/> <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -6427,7 +6427,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Покупка у Верштейна в Беирне: <ul><li>Стоимость первой покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 1 × <span data-items=\"item820\">Реол</span>, 1 × <span data-items=\"item821\">Двигг</span> и 100 000 золота,</li> <li>Стоимость второй покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 2 × <span data-items=\"item820\">Реол</span>, 3 × <span data-items=\"item821\">Двигг</span> и 250 000 золота,</li> <li>Стоимость третьей покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 3 × <span data-items=\"item820\">Реол</span>, 5 × <span data-items=\"item821\">Двигг</span> и 500 000 золота.</li></ul></li></ul> <p>Jeśli posiadamy w ekwipunku 3 sztuki Wzmocnionych raków zakup następnych jest zablokowany. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Покупка у Верштейна в Беирне: <ul><li>Стоимость первой покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 1 × <span data-items=\"item820\">Реол</span>, 1 × <span data-items=\"item821\">Двигг</span> и 100 000 золота,</li> <li>Стоимость второй покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 2 × <span data-items=\"item820\">Реол</span>, 3 × <span data-items=\"item821\">Двигг</span> и 250 000 золота,</li> <li>Стоимость третьей покупки: 1 × <span data-items=\"item741\">Альпинистские кошки</span> или 1 000 000 золота, 3 × <span data-items=\"item820\">Реол</span>, 5 × <span data-items=\"item821\">Двигг</span> и 500 000 золота.</li></ul></li></ul> <p>Если в инвентаре 3 Усиленные кошки, покупка следующих заблокирована. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -9963,7 +9963,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "После использования выравнивает уровень знания Кровавых арканов до уровня того, кто знаком с ними лучше всего. Действует на время одной экспедиции. Продает <img data-items=\"wulgarfa\" src=\"data/raresImg/npc/wulgarfa.npc.png\" title=\"Вулгарф\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Po użyciu wyrównuje stopień znajomości Krwawych Arkanów do poziomu osoby najlepiej zaznajomionej. Działa na czas jedej wyprawy. </td></tr></table>"
+     "html": "После использования выравнивает уровень знания Кровавых арканов до уровня того, кто знаком с ними лучше всего. Действует на время одной экспедиции. Продает <img data-items=\"wulgarfa\" src=\"data/raresImg/npc/wulgarfa.npc.png\" title=\"Вулгарф\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">После использования выравнивает знание Кровавых арканов до уровня самого знающего участника. Действует одну вылазку. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -9971,11 +9971,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Podnosi poziom Krwawych Arkanów do gracza w drużynie który ma ich najwyższy poziom, na czas jednej instancji <i>Монастыря Вольхарда</i>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Поднимает уровень Кровавых арканов до уровня игрока отряда с самым высоким уровнем, на один инстанс <i>Монастыря Вольхарда</i>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Zwój krwawego wglądu otrzymamy od Wulgarf na Błoniach Klasztornych po dostarczeniu składników: <ul><li>3 000 000 золота,</li> <li>1 × <span data-items=\"item703\">Гроссмейстерский глиф</span>,</li> <li>1 × <span data-items=\"item691\">Багряный элемент</span>.</li></ul></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Свиток кровавого прозрения получаем у Вульгарфа на Монастырских лугах после доставки ингредиентов: <ul><li>3 000 000 золота,</li> <li>1 × <span data-items=\"item703\">Гроссмейстерский глиф</span>,</li> <li>1 × <span data-items=\"item691\">Багряный элемент</span>.</li></ul></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10078,7 +10078,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Toporek do sekwoi ścina jedno drzewo Sekwoi tworząc obok stos z którego zbierzemy <span data-items=\"item722\">Брёвна секвойи</span>.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Топорик для секвойи срубает одну секвойю, рядом появляется куча, из которой собираем <span data-items=\"item722\">Брёвна секвойи</span>.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -10196,7 +10196,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Монета, находящаяся в обращении только в Беирне. Власти и администрация Империи Халигарда в лучшем случае игнорируют факт ее использования. Однако стоит учитывать, что какой-то жадный чинуша может ее конфисковать, поэтому лучше использовать ее только в Беирне. <br>Получить можно за задание <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/> \"Кровь Йети\" (100x), убивая мобов, боссов, чемпионов Беирна. <br>Используется для: покупки <img data-items=\"item820\" src=\"data/raresImg/items/820.items.png\" title=\"Реол\"/> <img data-items=\"item821\" src=\"data/raresImg/items/821.items.png\" title=\"Двигг\"/> <img data-items=\"item904\" src=\"data/raresImg/items/904.items.png\" title=\"Обруч Переноса\"/>, дополнительного опыта дрифам за <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/> и <img data-items=\"item716\" src=\"data/raresImg/items/716.items.png\" title=\"Наскальные грибы\"/> и т.д.<hr><table class=\"wb\"><tr><td colspan=\"2\">Moneta, która funkcjonuje w obiegu jedynie na Beirn. Władze i administracja Imperium Haligardu w najlepszym razie ignorują fakt posługiwania się nią. Trzeba jednak się liczyć z możliwością konfiskaty przez jakiegoś pazernego urzędasa, dlatego lepiej posługiwać się nią jedynie na Beirn. </td></tr></table>"
+     "html": "Монета, находящаяся в обращении только в Беирне. Власти и администрация Империи Халигарда в лучшем случае игнорируют факт ее использования. Однако стоит учитывать, что какой-то жадный чинуша может ее конфисковать, поэтому лучше использовать ее только в Беирне. <br>Получить можно за задание <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/> \"Кровь Йети\" (100x), убивая мобов, боссов, чемпионов Беирна. <br>Используется для: покупки <img data-items=\"item820\" src=\"data/raresImg/items/820.items.png\" title=\"Реол\"/> <img data-items=\"item821\" src=\"data/raresImg/items/821.items.png\" title=\"Двигг\"/> <img data-items=\"item904\" src=\"data/raresImg/items/904.items.png\" title=\"Обруч Переноса\"/>, дополнительного опыта дрифам за <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/> и <img data-items=\"item716\" src=\"data/raresImg/items/716.items.png\" title=\"Наскальные грибы\"/> и т.д.<hr><table class=\"wb\"><tr><td colspan=\"2\">Монета, которая ходит только на Беирне. Власти Галигардской империи в лучшем случае закрывают глаза на её использование. Но её может конфисковать какой-нибудь жадный чиновник, так что лучше расплачиваться ею только на Беирне. </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -10362,11 +10362,11 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Pozwala korzystać z Wieży Teleportacji w Gildii oraz przenieść się z zielonych pól mapy do Siedziby Gildii (poprzez przeciągnięcie zwoju na postać w oknie Ekwipunku gracza lub kliknięciu PPM).</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Позволяет пользоваться Телепортационной башней гильдии и переноситься с зелёных полей карты в резиденцию гильдии (перетащив свиток на персонажа в окне инвентаря или щёлкнув ПКМ).</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Poprzez pobranie z portalu Wieży Teleportacji (pobrana ilość zależy od indywidualnych ustawień Gildii),</li> <li>Покупка — в премиум-магазине за платину.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Взяв из портала Телепортационной башни (количество зависит от настроек гильдии),</li> <li>Покупка — в премиум-магазине за платину.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -10448,11 +10448,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Увеличивает количество получаемого в бою опыта на 35% на 45 минут. Перетащите на персонажа для использования.<hr><table class=\"wb\"><tr><td colspan=\"2\">Zwiększa ilość zdobywanego doświadczenia w walce o 35 procent na 45 minut. Nie kumuluje się z gildyjnym bonusem do doświadczenia. Przeciągnij na postać, aby użyć. </td></tr></table>"
+     "html": "Увеличивает количество получаемого в бою опыта на 35% на 45 минут. Перетащите на персонажа для использования.<hr><table class=\"wb\"><tr><td colspan=\"2\">Увеличивает получаемый в бою опыт на 35% на 45 минут. Не суммируется с гильдейским бонусом к опыту. Чтобы использовать, перетащи на персонажа. </td></tr></table>"
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zwiększa ilość zdobywanego doświadczenia w walce naszej postaci oraz naszych zwierzaków o 35% na 45 minut.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Увеличивает опыт, получаемый в бою нашим персонажем и питомцами, на 35% на 45 минут.</li></ul> </td></tr></table>"
     },
     {
      "title": "Способы получения",
@@ -10492,15 +10492,15 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "После перетягивания на персонажа увеличивает количество получаемого в бою психоопыта на 15% на 45 минут.<hr><table class=\"wb\"><tr><td colspan=\"2\">Po przeciągnięciu na postać zwiększa ilość zdobywanego psychodoświadczenia w walce o 15 procent na 45 minut. </td></tr></table>"
+     "html": "После перетягивания на персонажа увеличивает количество получаемого в бою психоопыта на 15% на 45 минут.<hr><table class=\"wb\"><tr><td colspan=\"2\">Если перетащить на персонажа, увеличивает получаемый в бою психоопыт на 15% на 45 минут. </td></tr></table>"
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zwiększa ilość zdobywanego psychodoświadczenia w walce naszej postaci o 15% na 45 minut.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Увеличивает психоопыт, получаемый в бою нашим персонажем, на 15% на 45 минут.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Można otrzymać z dziennego losowania nagród - tylko posiadacze konta premium,</li> <li>Покупка у другого игрока.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Можно получить из ежедневного розыгрыша наград — только для владельцев премиум-аккаунта,</li> <li>Покупка у другого игрока.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/"
@@ -11605,7 +11605,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item464\">Лом из Павших</span> можно обменять на 2 × Железо у Воберга в Трентисе,</li></ul> <ul><li>5 × <span data-items=\"item466\">Обломки руды</span> możemy wymienić na 1 x Żelazo u Zaopatrzeniowca na Posesji Landaua,</li></ul> <ul><li>2 × <span data-items=\"item465\">Железная руда</span> можно обменять на 1 × Железо у Диллега в Горах Колдов,</li></ul> <ul><li>60 × Железо получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Способ добыть железо</i> у Пограничника в Аларилe,</li></ul> <ul><li>200 × Железо получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Колды и браконьеры</i> у Херевальда в Горах Колдов,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>5 × <span data-items=\"item464\">Лом из Павших</span> можно обменять на 2 × Железо у Воберга в Трентисе,</li></ul> <ul><li>5 × <span data-items=\"item466\">Обломки руды</span> можно обменять на 1 × Железо у Снабженца в Поместье Ландау,</li></ul> <ul><li>2 × <span data-items=\"item465\">Железная руда</span> можно обменять на 1 × Железо у Диллега в Горах Колдов,</li></ul> <ul><li>60 × Железо получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Способ добыть железо</i> у Пограничника в Аларилe,</li></ul> <ul><li>200 × Железо получаем за выполнение <span data-items=\"wb_zlecenia\">поручения</span> <i>Колды и браконьеры</i> у Херевальда в Горах Колдов,</li></ul> <ul><li>Покупка за талеры <span><span><img src=\"data/wikibr/images/5/5f/Talar.png\"/></span></span> у Хайне в Трентисе,</li></ul> <ul><li>Покупка за шелеги <span><span><img src=\"data/wikibr/images/7/7d/Szelag.png\"/></span></span> у Парвана Разоффа в Трентисе.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -14237,7 +14237,7 @@
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Печень чудовища можно обменять на 200 × <span data-items=\"item77\">Еда</span> u Kupca wędrownego w Garnizonie Dmorther (pojawia się losowo).</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Печень чудовища можно обменять на 200 × <span data-items=\"item77\">Еда</span> у Странствующего торговца в Гарнизоне Дмортер (появляется случайно).</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -14322,11 +14322,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Может стать ценным даром для такого любителя камней, как <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>. <br>Обмен 1х шкатулка на 22к опыта питомцу. <br>Получить можно во время ивентов, во время выполнения заданий.<hr><table class=\"wb\"><tr><td colspan=\"2\">Dla amatora kamieni, takiego jak Treser Piter, może być cennym dobrem. </td></tr></table>"
+     "html": "Может стать ценным даром для такого любителя камней, как <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>. <br>Обмен 1х шкатулка на 22к опыта питомцу. <br>Получить можно во время ивентов, во время выполнения заданий.<hr><table class=\"wb\"><tr><td colspan=\"2\">Для любителя камней вроде дрессировщика Питера это может быть ценной вещью. </td></tr></table>"
     },
     {
      "title": "Применение",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 x Szkatuła z minerałami możemy wymienić na 22 000 punktów doświadczenia dla zwierzaka u Tresera Pitera w Lesie Koldów.</li> <li>1 × Шкатулку с минералами можно обменять на 1 × <span data-items=\"item812\">Камень Дрессировщика</span> у дрессировщика Питера в Лесу Колдов.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>1 × Шкатулку с минералами можно обменять на 22 000 опыта для питомца у дрессировщика Питера в Лесу Колдов.</li> <li>1 × Шкатулку с минералами можно обменять на 1 × <span data-items=\"item812\">Камень Дрессировщика</span> у дрессировщика Питера в Лесу Колдов.</li></ul> </td></tr></table>"
     },
     {
      "title": "Как добыть",
@@ -15377,7 +15377,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Сувенир из бурного прошлого Беирна. Предмет, требуемый для призыва <img data-items=\"ghost3a\" src=\"data/raresImg/bosses/selena.bosslogo.png\" title=\"Селена\"/>. Солтыс Беирна, <img data-items=\"nikodemhalagarac\" src=\"data/raresImg/npc/nikodemhalagara.npc.png\" title=\"Халагар\"/>, должен знать больше. <br>Получить можно выполнив задание у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/> в Беирне добыв <img data-items=\"item767\" src=\"data/raresImg/items2/767.items2.png\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Pamiątka po burzliwej przeszłości Beirn. Przedmiot wymagany do przywołania Selene. Sołtys Beirn - Halagar, powinien wiedzieć coś więcej. </td></tr></table>"
+     "html": "Сувенир из бурного прошлого Беирна. Предмет, требуемый для призыва <img data-items=\"ghost3a\" src=\"data/raresImg/bosses/selena.bosslogo.png\" title=\"Селена\"/>. Солтыс Беирна, <img data-items=\"nikodemhalagarac\" src=\"data/raresImg/npc/nikodemhalagara.npc.png\" title=\"Халагар\"/>, должен знать больше. <br>Получить можно выполнив задание у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/> в Беирне добыв <img data-items=\"item767\" src=\"data/raresImg/items2/767.items2.png\"/>.<hr><table class=\"wb\"><tr><td colspan=\"2\">Память о бурном прошлом Беирна. Предмет нужен для призыва Селены. Староста Беирна, Халагар, должен знать больше. </td></tr></table>"
     },
     {
      "title": "Применение",
@@ -15608,7 +15608,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Otrzymujemy po jednym za pokonanie każdej z trzech grup przeciwników w Grocie Kłów. Wejście do groty kosztuje 40 000 złota.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Получаем по одному за победу над каждой из трёх групп противников в Гроте Клыков. Вход в грот стоит 40 000 золота.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15648,7 +15648,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Забираем из Грота Глаз, поместив три <span data-items=\"item422\">Взгляда Дракона</span> w pomniku na środku groty. Wejście do groty kosztuje 40 000 złota.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Забираем из Грота Глаз, поместив три <span data-items=\"item422\">Взгляда Дракона</span> в памятнике в центре грота. Вход в грот стоит 40 000 золота.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15688,7 +15688,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zabieramy z postumentu po pokonaniu przeciwników w Grocie Oczu.</li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Забираем с постамента после победы над противниками в Гроте Глаз.</li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -15716,7 +15716,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Один из пяти артефактов, необходимых для того, чтобы снять печать Альказаара и призвать ледяного дракона Вальдарога. <br>Требуется 1х для создания <img data-items=\"item429\" src=\"data/raresImg/items/429.items.png\"/>. <br>Стоимость входа: 40к <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Jeden z pięciu artefaktów potrzebnych do zerwania pieczęci Alkazaara i przywołania lodowego smoka Valdaroga. </td></tr></table>"
+     "html": "Один из пяти артефактов, необходимых для того, чтобы снять печать Альказаара и призвать ледяного дракона Вальдарога. <br>Требуется 1х для создания <img data-items=\"item429\" src=\"data/raresImg/items/429.items.png\"/>. <br>Стоимость входа: 40к <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Один из пяти артефактов, нужных, чтобы сорвать печать Алказаара и призвать ледяного дракона Вальдарога. </td></tr></table>"
     },
     {
      "title": "Касания",
@@ -15901,7 +15901,7 @@
     },
     {
      "title": "Способы получения",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Zabieramy z Groty Serca po pokonaniu przeciwnika. Wejście do groty kosztuje <br/> 40 000 золота. <br/></li></ul> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>Забираем из Грота Сердца после победы над противником. Вход в грот стоит <br/> 40 000 золота. <br/></li></ul> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
@@ -16635,7 +16635,7 @@
     },
     {
      "title": "Как добыть",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p><span data-items=\"item754\">Мясо яка</span> włożyć do wędzarni znajdującej się obok pastwiska Staska. Po chwili gotowy surowiec będzie zawieszony obok wędzarni. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <p><span data-items=\"item754\">Мясо яка</span> положить в коптильню у пастбища Стаськи. Вскоре готовое сырьё будет висеть рядом с коптильней. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/items/",
