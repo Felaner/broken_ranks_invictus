@@ -14,6 +14,7 @@ HTML страницы, скриншот и все ответы сервера (A
     python scraper/recon.py pets         # только питомцы
     python scraper/recon.py --headed     # смотреть, как кликает браузер
     python scraper/recon.py --browser msedge   # через установленный Edge (или chrome)
+    python scraper/recon.py --browser firefox  # Firefox (сначала: python -m playwright install firefox)
 
 Результат: папка scraper/recon/<раздел>/.
 """
@@ -235,8 +236,12 @@ def main():
     ap.add_argument("--subpages", type=int, default=3, help="сколько подстраниц-ссылок разведывать")
     ap.add_argument("--wait", type=int, default=1200, help="пауза после клика, мс")
     ap.add_argument("--headed", action="store_true", help="показать окно браузера")
-    ap.add_argument("--browser", choices=["chromium", "chrome", "msedge"], default="chromium",
-                    help="chrome / msedge — использовать установленный Google Chrome или Microsoft Edge")
+    ap.add_argument("--browser", choices=["chromium", "chrome", "msedge", "firefox"], default="chromium",
+                    help="chrome / msedge — установленный Google Chrome или Microsoft Edge; "
+                         "firefox — Firefox от Playwright (python -m playwright install firefox)")
+    ap.add_argument("--proxy", help="прокси, например http://127.0.0.1:8080 или socks5://127.0.0.1:1080")
+    ap.add_argument("--no-doh", dest="doh", action="store_false",
+                    help="Firefox: не включать DNS через HTTPS (Cloudflare)")
     args = ap.parse_args()
     unknown = set(args.sections) - set(SECTIONS)
     if unknown:
@@ -244,11 +249,22 @@ def main():
 
     with sync_playwright() as p:
         launch = {"headless": not args.headed}
-        if args.browser != "chromium":
-            launch["channel"] = args.browser
-        if os.environ.get("BR_CHROMIUM"):
-            launch["executable_path"] = os.environ["BR_CHROMIUM"]
-        browser = p.chromium.launch(**launch)
+        if args.proxy:
+            launch["proxy"] = {"server": args.proxy}
+        if args.browser == "firefox":
+            if args.doh:
+                # Как в обычном Firefox с «DNS через HTTPS»: помогает, если провайдер блокирует сайт через DNS.
+                launch["firefox_user_prefs"] = {
+                    "network.trr.mode": 2,
+                    "network.trr.uri": "https://mozilla.cloudflare-dns.com/dns-query",
+                }
+            browser = p.firefox.launch(**launch)
+        else:
+            if args.browser != "chromium":
+                launch["channel"] = args.browser
+            if os.environ.get("BR_CHROMIUM"):
+                launch["executable_path"] = os.environ["BR_CHROMIUM"]
+            browser = p.chromium.launch(**launch)
         rc = Recon(browser, args)
         for sid in args.sections or SECTIONS:
             print(f"== {sid}")
