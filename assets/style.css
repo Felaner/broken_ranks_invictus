@@ -656,3 +656,6 @@ body.static { background: var(--bg); }
   margin: 2px 4px; vertical-align: top; text-align: center; text-decoration: none; }
 .static-page .ref-name { font-size: 11px; line-height: 1.25; }
 .static-page .ref-link .img-missing { display: none; }
+.block-html ul.plain-list { list-style: none; margin: 0; padding: 0; }
+.block-html ul.plain-list li { padding: 2px 0; }
+.block-html ul.plain-list small { color: var(--muted); }

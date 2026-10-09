@@ -6,21 +6,18 @@ window.BR_CONFIG = {
       id: "equipment",
       title: "Экипировка",
       icon: "🛡",
-      source: "https://anteikutaern.at.ua/dropdir/",
       categories: []
     },
     {
       id: "pets",
       title: "Питомцы",
       icon: "🐾",
-      source: "https://anteikutaern.at.ua/pety/",
       categories: []
     },
     {
       id: "mobs",
       title: "Противники",
       icon: "💀",
-      source: "https://anteikutaern.at.ua/mobs/mobs/",
       categories: [
         { id: "normal", name: "Обычные" },
         { id: "elite", name: "Элита" },
@@ -32,21 +29,18 @@ window.BR_CONFIG = {
       id: "items",
       title: "Предметы",
       icon: "🎒",
-      source: "https://anteikutaern.at.ua/items/",
       categories: []
     },
     {
       id: "npc",
       title: "НПС",
       icon: "🧙",
-      source: "https://anteikutaern.at.ua/others/npc/",
       categories: []
     },
     {
       id: "skills",
       title: "Навыки",
       icon: "✨",
-      source: "https://anteikutaern.at.ua/",
       categories: []
     },
     {

@@ -416,7 +416,6 @@
         <h1 class="page-title">${esc(title)}</h1>
         <p class="page-sub">${subtitle}</p>
       </div>
-      ${opts.source ? `<a class="src-link" href="${esc(opts.source)}" target="_blank" rel="noopener">Источник ↗</a>` : ""}
     </div>`;
 
     if (opts.categories?.length) {
@@ -713,9 +712,8 @@
       const name = db.byId.get(hl)?.name || hl;
       html += `<p class="muted small">«${esc(name)}» на этой карте точкой не отмечен${elsewhere.length
         ? ` — он есть на: ${elsewhere.map(x => `<a href="${mapHref(x, hl, hl)}">${esc(db.mapById.get(x)?.name || x)}</a>`).join(", ")}`
-        : " (локация указана на сайте-источнике без координат)"}.</p>`;
+        : " (точное место на карте не отмечено)"}.</p>`;
     }
-    if (!m.image) html += `<p class="muted small">Картинки этой карты нет — докачай: <code>python scraper/fetch_db.py --browser firefox --needed</code></p>`;
     if (m.portals.length) {
       html += `<div class="block"><h3>Переходы</h3><div class="chips">${[...new Map(m.portals.map(p => [p.to, p])).values()]
         .map(p => `<a class="chip" href="${mapHref(p.to)}">→ ${esc(p.name)}</a>`).join("")}</div></div>`;
@@ -873,7 +871,6 @@
         <h3>Моя заметка</h3>
         <textarea id="noteText" rows="3" placeholder="Например: где фармлю, сколько уже собрано…">${esc(notes[e.id] || "")}</textarea>
       </div>
-      ${e.sourceUrl ? `<a class="src-link" href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">Открыть на источнике ↗</a>` : ""}
     `;
     const wasHidden = els.detail.hidden;
     els.detail.hidden = false;

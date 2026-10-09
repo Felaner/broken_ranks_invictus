@@ -1300,6 +1300,7 @@
     {
      "title": "Упоминается в",
      "ids": [
+      "dragonclaw1a",
       "wb_instancje"
      ]
     }
@@ -1374,7 +1375,14 @@
     }
    ],
    "sourceUrl": "",
-   "backrefs": []
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "treeture1a"
+     ]
+    }
+   ]
   },
   {
    "id": "wb_jaski_golema_wyzwanie",
@@ -1393,7 +1401,14 @@
     }
    ],
    "sourceUrl": "",
-   "backrefs": []
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "treeture1a"
+     ]
+    }
+   ]
   },
   {
    "id": "wb_inhibitory",
@@ -2567,7 +2582,28 @@
     }
    ],
    "sourceUrl": "",
-   "backrefs": []
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "scoundrelArcher1acc",
+      "wilhelmtell2a",
+      "ogre1a",
+      "skeleton2a",
+      "skeleton9a",
+      "rat2ac",
+      "ogre3a",
+      "ogre2a",
+      "ogre2ac",
+      "fallencrossbowman1a",
+      "skeleton1a",
+      "fallenknight1a",
+      "skeleton3a",
+      "skeleton11a",
+      "skeleton4a"
+     ]
+    }
+   ]
   },
   {
    "id": "wb_pod_zlotym_swiniakiem",
@@ -3766,6 +3802,7 @@
     {
      "title": "Упоминается в",
      "ids": [
+      "dogs12a",
       "wb_instancje"
      ]
     }
@@ -3792,6 +3829,7 @@
     {
      "title": "Упоминается в",
      "ids": [
+      "kolekcjoner1a",
       "wb_instancje"
      ]
     }
@@ -3818,6 +3856,7 @@
     {
      "title": "Упоминается в",
      "ids": [
+      "dogs12a",
       "wb_wieza_ghadiry"
      ]
     }

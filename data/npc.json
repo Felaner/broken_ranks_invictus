@@ -22,7 +22,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m267\">Беирн</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -52,7 +51,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m196\">Убежище</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": []
   },
   {
@@ -75,7 +73,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": []
   },
   {
@@ -98,7 +95,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": []
   },
   {
@@ -121,7 +117,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": []
   },
   {
@@ -144,7 +139,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m221\">Владения Ландау</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": []
   },
   {
@@ -167,7 +161,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m211\">Деревня друидов</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m252\">Перекресток</span>, <span data-maps=\"m289\">Лес Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": []
   },
   {
@@ -186,7 +179,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>, <span data-maps=\"m171\">Жилища</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -222,7 +214,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -257,8 +248,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "gardar3a",
@@ -280,7 +270,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -305,8 +294,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "nikodemnikodema",
@@ -324,7 +312,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -359,8 +346,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "borghilda",
@@ -377,8 +363,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "koldguardian",
@@ -395,8 +380,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "koldsulog",
@@ -413,8 +397,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "magalwana",
@@ -432,7 +415,6 @@
      "html": "<span data-maps=\"m90\">Плато Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -458,7 +440,6 @@
      "html": "<span data-maps=\"m90\">Плато Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -484,7 +465,6 @@
      "html": "<span data-maps=\"m90\">Плато Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -509,8 +489,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>, <span data-maps=\"m171\">Жилища</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "ludwig",
@@ -531,8 +510,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>, <span data-maps=\"m171\">Жилища</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "rycerzolafc",
@@ -549,8 +527,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m168\">Башня</span>, <span data-maps=\"m169\">Башня</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "rycerzberer",
@@ -568,7 +545,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m181\">Комната Берера</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -596,7 +572,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>, <span data-maps=\"m236\">Устричный Залив</span>, <span data-maps=\"m273\">Таверна под Пиком</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>, <span data-maps=\"m36\">Горы Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -622,7 +597,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -648,7 +622,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m278\">Дом Стасика</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -675,7 +648,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Создаёт",
@@ -727,7 +699,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m35\">Лес Орков</span>, <span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m79\">Пещера у орков</span>, <span data-maps=\"m80\">Пещера у орков</span>, <span data-maps=\"m90\">Плато Дмортер</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -767,7 +738,6 @@
      "html": "<span data-maps=\"m424\">Пустошь Хвара</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -798,7 +768,6 @@
      "html": "<span data-maps=\"m424\">Пустошь Хвара</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -824,7 +793,6 @@
      "html": "<span data-maps=\"m120\">Вымершее поселение</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -860,7 +828,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -898,7 +865,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -934,7 +900,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -970,7 +935,6 @@
      "html": "<span data-maps=\"m211\">Деревня друидов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1006,7 +970,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1042,7 +1005,6 @@
      "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m97\">Владения Дарко Гнарла</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1078,7 +1040,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1114,7 +1075,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m73\">Святилище Камня</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1150,7 +1110,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1186,7 +1145,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1222,7 +1180,6 @@
      "html": "<span data-maps=\"m102\">Рыбацкая Деревня</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1264,7 +1221,6 @@
      "html": "<span data-maps=\"m211\">Деревня друидов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1307,8 +1263,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m267\">Беирн</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "konwojenta",
@@ -1325,8 +1280,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>, <span data-maps=\"m36\">Горы Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "marlenarenia",
@@ -1348,7 +1302,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m272\">Дом травницы</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1383,7 +1336,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m276\">Дом Солтыса</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1425,7 +1377,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m228\">Уступ</span>, <span data-maps=\"m260\">Нора двеиров</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Создаёт",
@@ -1460,7 +1411,6 @@
      "html": "<span data-maps=\"m211\">Деревня друидов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1487,7 +1437,6 @@
      "html": "<span data-maps=\"m211\">Деревня друидов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1515,7 +1464,6 @@
      "html": "<span data-maps=\"m211\">Деревня друидов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -1552,7 +1500,6 @@
      "html": "<span data-maps=\"m211\">Деревня друидов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Создаёт",
@@ -1588,7 +1535,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m13\">Пещеры под Границей</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m222\">Побережье</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1613,8 +1559,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "larsa",
@@ -1632,7 +1577,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1658,7 +1602,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1686,7 +1629,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1711,8 +1653,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesAdaira",
@@ -1729,8 +1670,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesFleghruma",
@@ -1747,8 +1687,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m289\">Лес Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesTruna",
@@ -1766,7 +1705,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m221\">Владения Ландау</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1792,7 +1730,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m221\">Владения Ландау</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1831,7 +1768,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>, <span data-maps=\"m128\">Болота</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -1863,7 +1799,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>, <span data-maps=\"m128\">Болота</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Создаёт",
@@ -1895,7 +1830,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m120\">Вымершее поселение</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1920,8 +1854,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m289\">Лес Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "heremonaO",
@@ -1939,7 +1872,6 @@
      "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m60\">Домик друидов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -1970,8 +1902,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m289\">Лес Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "caiaCaiaa",
@@ -1989,7 +1920,6 @@
      "html": "<span data-maps=\"m289\">Лес Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2014,8 +1944,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m97\">Владения Дарко Гнарла</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesIzidrula",
@@ -2033,7 +1962,6 @@
      "html": "<span data-maps=\"m35\">Лес Орков</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2060,7 +1988,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>, <span data-maps=\"m133\">Посад</span>, <span data-maps=\"m33\">Болото</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2085,8 +2012,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m118\">Ратуша</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "sekretarzsedziegoa",
@@ -2104,7 +2030,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m118\">Ратуша</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2130,7 +2055,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m66\">Нижний Кеменак</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2157,7 +2081,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>, <span data-maps=\"m274\">Таверна под Пиком</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2187,7 +2110,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>, <span data-maps=\"m274\">Таверна под Пиком</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2216,7 +2138,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2241,8 +2162,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "dainir1a",
@@ -2259,8 +2179,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "maghengrisac",
@@ -2278,7 +2197,6 @@
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2303,8 +2221,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m182\">Внутренний двор Харблуда</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "keontocha",
@@ -2321,8 +2238,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m183\">Бандитское логово</span>, <span data-maps=\"m184\">Чертоги Эвринтов</span>, <span data-maps=\"m185\">Чертоги Эвринтов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "araureAraurea",
@@ -2339,8 +2255,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m183\">Бандитское логово</span>, <span data-maps=\"m184\">Чертоги Эвринтов</span>, <span data-maps=\"m185\">Чертоги Эвринтов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "ekszellEkszella",
@@ -2357,8 +2272,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m183\">Бандитское логово</span>, <span data-maps=\"m184\">Чертоги Эвринтов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesHuberta",
@@ -2376,7 +2290,6 @@
      "html": "<span data-maps=\"m289\">Лес Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -2403,7 +2316,6 @@
      "html": "<span data-maps=\"m289\">Лес Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2429,7 +2341,6 @@
      "html": "<span data-maps=\"m289\">Лес Колдов</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -2468,8 +2379,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m289\">Лес Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesKherka",
@@ -2486,8 +2396,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m57\">Медвежья пещера</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "mandua",
@@ -2504,8 +2413,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "trinua",
@@ -2522,8 +2430,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "maghumbolda",
@@ -2541,7 +2448,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2567,8 +2473,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m11\">Маяк</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "avira",
@@ -2585,8 +2490,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m236\">Устричный Залив</span>, <span data-maps=\"m237\">Домик на пляже</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "simona",
@@ -2603,8 +2507,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "roman1a",
@@ -2622,7 +2525,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -2659,8 +2561,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "markoa",
@@ -2677,8 +2578,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "darkognarla",
@@ -2696,7 +2596,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2721,8 +2620,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesemilkaa",
@@ -2739,8 +2637,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "godrewa",
@@ -2758,7 +2655,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -2783,8 +2679,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>, <span data-maps=\"m140\">Дом наслаждений</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "grubya",
@@ -2801,8 +2696,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "aellaac",
@@ -2820,7 +2714,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m358\">Госпиталь</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2859,7 +2752,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2885,8 +2777,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesissaa",
@@ -2903,8 +2794,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "simzaa",
@@ -2921,8 +2811,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m209\">Аларил</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "violaa",
@@ -2940,7 +2829,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -2971,7 +2859,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2998,7 +2885,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m252\">Перекресток</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Продаёт / выдаёт",
@@ -3027,7 +2913,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m66\">Нижний Кеменак</span>, <span data-maps=\"m68\">Администрация шахты</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3052,8 +2937,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m69\">Чертоги стражи</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "rajna1a",
@@ -3070,8 +2954,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "kudlatyv2a",
@@ -3089,7 +2972,6 @@
      "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3114,8 +2996,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "grozdan1a",
@@ -3133,7 +3014,6 @@
      "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3158,8 +3038,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "warnika",
@@ -3177,7 +3056,6 @@
      "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>, <span data-maps=\"m426\">Штаб Варника</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3208,8 +3086,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "archiwumitema",
@@ -3226,8 +3103,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m382\">Университетская Талия</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "facesFrahlumpac",
@@ -3249,7 +3125,6 @@
      "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m12\">Пещеры под Топями</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3274,8 +3149,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>, <span data-maps=\"m287\">Пещера великанов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "rycerzhaligardukuszatarcza1ac",
@@ -3296,8 +3170,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m36\">Горы Колдов</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "scoundrelarcher3aN",
@@ -3315,7 +3188,6 @@
      "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m81\">Пещеры насекомых</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3341,7 +3213,6 @@
      "html": "<span data-maps=\"m120\">Вымершее поселение</span>, <span data-maps=\"m18\">Шахта</span>, <span data-maps=\"m19\">Шахта - коридор</span>, <span data-maps=\"m20\">Шахта - гробница</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3374,7 +3245,6 @@
      "html": "<span data-maps=\"m121\">Разбойничий Лес</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3403,8 +3273,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "barbarian1aSt",
@@ -3426,7 +3295,6 @@
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3451,8 +3319,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "przewoznika",
@@ -3473,8 +3340,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "blacksmithoffaith1a",
@@ -3492,7 +3358,6 @@
      "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m172\">Пещера</span>, <span data-maps=\"m427\">Кузня Судьбы</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3517,8 +3382,7 @@
      "title": "Где найти",
      "html": "<span data-maps=\"m465\">Монастырские земли</span>"
     }
-   ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/"
+   ]
   },
   {
    "id": "wulgarfa",
@@ -3536,7 +3400,6 @@
      "html": "<span data-maps=\"m465\">Монастырские земли</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3564,7 +3427,6 @@
      "html": "<span data-maps=\"m465\">Монастырские земли</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -3591,7 +3453,6 @@
      "html": "<span data-maps=\"m465\">Монастырские земли</span>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/others/npc/",
    "backrefs": [
     {
      "title": "Упоминается в",

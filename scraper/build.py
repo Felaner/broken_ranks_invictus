@@ -9,6 +9,7 @@
 """
 
 import ast
+import html as H
 import json
 import re
 from collections import Counter
@@ -400,8 +401,9 @@ def build_entry(o, section, category):
         if o.get(key):
             fields.append([f"{name}-орб", " / ".join(map(fmt, o[key]))])
 
-    if isinstance(o.get("mapa"), dict) and o["mapa"].get("ru"):
-        fields.append(["Расположение", o["mapa"]["ru"]])
+    mapa = o.get("mapa")
+    if isinstance(mapa, str) and mapa.strip() and mapa.strip() != "-":
+        fields.append(["Расположение", text_of(mapa)])
     if o.get("areaMap"):
         flat = []
         for m in o["areaMap"]:
@@ -438,7 +440,6 @@ def build_entry(o, section, category):
         "level": level,
         "fields": fields,
         "blocks": blocks,
-        "sourceUrl": SECTION_URL[section],
     }
 
 
@@ -611,6 +612,197 @@ def add_attacks():
                 e.pop("attacks", None)
 
 
+# ---------- мобы: статистика по сложностям, умения, локации ----------
+
+PATH_KEYS = (("познания", "e"), ("приключения", "n"), ("испытания", "h"))
+STAT_LABELS = ("Уровень", "Здоровье", "Мана", "Выносливость")
+
+
+def nkey(t):
+    t = re.sub(r"<[^>]+>", " ", t or "").lower().replace("ё", "е")
+    return re.sub(r"\s+", " ", re.sub(r"[,.;:!?«»\"()]", " ", t)).strip()
+
+
+def stats_by_path(html):
+    """Таблица «Статистика» второй вики -> {"Уровень": {"e": "20", "n": "30", "h": "40"}, ...}."""
+    soup = BeautifulSoup(html, "html.parser")
+    tbl = soup.find("table")
+    if not tbl:
+        return {}
+    rows = tbl.find_all("tr")
+    keys = []
+    for c in rows[0].find_all(["td", "th"], recursive=False) if rows else []:
+        title = " ".join(i.get("title", "") for i in c.find_all("img")) + " " + c.get_text(" ")
+        keys.append(next((k for w, k in PATH_KEYS if w in title.lower()), None))
+    out = {}
+    for r in rows[1:]:
+        for key, c in zip(keys, r.find_all(["td", "th"], recursive=False)):
+            if not key:
+                continue
+            for label, val in re.findall(r"(Уровень|Здоровье|Мана|Выносливость)\s*:\s*([\d\s]+)", c.get_text(" ")):
+                v = re.sub(r"\s+", "", val)
+                if v:
+                    out.setdefault(label, {})[key] = v
+    return out
+
+
+def split_names(html):
+    parts = re.split(r"<br/?>|</?p>|</?div[^>]*>|</?li>|,\s*", html or "")
+    return [t for t in (re.sub(r"\s+", " ", text_of(x)).strip(" -—") for x in parts) if t and t != "-"]
+
+
+def tidy_mobs(maps):
+    """Статистику по путям — в значения по сложностям, умения — ссылками, локации — одним блоком для всех."""
+    mobs = SECTIONS_OUT["mobs"][1]
+    guides = SECTIONS_OUT.get("guides", ([], []))[1]
+    by_id = {e["id"]: e for _, ents in SECTIONS_OUT.values() for e in ents}
+    skills = {nkey(e["name"]): e["id"] for e in SECTIONS_OUT["skills"][1]}
+    map_exact, map_prefix = {}, {}
+    for m in maps:
+        if m.get("unnamed"):
+            continue
+        k = nkey(m["name"])
+        map_exact.setdefault(k, m["id"])
+        map_prefix.setdefault(nkey(re.split(r"\s+[-—–]\s+", m["name"])[0]), m["id"])
+    points = {}
+    for m in maps:
+        for p in m["points"]:
+            points.setdefault(p["id"], []).append(m["id"])
+    articles = {nkey(a["name"]): a["id"] for a in guides if a["category"] in ("locations", "instances")}
+    art_refs = {}
+    for a in guides:
+        if a["category"] in ("locations", "instances"):
+            for b in a["blocks"]:
+                for i in re.findall(r'data-items="([^"]+)"', b["html"]):
+                    art_refs.setdefault(i, []).append(a["name"])
+    # Таблица респауна: моб -> локации.
+    # Таблицы статей с колонкой «Локация» (респаун, элита, боссы…): моб -> локации.
+    respawn = {}
+    for a in guides:
+        for blk in a["blocks"]:
+            for tbl in re.findall(r"<table[^>]*>(.*?)</table>", blk["html"], re.S):
+                col = None
+                for row in re.findall(r"<tr[^>]*>(.*?)</tr>", tbl, re.S):
+                    cells = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S)
+                    heads = [nkey(c) for c in cells]
+                    if any(h in ("локация", "локации", "местонахождение") for h in heads):
+                        col = next(i for i, h in enumerate(heads) if h in ("локация", "локации", "местонахождение"))
+                        continue
+                    ids = re.findall(r'data-items="([^"]+)"', row)
+                    if col is not None and ids and len(cells) > col:
+                        respawn.setdefault(ids[0], []).extend(split_names(cells[col]))
+    # Отряды боссов и чемпионов: участник -> вожак.
+    owners = {}
+    for sec in ("bossMain", "champsMain"):
+        for o in DB.get(sec, {}).values():
+            team = json.dumps([o.get("teamB"), o.get("team")], ensure_ascii=False)
+            for i in dict.fromkeys(re.findall(r'data-items=\\"([^"\\]+)', team)):
+                if i != o["id"]:
+                    owners.setdefault(i, []).append(o["id"])
+
+    def link(name):
+        k = nkey(name)
+        if k in map_exact:
+            return f'<span data-maps="{map_exact[k]}">{H.escape(name)}</span>'
+        if k in articles:
+            return f'<span data-items="{articles[k]}">{H.escape(name)}</span>'
+        if k in map_prefix:
+            return f'<span data-maps="{map_prefix[k]}">{H.escape(name)}</span>'
+        return H.escape(name)
+
+    names_of, stats_moved, skill_links = {}, 0, 0
+    for e in mobs:
+        # 1) Статистика по путям -> значения по сложностям; сами таблицы не нужны (есть полосы и поля).
+        st = next((b for b in e["blocks"] if b["title"] == "Статистика"), None)
+        if st:
+            vals = stats_by_path(st["html"])
+            lvl = vals.get("Уровень", {})
+            if len(lvl) >= 2 and str(lvl.get("n", e.get("level"))) == str(e.get("level")):
+                for label in STAT_LABELS:
+                    v = vals.get(label)
+                    f = next((f for f in e["fields"] if f[0] == label), None)
+                    if v and len(set(v.values())) > 1 and f and not isinstance(f[1], dict):
+                        f[1] = {k: fmt(int(v[k])) if k in v else "-" for _, k in PATH_KEYS}
+                        stats_moved += 1
+        e["blocks"] = [b for b in e["blocks"] if not b["title"].endswith("Статистика")
+                       and (text_of(b["html"]).strip(" -—") or "<img" in b["html"])]
+        # 2) Умения — ссылками на раздел «Навыки».
+        for b in e["blocks"]:
+            if not b["title"].endswith("Умения") or "<td" not in b["html"]:
+                continue
+            items = []
+            for cell in re.findall(r"<td[^>]*>(.*?)</td>", b["html"], re.S):
+                parts = re.split(r"<p>|<br/?>", cell, maxsplit=1)
+                name = text_of(parts[0])
+                if not name or name == "-":
+                    continue
+                note = text_of(parts[1]) if len(parts) > 1 else ""
+                sid = skills.get(nkey(name))
+                skill_links += bool(sid)
+                ref = f'<span data-items="{sid}">{H.escape(name)}</span>' if sid else H.escape(name)
+                items.append(f"<li>{ref}{f' <small>— {H.escape(note.lower())}</small>' if note else ''}</li>")
+            if items:
+                b["html"] = '<ul class="plain-list">' + "".join(items) + "</ul>"
+        # 3) Локации из всех источников.
+        names = []
+        for f in [f for f in e["fields"] if f[0] == "Расположение"]:
+            names += split_names(str(f[1]))
+            e["fields"].remove(f)
+        for b in [b for b in e["blocks"] if b["title"].endswith("Локация")]:
+            names += split_names(b["html"])
+            e["blocks"].remove(b)
+        names += respawn.get(e["id"], []) + art_refs.get(e["id"], [])
+        names += [MAP_NAMES.get(m, m) for m in points.get(e["id"], [])]
+        seen, uniq = set(), []
+        for n in names:
+            if nkey(n) and nkey(n) not in seen:
+                seen.add(nkey(n))
+                uniq.append(n)
+        names_of[e["id"]] = uniq
+    # Упоминание по названию (без ссылки) в статьях о локациях и инстансах.
+    art_text = [(a["name"], nkey(" ".join(b["html"] for b in a["blocks"]))) for a in guides
+                if a["category"] in ("locations", "instances")]
+    for e in mobs:
+        n = nkey(e["name"])
+        if names_of[e["id"]] or len(n) < 4:
+            continue
+        rx = re.compile(r"(?<![а-яa-z])" + re.escape(n) + r"(?![а-яa-z])")
+        names_of[e["id"]] = list(dict.fromkeys(an for an, t in art_text if rx.search(t)))
+    # Сопартийцы из блоков «Команда»: кто в одной группе — тот там же.
+    mates = {}
+    for e in mobs:
+        for b in e["blocks"]:
+            if b["title"].endswith("Команда"):
+                for i in set(re.findall(r'data-items="([^"]+)"', b["html"])) - {e["id"]}:
+                    mates.setdefault(i, set()).add(e["id"])
+                    mates.setdefault(e["id"], set()).add(i)
+    located = 0
+    for e in mobs:
+        lines = [f"<li>{link(n)}</li>" for n in names_of[e["id"]]]
+        if not lines:
+            with_loc = [m for m in sorted(mates.get(e["id"], ())) if names_of.get(m)]
+            if with_loc:
+                lines = [f"<li>{link(n)}</li>" for n in dict.fromkeys(n for m in with_loc for n in names_of[m])]
+                lines.append("<li><small>в одной группе с: " + ", ".join(
+                    f'<span data-items="{m}">{H.escape(by_id[m]["name"])}</span>' for m in with_loc[:5]) + "</small></li>")
+        team = []
+        for oid in dict.fromkeys(owners.get(e["id"], [])):
+            if oid in by_id:
+                where = names_of.get(oid) or []
+                team.append(f'<span data-items="{oid}">{H.escape(by_id[oid]["name"])}</span>'
+                            + (f" ({', '.join(link(n) for n in where[:3])})" if where else ""))
+        html = ""
+        if lines:
+            html += '<ul class="plain-list">' + "".join(lines) + "</ul>"
+        if team:
+            html += "<p>В отряде: " + ", ".join(team) + "</p>"
+        if html:
+            located += 1
+            e["blocks"].insert(0, {"title": "Локация", "html": html})
+    print(f"Мобы: локация у {located} из {len(mobs)}, статистика по сложностям у {stats_moved} полей, "
+          f"связанных умений: {skill_links}")
+
+
 def add_backrefs():
     known = {e["id"]: e for _, ents in SECTIONS_OUT.values() for e in ents}
     back = {}
@@ -632,7 +824,7 @@ def add_backrefs():
 
 
 def build_maps():
-    """data/maps.js: карты с картинками, порталами и точками объектов."""
+    """Карты с картинками, порталами и точками объектов (для data/maps.js)."""
     images = {}
     m = re.search(r"const MAPS = \{(.*?)\};", _js, re.S)
     if m:
@@ -686,7 +878,10 @@ def build_maps():
         if mp["name"] in ("Название", mp["id"]):
             mp["name"] = f"Безымянная локация №{mp['id'][1:]}"
             mp["unnamed"] = True
-    out = sorted(maps.values(), key=lambda x: (bool(x.get("unnamed")), int(re.sub(r"\D", "", x["id"]) or 0)))
+    return sorted(maps.values(), key=lambda x: (bool(x.get("unnamed")), int(re.sub(r"\D", "", x["id"]) or 0)))
+
+
+def write_maps(out):
     payload = json.dumps(out, ensure_ascii=False, separators=(",", ":"))
     (DATA / "maps.js").write_text(f"window.BR_MAPS = {payload};\n", "utf-8")
     print(f"maps: {len(out)} карт, точек: {sum(len(x['points']) for x in out)}, "
@@ -1172,12 +1367,14 @@ def main():
     write("skills", [], [build_entry(o, "skills", "_") for o in DB["skillsMain"].values()])
     add_wikibr()
     add_attacks()
+    maps = build_maps()
+    tidy_mobs(maps)
     add_backrefs()
     for sid, (cats, entries) in SECTIONS_OUT.items():
         write_out(sid, cats, entries)
     import static_pages
     static_pages.generate(SECTIONS_OUT)
-    build_maps()
+    write_maps(maps)
     (SRC / "needed_images.txt").write_text("\n".join(sorted(needed_images)) + "\n", "utf-8")
     print(f"Недостающих картинок: {len(needed_images)} (scraper/source/needed_images.txt)")
     (SRC / "needed_wikibr.txt").write_text("\n".join(sorted(needed_wikibr)) + "\n", "utf-8")
