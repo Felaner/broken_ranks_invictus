@@ -192,7 +192,7 @@
     const [path, query = ""] = location.hash.replace(/^#/, "").split("?");
     const parts = path.split("/").filter(Boolean).map(decodeURIComponent);
     const params = new URLSearchParams(query);
-    return { parts, entryId: params.get("e"), hl: params.get("hl") };
+    return { parts, entryId: params.get("e"), hl: params.get("hl"), b: params.get("b") };
   }
 
   function href(parts, entryId, extra = {}) {
@@ -281,6 +281,7 @@
     html += item(kind === "marks", "#/marks", "✅", "Есть у меня", marks.size);
     html += item(kind === "cmp", "#/cmp", "⚖️", "Сравнение", compare.size);
     html += item(kind === "maps", "#/maps", "🗺️", "Карты", db.maps.length || null);
+    html += item(kind === "build", "#/build", "🧥", "Переодевалка", Object.keys(build.items).length || null);
     html += item(kind === "s" && secId === "equipment" && catId === "kits", href(["s", "equipment", "kits"]), "🧩",
       "Комплекты", db.sections.equipment?.categories.find(c => c.id === "kits")?.count);
     html += `</div><div class="nav-title">Разделы</div><div class="nav-group">`;
@@ -732,6 +733,309 @@
     if (hlNode) setTimeout(() => hlNode.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" }), 50);
   }
 
+  // ---------- переодевалка ----------
+
+  const WEAPON_CATS = ["axe", "axe_th", "sword", "sword_th", "hammer", "hammer_th", "knuckles", "stick", "bow", "epic", "sets"];
+  const SLOTS = [
+    { id: "helmet", name: "Шлем", cats: ["helmets"] },
+    { id: "amulet", name: "Амулет", cats: ["amulets"] },
+    { id: "bracers", name: "Наручи", cats: ["bracers"] },
+    { id: "gloves", name: "Перчатки", cats: ["gloves"] },
+    { id: "ring1", name: "Кольцо", cats: ["rings"] },
+    { id: "ring2", name: "Кольцо", cats: ["rings"] },
+    { id: "offhand", name: "Щит", cats: ["shield", "sets"] },
+    { id: "boots", name: "Сапоги", cats: ["boots"] },
+    { id: "weapon", name: "Оружие", cats: WEAPON_CATS },
+    { id: "pants", name: "Штаны", cats: ["pants"] },
+    { id: "belt", name: "Пояс", cats: ["belts"] },
+    { id: "armor", name: "Броня", cats: ["armors"] },
+    { id: "cape", name: "Плащ", cats: ["capes"] },
+  ];
+  const BASE_STATS = [["Здоровье", "hp", "❤"], ["Мана", "mana", "✷"], ["Выносливость", "stam", "🏃"],
+    ["Сила", "sila", "💪"], ["Ловкость", "lov", "✋"], ["Мощь", "mosh", "🌀"], ["Знание", "zn", "📖"], ["Интеллект", "int", "🧠"]];
+  const RESISTS = [["Сопр. рубящим", "Рубящие"], ["Сопр. дробящим", "Дробящие"], ["Сопр. колющим", "Колющие"],
+    ["Сопр. огню", "Огонь"], ["Сопр. холоду", "Холод"], ["Сопр. энергии", "Энергия"], ["Сопр. менталу", "Ментал"]];
+  const REQS = [["Требуемая сила", "Сила"], ["Требуемая ловкость", "Ловкость"], ["Требуемая мощь", "Мощь"], ["Требуемое знание", "Знание"]];
+  const CLASS_NAMES = ["Варвар", "Вуду", "Друид", "Лучник", "Огненный маг", "Рыцарь", "Шид"];
+  // Доля бонуса комплекта от числа надетых частей (по статье «Сеты»).
+  const SET_SHARE = { 3: [0, 0, 0.4, 1], 4: [0, 0, 0.25, 0.5, 1], 5: [0, 0, 0.2, 0.4, 0.6, 1] };
+
+  const emptyBuild = () => ({ cls: "", lvl: 1, base: {}, items: {} });
+  let build = Object.assign(emptyBuild(), store.get("build", {}));
+  const saveBuild = () => store.set("build", build);
+
+  const fnum = (e, label) => {
+    const v = num(fv(fieldOf(e, label)));
+    return isNaN(v) ? 0 : v;
+  };
+  const itemType = e => String(fv(fieldOf(e, "Тип")) || "");
+  const isShield = e => /щит/i.test(itemType(e));
+  const isTwoHanded = e => /двуручн|лук/i.test(itemType(e)) || /_th$|^bow$/.test(e.category);
+  function fitsSlot(e, slot) {
+    if (e.section !== "equipment" || !slot.cats.includes(e.category)) return false;
+    if (e.category === "sets") return slot.id === "offhand" ? isShield(e) : !isShield(e);
+    return true;
+  }
+  const slotFor = e => SLOTS.find(s => fitsSlot(e, s) && (s.id !== "ring1" || !build.items.ring1)) ||
+    SLOTS.find(s => fitsSlot(e, s));
+
+  // Снижение урона от очков сопротивления. Подобрано по игре: 41 → 35,5%, 80 → 52,5%, 82 → 53,25%.
+  // Выше 82 очков формула не проверена — показываем «≈».
+  function resistPct(p) {
+    let left = Math.max(0, p), pct = 0;
+    for (const [len, k] of [[20, 1], [20, 0.75], [20, 0.5], [Infinity, 0.375]]) {
+      const d = Math.min(left, len);
+      pct += d * k;
+      left -= d;
+      if (!left) break;
+    }
+    return Math.min(pct, 100);
+  }
+
+  function parseMods(html) {
+    const out = [];
+    for (const line of stripTags(String(html || "").replace(/<br\s*\/?>/gi, "\n")).split("\n")) {
+      const m = line.trim().match(/^(.+?)\s*([+-]\s*[\d.,]+)\s*(%?)$/);
+      if (m) out.push([m[1].trim(), num(m[2].replace(/\s/g, "")), m[3]]);
+    }
+    return out;
+  }
+
+  function computeBuild() {
+    const items = SLOTS.map(s => [s, db.byId.get(build.items[s.id])]).filter(([, e]) => e);
+    const total = {}, fromItems = {}, mods = new Map(), res = {};
+    for (const [label, key] of BASE_STATS) total[label] = num(build.base[key]) || 0;
+    const addMod = (name, val, pct, k = 1) => {
+      const v = k < 1 ? Math.floor(val * k) : val * k;
+      if (!pct && name in total) { total[name] += v; fromItems[name] = (fromItems[name] || 0) + v; return; }
+      const key = name + (pct ? " %" : "");
+      mods.set(key, (mods.get(key) || 0) + v);
+    };
+    for (const [label] of RESISTS) res[label] = 0;
+    let weaponDmg = 0;
+    for (const [slot, e] of items) {
+      for (const [label] of BASE_STATS) {
+        const v = fnum(e, label);
+        total[label] += v;
+        if (v) fromItems[label] = (fromItems[label] || 0) + v;
+      }
+      for (const [label] of RESISTS) res[label] += fnum(e, label);
+      if (slot.id === "weapon") weaponDmg = fnum(e, "Урон");
+      for (const b of e.blocks) if (b.title === "Модификаторы") for (const [n, v, p] of parseMods(b.html)) addMod(n, v, p);
+    }
+    // Комплекты.
+    const equippedIds = new Set(items.map(([, e]) => e.id));
+    const sets = [];
+    for (const kit of db.sections.equipment?.entries.filter(e => e.category === "kits") || []) {
+      const partsBlock = kit.blocks.find(b => b.title === "Части комплекта");
+      const parts = partsBlock ? [...new Set([...partsBlock.html.matchAll(/data-items="([^"]+)"/g)].map(m => m[1]))] : [];
+      const have = parts.filter(id => equippedIds.has(id)).length;
+      if (!have) continue;
+      const share = (SET_SHARE[parts.length] || [])[have] ?? (have === parts.length ? 1 : 0);
+      const bonus = kit.blocks.find(b => b.title === "Бонус комплекта" || b.title === "Модификаторы");
+      const list = bonus ? parseMods(bonus.html) : [];
+      if (share) for (const [n, v, p] of list) addMod(n, v, p, share);
+      sets.push({ kit, have, total: parts.length, share, list });
+    }
+    // Требования.
+    const problems = [];
+    for (const [slot, e] of items) {
+      const lvl = fnum(e, "Требуемый уровень");
+      if (lvl > (num(build.lvl) || 0)) problems.push([slot, e, `нужен ${lvl} уровень`]);
+      const cls = fv(fieldOf(e, "Требуемый класс"));
+      if (cls && build.cls && cls !== build.cls) problems.push([slot, e, `только для класса «${cls}»`]);
+      for (const [rl, stat] of REQS) {
+        const need = fnum(e, rl);
+        if (need > total[stat]) problems.push([slot, e, `нужно ${stat.toLowerCase()} ${need} (сейчас ${Math.floor(total[stat])})`]);
+      }
+    }
+    const w = items.find(([s]) => s.id === "weapon")?.[1];
+    if (w && isTwoHanded(w) && build.items.offhand) problems.push([SLOTS.find(s => s.id === "offhand"),
+      db.byId.get(build.items.offhand), "двуручное оружие занимает обе руки"]);
+    // Power (по статье «Сила (PvE)»), без бонусов психо и орбов.
+    const lvl = num(build.lvl) || 0;
+    const power = Math.round(
+      (total["Сила"] + total["Ловкость"] + total["Мощь"] + total["Знание"] + total["Интеллект"]) + 2 * weaponDmg +
+      (total["Здоровье"] + total["Выносливость"] + total["Мана"]) / 10 +
+      0.4 * (res["Сопр. рубящим"] + res["Сопр. дробящим"] + res["Сопр. колющим"]) +
+      0.3 * (res["Сопр. огню"] + res["Сопр. холоду"] + res["Сопр. энергии"]) + 0.6 * res["Сопр. менталу"] +
+      lvl * (lvl + 1) / 8);
+    return { items, total, fromItems, res, mods, sets, problems, power, weaponDmg };
+  }
+
+  const fmtN = v => {
+    const r = Math.round(v * 100) / 100;
+    return Math.abs(r) >= 10000 ? r.toLocaleString("ru-RU") : String(r).replace(".", ",");
+  };
+
+  function buildLink() {
+    const data = { c: build.cls, l: build.lvl, b: build.base, i: build.items };
+    const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(data)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+    return location.href.split("#")[0] + "#/build?b=" + b64;
+  }
+  function importBuild(b64) {
+    try {
+      const s = decodeURIComponent(escape(atob(b64.replace(/-/g, "+").replace(/_/g, "/"))));
+      const d = JSON.parse(s);
+      build = { cls: d.c || "", lvl: d.l || 1, base: d.b || {}, items: d.i || {} };
+      saveBuild();
+    } catch { /* битая ссылка — оставляем текущую сборку */ }
+  }
+
+  const bon = (sel, ev, fn) => $(sel)?.addEventListener(ev, fn);
+
+  function renderBuild(route) {
+    if (route.b) {
+      importBuild(route.b);
+      history.replaceState(null, "", "#/build");
+    }
+    const r = computeBuild();
+    const bad = new Set(r.problems.map(([s]) => s.id));
+    const n = SLOTS.length;
+    const slotHtml = SLOTS.map((s, i) => {
+      const a = (i / n) * 2 * Math.PI - Math.PI / 2;
+      const x = 50 + 42 * Math.cos(a), y = 50 + 42 * Math.sin(a);
+      const e = db.byId.get(build.items[s.id]);
+      const blocked = s.id === "offhand" && (() => { const w = db.byId.get(build.items.weapon); return w && isTwoHanded(w); })();
+      return `<button class="doll-slot ${e ? "filled" : ""} ${bad.has(s.id) ? "bad" : ""} ${blocked && !e ? "blocked" : ""}"
+          style="left:${x}%;top:${y}%" data-slot="${s.id}" ${e ? `data-items="${esc(e.id)}"` : ""}
+          title="${esc(e ? e.name : s.name + (blocked ? " — занято двуручным оружием" : ""))}">
+        ${e ? `<img src="${esc(e.icon)}" alt="">` : `<span>${esc(s.name)}</span>`}
+        ${e ? `<i class="doll-x" data-unequip="${s.id}" title="Снять">×</i>` : ""}
+      </button>`;
+    }).join("");
+
+    const statRows = BASE_STATS.map(([label, key, ico]) => `<tr>
+        <th><span class="st-ico">${ico}</span>${label}</th>
+        <td><input class="b-in" type="number" min="0" data-base="${key}" value="${esc(build.base[key] ?? "")}" placeholder="0"></td>
+        <td class="sum">${fmtN(r.total[label])}</td>
+        <td class="plus">${r.fromItems[label] ? "+" + fmtN(r.fromItems[label]) : ""}</td></tr>`).join("");
+    const resRows = RESISTS.map(([label, name]) => {
+      const p = r.res[label], pct = resistPct(p);
+      return `<tr><th>${name}</th><td class="sum">${fmtN(p)}</td>
+        <td><div class="res-bar"><i style="width:${Math.min(100, pct)}%"></i></div></td>
+        <td class="pct">${p > 82 ? "≈" : ""}${fmtN(Math.round(pct * 100) / 100)}%</td></tr>`;
+    }).join("");
+    const modRows = [...r.mods.entries()].sort((a, b) => a[0].localeCompare(b[0], "ru"))
+      .map(([k, v]) => `<li>${esc(k.replace(/ %$/, ""))} <b>${v > 0 ? "+" : ""}${fmtN(v)}${k.endsWith(" %") ? "%" : ""}</b></li>`).join("");
+    const setRows = r.sets.map(s => `<li><a href="${entryHref(s.kit)}">${esc(s.kit.name)}</a> — ${s.have}/${s.total},
+        бонус ${Math.round(s.share * 100)}%</li>`).join("");
+
+    els.main.innerHTML = `<h1 class="page-title">Переодевалка</h1>
+      <p class="page-sub">Соберите комплект и посмотрите итоговые характеристики, сопротивления и требования.
+        Базу (колонка «Основа» в окне характеристик) введите из игры — она сохранится в браузере.</p>
+      <div class="builder">
+        <section class="b-panel">
+          <div class="b-row">
+            <label>Класс <select id="bCls"><option value="">— любой —</option>
+              ${CLASS_NAMES.map(c => `<option ${build.cls === c ? "selected" : ""}>${c}</option>`).join("")}</select></label>
+            <label>Уровень <input id="bLvl" type="number" min="1" max="300" value="${esc(build.lvl)}"></label>
+          </div>
+          <table class="b-stats"><thead><tr><th>Характеристики</th><th>Основа</th><th>Сумма</th><th></th></tr></thead>
+            <tbody>${statRows}</tbody></table>
+          <table class="b-res"><thead><tr><th>Устойчивости</th><th>Очки</th><th></th><th>Уменьшение</th></tr></thead>
+            <tbody>${resRows}</tbody></table>
+          <p class="muted small">Уменьшение урона рассчитано по формуле, подобранной по игре; значения выше 82 очков — приблизительные (≈).</p>
+        </section>
+        <section class="b-doll">
+          <div class="doll">
+            ${slotHtml}
+            <div class="doll-center">
+              <b>${esc(build.cls || "Персонаж")}</b>
+              <span>${esc(build.lvl || 1)} уровень</span>
+              <span class="doll-power" title="Сила персонажа (Power) без бонусов психо и орбов">Power ≈ ${fmtN(r.power)}</span>
+            </div>
+          </div>
+          <div class="b-actions">
+            <button class="btn" id="bShare">🔗 Ссылка на сборку</button>
+            <button class="btn" id="bClear">Снять всё</button>
+          </div>
+          <p class="muted small">Нажмите на слот, чтобы выбрать вещь. Вещь можно надеть и из её карточки кнопкой 👕.</p>
+        </section>
+        <section class="b-panel">
+          ${r.problems.length ? `<div class="b-warn"><b>Не подходит:</b><ul>${r.problems.map(([s, e, why]) =>
+            `<li>${esc(e?.name || s.name)} — ${esc(why)}</li>`).join("")}</ul></div>` : ""}
+          <h3>Комплекты</h3>
+          ${setRows ? `<ul class="b-list">${setRows}</ul>` : `<p class="muted small">Нет надетых частей комплектов.</p>`}
+          <h3>Модификаторы</h3>
+          ${modRows ? `<ul class="b-list">${modRows}</ul>` : `<p class="muted small">Нет модификаторов.</p>`}
+          <h3>Прочее</h3>
+          <ul class="b-list">
+            <li>Урон оружия <b>${fmtN(r.weaponDmg)}</b></li>
+            <li>Power <b>≈ ${fmtN(r.power)}</b> <small class="muted">(без психо и орбов)</small></li>
+          </ul>
+        </section>
+      </div>
+      <div class="picker" id="picker" hidden></div>`;
+
+    const rerender = () => { saveBuild(); refresh(); };
+    bon("#bCls", "change", ev => { build.cls = ev.target.value; rerender(); });
+    bon("#bLvl", "change", ev => { build.lvl = Math.max(1, num(ev.target.value) || 1); rerender(); });
+    $$(".b-in").forEach(inp => inp.addEventListener("change", () => {
+      build.base[inp.dataset.base] = inp.value === "" ? "" : Math.max(0, num(inp.value) || 0);
+      rerender();
+    }));
+    bon("#bClear", "click", () => { build.items = {}; rerender(); });
+    bon("#bShare", "click", ev => {
+      const link = buildLink();
+      (navigator.clipboard?.writeText(link) || Promise.reject()).then(
+        () => { ev.target.textContent = "✓ Ссылка скопирована"; },
+        () => { prompt("Ссылка на сборку:", link); });
+    });
+    $$(".doll-x").forEach(x => x.addEventListener("click", ev => {
+      ev.stopPropagation();
+      delete build.items[x.dataset.unequip];
+      rerender();
+    }));
+    $$(".doll-slot").forEach(btn => btn.addEventListener("click", () => openPicker(SLOTS.find(s => s.id === btn.dataset.slot))));
+  }
+
+  function openPicker(slot) {
+    const box = $("#picker");
+    let q = "", onlyFit = true;
+    const all = db.sections.equipment.entries.filter(e => fitsSlot(e, slot));
+    const statLine = e => [...BASE_STATS.map(([l]) => [l, fnum(e, l)]), ...RESISTS.map(([l, n]) => [n, fnum(e, l)])]
+      .filter(([, v]) => v).slice(0, 6).map(([l, v]) => `${l} ${v > 0 ? "+" : ""}${fmtN(v)}`).join(" · ");
+    const draw = () => {
+      const lvl = num(build.lvl) || 0;
+      const list = all.filter(e => (!q || norm(e.name).includes(q)) &&
+        (!onlyFit || ((fnum(e, "Требуемый уровень") <= lvl) &&
+          (!build.cls || !fv(fieldOf(e, "Требуемый класс")) || fv(fieldOf(e, "Требуемый класс")) === build.cls))))
+        .sort((a, b) => fnum(b, "Требуемый уровень") - fnum(a, "Требуемый уровень") || a.name.localeCompare(b.name, "ru"));
+      box.querySelector(".pk-list").innerHTML = list.length ? list.map(e => `<button class="pk-item" data-pick="${esc(e.id)}">
+          ${iconHtml(e, "ico-sm")}<span class="pk-main"><b>${esc(e.name)}</b>
+          <small>${fnum(e, "Требуемый уровень") ? "ур. " + fnum(e, "Требуемый уровень") + " · " : ""}${esc(fv(fieldOf(e, "Редкость")) || "")}
+          ${fv(fieldOf(e, "Требуемый класс")) ? " · " + esc(fv(fieldOf(e, "Требуемый класс"))) : ""}</small>
+          <small class="pk-stats">${esc(statLine(e))}</small></span></button>`).join("")
+        : `<p class="muted">Ничего не найдено${onlyFit ? " — снимите галочку «только подходящие»" : ""}.</p>`;
+      box.querySelectorAll("[data-pick]").forEach(b => b.addEventListener("click", () => {
+        build.items[slot.id] = b.dataset.pick;
+        const e = db.byId.get(b.dataset.pick);
+        if (slot.id === "weapon" && isTwoHanded(e)) delete build.items.offhand;
+        box.hidden = true;
+        saveBuild();
+        refresh();
+      }));
+    };
+    box.innerHTML = `<div class="pk-card">
+        <div class="pk-head"><b>${esc(slot.name)}</b>
+          <input type="search" id="pkQ" placeholder="Поиск по названию…" autocomplete="off">
+          <label class="flt chk"><input type="checkbox" id="pkFit" checked> только подходящие</label>
+          <button class="icon-btn" id="pkClose" title="Закрыть">✕</button></div>
+        <div class="pk-list"></div>
+        ${build.items[slot.id] ? `<button class="btn" id="pkOff">Снять</button>` : ""}
+      </div>`;
+    box.hidden = false;
+    draw();
+    const qi = box.querySelector("#pkQ");
+    qi.focus();
+    qi.addEventListener("input", () => { q = norm(qi.value); draw(); });
+    box.querySelector("#pkFit").addEventListener("change", ev => { onlyFit = ev.target.checked; draw(); });
+    box.querySelector("#pkClose").addEventListener("click", () => { box.hidden = true; });
+    box.querySelector("#pkOff")?.addEventListener("click", () => { delete build.items[slot.id]; box.hidden = true; saveBuild(); refresh(); });
+    box.addEventListener("click", ev => { if (ev.target === box) box.hidden = true; });
+  }
+
   // ---------- main router ----------
 
   function renderMain(route) {
@@ -767,6 +1071,8 @@
       renderCompare();
     } else if (kind === "about") {
       renderAbout();
+    } else if (kind === "build") {
+      renderBuild(route);
     } else if (kind === "maps") {
       secId ? renderMap(secId, route.hl) : renderMapsList();
     } else {
@@ -832,6 +1138,7 @@
         <span class="spacer"></span>
         <a class="icon-btn" href="e/${esc(e.id.replace(/[^A-Za-z0-9_.-]/g, "_"))}.html" target="_blank" rel="noopener"
           title="Отдельная страница — удобно делиться ссылкой">🔗</a>
+        ${slotFor(e) ? `<button class="icon-btn" id="wearBtn" title="Надеть в переодевалке">👕</button>` : ""}
         <button class="icon-btn" id="wideBtn" title="Шире / уже">⤢</button>
         <button class="icon-btn mark-btn ${marks.has(e.id) ? "on" : ""}" id="markBtn" title="Есть у меня">✓</button>
         <button class="icon-btn cmp-btn ${compare.has(e.id) ? "on" : ""}" id="cmpBtn" title="Сравнить">⚖</button>
@@ -884,6 +1191,14 @@
     $("#closeDetail").addEventListener("click", closeDetail);
     $("#favBtn").addEventListener("click", () => { favorites.toggle(e.id); refresh(); });
     $("#markBtn").addEventListener("click", () => { marks.toggle(e.id); refresh(); });
+    $("#wearBtn")?.addEventListener("click", () => {
+      const slot = slotFor(e);
+      build.items[slot.id] = e.id;
+      if (slot.id === "weapon" && isTwoHanded(e)) delete build.items.offhand;
+      if (slot.id === "offhand") { const w = db.byId.get(build.items.weapon); if (w && isTwoHanded(w)) delete build.items.weapon; }
+      saveBuild();
+      location.hash = "#/build";
+    });
     $("#wideBtn").addEventListener("click", () => {
       view.wide = !document.body.classList.contains("detail-wide");
       store.set("wide", view.wide);
