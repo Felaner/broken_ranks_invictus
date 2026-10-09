@@ -683,6 +683,64 @@ TR_PATTERNS = [
 ]
 
 
+def tr_names(text):
+    """Перевод перечня названий («Pies, Psiok;») по словарю и базе, непереведённое остаётся."""
+    parts = re.split(r"(,\s*|;\s*|\s+i\s+)", text)
+    out = []
+    for part in parts:
+        if re.fullmatch(r",\s*|;\s*", part or ""):
+            out.append(part)
+        elif re.fullmatch(r"\s+i\s+", part or ""):
+            out.append(" и ")
+        elif part:
+            m = re.match(r"^(.*?)(\s*\(.*\))?$", part)
+            name = m.group(1)
+            t = tr_core(name) if LATIN.search(name) else name
+            out.append((t if t is not None else name) + (m.group(2) or ""))
+    return "".join(out)
+
+
+TIME_UNITS = {"h": "ч", "min": "мин", "sec": "сек", "m": "мин"}
+
+
+def tr_time(m):
+    return re.sub(r"(\d+)\s*(h|min|sec|m)\b", lambda x: x.group(1) + " " + TIME_UNITS[x.group(2)],
+                  m.group(0)).replace(" - ", " – ")
+
+
+XP_WHO = {"gracza": "игроку", "zwierzaka": "питомцу", "drifów": "дрифам"}
+TR_FUNCS = [
+    (re.compile(r"^(?:\d+\s*(?:h|min|sec|m)\s*)+(?:-\s*(?:\d+\s*(?:h|min|sec|m)\s*)+)?$"), tr_time),
+    (re.compile(r"^(ok\. )?([\d\s]+) punktów doświadczenia dla (gracza|zwierzaka|drifów)([.,;]?)$"),
+     lambda m: ("ок. " if m.group(1) else "") + m.group(2).strip() + " опыта " + XP_WHO[m.group(3)] + m.group(4)),
+    (re.compile(r"^(ok\. )?([\d\s]+) złota([.,;]?)$"), lambda m: ("ок. " if m.group(1) else "") + m.group(2).strip() + " золота" + m.group(3)),
+    (re.compile(r"^Upoluj: (\d+) x (.+)$"), lambda m: f"Убей: {m.group(1)} × " + tr_names(m.group(2))),
+    (re.compile(r"^Odnajdź: (.+)$"), lambda m: "Найди: " + tr_names(m.group(1))),
+    (re.compile(r"^Znajdź i zabij drużynę: (.+)$"), lambda m: "Найди и убей отряд: " + tr_names(m.group(1))),
+    (re.compile(r"^Znajdź i przynieś: (\d+) x(.*)$"), lambda m: f"Найди и принеси: {m.group(1)} ×" + tr_names(m.group(2))),
+    (re.compile(r"^Pokonaj (.+?)\.?$"), lambda m: "Победи: " + tr_names(m.group(1)) + "."),
+    (re.compile(r"^.+ Kategoria: .*: Описание$"), lambda m: "Описание"),
+    (re.compile(r"^.+: Описание$"), lambda m: "Описание"),
+    (re.compile(r"^100 \+ (\d+)% max zasobów$"), lambda m: f"100 + {m.group(1)}% макс. ресурсов"),
+    (re.compile(r"^([+\-][\d.,]+%?) i ([+\-][\d.,]+%?)$"), lambda m: f"{m.group(1)} и {m.group(2)}"),
+    (re.compile(r"^\+([\d.,]+)% \+ Wzór$"), lambda m: f"+{m.group(1)}% + формула"),
+    (re.compile(r"^(\d+)( i więcej)? dn(?:i|zień) serii - \+(\d+)% Bonusu[;,.]?$"),
+     lambda m: f"{m.group(1)}{' и более' if m.group(2) else ''} дн. серии — +{m.group(3)}% бонуса"),
+    (re.compile(r"^Wytworzenie podczas Eventu (.+?) w (\d{4}) r\.$"),
+     lambda m: f"Изготовление во время ивента «{tr_names(m.group(1))}» в {m.group(2)} г."),
+    (re.compile(r"^W (\d{4}) r\. by(?:ł|ły) nagrodą za wykonanie Questu Eventowego$"),
+     lambda m: f"В {m.group(1)} г. — награда за выполнение ивентового квеста"),
+    (re.compile(r"^Do kupienia w trakcie eventu (zimowego|Black Friday|dziady) w (\d{4}) r\.$"),
+     lambda m: "Можно было купить во время " + {"zimowego": "зимнего ивента", "Black Friday": "ивента «Чёрная пятница»",
+                                                  "dziady": "ивента «Дзяды»"}[m.group(1)] + f" в {m.group(2)} г."),
+    (re.compile(r"^w (\d{4}) r\.$"), lambda m: f"в {m.group(1)} г."),
+    (re.compile(r"^Otrzymał go gracz o nicku: (.+)$"), lambda m: f"Его получил игрок с ником {m.group(1)}"),
+    (re.compile(r"^([\d\s]+) platyny - (kompletny )?zestaw(.*)$"),
+     lambda m: f"{m.group(1).strip()} платины — {'полный ' if m.group(2) else ''}комплект" + tr_names(m.group(3))),
+    (re.compile(r"^(\d+) - (\d+) poziom postaci:$"), lambda m: f"{m.group(1)}–{m.group(2)} уровень персонажа:"),
+]
+
+
 def tr_core(core):
     """Перевод фрагмента без крайних пробелов или None, если перевода нет."""
     if not LATIN.search(core):
@@ -692,6 +750,10 @@ def tr_core(core):
     for rx, rep in TR_PATTERNS:
         if rx.match(core):
             return rx.sub(rep, core)
+    for rx, fn in TR_FUNCS:
+        m = rx.match(core)
+        if m:
+            return fn(m)
     m = re.match(r"^(.*?)([\s,.:;!?)]*)$", core)
     if m.group(1).lower() in PL2RU:
         return PL2RU[m.group(1).lower()] + m.group(2)
