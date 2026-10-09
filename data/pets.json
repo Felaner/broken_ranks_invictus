@@ -72,6 +72,10 @@
     [
      "Выносливость",
      "800"
+    ],
+    [
+     "Статистика",
+     "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 1200 Kondycja : 800"
     ]
    ],
    "blocks": [
@@ -90,31 +94,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin17\" src=\"data/raresImg/pet_skin/17.pet_skin.webp\"/> <img data-items=\"petskin18\" src=\"data/raresImg/pet_skin/18.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Kruk.png\"/></span></span> </td><td colspan=\"2\">Klasyczny kruk. Wyszkolony przez najlepsze wiedźmy. Nikt nie opędzi się przed czarną mocą jego skrzydeł ani nie uchowa przed złowieszczym spojrzeniem. <p><br/> <b>Atakuje urokami.</b> </p><p><b>Używa</b>: Szpila w oko, Mistycyzm, Okrzyk bojowy, Ukłucie lalki. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Czarny Kruk",
-     "url": "https://www.wikibr.pl/index.php/Czarny_Kruk",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 1200 Kondycja : 800"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Kruk.png\"/></span></span> </td><td colspan=\"2\">Klasyczny kruk. Wyszkolony przez najlepsze wiedźmy. Nikt nie opędzi się przed czarną mocą jego skrzydeł ani nie uchowa przed złowieszczym spojrzeniem. <p><br/> <b>Atakuje urokami.</b> </p><p><b>Używa</b>: Szpila w oko, Mistycyzm, Okrzyk bojowy, Ukłucie lalki. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -157,6 +147,10 @@
     [
      "Выносливость",
      "650"
+    ],
+    [
+     "Статистика",
+     "Poziom : 7 Ranga : 1 Punkty życia : 350 Mana : 350 Kondycja : 650"
     ]
    ],
    "blocks": [
@@ -171,36 +165,21 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills24\" src=\"data/raresImg/skills/24.skills.png\"/> <img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 7 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 złota</span> </p><p><b>Zakup</b>: u Godrewa w <span data-items=\"wb_trentis\">Trentis</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/e0/WilczurPet.png\"/></span></span> </td><td colspan=\"2\">Burek jak to burek. Wiernie biega przy swoim panu, gdy trzeba ugryzie, wywołując krwawienie. Jeżąc sierść na karku wprowadza się w bojowy trans i może wywołać w przeciwnikach strach. Swoim skowytem może dodatkowo sparaliżować ofiarę, ułatwiając sobie wykończenie wroga. <p><br/> <b>Atakuje fizyczne.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Wilczur",
-     "url": "https://www.wikibr.pl/index.php/Wilczur",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 7 Ranga : 1 Punkty życia : 350 Mana : 350 Kondycja : 650"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 7 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 złota</span> </p><p><b>Zakup</b>: u Godrewa w <span data-items=\"wb_trentis\">Trentis</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/e0/WilczurPet.png\"/></span></span> </td><td colspan=\"2\">Burek jak to burek. Wiernie biega przy swoim panu, gdy trzeba ugryzie, wywołując krwawienie. Jeżąc sierść na karku wprowadza się w bojowy trans i może wywołać w przeciwnikach strach. Swoim skowytem może dodatkowo sparaliżować ofiarę, ułatwiając sobie wykończenie wroga. <p><br/> <b>Atakuje fizyczne.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
      "ids": [
-      "wb_trentis",
       "wb_zwierzaki"
      ]
     }
@@ -239,6 +218,10 @@
     [
      "Выносливость",
      "600"
+    ],
+    [
+     "Статистика",
+     "Poziom : 22 Ranga : 2 Punkty życia : 700 Mana : 400 Kondycja : 600"
     ]
    ],
    "blocks": [
@@ -257,31 +240,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin6\" src=\"data/raresImg/pet_skin/6.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 22 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 złota</span> </p><p><b>Zakup</b>: u Wiedźmy Hoberl na <span data-items=\"wb_bagna\">Bagnach</span> </p><p>Możliwość otrzymania w trakcie zadania głównego \"Zielona Granica\" </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/18/Nietoperz.png\"/></span></span> </td><td colspan=\"2\">Niepozorny gacek, który potrafi pomóc w walce. Swoimi kłami przegryzie skórę ofiary, wywołując krwawienie, może również zakazić ranę. Potrafi zadać dodatkowe obrażenia falami dźwiękowymi. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Fala dźwiękowa, Gryzienie, Zakażenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Biały Nietoperz",
-     "url": "https://www.wikibr.pl/index.php/Biały_Nietoperz",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 22 Ranga : 2 Punkty życia : 700 Mana : 400 Kondycja : 600"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 22 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 złota</span> </p><p><b>Zakup</b>: u Wiedźmy Hoberl na <span data-items=\"wb_bagna\">Bagnach</span> </p><p>Możliwość otrzymania w trakcie zadania głównego \"Zielona Granica\" </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/18/Nietoperz.png\"/></span></span> </td><td colspan=\"2\">Niepozorny gacek, który potrafi pomóc w walce. Swoimi kłami przegryzie skórę ofiary, wywołując krwawienie, może również zakazić ranę. Potrafi zadać dodatkowe obrażenia falami dźwiękowymi. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Fala dźwiękowa, Gryzienie, Zakażenie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -324,6 +293,10 @@
     [
      "Выносливость",
      "1200"
+    ],
+    [
+     "Статистика",
+     "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
     ]
    ],
    "blocks": [
@@ -342,31 +315,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin7\" src=\"data/raresImg/pet_skin/7.pet_skin.webp\"/> <img data-items=\"petskin8\" src=\"data/raresImg/pet_skin/8.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Bia%C5%82y_Ogar.png\"/></span></span> </td><td colspan=\"2\">Biały ogar to uniwersalny pies myśliwski. Dopada ofiarę i zaciska szczęki na jej szyi. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Biały Ogar",
-     "url": "https://www.wikibr.pl/index.php/Biały_Ogar",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Bia%C5%82y_Ogar.png\"/></span></span> </td><td colspan=\"2\">Biały ogar to uniwersalny pies myśliwski. Dopada ofiarę i zaciska szczęki na jej szyi. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -409,6 +368,10 @@
     [
      "Выносливость",
      "1200"
+    ],
+    [
+     "Статистика",
+     "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
     ]
    ],
    "blocks": [
@@ -427,31 +390,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin9\" src=\"data/raresImg/pet_skin/9.pet_skin.webp\"/> <img data-items=\"petskin10\" src=\"data/raresImg/pet_skin/10.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/ac/Czarny_Ogar.png\"/></span></span> </td><td colspan=\"2\">Czarny ogar to uniwersalny pies myśliwski, prawie jak biały ogar. Dopada ofiarę i rozszarpuje na strzępy. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Czarny Ogar",
-     "url": "https://www.wikibr.pl/index.php/Czarny_Ogar",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/ac/Czarny_Ogar.png\"/></span></span> </td><td colspan=\"2\">Czarny ogar to uniwersalny pies myśliwski, prawie jak biały ogar. Dopada ofiarę i rozszarpuje na strzępy. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -494,6 +443,10 @@
     [
      "Выносливость",
      "1200"
+    ],
+    [
+     "Статистика",
+     "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 800 Kondycja : 1200"
     ]
    ],
    "blocks": [
@@ -512,31 +465,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin26\" src=\"data/raresImg/pet_skin/26.pet_skin.webp\"/> <img data-items=\"petskin27\" src=\"data/raresImg/pet_skin/27.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Atakuje dystansowo i urokami.</b> </p><p><b>Używa</b>: Furia, Twoja stara, Okrzyk bojowy, Rzut kamieniem. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Ruda małpa",
-     "url": "https://www.wikibr.pl/index.php/Ruda_małpa",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 800 Kondycja : 1200"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Atakuje dystansowo i urokami.</b> </p><p><b>Używa</b>: Furia, Twoja stara, Okrzyk bojowy, Rzut kamieniem. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -579,6 +518,10 @@
     [
      "Выносливость",
      "1300"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 1900 Mana : 1200 Kondycja : 1300"
     ]
    ],
    "blocks": [
@@ -605,35 +548,24 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin5\" src=\"data/raresImg/pet_skin/5.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item718\">Рецепт Тона</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/6f/Ton.png\"/></span></span> </td><td colspan=\"2\">Woda zaklęta w kamień i drzewo równocześnie. Połączone byty, które stawiają na słabość przeciwnika. Podwójnymi atakami wyniszcza wroga tak skutecznie, że mord staje się łatwizną. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Bolesne uderzenie, Dyńka, Gruboskórność, Grupowa kontrola oddechu, Potężne uderzenie, Ryk, Lodowa tarcza, Taran, Twoja stara. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Ton",
-     "url": "https://www.wikibr.pl/index.php/Ton",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 1900 Mana : 1200 Kondycja : 1300"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item718\">Przepis na Tona</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/6f/Ton.png\"/></span></span> </td><td colspan=\"2\">Woda zaklęta w kamień i drzewo równocześnie. Połączone byty, które stawiają na słabość przeciwnika. Podwójnymi atakami wyniszcza wroga tak skutecznie, że mord staje się łatwizną. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Bolesne uderzenie, Dyńka, Gruboskórność, Grupowa kontrola oddechu, Potężne uderzenie, Ryk, Lodowa tarcza, Taran, Twoja stara. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
      "ids": [
+      "item685",
+      "item695",
+      "item696",
       "wb_zwierzaki"
      ]
     }
@@ -672,6 +604,10 @@
     [
      "Выносливость",
      "1100"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1500 Kondycja : 1100"
     ]
    ],
    "blocks": [
@@ -694,35 +630,24 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin4\" src=\"data/raresImg/pet_skin/4.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item719\">Рецепт Сола</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami.</b> </p><p><b>Dominują ataki obszarowe.</b> </p><p><b>Używa</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Sol",
-     "url": "https://www.wikibr.pl/index.php/Sol",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1500 Kondycja : 1100"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item719\">Przepis na Sola</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami.</b> </p><p><b>Dominują ataki obszarowe.</b> </p><p><b>Używa</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
      "ids": [
+      "item686",
+      "item695",
+      "item696",
       "wb_zwierzaki"
      ]
     }
@@ -761,6 +686,10 @@
     [
      "Выносливость",
      "1300"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1100 Kondycja : 1300"
     ]
    ],
    "blocks": [
@@ -787,35 +716,24 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin3\" src=\"data/raresImg/pet_skin/3.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item720\">Рецепт Эры</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/97/Era.png\"/></span></span> </td><td colspan=\"2\">Stworzona z wody, pełną mocą tego żywiołu zniszczy wszystko, co stanie jej na drodze. Ogłuszy i ukatrupi, wiernie wspomagając swojego pana w walce. Żywiołak, który wysysa życie i ma większą szansę na atak krytyczny. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Front kick, Haduoken, Krytyczne uderzenie, Ogłuszenie, Penetrujące uderzenie, Poświęcenie, Potężne uderzenie, Ryk, Trans, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Era",
-     "url": "https://www.wikibr.pl/index.php/Era",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1100 Kondycja : 1300"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item720\">Przepis na Erę</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/97/Era.png\"/></span></span> </td><td colspan=\"2\">Stworzona z wody, pełną mocą tego żywiołu zniszczy wszystko, co stanie jej na drodze. Ogłuszy i ukatrupi, wiernie wspomagając swojego pana w walce. Żywiołak, który wysysa życie i ma większą szansę na atak krytyczny. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Front kick, Haduoken, Krytyczne uderzenie, Ogłuszenie, Penetrujące uderzenie, Poświęcenie, Potężne uderzenie, Ryk, Trans, Zwykły atak. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
      "ids": [
+      "item687",
+      "item695",
+      "item696",
       "wb_zwierzaki"
      ]
     }
@@ -854,6 +772,10 @@
     [
      "Выносливость",
      "700"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 1700 Mana : 1000 Kondycja : 700"
     ]
    ],
    "blocks": [
@@ -876,35 +798,27 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin14\" src=\"data/raresImg/pet_skin/14.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item505\">Receptura na Hohgrata</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Средняя Фляга Здоровья</span>, 3 x <span data-items=\"item193\">Средняя Фляга Выносливости</span>, 3 x <span data-items=\"item190\">Средняя Фляга Маны</span> u Belenosa w Lesie Koldów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Atakuje fizycznie, urokami</b> </p><p><b>Używa</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Hohgrat",
-     "url": "https://www.wikibr.pl/index.php/Hohgrat",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 1700 Mana : 1000 Kondycja : 700"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item505\">Receptura na Hohgrata</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Belenosa w Lesie Koldów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Atakuje fizycznie, urokami</b> </p><p><b>Używa</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
      "ids": [
+      "item685",
+      "item686",
+      "item687",
+      "item230",
+      "item695",
+      "item696",
       "wb_zwierzaki"
      ]
     }
@@ -943,6 +857,10 @@
     [
      "Выносливость",
      "1300"
+    ],
+    [
+     "Статистика",
+     "Poziom : 30 Ranga : 2 Punkty życia : 780 Mana : 700 Kondycja : 1300"
     ]
    ],
    "blocks": [
@@ -961,38 +879,21 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills3\" src=\"data/raresImg/skills/3.skills.png\"/> <img data-items=\"skills13\" src=\"data/raresImg/skills/13.skills.png\"/> <img data-items=\"skills26\" src=\"data/raresImg/skills/26.skills.png\"/> <img data-items=\"skills14\" src=\"data/raresImg/skills/14.skills.png\"/> <img data-items=\"skills5\" src=\"data/raresImg/skills/5.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 30 <p><b>Przywołanie</b>: Wymagana jest <span data-items=\"wb_receptura_adelweiga\">Receptura Adelweiga</span> </p><p><b>Cena odkupienia</b>: 2 x <span data-items=\"wb_dusza_nietoperza\">Dusza nietoperza</span>, 5 x <span data-items=\"wb_dusza_nieumarlego\">Dusza nieumarłego</span>, 4 x <span data-items=\"wb_dusza_gada\">Dusza gada</span>, 10 <span data-items=\"item679\">Imperiałów</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/80/Uwi%C4%99zionyPet.png\"/></span></span> </td><td colspan=\"2\">Natura tego stworzenia jest niejasna. Ni to roślina, ni to zwierz. Nie zmienia to jednak trafu, że potrafi dzielnie wspierać swoich towarzyszy w walce z każdym niebezpieczeństwem. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Okrzyk bojowy, Rzut głazem, Gruboskórność, Potężne uderzenie, Zwykły atak, Taran. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Uwięziony",
-     "url": "https://www.wikibr.pl/index.php/Uwięziony",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 30 Ranga : 2 Punkty życia : 780 Mana : 700 Kondycja : 1300"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 30 <p><b>Przywołanie</b>: Wymagana jest <span data-items=\"wb_receptura_adelweiga\">Receptura Adelweiga</span> </p><p><b>Cena odkupienia</b>: 2 x <span data-items=\"wb_dusza_nietoperza\">Dusza nietoperza</span>, 5 x <span data-items=\"wb_dusza_nieumarlego\">Dusza nieumarłego</span>, 4 x <span data-items=\"wb_dusza_gada\">Dusza gada</span>, 10 <span data-items=\"item679\">Imperiałów</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/80/Uwi%C4%99zionyPet.png\"/></span></span> </td><td colspan=\"2\">Natura tego stworzenia jest niejasna. Ni to roślina, ni to zwierz. Nie zmienia to jednak trafu, że potrafi dzielnie wspierać swoich towarzyszy w walce z każdym niebezpieczeństwem. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Okrzyk bojowy, Rzut głazem, Gruboskórność, Potężne uderzenie, Zwykły atak, Taran. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
      "ids": [
-      "wb_dusza_nietoperza",
-      "wb_dusza_nieumarlego",
-      "wb_dusza_gada",
       "wb_przeklety_las",
       "wb_zwierzaki",
       "wb_zrodlo_bytu"
@@ -1033,6 +934,10 @@
     [
      "Выносливость",
      "1200"
+    ],
+    [
+     "Статистика",
+     "Poziom : 50 Ranga : 4 Punkty życia : 1350 Mana : 800 Kondycja : 1200"
     ]
    ],
    "blocks": [
@@ -1055,31 +960,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin13\" src=\"data/raresImg/pet_skin/13.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 500 000 złota</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Hiena.png\"/></span></span> </td><td colspan=\"2\">Hiena okalecza swoje ofiary w wyjątkowo paskudny sposób, sprawiając, że wykrwawiają się na śmierć w przeciągu sekund. Dodatkowo swoim dzikim zawodzeniem potrafi osłąbić wrogów swojego pana, dzięki czemu dobiera się do ich gardeł z przerażającą łatwością. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Zwykły atak, Ryk, Okrzyk bojowy, Bolesne uderzenie, Latające kolano. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Hiena",
-     "url": "https://www.wikibr.pl/index.php/Hiena",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 50 Ranga : 4 Punkty życia : 1350 Mana : 800 Kondycja : 1200"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 500 000 złota</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Hiena.png\"/></span></span> </td><td colspan=\"2\">Hiena okalecza swoje ofiary w wyjątkowo paskudny sposób, sprawiając, że wykrwawiają się na śmierć w przeciągu sekund. Dodatkowo swoim dzikim zawodzeniem potrafi osłąbić wrogów swojego pana, dzięki czemu dobiera się do ich gardeł z przerażającą łatwością. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Zwykły atak, Ryk, Okrzyk bojowy, Bolesne uderzenie, Latające kolano. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1122,6 +1013,10 @@
     [
      "Выносливость",
      "1000"
+    ],
+    [
+     "Статистика",
+     "Poziom : 50 Ranga : 4 Punkty życia : 1400 Mana : 1000 Kondycja : 1000"
     ]
    ],
    "blocks": [
@@ -1144,31 +1039,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin16\" src=\"data/raresImg/pet_skin/16.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/0c/Kobra.png\"/></span></span> </td><td colspan=\"2\">Kobra potrafi w mgnieniu oka znaleźć się tam, gdzie się jej najmniej spodziewają. Bezszelestnie atakuje z ogromną precyzją, zatruwając na śmierć każdego, kogo wskaże jej właściciel. Idealna pomoc dla osób walczących z dystansu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Trujące plucie, Rzyg, Potężne uderzenie, Otępienie, Ukłucie lalki, Trująca tarcza. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Kobra",
-     "url": "https://www.wikibr.pl/index.php/Kobra",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 50 Ranga : 4 Punkty życia : 1400 Mana : 1000 Kondycja : 1000"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/0c/Kobra.png\"/></span></span> </td><td colspan=\"2\">Kobra potrafi w mgnieniu oka znaleźć się tam, gdzie się jej najmniej spodziewają. Bezszelestnie atakuje z ogromną precyzją, zatruwając na śmierć każdego, kogo wskaże jej właściciel. Idealna pomoc dla osób walczących z dystansu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Trujące plucie, Rzyg, Potężne uderzenie, Otępienie, Ukłucie lalki, Trująca tarcza. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1211,6 +1092,10 @@
     [
      "Выносливость",
      "1200"
+    ],
+    [
+     "Статистика",
+     "Poziom : 50 Ranga : 4 Punkty życia : 1500 Mana : 800 Kondycja : 1200"
     ]
    ],
    "blocks": [
@@ -1233,31 +1118,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin15\" src=\"data/raresImg/pet_skin/15.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 700 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d3/Jaguar.png\"/></span></span> </td><td colspan=\"2\">Potężny dziki kot, który z furią rzuca się na wrogów, szarpiąc i tnąc. Jego ofiary najczęściej umierają z wykrwawienia, nie wiedząc nawet, co je zabiło. Dziki kot jest świetnym towarzyszem dla każdego bohatera. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Jaguar",
-     "url": "https://www.wikibr.pl/index.php/Jaguar",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 50 Ranga : 4 Punkty życia : 1500 Mana : 800 Kondycja : 1200"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 700 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d3/Jaguar.png\"/></span></span> </td><td colspan=\"2\">Potężny dziki kot, który z furią rzuca się na wrogów, szarpiąc i tnąc. Jego ofiary najczęściej umierają z wykrwawienia, nie wiedząc nawet, co je zabiło. Dziki kot jest świetnym towarzyszem dla każdego bohatera. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1322,31 +1193,21 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin24\" src=\"data/raresImg/pet_skin/24.pet_skin.webp\"/> <img data-items=\"petskin25\" src=\"data/raresImg/pet_skin/25.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Статистика",
+     "html": "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 4</span> </p> <div> <span><b>Punkty życia</b>: 1400</span></div> <div> <span><b>Мана</b>: 1300</span></div> <div> <span><b>Выносливость</b>: 700</span></div>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Atakuje z dystansu i urokami.</b><br/> <b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Plox",
-     "url": "https://www.wikibr.pl/index.php/Plox",
-     "fields": [
-      [
-       "Статистика",
-       "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 4</span> </p> <div> <span><b>Punkty życia</b>: 1400</span></div> <div> <span><b>Mana</b>: 1300</span></div> <div> <span><b>Kondycja</b>: 700</span></div>"
-      ],
-      [
-       "Доп. информация",
-       "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Atakuje z dystansu i urokami.</b><br/> <b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1411,31 +1272,21 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin19\" src=\"data/raresImg/pet_skin/19.pet_skin.webp\"/> <img data-items=\"petskin21\" src=\"data/raresImg/pet_skin/21.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Статистика",
+     "html": "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 5</span> </p> <div> <span><b>Punkty życia</b>: 1300</span></div> <div> <span><b>Мана</b>: 1200</span></div> <div> <span><b>Выносливость</b>: 800</span></div>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">1 800 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Atakuje fizycznie, z dystansu i urokami.</b><br/> <b>Używa</b>: Rój os, Leczenie, Trujące plucie, Uderzenie, Rzyg. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Motyl",
-     "url": "https://www.wikibr.pl/index.php/Motyl",
-     "fields": [
-      [
-       "Статистика",
-       "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 5</span> </p> <div> <span><b>Punkty życia</b>: 1300</span></div> <div> <span><b>Mana</b>: 1200</span></div> <div> <span><b>Kondycja</b>: 800</span></div>"
-      ],
-      [
-       "Доп. информация",
-       "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">1 800 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Atakuje fizycznie, z dystansu i urokami.</b><br/> <b>Używa</b>: Rój os, Leczenie, Trujące plucie, Uderzenie, Rzyg. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1478,6 +1329,10 @@
     [
      "Выносливость",
      "1300"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1100 Kondycja : 1300"
     ]
    ],
    "blocks": [
@@ -1500,31 +1355,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin28\" src=\"data/raresImg/pet_skin/28.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 000 złota</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Ryk, Rzyg, Gryzienie, Bolesne uderzenie, Plucie jadem. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Skorpion",
-     "url": "https://www.wikibr.pl/index.php/Skorpion",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1100 Kondycja : 1300"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 000 złota</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Ryk, Rzyg, Gryzienie, Bolesne uderzenie, Plucie jadem. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1567,6 +1408,10 @@
     [
      "Выносливость",
      "800"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1600 Kondycja : 800"
     ]
    ],
    "blocks": [
@@ -1589,31 +1434,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin12\" src=\"data/raresImg/pet_skin/12.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/ff/Fenix.png\"/></span></span> </td><td colspan=\"2\">Żywioł ognia na usługach człowieka. Roziskrzony ptak spopieli każdego, kto waży się podnieść rękę na jego pana. Miota kule ognia, chroni się za ognistą tarczą i wyprali mózg każdego, kto ośmieli się z nim zmierzyć. Idealne dopełnienie postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Wrażliwość na ogień, Inkantacja, Ognista sfera, Magiczna iskra, Meteoryt, Kula ognia, Podpalenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Fenix",
-     "url": "https://www.wikibr.pl/index.php/Fenix",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1600 Kondycja : 800"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/ff/Fenix.png\"/></span></span> </td><td colspan=\"2\">Żywioł ognia na usługach człowieka. Roziskrzony ptak spopieli każdego, kto waży się podnieść rękę na jego pana. Miota kule ognia, chroni się za ognistą tarczą i wyprali mózg każdego, kto ośmieli się z nim zmierzyć. Idealne dopełnienie postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Wrażliwość na ogień, Inkantacja, Ognista sfera, Magiczna iskra, Meteoryt, Kula ognia, Podpalenie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1656,6 +1487,10 @@
     [
      "Выносливость",
      "1500"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
     ]
    ],
    "blocks": [
@@ -1678,31 +1513,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin22\" src=\"data/raresImg/pet_skin/22.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/ee/Pantera.png\"/></span></span> </td><td colspan=\"2\">Pantera wtapia się w otoczenie i wyskakuje z nicości jak czarna błyskawica. Jej oręż to potężne szczęki i łapy, który bez trudu powala nawet orka, Obżarta mięsem ofiary, mruczeniem umila wędrówkę swojego pana. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Pantera",
-     "url": "https://www.wikibr.pl/index.php/Pantera",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/ee/Pantera.png\"/></span></span> </td><td colspan=\"2\">Pantera wtapia się w otoczenie i wyskakuje z nicości jak czarna błyskawica. Jej oręż to potężne szczęki i łapy, który bez trudu powala nawet orka, Obżarta mięsem ofiary, mruczeniem umila wędrówkę swojego pana. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1745,6 +1566,10 @@
     [
      "Выносливость",
      "1500"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
     ]
    ],
    "blocks": [
@@ -1767,31 +1592,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin23\" src=\"data/raresImg/pet_skin/23.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/82/Papug.png\"/></span></span> </td><td colspan=\"2\">Przyjaciel z dalekich krajów. Spokojny, medytujący, egzotyczny ptak, którego kojące barwy i łagodne usposobienie dają poczucie bezpieczeństwa. Ale tylko dla jego pana. Pozostałych potrafi zlikwidować kilkoma nieznaczącymi acz morderczymi ruchami. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Kontrola oddechu, Fala dźwiękowa, Gryzienie, Potężne uderzenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Papug",
-     "url": "https://www.wikibr.pl/index.php/Papug",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/82/Papug.png\"/></span></span> </td><td colspan=\"2\">Przyjaciel z dalekich krajów. Spokojny, medytujący, egzotyczny ptak, którego kojące barwy i łagodne usposobienie dają poczucie bezpieczeństwa. Ale tylko dla jego pana. Pozostałych potrafi zlikwidować kilkoma nieznaczącymi acz morderczymi ruchami. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Kontrola oddechu, Fala dźwiękowa, Gryzienie, Potężne uderzenie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1834,6 +1645,10 @@
     [
      "Выносливость",
      "1800"
+    ],
+    [
+     "Статистика",
+     "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1000 Kondycja : 1800"
     ]
    ],
    "blocks": [
@@ -1852,31 +1667,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills25\" src=\"data/raresImg/skills/25.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills13\" src=\"data/raresImg/skills/13.skills.png\"/> <img data-items=\"skills11\" src=\"data/raresImg/skills/11.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">9 000 000 złota</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Ryk, Dyńka, Taran, Gryzienie, Ochrona. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Kudłacz",
-     "url": "https://www.wikibr.pl/index.php/Kudłacz",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1000 Kondycja : 1800"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">9 000 000 złota</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Ryk, Dyńka, Taran, Gryzienie, Ochrona. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1919,6 +1720,10 @@
     [
      "Выносливость",
      "1800"
+    ],
+    [
+     "Статистика",
+     "Poziom : 80 Ranga : 10 Punkty życia : 2400 Mana : 1000 Kondycja : 1800"
     ]
    ],
    "blocks": [
@@ -1941,31 +1746,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin29\" src=\"data/raresImg/pet_skin/29.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/8a/T%C5%82uk.png\"/></span></span> </td><td colspan=\"2\">Tłuk zatłucze każdego, kto wejdzie ci w drogę. Jego zakrzywione zęby zostawiają głębokie rany, powodując potężne krwawienie. Ogromna wytrzymałość stwora czynią z niego doskonałego kompana, szczególnie dla postaci walczących na odległość. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Twoja stara, Ryk, Gryzienie, Front kick, Bolesne uderzenie, Furia. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Tłuk",
-     "url": "https://www.wikibr.pl/index.php/Tłuk",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 80 Ranga : 10 Punkty życia : 2400 Mana : 1000 Kondycja : 1800"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/8a/T%C5%82uk.png\"/></span></span> </td><td colspan=\"2\">Tłuk zatłucze każdego, kto wejdzie ci w drogę. Jego zakrzywione zęby zostawiają głębokie rany, powodując potężne krwawienie. Ogromna wytrzymałość stwora czynią z niego doskonałego kompana, szczególnie dla postaci walczących na odległość. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Twoja stara, Ryk, Gryzienie, Front kick, Bolesne uderzenie, Furia. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2008,6 +1799,10 @@
     [
      "Выносливость",
      "1000"
+    ],
+    [
+     "Статистика",
+     "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1800 Kondycja : 1000"
     ]
    ],
    "blocks": [
@@ -2030,31 +1825,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin11\" src=\"data/raresImg/pet_skin/11.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d0/Darkling.png\"/></span></span> </td><td colspan=\"2\">Twój prywatny smok. Wzbudza nie tylko podziw, ale i lęk. Wytrzymały i odporny, atakuje ogniem i dotkliwie kąsa. Błyskawicznie rozszarpie i spopieli wszystko, co mu stanie na drodze. Szczególnie przydatny dla postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gruboskórność, Ryk, Magiczna iskra, Kula ognia, Potężne uderzenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Darkling",
-     "url": "https://www.wikibr.pl/index.php/Darkling",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1800 Kondycja : 1000"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d0/Darkling.png\"/></span></span> </td><td colspan=\"2\">Twój prywatny smok. Wzbudza nie tylko podziw, ale i lęk. Wytrzymały i odporny, atakuje ogniem i dotkliwie kąsa. Błyskawicznie rozszarpie i spopieli wszystko, co mu stanie na drodze. Szczególnie przydatny dla postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gruboskórność, Ryk, Magiczna iskra, Kula ognia, Potężne uderzenie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2097,6 +1878,10 @@
     [
      "Выносливость",
      "1000"
+    ],
+    [
+     "Статистика",
+     "Poziom : 80 Ranga : 10 Punkty życia : 2700 Mana : 1800 Kondycja : 1000"
     ]
    ],
    "blocks": [
@@ -2119,31 +1904,17 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin30\" src=\"data/raresImg/pet_skin/30.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 400 000 złota</span> i <span style=\"color:#7de0de\">700 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/b2/Twig.png\"/></span></span> </td><td colspan=\"2\">Cieniutki jak gałązka, ale twardszy od stali. Twig posiada zdolności voodoo i stanowi nieocenione wsparcie dla właściciela. Pomoże walczyć w krainach, gdzie nie zawsze udaje się zebrać odpowiednią drużynę. Twig to przyjaciel dla wymagających. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia, Ukłucie lalki, Potężne uderzenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Twig",
-     "url": "https://www.wikibr.pl/index.php/Twig",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 80 Ranga : 10 Punkty życia : 2700 Mana : 1800 Kondycja : 1000"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 400 000 złota</span> i <span style=\"color:#7de0de\">700 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/b2/Twig.png\"/></span></span> </td><td colspan=\"2\">Cieniutki jak gałązka, ale twardszy od stali. Twig posiada zdolności voodoo i stanowi nieocenione wsparcie dla właściciela. Pomoże walczyć w krainach, gdzie nie zawsze udaje się zebrać odpowiednią drużynę. Twig to przyjaciel dla wymagających. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia, Ukłucie lalki, Potężne uderzenie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2186,6 +1957,10 @@
     [
      "Выносливость",
      "1100"
+    ],
+    [
+     "Статистика",
+     "Poziom : 60 Ranga : 13 Punkty życia : 1600 Mana : 1100 Kondycja : 1100"
     ]
    ],
    "blocks": [
@@ -2200,31 +1975,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills14\" src=\"data/raresImg/skills/14.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills25\" src=\"data/raresImg/skills/25.skills.png\"/> <img data-items=\"skills29\" src=\"data/raresImg/skills/29.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 60 <p><b>Cena</b>: <span style=\"color:#ffd700\">50 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/59/Maab.png\"/></span></span> </td><td colspan=\"2\">Skorupiak o tytanowym pancerzu, który chroni wybranych członków drużyny, Oprócz tego potrafi dodać sił sojusznikom oraz przerazić przeciwników. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Okrzyk bojowy, Ryk, Gruboskórność, Siła jedności, Gryzienie, Plucie jadem, Ochrona. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Maab",
-     "url": "https://www.wikibr.pl/index.php/Maab",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 60 Ranga : 13 Punkty życia : 1600 Mana : 1100 Kondycja : 1100"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 60 <p><b>Cena</b>: <span style=\"color:#ffd700\">50 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/59/Maab.png\"/></span></span> </td><td colspan=\"2\">Skorupiak o tytanowym pancerzu, który chroni wybranych członków drużyny, Oprócz tego potrafi dodać sił sojusznikom oraz przerazić przeciwników. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Okrzyk bojowy, Ryk, Gruboskórność, Siła jedności, Gryzienie, Plucie jadem, Ochrona. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2267,6 +2028,10 @@
     [
      "Выносливость",
      "1100"
+    ],
+    [
+     "Статистика",
+     "Poziom : 50 Ranga : 3 Punkty życia : 1550 Mana : 900 Kondycja : 1600"
     ]
    ],
    "blocks": [
@@ -2281,31 +2046,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills5\" src=\"data/raresImg/skills/5.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills16\" src=\"data/raresImg/skills/16.skills.png\"/> <img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills17\" src=\"data/raresImg/skills/17.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/91/Stefan.png\"/></span></span> </td><td colspan=\"2\">Przemykający pod stopami szczur wzbudza strach, a w obliczu zagrożenia wpada w furię i dotkliwie gryzie. Może doprowadzić do zakażenia. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Rzyg, Zakażenie, Furia, Okrzyk bojowy, Zwykły atak. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Stefan",
-     "url": "https://www.wikibr.pl/index.php/Stefan",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 50 Ranga : 3 Punkty życia : 1550 Mana : 900 Kondycja : 1600"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/91/Stefan.png\"/></span></span> </td><td colspan=\"2\">Przemykający pod stopami szczur wzbudza strach, a w obliczu zagrożenia wpada w furię i dotkliwie gryzie. Może doprowadzić do zakażenia. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Rzyg, Zakażenie, Furia, Okrzyk bojowy, Zwykły atak. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2348,6 +2099,10 @@
     [
      "Выносливость",
      "1600"
+    ],
+    [
+     "Статистика",
+     "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 900 Kondycja : 1600"
     ]
    ],
    "blocks": [
@@ -2362,31 +2117,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills104\" src=\"data/raresImg/skills/104.skills.png\"/> <img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills17\" src=\"data/raresImg/skills/17.skills.png\"/> <img data-items=\"skills65\" src=\"data/raresImg/skills/65.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills22\" src=\"data/raresImg/skills/22.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">15 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/54/Tsetse.png\"/></span></span> </td><td colspan=\"2\">Nikt nie lubi, jak mu coś bzyczy nad uchem. Rój owadów budzi strach swoich przeciwników i błyskawicznie zabija trucizną. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Mierzony cios, Zatrucie, Rzyg, Plucie jadem, Okrzyk bojowy, Ryk, Naturalna odporność, Zakażenie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Tse Tse",
-     "url": "https://www.wikibr.pl/index.php/Tse_Tse",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 900 Kondycja : 1600"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">15 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/54/Tsetse.png\"/></span></span> </td><td colspan=\"2\">Nikt nie lubi, jak mu coś bzyczy nad uchem. Rój owadów budzi strach swoich przeciwników i błyskawicznie zabija trucizną. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Mierzony cios, Zatrucie, Rzyg, Plucie jadem, Okrzyk bojowy, Ryk, Naturalna odporność, Zakażenie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2429,6 +2170,10 @@
     [
      "Выносливость",
      "700"
+    ],
+    [
+     "Статистика",
+     "Poziom : 55 Ranga : 4 Punkty życia : 1500 Mana : 1500 Kondycja : 600"
     ]
    ],
    "blocks": [
@@ -2443,31 +2188,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills101\" src=\"data/raresImg/skills/101.skills.png\"/> <img data-items=\"skills51\" src=\"data/raresImg/skills/51.skills.png\"/> <img data-items=\"skills108\" src=\"data/raresImg/skills/108.skills.png\"/> <img data-items=\"skills109\" src=\"data/raresImg/skills/109.skills.png\"/> <img data-items=\"skills103\" src=\"data/raresImg/skills/103.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 55 <p><b>Cena</b>: <span style=\"color:#ffd700\">35 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Atakuje z dystansu i urokami.</b> </p><p><b>Używa</b>: Leczenie, Grupowe leczenie, Korzeń, Osy, Piorun kulisty. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Konował",
-     "url": "https://www.wikibr.pl/index.php/Konował",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 55 Ranga : 4 Punkty życia : 1500 Mana : 1500 Kondycja : 600"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 55 <p><b>Cena</b>: <span style=\"color:#ffd700\">35 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Atakuje z dystansu i urokami.</b> </p><p><b>Używa</b>: Leczenie, Grupowe leczenie, Korzeń, Osy, Piorun kulisty. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2510,6 +2241,10 @@
     [
      "Выносливость",
      "800"
+    ],
+    [
+     "Статистика",
+     "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 1300 Kondycja : 800"
     ]
    ],
    "blocks": [
@@ -2524,31 +2259,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills62\" src=\"data/raresImg/skills/62.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills65\" src=\"data/raresImg/skills/65.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills61\" src=\"data/raresImg/skills/61.skills.png\"/> <img data-items=\"skills67\" src=\"data/raresImg/skills/67.skills.png\"/> <img data-items=\"skills68\" src=\"data/raresImg/skills/68.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">20 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Plujka.png\"/></span></span> </td><td colspan=\"2\">Mała i kolorowa żabka, która wydając różne dźwięki, oślepia i otępia przeciwników. Pluje jadem i poparzy każdego, kto spróbuje ją dotknąć. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Szpila w oko, Zatrucie, Rzyg, Hak w brzuch, Ukłucie lalki, Aura cienia, Plucie jadem, Gryzienie. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Plujka",
-     "url": "https://www.wikibr.pl/index.php/Plujka",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 1300 Kondycja : 800"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">20 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Plujka.png\"/></span></span> </td><td colspan=\"2\">Mała i kolorowa żabka, która wydając różne dźwięki, oślepia i otępia przeciwników. Pluje jadem i poparzy każdego, kto spróbuje ją dotknąć. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Szpila w oko, Zatrucie, Rzyg, Hak w brzuch, Ukłucie lalki, Aura cienia, Plucie jadem, Gryzienie. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2591,6 +2312,10 @@
     [
      "Выносливость",
      "700"
+    ],
+    [
+     "Статистика",
+     "Poziom : 45 Ranga : 3 Punkty życia : 1500 Mana : 1700 Kondycja : 700"
     ]
    ],
    "blocks": [
@@ -2605,31 +2330,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills30\" src=\"data/raresImg/skills/30.skills.png\"/> <img data-items=\"skills38\" src=\"data/raresImg/skills/38.skills.png\"/> <img data-items=\"skills39\" src=\"data/raresImg/skills/39.skills.png\"/> <img data-items=\"skills31\" src=\"data/raresImg/skills/31.skills.png\"/> <img data-items=\"skills37\" src=\"data/raresImg/skills/37.skills.png\"/> <img data-items=\"skills33\" src=\"data/raresImg/skills/33.skills.png\"/> <img data-items=\"skills34\" src=\"data/raresImg/skills/34.skills.png\"/> <img data-items=\"skills32\" src=\"data/raresImg/skills/32.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 45 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/74/Spopielacz.png\"/></span></span> </td><td colspan=\"2\">Wirtuoz żywiołu ognia. Atakuje w bezpośrednim starciu lub z dystansu. Za jednym zamachem potrafi unicestwić całą grupę wrogów. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Magiczna iskra, Wrażliwość na ogień, Ognista sfera, Inkantacja, Podpalenie, Kula ognia, Deszcz ognia, Meteoryt, Okrzyk bojowy. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Spopielacz",
-     "url": "https://www.wikibr.pl/index.php/Spopielacz",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 45 Ranga : 3 Punkty życia : 1500 Mana : 1700 Kondycja : 700"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 45 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/74/Spopielacz.png\"/></span></span> </td><td colspan=\"2\">Wirtuoz żywiołu ognia. Atakuje w bezpośrednim starciu lub z dystansu. Za jednym zamachem potrafi unicestwić całą grupę wrogów. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Magiczna iskra, Wrażliwość na ogień, Ognista sfera, Inkantacja, Podpalenie, Kula ognia, Deszcz ognia, Meteoryt, Okrzyk bojowy. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2672,6 +2383,10 @@
     [
      "Выносливость",
      "1500"
+    ],
+    [
+     "Статистика",
+     "Poziom : 75 Ranga : 7 Punkty życia : 2000 Mana : 1300 Kondycja : 1500"
     ]
    ],
    "blocks": [
@@ -2686,31 +2401,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills73c\" src=\"data/raresImg/skills/73.skills.png\"/> <img data-items=\"skills74\" src=\"data/raresImg/skills/74.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills77\" src=\"data/raresImg/skills/77.skills.png\"/> <img data-items=\"skills71\" src=\"data/raresImg/skills/71.skills.png\"/> <img data-items=\"skills76\" src=\"data/raresImg/skills/76.skills.png\"/> <img data-items=\"skills72\" src=\"data/raresImg/skills/72.skills.png\"/> <img data-items=\"skills75\" src=\"data/raresImg/skills/75.skills.png\"/> <img data-items=\"skills78\" src=\"data/raresImg/skills/78.skills.png\"/> <img data-items=\"skills79\" src=\"data/raresImg/skills/79.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 75 <p><b>Cena</b>: <span style=\"color:#ffd700\">45 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/a8/GnidaPet.png\"/></span></span> </td><td colspan=\"2\">Plugawy twór magicznych eksperymentów. Atakuje z zaskoczenia, uderzając we wrażliwe punkty osłabia celność ataków oraz skuteczność zasłony przeciwnika. <p><br/> <b>Atakuje fizycznie i z dystansu.</b> </p><p><b>Używa</b>: Lewy prawy, Front Kick, Kontrola oddechu, Bolesne uderzenie, Cios w wątrobę, Latające kolano, Uniki, Haduoken, Uderzenie Chi, Rzyg. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Gnida",
-     "url": "https://www.wikibr.pl/index.php/Gnida",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 75 Ranga : 7 Punkty życia : 2000 Mana : 1300 Kondycja : 1500"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 75 <p><b>Cena</b>: <span style=\"color:#ffd700\">45 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/a8/GnidaPet.png\"/></span></span> </td><td colspan=\"2\">Plugawy twór magicznych eksperymentów. Atakuje z zaskoczenia, uderzając we wrażliwe punkty osłabia celność ataków oraz skuteczność zasłony przeciwnika. <p><br/> <b>Atakuje fizycznie i z dystansu.</b> </p><p><b>Używa</b>: Lewy prawy, Front Kick, Kontrola oddechu, Bolesne uderzenie, Cios w wątrobę, Latające kolano, Uniki, Haduoken, Uderzenie Chi, Rzyg. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2753,6 +2454,10 @@
     [
      "Выносливость",
      "1200"
+    ],
+    [
+     "Статистика",
+     "Poziom : 65 Ranga : 5 Punkty życia : 2200 Mana : 1000 Kondycja : 1200"
     ]
    ],
    "blocks": [
@@ -2767,31 +2472,17 @@
     {
      "title": "Навыки",
      "html": "<img data-items=\"skills185\" src=\"data/raresImg/skills/185.skills.png\"/> <img data-items=\"skills62\" src=\"data/raresImg/skills/62.skills.png\"/> <img data-items=\"skills93\" src=\"data/raresImg/skills/93.skills.png\"/> <img data-items=\"skills96\" src=\"data/raresImg/skills/96.skills.png\"/> <img data-items=\"skills97\" src=\"data/raresImg/skills/97.skills.png\"/> <img data-items=\"skills42c\" src=\"data/raresImg/skills/42.skills.png\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">40 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/5f/Amorek.png\"/></span></span> </td><td colspan=\"2\">To urocze latające stworzenie zamienia przeciwników w bezradne kukły. Na jego strzały i urok nie ma odpornych, jak na Amorka przystało. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Atak zaciemniający, Szpila w oko, Plucie trujące, Plucie kaleczące, Twoja stara, Aura zimna. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Amorek",
-     "url": "https://www.wikibr.pl/index.php/Amorek",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 65 Ranga : 5 Punkty życia : 2200 Mana : 1000 Kondycja : 1200"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">40 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/5f/Amorek.png\"/></span></span> </td><td colspan=\"2\">To urocze latające stworzenie zamienia przeciwników w bezradne kukły. Na jego strzały i urok nie ma odpornych, jak na Amorka przystało. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Atak zaciemniający, Szpila w oko, Plucie trujące, Plucie kaleczące, Twoja stara, Aura zimna. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2834,6 +2525,10 @@
     [
      "Выносливость",
      "1800"
+    ],
+    [
+     "Статистика",
+     "Poziom : 90 Ranga : 10 Punkty życia : 2900 Mana : 1000 Kondycja : 1800"
     ]
    ],
    "blocks": [
@@ -2852,37 +2547,21 @@
     {
      "title": "Скины",
      "html": "<img data-items=\"petskin31\" src=\"data/raresImg/pet_skin/31.pet_skin.webp\"/>"
+    },
+    {
+     "title": "Доп. информация",
+     "html": "<b>Wymagany poziom</b>: 70 <p>Pojawia się losowo na polach w <span data-items=\"wb_przysiolek_trentis\">Przysiółku Trentis</span> oraz w <span data-items=\"wb_wymarla_osada\">Wymarłej osadzie</span> </p><p>Cena: <span style=\"color:#7de0de\">100 platyny</span> </p><p>Po odesłaniu możliwa do odbioru u <span data-items=\"wb_przysiolek_trentis\">Romana</span> za <span style=\"color:#ffd700\">1 000 złota</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+    },
+    {
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Atakuje fizycznie, mentalnie i z dystansu.</b> </p><p><b>Używa</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
-    {
-     "title": "Mućka",
-     "url": "https://www.wikibr.pl/index.php/Mućka",
-     "fields": [
-      [
-       "Статистика",
-       "Poziom : 90 Ranga : 10 Punkty życia : 2900 Mana : 1000 Kondycja : 1800"
-      ],
-      [
-       "Доп. информация",
-       "<b>Wymagany poziom</b>: 70 <p>Pojawia się losowo na polach w <span data-items=\"wb_przysiolek_trentis\">Przysiółku Trentis</span> oraz w <span data-items=\"wb_wymarla_osada\">Wymarłej osadzie</span> </p><p>Cena: <span style=\"color:#7de0de\">100 platyny</span> </p><p>Po odesłaniu możliwa do odbioru u <span data-items=\"wb_przysiolek_trentis\">Romana</span> za <span style=\"color:#ffd700\">1 000 złota</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Atakuje fizycznie, mentalnie i z dystansu.</b> </p><p><b>Używa</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
-      }
-     ]
-    }
-   ],
    "backrefs": [
     {
      "title": "Упоминается в",
      "ids": [
-      "wb_przysiolek_trentis",
-      "wb_wymarla_osada",
       "wb_zwierzaki"
      ]
     }
@@ -4499,37 +4178,34 @@
     [
      "Сопр. колющим",
      "15"
+    ],
+    [
+     "Wartość",
+     "1 000"
+    ],
+    [
+     "Waga",
+     "0"
     ]
    ],
-   "blocks": [],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "wikibr": [
+   "blocks": [
     {
-     "title": "Odłamek",
-     "url": "https://www.wikibr.pl/index.php/Odłamek",
-     "fields": [
-      [
-       "Wartość",
-       "1 000"
-      ],
-      [
-       "Waga",
-       "0"
-      ]
-     ],
-     "blocks": [
-      {
-       "title": "Описание",
-       "html": "<table class=\"wb\"><tr><td colspan=\"2\">Surowiec umożliwiający inkrustację sprzętu. </td></tr></table>"
-      },
-      {
-       "title": "Sposoby pozyskiwania",
-       "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Rarów, Setów, Rarów dla petów oraz Synergetyków,</li> <li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Orbów.</li></ul> </td></tr></table>"
-      }
-     ]
+     "title": "Описание",
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Surowiec umożliwiający inkrustację sprzętu. </td></tr></table>"
+    },
+    {
+     "title": "Sposoby pozyskiwania",
+     "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Rarów, Setów, Rarów dla petów oraz Synergetyków,</li> <li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Orbów.</li></ul> </td></tr></table>"
     }
    ],
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
    "backrefs": [
+    {
+     "title": "Падает с",
+     "ids": [
+      "ghost3a"
+     ]
+    },
     {
      "title": "Упоминается в",
      "ids": [
@@ -4537,7 +4213,6 @@
       "wb_jaskinia_golema",
       "wb_jaskinia_golema_poznanie",
       "wb_jaski_golema_wyzwanie",
-      "wb_modyfikacje_sprzetu",
       "wb_zadania_codzienne"
      ]
     }

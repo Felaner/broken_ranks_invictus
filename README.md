@@ -1,5 +1,7 @@
 # Broken Ranks Wiki
 
+Неофициальная фанатская вики. Не связана с Whitemoon Games и не одобрена ею.
+
 Личная вики по игре Broken Ranks: экипировка, питомцы, противники, предметы, НПС, навыки.
 Данные берутся с [anteikutaern.at.ua](https://anteikutaern.at.ua/).
 
@@ -17,8 +19,7 @@
 - сравнение до 4 записей (кнопка ⚖), комплекты с частями и бонусами;
 - личные отметки «есть у меня» (✓), заметки, избранное (★) — хранятся в браузере;
 - карты локаций с порталами и точками НПС / предметов / противников;
-- данные с [wikibr.pl](https://www.wikibr.pl/) (на польском): умения и иммунитеты боссов, применение
-  и добыча предметов и т.п. — в карточках, плюс раздел «Статьи» (гайды, классы, локации, инстансы);
+- раздел «Статьи»: гайды, классы, локации, инстансы;
 - `←`/`→` — соседние записи, `Esc` — закрыть карточку; тёмная тема.
 
 ## Загрузка данных
@@ -38,13 +39,16 @@ python scraper/fetch_db.py --browser firefox --needed   # докачать ка�
 ссылается вики, но которых ещё нет локально (модели питомцев/боссов и т.п.).
 Старые `scrape.py` и `recon.py` оставлены для справки.
 
-Данные wikibr.pl:
+Дополнительные статьи (вторая вики на MediaWiki):
 
 ```bash
-python scraper/mirror.py --browser firefox            # копия вики -> scraper/mirror/wikibr.pl
-python scraper/build.py                               # разбор (scraper/wikibr.py) и сборка
+python scraper/mirror.py --browser firefox            # копия вики -> scraper/mirror/
+python scraper/build.py                               # разбор (scraper/wikibr.py), перевод и сборка
 python scraper/mirror.py --browser firefox --images   # картинки из scraper/source/needed_wikibr.txt
 ```
+
+Перевод польских текстов — словарь `scraper/source/translate_pl_ru.json`; что ещё не переведено,
+сборка выписывает в `scraper/source/translate_todo.json`.
 
 ## Формат записи
 

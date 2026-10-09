@@ -53,7 +53,6 @@ window.BR_CONFIG = {
       id: "guides",
       title: "Статьи",
       icon: "📖",
-      source: "https://www.wikibr.pl/",
       categories: []
     }
   ]

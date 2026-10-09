@@ -603,12 +603,11 @@ def build_maps():
 
 # ---------- wikibr.pl ----------
 
-WIKIBR_URL = "https://www.wikibr.pl/index.php/"
 WB_KIND_SECTIONS = {"item": ("items", "equipment", "pets"), "mob": ("mobs",), "champion": ("mobs",),
                     "pet": ("pets",)}
 WB_CATS = [("guides", "Гайды", ("guide",)), ("classes", "Классы", ("class",)),
            ("locations", "Локации", ("location",)), ("instances", "Инстансы", ("instance",)),
-           ("other", "Прочее с wikibr.pl", ("item", "mob", "pet", "champion"))]
+           ("other", "Прочее", ("item", "mob", "pet", "champion"))]
 needed_wikibr = set()
 
 
@@ -622,8 +621,58 @@ def wb_norm(t):
     return re.sub(r"\s+", " ", (t or "").lower()).strip()
 
 
+# Перевод польских текстов: словарь фрагментов (scraper/source/translate_pl_ru.json)
+# плюс названия объектов из базы (titlePL -> title). Непереведённое копится в translate_todo.json.
+TR_FILE = SRC / "translate_pl_ru.json"
+TR = json.loads(TR_FILE.read_text("utf-8")) if TR_FILE.exists() else {}
+PL2RU = {}
+for _sec in DB.values():
+    if isinstance(_sec, dict):
+        for _o in _sec.values():
+            if isinstance(_o, dict) and _o.get("titlePL") and _o.get("title"):
+                PL2RU.setdefault(_o["titlePL"].strip().lower(), _o["title"].strip())
+untranslated = Counter()
+LATIN = re.compile(r"[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]")
+
+
+def tr_text(s):
+    core = re.sub(r"\s+", " ", s).strip()
+    if not core or not LATIN.search(core):
+        return s
+    lm = re.match(r"^([^:]{2,40}?)\s*:\s*(.*)$", core)
+    if core in TR:
+        out = TR[core]
+    elif lm and lm.group(1) in TR and (not lm.group(2) or not LATIN.search(lm.group(2)) or lm.group(2) in TR):
+        # «Метка: значение» — метка из словаря, значение число или тоже из словаря
+        out = TR[lm.group(1)] + ":" + (" " + TR.get(lm.group(2), lm.group(2)) if lm.group(2) else "")
+    else:
+        m = re.match(r"^(.*?)([\s,.:;!?)]*)$", core)
+        key = m.group(1).lower()
+        if key in PL2RU:
+            out = PL2RU[key] + m.group(2)
+        else:
+            untranslated[core] += 1
+            out = core
+    lead = " " if s[:1].isspace() else ""
+    trail = " " if s[-1:].isspace() else ""
+    return lead + out + trail
+
+
+def tr_html(html):
+    soup = BeautifulSoup(html, "html.parser")
+    for node in list(soup.find_all(string=True)):
+        if isinstance(node, Comment):
+            continue
+        new = tr_text(str(node))
+        if new != str(node):
+            node.replace_with(new)
+    for t in soup.find_all(title=True):
+        t["title"] = tr_text(t["title"]).strip()
+    return str(soup)
+
+
 def add_wikibr():
-    """Дополняет записи данными wikibr.pl и создаёт раздел «Статьи» для остального."""
+    """Встраивает данные второй вики (scraper/source/wikibr.json) в наши записи и создаёт раздел «Статьи»."""
     f = SRC / "wikibr.json"
     if not f.exists():
         return
@@ -635,7 +684,7 @@ def add_wikibr():
             if e.get("namePL"):
                 by_pl.setdefault(wb_norm(e["namePL"]), []).append((sid, e))
 
-    title_to_id, attached, new_entries = {}, [], []
+    title_to_id, matched, new_entries = {}, [], []
     for title, p in pages.items():
         if p["kind"] == "redirect":
             continue
@@ -645,23 +694,17 @@ def add_wikibr():
             cands = pref or [e for _, e in cands]
         else:
             cands = []
-        info = {"title": title, "url": WIKIBR_URL + title.replace(" ", "_"),
-                "fields": p.get("fields", []), "blocks": p.get("blocks", [])}
         if cands:
-            for e in cands:
-                e.setdefault("wikibr", []).append(info)
-            attached.append(info)
+            matched.append((p, cands))
             title_to_id[title] = cands[0]["id"]
         else:
             cat = next(c for c, _, kinds in WB_CATS if p["kind"] in kinds)
             eid = "wb_" + slug(title)
             img = p.get("image")
-            new_entries.append({
-                "id": eid, "category": cat, "name": title, "nameEN": "", "namePL": title,
-                "icon": wb_img(img) if img else "", "image": "", "level": None,
-                "fields": p.get("fields", []), "blocks": p.get("blocks", []),
-                "sourceUrl": info["url"], "lang": "pl",
-            })
+            e = {"id": eid, "category": cat, "name": tr_text(title).strip(), "nameEN": "", "namePL": title,
+                 "icon": wb_img(img) if img else "", "image": "", "level": None,
+                 "fields": [], "blocks": [], "sourceUrl": ""}
+            new_entries.append((p, e))
             title_to_id[title] = eid
     for src, dst in redirects.items():
         if dst in title_to_id:
@@ -672,17 +715,40 @@ def add_wikibr():
             tid = title_to_id.get(m.group(1)) or title_to_id.get(redirects.get(m.group(1), ""))
             return f'data-items="{tid}"' if tid else ""
         html = re.sub(r'data-wikibr="([^"]+)"', link, html)
-        return re.sub(r'data-wikibr-img="([^"]+)"', lambda m: f'src="{wb_img(m.group(1))}"', html)
+        html = re.sub(r'data-wikibr-img="([^"]+)"', lambda m: f'src="{wb_img(m.group(1))}"', html)
+        return tr_html(html)
 
-    for info in attached:
-        info["blocks"] = [{"title": b["title"], "html": convert(b["html"])} for b in info["blocks"]]
-        info["fields"] = [[k, convert(v)] for k, v in info["fields"]]
-    for e in new_entries:
-        e["blocks"] = [{"title": b["title"], "html": convert(b["html"])} for b in e["blocks"]]
-        e["fields"] = [[k, convert(v)] for k, v in e["fields"]]
+    def merge(e, p):
+        """Блоки с тем же заголовком дополняются, новые — добавляются; простые поля — в таблицу."""
+        have_fields = {k for k, _ in e["fields"]}
+        for k, v in p.get("fields", []):
+            label = tr_text(k).strip()
+            if "<" in v:
+                add_block(e, label, convert(v))
+            elif label not in have_fields:
+                e["fields"].append([label, tr_text(v).strip()])
+                have_fields.add(label)
+        for b in p.get("blocks", []):
+            add_block(e, tr_text(b["title"]).strip(), convert(b["html"]))
+
+    def add_block(e, title, html):
+        for b in e["blocks"]:
+            if b["title"] == title:
+                b["html"] += "<hr>" + html
+                return
+        e["blocks"].append({"title": title, "html": html})
+
+    for p, cands in matched:
+        for e in cands:
+            merge(e, p)
+    for p, e in new_entries:
+        merge(e, p)
     cats = [{"id": c, "name": n} for c, n, _ in WB_CATS]
-    write("guides", cats, new_entries)
-    print(f"wikibr: дополнено записей {len(attached)}, новых статей {len(new_entries)}")
+    write("guides", cats, [e for _, e in new_entries])
+    todo = [{"pl": k, "count": n} for k, n in untranslated.most_common()]
+    (SRC / "translate_todo.json").write_text(json.dumps(todo, ensure_ascii=False, indent=0), "utf-8")
+    print(f"Вторая вики: дополнено записей {sum(len(c) for _, c in matched)}, новых статей {len(new_entries)}; "
+          f"непереведённых фрагментов: {len(untranslated)} (scraper/source/translate_todo.json)")
 
 
 def wb_img(path):

@@ -518,21 +518,7 @@ img.ref:hover { outline: 2px solid var(--accent); }
 .small { font-size: 12px; }
 .tip-desc { margin: 6px 0 0; color: var(--muted); line-height: 1.4; }
 
-/* ---------- wikibr.pl ---------- */
-.wb-sec {
-  margin: 16px 0; padding: 0 12px 4px;
-  border: 1px solid var(--line); border-radius: var(--radius);
-  background: color-mix(in srgb, var(--panel-2) 50%, transparent);
-}
-.wb-sec summary {
-  cursor: pointer; padding: 10px 0; font-weight: 600; font-size: 13px;
-  display: flex; align-items: center; gap: 8px;
-}
-.wb-sec summary a { margin-left: auto; font-weight: normal; font-size: 12px; }
-.wb-badge {
-  font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 4px;
-  background: #c8102e; color: #fff;
-}
+/* ---------- таблицы из статей ---------- */
 table.wb { width: 100%; border-collapse: collapse; }
 table.wb td, table.wb th { padding: 4px 6px; text-align: center; vertical-align: top; border-bottom: 1px solid var(--line); }
 table.wb tr:last-child td { border-bottom: 0; }
@@ -544,7 +530,7 @@ table.wb ul { text-align: left; margin: 4px 0; padding-left: 18px; }
 .block-html table td, .block-html table th { padding: 3px 6px; }
 .props td.block-html { padding: 6px 8px; background: none; }
 
-/* полоски как на wikibr.pl */
+/* полоски здоровья / маны / выносливости */
 .bars { display: flex; flex-direction: column; gap: 5px; margin: 0 0 14px; }
 .bar {
   display: flex; align-items: center; gap: 8px;
@@ -562,3 +548,19 @@ body.detail-wide .detail { width: min(860px, 58vw); }
 @media (max-width: 1100px) { body.detail-wide .detail { width: 100%; } }
 body.detail-wide .main .toolbar { flex-wrap: wrap; }
 body.detail-wide .main .local-search { flex-basis: 100%; }
+
+/* ---------- дисклеймер ---------- */
+.side-note {
+  margin: 18px 10px 6px; padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 11px; line-height: 1.5; color: var(--muted);
+}
+.side-note a { display: block; margin-top: 4px; }
+.notice {
+  margin-top: 14px; padding: 10px 14px; font-size: 13px;
+  border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 8px;
+  background: var(--panel);
+}
+.about { max-width: 760px; line-height: 1.6; }
+.about h3 { margin: 22px 0 6px; font-size: 15px; color: var(--accent); }
+.about p { margin: 0 0 8px; }

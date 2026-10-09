@@ -167,7 +167,6 @@
       lists: Array.isArray(e.lists) ? e.lists : [],
       blocks: Array.isArray(e.blocks) ? e.blocks : [],
       backrefs: Array.isArray(e.backrefs) ? e.backrefs : [],
-      wikibr: Array.isArray(e.wikibr) ? e.wikibr : [],
       namePL: e.namePL || "",
       lang: e.lang || "",
       image: e.image || "",
@@ -175,8 +174,7 @@
       sourceUrl: e.sourceUrl || "",
       search: norm([name, e.nameEN, e.namePL].filter(Boolean).join(" ")),
       searchFull: norm([name, e.nameEN, e.namePL, e.description, ...flatVals,
-        ...(e.blocks || []).map(b => stripTags(b.html)),
-        ...(e.wikibr || []).flatMap(w => w.blocks.map(b => stripTags(b.html)))].join(" ")),
+        ...(e.blocks || []).map(b => stripTags(b.html))].join(" ")),
     };
   }
 
@@ -290,7 +288,9 @@
         html += `</div>`;
       }
     }
-    html += `</div>`;
+    html += `</div>
+      <div class="side-note">Неофициальная фанатская вики. Не связана с Whitemoon Games.
+        <a href="#/about" class="${kind === "about" ? "active" : ""}">О сайте</a></div>`;
     els.sidebar.innerHTML = html;
   }
 
@@ -300,6 +300,8 @@
     let html = db.demo ? demoBanner() : "";
     html += `<h1 class="page-title">Broken Ranks Wiki</h1>
       <p class="page-sub">Личная база по игре: экипировка, питомцы, противники, предметы, НПС и навыки.</p>
+      <div class="notice">Это <b>неофициальная</b> фанатская вики, сделанная игроками. Она не связана с разработчиком
+        игры и не одобрена им. <a href="#/about">Подробнее</a></div>
       <div class="home-grid">`;
     for (const sec of SECTIONS) {
       const data = db.sections[sec.id];
@@ -548,6 +550,35 @@
     }));
   }
 
+  // ---------- about ----------
+
+  function renderAbout() {
+    view.list = [];
+    els.main.innerHTML = `<div class="about">
+      <h1 class="page-title">О сайте</h1>
+      <p>Это <b>неофициальная фанатская вики</b> по игре Broken Ranks, созданная игроками для собственного удобства
+        и помощи другим игрокам.</p>
+      <h3>Отношение к разработчику</h3>
+      <p>Сайт не связан с компанией Whitemoon Games (разработчик и издатель Broken Ranks), не одобрен, не спонсирован
+        и не поддерживается ею. Мнения и сведения на сайте не являются официальной позицией разработчика.</p>
+      <h3>Права на материалы</h3>
+      <p>Broken Ranks, названия, логотипы, изображения, тексты и другие игровые материалы являются собственностью
+        их правообладателей. Они используются здесь исключительно в информационных, некоммерческих целях —
+        для справки об игре.</p>
+      <h3>Некоммерческий характер</h3>
+      <p>Сайт бесплатный, не содержит рекламы, ничего не продаёт и не собирает персональные данные. Избранное,
+        отметки и заметки хранятся только в вашем браузере и никуда не отправляются.</p>
+      <h3>Точность информации</h3>
+      <p>Сведения собраны из общедоступных источников и могут быть неполными, неточными или устаревшими.
+        Актуальную информацию смотрите в самой игре и на официальных ресурсах разработчика. Сайт не несёт
+        ответственности за решения, принятые на основе его материалов.</p>
+      <h3>Для правообладателей</h3>
+      <p>Если вы правообладатель и считаете, что какой-либо материал размещён неправомерно, сообщите об этом —
+        он будет оперативно исправлен или удалён:
+        <a href="https://github.com/Felaner/broken_ranks_invictus/issues" target="_blank" rel="noopener">написать</a>.</p>
+    </div>`;
+  }
+
   // ---------- compare ----------
 
   // Для этих характеристик меньшее значение лучше.
@@ -705,6 +736,8 @@
         { showSection: true, empty: "Пока ничего не отмечено" });
     } else if (kind === "cmp") {
       renderCompare();
+    } else if (kind === "about") {
+      renderAbout();
     } else if (kind === "maps") {
       secId ? renderMap(secId, route.hl) : renderMapsList();
     } else {
@@ -721,7 +754,7 @@
 
   const BACKREF_LIMIT = 40;
 
-  // Полоски здоровья / маны / выносливости, как на wikibr.pl.
+  // Полоски здоровья / маны / выносливости.
   const BAR_LABELS = { "Здоровье": "hp", "Мана": "mana", "Выносливость": "stam" };
   function barsHtml(e) {
     const bars = e.fields.filter(([k]) => BAR_LABELS[k]);
@@ -778,8 +811,6 @@
         ${iconHtml(e, "ico-lg")}
         <div>
           <h2>${esc(e.name)}</h2>
-          ${[e.nameEN, e.namePL].filter((n, i, a) => n && n !== e.name && a.indexOf(n) === i).length
-            ? `<div class="name-en">${esc([e.nameEN, e.namePL].filter((n, i, a) => n && n !== e.name && a.indexOf(n) === i).join(" · "))}</div>` : ""}
           <div class="crumbs">
             <a href="${href(["s", sec.id])}">${esc(sec.title)}</a>
             ${cat ? ` / <a href="${href(["s", sec.id, cat.id])}">${esc(cat.name)}</a>` : ""}
@@ -799,12 +830,6 @@
       </div>`).join("")}
       ${extraMaps.length ? `<div class="block"><h3>На карте</h3><div class="block-html">${extraMaps.map(mid =>
         `<span data-maps="${esc(mid)}">${esc(db.mapById.get(mid)?.name || mid)}</span>`).join(", ")}</div></div>` : ""}
-      ${e.wikibr.map(w => `<details class="wb-sec" open>
-        <summary><span class="wb-badge">PL</span> Данные wikibr.pl <a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)} ↗</a></summary>
-        ${w.fields.length ? `<table class="props">${w.fields.map(([k, v]) =>
-          `<tr><th>${esc(k)}</th><td class="block-html">${/[<]/.test(v) ? v : esc(v)}</td></tr>`).join("")}</table>` : ""}
-        ${w.blocks.map(b => `<div class="block"><h3>${esc(b.title)}</h3><div class="block-html">${b.html}</div></div>`).join("")}
-      </details>`).join("")}
       ${renderBackrefs(e)}
       ${e.lists.map(l => `<div class="detail-list">
         <h3>${esc(l.title)}</h3>
