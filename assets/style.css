@@ -659,3 +659,10 @@ body.static { background: var(--bg); }
 .block-html ul.plain-list { list-style: none; margin: 0; padding: 0; }
 .block-html ul.plain-list li { padding: 2px 0; }
 .block-html ul.plain-list small { color: var(--muted); }
+.help { display: inline-grid; place-items: center; width: 15px; height: 15px; border-radius: 50%;
+  font-size: 10px; font-weight: 700; color: var(--muted); border: 1px solid var(--line); cursor: help; vertical-align: 1px; }
+.help[data-help] { cursor: pointer; }
+.help:hover { color: var(--accent); border-color: var(--accent); }
+.block-html img.skill-ico { width: 28px; height: 28px; max-height: 28px; margin: 0 6px 0 0; border-radius: 6px; }
+.block-html ul.plain-list li { display: flex; align-items: center; flex-wrap: wrap; gap: 0 4px; }
+.tip-desc b { color: var(--accent); font-weight: 600; }

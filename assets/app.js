@@ -351,7 +351,7 @@
   }
 
   // Поля, по которым можно фильтровать выпадающим списком.
-  const FACETS = ["Редкость", "Требуемый класс", "Тип урона", "Тип", "Аспект арены", "Группа боссов"];
+  const FACETS = ["Редкость", "Требуемый класс", "Тип урона", "Тип", "Аспект", "Путь сложности", "Группа боссов"];
 
   function applyFilters(entries) {
     const q = norm(view.query);
@@ -854,7 +854,7 @@
       ${e.image ? `<div class="model"><img src="${esc(e.image)}" alt="" onerror="this.parentNode.remove()"></div>` : ""}
       ${barsHtml(e)}
       ${e.fields.filter(([k]) => !BAR_LABELS[k]).length ? `<table class="props">${e.fields.filter(([k]) => !BAR_LABELS[k]).map(([k, v]) =>
-        `<tr><th>${esc(k)}</th><td>${linkify(fv(v))}${isDiff(v) ? ` <small class="muted">(${esc(DIFFS.find(d => d[0] === view.diff)[1].toLowerCase())})</small>` : ""}</td></tr>`).join("")}</table>` : ""}
+        `<tr><th>${fieldLabel(k)}</th><td>${FIELD_HELP[k] ? esc(fv(v)) : linkify(fv(v))}${isDiff(v) ? ` <small class="muted">(${esc(DIFFS.find(d => d[0] === view.diff)[1].toLowerCase())})</small>` : ""}</td></tr>`).join("")}</table>` : ""}
       ${e.description ? `<div class="desc">${esc(e.description).replace(/\n/g, "<br>")}</div>` : ""}
       ${e.blocks.map(b => `<div class="block">
         ${b.title && b.title !== "Статья" ? `<h3>${esc(b.title)}</h3>` : ""}
@@ -956,6 +956,27 @@
   document.body.appendChild(tip);
   let tipFor = null;
 
+  // Пояснения к непонятным полям: подсказка и ссылка на статью.
+  const FIELD_HELP = {
+    "Аспект": ["Аспект противника для механики Насыщения: Насыщение действует только против противников с аспектом, а за победы над ними копятся очки мастерства этого аспекта.", "wb_nasycenie"],
+    "Путь сложности": ["Путь сложности в механике Насыщения: Тень → Мрак → Глубина → Бездна. Чем дальше путь, тем больше очков мастерства аспекта даёт победа.", "wb_nasycenie"],
+    "Сила (PvE)": ["Оценка силы противника в PvE-боях.", "wb_power"],
+  };
+  function fieldLabel(k) {
+    const h = FIELD_HELP[k];
+    if (!h) return esc(k);
+    const target = db.byId.get(h[1]);
+    return `${esc(k)} <span class="help" title="${esc(h[0])}"${target ? ` data-help="${esc(h[1])}"` : ""}>?</span>`;
+  }
+
+  // Текст блока одной строкой (для подсказки).
+  const blockText = (e, rx) => {
+    const b = e.blocks.find(b => rx.test(b.title));
+    const t = b ? stripTags(b.html).replace(/\s+/g, " ").trim() : "";
+    return t && !/^[-—]$/.test(t) ? t : "";
+  };
+  const cut = (t, n) => t.length > n ? t.slice(0, n).replace(/\s+\S*$/, "") + "…" : t;
+
   function showTip(node, x, y) {
     const e = db.byId.get(node.getAttribute("data-items"));
     if (!e) return;
@@ -963,11 +984,17 @@
       tipFor = e.id;
       const sec = db.sections[e.section];
       const cat = sec.categories.find(c => c.id === e.category);
-      const rows = e.fields.filter(([k]) => !TIP_SKIP.test(k)).slice(0, 6);
+      const rows = e.fields.filter(([k, v]) => !TIP_SKIP.test(k) && !/^(0|-|)$/.test(String(fv(v)).trim())).slice(0, 6);
+      const usage = blockText(e, /^(Применение|Использование|Назначение)$/);
+      const where = blockText(e, /^Локация$/);
+      const desc = blockText(e, /^Описание$/);
       tip.innerHTML = `<div class="tip-head">${iconHtml(e, "ico-sm")}<div><b>${esc(e.name)}</b>
           <small>${esc(sec.title)}${cat ? " · " + esc(cat.name) : ""}</small></div></div>
         ${rows.length ? `<table>${rows.map(([k, v]) => `<tr><th>${esc(k)}</th><td>${esc(fv(v))}</td></tr>`).join("")}</table>` : ""}
-        ${rows.length < 3 && e.blocks[0] ? `<p class="tip-desc">${esc(stripTags(e.blocks[0].html).replace(/\s+/g, " ").trim().slice(0, 180))}</p>` : ""}`;
+        ${usage ? `<p class="tip-desc"><b>Для чего:</b> ${esc(cut(usage, 220))}</p>` : ""}
+        ${where ? `<p class="tip-desc"><b>Где:</b> ${esc(cut(where, 140))}</p>` : ""}
+        ${desc && (!usage || rows.length < 3) ? `<p class="tip-desc">${esc(cut(desc, 180))}</p>` : ""}
+        ${!usage && !where && !desc && rows.length < 3 && e.blocks[0] ? `<p class="tip-desc">${esc(cut(stripTags(e.blocks[0].html).replace(/\s+/g, " ").trim(), 180))}</p>` : ""}`;
     }
     tip.hidden = false;
     const r = tip.getBoundingClientRect();
@@ -1039,6 +1066,11 @@
   });
   document.addEventListener("click", ev => {
     if (!ev.target.closest(".global-search")) els.results.hidden = true;
+    const help = ev.target.closest(".help[data-help]");
+    if (help) {
+      const t = db.byId.get(help.dataset.help);
+      if (t) location.hash = entryHref(t);
+    }
   });
 
   // ---------- global keys / chrome ----------

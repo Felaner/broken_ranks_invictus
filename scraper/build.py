@@ -150,7 +150,7 @@ LABELS = {
     "cena": "Цена", "cena2": "Стоимость", "remont": "Ремонт", "remont2": "Ремонт", "zaryad": "Заряды",
     "zaryadka": "Зарядка", "emkost": "Вместимость дрифов", "drifbonus": "Усиление дрифов",
     "upgrbonus": "Усиление улучшений", "orbbonus": "Усиление орбов", "ves": "Вес", "lvl": "Уровень",
-    "time": "Респаун", "arenaAsp": "Аспект арены", "powerG": "Сила (PvE)", "rang": "Ранг",
+    "time": "Респаун", "arenaAsp": "Аспект", "powerG": "Сила (PvE)", "rang": "Ранг",
     "vampbonusM": "Мощь / Знание / Здоровье [ур. 1]", "vampbonusF": "Ловкость / Сила / Здоровье [ур. 1]",
     "orbname": "Эффект", "upgradeLvl": "Улучшение за уровень", "maxUpgrade": "Макс. улучшение",
     "nSlvl": "Уровень", "bossCt": "Кол-во", "touches": "Касания",
@@ -657,6 +657,7 @@ def tidy_mobs(maps):
     guides = SECTIONS_OUT.get("guides", ([], []))[1]
     by_id = {e["id"]: e for _, ents in SECTIONS_OUT.values() for e in ents}
     skills = {nkey(e["name"]): e["id"] for e in SECTIONS_OUT["skills"][1]}
+    skill_icon = {e["id"]: e.get("icon") for e in SECTIONS_OUT["skills"][1]}
     map_exact, map_prefix = {}, {}
     for m in maps:
         if m.get("unnamed"):
@@ -726,6 +727,13 @@ def tidy_mobs(maps):
                         stats_moved += 1
         e["blocks"] = [b for b in e["blocks"] if not b["title"].endswith("Статистика")
                        and (text_of(b["html"]).strip(" -—") or "<img" in b["html"])]
+        # Путь сложности и аспект (механика Насыщения) — полями, а не отдельными блоками.
+        for b in [b for b in e["blocks"] if b["title"] in ("Путь", "Аспект")]:
+            val = (split_names(b["html"]) or [""])[-1]
+            label = "Путь сложности" if b["title"] == "Путь" else "Аспект"
+            if val and not any(f[0] == label for f in e["fields"]):
+                e["fields"].append([label, val])
+            e["blocks"].remove(b)
         # 2) Умения — ссылками на раздел «Навыки».
         for b in e["blocks"]:
             if not b["title"].endswith("Умения") or "<td" not in b["html"]:
@@ -736,10 +744,12 @@ def tidy_mobs(maps):
                 name = text_of(parts[0])
                 if not name or name == "-":
                     continue
-                note = text_of(parts[1]) if len(parts) > 1 else ""
+                note = ", ".join(split_names(parts[1])) if len(parts) > 1 else ""
                 sid = skills.get(nkey(name))
                 skill_links += bool(sid)
-                ref = f'<span data-items="{sid}">{H.escape(name)}</span>' if sid else H.escape(name)
+                icon = f'<img class="skill-ico" data-items="{sid}" src="{skill_icon[sid]}" title="{H.escape(name)}"/> ' \
+                    if sid and skill_icon.get(sid) else ""
+                ref = icon + (f'<span data-items="{sid}">{H.escape(name)}</span>' if sid else H.escape(name))
                 items.append(f"<li>{ref}{f' <small>— {H.escape(note.lower())}</small>' if note else ''}</li>")
             if items:
                 b["html"] = '<ul class="plain-list">' + "".join(items) + "</ul>"
