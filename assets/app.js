@@ -901,10 +901,15 @@
   const bon = (sel, ev, fn) => $(sel)?.addEventListener(ev, fn);
 
   // ----- навыки: очки ученика / адепта / мастера -----
-  // Очки ученика к уровню L: 1 + 2 + … + L и ещё 2 (сверено с персонажем 26 уровня: 353 очка).
+  // Очки ученика к уровню L: за каждый новый уровень столько очков, какой это уровень (2 + 3 + … + L).
+  // Особые навыки изначально стоят на 1 уровне бесплатно. Сверено с персонажем 26 уровня: 350 очков.
   // 14 очков ученика = 1 очко адепта, 14 адепта = 1 мастера. Уровень N внутри ступени стоит N очков этой ступени.
   const TIERS = [["ученик", "t1"], ["адепт", "t2"], ["мастер", "t3"]];
-  const skillPointsTotal = lvl => Math.max(0, lvl * (lvl + 1) / 2 + 2);
+  const skillPointsTotal = lvl => Math.max(0, lvl * (lvl + 1) / 2 - 1);
+  const isSpecial = e => e.skillClass === "Особые";
+  const minLevel = e => isSpecial(e) ? 1 : 0;
+  const skillLevel = e => Math.max(minLevel(e), build.skills[e.id] || 0);
+  const skillSpent = e => skillCost(skillLevel(e)) - skillCost(minLevel(e));
   const levelCost = j => ((j - 1) % 7 + 1) * 14 ** Math.floor((j - 1) / 7);
   const skillCost = lv => { let c = 0; for (let j = 1; j <= lv; j++) c += levelCost(j); return c; };
   const splitPoints = p => [p % 14, Math.floor(p / 14) % 14, Math.floor(p / 196)];
@@ -931,14 +936,14 @@
   function skillsState() {
     const lvl = num(build.lvl) || 1;
     const list = classSkills();
-    const spent = list.reduce((s, e) => s + skillCost(build.skills[e.id] || 0), 0);
+    const spent = list.reduce((s, e) => s + skillSpent(e), 0);
     return { lvl, list, total: skillPointsTotal(lvl), spent, free: skillPointsTotal(lvl) - spent };
   }
   function renderSkills() {
     if (!build.cls) return `<p class="muted">Выберите класс, чтобы распределить очки навыков.</p>`;
     const st = skillsState();
     const row = e => {
-      const lv = build.skills[e.id] || 0;
+      const lv = skillLevel(e);
       const nextReq = e.skillReq[lv], nextCost = levelCost(lv + 1);
       const canUp = lv < e.skillReq.length && nextReq <= st.lvl && nextCost <= st.free;
       const why = lv >= e.skillReq.length ? "максимум" : nextReq > st.lvl ? `нужен ${nextReq} ур.` : nextCost > st.free ? "не хватает очков" : "";
@@ -946,7 +951,7 @@
         <img class="sk-ico" src="${esc(e.icon)}" alt="" data-items="${esc(e.id)}">
         <div class="sk-main"><a href="${entryHref(e)}">${esc(e.name)}</a>
           <small>${lv < e.skillReq.length ? `след.: ${nextReq} ур., ${pointsHtml(nextCost, true)}` : "максимальный уровень"}${why && lv < e.skillReq.length ? ` · <em>${why}</em>` : ""}</small></div>
-        <button class="btn sk-btn" data-sk="${esc(e.id)}" data-d="-1" ${lv ? "" : "disabled"}>−</button>
+        <button class="btn sk-btn" data-sk="${esc(e.id)}" data-d="-1" ${lv > minLevel(e) ? "" : "disabled"}>−</button>
         <span class="sk-lv ${tierOf(lv)}">${skillLevelLabel(lv)}</span>
         <button class="btn sk-btn" data-sk="${esc(e.id)}" data-d="1" ${canUp ? "" : "disabled"} title="${esc(why)}">+</button>
       </div>`;
@@ -960,8 +965,8 @@
       ${st.free < 0 ? `<div class="b-warn">Вложено больше, чем доступно на ${st.lvl} уровне — снизьте навыки или поднимите уровень.</div>` : ""}
       <div class="sk-cols"><div><h4>Классовые</h4>${cls.map(row).join("")}</div>
         <div><h4>Особые</h4>${spec.map(row).join("")}</div></div>
-      <p class="muted small">Очки ученика (жёлтые): за каждый уровень персонажа L — L очков (к 26 уровню всего 353).
-        14 очков ученика = 1 очко адепта (оранжевые), 14 адепта = 1 мастера (красные). Уровень навыка 1–7 стоит 1–7 очков своей ступени.</p>`;
+      <p class="muted small">Очки ученика (жёлтые): за каждый уровень персонажа L — L очков (к 26 уровню всего 350).
+        14 очков ученика = 1 очко адепта (оранжевые), 14 адепта = 1 мастера (красные). Уровень навыка 1–7 стоит 1–7 очков своей ступени. Особые навыки изначально на 1 уровне бесплатно.</p>`;
   }
 
   function renderBuild(route) {
@@ -1071,8 +1076,8 @@
       rerender();
     }));
     $$(".sk-btn").forEach(b => b.addEventListener("click", () => {
-      const id = b.dataset.sk, lv = (build.skills[id] || 0) + Number(b.dataset.d);
-      if (lv > 0) build.skills[id] = lv; else delete build.skills[id];
+      const e = db.byId.get(b.dataset.sk), id = e.id, lv = skillLevel(e) + Number(b.dataset.d);
+      if (lv > minLevel(e)) build.skills[id] = lv; else delete build.skills[id];
       rerender();
     }));
     bon("#skReset", "click", () => { build.skills = {}; rerender(); });
