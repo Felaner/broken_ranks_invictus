@@ -766,7 +766,16 @@
   const PCT_MOD = /^(Шанс|Восстановление|Модификатор|Уменьшение|Получаемый|Расход|Вытягивание|Дополнительный урон)/i;
   const MOD_BASE = { "Шанс критического удара": 2, "Восстановление маны": 5, "Восстановление выносливости": 5 };
 
-  const emptyBuild = () => ({ cls: "", lvl: 1, base: {}, items: {}, skills: {} });
+  // Очки развития характеристик: старт 210 здоровья/маны/выносливости и по 10 остальных;
+  // 1 очко = +10 здоровья/маны/выносливости или +1 к остальным. За уровни 2…L по 4 очка и 2 стартовых
+  // (сверено с персонажем 26 уровня: вложено 102 очка, свободных 0).
+  const STAT_START = { hp: 210, mana: 210, stam: 210, sila: 10, lov: 10, mosh: 10, zn: 10, int: 10 };
+  const STAT_STEP = { hp: 10, mana: 10, stam: 10 };
+  const statPointsTotal = lvl => 4 * (Math.max(1, lvl) - 1) + 2;
+  const statPointsSpent = () => Object.entries(STAT_START).reduce((s, [k, v]) =>
+    s + Math.max(0, (num(build.base[k]) || v) - v) / (STAT_STEP[k] || 1), 0);
+
+  const emptyBuild = () => ({ cls: "", lvl: 1, base: { ...STAT_START }, items: {}, skills: {} });
   let build = Object.assign(emptyBuild(), store.get("build", {}));
   build.skills = build.skills || {};
   if (build.items.bracers) { build.items.gloves = build.items.gloves || build.items.bracers; delete build.items.bracers; }
@@ -812,7 +821,7 @@
   function computeBuild() {
     const items = SLOTS.map(s => [s, db.byId.get(build.items[s.id])]).filter(([, e]) => e);
     const total = {}, fromItems = {}, mods = new Map(), res = {};
-    for (const [label, key] of BASE_STATS) total[label] = num(build.base[key]) || 0;
+    for (const [label, key] of BASE_STATS) total[label] = num(build.base[key]) || STAT_START[key] || 0;
     const addMod = (name, val, pct, k = 1) => {
       if (!pct && name in total) {
         // Характеристики игра округляет вниз (Сила +8 × 40% = +3), проценты — нет.
@@ -992,7 +1001,9 @@
 
     const statRows = BASE_STATS.map(([label, key, ico]) => `<tr>
         <th><span class="st-ico">${ico}</span>${label}</th>
-        <td><input class="b-in" type="number" min="0" data-base="${key}" value="${esc(build.base[key] ?? "")}" placeholder="0"></td>
+        <td class="b-base"><button class="st-btn" data-st="${key}" data-d="-1" title="−1 очко">−</button><input class="b-in" type="number"
+          min="${STAT_START[key]}" step="${STAT_STEP[key] || 1}" data-base="${key}" value="${esc(build.base[key] ?? STAT_START[key])}"
+          placeholder="${STAT_START[key]}"><button class="st-btn" data-st="${key}" data-d="1" title="+1 очко">+</button></td>
         <td class="sum">${fmtN(r.total[label])}</td>
         <td class="plus">${r.fromItems[label] ? "+" + fmtN(r.fromItems[label]) : ""}</td></tr>`).join("");
     const resRows = RESISTS.map(([label, name]) => {
@@ -1009,7 +1020,7 @@
 
     els.main.innerHTML = `<h1 class="page-title">Переодевалка</h1>
       <p class="page-sub">Соберите комплект и посмотрите итоговые характеристики, сопротивления и требования.
-        Базу (колонка «Основа» в окне характеристик) введите из игры — она сохранится в браузере.</p>
+        Базу (колонка «Основа») распределите кнопками − / + или введите из игры — всё сохранится в браузере.</p>
       <div class="builder">
         <section class="b-panel">
           <div class="b-row">
@@ -1019,6 +1030,15 @@
           </div>
           <table class="b-stats"><thead><tr><th>Характеристики</th><th>Основа</th><th>Сумма</th><th></th></tr></thead>
             <tbody>${statRows}</tbody></table>
+          ${(() => {
+            const lvl = num(build.lvl) || 1, free = statPointsTotal(lvl) - statPointsSpent();
+            const sk = build.cls ? skillsState() : null;
+            return `<div class="b-free ${free < 0 ? "bad" : ""}">Свободных очков развития: <b>${fmtN(free)}</b>
+                <small class="muted">из ${statPointsTotal(lvl)} на ${lvl} уровне</small>
+                <button class="btn btn-sm" id="stReset" title="Вернуть стартовые значения">Сброс</button></div>
+              ${free < 0 ? `<p class="b-warn">Распределено больше очков, чем доступно на ${lvl} уровне.</p>` : ""}
+              <div class="b-free">Нераспределённые очки навыков: ${sk ? `<span class="nowrap">${pointsHtml(Math.max(0, sk.free))}</span>` : `<small class="muted">выберите класс</small>`}</div>`;
+          })()}
           <table class="b-res"><thead><tr><th>Устойчивости</th><th>Очки</th><th></th><th>Уменьшение</th></tr></thead>
             <tbody>${resRows}</tbody></table>
           <p class="muted small">Уменьшение урона рассчитано по формуле, подобранной по игре; значения выше 82 очков — приблизительные (≈).</p>
@@ -1060,9 +1080,19 @@
     bon("#bCls", "change", ev => { build.cls = ev.target.value; rerender(); });
     bon("#bLvl", "change", ev => { build.lvl = Math.max(1, num(ev.target.value) || 1); rerender(); });
     $$(".b-in").forEach(inp => inp.addEventListener("change", () => {
-      build.base[inp.dataset.base] = inp.value === "" ? "" : Math.max(0, num(inp.value) || 0);
+      const k = inp.dataset.base;
+      build.base[k] = inp.value === "" ? STAT_START[k] : Math.max(STAT_START[k], num(inp.value) || 0);
       rerender();
     }));
+    $$(".st-btn").forEach(b => b.addEventListener("click", () => {
+      const k = b.dataset.st, d = Number(b.dataset.d), step = STAT_STEP[k] || 1;
+      const cur = num(build.base[k]) || STAT_START[k];
+      const free = statPointsTotal(num(build.lvl) || 1) - statPointsSpent();
+      if (d > 0 && free < 1) return;
+      build.base[k] = Math.max(STAT_START[k], cur + d * step);
+      rerender();
+    }));
+    bon("#stReset", "click", () => { build.base = { ...STAT_START }; rerender(); });
     bon("#bClear", "click", () => { build.items = {}; rerender(); });
     bon("#bShare", "click", ev => {
       const link = buildLink();

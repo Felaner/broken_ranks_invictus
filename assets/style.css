@@ -756,3 +756,16 @@ body.static { background: var(--bg); }
 .sk-lv.t0 { color: var(--muted); }
 
 .b-doll { padding-top: 6px; }
+.b-base { white-space: nowrap; }
+.b-base .b-in { width: 64px; text-align: center; margin: 0 3px; }
+.st-btn { width: 22px; height: 22px; padding: 0; border-radius: 6px; border: 1px solid var(--line); background: var(--panel);
+  color: var(--text); cursor: pointer; font-weight: 700; line-height: 1; }
+.st-btn:hover { border-color: var(--accent); color: var(--accent); }
+.b-free { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 13px; padding: 6px 0; border-top: 1px dashed var(--line); }
+.b-free b { color: var(--gold); font-size: 15px; }
+.b-free.bad b { color: #c62f2f; }
+.btn-sm { padding: 3px 8px; font-size: 12px; margin-left: auto; }
+.nowrap { white-space: nowrap; }
+.b-base .b-in { width: 54px; }
+.b-stats .plus { white-space: nowrap; padding-left: 0; }
+.b-stats th, .b-stats td { padding-left: 2px; padding-right: 2px; }
