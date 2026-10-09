@@ -8,7 +8,11 @@
     scraper/mirror/<host>/pages.tsv              — url, файл, заголовок
     scraper/mirror/<host>/responses/...          — JSON/AJAX-ответы сервера (сжатые)
     scraper/mirror/<host>/shots/*.jpg            — скриншоты первых страниц
-    scraper/mirror/<host>/mediawiki/*.json       — если это MediaWiki: сведения о сайте и список страниц
+    scraper/mirror/<host>/mediawiki/             — если это MediaWiki: список страниц, исходный текст
+                                                   статей (wikitext.jsonl.gz) и адреса картинок (files.json)
+
+Для MediaWiki всё берётся через API и прямые запросы — это занимает пару минут;
+обход браузером включается только с --full.
 
 Обход можно прервать (Ctrl+C) и продолжить тем же запуском — уже сохранённые
 страницы не скачиваются повторно.
@@ -28,7 +32,7 @@ import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urldefrag, parse_qs, unquote
+from urllib.parse import urljoin, urlparse, urldefrag, parse_qs, unquote, quote
 
 from playwright.sync_api import sync_playwright, Error as PWError
 
@@ -79,8 +83,7 @@ def main():
     add_browser_args(ap)
     ap.add_argument("--max-pages", type=int, default=6000, help="максимум страниц за всё время")
     ap.add_argument("--full", dest="api_only", action="store_false",
-                    help="MediaWiki: обходить все страницы, а не только выборку (данные и так берутся через API)")
-    ap.add_argument("--sample", type=int, default=150, help="MediaWiki: сколько страниц сохранить как образцы вёрстки")
+                    help="MediaWiki: дополнительно обойти сайт браузером (обычно не нужно — всё берётся через API)")
     ap.add_argument("--shots", type=int, default=25, help="сколько первых страниц сфотографировать")
     ap.add_argument("--delay", type=float, default=0.3, help="пауза между страницами, сек")
     ap.add_argument("--wait", type=int, default=600, help="ожидание отрисовки страницы, мс")
@@ -152,16 +155,20 @@ def main():
                         cont = "&apcontinue=" + c
                 (mw / "allpages.json").write_text(json.dumps(pages_all, ensure_ascii=False, indent=1), "utf-8")
                 print(f"  страниц в списке: {len(pages_all)}")
-                # Исходный текст (wikitext) всех страниц пачками по 50 — это и есть основные данные.
+                fetch_js = "async u => { try { const r = await fetch(u); return r.ok ? await r.text() : null; } catch (e) { return null; } }"
+                articles = [x for x in pages_all if x["ns"] in (0, 14)]
+                files = [x for x in pages_all if x["ns"] == 6]
+
+                # 1. Исходный текст (wikitext) статей пачками по 50.
                 wt_file = mw / "wikitext.jsonl.gz"
                 if not wt_file.exists():
-                    ids = [x["pageid"] for x in pages_all]
+                    ids = [x["pageid"] for x in articles]
                     rows = []
                     for i in range(0, len(ids), 50):
                         chunk = "|".join(map(str, ids[i:i + 50]))
-                        txt = page.evaluate("async u => { const r = await fetch(u); return r.ok ? await r.text() : null; }",
-                                            f"{api_url}?action=query&prop=revisions|categories|pageimages&rvprop=content"
-                                            f"&rvslots=main&cllimit=max&piprop=original&format=json&pageids={chunk}")
+                        txt = page.evaluate(fetch_js, f"{api_url}?action=query&prop=revisions|categories|pageimages"
+                                            f"&rvprop=content&rvslots=main&cllimit=max&piprop=original&format=json"
+                                            f"&pageids={chunk}")
                         if not txt:
                             print(f"  ! не удалось получить пачку {i // 50 + 1}")
                             continue
@@ -174,22 +181,57 @@ def main():
                         print(f"  wikitext: {min(i + 50, len(ids))}/{len(ids)}", end="\r", flush=True)
                     print()
                     wt_file.write_bytes(gzip.compress("\n".join(json.dumps(r, ensure_ascii=False) for r in rows).encode()))
-                    print(f"  исходный текст {len(rows)} страниц сохранён в {wt_file.name}")
+                    print(f"  исходный текст {len(rows)} статей сохранён в {wt_file.name}")
+
+                # 2. Адреса всех картинок (Plik:…) — чтобы потом скачать нужные.
+                files_file = mw / "files.json"
+                if files and not files_file.exists():
+                    info_rows = []
+                    for i in range(0, len(files), 50):
+                        titles = "|".join(x["title"] for x in files[i:i + 50])
+                        txt = page.evaluate(fetch_js, f"{api_url}?action=query&prop=imageinfo&iiprop=url|size|mime"
+                                            f"&format=json&titles={quote(titles)}")
+                        for pg in (json.loads(txt).get("query", {}).get("pages", {}).values() if txt else []):
+                            ii = (pg.get("imageinfo") or [{}])[0]
+                            info_rows.append({"title": pg.get("title"), "url": ii.get("url"), "size": ii.get("size"),
+                                              "width": ii.get("width"), "height": ii.get("height")})
+                        print(f"  картинки: {min(i + 50, len(files))}/{len(files)}", end="\r", flush=True)
+                    print()
+                    files_file.write_text(json.dumps(info_rows, ensure_ascii=False, indent=1), "utf-8")
+                    print(f"  адреса {len(info_rows)} картинок сохранены в {files_file.name}")
+
+                # 3. Готовый HTML статей — напрямую, без отрисовки в браузере (MediaWiki отдаёт его с сервера).
+                origin = f"{urlparse(page.url).scheme}://{urlparse(page.url).netloc}"
+                path_tpl = urlparse(json.loads(info)["query"]["general"].get("articlepath", "/wiki/$1")).path
+                tsv = out / "pages.tsv"
+                have = set()
+                if tsv.exists():
+                    for line in tsv.read_text("utf-8").splitlines():
+                        parts = line.split("\t")
+                        if len(parts) >= 4:
+                            have.add(re.sub(r"\s+[–-]\s+[^–-]+$", "", parts[3]).strip())
+                todo = list(dict.fromkeys(x["title"] for x in articles if x["title"] not in have))
+                print(f"  статей уже сохранено: {len(have)}, скачать: {len(todo)}")
+                batch_js = "async us => Promise.all(us.map(async u => { try { const r = await fetch(u); " \
+                           "return [u, r.status, r.ok ? await r.text() : null]; } catch (e) { return [u, 0, null]; } }))"
+                for i in range(0, len(todo), 8):
+                    titles = todo[i:i + 8]
+                    urls = [origin + path_tpl.replace("$1", quote(t.replace(" ", "_"))) for t in titles]
+                    for (u, status, html), t in zip(page.evaluate(batch_js, urls), titles):
+                        if not html:
+                            print(f"  ! {t}: {status}")
+                            continue
+                        name = h(u)
+                        (out / "pages" / f"{name}.html.gz").write_bytes(gzip.compress(html.encode("utf-8")))
+                        with tsv.open("a", encoding="utf-8") as f:
+                            f.write(f"{u}\t{name}\t{status}\t{t}\n")
+                        done.add(u)
+                    print(f"  статьи: {min(i + 8, len(todo))}/{len(todo)}", end="\r", flush=True)
+                    time.sleep(args.delay)
+                print()
                 if args.api_only:
-                    # Для изучения вёрстки хватит небольшой выборки отрисованных страниц.
-                    args.max_pages = min(args.max_pages, args.sample)
-                base = json.loads(info)["query"]["general"].get("server", "") + \
-                    json.loads(info)["query"]["general"].get("articlepath", "/wiki/$1")
-                found = []
-                for x in pages_all:
-                    if x["ns"] == 0 or x["ns"] == 14:
-                        u = norm_url(urljoin(start, base.replace("$1", x["title"].replace(" ", "_"))), host)
-                        if u and u not in seen:
-                            seen.add(u)
-                            found.append(u)
-                # Вперемешку, чтобы выборка образцов захватила страницы всех типов, а не первые по алфавиту.
-                random.Random(1).shuffle(found)
-                queue.extend(found)
+                    # Всё нужное уже скачано через API — обход браузером не требуется.
+                    queue.clear()
                 break
 
         n_done_start = len(done)
