@@ -865,15 +865,25 @@ def tag_skills():
         if not a:
             continue
         html = " ".join(b["html"] for b in a["blocks"])
-        for order, h in enumerate(re.findall(r"<h3>(.*?)</h3>", html)):
+        parts = re.split(r"<h3>(.*?)</h3>", html)
+        for order, (h, body) in enumerate(zip(parts[1::2], parts[2::2])):
             e = by_name.get(nkey(h))
-            if e and "skillClass" not in e:
-                e["skillClass"], e["skillOrder"] = cls, order
+            if not e or "skillClass" in e:
+                continue
+            e["skillClass"], e["skillOrder"] = cls, order
+            # Требуемые уровни — из таблицы статьи (в основной базе у особых навыков они неверные).
+            req = []
+            for row in re.findall(r"<tr[^>]*>(.*?)</tr>", body, re.S):
+                cells = [text_of(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S)]
+                if len(cells) >= 2 and re.match(r"(Ученик|Адепт|Мастер)\s+[IVX]+$", cells[0]) and cells[1].isdigit():
+                    req.append(int(cells[1]))
+            if req and cls == "Особые":  # у классовых навыков таблицы вики сдвинуты на 1, верна основная база
+                e["skillReq"] = req
     for e in skills:
         o = DB["skillsMain"].get(e["id"], {})
         rows = [r for r in o.get("upgradeS") or [] if isinstance(r, list) and r and ROMAN.match(str(r[0]))]
         req = [int(r[1]) for r in rows if str(r[1]).isdigit()]
-        if req:
+        if req and "skillReq" not in e:
             e["skillReq"] = req
 
 
