@@ -13,6 +13,7 @@ HTML страницы, скриншот и все ответы сервера (A
     python scraper/recon.py              # все разделы
     python scraper/recon.py pets         # только питомцы
     python scraper/recon.py --headed     # смотреть, как кликает браузер
+    python scraper/recon.py --browser msedge   # через установленный Edge (или chrome)
 
 Результат: папка scraper/recon/<раздел>/.
 """
@@ -234,6 +235,8 @@ def main():
     ap.add_argument("--subpages", type=int, default=3, help="сколько подстраниц-ссылок разведывать")
     ap.add_argument("--wait", type=int, default=1200, help="пауза после клика, мс")
     ap.add_argument("--headed", action="store_true", help="показать окно браузера")
+    ap.add_argument("--browser", choices=["chromium", "chrome", "msedge"], default="chromium",
+                    help="chrome / msedge — использовать установленный Google Chrome или Microsoft Edge")
     args = ap.parse_args()
     unknown = set(args.sections) - set(SECTIONS)
     if unknown:
@@ -241,6 +244,8 @@ def main():
 
     with sync_playwright() as p:
         launch = {"headless": not args.headed}
+        if args.browser != "chromium":
+            launch["channel"] = args.browser
         if os.environ.get("BR_CHROMIUM"):
             launch["executable_path"] = os.environ["BR_CHROMIUM"]
         browser = p.chromium.launch(**launch)
