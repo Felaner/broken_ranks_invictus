@@ -1232,7 +1232,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Позволяет повышать уровень орбов в снаряжении. <br>{'ru': '<img src=\"data/raresImg/lists/demupRU.png\"/>', 'pl': '<img src=\"data/raresImg/lists/demupPL.jpg\"/>', 'en': '<img src=\"data/raresImg/lists/demupEN.jpg\"/>'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Позволяет повышать орбы в снаряжении. <p><b>Предмет нельзя передать</b>. </p> </td></tr></table><hr><table class=\"wb\"><tr><td><span><img data-items=\"fishell3a\" src=\"data/wikibr/images/b/b9/Ichtion.png\"/></span><span><img data-items=\"geomorph1a\" src=\"data/wikibr/images/2/2b/Geomorph.png\"/></span><span><img data-items=\"ghostcastle1a\" src=\"data/wikibr/images/b/bc/Duch_energii.png\"/></span><span><img data-items=\"ghostcastle2a\" src=\"data/wikibr/images/f/fc/Duch_ognia.png\"/></span><span><img data-items=\"ghostcastle3a\" src=\"data/wikibr/images/3/3e/Duch_zimna.png\"/></span><span><img data-items=\"babadek1a\" src=\"data/wikibr/images/c/cb/Babadek.png\"/></span><span><img data-items=\"gregorius1a\" src=\"data/wikibr/images/c/c8/Gregorius.png\"/></span><span><img data-items=\"ghadira1a\" src=\"data/wikibr/images/9/92/Ghadira.png\"/></span><span><img data-items=\"masterofpuppets1a\" src=\"data/wikibr/images/f/fc/W%C5%82adca_marionetek.png\"/></span> </td><td><b>3</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"garthmog1a\" src=\"data/wikibr/images/8/88/Garthmog.png\"/></span><span><img data-items=\"construct11a\" src=\"data/wikibr/images/2/2a/Konstrukt.png\"/></span><span><img data-items=\"fyodor1a\" src=\"data/wikibr/images/2/2e/Fyodor.png\"/></span><span><img data-items=\"gmo1a\" src=\"data/wikibr/images/c/c3/Gmo.png\"/></span> </td><td><b>10</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"admiral2a\" src=\"data/wikibr/images/6/60/Komandor_utoru.png\"/></span><span><img data-items=\"castlespecter1a\" src=\"data/wikibr/images/7/7e/Duch_zamku.png\"/></span><span><img data-items=\"mantis1a\" src=\"data/wikibr/images/6/66/Modliszka.png\"/></span><span><img data-items=\"tiger1a\" src=\"data/wikibr/images/a/a6/Tygrys.png\"/></span><span><img data-items=\"utorinspector1a\" src=\"data/wikibr/images/c/c1/Heurokratos.png\"/></span><span><img src=\"data/wikibr/images/6/65/Ivravul.png\"/></span><span><img data-items=\"wendigo1a\" src=\"data/wikibr/images/8/8a/Wendigo.png\"/></span> </td><td><b>15</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"hvar1a\" src=\"data/wikibr/images/8/89/Hvar.png\"/></span> </td><td><b>25</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"tit1a\" src=\"data/wikibr/images/9/95/Jask%C3%B3%C5%82ka.png\"/></span><span><img data-items=\"valdarognew1a\" src=\"data/wikibr/images/a/a2/Valdarog.png\"/></span><span><img data-items=\"htaga1a\" src=\"data/wikibr/images/0/01/Angwalf-Htaga.png\"/></span> </td><td><b>40</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"aquaregis1a\" src=\"data/wikibr/images/d/d6/Aqua_regis.png\"/></span><span><img data-items=\"vough1a\" src=\"data/wikibr/images/9/91/Vough.png\"/></span><span><img data-items=\"nidhogg1a\" src=\"data/wikibr/images/d/d3/Nidhogg.png\"/></span><span><img data-items=\"vidvar1a\" src=\"data/wikibr/images/f/fc/Vidvar.png\"/></span><span><img data-items=\"construct11ac\" src=\"data/wikibr/images/2/2a/Konstrukt.png\"/></span> </td><td><b>60</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img src=\"data/wikibr/images/a/ad/Draugul.png\"/></span> </td><td><b>100</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"hawk2a\" src=\"data/wikibr/images/d/db/Jastrz%C4%99bior.png\"/></span> </td><td><b>150</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"morana1a\" src=\"data/wikibr/images/d/d9/Morana.png\"/></span><span><img data-items=\"lugus1a\" src=\"data/wikibr/images/1/17/Lugus.png\"/></span> </td><td><b>250</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"tarul4a\" src=\"data/wikibr/images/f/fa/Mahet.png\"/></span><span><img data-items=\"tarul1a\" src=\"data/wikibr/images/7/78/Tarul.png\"/></span> </td><td><b>275</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"admiral1a\" src=\"data/wikibr/images/e/eb/Admira%C5%82_utoru.png\"/></span> </td><td><b>500</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"ghost3a\" src=\"data/wikibr/images/1/1b/Selena.png\"/></span> </td><td><b>750</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr></table>"
+     "html": "Позволяет повышать уровень орбов в снаряжении. <br><img src=\"data/raresImg/lists/demupRU.png\"/><hr><table class=\"wb\"><tr><td colspan=\"2\">Позволяет повышать орбы в снаряжении. <p><b>Предмет нельзя передать</b>. </p> </td></tr></table><hr><table class=\"wb\"><tr><td><span><img data-items=\"fishell3a\" src=\"data/wikibr/images/b/b9/Ichtion.png\"/></span><span><img data-items=\"geomorph1a\" src=\"data/wikibr/images/2/2b/Geomorph.png\"/></span><span><img data-items=\"ghostcastle1a\" src=\"data/wikibr/images/b/bc/Duch_energii.png\"/></span><span><img data-items=\"ghostcastle2a\" src=\"data/wikibr/images/f/fc/Duch_ognia.png\"/></span><span><img data-items=\"ghostcastle3a\" src=\"data/wikibr/images/3/3e/Duch_zimna.png\"/></span><span><img data-items=\"babadek1a\" src=\"data/wikibr/images/c/cb/Babadek.png\"/></span><span><img data-items=\"gregorius1a\" src=\"data/wikibr/images/c/c8/Gregorius.png\"/></span><span><img data-items=\"ghadira1a\" src=\"data/wikibr/images/9/92/Ghadira.png\"/></span><span><img data-items=\"masterofpuppets1a\" src=\"data/wikibr/images/f/fc/W%C5%82adca_marionetek.png\"/></span> </td><td><b>3</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"garthmog1a\" src=\"data/wikibr/images/8/88/Garthmog.png\"/></span><span><img data-items=\"construct11a\" src=\"data/wikibr/images/2/2a/Konstrukt.png\"/></span><span><img data-items=\"fyodor1a\" src=\"data/wikibr/images/2/2e/Fyodor.png\"/></span><span><img data-items=\"gmo1a\" src=\"data/wikibr/images/c/c3/Gmo.png\"/></span> </td><td><b>10</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"admiral2a\" src=\"data/wikibr/images/6/60/Komandor_utoru.png\"/></span><span><img data-items=\"castlespecter1a\" src=\"data/wikibr/images/7/7e/Duch_zamku.png\"/></span><span><img data-items=\"mantis1a\" src=\"data/wikibr/images/6/66/Modliszka.png\"/></span><span><img data-items=\"tiger1a\" src=\"data/wikibr/images/a/a6/Tygrys.png\"/></span><span><img data-items=\"utorinspector1a\" src=\"data/wikibr/images/c/c1/Heurokratos.png\"/></span><span><img src=\"data/wikibr/images/6/65/Ivravul.png\"/></span><span><img data-items=\"wendigo1a\" src=\"data/wikibr/images/8/8a/Wendigo.png\"/></span> </td><td><b>15</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"hvar1a\" src=\"data/wikibr/images/8/89/Hvar.png\"/></span> </td><td><b>25</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"tit1a\" src=\"data/wikibr/images/9/95/Jask%C3%B3%C5%82ka.png\"/></span><span><img data-items=\"valdarognew1a\" src=\"data/wikibr/images/a/a2/Valdarog.png\"/></span><span><img data-items=\"htaga1a\" src=\"data/wikibr/images/0/01/Angwalf-Htaga.png\"/></span> </td><td><b>40</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"aquaregis1a\" src=\"data/wikibr/images/d/d6/Aqua_regis.png\"/></span><span><img data-items=\"vough1a\" src=\"data/wikibr/images/9/91/Vough.png\"/></span><span><img data-items=\"nidhogg1a\" src=\"data/wikibr/images/d/d3/Nidhogg.png\"/></span><span><img data-items=\"vidvar1a\" src=\"data/wikibr/images/f/fc/Vidvar.png\"/></span><span><img data-items=\"construct11ac\" src=\"data/wikibr/images/2/2a/Konstrukt.png\"/></span> </td><td><b>60</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img src=\"data/wikibr/images/a/ad/Draugul.png\"/></span> </td><td><b>100</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"hawk2a\" src=\"data/wikibr/images/d/db/Jastrz%C4%99bior.png\"/></span> </td><td><b>150</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"morana1a\" src=\"data/wikibr/images/d/d9/Morana.png\"/></span><span><img data-items=\"lugus1a\" src=\"data/wikibr/images/1/17/Lugus.png\"/></span> </td><td><b>250</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"tarul4a\" src=\"data/wikibr/images/f/fa/Mahet.png\"/></span><span><img data-items=\"tarul1a\" src=\"data/wikibr/images/7/78/Tarul.png\"/></span> </td><td><b>275</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"admiral1a\" src=\"data/wikibr/images/e/eb/Admira%C5%82_utoru.png\"/></span> </td><td><b>500</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr><tr><td><span><img data-items=\"ghost3a\" src=\"data/wikibr/images/1/1b/Selena.png\"/></span> </td><td><b>750</b> × <span><span><img src=\"data/wikibr/images/5/5b/Daimonit.png\" title=\"Даймонит\"/></span></span> </td></tr></table>"
     },
     {
      "title": "Босс",
@@ -8915,7 +8915,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Компонент, используемый для изготовления зелий. Их создает <img data-items=\"aellaac\" src=\"data/raresImg/npc/aellaa.npc.png\" title=\"Ига\"/> в госпитале Трентиса.', 'pl': 'Składnik używany do produkcji mikstur. Wykonuje je <img data-items=\"aellaac\" src=\"data/raresImg/npc/aellaa.npc.png\" title=\"Ига\"/> w szpitalu Trentis.', 'en': 'An ingredient used to make potions. <img data-items=\"aellaac\" src=\"data/raresImg/npc/aellaa.npc.png\" title=\"Ига\"/> in the Trentis Hospital can make them for you.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Ингредиент для изготовления микстур. Их изготавливает Ига в Госпитале Трентиса. </td></tr></table>"
+     "html": "Компонент, используемый для изготовления зелий. Их создает <img data-items=\"aellaac\" src=\"data/raresImg/npc/aellaa.npc.png\" title=\"Ига\"/> в госпитале Трентиса.<hr><table class=\"wb\"><tr><td colspan=\"2\">Ингредиент для изготовления микстур. Их изготавливает Ига в Госпитале Трентиса. </td></tr></table>"
     },
     {
      "title": "Где найти",
@@ -9486,7 +9486,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения I ранга.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi I.', 'en': 'A substance used to control power when upgrading equipment of rank I.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга I. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения I ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга I. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -9542,7 +9542,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения II - III рангов.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi II - III.', 'en': 'A substance used to control power when upgrading equipment of rank II - III.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга II–III. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения II - III рангов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга II–III. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -9606,7 +9606,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения IV рангов.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi IV.', 'en': 'A substance used to control power when upgrading equipment of rank IV.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга IV. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения IV рангов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга IV. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -9668,7 +9668,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения V - VI рангов.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi V - VI.', 'en': 'A substance used to control power when upgrading equipment of rank V - VI.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга V–VI. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения V - VI рангов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга V–VI. </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -9734,7 +9734,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения VII ранга.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi VII.', 'en': 'A substance used to control power when upgrading equipment of rank VII.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга VII. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения VII ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга VII. </td></tr></table>"
     },
     {
      "title": "Стоимость",
@@ -9783,7 +9783,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения VIII - IX рангов.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi VIII - IX.', 'en': 'A substance used to control power when upgrading equipment of rank VIII - IX.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга VIII–IX. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения VIII - IX рангов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга VIII–IX. </td></tr></table>"
     },
     {
      "title": "Стоимость",
@@ -9848,7 +9848,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения X ранга.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi X.', 'en': 'A substance used to control power when upgrading equipment of rank X.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга X. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения X ранга.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга X. </td></tr></table>"
     },
     {
      "title": "Стоимость",
@@ -9905,7 +9905,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Материя, позволяющая контролировать мощность во время улучшения снаряжения XI - XII рангов.', 'pl': 'Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi XI - XII.', 'en': 'A substance used to control power when upgrading equipment of rank XI - XII.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга XI–XII. </td></tr></table>"
+     "html": "Материя, позволяющая контролировать мощность во время улучшения снаряжения XI - XII рангов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Средство для контроля силы при улучшении снаряжения ранга XI–XII. </td></tr></table>"
     },
     {
      "title": "Стоимость",
@@ -11938,7 +11938,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1141\" src=\"data/raresImg/items/1141.items.png\"/>: 44<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1141\" src=\"data/raresImg/items/1141.items.png\"/>: 44<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12001,7 +12001,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1137\" src=\"data/raresImg/items/1137.items.png\"/>: 52<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1137\" src=\"data/raresImg/items/1137.items.png\"/>: 52<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12064,7 +12064,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1136\" src=\"data/raresImg/items/1136.items.png\"/>: 57<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1136\" src=\"data/raresImg/items/1136.items.png\"/>: 57<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12128,7 +12128,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1135\" src=\"data/raresImg/items/1135.items.png\"/>: 63<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1135\" src=\"data/raresImg/items/1135.items.png\"/>: 63<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12192,7 +12192,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1134\" src=\"data/raresImg/items/1134.items.png\"/>: 51<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1134\" src=\"data/raresImg/items/1134.items.png\"/>: 51<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12257,7 +12257,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1138\" src=\"data/raresImg/items/1138.items.png\"/>: 44<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1138\" src=\"data/raresImg/items/1138.items.png\"/>: 44<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12320,7 +12320,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1139\" src=\"data/raresImg/items/1139.items.png\"/>: 42<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1139\" src=\"data/raresImg/items/1139.items.png\"/>: 42<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12383,7 +12383,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi I-III. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks I-III. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item1140\" src=\"data/raresImg/items/1140.items.png\"/>: 42<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение I - III  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item1140\" src=\"data/raresImg/items/1140.items.png\"/>: 42<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга I–III. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12447,7 +12447,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item196\" src=\"data/raresImg/items/196.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item196\" src=\"data/raresImg/items/196.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12515,7 +12515,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item156\" src=\"data/raresImg/items/156.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item156\" src=\"data/raresImg/items/156.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12584,7 +12584,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item185\" src=\"data/raresImg/items/185.items.png\"/>: 69<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item185\" src=\"data/raresImg/items/185.items.png\"/>: 69<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12652,7 +12652,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item187\" src=\"data/raresImg/items/187.items.png\"/>: 73<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item187\" src=\"data/raresImg/items/187.items.png\"/>: 73<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12720,7 +12720,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item153\" src=\"data/raresImg/items/153.items.png\"/>: 84<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item153\" src=\"data/raresImg/items/153.items.png\"/>: 84<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12785,7 +12785,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item193\" src=\"data/raresImg/items/193.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item193\" src=\"data/raresImg/items/193.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12853,7 +12853,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item190\" src=\"data/raresImg/items/190.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item190\" src=\"data/raresImg/items/190.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -12926,7 +12926,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi IV-VI. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks IV-VI. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item183\" src=\"data/raresImg/items/183.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение IV - VI  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item183\" src=\"data/raresImg/items/183.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга IV–VI. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13004,7 +13004,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item195\" src=\"data/raresImg/items/195.items.png\"/>: 89<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item195\" src=\"data/raresImg/items/195.items.png\"/>: 89<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13060,7 +13060,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item155\" src=\"data/raresImg/items/155.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item155\" src=\"data/raresImg/items/155.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13116,7 +13116,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item184\" src=\"data/raresImg/items/184.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item184\" src=\"data/raresImg/items/184.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13172,7 +13172,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item186\" src=\"data/raresImg/items/186.items.png\"/>: 82<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item186\" src=\"data/raresImg/items/186.items.png\"/>: 82<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13228,7 +13228,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item152\" src=\"data/raresImg/items/152.items.png\"/>: 61<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item152\" src=\"data/raresImg/items/152.items.png\"/>: 61<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13284,7 +13284,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item192\" src=\"data/raresImg/items/192.items.png\"/>: 73<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item192\" src=\"data/raresImg/items/192.items.png\"/>: 73<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13340,7 +13340,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item189\" src=\"data/raresImg/items/189.items.png\"/>: 73<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item189\" src=\"data/raresImg/items/189.items.png\"/>: 73<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13396,7 +13396,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi VII-IX. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks VII-IX. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item182\" src=\"data/raresImg/items/182.items.png\"/>: 69<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение VII - IX  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item182\" src=\"data/raresImg/items/182.items.png\"/>: 69<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга VII–IX. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13452,7 +13452,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item194\" src=\"data/raresImg/items/194.items.png\"/>: 82<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item194\" src=\"data/raresImg/items/194.items.png\"/>: 82<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13511,7 +13511,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item154\" src=\"data/raresImg/items/154.items.png\"/>: 75<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item154\" src=\"data/raresImg/items/154.items.png\"/>: 75<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13568,7 +13568,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item158\" src=\"data/raresImg/items/158.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item158\" src=\"data/raresImg/items/158.items.png\"/>: 71<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13625,7 +13625,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item157\" src=\"data/raresImg/items/157.items.png\"/>: 77<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item157\" src=\"data/raresImg/items/157.items.png\"/>: 77<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13682,7 +13682,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item146\" src=\"data/raresImg/items/146.items.png\"/>: 62<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item146\" src=\"data/raresImg/items/146.items.png\"/>: 62<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13741,7 +13741,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item191\" src=\"data/raresImg/items/191.items.png\"/>: 81<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item191\" src=\"data/raresImg/items/191.items.png\"/>: 81<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13800,7 +13800,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item188\" src=\"data/raresImg/items/188.items.png\"/>: 66<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item188\" src=\"data/raresImg/items/188.items.png\"/>: 66<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -13859,7 +13859,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора.', 'pl': 'Butelka zawiera specjalną substancję, zdolną ulepszyć sprzęt rangi X-XII. Proces wymaga dodatkowo Inhibitora.', 'en': \"The bottle contains a special substance capable of upgrading equipment ranks X-XII. You'll also need an Inhibitor.\"} <br>Общий вес итемов на 1х <img data-items=\"item159\" src=\"data/raresImg/items/159.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
+     "html": "Бутылка содержит специальное вещество, способное улучшить снаряжение X - XII  рангов. Процесс требует дополнительного Ингибитора. <br>Общий вес итемов на 1х <img data-items=\"item159\" src=\"data/raresImg/items/159.items.png\"/>: 76<hr><table class=\"wb\"><tr><td colspan=\"2\">Бутылка с особым веществом, способным улучшить снаряжение ранга X–XII. <p>Процесс дополнительно требует <span data-items=\"wb_inhibitory\">ингибитора</span>. </p> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -15269,7 +15269,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Со всеми собранными ингридиентами отправиться к <img data-items=\"dowodcaalarilskia\" src=\"data/raresImg/npc/dowodcaalarilskia.npc.png\" title=\"Ларис\"/> <br>{'ru': '<img data-items=\"edwinhlook1a\" src=\"data/raresImg/mobs2/edwinhlook1a.moblogo2.png\" title=\"Эдвин Хлокк\"/> дал вам этот рецепт питомца <img data-items=\"aquaton1a\" src=\"data/raresImg/pets/ton.petlogo3d.webp\" title=\"Тон\"/> в награду за вашу доброту. К сожалению, он написан странным алфавитом. Обратитесь к <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> в деревне друидов, может, она сможет вам помочь.', 'pl': '<img data-items=\"edwinhlook1a\" src=\"data/raresImg/mobs2/edwinhlook1a.moblogo2.png\" title=\"Эдвин Хлокк\"/> w dowód wdzięczności za okazane mu dobro przekazał ci przepis na peta <img data-items=\"aquaton1a\" src=\"data/raresImg/pets/ton.petlogo3d.webp\" title=\"Тон\"/>. Niestety napisany jest dziwnym alfabetem. Zapytaj <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> w wiosce druidów, może będzie mogła ci pomóc.', 'en': '<img data-items=\"edwinhlook1a\" src=\"data/raresImg/mobs2/edwinhlook1a.moblogo2.png\" title=\"Эдвин Хлокк\"/> has given you this pet recipe <img data-items=\"aquaton1a\" src=\"data/raresImg/pets/ton.petlogo3d.webp\" title=\"Тон\"/> as a reward for your kindness. Unfortunately, it\\'s written in a strange script. Ask <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> in the druid village for help.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Эдвин Хлокк дал тебе этот рецепт питомца в награду за доброту. К сожалению, он написан на непонятном языке. Обратись к Азарии в Деревне друидов — возможно, она поможет. <p>Можем получить во время выполнения задания <i>Правдивая ложь</i> или купить у Азарии в Деревне друидов за 500 платины. </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>40 × <span data-items=\"item153\">Средняя Фляга Силы</span></li></ul> <ul><li>55 × <span data-items=\"item187\">Средняя Фляга Мощи</span></li></ul> <ul><li>10 × <span data-items=\"item196\">Средняя Фляга Уничтожения</span></li></ul> <ul><li>70 × <span data-items=\"item190\">Средняя Фляга Маны</span></li></ul> <ul><li>35 × <span data-items=\"item685\">Амарантовый элемент</span></li></ul> </td></tr></table>"
+     "html": "Со всеми собранными ингридиентами отправиться к <img data-items=\"dowodcaalarilskia\" src=\"data/raresImg/npc/dowodcaalarilskia.npc.png\" title=\"Ларис\"/> <br><img data-items=\"edwinhlook1a\" src=\"data/raresImg/mobs2/edwinhlook1a.moblogo2.png\" title=\"Эдвин Хлокк\"/> дал вам этот рецепт питомца <img data-items=\"aquaton1a\" src=\"data/raresImg/pets/ton.petlogo3d.webp\" title=\"Тон\"/> в награду за вашу доброту. К сожалению, он написан странным алфавитом. Обратитесь к <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> в деревне друидов, может, она сможет вам помочь.<hr><table class=\"wb\"><tr><td colspan=\"2\">Эдвин Хлокк дал тебе этот рецепт питомца в награду за доброту. К сожалению, он написан на непонятном языке. Обратись к Азарии в Деревне друидов — возможно, она поможет. <p>Можем получить во время выполнения задания <i>Правдивая ложь</i> или купить у Азарии в Деревне друидов за 500 платины. </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>40 × <span data-items=\"item153\">Средняя Фляга Силы</span></li></ul> <ul><li>55 × <span data-items=\"item187\">Средняя Фляга Мощи</span></li></ul> <ul><li>10 × <span data-items=\"item196\">Средняя Фляга Уничтожения</span></li></ul> <ul><li>70 × <span data-items=\"item190\">Средняя Фляга Маны</span></li></ul> <ul><li>35 × <span data-items=\"item685\">Амарантовый элемент</span></li></ul> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -15305,7 +15305,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Со всеми собранными ингридиентами отправиться к <img data-items=\"dowodcaalarilskia\" src=\"data/raresImg/npc/dowodcaalarilskia.npc.png\" title=\"Ларис\"/> <br>{'ru': '<img data-items=\"rafilinde1a\" src=\"data/raresImg/mobs2/rafilinde1a.moblogo2.png\" title=\"Рафи Линд\"/>  дал вам этот рецепт питомца <img data-items=\"aquasol1a\" src=\"data/raresImg/pets/sol.petlogo3d.webp\" title=\"Сол\"/> в награду за вашу доброту. К сожалению, он написан странным алфавитом. Обратитесь к <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> в деревне друидов, может, она сможет вам помочь.', 'pl': '<img data-items=\"rafilinde1a\" src=\"data/raresImg/mobs2/rafilinde1a.moblogo2.png\" title=\"Рафи Линд\"/> w dowód wdzięczności za okazane mu dobro przekazał ci przepis na peta <img data-items=\"aquasol1a\" src=\"data/raresImg/pets/sol.petlogo3d.webp\" title=\"Сол\"/>. Niestety napisany jest dziwnym alfabetem. Zapytaj <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> w wiosce druidów, może będzie mogła ci pomóc.', 'en': '<img data-items=\"rafilinde1a\" src=\"data/raresImg/mobs2/rafilinde1a.moblogo2.png\" title=\"Рафи Линд\"/> has given you this pet recipe <img data-items=\"aquasol1a\" src=\"data/raresImg/pets/sol.petlogo3d.webp\" title=\"Сол\"/> as a reward for your kindness. Unfortunately, it\\'s written in a strange script. Ask <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> in the druid village for help.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Рафи Линде дал тебе этот рецепт питомца в награду за доброту. К сожалению, он написан на непонятном языке. Обратись к Азарии в Деревне друидов — возможно, она поможет. <p>Можем получить во время выполнения задания <i>Правдивая ложь</i> или купить у Азарии в Деревне друидов за 500 платины. </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>40 × <span data-items=\"item187\">Средняя Фляга Мощи</span></li></ul> <ul><li>55 × <span data-items=\"item193\">Средняя Фляга Выносливости</span></li></ul> <ul><li>10 × <span data-items=\"item196\">Средняя Фляга Уничтожения</span></li></ul> <ul><li>70 × <span data-items=\"item190\">Средняя Фляга Маны</span></li></ul> <ul><li>18 × <span data-items=\"item686\">Антрацитовый элемент</span></li></ul> </td></tr></table>"
+     "html": "Со всеми собранными ингридиентами отправиться к <img data-items=\"dowodcaalarilskia\" src=\"data/raresImg/npc/dowodcaalarilskia.npc.png\" title=\"Ларис\"/> <br><img data-items=\"rafilinde1a\" src=\"data/raresImg/mobs2/rafilinde1a.moblogo2.png\" title=\"Рафи Линд\"/>  дал вам этот рецепт питомца <img data-items=\"aquasol1a\" src=\"data/raresImg/pets/sol.petlogo3d.webp\" title=\"Сол\"/> в награду за вашу доброту. К сожалению, он написан странным алфавитом. Обратитесь к <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> в деревне друидов, может, она сможет вам помочь.<hr><table class=\"wb\"><tr><td colspan=\"2\">Рафи Линде дал тебе этот рецепт питомца в награду за доброту. К сожалению, он написан на непонятном языке. Обратись к Азарии в Деревне друидов — возможно, она поможет. <p>Можем получить во время выполнения задания <i>Правдивая ложь</i> или купить у Азарии в Деревне друидов за 500 платины. </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>40 × <span data-items=\"item187\">Средняя Фляга Мощи</span></li></ul> <ul><li>55 × <span data-items=\"item193\">Средняя Фляга Выносливости</span></li></ul> <ul><li>10 × <span data-items=\"item196\">Средняя Фляга Уничтожения</span></li></ul> <ul><li>70 × <span data-items=\"item190\">Средняя Фляга Маны</span></li></ul> <ul><li>18 × <span data-items=\"item686\">Антрацитовый элемент</span></li></ul> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -15341,7 +15341,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Со всеми собранными ингридиентами отправиться к <img data-items=\"dowodcaalarilskia\" src=\"data/raresImg/npc/dowodcaalarilskia.npc.png\" title=\"Ларис\"/> <br>{'ru': '<img data-items=\"annabelevein1a\" src=\"data/raresImg/mobs2/annabelevein1a.moblogo2.png\" title=\"Анна Белевейн\"/> дала вам этот рецепт питомца <img data-items=\"aquaera1a\" src=\"data/raresImg/pets/era.petlogo3d.webp\" title=\"Эра\"/> в награду за вашу доброту. К сожалению, он написан странным алфавитом. Обратитесь к <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> в деревне друидов, может, она сможет вам помочь.', 'pl': '<img data-items=\"annabelevein1a\" src=\"data/raresImg/mobs2/annabelevein1a.moblogo2.png\" title=\"Анна Белевейн\"/> w dowód wdzięczności za okazane jej dobro przekazała ci przepis na peta <img data-items=\"aquaera1a\" src=\"data/raresImg/pets/era.petlogo3d.webp\" title=\"Эра\"/>. Niestety napisany jest dziwnym alfabetem. Zapytaj <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> w wiosce druidów, może będzie mogła ci pomóc.', 'en': '<img data-items=\"annabelevein1a\" src=\"data/raresImg/mobs2/annabelevein1a.moblogo2.png\" title=\"Анна Белевейн\"/> has given you this pet recipe <img data-items=\"aquaera1a\" src=\"data/raresImg/pets/era.petlogo3d.webp\" title=\"Эра\"/> as a reward for your kindness. Unfortunately, it\\'s written in a strange script. Ask <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> in the druid village for help.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Анна Белевейн дала тебе этот рецепт питомца в награду за доброту. К сожалению, он написан на непонятном языке. Обратись к Азарии в Деревне друидов — возможно, она поможет. <p>Можем получить во время выполнения задания <i>Правдивая ложь</i> или купить у Азарии в Деревне друидов за 500 платины. </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>40 × <span data-items=\"item185\">Средняя Фляга Знания</span></li></ul> <ul><li>40 × <span data-items=\"item156\">Средняя Фляга Ловкости</span></li></ul> <ul><li>10 × <span data-items=\"item196\">Средняя Фляга Уничтожения</span></li></ul> <ul><li>70 × <span data-items=\"item190\">Средняя Фляга Маны</span></li></ul> <ul><li>10 × <span data-items=\"item687\">Циановый элемент</span></li></ul> </td></tr></table>"
+     "html": "Со всеми собранными ингридиентами отправиться к <img data-items=\"dowodcaalarilskia\" src=\"data/raresImg/npc/dowodcaalarilskia.npc.png\" title=\"Ларис\"/> <br><img data-items=\"annabelevein1a\" src=\"data/raresImg/mobs2/annabelevein1a.moblogo2.png\" title=\"Анна Белевейн\"/> дала вам этот рецепт питомца <img data-items=\"aquaera1a\" src=\"data/raresImg/pets/era.petlogo3d.webp\" title=\"Эра\"/> в награду за вашу доброту. К сожалению, он написан странным алфавитом. Обратитесь к <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/> в деревне друидов, может, она сможет вам помочь.<hr><table class=\"wb\"><tr><td colspan=\"2\">Анна Белевейн дала тебе этот рецепт питомца в награду за доброту. К сожалению, он написан на непонятном языке. Обратись к Азарии в Деревне друидов — возможно, она поможет. <p>Можем получить во время выполнения задания <i>Правдивая ложь</i> или купить у Азарии в Деревне друидов за 500 платины. </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>40 × <span data-items=\"item185\">Средняя Фляга Знания</span></li></ul> <ul><li>40 × <span data-items=\"item156\">Средняя Фляга Ловкости</span></li></ul> <ul><li>10 × <span data-items=\"item196\">Средняя Фляга Уничтожения</span></li></ul> <ul><li>70 × <span data-items=\"item190\">Средняя Фляга Маны</span></li></ul> <ul><li>10 × <span data-items=\"item687\">Циановый элемент</span></li></ul> </td></tr></table>"
     },
     {
      "title": "Рецепт",
@@ -18544,7 +18544,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "{'ru': 'Странные руны и символы складываются в таинственную схему. Но без помощи кого-то, кто сможет это прочесть, вы не справитесь с этим. Начните с друидов.', 'pl': 'Dziwne runy i symbole układają się w tajemniczy schemat. Ale bez pomocy kogoś, kto potrafiłby go odczytać nie dasz sobie z tym rady. Zacznij od druidów.', 'en': 'Strange runes and symbols make up a mysterious pattern. You need someone who can read it. Ask the druids.'}<hr><table class=\"wb\"><tr><td colspan=\"2\">Рецепт, позволяющий создать питомца. <p>Можно купить у Херемона за 500 платины, но нужно достичь 65 уровня. </p><p>(Получаем его в виде одноразовой короткой миссии). </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>80 × <span data-items=\"item185\">Средняя Фляга Знания</span></li></ul> <ul><li>80 × <span data-items=\"item156\">Средняя Фляга Ловкости</span></li></ul> <ul><li>14 × <span data-items=\"item685\">Амарантовый элемент</span></li></ul> <ul><li>8 × <span data-items=\"item686\">Антрацитовый элемент</span></li></ul> <ul><li>6 × <span data-items=\"item687\">Циановый элемент</span></li></ul> <ul><li>10 × <span data-items=\"item230\">Семечко мощи</span></li></ul> </td></tr></table>"
+     "html": "Странные руны и символы складываются в таинственную схему. Но без помощи кого-то, кто сможет это прочесть, вы не справитесь с этим. Начните с друидов.<hr><table class=\"wb\"><tr><td colspan=\"2\">Рецепт, позволяющий создать питомца. <p>Можно купить у Херемона за 500 платины, но нужно достичь 65 уровня. </p><p>(Получаем его в виде одноразовой короткой миссии). </p> </td></tr><tr><td colspan=\"2\"> <center>Питомца можно создать самостоятельно, собрав ингредиенты:</center> <ul><li>8 × <span data-items=\"item695\">Элементарный глиф</span></li></ul> <ul><li>4 × <span data-items=\"item696\">Ученический глиф</span></li></ul> <ul><li>150 × <span data-items=\"item183\">Средняя Фляга Здоровья</span></li></ul> <ul><li>80 × <span data-items=\"item185\">Средняя Фляга Знания</span></li></ul> <ul><li>80 × <span data-items=\"item156\">Средняя Фляга Ловкости</span></li></ul> <ul><li>14 × <span data-items=\"item685\">Амарантовый элемент</span></li></ul> <ul><li>8 × <span data-items=\"item686\">Антрацитовый элемент</span></li></ul> <ul><li>6 × <span data-items=\"item687\">Циановый элемент</span></li></ul> <ul><li>10 × <span data-items=\"item230\">Семечко мощи</span></li></ul> </td></tr></table>"
     },
     {
      "title": "Рецепт",

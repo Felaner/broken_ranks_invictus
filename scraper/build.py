@@ -166,7 +166,7 @@ SKIP = {"id", "idType", "idClass", "idCatalog", "img", "imgM", "img1", "navigati
         "titlePL", "titleEN", "descrPL", "descrEN", "orbnamePL", "orbnameEN", "otstup", "morf",
         "bliz", "dal", "mental", "attacks", "star", "orbs", "oskolki", "upgP", "rangp", "lvl",
         "trebLvl", "nSlvl", "p100", "p90", "p70", "zonesB", "areaMap", "mapa", "modif", "suborb",
-        "biorb", "magniorb", "arhiorb", "descr3", "bossDrop", "bossCt", "reqB"}
+        "biorb", "magniorb", "arhiorb", "descr3", "bossDrop", "bossCt", "reqB", "upgradeS"}
 RARITY = [("titleEpic", "Эпик"), ("titleSet", "Сет"), ("titleSin", "Синергетик"), ("titlePsy", "Психорар"),
           ("titleRar", "Рар"), ("titlePetRar", "Рар")]
 ZONES = {"b": "ближняя", "d": "дальняя", "m": "ментальная"}
@@ -233,7 +233,50 @@ def descr_order(k):
     return int(m.group(1) or 0) if m else 0
 
 
+ROMAN = re.compile(r"^(I|II|III|IV|V|VI|VII)$")
+
+
+def is_triplet(v):
+    """['рус', 'pol', 'eng'] — одно значение на трёх языках."""
+    return (isinstance(v, list) and len(v) == 3 and all(isinstance(x, str) for x in v)
+            and re.search(r"[а-яё]", v[0], re.I) and not re.search(r"[а-яё]", v[1] + v[2], re.I))
+
+
+def ru_only(v):
+    """Из многоязычных значений базы оставляет только русское."""
+    if isinstance(v, str) and v.startswith("{'ru'"):
+        try:
+            v = ast.literal_eval(v)
+        except (ValueError, SyntaxError):
+            return v
+    if isinstance(v, dict):
+        if "ru" in v and set(v) <= {"ru", "pl", "en"}:
+            return ru_only(v["ru"])
+        return {k: ru_only(x) for k, x in v.items()}
+    if isinstance(v, list):
+        if is_triplet(v):
+            return v[0]
+        return [ru_only(x) for x in v]
+    return v
+
+
+def skill_table(rows):
+    """upgradeS: строки уровней, затем заголовки (ru, pl, en) и примечания-тройки."""
+    data = [r for r in rows if isinstance(r, list) and r and ROMAN.match(str(r[0]))]
+    rest = [r for r in rows if isinstance(r, list) and r not in data]
+    notes = [r[0] for r in rest if is_triplet(r)]
+    heads = [r for r in rest if not is_triplet(r)]
+    head = heads[0] if heads else []
+    html = ""
+    if data:
+        th = "".join(f"<th>{str(h).strip().rstrip(':').strip()}</th>" for h in head)
+        trs = "".join("<tr>" + "".join(f"<td>{fmt(x)}</td>" for x in r) + "</tr>" for r in data)
+        html = f'<div class="tscroll"><table class="wb skill">{"<tr>" + th + "</tr>" if th else ""}{trs}</table></div>'
+    return html, notes
+
+
 def build_entry(o, section, category):
+    o = {k: (v if k == "upgradeS" else ru_only(v)) for k, v in o.items()}
     title = (o.get("title") or o.get("titleItem") or o.get("id")).strip()
     fields, blocks = [], []
     level = None
@@ -370,6 +413,13 @@ def build_entry(o, section, category):
         links = [f'<span data-maps="{m}">{MAP_NAMES.get(m, m)}</span>' for m in ids]
         blocks.append({"title": "Путь по картам" if section == "mobs" else "Где найти",
                        "html": " → ".join(links) if section == "mobs" else ", ".join(links)})
+
+    if isinstance(o.get("upgradeS"), list):
+        table, notes = skill_table(o["upgradeS"])
+        if notes:
+            descr_parts.append((99, "<br>".join(notes)))
+        if table:
+            blocks.append({"title": "Уровни навыка", "html": table})
 
     descr = " <br>".join(clean_html(v) for _, v in sorted(descr_parts, key=lambda x: x[0]) if clean_html(v))
     if descr:
@@ -705,10 +755,20 @@ def tr_names(text):
         elif re.fullmatch(r"\s+i\s+", part or ""):
             out.append(" и ")
         elif part:
-            m = re.match(r"^(.*?)(\s*\(.*\))?$", part)
-            name = m.group(1)
+            m = re.match(r"^(\s*)(.*?)(\s*\(.*\))?$", part)
+            name = m.group(2)
             t = tr_core(name) if LATIN.search(name) else name
-            out.append((t if t is not None else name) + (m.group(2) or ""))
+            if t is None:
+                untranslated[name] += 1
+            paren = m.group(3) or ""
+            pm = re.match(r"^(\s*\()(.*)(\))$", paren)
+            if pm and LATIN.search(pm.group(2)):
+                pt = tr_core(pm.group(2))
+                if pt is None:
+                    untranslated[pm.group(2)] += 1
+                else:
+                    paren = pm.group(1) + pt + pm.group(3)
+            out.append(m.group(1) + (t if t is not None else name) + paren)
     return "".join(out)
 
 

@@ -525,6 +525,9 @@ table.wb tr:last-child td { border-bottom: 0; }
 table.wb p { margin: 2px 0; }
 table.wb ul { text-align: left; margin: 4px 0; padding-left: 18px; }
 .block-html table.wb img { max-height: 40px; }
+.tscroll { overflow-x: auto; max-width: 100%; }
+table.wb.skill th { white-space: nowrap; font-size: 12px; font-weight: 600; }
+table.wb.skill td { white-space: nowrap; }
 .block-html h2, .block-html h3 { font-size: 15px; margin: 14px 0 6px; color: var(--accent); text-transform: none; letter-spacing: 0; }
 .block-html table { max-width: 100%; }
 .block-html table td, .block-html table th { padding: 3px 6px; }
