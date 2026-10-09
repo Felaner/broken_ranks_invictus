@@ -156,7 +156,7 @@ LABELS = {
 }
 # Поля, которые выводятся отдельными HTML-блоками, а не строкой таблицы.
 BLOCK_LABELS = {
-    "drop": "Дроп", "dropdB": "Дроп", "bonus": "Бонус", "setName": "Комплект", "setBonus": "Бонус комплекта",
+    "drop": "Дроп", "dropdB": "Дроп", "bdrop": "Дроп", "bonus": "Бонус", "setName": "Комплект", "setBonus": "Бонус комплекта",
     "owner": "Где взять", "cenap": "Цена", "skills": "Навыки", "skillsB": "Навыки", "skins": "Скины",
     "team": "Команда", "teamB": "Команда", "morfs": "Образы",
     "reqB": "Требования", "petsk": "Навыки питомца", "dopbonus": "Доп. бонус", "vycup": "Выкуп",
@@ -166,7 +166,7 @@ SKIP = {"id", "idType", "idClass", "idCatalog", "img", "imgM", "img1", "navigati
         "titlePL", "titleEN", "descrPL", "descrEN", "orbnamePL", "orbnameEN", "otstup", "morf",
         "bliz", "dal", "mental", "attacks", "star", "orbs", "oskolki", "upgP", "rangp", "lvl",
         "trebLvl", "nSlvl", "p100", "p90", "p70", "zonesB", "areaMap", "mapa", "modif", "suborb",
-        "biorb", "magniorb", "arhiorb", "descr3", "bossDrop", "bossCt", "reqB", "upgradeS"}
+        "biorb", "magniorb", "arhiorb", "descr3", "bossDrop", "bossCt", "reqB", "upgradeS", "typeG"}
 RARITY = [("titleEpic", "Эпик"), ("titleSet", "Сет"), ("titleSin", "Синергетик"), ("titlePsy", "Психорар"),
           ("titleRar", "Рар"), ("titlePetRar", "Рар")]
 ZONES = {"b": "ближняя", "d": "дальняя", "m": "ментальная"}
@@ -297,9 +297,6 @@ def build_entry(o, section, category):
         fields.append(["Редкость", rar])
 
     if section == "mobs":
-        att = [n for k, n in (("bliz", "ближние"), ("dal", "дальние"), ("mental", "ментальные")) if o.get(k) == "+"]
-        if att:
-            fields.append(["Атаки", ", ".join(att)])
         if o.get("zonesB"):
             fields.append(["Зоны атаки", ", ".join(ZONES.get(z, z) for z in o["zonesB"])])
         for k, n in (("p100", "100%"), ("p90", "90%"), ("p70", "70%")):
@@ -426,7 +423,11 @@ def build_entry(o, section, category):
         blocks.insert(0, {"title": "Описание", "html": descr})
 
     model = model_of(o)
+    attacks = None
+    if section == "mobs" and any(o.get(k) == "+" for k in ("bliz", "dal", "mental", "attacks")):
+        attacks = {"b": o.get("bliz") == "+", "d": o.get("dal") == "+", "m": o.get("mental") == "+"}
     return {
+        "attacks": attacks,
         "id": o["id"],
         "category": category,
         "name": title,
@@ -567,6 +568,47 @@ REVERSE = {
     ("*", "Цена"): "Оплата за",
     ("*", "Образы"): "Образ для",
 }
+
+
+ATK_IMG = re.compile(r"Strefa_ataku_(fizyczna|dystansowe|dystans|mentalne)_(tak|nie)")
+ATK_KEY = {"fizyczna": "b", "dystansowe": "d", "dystans": "d", "mentalne": "m"}
+
+
+ATK_NAMES = (("b", "Ближние"), ("d", "Дальние"), ("m", "Ментальные"))
+
+
+def atk_html(a):
+    return '<span class="atk">' + "".join(
+        f'<i class="atk-{k} {"on" if a.get(k) else "off"}" title="{n} атаки: {"да" if a.get(k) else "нет"}"></i>'
+        for k, n in ATK_NAMES) + "</span>"
+
+
+def add_attacks():
+    """Типы атак мобов: из базы, иначе из блока «Зоны атаки» второй вики (он заменяется значками)."""
+    for _, entries in SECTIONS_OUT.values():
+        for e in entries:
+            keep = []
+            for b in e["blocks"]:
+                if not ATK_IMG.search(b["html"]):
+                    keep.append(b)
+                    continue
+                out = []
+                for part in re.split(r"<hr/?>", b["html"]):
+                    if not ATK_IMG.search(part):
+                        if text_of(part) or "<img" in part:
+                            out.append(part)
+                        continue
+                    a = {ATK_KEY[k]: v == "tak" for k, v in ATK_IMG.findall(part)}
+                    if b["title"] == "Зоны атаки" and (not e.get("attacks") or e["attacks"] == a):
+                        e["attacks"] = a
+                        continue
+                    out.append(atk_html(a))
+                if out:
+                    b["html"] = "<hr>".join(out)
+                    keep.append(b)
+            e["blocks"] = keep
+            if not e.get("attacks"):
+                e.pop("attacks", None)
 
 
 def add_backrefs():
@@ -999,6 +1041,7 @@ def main():
     write("npc", [], [build_entry(o, "npc", "_") for o in DB["npcMain"].values()])
     write("skills", [], [build_entry(o, "skills", "_") for o in DB["skillsMain"].values()])
     add_wikibr()
+    add_attacks()
     add_backrefs()
     for sid, (cats, entries) in SECTIONS_OUT.items():
         write_out(sid, cats, entries)

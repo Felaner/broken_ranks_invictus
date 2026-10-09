@@ -567,3 +567,26 @@ body.detail-wide .main .local-search { flex-basis: 100%; }
 .about { max-width: 760px; line-height: 1.6; }
 .about h3 { margin: 22px 0 6px; font-size: 15px; color: var(--accent); }
 .about p { margin: 0 0 8px; }
+
+/* ---------- типы атак мобов ---------- */
+.atk { display: inline-flex; gap: 4px; vertical-align: middle; }
+.atk i {
+  display: inline-block; width: 22px; height: 22px; border-radius: 6px;
+  background: var(--atk-c) center / 15px 15px no-repeat;
+  -webkit-mask: none; position: relative;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--atk-c) 60%, transparent);
+}
+.atk i::before {
+  content: ""; position: absolute; inset: 3px; background: #fff;
+  -webkit-mask: var(--atk-i) center / contain no-repeat; mask: var(--atk-i) center / contain no-repeat;
+}
+.atk i.off { background: transparent; box-shadow: inset 0 0 0 1px var(--line); opacity: .45; }
+.atk i.off::before { background: var(--muted); }
+.atk-sm i { width: 18px; height: 18px; border-radius: 5px; }
+.atk-sm i::before { inset: 3px; }
+.atk-b { --atk-c: #c0503a; --atk-i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20.5 2 13 9.5l1.5 1.5L22 3.5V2zM4.4 14.2l1.4-1.4 5.4 5.4-1.4 1.4-1.4-1.4-2.5 2.5.7.7-1.4 1.4-3.5-3.5 1.4-1.4.7.7 2.5-2.5zM12 9.9l2.1 2.1-5.4 5.4-2.1-2.1z'/%3E%3C/svg%3E"); }
+.atk-d { --atk-c: #3d8a4f; --atk-i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 21 15.6 8.4l-2-.6L16 3l1 3 3 1-4.8 2.4-.6-2L4.4 22.4z'/%3E%3Cpath d='M5 3c7 0 16 9 16 16h-2C19 13 11 5 5 5z'/%3E%3C/svg%3E"); }
+.atk-m { --atk-c: #7a4fb8; --atk-i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 5C6.5 5 2.7 9.3 1.5 12c1.2 2.7 5 7 10.5 7s9.3-4.3 10.5-7C21.3 9.3 17.5 5 12 5zm0 11.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9zm0-2.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/%3E%3C/svg%3E"); }
+.atk-line { display: flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 13px; color: var(--muted); }
+.card-meta .atk { margin-left: auto; }
+.block-html .atk { margin: 2px 0; }

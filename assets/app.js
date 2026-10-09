@@ -167,6 +167,7 @@
       lists: Array.isArray(e.lists) ? e.lists : [],
       blocks: Array.isArray(e.blocks) ? e.blocks : [],
       backrefs: Array.isArray(e.backrefs) ? e.backrefs : [],
+      attacks: e.attacks || null,
       namePL: e.namePL || "",
       lang: e.lang || "",
       image: e.image || "",
@@ -225,6 +226,7 @@
     lvlMax: "",
     facets: {},
     mark: "all",
+    atk: "",
     mapZoom: 1,
     wide: store.get("wide", false),
     list: [],           // текущий отображаемый список (для навигации стрелками)
@@ -236,7 +238,16 @@
     view.lvlMin = view.lvlMax = "";
     view.facets = {};
     view.mark = "all";
+    view.atk = "";
     view.onlyMine = false;
+  }
+
+  // Типы атак моба значками: ближние / дальние / ментальные.
+  const ATK = [["b", "Ближние"], ["d", "Дальние"], ["m", "Ментальные"]];
+  function atkHtml(e, cls = "") {
+    if (!e.attacks) return "";
+    return `<span class="atk ${cls}">${ATK.map(([k, n]) =>
+      `<i class="atk-${k} ${e.attacks[k] ? "on" : "off"}" title="${n} атаки: ${e.attacks[k] ? "да" : "нет"}"></i>`).join("")}</span>`;
   }
 
   // Перерисовка с сохранением фокуса и курсора в поле ввода.
@@ -335,7 +346,7 @@
   }
 
   // Поля, по которым можно фильтровать выпадающим списком.
-  const FACETS = ["Редкость", "Требуемый класс", "Тип урона", "Тип", "Аспект арены", "Группа боссов", "Атаки"];
+  const FACETS = ["Редкость", "Требуемый класс", "Тип урона", "Тип", "Аспект арены", "Группа боссов"];
 
   function applyFilters(entries) {
     const q = norm(view.query);
@@ -348,6 +359,7 @@
       for (const [label, val] of Object.entries(view.facets)) {
         if (val && String(fv(fieldOf(e, label)) ?? "") !== val) return false;
       }
+      if (view.atk && !(e.attacks && e.attacks[view.atk])) return false;
       if (view.mark === "have" && !marks.has(e.id)) return false;
       if (view.mark === "no" && marks.has(e.id)) return false;
       return true;
@@ -389,7 +401,8 @@
       const vals = [...new Set(entries.map(e => fieldOf(e, label)).filter(v => v != null && v !== "").map(v => String(fv(v))))];
       return vals.length >= 2 ? [label, vals.sort((a, b) => a.localeCompare(b, "ru"))] : null;
     }).filter(Boolean);
-    const filtersActive = view.query || view.lvlMin || view.lvlMax || view.onlyMine || view.mark !== "all" ||
+    const anyAtk = entries.some(e => e.attacks);
+    const filtersActive = view.query || view.lvlMin || view.lvlMax || view.onlyMine || view.mark !== "all" || view.atk ||
       Object.values(view.facets).some(Boolean);
 
     let html = db.demo ? demoBanner() : "";
@@ -434,6 +447,10 @@
           <option value="">${esc(label)}: все</option>
           ${vals.map(v => `<option value="${esc(v)}" ${view.facets[label] === v ? "selected" : ""}>${esc(v)}</option>`).join("")}
         </select>`).join("")}
+      ${anyAtk ? `<select id="atkSel" title="Тип атаки">
+        <option value="">Атакует: любые</option>
+        ${ATK.map(([k, n]) => `<option value="${k}" ${view.atk === k ? "selected" : ""}>${n.toLowerCase()}</option>`).join("")}
+      </select>` : ""}
       <select id="markSel" title="Отметки">
         <option value="all" ${view.mark === "all" ? "selected" : ""}>Отметки: все</option>
         <option value="have" ${view.mark === "have" ? "selected" : ""}>✓ есть у меня</option>
@@ -456,12 +473,14 @@
     bindToolbar();
   }
 
-  const PREVIEW_SKIP = /^(тип|улучшения|атаки|зоны атаки|шанс дропа|группа боссов)/i;
+  // В карточке — только редкость, цена и требуемый класс (если он есть).
+  const TIP_SKIP = /^(тип|улучшения|атаки|зоны атаки|шанс дропа|группа боссов)/i;
+  const PREVIEW = [/^редкость$/i, /^(цена|стоимость)$/i, /^требуемый класс$/i];
 
   function renderCard(e, showSection) {
     const sec = db.sections[e.section];
     const cat = sec.categories.find(c => c.id === e.category);
-    const preview = e.fields.filter(([k]) => !isLevelLabel(k) && !PREVIEW_SKIP.test(k)).slice(0, 3);
+    const preview = PREVIEW.map(rx => e.fields.find(([k]) => rx.test(k))).filter(Boolean);
     const lvl = fv(fieldOf(e, "Уровень")) || e.level;
     return `<a class="card ${favorites.has(e.id) ? "fav" : ""} ${marks.has(e.id) ? "have" : ""}"
         href="${entryHrefHere(e)}" data-id="${esc(e.id)}">
@@ -471,6 +490,7 @@
         <div class="card-meta">
           ${lvl != null && lvl !== "" ? `<span class="lvl">ур. ${esc(lvl)}</span>` : ""}
           <span>${showSection ? esc(sec.title) + " · " : ""}${esc(cat?.name || "")}</span>
+          ${atkHtml(e, "atk-sm")}
         </div>
         ${preview.length ? `<div class="card-fields">${preview.map(([k, v]) =>
           `<span><em>${esc(k)}:</em> ${esc(fv(v))}</span>`).join("")}</div>` : ""}
@@ -522,6 +542,7 @@
     });
     on("#onlyMine", "change", ev => { view.onlyMine = ev.target.checked; refresh(); });
     on("#markSel", "change", ev => { view.mark = ev.target.value; refresh(); });
+    on("#atkSel", "change", ev => { view.atk = ev.target.value; refresh(); });
     on("#resetFlt", "click", () => { resetFilters(); refresh(); });
     $$(".facet").forEach(s => s.addEventListener("change", () => { view.facets[s.dataset.facet] = s.value; refresh(); }));
     $$(".main .seg:not(.diff-seg) button").forEach(b => b.addEventListener("click", () => {
@@ -816,6 +837,7 @@
             ${cat ? ` / <a href="${href(["s", sec.id, cat.id])}">${esc(cat.name)}</a>` : ""}
           </div>
           ${lvl ? `<span class="lvl">Уровень ${esc(lvl)}</span>` : ""}
+          ${e.attacks ? `<div class="atk-line">Атакует: ${atkHtml(e)}</div>` : ""}
         </div>
       </div>
       ${hasDiff(e) ? diffSwitch("diffDetail") : ""}
@@ -932,7 +954,7 @@
       tipFor = e.id;
       const sec = db.sections[e.section];
       const cat = sec.categories.find(c => c.id === e.category);
-      const rows = e.fields.filter(([k]) => !PREVIEW_SKIP.test(k)).slice(0, 6);
+      const rows = e.fields.filter(([k]) => !TIP_SKIP.test(k)).slice(0, 6);
       tip.innerHTML = `<div class="tip-head">${iconHtml(e, "ico-sm")}<div><b>${esc(e.name)}</b>
           <small>${esc(sec.title)}${cat ? " · " + esc(cat.name) : ""}</small></div></div>
         ${rows.length ? `<table>${rows.map(([k, v]) => `<tr><th>${esc(k)}</th><td>${esc(fv(v))}</td></tr>`).join("")}</table>` : ""}

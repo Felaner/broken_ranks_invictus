@@ -380,10 +380,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>220</b><br/> <span><span><img src=\"data/wikibr/images/3/35/Power_icon.png\" title=\"Сила (PvE)\"/></span></span> <b>23 285</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: з/д</b></div><div><b> <span></span></b>Мана<b>: 34 000</b></div><div><b> <span></span></b>Выносливость<b>: 62 000</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Болезненный Удар <p>Пыль в глаза </p><p>Вспарывание </p><p>Смертельный удар </p><p>Таран </p><p>Обычная атака </p> </td><td colspan=\"2\">Бросок </td><td colspan=\"2\">Паника <p>Немота </p><p>Электромагнитные помехи </p> </td></tr></table>"
     },
@@ -405,6 +401,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": true
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1237,10 +1238,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/7/7a/Easy.png\" title=\"Путь познания\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"2\">Уровень: <b>35</b> </td><td colspan=\"2\">Уровень: <b>45</b> </td><td colspan=\"2\">Уровень: <b>55</b> </td></tr><tr><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: 900</b></div><div><b> <span></span></b>Мана<b>: 1 000</b></div><div><b> <span></span></b>Выносливость<b>: 1 000</b></div> </td><td colspan=\"2\"><center><div><b> <span></span></b>Здоровье<b>: 1 800</b></div><div><b> <span></span></b>Мана<b>: 1 000</b></div><div><b> <span></span></b>Выносливость<b>: 1 000</b></div></center> </td><td colspan=\"2\"><center><div><b> <span></span></b>Здоровье<b>: 3 600</b></div><div><b> <span></span></b>Мана<b>: 1 000</b></div><div><b> <span></span></b>Выносливость<b>: 1 000</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/5/56/Strefa_ataku_mentalne_nie.png\" title=\"Нет\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Удар кулаком <p>Обычная атака </p> </td><td colspan=\"2\">Бросок камнем </td><td colspan=\"2\"> </td></tr></table>"
     },
@@ -1262,6 +1259,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": false
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1370,10 +1372,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>73</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: 7 400</b></div><div><b> <span></span></b>Мана<b>: 2 000</b></div><div><b> <span></span></b>Выносливость<b>: 2 000</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение <p>Обычная атака </p> </td><td colspan=\"2\">Бросок </td><td colspan=\"2\">Ледяной Щит <p>Паника </p> </td></tr></table>"
     },
@@ -1395,6 +1393,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": true
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1791,10 +1794,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>220</b><br/> <span><span><img src=\"data/wikibr/images/3/35/Power_icon.png\" title=\"Сила (PvE)\"/></span></span> <b>24 827</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: з/д</b></div><div><b> <span></span></b>Мана<b>: 59 000</b></div><div><b> <span></span></b>Выносливость<b>: 24 000</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение <p>Проникающий удар </p><p>Высасывание Души </p><p>Ранение </p> </td><td colspan=\"2\">Теневой Удар </td><td colspan=\"2\">Отупление <p>Рой ос </p><p>Булавка в глаз </p><p>Укол Куклы </p><p>Отравление </p> </td></tr></table>"
     },
@@ -1816,6 +1815,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": true
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -1846,10 +1850,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/7/7a/Easy.png\" title=\"Путь познания\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"2\">Уровень: <b>-</b> </td><td colspan=\"2\">Уровень: <b>180</b> </td><td colspan=\"2\">Уровень: <b>220</b> </td></tr><tr><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: -</b></div><div><b> <span></span></b>Мана<b>: -</b></div><div><b> <span></span></b>Выносливость<b>: -</b></div> </td><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: 85 000</b></div><div><b> <span></span></b>Мана<b>: 30 000</b></div><div><b> <span></span></b>Выносливость<b>: 30 000</b></div> </td><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: 127 500</b></div><div><b> <span></span></b>Мана<b>: 30 000</b></div><div><b> <span></span></b>Выносливость<b>: 30 000</b></div> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Физические <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальние <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальные <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\" rowspan=\"2\">Ледяная групповая физическая атака </td><td colspan=\"2\" rowspan=\"2\">Ледяная дальняя атака <p>Ледяной метеорит </p><p>Ранение </p> </td><td><b>Атаки</b> </td><td><b>Баффы</b> </td></tr><tr><td>Рассеивание <p>Массовая аура холода </p><p>Явление смерти </p><p>Удар в живот </p><p>Булавка в глаз </p><p>Замораживание </p><p>Теневая аура </p><p>Немота </p><p>Отупление </p><p>Отравление </p><p>Паника </p> </td><td>Тест </td></tr></table>"
     },
@@ -1878,7 +1878,12 @@
      "html": "<p>. </p> <center> <ul> <li>Панель</li> <li> <div><span><span><img src=\"data/wikibr/images/8/8a/O_Gildii.png\" title=\"Окно «О гильдии» позволяет управлять описанием гильдии, менять её название, а также смотреть престиж, честь, силу, дату основания и ник основателя. Это окно доступно для просмотра и тем, кто не состоит в гильдии.\"/></span></span></div> <div> <p>Окно <i>«О гильдии»</i> Позволяет управлять описанием гильдии, менять её название, а также смотреть престиж, честь, силу, дату основания и ник основателя. Это окно доступно для просмотра и тем, кто не состоит в гильдии. </p> </div> </li> <li> <div><span><span><img src=\"data/wikibr/images/6/6e/Zesp%C3%B3%C5%82.png\" title=\"Окно «Состав» позволяет посмотреть текущее состояние гильдии, покинуть гильдию и добавить нового члена. Это окно доступно для просмотра и тем, кто не состоит в гильдии (только просмотр состава гильдии).\"/></span></span></div> <div> <p>Окно «<i>«Состав»</i> позволяет посмотреть текущее состояние гильдии, покинуть гильдию и добавить нового члена. Окно доступно и тем, кто не в гильдии (только просмотр состава). </p> </div> </li> <li> <div><span><span><img src=\"data/wikibr/images/e/e6/Aktualno%C5%9Bci.png\" title=\"Окно «Новости» позволяет публиковать новости гильдии и просматривать сокровищницу.\"/></span></span></div> <div> <p>Окно <i>«Новости»</i> позволяет публиковать новости гильдии и просматривать сокровищницу. </p> </div> </li> <li> <div><span><span><img src=\"data/wikibr/images/5/5c/Forum_G.png\" title=\"Окно «Форум» позволяет публиковать посты и дополнительно общаться внутри гильдии всем её членам.\"/></span></span></div> <div> <p>Окно <i>«Форум»</i> позволяет публиковать посты и общаться внутри гильдии всем её членам. </p> </div> </li> <li> <div><span><span><img src=\"data/wikibr/images/a/a9/Sk%C5%82adki.png\" title=\"Окно «Взносы» позволяет проверять взносы, внесённые членами гильдии.\"/></span></span></div> <div> <p>Окно <i>«Взносы»</i> позволяет просматривать взносы членов гильдии. </p> </div> </li> <li> <div><span><span><img src=\"data/wikibr/images/b/b1/Historia_G.png\" title=\"Окно «История» позволяет просматривать историю гильдии. В ней есть такие сведения, как списание налога или сообщения о выходе членов из гильдии.\"/></span></span></div> <div> <p>Окно <i>«История»</i> позволяет просматривать историю гильдии — например, сбор налогов или сообщения о выходе членов из гильдии. </p> </div> </li> </ul> </center> <h3><span><span><span><img src=\"data/wikibr/images/4/42/Pasek_z_flaga_szpila_w_oko.png\"/></span></span> <span style=\"color:#40444B\">Булавка в глаз</span></span></h3> <h3><span><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\"/></span></span> <span style=\"color:#40444B\"><b>Сложный</b></span></span></h3> <p>Только на пути </p>"
     }
    ],
-   "sourceUrl": ""
+   "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": true
+   }
   },
   {
    "id": "wb_klucz_do_maszynowni_admiral",
@@ -2212,10 +2217,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>12</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: 370</b></div><div><b> <span></span></b>Мана<b>: 380</b></div><div><b> <span></span></b>Выносливость<b>: 400</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/5/56/Strefa_ataku_mentalne_nie.png\" title=\"Нет\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Мощный Удар <p>Обычная атака </p> </td><td colspan=\"2\">Бросок камнем </td><td colspan=\"2\"> </td></tr></table>"
     },
@@ -2237,6 +2238,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": false
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -2578,10 +2584,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/7/7a/Easy.png\" title=\"Путь познания\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"2\">Уровень: <b>-</b> </td><td colspan=\"2\">Уровень: <b>140</b> </td><td colspan=\"2\">Уровень: <b>180</b> </td></tr><tr><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: -</b></div><div><b> <span></span></b>Мана<b>: -</b></div><div><b> <span></span></b>Выносливость<b>: -</b></div> </td><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: 5 900</b></div><div><b> <span></span></b>Мана<b>: 4 500</b></div><div><b> <span></span></b>Выносливость<b>: 4 500</b></div> </td><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: 8 850</b></div><div><b> <span></span></b>Мана<b>: 4 500</b></div><div><b> <span></span></b>Выносливость<b>: 4 500</b></div> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Физические <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальние <p><span><span><img src=\"data/wikibr/images/6/60/Strefa_ataku_dystans_nie.png\" title=\"Нет\"/></span></span> </p> </td><td colspan=\"2\">Ментальные <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Смертельный удар <p>Мощный Удар </p><p>Укус </p><p>Рвота </p> </td><td colspan=\"2\">- </td><td colspan=\"2\">Заражение <p>Ярость </p> </td></tr></table>"
     },
@@ -2598,7 +2600,12 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"6\">- </td></tr></table>"
     }
    ],
-   "sourceUrl": ""
+   "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": false,
+    "m": true
+   }
   },
   {
    "id": "wb_ogara_utoru_testy",
@@ -2614,10 +2621,6 @@
     {
      "title": "Статистика",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/7/7a/Easy.png\" title=\"Путь познания\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"2\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"2\">Уровень: <b>-</b> </td><td colspan=\"2\">Уровень: <b>140</b> </td><td colspan=\"2\">Уровень: <b>180</b> </td></tr><tr><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: -</b></div><div><b> <span></span></b>Мана<b>: -</b></div><div><b> <span></span></b>Выносливость<b>: -</b></div> </td><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: 5 900</b></div><div><b> <span></span></b>Мана<b>: 4 500</b></div><div><b> <span></span></b>Выносливость<b>: 4 500</b></div> </td><td colspan=\"2\"><div><b> <span></span></b>Здоровье<b>: 8 850</b></div><div><b> <span></span></b>Мана<b>: 4 500</b></div><div><b> <span></span></b>Выносливость<b>: 4 500</b></div> </td></tr></table>"
-    },
-    {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Физические <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальние <p><span><span><img src=\"data/wikibr/images/6/60/Strefa_ataku_dystans_nie.png\" title=\"Нет\"/></span></span> </p> </td><td colspan=\"2\">Ментальные <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
     },
     {
      "title": "Умения",
@@ -2641,7 +2644,7 @@
     },
     {
      "title": "Уторский Огар: Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Физические <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальние <p><span><span><img src=\"data/wikibr/images/6/60/Strefa_ataku_dystans_nie.png\" title=\"Нет\"/></span></span> </p> </td><td colspan=\"2\">Ментальные <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table><hr><table class=\"wb\"><tr><td colspan=\"2\">Физические <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальние <p><span><span><img src=\"data/wikibr/images/6/60/Strefa_ataku_dystans_nie.png\" title=\"Нет\"/></span></span> </p> </td><td colspan=\"2\">Ментальные <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
+     "html": "<span class=\"atk\"><i class=\"atk-b on\" title=\"Ближние атаки: да\"></i><i class=\"atk-d off\" title=\"Дальние атаки: нет\"></i><i class=\"atk-m on\" title=\"Ментальные атаки: да\"></i></span><hr><span class=\"atk\"><i class=\"atk-b on\" title=\"Ближние атаки: да\"></i><i class=\"atk-d off\" title=\"Дальние атаки: нет\"></i><i class=\"atk-m on\" title=\"Ментальные атаки: да\"></i></span>"
     },
     {
      "title": "Уторский Огар: Умения",
@@ -2664,7 +2667,12 @@
      "html": "<p>Этот вариант Уторского Ога встречается на Корабле Командора </p> <p>Этот вариант Уторского Ога встречается на Корабле Адмирала. </p> <p>Этот вариант Уторского Ога встречается только как призванный Уторским Адмиралом. </p>"
     }
    ],
-   "sourceUrl": ""
+   "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": false,
+    "m": true
+   }
   },
   {
    "id": "wb_nazgulica",
@@ -4079,10 +4087,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"3\">Уровень: <b>135</b> </td><td colspan=\"3\">Уровень: <b>175</b> </td></tr><tr><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 16 000</b></div><div><b> <span></span></b>Мана<b>: 5 700</b></div><div><b> <span></span></b>Выносливость<b>: 5 700</b></div></center> </td><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 21 000</b></div><div><b> <span></span></b>Мана<b>: 5 700</b></div><div><b> <span></span></b>Выносливость<b>: 5 700</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Дезориентация <p>Мощный Удар </p><p>Таран </p> </td><td colspan=\"2\">Бросок </td><td colspan=\"2\">Теневая аура <p>Аура Ужаса </p><p>Паника </p><p>Рой ос </p> </td></tr></table>"
     },
@@ -4104,6 +4108,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": true
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -4136,10 +4145,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td><td colspan=\"3\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"3\">Уровень: <b>135</b> </td><td colspan=\"3\">Уровень: <b>175</b> </td></tr><tr><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 9 500</b></div><div><b> <span></span></b>Мана<b>: 5 700</b></div><div><b> <span></span></b>Выносливость<b>: 5 700</b></div></center> </td><td colspan=\"3\"><center><div><b> <span></span></b>Здоровье<b>: 12 900</b></div><div><b> <span></span></b>Мана<b>: 5 700</b></div><div><b> <span></span></b>Выносливость<b>: 5 700</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Мощный Удар<p>Болезненный удар</p> </td><td colspan=\"2\">Бросок </td><td colspan=\"2\">Теневая аура<p>Аура Ужаса</p><p>Булавка в глаз</p><p>Боевой Клич</p> </td></tr></table>"
     },
@@ -4161,6 +4166,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": true
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -4524,10 +4534,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/f/fb/Normal.png\" title=\"Путь приключения\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>35</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: 1 800</b></div><div><b> <span></span></b>Мана<b>: 1 500</b></div><div><b> <span></span></b>Выносливость<b>: 1 500</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/6/60/Strefa_ataku_dystans_nie.png\" title=\"Нет\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение <p>Обычная атака </p> </td><td colspan=\"2\"> </td><td colspan=\"2\">Сила Единства <p>Боевой Клич </p><p>Паника </p> </td></tr></table>"
     },
@@ -4549,6 +4555,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": false,
+    "m": true
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
@@ -4893,10 +4904,6 @@
      "html": "<table class=\"wb\"><tr><td colspan=\"6\"><span><span><img src=\"data/wikibr/images/d/d5/Hard.png\" title=\"Путь испытания\"/></span></span> </td></tr><tr><td colspan=\"6\">Уровень: <b>42</b> </td></tr><tr><td colspan=\"6\"><center><div><b> <span></span></b>Здоровье<b>: 900</b></div><div><b> <span></span></b>Мана<b>: 800</b></div><div><b> <span></span></b>Выносливость<b>: 800</b></div></center> </td></tr></table>"
     },
     {
-     "title": "Зоны атаки",
-     "html": "<table class=\"wb\"><tr><td colspan=\"2\">Ближняя <p><span><span><img src=\"data/wikibr/images/7/77/Strefa_ataku_fizyczna_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Дальняя <p><span><span><img src=\"data/wikibr/images/5/52/Strefa_ataku_dystansowe_tak.png\" title=\"Да\"/></span></span> </p> </td><td colspan=\"2\">Ментальная <p><span><span><img src=\"data/wikibr/images/b/b8/Strefa_ataku_mentalne_tak.png\" title=\"Да\"/></span></span> </p> </td></tr></table>"
-    },
-    {
      "title": "Умения",
      "html": "<table class=\"wb\"><tr><td colspan=\"2\">Кровотечение </td><td colspan=\"2\">Ранение </td><td colspan=\"2\">Удар в живот <p>Паника </p> </td></tr></table>"
     },
@@ -4918,6 +4925,11 @@
     }
    ],
    "sourceUrl": "",
+   "attacks": {
+    "b": true,
+    "d": true,
+    "m": true
+   },
    "backrefs": [
     {
      "title": "Упоминается в",
