@@ -962,13 +962,13 @@ def add_wikibr():
         if dst in title_to_id:
             title_to_id[src] = title_to_id[dst]
 
-    def convert(html):
+    def convert(html, self_id=None):
         def link(m):
             tid = title_to_id.get(m.group(1)) or title_to_id.get(redirects.get(m.group(1), ""))
             return f'data-items="{tid}"' if tid else ""
         html = re.sub(r'data-wikibr="([^"]+)"', link, html)
         html = re.sub(r'data-wikibr-img="([^"]+)"', lambda m: f'src="{wb_img(m.group(1))}"', html)
-        return tr_html(html)
+        return tidy_article(tr_html(html), self_id)
 
     def merge(e, p):
         """Блоки с тем же заголовком дополняются, новые — добавляются; простые поля — в таблицу."""
@@ -976,12 +976,12 @@ def add_wikibr():
         for k, v in p.get("fields", []):
             label = tr_text(k).strip()
             if "<" in v:
-                add_block(e, label, convert(v))
+                add_block(e, label, convert(v, e["id"]))
             elif label not in have_fields:
                 e["fields"].append([label, tr_text(v).strip()])
                 have_fields.add(label)
         for b in p.get("blocks", []):
-            add_block(e, tr_text(b["title"]).strip(), convert(b["html"]))
+            add_block(e, tr_text(b["title"]).strip(), convert(b["html"], e["id"]))
 
     def add_block(e, title, html):
         for b in e["blocks"]:
@@ -996,11 +996,141 @@ def add_wikibr():
     for p, e in new_entries:
         merge(e, p)
     cats = [{"id": c, "name": n} for c, n, _ in WB_CATS]
-    write("guides", cats, [e for _, e in new_entries])
+    # Статьи без содержимого (страницы-заглушки) не нужны.
+    write("guides", cats, [e for _, e in new_entries if any(text_of(b["html"]) for b in e["blocks"])])
     todo = [{"pl": k, "count": n} for k, n in untranslated.most_common()]
     (SRC / "translate_todo.json").write_text(json.dumps(todo, ensure_ascii=False, indent=0), "utf-8")
     print(f"Вторая вики: дополнено записей {sum(len(c) for _, c in matched)}, новых статей {len(new_entries)}; "
           f"непереведённых фрагментов: {len(untranslated)} (scraper/source/translate_todo.json)")
+
+
+# ---------- оформление статей второй вики ----------
+
+NAMED_COLORS = {"red": "#ff0000", "green": "#008000", "lime": "#00ff00", "yellow": "#ffff00", "orange": "#ffa500",
+                "blue": "#0000ff", "cyan": "#00ffff", "aqua": "#00ffff", "purple": "#800080", "violet": "#ee82ee",
+                "white": "#ffffff", "black": "#000000", "gold": "#ffd700", "pink": "#ffc0cb", "gray": "#808080",
+                "grey": "#808080", "silver": "#c0c0c0", "magenta": "#ff00ff", "fuchsia": "#ff00ff"}
+
+
+def color_class(c):
+    """Цвет из разметки -> класс палитры сайта (читаемой в обеих темах) или None."""
+    import colorsys
+    c = NAMED_COLORS.get(c.lower(), c)
+    m = re.fullmatch(r"#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})", c)
+    if not m:
+        return None
+    h = m.group(1)
+    if len(h) == 3:
+        h = "".join(x * 2 for x in h)
+    r, g, b = (int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
+    hue, light, sat = colorsys.rgb_to_hls(r, g, b)
+    if sat < 0.25 or light < 0.15 or light > 0.93:
+        return None  # серые, белый, чёрный — это просто цвет текста
+    deg = hue * 360
+    for limit, name in ((15, "red"), (40, "orange"), (68, "yellow"), (165, "green"), (200, "cyan"),
+                        (255, "blue"), (330, "purple"), (361, "red")):
+        if deg < limit:
+            return "c-" + name
+
+
+def tidy_article(html, self_id=None):
+    """Приводит HTML статьи к аккуратному виду: без центровки, пустых обёрток и случайных цветов."""
+    soup = BeautifulSoup(html, "html.parser")
+    for t in soup.find_all(["center", "font"]):
+        t.unwrap()
+    for t in soup.find_all(True):
+        if t.get("data-items") and t["data-items"] == self_id:
+            del t["data-items"]
+        style = t.get("style", "")
+        if style:
+            m = re.search(r"color:\s*([#\w]+)", style)
+            cls = color_class(m.group(1)) if m else None
+            del t["style"]
+            if cls:
+                t["class"] = (t.get("class") or []) + [cls]
+    # Обёртки-div вокруг абзацев и таблиц не нужны (на сайте div в блоках строчный).
+    for t in soup.find_all("div"):
+        if not t.get("class") and t.find(["p", "h1", "h2", "h3", "h4", "ul", "ol", "table", "div"], recursive=False):
+            t.unwrap()
+    # Заголовки: только текст, без декоративных картинок-полосок.
+    for t in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"]):
+        text = re.sub(r"\s+", " ", t.get_text(" ")).strip()
+        if not text:
+            t.decompose()
+            continue
+        t.clear()
+        t.string = text
+        t.name = "h4" if t.name in ("h4", "h5", "h6") else "h3"
+    # Пустые обёртки.
+    changed = True
+    while changed:
+        changed = False
+        for t in soup.find_all(["span", "p", "b", "i", "strong", "em", "div", "small", "u"]):
+            if not t.get_text(strip=True) and not t.find(["img", "table", "hr"]):
+                if t.find("br") and t.name != "p":
+                    t.unwrap()  # обёртка вокруг переноса строки: перенос оставляем
+                else:
+                    t.decompose()
+                changed = True
+            elif t.name == "span" and not t.attrs:
+                t.unwrap()
+                changed = True
+    # Таблицы: содержимое вне строк — перед таблицей; сама таблица — в прокручиваемой обёртке.
+    for tbl in soup.find_all("table"):
+        for ch in list(tbl.children):
+            if isinstance(ch, Tag) and ch.name not in ("tbody", "tr", "thead", "caption"):
+                tbl.insert_before(ch.extract())
+            elif isinstance(ch, NavigableString) and ch.strip():
+                tbl.insert_before(ch.extract())
+        if not tbl.find(["td", "th"]):
+            tbl.decompose()
+            continue
+        # Строки из одной ячейки во всю ширину («Тип урона: Магические») — списком над таблицей.
+        rows = tbl.find_all("tr")
+        width = max((sum(int(c.get("colspan", 1) or 1) for c in r.find_all(["td", "th"], recursive=False))
+                     for r in rows), default=1)
+        kv = []
+        for r in rows:
+            cells = r.find_all(["td", "th"], recursive=False)
+            if width > 2 and len(cells) == 1 and int(cells[0].get("colspan", 1) or 1) >= width \
+                    and len(cells[0].get_text(strip=True)) < 160 and not cells[0].find("table"):
+                kv.append(cells[0])
+                r.extract()
+            else:
+                break
+        prev = tbl.find_previous(["h3", "h4"])
+        if kv and prev is not None and kv[0].get_text(" ", strip=True) == prev.get_text(" ", strip=True):
+            kv = kv[1:]  # повтор заголовка раздела
+        if kv:
+            box = soup.new_tag("div", attrs={"class": "kv"})
+            for c in kv:
+                c.name = "div"
+                c.attrs = {}
+                box.append(c)
+            tbl.insert_before(box)
+        if not tbl.find(["td", "th"]):
+            tbl.decompose()
+            continue
+        tbl["class"] = (tbl.get("class") or []) + ["art"]
+        if not (tbl.parent and "tscroll" in (tbl.parent.get("class") or [])):
+            wrap = soup.new_tag("div", attrs={"class": "tscroll"})
+            tbl.wrap(wrap)
+    for t in soup.find_all(["b", "strong"]):
+        if t.parent is soup and len(t.get_text(strip=True)) > 90:
+            t.name = "p"
+            t["class"] = ["lead"]
+    for img in soup.find_all("img"):
+        par = img.parent
+        if par is not None and par.name in ("p", "[document]") and not img.find_parent("table") \
+                and not par.get_text(strip=True) and len(par.find_all("img")) == 1 and not img.get("data-items"):
+            img["class"] = ["big"]
+    out = str(soup)
+    out = re.sub(r"(\s*<br/?>\s*){2,}", "<br/>", out)
+    out = re.sub(r"(<(h3|h4|p|div|ul|ol|table)[^>]*>)\s*<br/?>", r"\1", out)
+    out = re.sub(r"<br/?>\s*(</?(h3|h4|p|div|ul|ol|li|table|tr|td|th)\b)", r"\1", out)
+    out = re.sub(r"\s{2,}", " ", out).strip()
+    out = re.sub(r"^(<br/?>\s*)+|(<br/?>\s*)+$", "", out)
+    return out
 
 
 def wb_img(path):

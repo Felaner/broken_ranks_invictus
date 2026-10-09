@@ -480,7 +480,8 @@
   function renderCard(e, showSection) {
     const sec = db.sections[e.section];
     const cat = sec.categories.find(c => c.id === e.category);
-    const preview = PREVIEW.map(rx => e.fields.find(([k]) => rx.test(k))).filter(Boolean);
+    const preview = PREVIEW.map(rx => e.fields.find(([k, v]) => rx.test(k) && !/^(0|-|)$/.test(String(fv(v)).trim())))
+      .filter(Boolean);
     const lvl = fv(fieldOf(e, "Уровень")) || e.level;
     return `<a class="card ${favorites.has(e.id) ? "fav" : ""} ${marks.has(e.id) ? "have" : ""}"
         href="${entryHrefHere(e)}" data-id="${esc(e.id)}">
@@ -847,7 +848,7 @@
         `<tr><th>${esc(k)}</th><td>${linkify(fv(v))}${isDiff(v) ? ` <small class="muted">(${esc(DIFFS.find(d => d[0] === view.diff)[1].toLowerCase())})</small>` : ""}</td></tr>`).join("")}</table>` : ""}
       ${e.description ? `<div class="desc">${esc(e.description).replace(/\n/g, "<br>")}</div>` : ""}
       ${e.blocks.map(b => `<div class="block">
-        <h3>${esc(b.title)}</h3>
+        ${b.title && b.title !== "Статья" ? `<h3>${esc(b.title)}</h3>` : ""}
         <div class="block-html">${b.html}</div>
       </div>`).join("")}
       ${extraMaps.length ? `<div class="block"><h3>На карте</h3><div class="block-html">${extraMaps.map(mid =>

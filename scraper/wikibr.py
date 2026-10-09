@@ -277,7 +277,9 @@ def main():
         kind = kind_of(title, wt)
         clean = Cleaner()
         main_img = main_image(content, title)
-        if kind in ("guide", "location", "instance", "class"):
+        # Страницы-списки (рары, сеты, синергетики…) — это статьи, а не карточки предмета.
+        listing = kind in ("item", "pet") and (len(top_tables(content)) >= 3 or len(text(content)) > 3000)
+        if kind in ("guide", "location", "instance", "class") or listing:
             fields, blocks = [], [{"title": "Статья", "html": clean(content)}]
         else:
             fields, blocks = parse_table_page(content, clean, title)

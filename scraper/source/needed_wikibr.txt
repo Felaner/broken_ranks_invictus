@@ -22,6 +22,7 @@
 /images/0/01/Sol.png
 /images/0/01/Yoko.png
 /images/0/01/Z%C5%82odziejski_%C5%82up.png
+/images/0/02/%C5%81adowanieS.png
 /images/0/02/%C5%BBal.png
 /images/0/02/Arhauty.png
 /images/0/02/Buff_dodatkowe_PA.png
@@ -93,6 +94,7 @@
 /images/0/08/Inkara.png
 /images/0/08/Kastety_premium.png
 /images/0/08/Konari_1.png
+/images/0/08/Okno_Ulepszanie.png
 /images/0/08/Pancerz_Burgundowej_Nocy.png
 /images/0/08/Peleryna_Tropiciela_Demon%C3%B3w.png
 /images/0/09/Angwalf-Htaga_wyzwanie.png
@@ -128,16 +130,19 @@
 /images/0/0c/Sheed.webp
 /images/0/0c/Umki_pasywne_icon.png
 /images/0/0d/Bidrif_unn.png
+/images/0/0d/Pancerz_%C5%BBywio%C5%82%C3%B3wS.png
 /images/0/0d/Przekl%C4%99ty_szpon.png
 /images/0/0d/Punkty_PvP.png
 /images/0/0d/Rybostw%C3%B3r_Wojownik.png
 /images/0/0d/S%C4%99pozmor.png
 /images/0/0d/Stare_Jad%C5%82o.png
 /images/0/0d/Vorli%C5%84ski_proch.png
+/images/0/0d/Vorling%C3%B3wS.png
 /images/0/0d/Zadry.png
 /images/0/0e/Aura_cienia.png
 /images/0/0e/Drzewiec.png
 /images/0/0e/HersztM.png
+/images/0/0e/OrbyS.png
 /images/0/0e/Orion.png
 /images/0/0e/Rdze%C5%84.png
 /images/0/0e/Wydobycie_i_zbieractwo_main.png
@@ -154,6 +159,7 @@
 /images/1/10/Gherudu.png
 /images/1/10/Hohgrat.png
 /images/1/10/Jastrz%C4%99biorWyzwanie.png
+/images/1/10/LoduS.png
 /images/1/10/Pasek_z_flaga_Okrzyk_bojowy.png
 /images/1/10/Plujka.png
 /images/1/10/ThaliasTREFAfLAGA.png
@@ -194,8 +200,10 @@
 /images/1/13/IkonaPomara%C5%84czowa8.png
 /images/1/13/Magnidrif_unn.png
 /images/1/13/Miecz_pinari.png
+/images/1/13/NaprawaS.png
 /images/1/13/Pasek_z_flaga_Dotkliwe_uderzenie.png
 /images/1/13/RatuszMap.png
+/images/1/13/Szaty_P%C5%82ynnego_OgniaS.png
 /images/1/14/Arcy_jorn.png
 /images/1/14/Fraxy.png
 /images/1/14/IvravulH.png
@@ -204,6 +212,7 @@
 /images/1/14/Szcz%C4%85tki_rudy.png
 /images/1/15/%C5%81%C4%85czenie_Synergetyk%C3%B3wT.png
 /images/1/15/Allenor_v2.png
+/images/1/15/Duch_ZimnaS.png
 /images/1/15/Laska_Doktora_Plagi.png
 /images/1/15/Pacynkarz.png
 /images/1/15/Resztki_magii.png
@@ -261,6 +270,7 @@
 /images/1/1a/Suborb_Ge%27ed.png
 /images/1/1b/Gilladany_4.png
 /images/1/1b/Martumal.png
+/images/1/1b/Ostatni_RozkazS.png
 /images/1/1b/Ropucha.png
 /images/1/1b/Selena.png
 /images/1/1b/Wielka_Flasza_Mocy.png
@@ -288,6 +298,7 @@
 /images/1/1d/Sub_naed.png
 /images/1/1d/Ulga.png
 /images/1/1d/Walter_tell.png
+/images/1/1d/WzmacnianieS.png
 /images/1/1d/Zimowy_szaman.png
 /images/1/1d/Zombi_M.png
 /images/1/1e/Arcydrif_unn.png
@@ -309,6 +320,7 @@
 /images/1/1f/Saey_sheed.png
 /images/1/1f/Subdrif_val.png
 /images/1/1f/Tarcza_cienia.png
+/images/1/1f/TorisaS.png
 /images/2/20/AddText_01-12-01.51.30X.png
 /images/2/20/BabadekH.png
 /images/2/20/Korona_lasu.png
@@ -328,6 +340,7 @@
 /images/2/21/Kawa%C5%82ek_mapy_%281%29.png
 /images/2/21/Lazurowa_nocT.png
 /images/2/21/Oddanie.png
+/images/2/21/Smok%C3%B3wS.png
 /images/2/21/Szmaragdowa_GwardiaS.png
 /images/2/21/Turniejowe.png
 /images/2/22/%C5%BBywiciel_jeti.png
@@ -488,11 +501,13 @@
 /images/3/30/Pozosta%C5%82e.png
 /images/3/30/Smierc-zwierzaka-menu.png
 /images/3/30/Szczypce_Krabostwora.png
+/images/3/31/%C5%BB%C4%85d%C5%82o_Bog%C3%B3wS.png
 /images/3/31/Arcydrif_grod.png
 /images/3/31/GarthmogM.png
 /images/3/31/Krabostw%C3%B3r.png
 /images/3/31/Murrim_2.png
 /images/3/31/Orcza_zbroja.png
+/images/3/31/Ostrze_R%C3%B3wnowagiS.png
 /images/3/31/Subdrif_err.png
 /images/3/32/Awanturnik.png
 /images/3/32/Blok_tarcz%C4%85.png
@@ -512,9 +527,11 @@
 /images/3/33/Xantorn.png
 /images/3/34/Buty_Imperialnego_Agenta.png
 /images/3/34/Drif_tall.png
+/images/3/34/Duch%C3%B3wS.png
 /images/3/34/Fyodor_flaga.png
 /images/3/34/Lysmary.png
 /images/3/34/Magnidrif_tovi.png
+/images/3/34/Marzenia_QamdakaS.png
 /images/3/34/Odw%C5%82ok_kleszcza.png
 /images/3/34/Pasek_z_flaga_odzyskanie_si%C5%82.png
 /images/3/34/Plugawe_Spodnie_Doktora_Plagi.png
@@ -526,6 +543,7 @@
 /images/3/35/Instancje_Etap_4.png
 /images/3/35/Jaskinia_Wilk%C3%B3wS.png
 /images/3/35/Lewy_prawy.png
+/images/3/35/MorfowanieS.png
 /images/3/35/Okno_Wyzwania_Tygodniowe_I.png
 /images/3/35/Power_icon.png
 /images/3/35/R%C4%99kawice_Janaki.png
@@ -548,6 +566,8 @@
 /images/3/37/He%C5%82m_premium.png
 /images/3/37/M%C5%82ody_Sabeltig.png
 /images/3/37/Marionetka_%28Barbarzy%C5%84ca%29.png
+/images/3/37/MortusS.png
+/images/3/37/Okno_%C5%81%C4%85czenie_Drif%C3%B3w.png
 /images/3/37/Uwi%C4%99ziony_pet.png
 /images/3/37/Zamorski_kamie%C5%84.png
 /images/3/38/Cloak_Gernmany_-_Premium_pack.png
@@ -572,6 +592,7 @@
 /images/3/39/Wytwarzane_flaga.png
 /images/3/3a/He%C5%82m_Szmaragdowej_Gwardii.png
 /images/3/3a/Magniorb_P%27ren.png
+/images/3/3a/Okno_Przenoszenie_Orb%C3%B3w.png
 /images/3/3a/Zgorzelniki.png
 /images/3/3b/Alava_4.png
 /images/3/3b/Arcyorb_P%27ren.png
@@ -657,6 +678,8 @@
 /images/4/43/Czacha.png
 /images/4/43/Drzazga.png
 /images/4/43/Gilladany_3.png
+/images/4/43/Okno_Rozbijanie.png
+/images/4/43/Sami_SwoiS.png
 /images/4/43/Sarcophahus.png
 /images/4/43/Top%C3%B3r_pinari.png
 /images/4/43/Yurugu.png
@@ -696,6 +719,7 @@
 /images/4/46/Wyrwanie_z_korzeni.png
 /images/4/47/Arcyorb_Pa%27at.png
 /images/4/47/BabadekM.png
+/images/4/47/Ciekawostki.png
 /images/4/47/Levelowanie-zwierzaka.png
 /images/4/47/Mikstura_kondycji.png
 /images/4/47/Pandemiczna_Szata_Doktora_Plagi.png
@@ -719,6 +743,7 @@
 /images/4/48/Subdrif_ulk.png
 /images/4/48/Tablica_RF2.png
 /images/4/48/Tunel_Krzy%C5%BCaka_T.png
+/images/4/48/UnikatyS.png
 /images/4/48/Widmowy_heros.png
 /images/4/49/Arcyorb_N%27xen.png
 /images/4/49/Bartaur.png
@@ -751,10 +776,13 @@
 /images/4/4b/Fanatyk_rycerz.png
 /images/4/4b/Jastrz%C4%99biorPrzygoda.png
 /images/4/4b/Okaleczenie.png
+/images/4/4b/Pancerz_Nie%C5%9Bmiertelno%C5%9BciS.png
+/images/4/4b/PrzetwarzanieS.png
 /images/4/4c/Biorb_Lu%27ed.png
 /images/4/4c/Magniorb_Lu%27ed.png
 /images/4/4c/Magniorb_Re%27ed.png
 /images/4/4c/Pancerz_Lazurowej_Nocy.png
+/images/4/4c/Ryk_P%C3%B3%C5%82nocyS.png
 /images/4/4d/DQ_icon_map.png
 /images/4/4d/Kula_ognia.png
 /images/4/4d/Pandemiczna_Peleryna_Doktora_Plagi.png
@@ -835,6 +863,7 @@
 /images/5/55/%C5%9Acie%C5%BCka_wielko%C5%9BciT2.png
 /images/5/55/GhadiraH.png
 /images/5/55/LoduT.png
+/images/5/55/Okno_Morfowanie.png
 /images/5/55/Pas_powodzi.png
 /images/5/55/Umiejjetnosci_ogolne_title.png
 /images/5/55/Wiruj%C4%85ce_ostrze.png
@@ -870,6 +899,7 @@
 /images/5/59/Maab.png
 /images/5/59/Magnidrif_eras.png
 /images/5/59/Marzenia_QamdakaT.png
+/images/5/59/Modyfikacje_sprzetu.png
 /images/5/59/Odkrywca_Loch%C3%B3wS.png
 /images/5/59/Pancerz_Reprezentanta.png
 /images/5/59/Pasek_z_flaga_grubosk%C3%B3rno%C5%9B%C4%87.png
@@ -899,6 +929,7 @@
 /images/5/5c/Irudam.png
 /images/5/5c/Magiczna_iskra.png
 /images/5/5c/Ogr_Straszny.png
+/images/5/5c/Okowy_SnuS.png
 /images/5/5c/Ostoja_Mroku.png
 /images/5/5d/%C5%BBr%C3%B3d%C5%82o_bytu.png
 /images/5/5d/Bandyta_%282%29.png
@@ -955,12 +986,14 @@
 /images/6/62/Czarna_GwardiaT.png
 /images/6/62/Gwardzista_Tarula_AR.png
 /images/6/62/Korona_wiecznych_w%C5%82adc%C3%B3w.png
+/images/6/62/Okno_Przekuwanie.png
 /images/6/62/Oko_bog%C3%B3wT.png
 /images/6/62/Pasek_z_flaga_OGNISTA_sfera.png
 /images/6/62/Pasek_z_flaga_w%C5%9Bciek%C5%82y_refleks.png
 /images/6/62/Skorpion.png
 /images/6/62/Taernijski_%C5%BBo%C5%82nierzS.png
 /images/6/62/Temary.png
+/images/6/62/VenegildaS.png
 /images/6/63/Gathril.png
 /images/6/63/KonstruktM.png
 /images/6/63/Latarnia_%C5%BCycia.png
@@ -986,9 +1019,11 @@
 /images/6/65/MapaGhadiraD5.jpg
 /images/6/65/Pasek_z_flaga_wiruj%C4%85ce_ostrze.png
 /images/6/65/Zuoo.png
+/images/6/66/K%C5%82%C3%B3wS.png
 /images/6/66/Mag_Ognia.webp
 /images/6/66/Modliszka.png
 /images/6/66/Okrzyk_bojowy.png
+/images/6/66/Poca%C5%82unek_Miliona_GwiazdS.png
 /images/6/66/Subdrif_unn.png
 /images/6/66/Z%C5%82oty_Tropiciel_Lo%C5%BCyT.png
 /images/6/67/Brassary.png
@@ -1018,6 +1053,7 @@
 /images/6/69/Olbrzymia_Flasza.gif
 /images/6/69/Pandemiczna_Maska_Doktora_Plagi.png
 /images/6/69/Pokusy.png
+/images/6/69/Przenoszenie_Orb%C3%B3wPT.png
 /images/6/69/R%C4%99kawice_killarasuna.png
 /images/6/69/Radius_electricum.png
 /images/6/69/Reset.png
@@ -1025,6 +1061,7 @@
 /images/6/69/Stare_przedmioty.png
 /images/6/69/Szandrello_1.png
 /images/6/69/Zalla2.png
+/images/6/6a/%C5%81%C4%85czenie_Synergetyk%C3%B3wS.png
 /images/6/6a/231_Przekl%C4%99ty_Las_03_map_mobs.png
 /images/6/6a/315_Pok%C5%82ad_kajut_maps_mpb_02.png
 /images/6/6a/Fanga.png
@@ -1032,6 +1069,7 @@
 /images/6/6a/Nasycenie_redukcja.png
 /images/6/6a/Nie.png
 /images/6/6a/Peleryna_Karnawa%C5%82u_w_Larkasie.png
+/images/6/6a/PrzetapianiePT.png
 /images/6/6a/Sildus_4.png
 /images/6/6a/Subdrif_band.png
 /images/6/6a/Szatan_Mentora_Taern.png
@@ -1066,6 +1104,8 @@
 /images/6/6d/NidhoggH.png
 /images/6/6d/Pancerz_Dziesi%C4%99ciolecia.png
 /images/6/6d/Pasek_z_flaga_mierzony_cios.png
+/images/6/6d/Polowanie_Na_CzarodziejaS.png
+/images/6/6d/PrzekuwaniePT.png
 /images/6/6d/Sami_SwoiT.png
 /images/6/6d/Subdrif_astah.png
 /images/6/6d/Talgundy_1.png
@@ -1098,6 +1138,7 @@
 /images/7/70/Voodoo_title.png
 /images/7/71/Bidrif_lorb.png
 /images/7/71/Br%C4%85zowa_gwiazdka.png
+/images/7/71/Dawnych_Ork%C3%B3wS.png
 /images/7/71/Delanta_1.png
 /images/7/71/G%C5%82owa_szamana.png
 /images/7/71/Icon_NPC_01_Walk.png
@@ -1163,6 +1204,7 @@
 /images/7/77/IconPunkt.png
 /images/7/77/IkonaPomara%C5%84czowa1.png
 /images/7/77/Nit.png
+/images/7/77/Okno_Wyjmowanie_Drif%C3%B3w.png
 /images/7/77/Oko.png
 /images/7/77/Strefa_ataku_fizyczna_tak.png
 /images/7/77/Szczurowate.png
@@ -1198,6 +1240,7 @@
 /images/7/7b/Serce_brytana.png
 /images/7/7b/Suborb_M%27ren.png
 /images/7/7b/Szept_Lodu.png
+/images/7/7b/TurniejoweS.png
 /images/7/7b/Wiecznosc.png
 /images/7/7b/Wulkan.png
 /images/7/7c/%C5%9Acie%C5%BCka_Mrok.png
@@ -1233,6 +1276,7 @@
 /images/7/7e/Duch_zamku.png
 /images/7/7e/Epik_v404.png
 /images/7/7e/Eriba_1.png
+/images/7/7e/GeomorphS.png
 /images/7/7e/Hobgoblin_mag.png
 /images/7/7e/IconZbieractwoP.png
 /images/7/7e/Modliszka_flaga.png
@@ -1246,6 +1290,7 @@
 /images/7/7f/Koncentrat_many.png
 /images/7/7f/Konowa%C5%82.png
 /images/7/7f/Meteorytowy_bijak.png
+/images/7/7f/Okno_Naprawa.png
 /images/7/7f/Os%C5%82abiony_Konstrukt_flaga.png
 /images/7/7f/Wioska_RybackaMap.png
 /images/7/7f/Zgrzyt.png
@@ -1256,6 +1301,7 @@
 /images/8/80/Uwi%C4%99zionyPet.png
 /images/8/80/ValdarogE.png
 /images/8/80/Vii.png
+/images/8/80/WyjmowanieOrb%C3%B3wPT.png
 /images/8/80/Zbroja_Milcz%C4%85cego.png
 /images/8/81/Element_cyjanowy.png
 /images/8/81/P%C5%82aszcz_Kr%C3%B3lisza%C5%82a.png
@@ -1265,6 +1311,7 @@
 /images/8/82/IvravulM.png
 /images/8/82/MF_%C5%BBycia.png
 /images/8/82/ModliszkaH.png
+/images/8/82/ModliszkaS.png
 /images/8/82/Nazgulica.png
 /images/8/82/Nieugas%C5%82y.png
 /images/8/82/Papug.png
@@ -1273,6 +1320,7 @@
 /images/8/83/IchtionM.png
 /images/8/83/Ikona_Gildii.png
 /images/8/83/Magazyn_Energii_map_mobs.png
+/images/8/83/Okno_Awansowanie_Orb%C3%B3w.png
 /images/8/83/Olbrzymia_Flasza_Si%C5%82y.png
 /images/8/83/Pancerz_Utora.png
 /images/8/83/Przekory_I.png
@@ -1317,6 +1365,7 @@
 /images/8/88/Trytea.png
 /images/8/88/Z%C5%82om_z_upad%C5%82ych.png
 /images/8/88/Zgon.png
+/images/8/89/%C5%81%C4%85czeniePT.png
 /images/8/89/AlarilPdsTREFAfLAGA.png
 /images/8/89/Ganeris_4.png
 /images/8/89/Goblin_szaman.png
@@ -1325,6 +1374,7 @@
 /images/8/89/Orcze_Zio%C5%82o.png
 /images/8/89/Peleryna_Imperialnego_Agenta.png
 /images/8/89/Scyzor.png
+/images/8/89/Ukazanie_KillarasunaS.png
 /images/8/89/Ukazanie_killarasunaT.png
 /images/8/89/Uwi%C4%99ziony.png
 /images/8/8a/%C5%9AF_Many.png
@@ -1369,6 +1419,7 @@
 /images/8/8d/Korona_jastrz%C4%99bia.png
 /images/8/8d/Latarnia_%C5%BBycia_v2.png
 /images/8/8d/MagniorbyT.png
+/images/8/8d/Okno_Osadzanie_Orb%C3%B3w.png
 /images/8/8d/Olbrzymia_Flasza_Mocy.png
 /images/8/8d/Skrzynia_akcesori%C3%B3w.png
 /images/8/8d/Taernijski_%C5%BBo%C5%82nierzT.png
@@ -1378,6 +1429,7 @@
 /images/8/8d/Wywar_kondycji.png
 /images/8/8d/Zwierzaki-zwykle.png
 /images/8/8e/Bambosze_Zaj%C4%99czyciela.png
+/images/8/8e/BibliotekarzS.png
 /images/8/8e/Czerwona_%C5%BB%C4%85dza.png
 /images/8/8e/Drif_eras.png
 /images/8/8e/Dritan_%C5%BBarliwy.png
@@ -1459,6 +1511,8 @@
 /images/9/94/NiemieckieT.png
 /images/9/94/Pom%C3%B3r.png
 /images/9/94/Suborb_Vo%27ed.png
+/images/9/94/Sztorm_HauguraS.png
+/images/9/94/W%C5%82adc%C3%B3wS.png
 /images/9/94/Widmowy_heros2.png
 /images/9/94/Zarz%C4%85dzanie_gildi%C4%85.png
 /images/9/95/Biorb_Cu%27at.png
@@ -1508,6 +1562,7 @@
 /images/9/99/Borsuk.png
 /images/9/99/InneIcon.png
 /images/9/99/Peleryna_Chwa%C5%82y_2025.png
+/images/9/99/Przebranie_Ludob%C3%B3jcyS.png
 /images/9/99/Tarcza_Reprezentanta.png
 /images/9/99/TygrysM.png
 /images/9/99/Virral.png
@@ -1530,9 +1585,11 @@
 /images/9/9c/Eov.png
 /images/9/9c/Ganeris_3.png
 /images/9/9c/Ghaitarog.png
+/images/9/9c/Gniew_%C5%BBywio%C5%82%C3%B3wS.png
 /images/9/9c/Instancje_Etap_5.png
 /images/9/9c/Isverd.png
 /images/9/9c/Lun_053215.png
+/images/9/9c/Niemieckie_paczki_premiumS.png
 /images/9/9c/Obr%C4%99cz_Przeniesienia.png
 /images/9/9c/Suborb_Po%27at.png
 /images/9/9d/Altabar_4.png
@@ -1567,6 +1624,7 @@
 /images/a/a0/Bi_jorn.png
 /images/a/a0/Duch_ogniaE.png
 /images/a/a0/Envile.png
+/images/a/a0/Konstrukt_V1S.png
 /images/a/a0/Ochrona.png
 /images/a/a0/Paj%C4%99cze_spoiwo.png
 /images/a/a0/Pasek_z_flaga_fala_gniewu.png
@@ -1590,6 +1648,7 @@
 /images/a/a1/Ucze%C5%84.png
 /images/a/a1/W%C5%82adc%C3%B3wT.png
 /images/a/a1/Z%C5%82ota_Laska_Tropiciela_Lo%C5%BCy.png
+/images/a/a2/Basteja_i_HusarionS.png
 /images/a/a2/IkonaCzempion.png
 /images/a/a2/Klucz_do_maszynowni_admiral.png
 /images/a/a2/Morowa_Laska_Doktora_Plagi.png
@@ -1611,6 +1670,7 @@
 /images/a/a4/He%C5%82m_Hober.png
 /images/a/a4/Icon_NPC_07.png
 /images/a/a4/Jabcok%C3%B3wka.png
+/images/a/a4/OsadzanieOrb%C3%B3wPT.png
 /images/a/a4/Pancerz_Szmaragdowej_Nocy.png
 /images/a/a4/Rezystor.png
 /images/a/a4/Samadany_3.png
@@ -1624,6 +1684,7 @@
 /images/a/a5/Morowa_Peleryna_Doktora_Plagi.png
 /images/a/a5/Odzienie_Kr%C3%B3lisza%C5%82a.png
 /images/a/a5/Odzyskanie_si%C5%82.png
+/images/a/a5/OsadzaniePT.png
 /images/a/a5/P%C5%82aszcz_vorling%C3%B3w.png
 /images/a/a5/Peleryna_Taernijskiego_%C5%BBo%C5%82nierza.png
 /images/a/a5/Topaz.png
@@ -1642,6 +1703,7 @@
 /images/a/a7/Krwawienie.png
 /images/a/a7/Nakaran_1.png
 /images/a/a7/Pasek_z_flaga_rozprucie.png
+/images/a/a7/Resztki_ReffaS.png
 /images/a/a7/Upad%C5%82y_Lord.png
 /images/a/a8/Alpha.png
 /images/a/a8/Arcydrif_val.png
@@ -1652,6 +1714,7 @@
 /images/a/a8/Ko%C5%BAl%C4%99cy_Ko%C5%BCuszek_Kol%C4%99dnika.png
 /images/a/a8/MapaGhadiraD3.jpg
 /images/a/a8/Niena%C5%BCarty.png
+/images/a/a8/Okno_Przetapianie.png
 /images/a/a8/Olbrzymia_Flasza_Kondycji.png
 /images/a/a9/Arcydrif_ulk.png
 /images/a/a9/Bidrif_faln.png
@@ -1698,6 +1761,7 @@
 /images/a/ad/Wiking_mag.png
 /images/a/ad/Wyspa_Tryfkina_mini.png
 /images/a/ae/Ma%C5%82%C5%BCe.png
+/images/a/ae/Okno_Inkrustowanie.png
 /images/a/ae/Pasek_z_flaga_zatruta_strza%C5%82a.png
 /images/a/ae/Promuris.png
 /images/a/ae/Psaek_main_gildia_skarbiec.png
@@ -1709,6 +1773,7 @@
 /images/a/af/MapaAlfaD4.jpg
 /images/a/af/MapaDuchy_%C5%BBywio%C5%82%C3%B3wD3.jpg
 /images/a/af/Ogruch.png
+/images/a/af/Okno_Osadzanie_Drif%C3%B3w.png
 /images/a/af/Serce_seleny.png
 /images/a/af/Youtube.png
 /images/b/b0/Arcydrif_err.png
@@ -1777,6 +1842,7 @@
 /images/b/b5/Okrycie_Minionych_%C5%9Awi%C4%85t.png
 /images/b/b5/Oszlifowany_Limetyt.png
 /images/b/b5/Presti%C5%BC_i_si%C5%82a.png
+/images/b/b5/RozbijaniePT.png
 /images/b/b5/Suborb_V%27lan.png
 /images/b/b5/Wyrok_Hellara.png
 /images/b/b6/%C5%9Arednia_Flasza_%C5%BBycia.png
@@ -1815,6 +1881,7 @@
 /images/b/b9/Lawina.png
 /images/b/b9/Mamut.png
 /images/b/b9/Subdrif_tovi.png
+/images/b/b9/Szpon%C3%B3wS.png
 /images/b/b9/Vaekany.png
 /images/b/b9/Vorling_%C5%82ucznik.png
 /images/b/ba/Doktor_PlagiS.png
@@ -1851,6 +1918,7 @@
 /images/b/bc/Tryk-tryk.png
 /images/b/bc/Wielka_Flasza_%C5%BBycia.png
 /images/b/bc/Wy%C5%82adowanie_gniewu.png
+/images/b/bc/Zbroja_PinariS.png
 /images/b/bd/120_Wymarla_Osada.png
 /images/b/bd/Arrow_blue.png
 /images/b/bd/Bia%C5%82a_GwardiaT.png
@@ -1881,6 +1949,7 @@
 /images/b/bf/Kirsile.png
 /images/b/bf/Mysza.png
 /images/b/bf/Nakaran_2.png
+/images/b/bf/Okno_%C5%81adowanie.png
 /images/b/bf/Pysk.png
 /images/b/bf/Rycerz_title.png
 /images/b/bf/Tropiciel_Demon%C3%B3wS.png
@@ -1906,6 +1975,7 @@
 /images/c/c2/Palnik.png
 /images/c/c2/Reol.png
 /images/c/c2/Skrypt_Uwagi.png
+/images/c/c2/WyjmowaniePT.png
 /images/c/c3/%C5%9Arednia_Flasza_Si%C5%82y.png
 /images/c/c3/AddText_01-12-01.52.09X.png
 /images/c/c3/Bidrif_abaf.png
@@ -1974,6 +2044,7 @@
 /images/c/c8/Wioska_Druid%C3%B3w_mini.png
 /images/c/c8/Zakup_dzia%C5%82ki.png
 /images/c/c8/Zbojecki_Las_Map.png
+/images/c/c9/%C5%9Awiat%C5%82a_TellabaguS.png
 /images/c/c9/Biorb_Li%27at.png
 /images/c/c9/Bli%C5%BAniacze_dusze.png
 /images/c/c9/Buff_darmowe_wyjmowanie_drif%C3%B3w.png
@@ -1985,6 +2056,7 @@
 /images/c/c9/Ostatni_Oddech_Po%C5%82udnia.png
 /images/c/c9/Siusiako%C5%82ap.png
 /images/c/c9/Szafirowy_Labrys.png
+/images/c/ca/%C5%81%C4%85czenie_Orb%C3%B3wPT.png
 /images/c/ca/Arcyorb_S%27len.png
 /images/c/ca/Drif_grud.png
 /images/c/ca/Drif_teld.png
@@ -2047,6 +2119,7 @@
 /images/d/d0/AddText_01-18-05.43.50.png
 /images/d/d0/Darkling.png
 /images/d/d0/Dy%C5%84ka.png
+/images/d/d0/MedyS.png
 /images/d/d0/Minigra1.gif
 /images/d/d0/Nasycenie.png
 /images/d/d0/Olbrzym_Utoru.png
@@ -2058,6 +2131,7 @@
 /images/d/d0/Szalona_Gorgona.png
 /images/d/d0/Topory_Dwureczne_premium.png
 /images/d/d0/W%C4%99%C5%BCyT.png
+/images/d/d0/Zas%C5%82ona_%C5%9AmierciS.png
 /images/d/d1/Afekt.png
 /images/d/d1/AlarilT.png
 /images/d/d1/Allenor.png
@@ -2118,11 +2192,13 @@
 /images/d/d5/Zatrucie.png
 /images/d/d6/Aqua_regis.png
 /images/d/d6/Buty_Bia%C5%82ej_Gwardii.png
+/images/d/d6/Do_Pracy_RodacyS.png
 /images/d/d6/Ikona%C5%BB%C3%B3%C5%82ta3.png
 /images/d/d6/Jurghao_rycerz.png
 /images/d/d6/NPCsklep.png
 /images/d/d6/Pot%C4%99%C5%BCne_uderzenie.png
 /images/d/d6/Przyn%C4%99ta_na_Wendigo.png
+/images/d/d6/Smocze_AmbicjeS.png
 /images/d/d6/Z%C5%82oty_He%C5%82m_Tropiciela_Lo%C5%BCy.png
 /images/d/d6/Znaczniki_mobow_Brown_01.png
 /images/d/d7/Bezwodnik_%C5%9Bredni.png
@@ -2134,6 +2210,7 @@
 /images/d/d7/Pancerz_vorling%C3%B3wT.png
 /images/d/d7/RopuchaH.png
 /images/d/d7/Spis_czempionowT.png
+/images/d/d7/W%C4%99%C5%BCyS.png
 /images/d/d8/%C5%81upy_z_potwor%C3%B3w_flaga.png
 /images/d/d8/Balast.png
 /images/d/d8/Duch_zamkuM.png
@@ -2275,6 +2352,7 @@
 /images/e/e7/Laska_p%C5%82omieni.png
 /images/e/e7/Ma%C5%82a_Flasza_%C5%BBycia.png
 /images/e/e7/Mob_y_007.png
+/images/e/e7/Okno_%C5%81%C4%85czenie_Orb%C3%B3w.png
 /images/e/e7/Pas_killarasuna.png
 /images/e/e7/Samadany_2.png
 /images/e/e7/Serce_nied%C5%BAwiedzia.png
@@ -2303,6 +2381,7 @@
 /images/e/e9/Pas_r%C3%B3wnowagi.png
 /images/e/e9/Pas_trucizny.png
 /images/e/e9/Pasek_z_flaga_Uniki.png
+/images/e/e9/PodstawoweS.png
 /images/e/e9/SzpitalMap.png
 /images/e/ea/Buty_z_trupa.png
 /images/e/ea/Pancerz_Taernijskiego_%C5%BBo%C5%82nierza.png
@@ -2347,6 +2426,7 @@
 /images/e/ee/Magniorb_Li%27at.png
 /images/e/ee/Navigon.png
 /images/e/ee/Odkrywca.png
+/images/e/ee/Pancerz_Vorling%C3%B3wS.png
 /images/e/ee/Pantera.png
 /images/e/ee/Power_StatystykT.png
 /images/e/ee/ReprezentantT.png
@@ -2356,6 +2436,7 @@
 /images/e/ef/He%C5%82m_haugura.png
 /images/e/ef/Malachitowy_Tropiciel_Lo%C5%BCyS.png
 /images/e/ef/Nielichy.png
+/images/e/ef/Oko_Bog%C3%B3wS.png
 /images/e/ef/PancerzMilczacegoS.png
 /images/e/ef/R%C4%99kawice_Sanji.png
 /images/e/ef/Sidun.png
@@ -2379,6 +2460,7 @@
 /images/f/f2/Drif_verd.png
 /images/f/f2/Goblin_wojownik.png
 /images/f/f2/Inhibitor_diamentowy.png
+/images/f/f2/InkrustowaniePT.png
 /images/f/f2/Ishelm.png
 /images/f/f2/Kud%C5%82acz.png
 /images/f/f2/NidhoggE.png
@@ -2462,6 +2544,7 @@
 /images/f/fb/%C5%BBabka_%C5%BC%C3%B3lta.png
 /images/f/fb/Blask.png
 /images/f/fb/Cie%C5%84.png
+/images/f/fb/DrifyS.png
 /images/f/fb/Nadzieja_pokole%C5%84.png
 /images/f/fb/Nakaran_4.png
 /images/f/fb/Normal.png
@@ -2488,6 +2571,7 @@
 /images/f/fd/Bidrif_ann.png
 /images/f/fd/Bonus_do_seriiPT.png
 /images/f/fd/Buty_Odkrywcy_Loch%C3%B3w.png
+/images/f/fd/Dusza_%C5%9AwiataS.png
 /images/f/fd/Ekstrakt_zdrowia.png
 /images/f/fd/Exuvium.png
 /images/f/fd/FyodorE.png
@@ -2503,6 +2587,7 @@
 /images/f/fe/Fiskorl.png
 /images/f/fe/Ikona%C5%BB%C3%B3%C5%82ta4.png
 /images/f/fe/Ma%C5%82a_Flasza_Niszczenia.png
+/images/f/fe/Okno_%C5%81%C4%85czenie_Synergetyk%C3%B3w.png
 /images/f/fe/Sub_lun.png
 /images/f/ff/%C5%81uk_pinari.png
 /images/f/ff/Arcyorb_Ti%27at.png
