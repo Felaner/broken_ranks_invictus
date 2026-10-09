@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Broken Ranks Wiki</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Меню">☰</button>
+    <a class="logo" href="#/">
+      <span class="logo-mark">⚔</span>
+      <span class="logo-text">Broken Ranks <b>Wiki</b></span>
+    </a>
+    <div class="global-search">
+      <input id="globalSearch" type="search" placeholder="Поиск по всей вики…  ( / )" autocomplete="off">
+      <div class="search-results" id="searchResults" hidden></div>
+    </div>
+    <button class="icon-btn" id="themeBtn" title="Сменить тему" aria-label="Сменить тему">☾</button>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar"></nav>
+    <main class="main" id="main"></main>
+    <aside class="detail" id="detail" hidden></aside>
+  </div>
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
