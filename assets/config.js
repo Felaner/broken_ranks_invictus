@@ -41,6 +41,13 @@ window.BR_CONFIG = {
       icon: "🧙",
       source: "https://anteikutaern.at.ua/others/npc/",
       categories: []
+    },
+    {
+      id: "skills",
+      title: "Навыки",
+      icon: "✨",
+      source: "https://anteikutaern.at.ua/",
+      categories: []
     }
   ]
 };

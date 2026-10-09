@@ -1,6 +1,6 @@
 # Broken Ranks Wiki
 
-Личная вики по игре Broken Ranks: экипировка, питомцы, противники, предметы, НПС.
+Личная вики по игре Broken Ranks: экипировка, питомцы, противники, предметы, НПС, навыки.
 Данные берутся с [anteikutaern.at.ua](https://anteikutaern.at.ua/).
 
 ## Просмотр
@@ -14,31 +14,24 @@
   со ссылками на связанные записи, `←`/`→` — соседние записи, `Esc` — закрыть;
 - избранное (★) и тёмная тема сохраняются в браузере.
 
-Пока парсер не запускался, показываются вымышленные демо-записи из `data/demo.js`.
+Иконки в блоках (дроп, навыки, команда…) кликабельны и ведут на соответствующую запись.
 
 ## Загрузка данных
 
+Сайт-источник строит все страницы из одной базы `/raresImg/anteikuDB.json`,
+поэтому данные берутся прямо из неё:
+
 ```bash
 pip install -r scraper/requirements.txt
-python scraper/scrape.py               # все разделы
-python scraper/scrape.py mobs pets     # выборочно
-python scraper/scrape.py --help
+python -m playwright install firefox
+python scraper/fetch_db.py --browser firefox            # база + иконки -> scraper/source, data/raresImg
+python scraper/build.py                                 # база -> data/<раздел>.js
+python scraper/fetch_db.py --browser firefox --needed   # докачать картинки, которых не хватает вики
 ```
 
-Парсер создаёт `data/<раздел>.js` (для страницы) и `data/<раздел>.json`,
-скачивает иконки в `data/img/` и кэширует страницы в `scraper/cache/`,
-так что повторный запуск с `--offline` не обращается к сайту.
-
-## Разведка структуры сайта
-
-Сайт подгружает категории и карточки по клику, поэтому перед настройкой парсера
-нужен `scraper/recon.py`: он в настоящем браузере прокликивает категории и
-несколько карточек и сохраняет HTML, скриншоты и ответы сервера в `scraper/recon/`.
-
-```bash
-python -m playwright install chromium
-python scraper/recon.py
-```
+`build.py` записывает в `scraper/source/needed_images.txt` картинки, на которые
+ссылается вики, но которых ещё нет локально (модели питомцев/боссов и т.п.).
+Старые `scrape.py` и `recon.py` оставлены для справки.
 
 ## Формат записи
 
@@ -46,9 +39,8 @@ python scraper/recon.py
 {
   "id": "mobs/bosses/...", "category": "bosses", "name": "...",
   "icon": "data/img/mobs/....png", "level": 25,
-  "fields": [["Здоровье", "50000"], ["Атака", "..."]],
-  "description": "...",
-  "lists": [{"title": "Добыча", "items": ["..."]}],
+  "fields": [["Здоровье", "50000"], ["Аспект арены", "..."]],
+  "blocks": [{"title": "Дроп", "html": "<img data-items=\"item27\" src=\"data/raresImg/...\">"}],
   "sourceUrl": "https://anteikutaern.at.ua/..."
 }
 ```

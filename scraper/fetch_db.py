@@ -15,6 +15,7 @@
     python scraper/fetch_db.py --browser firefox
     python scraper/fetch_db.py --browser firefox --maps    # ещё и картинки карт (много МБ)
     python scraper/fetch_db.py --browser firefox --no-images
+    python scraper/fetch_db.py --browser firefox --needed  # докачать картинки, нужные вики
 """
 
 import argparse
@@ -107,6 +108,8 @@ def main():
     ap.add_argument("--no-images", dest="images", action="store_false", help="только база, без иконок")
     ap.add_argument("--maps", action="store_true", help="качать и картинки карт (/raresImg/map/...)")
     ap.add_argument("--force", action="store_true", help="перекачать уже скачанные иконки")
+    ap.add_argument("--needed", action="store_true",
+                    help="докачать только картинки из scraper/source/needed_images.txt (базу не трогать)")
     args = ap.parse_args()
 
     SOURCE.mkdir(parents=True, exist_ok=True)
@@ -116,7 +119,7 @@ def main():
         print(f"Открываю {BASE}/pety/ …")
         page.goto(BASE + "/pety/", wait_until="domcontentloaded", timeout=60000)
 
-        for name in JSON_FILES:
+        for name in ([] if args.needed else JSON_FILES):
             url = f"{BASE}/raresImg/{name}"
             text = page.evaluate("async u => { const r = await fetch(u); return r.ok ? await r.text() : null; }", url)
             if text is None:
@@ -130,7 +133,7 @@ def main():
             sys.exit("База не скачалась — пришли вывод этой команды.")
         db = json.loads(db_file.read_text("utf-8"))
         top = db.get("data", db)
-        if isinstance(top, dict):
+        if isinstance(top, dict) and not args.needed:
             print("Разделы базы: " + ", ".join(f"{k} ({len(v) if hasattr(v, '__len__') else '-'})"
                                                for k, v in top.items()))
 
@@ -138,6 +141,10 @@ def main():
             maps = json.loads((SOURCE / "all_map_elements.json").read_text("utf-8")) \
                 if (SOURCE / "all_map_elements.json").exists() else {}
             paths = image_paths([db, maps], args.maps)
+            needed = SOURCE / "needed_images.txt"
+            if args.needed:
+                paths = [x.strip() for x in needed.read_text("utf-8").splitlines() if x.strip()] \
+                    if needed.exists() else []
             todo = [x for x in paths if args.force or not (IMG_ROOT / x.lstrip("/")).exists()]
             print(f"Иконок найдено: {len(paths)}, качать: {len(todo)}")
             missing = []

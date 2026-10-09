@@ -50,7 +50,8 @@
     return many;
   };
   // \b в JS не работает с кириллицей, поэтому граница слова задаётся явно.
-  const isLevelLabel = k => /^(уровень|ур\.?|lvl|level)(\s|:|$)/i.test(String(k).trim());
+  const isLevelLabel = k => /^(требуемый уровень|уровень|ур\.?|lvl|level)(\s|:|$)/i.test(String(k).trim());
+  const stripTags = html => String(html ?? "").replace(/<[^>]*>/g, " ");
   const countLabel = n => `${n} ${plural(n, "запись", "записи", "записей")}`;
 
   function iconHtml(entry, cls = "") {
@@ -131,9 +132,13 @@
       fields,
       description: e.description || "",
       lists: Array.isArray(e.lists) ? e.lists : [],
+      blocks: Array.isArray(e.blocks) ? e.blocks : [],
+      image: e.image || "",
+      nameEN: e.nameEN || "",
       sourceUrl: e.sourceUrl || "",
-      search: norm(name),
-      searchFull: norm([name, e.description, ...fields.flat()].join(" ")),
+      search: norm(name + " " + (e.nameEN || "")),
+      searchFull: norm([name, e.nameEN, e.description, ...fields.flat(),
+        ...(e.blocks || []).map(b => stripTags(b.html))].join(" ")),
     };
   }
 
@@ -215,7 +220,7 @@
         </a>
         <div class="chips">${data.categories.map(c =>
           `<a class="chip" href="${href(["s", sec.id, c.id])}">${esc(c.name)} <i>${c.count}</i></a>`).join("")
-          || `<span class="muted">Категории появятся после загрузки данных</span>`}</div>
+          || `<span class="muted">Все записи одним списком</span>`}</div>
       </div>`;
     }
     html += `</div>`;
@@ -296,10 +301,12 @@
     bindToolbar();
   }
 
+  const PREVIEW_SKIP = /^(тип|улучшения|атаки|зоны атаки|шанс дропа|группа боссов)/i;
+
   function renderCard(e, showSection) {
     const sec = db.sections[e.section];
     const cat = sec.categories.find(c => c.id === e.category);
-    const preview = e.fields.filter(([k]) => !isLevelLabel(k)).slice(0, 3);
+    const preview = e.fields.filter(([k]) => !isLevelLabel(k) && !PREVIEW_SKIP.test(k)).slice(0, 3);
     return `<a class="card ${favorites.has(e.id) ? "fav" : ""}" href="${entryHref(e)}" data-id="${esc(e.id)}">
       ${iconHtml(e)}
       <div class="card-body">
@@ -317,8 +324,11 @@
   function renderTable(list, showSection) {
     const freq = new Map();
     for (const e of list) for (const [k] of e.fields) freq.set(k, (freq.get(k) || 0) + 1);
+    // Колонки с одинаковым у всех значением ничего не дают для сравнения.
+    const varies = k => list.length < 2 ||
+      new Set(list.map(e => e.fields.find(([l]) => l === k)?.[1] ?? "")).size > 1;
     const cols = [...freq.entries()]
-      .filter(([k]) => !isLevelLabel(k))
+      .filter(([k]) => !isLevelLabel(k) && varies(k))
       .sort((a, b) => b[1] - a[1]).slice(0, 10).map(([k]) => k);
     const hasLevels = list.some(e => e.level != null);
     const arrow = key => view.sort === key ? (view.sortDir > 0 ? " ↑" : " ↓") : "";
@@ -445,6 +455,7 @@
         ${iconHtml(e, "ico-lg")}
         <div>
           <h2>${esc(e.name)}</h2>
+          ${e.nameEN && e.nameEN !== e.name ? `<div class="name-en">${esc(e.nameEN)}</div>` : ""}
           <div class="crumbs">
             <a href="${href(["s", sec.id])}">${esc(sec.title)}</a>
             ${cat ? ` / <a href="${href(["s", sec.id, cat.id])}">${esc(cat.name)}</a>` : ""}
@@ -452,9 +463,14 @@
           ${e.level != null ? `<span class="lvl">Уровень ${esc(e.level)}</span>` : ""}
         </div>
       </div>
+      ${e.image ? `<div class="model"><img src="${esc(e.image)}" alt="" onerror="this.parentNode.remove()"></div>` : ""}
       ${e.fields.length ? `<table class="props">${e.fields.map(([k, v]) =>
         `<tr><th>${esc(k)}</th><td>${linkify(v)}</td></tr>`).join("")}</table>` : ""}
       ${e.description ? `<div class="desc">${esc(e.description).replace(/\n/g, "<br>")}</div>` : ""}
+      ${e.blocks.map(b => `<div class="block">
+        <h3>${esc(b.title)}</h3>
+        <div class="block-html">${b.html}</div>
+      </div>`).join("")}
       ${e.lists.map(l => `<div class="detail-list">
         <h3>${esc(l.title)}</h3>
         <ul>${(l.items || []).map(it => `<li>${linkify(it)}</li>`).join("")}</ul>
@@ -466,6 +482,7 @@
     document.body.classList.add("detail-open");
     els.backdrop.hidden = false;
 
+    bindRefs(els.detail);
     $("#closeDetail").addEventListener("click", closeDetail);
     $("#favBtn").addEventListener("click", ev => {
       toggleFavorite(e.id);
@@ -475,6 +492,34 @@
     });
     document.querySelectorAll(".card.selected, tr.selected").forEach(n => n.classList.remove("selected"));
     document.querySelector(`.card[data-id="${CSS.escape(e.id)}"]`)?.classList.add("selected");
+  }
+
+  // Иконки с data-items в HTML-блоках — ссылки на другие записи вики.
+  function bindRefs(root) {
+    root.querySelectorAll(".block-html [data-items]").forEach(node => {
+      const target = db.byId.get(node.getAttribute("data-items"));
+      if (!target) return;
+      node.classList.add("ref");
+      node.setAttribute("title", target.name);
+      node.addEventListener("click", ev => {
+        ev.preventDefault();
+        location.hash = entryHref(target);
+      });
+    });
+    root.querySelectorAll(".block-html img").forEach(img => {
+      img.loading = "lazy";
+      img.addEventListener("error", () => {
+        const t = img.getAttribute("title") || db.byId.get(img.getAttribute("data-items"))?.name;
+        if (t) {
+          const span = document.createElement("span");
+          span.className = "img-missing" + (img.classList.contains("ref") ? " ref" : "");
+          span.textContent = t;
+          const target = db.byId.get(img.getAttribute("data-items"));
+          if (target) span.addEventListener("click", () => { location.hash = entryHref(target); });
+          img.replaceWith(span);
+        } else img.remove();
+      }, { once: true });
+    });
   }
 
   function closeDetail() {
