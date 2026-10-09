@@ -851,6 +851,32 @@ def tidy_mobs(maps):
           f"связанных умений: {skill_links}")
 
 
+CLASS_ARTICLES = {"wb_barbarzynca": "Варвар", "wb_druid": "Друид", "wb_lucznik": "Лучник", "wb_mag_ognia": "Огненный маг",
+                  "wb_rycerz": "Рыцарь", "wb_sheed": "Шид", "wb_voodoo": "Вуду", "wb_umiejetnosci_specjalne": "Особые"}
+
+
+def tag_skills():
+    """Навыкам — класс (по статьям о классах) и требуемый уровень персонажа для каждого уровня навыка."""
+    skills = SECTIONS_OUT["skills"][1]
+    by_name = {nkey(e["name"]): e for e in skills}
+    guides = {a["id"]: a for a in SECTIONS_OUT.get("guides", ([], []))[1]}
+    for aid, cls in CLASS_ARTICLES.items():
+        a = guides.get(aid)
+        if not a:
+            continue
+        html = " ".join(b["html"] for b in a["blocks"])
+        for order, h in enumerate(re.findall(r"<h3>(.*?)</h3>", html)):
+            e = by_name.get(nkey(h))
+            if e and "skillClass" not in e:
+                e["skillClass"], e["skillOrder"] = cls, order
+    for e in skills:
+        o = DB["skillsMain"].get(e["id"], {})
+        rows = [r for r in o.get("upgradeS") or [] if isinstance(r, list) and r and ROMAN.match(str(r[0]))]
+        req = [int(r[1]) for r in rows if str(r[1]).isdigit()]
+        if req:
+            e["skillReq"] = req
+
+
 def add_backrefs():
     known = {e["id"]: e for _, ents in SECTIONS_OUT.values() for e in ents}
     back = {}
@@ -1414,6 +1440,7 @@ def main():
     add_attacks()
     maps = build_maps()
     tidy_mobs(maps)
+    tag_skills()
     add_backrefs()
     for sid, (cats, entries) in SECTIONS_OUT.items():
         write_out(sid, cats, entries)

@@ -168,6 +168,9 @@
       blocks: Array.isArray(e.blocks) ? e.blocks : [],
       backrefs: Array.isArray(e.backrefs) ? e.backrefs : [],
       attacks: e.attacks || null,
+      skillClass: e.skillClass || "",
+      skillOrder: e.skillOrder ?? 99,
+      skillReq: Array.isArray(e.skillReq) ? e.skillReq : null,
       namePL: e.namePL || "",
       lang: e.lang || "",
       image: e.image || "",
@@ -763,8 +766,9 @@
   const PCT_MOD = /^(Шанс|Восстановление|Модификатор|Уменьшение|Получаемый|Расход|Вытягивание|Дополнительный урон)/i;
   const MOD_BASE = { "Шанс критического удара": 2, "Восстановление маны": 5, "Восстановление выносливости": 5 };
 
-  const emptyBuild = () => ({ cls: "", lvl: 1, base: {}, items: {} });
+  const emptyBuild = () => ({ cls: "", lvl: 1, base: {}, items: {}, skills: {} });
   let build = Object.assign(emptyBuild(), store.get("build", {}));
+  build.skills = build.skills || {};
   if (build.items.bracers) { build.items.gloves = build.items.gloves || build.items.bracers; delete build.items.bracers; }
   const saveBuild = () => store.set("build", build);
 
@@ -881,7 +885,7 @@
   };
 
   function buildLink() {
-    const data = { c: build.cls, l: build.lvl, b: build.base, i: build.items };
+    const data = { c: build.cls, l: build.lvl, b: build.base, i: build.items, s: build.skills };
     const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(data)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
     return location.href.split("#")[0] + "#/build?b=" + b64;
   }
@@ -889,12 +893,66 @@
     try {
       const s = decodeURIComponent(escape(atob(b64.replace(/-/g, "+").replace(/_/g, "/"))));
       const d = JSON.parse(s);
-      build = { cls: d.c || "", lvl: d.l || 1, base: d.b || {}, items: d.i || {} };
+      build = { cls: d.c || "", lvl: d.l || 1, base: d.b || {}, items: d.i || {}, skills: d.s || {} };
       saveBuild();
     } catch { /* битая ссылка — оставляем текущую сборку */ }
   }
 
   const bon = (sel, ev, fn) => $(sel)?.addEventListener(ev, fn);
+
+  // ----- навыки: очки ученика / адепта / мастера -----
+  // На каждом новом уровне персонажа дают столько очков ученика, какой это уровень (2 + 3 + … + L).
+  // 14 очков ученика = 1 очко адепта, 14 адепта = 1 мастера. Уровень N внутри ступени стоит N очков этой ступени.
+  const TIERS = [["ученик", "t1"], ["адепт", "t2"], ["мастер", "t3"]];
+  const skillPointsTotal = lvl => Math.max(0, lvl * (lvl + 1) / 2 - 1);
+  const levelCost = j => ((j - 1) % 7 + 1) * 14 ** Math.floor((j - 1) / 7);
+  const skillCost = lv => { let c = 0; for (let j = 1; j <= lv; j++) c += levelCost(j); return c; };
+  const splitPoints = p => [p % 14, Math.floor(p / 14) % 14, Math.floor(p / 196)];
+  const skillLevelLabel = lv => lv ? `${(lv - 1) % 7 + 1}` : "0";
+  const tierOf = lv => lv ? TIERS[Math.min(2, Math.floor((lv - 1) / 7))][1] : "t0";
+  const pointsHtml = (p, compact) => {
+    const parts = splitPoints(p).map((n, i) => [n, i]).filter(([n], i) => !compact || n || (p === 0 && i === 0));
+    return parts.map(([n, i]) => `<span class="sp ${TIERS[i][1]}" title="Очки: ${TIERS[i][0]}">${n}</span>`).join("");
+  };
+  function classSkills() {
+    return db.sections.skills.entries.filter(e => e.skillReq && (e.skillClass === build.cls || e.skillClass === "Особые"))
+      .sort((a, b) => (a.skillClass === "Особые") - (b.skillClass === "Особые") || a.skillOrder - b.skillOrder);
+  }
+  function skillsState() {
+    const lvl = num(build.lvl) || 1;
+    const list = classSkills();
+    const spent = list.reduce((s, e) => s + skillCost(build.skills[e.id] || 0), 0);
+    return { lvl, list, total: skillPointsTotal(lvl), spent, free: skillPointsTotal(lvl) - spent };
+  }
+  function renderSkills() {
+    if (!build.cls) return `<p class="muted">Выберите класс, чтобы распределить очки навыков.</p>`;
+    const st = skillsState();
+    const row = e => {
+      const lv = build.skills[e.id] || 0;
+      const nextReq = e.skillReq[lv], nextCost = levelCost(lv + 1);
+      const canUp = lv < e.skillReq.length && nextReq <= st.lvl && nextCost <= st.free;
+      const why = lv >= e.skillReq.length ? "максимум" : nextReq > st.lvl ? `нужен ${nextReq} ур.` : nextCost > st.free ? "не хватает очков" : "";
+      return `<div class="sk-row">
+        <img class="sk-ico" src="${esc(e.icon)}" alt="" data-items="${esc(e.id)}">
+        <div class="sk-main"><a href="${entryHref(e)}">${esc(e.name)}</a>
+          <small>${lv < e.skillReq.length ? `след.: ${nextReq} ур., ${pointsHtml(nextCost, true)}` : "максимальный уровень"}${why && lv < e.skillReq.length ? ` · <em>${why}</em>` : ""}</small></div>
+        <button class="btn sk-btn" data-sk="${esc(e.id)}" data-d="-1" ${lv ? "" : "disabled"}>−</button>
+        <span class="sk-lv ${tierOf(lv)}">${skillLevelLabel(lv)}</span>
+        <button class="btn sk-btn" data-sk="${esc(e.id)}" data-d="1" ${canUp ? "" : "disabled"} title="${esc(why)}">+</button>
+      </div>`;
+    };
+    const cls = st.list.filter(e => e.skillClass !== "Особые"), spec = st.list.filter(e => e.skillClass === "Особые");
+    return `<div class="sk-head">
+        <span>Свободные очки: ${pointsHtml(Math.max(0, st.free))}</span>
+        <span class="muted small">всего на ${st.lvl} уровне: ${pointsHtml(st.total, true)} · вложено: ${pointsHtml(st.spent, true)}</span>
+        <button class="btn" id="skReset">Сбросить навыки</button>
+      </div>
+      ${st.free < 0 ? `<div class="b-warn">Вложено больше, чем доступно на ${st.lvl} уровне — снизьте навыки или поднимите уровень.</div>` : ""}
+      <div class="sk-cols"><div><h4>Классовые</h4>${cls.map(row).join("")}</div>
+        <div><h4>Особые</h4>${spec.map(row).join("")}</div></div>
+      <p class="muted small">Очки ученика (жёлтые) дают за каждый новый уровень персонажа: на уровне L — L очков.
+        14 очков ученика = 1 очко адепта (оранжевые), 14 адепта = 1 мастера (красные). Уровень навыка 1–7 стоит 1–7 очков своей ступени.</p>`;
+  }
 
   function renderBuild(route) {
     if (route.b) {
@@ -980,6 +1038,7 @@
           </ul>
         </section>
       </div>
+      <section class="b-panel b-skills"><h3>Навыки</h3>${renderSkills()}</section>
       <div class="picker" id="picker" hidden></div>`;
 
     const rerender = () => { saveBuild(); refresh(); };
@@ -1001,6 +1060,12 @@
       delete build.items[x.dataset.unequip];
       rerender();
     }));
+    $$(".sk-btn").forEach(b => b.addEventListener("click", () => {
+      const id = b.dataset.sk, lv = (build.skills[id] || 0) + Number(b.dataset.d);
+      if (lv > 0) build.skills[id] = lv; else delete build.skills[id];
+      rerender();
+    }));
+    bon("#skReset", "click", () => { build.skills = {}; rerender(); });
     $$(".doll-slot").forEach(btn => btn.addEventListener("click", () => openPicker(SLOTS.find(s => s.id === btn.dataset.slot))));
   }
 
