@@ -114,11 +114,12 @@ def clean_html(html):
                 attrs["data-maps"] = t["data-maps"]
             style = t.get("style", "")
             m = re.search(r"(?<![-\w])color\s*:\s*(#[0-9a-fA-F]{3,8}|[a-z]+)", style)
-            if m:
-                attrs["style"] = f"color:{m.group(1)}"
-            if t.name == "font" and t.get("color"):
-                attrs["style"] = f"color:{t['color']}"
+            color = m.group(1) if m else (t.get("color") if t.name == "font" else None)
+            if t.name == "font":
                 t.name = "span"
+            cls = color_class(color) if color else None
+            if cls:
+                attrs["class"] = cls
         if "arena-req-counter" in (t.get("class") or []):
             attrs["class"] = "cnt"
         t.attrs = attrs
@@ -276,6 +277,36 @@ def skill_table(rows):
     return html, notes
 
 
+def map_routes(o):
+    """areaMap/coordId -> [(маршрут из id карт, точки на последней карте)].
+
+    Плоский список — один маршрут, вложенный — несколько мест. На промежуточных картах
+    координаты xS/yS — это переход на следующую карту, на последней x/y — само место.
+    """
+    areas, coords = o.get("areaMap"), o.get("coordId")
+    if not isinstance(areas, list) or not areas:
+        return []
+    nested = any(isinstance(a, list) for a in areas)
+    routes = [a if isinstance(a, list) else [a] for a in areas] if nested else [areas]
+    if not isinstance(coords, list):
+        coords = []
+    cset = coords if nested else [coords]
+    out = []
+    for i, r in enumerate(routes):
+        r = [m for m in r if isinstance(m, str)]
+        if not r:
+            continue
+        cs = cset[i] if i < len(cset) and isinstance(cset[i], list) else []
+        tail = cs[len(r) - 1:] if len(cs) >= len(r) else cs[-1:]
+        pts = []
+        for c in tail:
+            for d in (c if isinstance(c, list) else [c]):
+                if isinstance(d, dict) and "x" in d:
+                    pts.append(d)
+        out.append((r, pts))
+    return out
+
+
 def build_entry(o, section, category):
     o = {k: (v if k == "upgradeS" else ru_only(v)) for k, v in o.items()}
     title = (o.get("title") or o.get("titleItem") or o.get("id")).strip()
@@ -404,14 +435,21 @@ def build_entry(o, section, category):
     mapa = o.get("mapa")
     if isinstance(mapa, str) and mapa.strip() and mapa.strip() != "-":
         fields.append(["Расположение", text_of(mapa)])
-    if o.get("areaMap"):
-        flat = []
-        for m in o["areaMap"]:
-            flat.extend(m if isinstance(m, list) else [m])
-        ids = list(dict.fromkeys(m for m in flat if isinstance(m, str)))
-        links = [f'<span data-maps="{m}">{MAP_NAMES.get(m, m)}</span>' for m in ids]
-        blocks.append({"title": "Путь по картам" if section == "mobs" else "Где найти",
-                       "html": " → ".join(links) if section == "mobs" else ", ".join(links)})
+    routes = map_routes(o)
+    if routes:
+        def mlink(m, bold=False):
+            t = MAP_NAMES.get(m, m)
+            return f'<span data-maps="{m}">{f"<b>{t}</b>" if bold else t}</span>'
+        items, seen = [], set()
+        for route, _ in routes:
+            if tuple(route) in seen:
+                continue
+            seen.add(tuple(route))
+            path = f' <small>— путь: {" → ".join(mlink(m, i == len(route) - 1) for i, m in enumerate(route))}</small>' \
+                if len(route) > 1 else ""
+            items.append(f"<li>{mlink(route[-1], True)}{path}</li>")
+        blocks.append({"title": "Как добраться" if section == "mobs" else "Где найти",
+                       "html": '<ul class="plain-list">' + "".join(items) + "</ul>"})
 
     if isinstance(o.get("upgradeS"), list):
         table, notes = skill_table(o["upgradeS"])
@@ -874,12 +912,9 @@ def build_maps():
     for mid in images:
         get(mid)
     for o in (x for sec in DB.values() if isinstance(sec, dict) for x in sec.values() if isinstance(x, dict)):
-        areas, coords = o.get("areaMap"), o.get("coordId")
-        if isinstance(areas, list) and isinstance(coords, list):
-            for a, c in zip(areas, coords):
-                for mid in (a if isinstance(a, list) else [a]):
-                    if isinstance(mid, str):
-                        add_point(mid, o.get("id"), c)
+        for route, pts in map_routes(o):
+            for c in pts:
+                add_point(route[-1], o.get("id"), c)
     for mp in maps.values():
         for p in mp["portals"]:
             p["name"] = MAP_NAMES.get(p["to"], p["to"])

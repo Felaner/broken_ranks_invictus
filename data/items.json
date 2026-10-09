@@ -77,7 +77,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m221\">Владения Ландау</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m221\"><b>Владения Ландау</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m221\"><b>Владения Ландау</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -252,7 +252,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>, <span data-maps=\"m287\">Пещера великанов</span>, <span data-maps=\"m288\">Пещера великанов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m288\"><b>Пещера великанов</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\">Склон</span> → <span data-maps=\"m287\">Пещера великанов</span> → <span data-maps=\"m288\"><b>Пещера великанов</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -295,7 +295,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m12\">Пещеры под Топями</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m12\"><b>Пещеры под Топями</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m12\"><b>Пещеры под Топями</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -334,7 +334,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m15\">Корабль</span>, <span data-maps=\"m16\">Корабль - уровень II</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m16\"><b>Корабль - уровень II</b></span> <small>— путь: <span data-maps=\"m222\">Побережье</span> → <span data-maps=\"m15\">Корабль</span> → <span data-maps=\"m16\"><b>Корабль - уровень II</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -1586,7 +1586,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Частицы энергии из Дмортера. При правильной настройке она позволяет связываться с павшими Ворлингами. <br>Можно выбить из чемпионов и боссов на <span data-maps=\"m167\" style=\"color:#e0d074\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>. <br>Требуются для создания <img data-items=\"item523\" src=\"data/raresImg/items/523.items.png\"/> <br><img data-items=\"item526\" src=\"data/raresImg/items/526.items.png\"/> <img data-items=\"item522\" src=\"data/raresImg/items/522.items.png\"/> <img data-items=\"item521\" src=\"data/raresImg/items/521.items.png\"/> <img data-items=\"item520c\" src=\"data/raresImg/items/520.items.png\"/>"
+     "html": "Частицы энергии из Дмортера. При правильной настройке она позволяет связываться с павшими Ворлингами. <br>Можно выбить из чемпионов и боссов на <span class=\"c-yellow\" data-maps=\"m167\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>. <br>Требуются для создания <img data-items=\"item523\" src=\"data/raresImg/items/523.items.png\"/> <br><img data-items=\"item526\" src=\"data/raresImg/items/526.items.png\"/> <img data-items=\"item522\" src=\"data/raresImg/items/522.items.png\"/> <img data-items=\"item521\" src=\"data/raresImg/items/521.items.png\"/> <img data-items=\"item520c\" src=\"data/raresImg/items/520.items.png\"/>"
     }
    ],
    "backrefs": [
@@ -4168,7 +4168,7 @@
     },
     {
      "title": "Дроп",
-     "html": "специальной группы из 5х скелетов на мосту у входа в <span data-maps=\"m133\" style=\"color:#e0d074\">замок Гастельгоф</span>."
+     "html": "специальной группы из 5х скелетов на мосту у входа в <span class=\"c-yellow\" data-maps=\"m133\">замок Гастельгоф</span>."
     },
     {
      "title": "Применение",
@@ -4210,7 +4210,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Кожа, снятая с кабана из <span data-maps=\"m121\" style=\"color:#e0d074\">Разбойничьего Леса</span>. Возможно, кто-то из лесорубов ее купит. Покупает <img data-items=\"drwaljacekDrwaljaceka\" src=\"data/raresImg/npc/drwaljacekDrwaljaceka.npc.png\" title=\"Дровосек Яцек\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Шкура, снятая с кабана из Разбойничьего Леса. Может, кто-то из лесорубов захочет её купить. </td></tr></table></div>"
+     "html": "Кожа, снятая с кабана из <span class=\"c-yellow\" data-maps=\"m121\">Разбойничьего Леса</span>. Возможно, кто-то из лесорубов ее купит. Покупает <img data-items=\"drwaljacekDrwaljaceka\" src=\"data/raresImg/npc/drwaljacekDrwaljaceka.npc.png\" title=\"Дровосек Яцек\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Шкура, снятая с кабана из Разбойничьего Леса. Может, кто-то из лесорубов захочет её купить. </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -5037,7 +5037,7 @@
     },
     {
      "title": "Дроп",
-     "html": "Можно выбить из чемпионов и боссов на <span data-maps=\"m167\" style=\"color:#e0d074\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
+     "html": "Можно выбить из чемпионов и боссов на <span class=\"c-yellow\" data-maps=\"m167\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
     },
     {
      "title": "Применение",
@@ -5084,7 +5084,7 @@
     },
     {
      "title": "Дроп",
-     "html": "Можно выбить из чемпионов и боссов на <span data-maps=\"m167\" style=\"color:#e0d074\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
+     "html": "Можно выбить из чемпионов и боссов на <span class=\"c-yellow\" data-maps=\"m167\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
     },
     {
      "title": "Применение",
@@ -5131,7 +5131,7 @@
     },
     {
      "title": "Дроп",
-     "html": "Можно выбить из чемпионов и боссов на <span data-maps=\"m167\" style=\"color:#e0d074\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
+     "html": "Можно выбить из чемпионов и боссов на <span class=\"c-yellow\" data-maps=\"m167\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
     },
     {
      "title": "Применение",
@@ -5178,7 +5178,7 @@
     },
     {
      "title": "Дроп",
-     "html": "Можно выбить из чемпионов и боссов на <span data-maps=\"m167\" style=\"color:#e0d074\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
+     "html": "Можно выбить из чемпионов и боссов на <span class=\"c-yellow\" data-maps=\"m167\">Замерзшем Озере</span>. Получить во время игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/>."
     },
     {
      "title": "Применение",
@@ -5319,7 +5319,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Семечко со множеством свойств. Одно из них — это спасительное воздействие на голос певцов (особенно на высокое С). Их скупает <img data-items=\"jacekcygana\" src=\"data/raresImg/npc/jacekcygana.npc.png\" title=\"Яцек Цыган\"/> <br><span style=\"color:red\">Для добычи требуется</span> <img data-items=\"item222\" src=\"data/raresImg/items2/222.items2.png\" title=\"Кровь комара\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Семечко со многими свойствами. Одно из них — благотворное влияние на голос певцов (особенно на верхнее до). </td></tr></table></div>"
+     "html": "Семечко со множеством свойств. Одно из них — это спасительное воздействие на голос певцов (особенно на высокое С). Их скупает <img data-items=\"jacekcygana\" src=\"data/raresImg/npc/jacekcygana.npc.png\" title=\"Яцек Цыган\"/> <br><span class=\"c-red\">Для добычи требуется</span> <img data-items=\"item222\" src=\"data/raresImg/items2/222.items2.png\" title=\"Кровь комара\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Семечко со многими свойствами. Одно из них — благотворное влияние на голос певцов (особенно на верхнее до). </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -5327,7 +5327,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>, <span data-maps=\"m250\">Трясины</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m250\"><b>Трясины</b></span> <small>— путь: <span data-maps=\"m211\">Деревня друидов</span> → <span data-maps=\"m250\"><b>Трясины</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -5437,7 +5437,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m364\">Забытый коридор</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m364\"><b>Забытый коридор</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m364\"><b>Забытый коридор</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -5530,7 +5530,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Согревает в сильный мороз <br>Продается у <img data-items=\"rycerzberer\" src=\"data/raresImg/npc/rycerzberer.npc.png\" title=\"Берер\"/> или <img data-items=\"mlynarzmlynarza\" src=\"data/raresImg/npc/mlynarzmlynarza.npc.png\" title=\"Ловец\"/> в <span data-maps=\"m165\" style=\"color:#e0d074\">Гарнизоне</span>. <br>Требуется 5x для входа в инстанс <img data-items=\"vough1a\" src=\"data/raresImg/bosses/voug.bosslogo.png\" title=\"Воуг\"/> <img data-items=\"vidvar1a\" src=\"data/raresImg/bosses/vidvar.bosslogo.png\" title=\"Видвар\"/> <img data-items=\"nidhogg1a\" src=\"data/raresImg/bosses/nidhegg.bosslogo.png\" title=\"Нидхёгг\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Спирт от сильного мороза. С ним ты сможешь сражаться с чудовищами из пещер подо льдом. </td></tr></table></div>"
+     "html": "Согревает в сильный мороз <br>Продается у <img data-items=\"rycerzberer\" src=\"data/raresImg/npc/rycerzberer.npc.png\" title=\"Берер\"/> или <img data-items=\"mlynarzmlynarza\" src=\"data/raresImg/npc/mlynarzmlynarza.npc.png\" title=\"Ловец\"/> в <span class=\"c-yellow\" data-maps=\"m165\">Гарнизоне</span>. <br>Требуется 5x для входа в инстанс <img data-items=\"vough1a\" src=\"data/raresImg/bosses/voug.bosslogo.png\" title=\"Воуг\"/> <img data-items=\"vidvar1a\" src=\"data/raresImg/bosses/vidvar.bosslogo.png\" title=\"Видвар\"/> <img data-items=\"nidhogg1a\" src=\"data/raresImg/bosses/nidhegg.bosslogo.png\" title=\"Нидхёгг\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Спирт от сильного мороза. С ним ты сможешь сражаться с чудовищами из пещер подо льдом. </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -5900,7 +5900,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Для получения требуется убить специальную группу волков во главе с <img data-items=\"wolf5a\" src=\"data/raresImg/mobs/alfa.moblogo.png\" title=\"Альфа\"/> в волчьей пещере в <span data-maps=\"m57\" style=\"color:#e0d074\">Медвежьей пещере</span>. <br>Требуется для призыва <img data-items=\"bear1a\" src=\"data/raresImg/bosses/medved.bosslogo.png\" title=\"Медведь\"/>. <br>Также можно получить во время различных игровых ивентов.<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Мясо Альфы, которое выманивает Медведя из Берлоги. </td></tr></table></div>"
+     "html": "Для получения требуется убить специальную группу волков во главе с <img data-items=\"wolf5a\" src=\"data/raresImg/mobs/alfa.moblogo.png\" title=\"Альфа\"/> в волчьей пещере в <span class=\"c-yellow\" data-maps=\"m57\">Медвежьей пещере</span>. <br>Требуется для призыва <img data-items=\"bear1a\" src=\"data/raresImg/bosses/medved.bosslogo.png\" title=\"Медведь\"/>. <br>Также можно получить во время различных игровых ивентов.<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Мясо Альфы, которое выманивает Медведя из Берлоги. </td></tr></table></div>"
     },
     {
      "title": "Дроп",
@@ -5949,7 +5949,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Нужна, чтобы войти в <span data-maps=\"m480\" style=\"color:#e0d074\">монастырь</span> Волькхарда. Продает <img data-items=\"lorvenda\" src=\"data/raresImg/npc/lorvenda.npc.png\" title=\"Лорвенд\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Нужна, чтобы войти в монастырь Вольхарда. </td></tr></table></div>"
+     "html": "Нужна, чтобы войти в <span class=\"c-yellow\" data-maps=\"m480\">монастырь</span> Волькхарда. Продает <img data-items=\"lorvenda\" src=\"data/raresImg/npc/lorvenda.npc.png\" title=\"Лорвенд\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Нужна, чтобы войти в монастырь Вольхарда. </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -5999,7 +5999,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m221\">Владения Ландау</span>, <span data-maps=\"m238\">Зал Управления</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m238\"><b>Зал Управления</b></span> <small>— путь: <span data-maps=\"m221\">Владения Ландау</span> → <span data-maps=\"m238\"><b>Зал Управления</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -6034,7 +6034,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Позволяет попасть к <img data-items=\"valdarognew1a\" src=\"data/raresImg/bosses/valdarog.bosslogo.png\" title=\"Вальдарог\"/>. <br>Ключ можно создать добыв 5 элементов в <span data-maps=\"m147\" style=\"color:#e0d074\">Зале Альказаара</span> <br>Можно получить во время различных игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/> либо выполнив ежедневное задание \"Зерно Хаоса\" у <img data-items=\"warnika\" src=\"data/raresImg/npc/warnika.npc.png\" title=\"Варник\"/> (но награда меняется)<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Ключ, которым можно вскрыть печать Алказаара и добраться до Вальдарога. </td></tr></table></div>"
+     "html": "Позволяет попасть к <img data-items=\"valdarognew1a\" src=\"data/raresImg/bosses/valdarog.bosslogo.png\" title=\"Вальдарог\"/>. <br>Ключ можно создать добыв 5 элементов в <span class=\"c-yellow\" data-maps=\"m147\">Зале Альказаара</span> <br>Можно получить во время различных игровых ивентов, также есть шанс получить за выполнение задания у <img data-items=\"kimerul\" src=\"data/raresImg/npc/kimerul.npc.png\" title=\"Кимерул-Маг\"/> либо выполнив ежедневное задание \"Зерно Хаоса\" у <img data-items=\"warnika\" src=\"data/raresImg/npc/warnika.npc.png\" title=\"Варник\"/> (но награда меняется)<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Ключ, которым можно вскрыть печать Алказаара и добраться до Вальдарога. </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -6076,11 +6076,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Кристалл, свидетельствующий о прошлом разумных орков. В нем есть энергия, способная запустить портал, который ведет в <span data-maps=\"m369\" style=\"color:#e0d074\">Город Тарула</span>. Появляется в инстансе Драугула."
+     "html": "Кристалл, свидетельствующий о прошлом разумных орков. В нем есть энергия, способная запустить портал, который ведет в <span class=\"c-yellow\" data-maps=\"m369\">Город Тарула</span>. Появляется в инстансе Драугула."
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m367\">Город Призрачных Уруков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m367\"><b>Город Призрачных Уруков</b></span></li></ul>"
     }
    ]
   },
@@ -6284,7 +6284,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Для спуска вглубь расщелины необходимы приличные альпинистские кошки. <br>Требуются для входа в инстанс <img data-items=\"sidraga1a\" src=\"data/raresImg/bosses/sidraga.bosslogo.png\" title=\"Сидрага\"/>. Получить можно у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/> (<span style=\"color:red\">не более 3x в день</span>)<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Хорошие альпинистские кошки, нужные для спуска вглубь расщелины.<p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Для спуска вглубь расщелины необходимы приличные альпинистские кошки. <br>Требуются для входа в инстанс <img data-items=\"sidraga1a\" src=\"data/raresImg/bosses/sidraga.bosslogo.png\" title=\"Сидрага\"/>. Получить можно у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/> (<span class=\"c-red\">не более 3x в день</span>)<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Хорошие альпинистские кошки, нужные для спуска вглубь расщелины.<p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -6362,7 +6362,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Мясо животных, обитающих на поляне, которое позволит заманить Ястреба в его гнездо. <br>Требуется по (10x - 1 игрок, 6x - 2 игрока, 5x - 3 игрока, 4x - 4 игрока, 3x - 5 игроков) для входа в инстанс <img data-items=\"hawk2a\" src=\"data/raresImg/bosses/yastreb.bosslogo.png\" title=\"Ястреб\"/>. Получить можно во время события на поляне Беирна убивая мобов и специальных мобов элиты . Можно получить 5x (10x доплатив 200x <img data-items=\"item822\" src=\"data/raresImg/items/822.items.png\" title=\"Vorling Ducat\"/>) успешно (1x если не успешно) выполнив ежедневное задание <span style=\"color:#3F9CE7\">\"Сокольница\" [ур. 110]</span> у <img data-items=\"dziwka2a\" src=\"data/raresImg/npc/dziwka2a.npc.png\" title=\"Бедиса\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Мясо зверей с поляны, которое позволяет выманить Ястребора в его гнездо. </td></tr></table></div>"
+     "html": "Мясо животных, обитающих на поляне, которое позволит заманить Ястреба в его гнездо. <br>Требуется по (10x - 1 игрок, 6x - 2 игрока, 5x - 3 игрока, 4x - 4 игрока, 3x - 5 игроков) для входа в инстанс <img data-items=\"hawk2a\" src=\"data/raresImg/bosses/yastreb.bosslogo.png\" title=\"Ястреб\"/>. Получить можно во время события на поляне Беирна убивая мобов и специальных мобов элиты . Можно получить 5x (10x доплатив 200x <img data-items=\"item822\" src=\"data/raresImg/items/822.items.png\" title=\"Vorling Ducat\"/>) успешно (1x если не успешно) выполнив ежедневное задание <span class=\"c-blue\">\"Сокольница\" [ур. 110]</span> у <img data-items=\"dziwka2a\" src=\"data/raresImg/npc/dziwka2a.npc.png\" title=\"Бедиса\"/><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Мясо зверей с поляны, которое позволяет выманить Ястребора в его гнездо. </td></tr></table></div>"
     },
     {
      "title": "Дроп",
@@ -6408,7 +6408,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Мясо существ, обитающих на плато, которое позволяет заманить Вендиго в его логово. <br>Требуется для входа в инстанс <img data-items=\"wendigo1a\" src=\"data/raresImg/bosses/wendigo.bosslogo.png\" title=\"Вендиго\"/>. Получить можно во время события на плато Дмортера убивая мобов и специальных мобов элиты. Можно получить успешно выполнив ежедневное задание <span style=\"color:#3F9CE7\">\"Зерно Хаоса\" [ур. 70]</span> у <img data-items=\"warnika\" src=\"data/raresImg/npc/warnika.npc.png\" title=\"Варник\"/> (но награда меняется).<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Мясо существ с Плато, которое позволяет выманить Вендиго в его логово. </td></tr></table></div>"
+     "html": "Мясо существ, обитающих на плато, которое позволяет заманить Вендиго в его логово. <br>Требуется для входа в инстанс <img data-items=\"wendigo1a\" src=\"data/raresImg/bosses/wendigo.bosslogo.png\" title=\"Вендиго\"/>. Получить можно во время события на плато Дмортера убивая мобов и специальных мобов элиты. Можно получить успешно выполнив ежедневное задание <span class=\"c-blue\">\"Зерно Хаоса\" [ур. 70]</span> у <img data-items=\"warnika\" src=\"data/raresImg/npc/warnika.npc.png\" title=\"Варник\"/> (но награда меняется).<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Мясо существ с Плато, которое позволяет выманить Вендиго в его логово. </td></tr></table></div>"
     },
     {
      "title": "Дроп",
@@ -6458,7 +6458,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m284\">Подземелья</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m284\"><b>Подземелья</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m284\"><b>Подземелья</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -6497,7 +6497,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -6543,7 +6543,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -6589,7 +6589,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m14\"><b>Пещеры под Башнями</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\"><b>Пещеры под Башнями</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -6641,7 +6641,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m13\">Пещеры под Границей</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m13\"><b>Пещеры под Границей</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m13\"><b>Пещеры под Границей</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -6687,7 +6687,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -6734,7 +6734,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m90\">Плато Дмортер</span>, <span data-maps=\"m154\">Пещера в горах</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m154\"><b>Пещера в горах</b></span> <small>— путь: <span data-maps=\"m90\">Плато Дмортер</span> → <span data-maps=\"m154\"><b>Пещера в горах</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -6780,7 +6780,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m188\">Заброшенная башня</span>, <span data-maps=\"m190\">Заброшенная башня</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m190\"><b>Заброшенная башня</b></span> <small>— путь: <span data-maps=\"m167\">Замерзшее Озеро</span> → <span data-maps=\"m188\">Заброшенная башня</span> → <span data-maps=\"m190\"><b>Заброшенная башня</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -6826,7 +6826,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m90\">Плато Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m90\"><b>Плато Дмортер</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -6872,7 +6872,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m167\">Замерзшее Озеро</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m167\"><b>Замерзшее Озеро</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -6918,7 +6918,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -6964,7 +6964,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m57\">Медвежья пещера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m57\"><b>Медвежья пещера</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m57\"><b>Медвежья пещера</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7010,7 +7010,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m71\">Дыра</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m71\"><b>Дыра</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m71\"><b>Дыра</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7062,7 +7062,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m35\">Лес Орков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m35\"><b>Лес Орков</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7108,7 +7108,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m167\">Замерзшее Озеро</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m167\"><b>Замерзшее Озеро</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7160,7 +7160,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7206,7 +7206,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m174\">Пещера над Гарнизоном</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m174\"><b>Пещера над Гарнизоном</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m174\"><b>Пещера над Гарнизоном</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7256,7 +7256,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m57\">Медвежья пещера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m57\"><b>Медвежья пещера</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m57\"><b>Медвежья пещера</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7310,7 +7310,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m57\">Медвежья пещера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m57\"><b>Медвежья пещера</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m57\"><b>Медвежья пещера</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7356,7 +7356,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m57\">Медвежья пещера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m57\"><b>Медвежья пещера</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m57\"><b>Медвежья пещера</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7402,7 +7402,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m128\">Болота</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m128\"><b>Болота</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7454,7 +7454,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m128\">Болота</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m128\"><b>Болота</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7504,7 +7504,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m133\">Посад</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m133\"><b>Посад</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7551,7 +7551,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m121\">Разбойничий Лес</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m121\"><b>Разбойничий Лес</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7590,7 +7590,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m211\"><b>Деревня друидов</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7650,7 +7650,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m349\">Кладбище Ящериц</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m349\"><b>Кладбище Ящериц</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m349\"><b>Кладбище Ящериц</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7697,7 +7697,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m222\">Побережье</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m222\"><b>Побережье</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7743,7 +7743,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m236\">Устричный Залив</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m236\"><b>Устричный Залив</b></span> <small>— путь: <span data-maps=\"m222\">Побережье</span> → <span data-maps=\"m236\"><b>Устричный Залив</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7789,7 +7789,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m15\">Корабль</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m15\"><b>Корабль</b></span> <small>— путь: <span data-maps=\"m222\">Побережье</span> → <span data-maps=\"m15\"><b>Корабль</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7839,7 +7839,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m57\">Медвежья пещера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m57\"><b>Медвежья пещера</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m57\"><b>Медвежья пещера</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7886,7 +7886,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m128\">Болота</span>, <span data-maps=\"m133\">Посад</span>, <span data-maps=\"m3\">Замок Гастельхоф</span>, <span data-maps=\"m208\">Подземелья замка</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m208\"><b>Подземелья замка</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m128\">Болота</span> → <span data-maps=\"m133\">Посад</span> → <span data-maps=\"m3\">Замок Гастельхоф</span> → <span data-maps=\"m208\"><b>Подземелья замка</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -7933,7 +7933,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m121\">Разбойничий Лес</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m121\"><b>Разбойничий Лес</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -7979,7 +7979,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m102\">Рыбацкая Деревня</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m102\"><b>Рыбацкая Деревня</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8025,7 +8025,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m102\">Рыбацкая Деревня</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m102\"><b>Рыбацкая Деревня</b></span></li><li><span data-maps=\"m167\"><b>Замерзшее Озеро</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8067,7 +8067,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m103\">Приселок Трентиса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m103\"><b>Приселок Трентиса</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -8105,7 +8105,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m103\">Приселок Трентиса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m103\"><b>Приселок Трентиса</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8157,7 +8157,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m103\">Приселок Трентиса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m103\"><b>Приселок Трентиса</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8203,7 +8203,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8249,7 +8249,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m120\">Вымершее поселение</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m120\"><b>Вымершее поселение</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8295,7 +8295,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m12\">Пещеры под Топями</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m12\"><b>Пещеры под Топями</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m12\"><b>Пещеры под Топями</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8341,7 +8341,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m12\">Пещеры под Топями</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m12\"><b>Пещеры под Топями</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m12\"><b>Пещеры под Топями</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8387,7 +8387,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m9\">Руины башни</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m12\">Пещеры под Топями</span>, <span data-maps=\"m261\">Подземное озерцо</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m261\"><b>Подземное озерцо</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m9\">Руины башни</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m12\">Пещеры под Топями</span> → <span data-maps=\"m261\"><b>Подземное озерцо</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8433,7 +8433,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m227\">Озерцо</span>, <span data-maps=\"m257\">Волчья яма</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m257\"><b>Волчья яма</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m227\">Озерцо</span> → <span data-maps=\"m257\"><b>Волчья яма</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8479,7 +8479,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m35\">Лес Орков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m35\"><b>Лес Орков</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8536,7 +8536,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m35\">Лес Орков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m35\"><b>Лес Орков</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -8587,7 +8587,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m63\">Ущелье Дмортер</span>, <span data-maps=\"m162\">Гребень</span>, <span data-maps=\"m163\">Пещера на Массиве</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m163\"><b>Пещера на Массиве</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m63\">Ущелье Дмортер</span> → <span data-maps=\"m162\">Гребень</span> → <span data-maps=\"m163\"><b>Пещера на Массиве</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8638,7 +8638,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m120\">Вымершее поселение</span>, <span data-maps=\"m18\">Шахта</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m18\"><b>Шахта</b></span> <small>— путь: <span data-maps=\"m120\">Вымершее поселение</span> → <span data-maps=\"m18\"><b>Шахта</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8689,7 +8689,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m102\">Рыбацкая Деревня</span>, <span data-maps=\"m1\">Южная Пещера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m1\"><b>Южная Пещера</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m102\">Рыбацкая Деревня</span> → <span data-maps=\"m1\"><b>Южная Пещера</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8736,7 +8736,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m128\">Болота</span>, <span data-maps=\"m2\">Паучьи тоннели</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m2\"><b>Паучьи тоннели</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m128\">Болота</span> → <span data-maps=\"m2\"><b>Паучьи тоннели</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -8844,7 +8844,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Основной платежный ресурс в игре. Можно получить выполняя задания, убивая монстров, торгуя с игроками или NPC, открывая <span style=\"color:#e0d074\">платиновые сундучки</span> с помощью <img data-items=\"item142\" src=\"data/raresImg/items/142.items.png\" title=\"Платиновый Ключ\"/>."
+     "html": "Основной платежный ресурс в игре. Можно получить выполняя задания, убивая монстров, торгуя с игроками или NPC, открывая <span class=\"c-yellow\">платиновые сундучки</span> с помощью <img data-items=\"item142\" src=\"data/raresImg/items/142.items.png\" title=\"Платиновый Ключ\"/>."
     }
    ],
    "backrefs": [
@@ -9803,7 +9803,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Пульсирующая энергией кровь высшего вампира. Выпейте ее, чтобы стать сильнее. <p>После использования дает эффекты, действующие только в зоне <span data-maps=\"m267\" style=\"color:#e0d074\">Беирна</span>, <span style=\"color:red\">за исключением Монастыря</span>:</p><p> - Скорость отдыха: +20%</p><p> - Увеличенный урон: +20%</p><p> - Восстановление ХП: +2%</p><p> - Восстановление ресурсов: +5% </p><p><span style=\"color:red\">Время действия - 3 часа.</span></p> <br>Получение: Во время выполнения квеста \"<span style=\"color:#E7DA4E\">До последней капли крови</span>\""
+     "html": "Пульсирующая энергией кровь высшего вампира. Выпейте ее, чтобы стать сильнее. <p>После использования дает эффекты, действующие только в зоне <span class=\"c-yellow\" data-maps=\"m267\">Беирна</span>, <span class=\"c-red\">за исключением Монастыря</span>:</p><p> - Скорость отдыха: +20%</p><p> - Увеличенный урон: +20%</p><p> - Восстановление ХП: +2%</p><p> - Восстановление ресурсов: +5% </p><p><span class=\"c-red\">Время действия - 3 часа.</span></p> <br>Получение: Во время выполнения квеста \"<span class=\"c-yellow\">До последней капли крови</span>\""
     }
    ]
   },
@@ -9833,7 +9833,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m284\">Подземелья</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m284\"><b>Подземелья</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m284\"><b>Подземелья</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -10067,7 +10067,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Переносит нас в <span data-maps=\"m101\" style=\"color:#e0d074\">Трентис</span>. Его можно использовать в зеленых и желтых регионах."
+     "html": "Переносит нас в <span class=\"c-yellow\" data-maps=\"m101\">Трентис</span>. Его можно использовать в зеленых и желтых регионах."
     },
     {
      "title": "Стоимость",
@@ -10093,7 +10093,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Взрывчатка, ее мощность рассчитана на добычу <img data-items=\"item751\" src=\"data/raresImg/items/751.items.png\" title=\"Блок гранита\"/> из пещер гигантов на Склоне Дмортер. Продает <img data-items=\"nikodemhalagarac\" src=\"data/raresImg/npc/nikodemhalagara.npc.png\" title=\"Халагар\"/> в Беирне. <br><span style=\"color:red\">Где использовать:</span>"
+     "html": "Взрывчатка, ее мощность рассчитана на добычу <img data-items=\"item751\" src=\"data/raresImg/items/751.items.png\" title=\"Блок гранита\"/> из пещер гигантов на Склоне Дмортер. Продает <img data-items=\"nikodemhalagarac\" src=\"data/raresImg/npc/nikodemhalagara.npc.png\" title=\"Халагар\"/> в Беирне. <br><span class=\"c-red\">Где использовать:</span>"
     },
     {
      "title": "Рецепт",
@@ -10101,7 +10101,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>, <span data-maps=\"m287\">Пещера великанов</span>, <span data-maps=\"m288\">Пещера великанов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m288\"><b>Пещера великанов</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\">Склон</span> → <span data-maps=\"m287\">Пещера великанов</span> → <span data-maps=\"m288\"><b>Пещера великанов</b></span></small></li></ul>"
     }
    ],
    "backrefs": []
@@ -10353,7 +10353,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Здоровье: <span style=\"color:#00da00\">+50</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Здоровье: <span class=\"c-green\">+50</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -10424,7 +10424,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Мана: <span style=\"color:#00da00\">+50</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Мана: <span class=\"c-green\">+50</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -10495,7 +10495,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Выносливость: <span style=\"color:#00da00\">+50</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Выносливость: <span class=\"c-green\">+50</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -10566,7 +10566,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Здоровье: <span style=\"color:#00da00\">+200</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Здоровье: <span class=\"c-green\">+200</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -10623,7 +10623,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Мана: <span style=\"color:#00da00\">+200</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Мана: <span class=\"c-green\">+200</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -10679,7 +10679,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Выносливость: <span style=\"color:#00da00\">+200</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Выносливость: <span class=\"c-green\">+200</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Рецепт",
@@ -10735,7 +10735,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Здоровье: <span style=\"color:#00da00\">+500</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Здоровье: <span class=\"c-green\">+500</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -10781,7 +10781,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Мана: <span style=\"color:#00da00\">+500</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Мана: <span class=\"c-green\">+500</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -10826,7 +10826,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Выносливость: <span style=\"color:#00da00\">+500</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Выносливость: <span class=\"c-green\">+500</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -10871,7 +10871,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Здоровье: <span style=\"color:#00da00\">+1000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Здоровье: <span class=\"c-green\">+1000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -10914,7 +10914,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Мана: <span style=\"color:#00da00\">+1000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Мана: <span class=\"c-green\">+1000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -10956,7 +10956,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Выносливость: <span style=\"color:#00da00\">+1000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Выносливость: <span class=\"c-green\">+1000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -10998,7 +10998,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Здоровье: <span style=\"color:#00da00\">+2000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Здоровье: <span class=\"c-green\">+2000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -11040,7 +11040,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Мана: <span style=\"color:#00da00\">+2000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Мана: <span class=\"c-green\">+2000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -11082,7 +11082,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Выносливость: <span style=\"color:#00da00\">+2000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
+     "html": "Выносливость: <span class=\"c-green\">+2000</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Чтобы использовать, нажмите на предмет в окне эликсиров. <p>Предмет нельзя передать другим игрокам. </p> </td></tr></table></div>"
     },
     {
      "title": "Стоимость",
@@ -13636,7 +13636,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<img data-items=\"item1141\" src=\"data/raresImg/items/1141.items.png\"/> <img data-items=\"item1137\" src=\"data/raresImg/items/1137.items.png\"/> <img data-items=\"item1136\" src=\"data/raresImg/items/1136.items.png\"/> <img data-items=\"item1135\" src=\"data/raresImg/items/1135.items.png\"/> <img data-items=\"item1134\" src=\"data/raresImg/items/1134.items.png\"/> <img data-items=\"item1138\" src=\"data/raresImg/items/1138.items.png\"/> <img data-items=\"item1139\" src=\"data/raresImg/items/1139.items.png\"/> <img data-items=\"item1140\" src=\"data/raresImg/items/1140.items.png\"/> <br><div style=\"color:#eee\"> <div> <span style=\"color:#FFD700\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div style=\"color:#888\">Уровень</div> <div style=\"color:#888\">Бонус</div> <div style=\"color:#888\">Всего</div> <div style=\"color:#FFD700\"> +1 </div> <div> +1 </div> <div style=\"color:#fff\"> 1 </div> <div style=\"color:#FFD700\"> +2 </div> <div> +1 </div> <div style=\"color:#fff\"> 2 </div> <div style=\"color:#FFD700\"> +3 </div> <div> +1 </div> <div style=\"color:#fff\"> 3 </div> <div style=\"color:#FFD700\"> +4 </div> <div> +1 </div> <div style=\"color:#fff\"> 4 </div> <div style=\"color:#FFD700\"> +5 </div> <div> +1 </div> <div style=\"color:#fff\"> 5 </div> <div style=\"color:#FFD700\"> +6 </div> <div> +1 </div> <div style=\"color:#fff\"> 6 </div> <div style=\"color:#FFD700\"> +7 </div> <div> +1 </div> <div style=\"color:#fff\"> 7 </div> <div style=\"color:#FFD700\"> +8 </div> <div> +1 </div> <div style=\"color:#fff\"> 8 </div> <div style=\"color:#FFD700\"> +9 </div> <div> +2 </div> <div style=\"color:#fff\"> 10 </div> <div style=\"color:#FFD700\"> +10 </div> <div> +2 </div> <div style=\"color:#fff\"> 12 </div> <div style=\"color:#FFD700\"> +n </div> <div> +2 </div> <div style=\"color:#fff\"> ∞ </div> </div> <div> <div style=\"color:#FF4500\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div style=\"color:#bbb\"> Всегда <span style=\"color:#fff\">+3 урона</span> (только оружие) </div> </div> <p style=\"color:#FFD700\">————— ◈ —————</p> </div>"
+     "html": "<img data-items=\"item1141\" src=\"data/raresImg/items/1141.items.png\"/> <img data-items=\"item1137\" src=\"data/raresImg/items/1137.items.png\"/> <img data-items=\"item1136\" src=\"data/raresImg/items/1136.items.png\"/> <img data-items=\"item1135\" src=\"data/raresImg/items/1135.items.png\"/> <img data-items=\"item1134\" src=\"data/raresImg/items/1134.items.png\"/> <img data-items=\"item1138\" src=\"data/raresImg/items/1138.items.png\"/> <img data-items=\"item1139\" src=\"data/raresImg/items/1139.items.png\"/> <img data-items=\"item1140\" src=\"data/raresImg/items/1140.items.png\"/> <br><div> <div> <span class=\"c-yellow\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div>Уровень</div> <div>Бонус</div> <div>Всего</div> <div class=\"c-yellow\"> +1 </div> <div> +1 </div> <div> 1 </div> <div class=\"c-yellow\"> +2 </div> <div> +1 </div> <div> 2 </div> <div class=\"c-yellow\"> +3 </div> <div> +1 </div> <div> 3 </div> <div class=\"c-yellow\"> +4 </div> <div> +1 </div> <div> 4 </div> <div class=\"c-yellow\"> +5 </div> <div> +1 </div> <div> 5 </div> <div class=\"c-yellow\"> +6 </div> <div> +1 </div> <div> 6 </div> <div class=\"c-yellow\"> +7 </div> <div> +1 </div> <div> 7 </div> <div class=\"c-yellow\"> +8 </div> <div> +1 </div> <div> 8 </div> <div class=\"c-yellow\"> +9 </div> <div> +2 </div> <div> 10 </div> <div class=\"c-yellow\"> +10 </div> <div> +2 </div> <div> 12 </div> <div class=\"c-yellow\"> +n </div> <div> +2 </div> <div> ∞ </div> </div> <div> <div class=\"c-orange\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div> Всегда <span>+3 урона</span> (только оружие) </div> </div> <p class=\"c-yellow\">————— ◈ —————</p> </div>"
     }
    ],
    "backrefs": [
@@ -13673,7 +13673,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<img data-items=\"item196\" src=\"data/raresImg/items/196.items.png\"/> <img data-items=\"item156\" src=\"data/raresImg/items/156.items.png\"/> <img data-items=\"item185\" src=\"data/raresImg/items/185.items.png\"/> <img data-items=\"item187\" src=\"data/raresImg/items/187.items.png\"/> <img data-items=\"item153\" src=\"data/raresImg/items/153.items.png\"/> <img data-items=\"item193\" src=\"data/raresImg/items/193.items.png\"/> <img data-items=\"item190\" src=\"data/raresImg/items/190.items.png\"/> <img data-items=\"item183\" src=\"data/raresImg/items/183.items.png\"/> <br><div style=\"color:#eee\"> <div> <span style=\"color:#FFD700\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div style=\"color:#888\">Уровень</div> <div style=\"color:#888\">Бонус</div> <div style=\"color:#888\">Всего</div> <div style=\"color:#FFD700\"> +1 </div> <div> +1 </div> <div style=\"color:#fff\"> 1 </div> <div style=\"color:#FFD700\"> +2 </div> <div> +1 </div> <div style=\"color:#fff\"> 2 </div> <div style=\"color:#FFD700\"> +3 </div> <div> +1 </div> <div style=\"color:#fff\"> 3 </div> <div style=\"color:#FFD700\"> +4 </div> <div> +1 </div> <div style=\"color:#fff\"> 4 </div> <div style=\"color:#FFD700\"> +5 </div> <div> +1 </div> <div style=\"color:#fff\"> 5 </div> <div style=\"color:#FFD700\"> +6 </div> <div> +1 </div> <div style=\"color:#fff\"> 6 </div> <div style=\"color:#FFD700\"> +7 </div> <div> +1 </div> <div style=\"color:#fff\"> 7 </div> <div style=\"color:#FFD700\"> +8 </div> <div> +2 </div> <div style=\"color:#fff\"> 9 </div> <div style=\"color:#FFD700\"> +9 </div> <div> +2 </div> <div style=\"color:#fff\"> 11 </div> <div style=\"color:#FFD700\"> +10 </div> <div> +2 </div> <div style=\"color:#fff\"> 13 </div> <div style=\"color:#FFD700\"> +n </div> <div> +2 </div> <div style=\"color:#fff\"> ∞ </div> </div> <div> <div style=\"color:#FF4500\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div style=\"color:#bbb\"> Всегда <span style=\"color:#fff\">+3 урона</span> (только оружие) </div> </div> <p style=\"color:#FFD700\">————— ◈ —————</p> </div>"
+     "html": "<img data-items=\"item196\" src=\"data/raresImg/items/196.items.png\"/> <img data-items=\"item156\" src=\"data/raresImg/items/156.items.png\"/> <img data-items=\"item185\" src=\"data/raresImg/items/185.items.png\"/> <img data-items=\"item187\" src=\"data/raresImg/items/187.items.png\"/> <img data-items=\"item153\" src=\"data/raresImg/items/153.items.png\"/> <img data-items=\"item193\" src=\"data/raresImg/items/193.items.png\"/> <img data-items=\"item190\" src=\"data/raresImg/items/190.items.png\"/> <img data-items=\"item183\" src=\"data/raresImg/items/183.items.png\"/> <br><div> <div> <span class=\"c-yellow\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div>Уровень</div> <div>Бонус</div> <div>Всего</div> <div class=\"c-yellow\"> +1 </div> <div> +1 </div> <div> 1 </div> <div class=\"c-yellow\"> +2 </div> <div> +1 </div> <div> 2 </div> <div class=\"c-yellow\"> +3 </div> <div> +1 </div> <div> 3 </div> <div class=\"c-yellow\"> +4 </div> <div> +1 </div> <div> 4 </div> <div class=\"c-yellow\"> +5 </div> <div> +1 </div> <div> 5 </div> <div class=\"c-yellow\"> +6 </div> <div> +1 </div> <div> 6 </div> <div class=\"c-yellow\"> +7 </div> <div> +1 </div> <div> 7 </div> <div class=\"c-yellow\"> +8 </div> <div> +2 </div> <div> 9 </div> <div class=\"c-yellow\"> +9 </div> <div> +2 </div> <div> 11 </div> <div class=\"c-yellow\"> +10 </div> <div> +2 </div> <div> 13 </div> <div class=\"c-yellow\"> +n </div> <div> +2 </div> <div> ∞ </div> </div> <div> <div class=\"c-orange\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div> Всегда <span>+3 урона</span> (только оружие) </div> </div> <p class=\"c-yellow\">————— ◈ —————</p> </div>"
     }
    ],
    "backrefs": [
@@ -13710,7 +13710,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<img data-items=\"item195\" src=\"data/raresImg/items/195.items.png\"/> <img data-items=\"item155\" src=\"data/raresImg/items/155.items.png\"/> <img data-items=\"item184\" src=\"data/raresImg/items/184.items.png\"/> <img data-items=\"item186\" src=\"data/raresImg/items/186.items.png\"/> <img data-items=\"item152\" src=\"data/raresImg/items/152.items.png\"/> <img data-items=\"item192\" src=\"data/raresImg/items/192.items.png\"/> <img data-items=\"item189\" src=\"data/raresImg/items/189.items.png\"/> <img data-items=\"item182\" src=\"data/raresImg/items/182.items.png\"/> <br><div style=\"color:#eee\"> <div> <span style=\"color:#FFD700\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div style=\"color:#888\">Уровень</div> <div style=\"color:#888\">Бонус</div> <div style=\"color:#888\">Всего</div> <div style=\"color:#FFD700\"> +1 </div> <div> +1 </div> <div style=\"color:#fff\"> 1 </div> <div style=\"color:#FFD700\"> +2 </div> <div> +1 </div> <div style=\"color:#fff\"> 2 </div> <div style=\"color:#FFD700\"> +3 </div> <div> +1 </div> <div style=\"color:#fff\"> 3 </div> <div style=\"color:#FFD700\"> +4 </div> <div> +1 </div> <div style=\"color:#fff\"> 4 </div> <div style=\"color:#FFD700\"> +5 </div> <div> +1 </div> <div style=\"color:#fff\"> 5 </div> <div style=\"color:#FFD700\"> +6 </div> <div> +1 </div> <div style=\"color:#fff\"> 6 </div> <div style=\"color:#FFD700\"> +7 </div> <div> +2 </div> <div style=\"color:#fff\"> 8 </div> <div style=\"color:#FFD700\"> +8 </div> <div> +2 </div> <div style=\"color:#fff\"> 10 </div> <div style=\"color:#FFD700\"> +9 </div> <div> +2 </div> <div style=\"color:#fff\"> 12 </div> <div style=\"color:#FFD700\"> +10 </div> <div> +3 </div> <div style=\"color:#fff\"> 15 </div> <div style=\"color:#FFD700\"> +n </div> <div> +3 </div> <div style=\"color:#fff\"> ∞ </div> </div> <div> <div style=\"color:#FF4500\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div style=\"color:#bbb\"> Всегда <span style=\"color:#fff\">+3 урона</span> (только оружие) </div> </div> <p style=\"color:#FFD700\">————— ◈ —————</p> </div>"
+     "html": "<img data-items=\"item195\" src=\"data/raresImg/items/195.items.png\"/> <img data-items=\"item155\" src=\"data/raresImg/items/155.items.png\"/> <img data-items=\"item184\" src=\"data/raresImg/items/184.items.png\"/> <img data-items=\"item186\" src=\"data/raresImg/items/186.items.png\"/> <img data-items=\"item152\" src=\"data/raresImg/items/152.items.png\"/> <img data-items=\"item192\" src=\"data/raresImg/items/192.items.png\"/> <img data-items=\"item189\" src=\"data/raresImg/items/189.items.png\"/> <img data-items=\"item182\" src=\"data/raresImg/items/182.items.png\"/> <br><div> <div> <span class=\"c-yellow\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div>Уровень</div> <div>Бонус</div> <div>Всего</div> <div class=\"c-yellow\"> +1 </div> <div> +1 </div> <div> 1 </div> <div class=\"c-yellow\"> +2 </div> <div> +1 </div> <div> 2 </div> <div class=\"c-yellow\"> +3 </div> <div> +1 </div> <div> 3 </div> <div class=\"c-yellow\"> +4 </div> <div> +1 </div> <div> 4 </div> <div class=\"c-yellow\"> +5 </div> <div> +1 </div> <div> 5 </div> <div class=\"c-yellow\"> +6 </div> <div> +1 </div> <div> 6 </div> <div class=\"c-yellow\"> +7 </div> <div> +2 </div> <div> 8 </div> <div class=\"c-yellow\"> +8 </div> <div> +2 </div> <div> 10 </div> <div class=\"c-yellow\"> +9 </div> <div> +2 </div> <div> 12 </div> <div class=\"c-yellow\"> +10 </div> <div> +3 </div> <div> 15 </div> <div class=\"c-yellow\"> +n </div> <div> +3 </div> <div> ∞ </div> </div> <div> <div class=\"c-orange\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div> Всегда <span>+3 урона</span> (только оружие) </div> </div> <p class=\"c-yellow\">————— ◈ —————</p> </div>"
     }
    ],
    "backrefs": [
@@ -13760,7 +13760,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<img data-items=\"item194\" src=\"data/raresImg/items/194.items.png\"/> <img data-items=\"item154\" src=\"data/raresImg/items/154.items.png\"/> <img data-items=\"item158\" src=\"data/raresImg/items/158.items.png\"/> <img data-items=\"item157\" src=\"data/raresImg/items/157.items.png\"/> <img data-items=\"item146\" src=\"data/raresImg/items/146.items.png\"/> <img data-items=\"item191\" src=\"data/raresImg/items/191.items.png\"/> <img data-items=\"item188\" src=\"data/raresImg/items/188.items.png\"/> <img data-items=\"item159\" src=\"data/raresImg/items/159.items.png\"/> <br><div style=\"color:#eee\"> <div> <span style=\"color:#FFD700\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div style=\"color:#888\">Уровень</div> <div style=\"color:#888\">Бонус</div> <div style=\"color:#888\">Всего</div> <div style=\"color:#FFD700\"> +1 </div> <div> +1 </div> <div style=\"color:#fff\"> 1 </div> <div style=\"color:#FFD700\"> +2 </div> <div> +1 </div> <div style=\"color:#fff\"> 2 </div> <div style=\"color:#FFD700\"> +3 </div> <div> +1 </div> <div style=\"color:#fff\"> 3 </div> <div style=\"color:#FFD700\"> +4 </div> <div> +1 </div> <div style=\"color:#fff\"> 4 </div> <div style=\"color:#FFD700\"> +5 </div> <div> +1 </div> <div style=\"color:#fff\"> 5 </div> <div style=\"color:#FFD700\"> +6 </div> <div> +2 </div> <div style=\"color:#fff\"> 7 </div> <div style=\"color:#FFD700\"> +7 </div> <div> +2 </div> <div style=\"color:#fff\"> 9 </div> <div style=\"color:#FFD700\"> +8 </div> <div> +3 </div> <div style=\"color:#fff\"> 12 </div> <div style=\"color:#FFD700\"> +9 </div> <div> +3 </div> <div style=\"color:#fff\"> 15 </div> <div style=\"color:#FFD700\"> +10 </div> <div> +4 </div> <div style=\"color:#fff\"> 19 </div> <div style=\"color:#FFD700\"> +n </div> <div> +4 </div> <div style=\"color:#fff\"> ∞ </div> </div> <div> <div style=\"color:#FF4500\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div style=\"color:#bbb\"> Всегда <span style=\"color:#fff\">+3 урона</span> (только оружие) </div> </div> <p style=\"color:#FFD700\">————— ◈ —————</p> </div>"
+     "html": "<img data-items=\"item194\" src=\"data/raresImg/items/194.items.png\"/> <img data-items=\"item154\" src=\"data/raresImg/items/154.items.png\"/> <img data-items=\"item158\" src=\"data/raresImg/items/158.items.png\"/> <img data-items=\"item157\" src=\"data/raresImg/items/157.items.png\"/> <img data-items=\"item146\" src=\"data/raresImg/items/146.items.png\"/> <img data-items=\"item191\" src=\"data/raresImg/items/191.items.png\"/> <img data-items=\"item188\" src=\"data/raresImg/items/188.items.png\"/> <img data-items=\"item159\" src=\"data/raresImg/items/159.items.png\"/> <br><div> <div> <span class=\"c-yellow\">◈ Заточка предмета ◈</span> <div></div> </div> <div> <div>Уровень</div> <div>Бонус</div> <div>Всего</div> <div class=\"c-yellow\"> +1 </div> <div> +1 </div> <div> 1 </div> <div class=\"c-yellow\"> +2 </div> <div> +1 </div> <div> 2 </div> <div class=\"c-yellow\"> +3 </div> <div> +1 </div> <div> 3 </div> <div class=\"c-yellow\"> +4 </div> <div> +1 </div> <div> 4 </div> <div class=\"c-yellow\"> +5 </div> <div> +1 </div> <div> 5 </div> <div class=\"c-yellow\"> +6 </div> <div> +2 </div> <div> 7 </div> <div class=\"c-yellow\"> +7 </div> <div> +2 </div> <div> 9 </div> <div class=\"c-yellow\"> +8 </div> <div> +3 </div> <div> 12 </div> <div class=\"c-yellow\"> +9 </div> <div> +3 </div> <div> 15 </div> <div class=\"c-yellow\"> +10 </div> <div> +4 </div> <div> 19 </div> <div class=\"c-yellow\"> +n </div> <div> +4 </div> <div> ∞ </div> </div> <div> <div class=\"c-orange\"> <span>⚡</span> Фляга Уничтожения <span>⚡</span> </div> <div> Всегда <span>+3 урона</span> (только оружие) </div> </div> <p class=\"c-yellow\">————— ◈ —————</p> </div>"
     }
    ],
    "backrefs": [
@@ -13812,7 +13812,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Предмет, необходимый для создания легенды. Можно получить во время ежедневного задания \"Эфирная лампа\", обменяв <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\"/> на катализатор в <span data-maps=\"m172\" style=\"color:#e0d074\">Кузне Судьбы</span>. <br>Этот предмет нельзя продать<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Предмет, нужный для создания легенды. <p><b>Предмет нельзя передать другим игрокам.</b></p> </td></tr></table></div>"
+     "html": "Предмет, необходимый для создания легенды. Можно получить во время ежедневного задания \"Эфирная лампа\", обменяв <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\"/> на катализатор в <span class=\"c-yellow\" data-maps=\"m172\">Кузне Судьбы</span>. <br>Этот предмет нельзя продать<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Предмет, нужный для создания легенды. <p><b>Предмет нельзя передать другим игрокам.</b></p> </td></tr></table></div>"
     },
     {
      "title": "Применение",
@@ -14204,7 +14204,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m236\">Устричный Залив</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m236\"><b>Устричный Залив</b></span> <small>— путь: <span data-maps=\"m222\">Побережье</span> → <span data-maps=\"m236\"><b>Устричный Залив</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -14384,7 +14384,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Душа северного ворлинга, с помощью которой можно сокрушить лед в <span data-maps=\"m348\" style=\"color:#e0d074\">Древнем Зале</span>.<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Душа северного ворлинга, с помощью которой можно разбить лёд в Древнем Зале. </td></tr></table></div>"
+     "html": "Душа северного ворлинга, с помощью которой можно сокрушить лед в <span class=\"c-yellow\" data-maps=\"m348\">Древнем Зале</span>.<hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Душа северного ворлинга, с помощью которой можно разбить лёд в Древнем Зале. </td></tr></table></div>"
     },
     {
      "title": "Применение",
@@ -14457,7 +14457,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m167\"><b>Замерзшее Озеро</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m167\"><b>Замерзшее Озеро</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -14558,7 +14558,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Если кто-то это найдет: я заблокировала проход к пресвитерию барьером. Сомневаюсь, что это помешает Волькхарду и его отродьям выбраться из собора, но надеюсь, хотя бы замедлит их. Если по какой-либо причине вам нужно будет снять барьер, компоненты для ритуала вы найдете в <span data-maps=\"m481\" style=\"color:#e0d074\">боковой крипте</span>. Вам нужно зажечь свечи в правильном порядке. Через это вас поочередно проведут святые: Кернульф <img src=\"data/raresImg/icons/481_loc/swieca04_hd.png\"/> (1), Эльдрик <img src=\"data/raresImg/icons/481_loc/swieca05_hd.png\"/> (2), Сибальд <img src=\"data/raresImg/icons/481_loc/swieca01_hd.png\"/> (3), Видар <img src=\"data/raresImg/icons/481_loc/swieca02_hd.png\"/> (4) и Фридмар <img src=\"data/raresImg/icons/481_loc/swieca03_hd.png\"/> (5). Свечи соответствуют продолжительности жизни каждого из святых."
+     "html": "Если кто-то это найдет: я заблокировала проход к пресвитерию барьером. Сомневаюсь, что это помешает Волькхарду и его отродьям выбраться из собора, но надеюсь, хотя бы замедлит их. Если по какой-либо причине вам нужно будет снять барьер, компоненты для ритуала вы найдете в <span class=\"c-yellow\" data-maps=\"m481\">боковой крипте</span>. Вам нужно зажечь свечи в правильном порядке. Через это вас поочередно проведут святые: Кернульф <img src=\"data/raresImg/icons/481_loc/swieca04_hd.png\"/> (1), Эльдрик <img src=\"data/raresImg/icons/481_loc/swieca05_hd.png\"/> (2), Сибальд <img src=\"data/raresImg/icons/481_loc/swieca01_hd.png\"/> (3), Видар <img src=\"data/raresImg/icons/481_loc/swieca02_hd.png\"/> (4) и Фридмар <img src=\"data/raresImg/icons/481_loc/swieca03_hd.png\"/> (5). Свечи соответствуют продолжительности жизни каждого из святых."
     }
    ]
   },
@@ -14580,7 +14580,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Флакон кислоты от <img data-items=\"wulgarfa\" src=\"data/raresImg/npc/wulgarfa.npc.png\" title=\"Вулгарф\"/>. Благодаря ей вы извлечете <img data-items=\"item1344\" src=\"data/raresImg/items3/1344.items3.png\" title=\"Кровь чудовища\"/> из его органов. <br>Из ежедневного задания <span style=\"color:#5059AD\">Кровь кровопийц [135ур]</span>"
+     "html": "Флакон кислоты от <img data-items=\"wulgarfa\" src=\"data/raresImg/npc/wulgarfa.npc.png\" title=\"Вулгарф\"/>. Благодаря ей вы извлечете <img data-items=\"item1344\" src=\"data/raresImg/items3/1344.items3.png\" title=\"Кровь чудовища\"/> из его органов. <br>Из ежедневного задания <span class=\"c-blue\">Кровь кровопийц [135ур]</span>"
     }
    ],
    "backrefs": [
@@ -14612,7 +14612,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Флакон алхимического щелока от <img data-items=\"wulgarfa\" src=\"data/raresImg/npc/wulgarfa.npc.png\" title=\"Вулгарф\"/>. Благодаря ей вы извлечете <img data-items=\"item1344\" src=\"data/raresImg/items3/1344.items3.png\" title=\"Кровь чудовища\"/> из его органов. <br>Из ежедневного задания <span style=\"color:#5059AD\">Кровь кровопийц [135ур]</span>"
+     "html": "Флакон алхимического щелока от <img data-items=\"wulgarfa\" src=\"data/raresImg/npc/wulgarfa.npc.png\" title=\"Вулгарф\"/>. Благодаря ей вы извлечете <img data-items=\"item1344\" src=\"data/raresImg/items3/1344.items3.png\" title=\"Кровь чудовища\"/> из его органов. <br>Из ежедневного задания <span class=\"c-blue\">Кровь кровопийц [135ур]</span>"
     }
    ],
    "backrefs": [
@@ -14648,7 +14648,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Концентрированная кровь вампирского чудовища. Вы можете обогатить ее до крови вампира у <img data-items=\"lorvenda\" src=\"data/raresImg/npc/lorvenda.npc.png\" title=\"Лорвенд\"/> в лагере рыцарей. <br>Из ежедневного задания <span style=\"color:#5059AD\">Кровь кровопийц [135ур]</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Концентрированная кровь вампирского зверя. Её можно обогатить до крови вампира у Лорвенда в лагере монахов. </td></tr></table></div>"
+     "html": "Концентрированная кровь вампирского чудовища. Вы можете обогатить ее до крови вампира у <img data-items=\"lorvenda\" src=\"data/raresImg/npc/lorvenda.npc.png\" title=\"Лорвенд\"/> в лагере рыцарей. <br>Из ежедневного задания <span class=\"c-blue\">Кровь кровопийц [135ур]</span><hr><div class=\"tscroll\"><table class=\"wb art\"><tr><td colspan=\"2\">Концентрированная кровь вампирского зверя. Её можно обогатить до крови вампира у Лорвенда в лагере монахов. </td></tr></table></div>"
     },
     {
      "title": "Применение",
@@ -14690,7 +14690,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Вы получили его от Вулгарфа в лагере рыцарей ордена. Убейте 10x вампирских чудовищ <img data-items=\"bat11a\" src=\"data/raresImg/mobs2/bat11a.moblogo2.png\" title=\"Знамение\"/> <img data-items=\"wolf10a\" src=\"data/raresImg/mobs2/wolf10a.moblogo2.png\" title=\"Багряник\"/>, чтобы зарядить его их аурой. <br>Из ежедневного задания <span style=\"color:#5059AD\">Кровь кровопийц [135ур]</span>"
+     "html": "Вы получили его от Вулгарфа в лагере рыцарей ордена. Убейте 10x вампирских чудовищ <img data-items=\"bat11a\" src=\"data/raresImg/mobs2/bat11a.moblogo2.png\" title=\"Знамение\"/> <img data-items=\"wolf10a\" src=\"data/raresImg/mobs2/wolf10a.moblogo2.png\" title=\"Багряник\"/>, чтобы зарядить его их аурой. <br>Из ежедневного задания <span class=\"c-blue\">Кровь кровопийц [135ур]</span>"
     }
    ]
   },
@@ -14712,7 +14712,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Предмет переполняет аура вампирских чудовищ. Благодаря ему вы сможете приблизиться к монстру, скрывающемуся в пещере у монастыря. <br>Из ежедневного задания <span style=\"color:#5059AD\">Кровь кровопийц [135ур]</span>"
+     "html": "Предмет переполняет аура вампирских чудовищ. Благодаря ему вы сможете приблизиться к монстру, скрывающемуся в пещере у монастыря. <br>Из ежедневного задания <span class=\"c-blue\">Кровь кровопийц [135ур]</span>"
     }
    ]
   },
@@ -14808,7 +14808,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>, <span data-maps=\"m287\">Пещера великанов</span>, <span data-maps=\"m288\">Пещера великанов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li><li><span data-maps=\"m279\"><b>Склон</b></span></li><li><span data-maps=\"m287\"><b>Пещера великанов</b></span></li><li><span data-maps=\"m288\"><b>Пещера великанов</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -15464,7 +15464,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m133\">Посад</span>, <span data-maps=\"m3\">Замок Гастельхоф</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m3\"><b>Замок Гастельхоф</b></span> <small>— путь: <span data-maps=\"m133\">Посад</span> → <span data-maps=\"m3\"><b>Замок Гастельхоф</b></span></small></li></ul>"
     }
    ]
   },
@@ -15490,7 +15490,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m298\">Библиотека Клавдия</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m298\"><b>Библиотека Клавдия</b></span></li></ul>"
     }
    ]
   },
@@ -15516,7 +15516,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m298\">Библиотека Клавдия</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m298\"><b>Библиотека Клавдия</b></span></li></ul>"
     }
    ]
   },
@@ -15703,7 +15703,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m279\"><b>Склон</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\"><b>Склон</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -15742,7 +15742,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m279\"><b>Склон</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\"><b>Склон</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -15773,7 +15773,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Требуется для выполнения задания <span style=\"color:#6a76e6\">\"Кровь Йети\"</span> у <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/>, а также создания <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/> у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/>. <br>Странно дубленый живот. Он выглядит как кишка, но почти идеально прозрачный и очень прочный."
+     "html": "Требуется для выполнения задания <span class=\"c-blue\">\"Кровь Йети\"</span> у <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/>, а также создания <img data-items=\"item779\" src=\"data/raresImg/items/779.items.png\" title=\"Эфирная лампа\"/> у <img data-items=\"verstein\" src=\"data/raresImg/npc/verstein.npc.png\" title=\"Верштейн\"/>. <br>Странно дубленый живот. Он выглядит как кишка, но почти идеально прозрачный и очень прочный."
     }
    ],
    "backrefs": [
@@ -15803,7 +15803,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Требуется для выполнения задания <span style=\"color:#6a76e6\">\"Кровь Йети\"</span> у <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/>. <br>Бурдюк, сделанный из <img data-items=\"item778\" src=\"data/raresImg/items/778.items.png\"/>. Идеально подходит для переноски различных жидкостей. В данном случае крови йети."
+     "html": "Требуется для выполнения задания <span class=\"c-blue\">\"Кровь Йети\"</span> у <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/>. <br>Бурдюк, сделанный из <img data-items=\"item778\" src=\"data/raresImg/items/778.items.png\"/>. Идеально подходит для переноски различных жидкостей. В данном случае крови йети."
     }
    ]
   },
@@ -16047,7 +16047,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>, <span data-maps=\"m277\">Кладовая кузнеца</span>, <span data-maps=\"m279\">Склон</span>, <span data-maps=\"m284\">Подземелья</span>, <span data-maps=\"m287\">Пещера великанов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li><li><span data-maps=\"m273\"><b>Таверна под Пиком</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m273\"><b>Таверна под Пиком</b></span></small></li><li><span data-maps=\"m277\"><b>Кладовая кузнеца</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m277\"><b>Кладовая кузнеца</b></span></small></li><li><span data-maps=\"m279\"><b>Склон</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\"><b>Склон</b></span></small></li><li><span data-maps=\"m284\"><b>Подземелья</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m284\"><b>Подземелья</b></span></small></li><li><span data-maps=\"m287\"><b>Пещера великанов</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\">Склон</span> → <span data-maps=\"m287\"><b>Пещера великанов</b></span></small></li></ul>"
     },
     {
      "title": "Применение",
@@ -16089,7 +16089,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m279\">Склон</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m279\"><b>Склон</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -16184,7 +16184,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -16279,7 +16279,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li></ul>"
     },
     {
      "title": "Применение",
@@ -16358,7 +16358,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m315\">Жилая палуба</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m315\"><b>Жилая палуба</b></span></li></ul>"
     }
    ]
   },
@@ -16384,7 +16384,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m463\">Кабинет харадота</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m463\"><b>Кабинет харадота</b></span></li></ul>"
     }
    ]
   },
@@ -16410,7 +16410,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m444\">Спальня сетхоса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m444\"><b>Спальня сетхоса</b></span></li></ul>"
     }
    ]
   },
@@ -16454,7 +16454,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Приказ, который позволит вам пройти в <span data-maps=\"m381\" style=\"color:#e0d074\">Северные Аллеи</span> и переместить оттуда таэрнийских заключенных."
+     "html": "Приказ, который позволит вам пройти в <span class=\"c-yellow\" data-maps=\"m381\">Северные Аллеи</span> и переместить оттуда таэрнийских заключенных."
     }
    ]
   },
@@ -16612,7 +16612,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m382\"><b>Университетская Талия</b></span></li></ul>"
     }
    ]
   },
@@ -16638,7 +16638,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m381\">Оккупированная Талия</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m381\"><b>Оккупированная Талия</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m381\"><b>Оккупированная Талия</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -16917,7 +16917,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Тер Нор. Управляющий-складовщик: 6 колес, сложенных <span data-maps=\"m194\" style=\"color:#e0d074\">под мостом</span> на Замерзшем Озере. Я не досчитался очередных шести штук. Один из носильщиков не донес их. Он славится пьянством, и его иногда видели в <span data-maps=\"m193\" style=\"color:#e0d074\">пещере под водопадом</span>. Проверить это. Там встречается светящийся мох. Распылить <img data-items=\"item744\" src=\"data/raresImg/items2/744.items2.png\" title=\"Распылитель мутимяты\"/> для обнаружения предмета. Запасы мутимяты есть у <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/>"
+     "html": "Тер Нор. Управляющий-складовщик: 6 колес, сложенных <span class=\"c-yellow\" data-maps=\"m194\">под мостом</span> на Замерзшем Озере. Я не досчитался очередных шести штук. Один из носильщиков не донес их. Он славится пьянством, и его иногда видели в <span class=\"c-yellow\" data-maps=\"m193\">пещере под водопадом</span>. Проверить это. Там встречается светящийся мох. Распылить <img data-items=\"item744\" src=\"data/raresImg/items2/744.items2.png\" title=\"Распылитель мутимяты\"/> для обнаружения предмета. Запасы мутимяты есть у <img data-items=\"marlenarenia\" src=\"data/raresImg/npc/marlenarenia.npc.png\" title=\"Рэни\"/>"
     }
    ]
   },
@@ -16961,7 +16961,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Тер Нор. Управляющий-складовщик. Заклинание, необходимое для открытия тайника: «Ворлинг со сталью в руке, Идет по замерзшей земле, Видят очи его, как рассветает, Другая его уже не достанет». Запасные стволы спрятаны в <span data-maps=\"m174\" style=\"color:#e0d074\">пещере</span> над нашим нижним гарнизоном. При необходимости взломайте тайник <span data-maps=\"m175\" style=\"color:#e0d074\">ломом</span>."
+     "html": "Тер Нор. Управляющий-складовщик. Заклинание, необходимое для открытия тайника: «Ворлинг со сталью в руке, Идет по замерзшей земле, Видят очи его, как рассветает, Другая его уже не достанет». Запасные стволы спрятаны в <span class=\"c-yellow\" data-maps=\"m174\">пещере</span> над нашим нижним гарнизоном. При необходимости взломайте тайник <span class=\"c-yellow\" data-maps=\"m175\">ломом</span>."
     }
    ]
   },
@@ -17192,7 +17192,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m424\">Пустошь Хвара</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m424\"><b>Пустошь Хвара</b></span></li></ul>"
     }
    ]
   },
@@ -17408,7 +17408,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Выделения из лавовых существ, которые можно использовать для починки моста в <span data-maps=\"m424\" style=\"color:#e0d074\">Пустоши Хвара</span>. <br>Требуются при прохождении события в <span data-maps=\"m424\" style=\"color:#e0d074\">Пустоши Хвара</span>."
+     "html": "Выделения из лавовых существ, которые можно использовать для починки моста в <span class=\"c-yellow\" data-maps=\"m424\">Пустоши Хвара</span>. <br>Требуются при прохождении события в <span class=\"c-yellow\" data-maps=\"m424\">Пустоши Хвара</span>."
     },
     {
      "title": "Дроп",
@@ -17635,7 +17635,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#e0d074\">Бонусный опыт</span> в виде постоянного эффекта для персонажа, который его приобрел. Распространяется <span style=\"color:#e0d074\">на все виды</span> получения опыта. Процент бонуса равен <span style=\"color:#e0d074\">половине</span> самого высокого уровня персонажа на учетной записи. Для нечетного числа значение округляется в меньшую сторону. <br>Продолжительность: 7 дней. <br><dl> <dt>Условия покупки и активации:</dt> <dd>- минимум 3 уровень персонажа</dd> <dd>- минимум 50 уровень основного персонажа</dd> <dd>- максимум 90% уровня основного персонажа</dd> </dl>"
+     "html": "<span class=\"c-yellow\">Бонусный опыт</span> в виде постоянного эффекта для персонажа, который его приобрел. Распространяется <span class=\"c-yellow\">на все виды</span> получения опыта. Процент бонуса равен <span class=\"c-yellow\">половине</span> самого высокого уровня персонажа на учетной записи. Для нечетного числа значение округляется в меньшую сторону. <br>Продолжительность: 7 дней. <br><dl> <dt>Условия покупки и активации:</dt> <dd>- минимум 3 уровень персонажа</dd> <dd>- минимум 50 уровень основного персонажа</dd> <dd>- максимум 90% уровня основного персонажа</dd> </dl>"
     },
     {
      "title": "Стоимость",
@@ -17656,7 +17656,7 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "Премиальный Рынок. <br><span style=\"color:#e0d074\">Продолжительность</span>: 30 дней. <br><dl> <dt><span style=\"color:#e0d074\">Налог</span>:</dt> <dd>- от выставления: 0.5% вместо 1%</dd> <dd>- от продажи: 1.5% вместо 3%</dd> </dl> <br><dl> <dt><span style=\"color:#e0d074\">Лимит объявлений</span>:</dt> <dd>- 100 вместо 10</dd> </dl> <br><dl> <dt><span style=\"color:#e0d074\">Срок действия объявления</span>:</dt> <dd>- 30 дней вместо 7</dd> </dl>"
+     "html": "Премиальный Рынок. <br><span class=\"c-yellow\">Продолжительность</span>: 30 дней. <br><dl> <dt><span class=\"c-yellow\">Налог</span>:</dt> <dd>- от выставления: 0.5% вместо 1%</dd> <dd>- от продажи: 1.5% вместо 3%</dd> </dl> <br><dl> <dt><span class=\"c-yellow\">Лимит объявлений</span>:</dt> <dd>- 100 вместо 10</dd> </dl> <br><dl> <dt><span class=\"c-yellow\">Срок действия объявления</span>:</dt> <dd>- 30 дней вместо 7</dd> </dl>"
     },
     {
      "title": "Стоимость",
@@ -17708,7 +17708,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m367\">Город Призрачных Уруков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m367\"><b>Город Призрачных Уруков</b></span></li></ul>"
     }
    ]
   },
@@ -17734,7 +17734,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m367\">Город Призрачных Уруков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m367\"><b>Город Призрачных Уруков</b></span></li></ul>"
     }
    ]
   },
@@ -17760,7 +17760,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m367\">Город Призрачных Уруков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m367\"><b>Город Призрачных Уруков</b></span></li></ul>"
     }
    ]
   },
@@ -17786,7 +17786,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m367\">Город Призрачных Уруков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m367\"><b>Город Призрачных Уруков</b></span></li></ul>"
     }
    ]
   },

@@ -15,11 +15,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#03B2F6\">По следу! [Треб. ур. 110]</span> <br><span style=\"color:#e0d074\">Этап 1</span>: Найти 2 пары <img data-items=\"item800\" src=\"data/raresImg/items/800.items.png\"/> в отмеченных на карте местах <br><span style=\"color:#e0d074\">Этап 2</span>: Найти странные следы <img data-items=\"item798\" src=\"data/raresImg/items/798.items.png\"/> в указаном месте <br>Опыт питомцу - <span style=\"color:#ebeba7\">30к+</span> <br><span style=\"color:#e0d074\">Этап 3</span>: Найти и убить <img data-items=\"giant2ac\" src=\"data/raresImg/mobs/mshgiant.moblogo.png\"/> и добыть <img data-items=\"item799\" src=\"data/raresImg/items/799.items.png\"/> <br>Опыт питомцу - <span style=\"color:#ebeba7\">40к+</span> <br><span style=\"color:#e0d074\">Этап 4</span>: Начать тренировку атаковав Ловца. <br><dl> <dt>Награда:</dt> <dd>Опыт питомцу - <span style=\"color:#ebeba7\">45к</span></dd> <dd>Опыт игроку - <span style=\"color:#ebeba7\">150к</span></dd> <dd><img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/> - 200к</dd> <dd>Отвар выносливости <img data-items=\"item35\" src=\"data/raresImg/items/35.items.png\"/> - 3х</dd> <dd>Отвар маны <img data-items=\"item34\" src=\"data/raresImg/items/34.items.png\"/> - 3х</dd> <dd>Отвар здоровья <img data-items=\"item33\" src=\"data/raresImg/items/33.items.png\"/> - 3х</dd> </dl> <br><span style=\"color:red\">Появление примерно в указанных зонах.</span>"
+     "html": "<span class=\"c-cyan\">По следу! [Треб. ур. 110]</span> <br><span class=\"c-yellow\">Этап 1</span>: Найти 2 пары <img data-items=\"item800\" src=\"data/raresImg/items/800.items.png\"/> в отмеченных на карте местах <br><span class=\"c-yellow\">Этап 2</span>: Найти странные следы <img data-items=\"item798\" src=\"data/raresImg/items/798.items.png\"/> в указаном месте <br>Опыт питомцу - <span class=\"c-yellow\">30к+</span> <br><span class=\"c-yellow\">Этап 3</span>: Найти и убить <img data-items=\"giant2ac\" src=\"data/raresImg/mobs/mshgiant.moblogo.png\"/> и добыть <img data-items=\"item799\" src=\"data/raresImg/items/799.items.png\"/> <br>Опыт питомцу - <span class=\"c-yellow\">40к+</span> <br><span class=\"c-yellow\">Этап 4</span>: Начать тренировку атаковав Ловца. <br><dl> <dt>Награда:</dt> <dd>Опыт питомцу - <span class=\"c-yellow\">45к</span></dd> <dd>Опыт игроку - <span class=\"c-yellow\">150к</span></dd> <dd><img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/> - 200к</dd> <dd>Отвар выносливости <img data-items=\"item35\" src=\"data/raresImg/items/35.items.png\"/> - 3х</dd> <dd>Отвар маны <img data-items=\"item34\" src=\"data/raresImg/items/34.items.png\"/> - 3х</dd> <dd>Отвар здоровья <img data-items=\"item33\" src=\"data/raresImg/items/33.items.png\"/> - 3х</dd> </dl> <br><span class=\"c-red\">Появление примерно в указанных зонах.</span>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m267\">Беирн</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m167\"><b>Замерзшее Озеро</b></span></li><li><span data-maps=\"m267\"><b>Беирн</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -44,11 +44,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#e0d074\">Я хочу кое-что продать.</span> <br><dl> <dt>Продажа:</dt> <dd>3x <img data-items=\"item519\" src=\"data/raresImg/items/519.items.png\"/> за 50k<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/> + 1x<img data-items=\"item268\" src=\"data/raresImg/items/268.items.png\" title=\"Essence\"/></dd> </dl> <br><span style=\"color:#e0d074\">Я хочу кое-что купить.</span> <br><span style=\"color:red\">Появляется время от времени</span> <br><dl> <dt>Покупка:</dt> <dd><img data-items=\"item513\" src=\"data/raresImg/items2/513.items2.png\"/> за 25k<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd><img data-items=\"item514\" src=\"data/raresImg/items2/514.items2.png\"/> за 25k<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> </dl>"
+     "html": "<span class=\"c-yellow\">Я хочу кое-что продать.</span> <br><dl> <dt>Продажа:</dt> <dd>3x <img data-items=\"item519\" src=\"data/raresImg/items/519.items.png\"/> за 50k<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/> + 1x<img data-items=\"item268\" src=\"data/raresImg/items/268.items.png\" title=\"Essence\"/></dd> </dl> <br><span class=\"c-yellow\">Я хочу кое-что купить.</span> <br><span class=\"c-red\">Появляется время от времени</span> <br><dl> <dt>Покупка:</dt> <dd><img data-items=\"item513\" src=\"data/raresImg/items2/513.items2.png\"/> за 25k<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd><img data-items=\"item514\" src=\"data/raresImg/items2/514.items2.png\"/> за 25k<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> </dl>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m196\">Убежище</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m196\"><b>Убежище</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m167\">Замерзшее Озеро</span> → <span data-maps=\"m196\"><b>Убежище</b></span></small></li></ul>"
     }
    ],
    "backrefs": []
@@ -66,11 +66,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#e0d074\">Корм для питомцев</span> <br><span style=\"color:#e0d074\">Обменять печень чудовища</span> <br>1х <img data-items=\"item927\" src=\"data/raresImg/items/927.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <br><dl> <dt>Покупка:</dt> <dd>50х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/></dd> <dd>100х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 10x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/></dd> <dd>150х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 15x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/></dd> </dl>"
+     "html": "<span class=\"c-yellow\">Корм для питомцев</span> <br><span class=\"c-yellow\">Обменять печень чудовища</span> <br>1х <img data-items=\"item927\" src=\"data/raresImg/items/927.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <br><dl> <dt>Покупка:</dt> <dd>50х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/></dd> <dd>100х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 10x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/></dd> <dd>150х <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 15x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/></dd> </dl>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": []
@@ -88,11 +88,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#e0d074\">Ты можешь переработать кое-что для меня?</span> <br><span style=\"color:#03B2F6\">Мне нужны камни. [Треб. ур. 40]</span> <br><span style=\"color:#E7DA4E\">Происходит здесь чего интересного. [Треб. ур. 44]</span> <br>Добыть 1х <img data-items=\"item463\" src=\"data/raresImg/items/463.items.png\"/> и получить 150х <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/>. [Откат 60мин.] <br><span style=\"color:#E7DA4E\">А так в принципе, то кто ты вообще такой?. [Треб. ур. 55]</span> <br><dl> <dt>Переработка:</dt> <dd>10x <img data-items=\"item462\" src=\"data/raresImg/items2/462.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item113\" src=\"data/raresImg/items2/113.items2.png\"/></dd> <dd>10x <img data-items=\"item458\" src=\"data/raresImg/items2/458.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/></dd> <dd>2x <img data-items=\"item465\" src=\"data/raresImg/items2/465.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\"/></dd> <dd>1x <img data-items=\"item121\" src=\"data/raresImg/items2/121.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 6x <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\"/></dd> <dd>1x <img data-items=\"item471\" src=\"data/raresImg/items/471.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200x <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/></dd> </dl>"
+     "html": "<span class=\"c-yellow\">Ты можешь переработать кое-что для меня?</span> <br><span class=\"c-cyan\">Мне нужны камни. [Треб. ур. 40]</span> <br><span class=\"c-yellow\">Происходит здесь чего интересного. [Треб. ур. 44]</span> <br>Добыть 1х <img data-items=\"item463\" src=\"data/raresImg/items/463.items.png\"/> и получить 150х <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/>. [Откат 60мин.] <br><span class=\"c-yellow\">А так в принципе, то кто ты вообще такой?. [Треб. ур. 55]</span> <br><dl> <dt>Переработка:</dt> <dd>10x <img data-items=\"item462\" src=\"data/raresImg/items2/462.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item113\" src=\"data/raresImg/items2/113.items2.png\"/></dd> <dd>10x <img data-items=\"item458\" src=\"data/raresImg/items2/458.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/></dd> <dd>2x <img data-items=\"item465\" src=\"data/raresImg/items2/465.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\"/></dd> <dd>1x <img data-items=\"item121\" src=\"data/raresImg/items2/121.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 6x <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\"/></dd> <dd>1x <img data-items=\"item471\" src=\"data/raresImg/items/471.items.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 200x <img data-items=\"item77\" src=\"data/raresImg/items/449.items.png\"/></dd> </dl>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": []
@@ -110,11 +110,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#e0d074\">Мне нужны  империалы.</span> <br><span style=\"color:#03B2F6\">Мне нужно много  железа. [Треб. ур. 40]</span> <br>Убить 2 группы врагов: <p> <img data-items=\"kholdvardr1accc\" src=\"data/raresImg/mobs/kholdvardr.moblogo.png\"/> <img data-items=\"khold1a\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> <img data-items=\"khold1ac\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> <img data-items=\"khold1ac\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> <img data-items=\"khold1ac\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> </p> <p> <img data-items=\"scoundrelarcher3acc\" src=\"data/raresImg/mobs2/scoundrel_archer3_a.moblogo2.png\"/> <img data-items=\"scoundrelarcher3acc\" src=\"data/raresImg/mobs2/scoundrel_archer3_a.moblogo2.png\"/> <img data-items=\"scoundrelArcher1ac\" src=\"data/raresImg/mobs/abrakonier.moblogo.png\"/> <img data-items=\"scoundrelArcher1ac\" src=\"data/raresImg/mobs/abrakonier.moblogo.png\"/> <img data-items=\"scoundrelArcher1ac\" src=\"data/raresImg/mobs/abrakonier.moblogo.png\"/> </p> и получить 200x <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\"/>. [Откат 60мин.] <br><dl> <dt>Покупка:</dt> <dd>25x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 125k <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd>25x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 3 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/></dd> <dd>250x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1.25kk <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd>250x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 30 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/></dd> <dd>1000x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5kk <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd>1000x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 120 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/></dd> </dl>"
+     "html": "<span class=\"c-yellow\">Мне нужны  империалы.</span> <br><span class=\"c-cyan\">Мне нужно много  железа. [Треб. ур. 40]</span> <br>Убить 2 группы врагов: <p> <img data-items=\"kholdvardr1accc\" src=\"data/raresImg/mobs/kholdvardr.moblogo.png\"/> <img data-items=\"khold1a\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> <img data-items=\"khold1ac\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> <img data-items=\"khold1ac\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> <img data-items=\"khold1ac\" src=\"data/raresImg/mobs/khold.moblogo.png\"/> </p> <p> <img data-items=\"scoundrelarcher3acc\" src=\"data/raresImg/mobs2/scoundrel_archer3_a.moblogo2.png\"/> <img data-items=\"scoundrelarcher3acc\" src=\"data/raresImg/mobs2/scoundrel_archer3_a.moblogo2.png\"/> <img data-items=\"scoundrelArcher1ac\" src=\"data/raresImg/mobs/abrakonier.moblogo.png\"/> <img data-items=\"scoundrelArcher1ac\" src=\"data/raresImg/mobs/abrakonier.moblogo.png\"/> <img data-items=\"scoundrelArcher1ac\" src=\"data/raresImg/mobs/abrakonier.moblogo.png\"/> </p> и получить 200x <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\"/>. [Откат 60мин.] <br><dl> <dt>Покупка:</dt> <dd>25x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 125k <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd>25x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 3 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/></dd> <dd>250x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1.25kk <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd>250x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 30 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/></dd> <dd>1000x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5kk <img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/></dd> <dd>1000x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 120 <img data-items=\"itemPlatinum\" src=\"data/raresImg/platinum.png\" title=\"Platinum\"/></dd> </dl>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": []
@@ -132,11 +132,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#e0d074\">Ты можешь обменять кое-что для меня?</span> <br><dl> <dt>Переработка:</dt> <dd>6x <img data-items=\"item459\" src=\"data/raresImg/items2/459.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 2x <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/></dd> <dd>5x <img data-items=\"item466\" src=\"data/raresImg/items2/466.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\"/></dd> <dd>5x <img data-items=\"item48\" src=\"data/raresImg/items2/48.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\"/></dd> <dd>4x <img data-items=\"item468\" src=\"data/raresImg/items2/468.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\"/></dd> </dl>"
+     "html": "<span class=\"c-yellow\">Ты можешь обменять кое-что для меня?</span> <br><dl> <dt>Переработка:</dt> <dd>6x <img data-items=\"item459\" src=\"data/raresImg/items2/459.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 2x <img data-items=\"item114\" src=\"data/raresImg/items2/114.items2.png\"/></dd> <dd>5x <img data-items=\"item466\" src=\"data/raresImg/items2/466.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"item115\" src=\"data/raresImg/items2/115.items2.png\"/></dd> <dd>5x <img data-items=\"item48\" src=\"data/raresImg/items2/48.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\"/></dd> <dd>4x <img data-items=\"item468\" src=\"data/raresImg/items2/468.items2.png\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 5x <img data-items=\"item116\" src=\"data/raresImg/items2/116.items2.png\"/></dd> </dl>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m221\">Владения Ландау</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m221\"><b>Владения Ландау</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m221\"><b>Владения Ландау</b></span></small></li></ul>"
     }
    ],
    "backrefs": []
@@ -154,11 +154,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#e0d074\">Переделать большие фляги на меньшие...</span> <br><dl> <dt>Обмен:</dt> <dd>1x <img data-items=\"itemSflyagi\" src=\"data/raresImg/items/sflyagi.items.png\"/> + 1x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"itemMflyagi\" src=\"data/raresImg/items/mflyagi.items.png\"/></dd> <dd>1x <img data-items=\"itemBflyagi\" src=\"data/raresImg/items/bflyagi.items.png\"/> + 1x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"itemSflyagi\" src=\"data/raresImg/items/sflyagi.items.png\"/></dd> <dd>1x <img data-items=\"itemGflyagi\" src=\"data/raresImg/items/gflyagi.items.png\"/> + 1x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"itemBflyagi\" src=\"data/raresImg/items/bflyagi.items.png\"/></dd> </dl> <br><span style=\"color:red\">Появление примерно в указанных зонах.</span>"
+     "html": "<span class=\"c-yellow\">Переделать большие фляги на меньшие...</span> <br><dl> <dt>Обмен:</dt> <dd>1x <img data-items=\"itemSflyagi\" src=\"data/raresImg/items/sflyagi.items.png\"/> + 1x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"itemMflyagi\" src=\"data/raresImg/items/mflyagi.items.png\"/></dd> <dd>1x <img data-items=\"itemBflyagi\" src=\"data/raresImg/items/bflyagi.items.png\"/> + 1x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"itemSflyagi\" src=\"data/raresImg/items/sflyagi.items.png\"/></dd> <dd>1x <img data-items=\"itemGflyagi\" src=\"data/raresImg/items/gflyagi.items.png\"/> + 1x <img data-items=\"item679\" src=\"data/raresImg/items/679.items.png\" title=\"Emperor\"/> <img src=\"data/raresImg/icons/arrowxchange.png\"/> 1x <img data-items=\"itemBflyagi\" src=\"data/raresImg/items/bflyagi.items.png\"/></dd> </dl> <br><span class=\"c-red\">Появление примерно в указанных зонах.</span>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m211\">Деревня друидов</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m252\">Перекресток</span>, <span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li><li><span data-maps=\"m211\"><b>Деревня друидов</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m211\"><b>Деревня друидов</b></span></small></li><li><span data-maps=\"m220\"><b>Распутье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\"><b>Распутье</b></span></small></li><li><span data-maps=\"m252\"><b>Перекресток</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m252\"><b>Перекресток</b></span></small></li><li><span data-maps=\"m289\"><b>Лес Колдов</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m289\"><b>Лес Колдов</b></span></small></li></ul>"
     }
    ],
    "backrefs": []
@@ -176,7 +176,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>, <span data-maps=\"m171\">Жилища</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m171\"><b>Жилища</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m170\">Жилища</span> → <span data-maps=\"m171\"><b>Жилища</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -211,7 +211,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -246,7 +246,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     }
    ]
   },
@@ -267,7 +267,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -292,7 +292,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     }
    ]
   },
@@ -309,7 +309,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -344,7 +344,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li></ul>"
     }
    ]
   },
@@ -361,7 +361,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -378,7 +378,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -395,7 +395,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -412,7 +412,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m90\">Плато Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m90\"><b>Плато Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -437,7 +437,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m90\">Плато Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m90\"><b>Плато Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -462,7 +462,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m90\">Плато Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m90\"><b>Плато Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -487,7 +487,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>, <span data-maps=\"m171\">Жилища</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m171\"><b>Жилища</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m170\">Жилища</span> → <span data-maps=\"m171\"><b>Жилища</b></span></small></li></ul>"
     }
    ]
   },
@@ -504,11 +504,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:red\">НПС в Гарнизоне перемещаются</span>"
+     "html": "<span class=\"c-red\">НПС в Гарнизоне перемещаются</span>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>, <span data-maps=\"m171\">Жилища</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m171\"><b>Жилища</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m170\">Жилища</span> → <span data-maps=\"m171\"><b>Жилища</b></span></small></li></ul>"
     }
    ]
   },
@@ -525,7 +525,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m168\">Башня</span>, <span data-maps=\"m169\">Башня</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m169\"><b>Башня</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m168\">Башня</span> → <span data-maps=\"m169\"><b>Башня</b></span></small></li></ul>"
     }
    ]
   },
@@ -542,7 +542,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m181\">Комната Берера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m181\"><b>Комната Берера</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m181\"><b>Комната Берера</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -569,7 +569,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>, <span data-maps=\"m236\">Устричный Залив</span>, <span data-maps=\"m273\">Таверна под Пиком</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>, <span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m235\"><b>Корчма у Лезгара</b></span></li><li><span data-maps=\"m236\"><b>Устричный Залив</b></span></li><li><span data-maps=\"m273\"><b>Таверна под Пиком</b></span></li><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></li><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -594,7 +594,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -619,7 +619,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m278\">Дом Стасика</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li><li><span data-maps=\"m278\"><b>Дом Стасика</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m278\"><b>Дом Стасика</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -645,7 +645,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -692,11 +692,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:red\">Появление примерно в указанных зонах.</span>"
+     "html": "<span class=\"c-red\">Появление примерно в указанных зонах.</span>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m35\">Лес Орков</span>, <span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m79\">Пещера у орков</span>, <span data-maps=\"m80\">Пещера у орков</span>, <span data-maps=\"m90\">Плато Дмортер</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li><li><span data-maps=\"m35\"><b>Лес Орков</b></span></li><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li><li><span data-maps=\"m80\"><b>Пещера у орков</b></span> <small>— путь: <span data-maps=\"m35\">Лес Орков</span> → <span data-maps=\"m79\">Пещера у орков</span> → <span data-maps=\"m80\"><b>Пещера у орков</b></span></small></li><li><span data-maps=\"m90\"><b>Плато Дмортер</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -735,7 +735,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m424\">Пустошь Хвара</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m424\"><b>Пустошь Хвара</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -761,11 +761,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:#3F9CE7\">\"Хвартитовая руда\" [ур. 90]</span> <br><dl> <dt>Награда:</dt> <dd>Опыт игроку - <span style=\"color:#ebeba7\">50к</span></dd> <dd>Эссенция <img data-items=\"item268\" src=\"data/raresImg/items/268.items.png\"/> - 10х</dd> </dl>"
+     "html": "<span class=\"c-blue\">\"Хвартитовая руда\" [ур. 90]</span> <br><dl> <dt>Награда:</dt> <dd>Опыт игроку - <span class=\"c-yellow\">50к</span></dd> <dd>Эссенция <img data-items=\"item268\" src=\"data/raresImg/items/268.items.png\"/> - 10х</dd> </dl>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m424\">Пустошь Хвара</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m424\"><b>Пустошь Хвара</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -790,7 +790,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m120\">Вымершее поселение</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m120\"><b>Вымершее поселение</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -825,7 +825,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m104\"><b>Порт</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m104\"><b>Порт</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -862,7 +862,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -897,7 +897,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -932,7 +932,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m211\"><b>Деревня друидов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -967,7 +967,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m235\"><b>Корчма у Лезгара</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m235\"><b>Корчма у Лезгара</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1002,7 +1002,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m97\">Владения Дарко Гнарла</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m97\"><b>Владения Дарко Гнарла</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m97\"><b>Владения Дарко Гнарла</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1037,7 +1037,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1072,7 +1072,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m73\">Святилище Камня</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m73\"><b>Святилище Камня</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m73\"><b>Святилище Камня</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1107,7 +1107,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1142,7 +1142,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m170\">Жилища</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m170\"><b>Жилища</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m170\"><b>Жилища</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1177,7 +1177,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m102\">Рыбацкая Деревня</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m102\"><b>Рыбацкая Деревня</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1218,7 +1218,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m211\"><b>Деревня друидов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1261,7 +1261,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li></ul>"
     }
    ]
   },
@@ -1278,7 +1278,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>, <span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li><li><span data-maps=\"m165\"><b>Гарнизон Дмортер</b></span></li><li><span data-maps=\"m209\"><b>Аларил</b></span></li><li><span data-maps=\"m267\"><b>Беирн</b></span></li><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></li><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -1299,7 +1299,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m272\">Дом травницы</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m272\"><b>Дом травницы</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m272\"><b>Дом травницы</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1333,7 +1333,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m276\">Дом Солтыса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m276\"><b>Дом Солтыса</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m276\"><b>Дом Солтыса</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1374,7 +1374,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m228\">Уступ</span>, <span data-maps=\"m260\">Нора двеиров</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m260\"><b>Нора двеиров</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m228\">Уступ</span> → <span data-maps=\"m260\"><b>Нора двеиров</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1408,7 +1408,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m211\"><b>Деревня друидов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1434,7 +1434,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m211\"><b>Деревня друидов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1461,7 +1461,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m211\"><b>Деревня друидов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1497,7 +1497,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m211\">Деревня друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m211\"><b>Деревня друидов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1528,11 +1528,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:red\">Появление примерно в указанных зонах.</span>"
+     "html": "<span class=\"c-red\">Появление примерно в указанных зонах.</span>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m13\">Пещеры под Границей</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m222\">Побережье</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m13\"><b>Пещеры под Границей</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m13\"><b>Пещеры под Границей</b></span></small></li><li><span data-maps=\"m209\"><b>Аларил</b></span></li><li><span data-maps=\"m220\"><b>Распутье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\"><b>Распутье</b></span></small></li><li><span data-maps=\"m222\"><b>Побережье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m222\"><b>Побережье</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1557,7 +1557,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li></ul>"
     }
    ]
   },
@@ -1574,7 +1574,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1599,7 +1599,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m235\"><b>Корчма у Лезгара</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m235\"><b>Корчма у Лезгара</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1626,7 +1626,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m235\"><b>Корчма у Лезгара</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m235\"><b>Корчма у Лезгара</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1651,7 +1651,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m235\">Корчма у Лезгара</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m235\"><b>Корчма у Лезгара</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m235\"><b>Корчма у Лезгара</b></span></small></li></ul>"
     }
    ]
   },
@@ -1668,7 +1668,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m220\"><b>Распутье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\"><b>Распутье</b></span></small></li></ul>"
     }
    ]
   },
@@ -1685,7 +1685,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m220\"><b>Распутье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\"><b>Распутье</b></span></small></li><li><span data-maps=\"m289\"><b>Лес Колдов</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m289\"><b>Лес Колдов</b></span></small></li></ul>"
     }
    ]
   },
@@ -1702,7 +1702,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m221\">Владения Ландау</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m221\"><b>Владения Ландау</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m221\"><b>Владения Ландау</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1727,7 +1727,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m220\">Распутье</span>, <span data-maps=\"m221\">Владения Ландау</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m221\"><b>Владения Ландау</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m220\">Распутье</span> → <span data-maps=\"m221\"><b>Владения Ландау</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1765,7 +1765,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>, <span data-maps=\"m128\">Болота</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m128\"><b>Болота</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m103\">Приселок Трентиса</span> → <span data-maps=\"m128\"><b>Болота</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1796,7 +1796,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>, <span data-maps=\"m128\">Болота</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m128\"><b>Болота</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m103\">Приселок Трентиса</span> → <span data-maps=\"m128\"><b>Болота</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1827,7 +1827,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m120\">Вымершее поселение</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m120\"><b>Вымершее поселение</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m120\"><b>Вымершее поселение</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1852,7 +1852,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -1869,7 +1869,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m60\">Домик друидов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m60\"><b>Домик друидов</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m60\"><b>Домик друидов</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -1900,7 +1900,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -1917,7 +1917,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1942,7 +1942,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m97\">Владения Дарко Гнарла</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m97\"><b>Владения Дарко Гнарла</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m97\"><b>Владения Дарко Гнарла</b></span></small></li></ul>"
     }
    ]
   },
@@ -1959,7 +1959,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m35\">Лес Орков</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m35\"><b>Лес Орков</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -1985,7 +1985,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>, <span data-maps=\"m133\">Посад</span>, <span data-maps=\"m33\">Болото</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m133\"><b>Посад</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m103\">Приселок Трентиса</span> → <span data-maps=\"m133\"><b>Посад</b></span></small></li><li><span data-maps=\"m33\"><b>Болото</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m103\">Приселок Трентиса</span> → <span data-maps=\"m133\">Посад</span> → <span data-maps=\"m33\"><b>Болото</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2010,7 +2010,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m118\">Ратуша</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m118\"><b>Ратуша</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m118\"><b>Ратуша</b></span></small></li></ul>"
     }
    ]
   },
@@ -2027,7 +2027,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m118\">Ратуша</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m118\"><b>Ратуша</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m118\"><b>Ратуша</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2052,7 +2052,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m66\">Нижний Кеменак</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m66\"><b>Нижний Кеменак</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m66\"><b>Нижний Кеменак</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2078,7 +2078,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>, <span data-maps=\"m274\">Таверна под Пиком</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m274\"><b>Таверна под Пиком</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m273\">Таверна под Пиком</span> → <span data-maps=\"m274\"><b>Таверна под Пиком</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2107,7 +2107,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>, <span data-maps=\"m274\">Таверна под Пиком</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m274\"><b>Таверна под Пиком</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m273\">Таверна под Пиком</span> → <span data-maps=\"m274\"><b>Таверна под Пиком</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2135,7 +2135,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m267\"><b>Беирн</b></span></li><li><span data-maps=\"m273\"><b>Таверна под Пиком</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m273\"><b>Таверна под Пиком</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2160,7 +2160,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m273\">Таверна под Пиком</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m273\"><b>Таверна под Пиком</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m273\"><b>Таверна под Пиком</b></span></small></li></ul>"
     }
    ]
   },
@@ -2177,7 +2177,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m279\"><b>Склон</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\"><b>Склон</b></span></small></li></ul>"
     }
    ]
   },
@@ -2194,7 +2194,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m279\"><b>Склон</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\"><b>Склон</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2219,7 +2219,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m182\">Внутренний двор Харблуда</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m182\"><b>Внутренний двор Харблуда</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m167\">Замерзшее Озеро</span> → <span data-maps=\"m182\"><b>Внутренний двор Харблуда</b></span></small></li></ul>"
     }
    ]
   },
@@ -2236,7 +2236,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m183\">Бандитское логово</span>, <span data-maps=\"m184\">Чертоги Эвринтов</span>, <span data-maps=\"m185\">Чертоги Эвринтов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m185\"><b>Чертоги Эвринтов</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m167\">Замерзшее Озеро</span> → <span data-maps=\"m183\">Бандитское логово</span> → <span data-maps=\"m184\">Чертоги Эвринтов</span> → <span data-maps=\"m185\"><b>Чертоги Эвринтов</b></span></small></li></ul>"
     }
    ]
   },
@@ -2253,7 +2253,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m183\">Бандитское логово</span>, <span data-maps=\"m184\">Чертоги Эвринтов</span>, <span data-maps=\"m185\">Чертоги Эвринтов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m185\"><b>Чертоги Эвринтов</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m167\">Замерзшее Озеро</span> → <span data-maps=\"m183\">Бандитское логово</span> → <span data-maps=\"m184\">Чертоги Эвринтов</span> → <span data-maps=\"m185\"><b>Чертоги Эвринтов</b></span></small></li></ul>"
     }
    ]
   },
@@ -2270,7 +2270,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m167\">Замерзшее Озеро</span>, <span data-maps=\"m183\">Бандитское логово</span>, <span data-maps=\"m184\">Чертоги Эвринтов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m184\"><b>Чертоги Эвринтов</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m167\">Замерзшее Озеро</span> → <span data-maps=\"m183\">Бандитское логово</span> → <span data-maps=\"m184\"><b>Чертоги Эвринтов</b></span></small></li></ul>"
     }
    ]
   },
@@ -2287,7 +2287,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -2313,7 +2313,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -2338,7 +2338,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -2377,7 +2377,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m289\"><b>Лес Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -2394,7 +2394,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m289\">Лес Колдов</span>, <span data-maps=\"m57\">Медвежья пещера</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m57\"><b>Медвежья пещера</b></span> <small>— путь: <span data-maps=\"m289\">Лес Колдов</span> → <span data-maps=\"m57\"><b>Медвежья пещера</b></span></small></li></ul>"
     }
    ]
   },
@@ -2411,7 +2411,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m222\"><b>Побережье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m222\"><b>Побережье</b></span></small></li></ul>"
     }
    ]
   },
@@ -2428,7 +2428,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m222\"><b>Побережье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m222\"><b>Побережье</b></span></small></li></ul>"
     }
    ]
   },
@@ -2445,7 +2445,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m222\"><b>Побережье</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m222\"><b>Побережье</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2471,7 +2471,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m11\">Маяк</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m11\"><b>Маяк</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m222\">Побережье</span> → <span data-maps=\"m11\"><b>Маяк</b></span></small></li></ul>"
     }
    ]
   },
@@ -2488,7 +2488,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m222\">Побережье</span>, <span data-maps=\"m236\">Устричный Залив</span>, <span data-maps=\"m237\">Домик на пляже</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m237\"><b>Домик на пляже</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m222\">Побережье</span> → <span data-maps=\"m236\">Устричный Залив</span> → <span data-maps=\"m237\"><b>Домик на пляже</b></span></small></li></ul>"
     }
    ]
   },
@@ -2505,7 +2505,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     }
    ]
   },
@@ -2522,7 +2522,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m103\"><b>Приселок Трентиса</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m103\"><b>Приселок Трентиса</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2559,7 +2559,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m103\"><b>Приселок Трентиса</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m103\"><b>Приселок Трентиса</b></span></small></li></ul>"
     }
    ]
   },
@@ -2576,7 +2576,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m103\">Приселок Трентиса</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m103\"><b>Приселок Трентиса</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m103\"><b>Приселок Трентиса</b></span></small></li></ul>"
     }
    ]
   },
@@ -2593,7 +2593,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m70\"><b>Под Золотым Поросенком</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m70\"><b>Под Золотым Поросенком</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2618,7 +2618,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m70\"><b>Под Золотым Поросенком</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m70\"><b>Под Золотым Поросенком</b></span></small></li></ul>"
     }
    ]
   },
@@ -2635,7 +2635,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m70\"><b>Под Золотым Поросенком</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m70\"><b>Под Золотым Поросенком</b></span></small></li></ul>"
     }
    ]
   },
@@ -2652,7 +2652,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -2677,7 +2677,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m70\">Под Золотым Поросенком</span>, <span data-maps=\"m140\">Дом наслаждений</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m140\"><b>Дом наслаждений</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m70\">Под Золотым Поросенком</span> → <span data-maps=\"m140\"><b>Дом наслаждений</b></span></small></li></ul>"
     }
    ]
   },
@@ -2694,7 +2694,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     }
    ]
   },
@@ -2711,7 +2711,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m358\">Госпиталь</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m358\"><b>Госпиталь</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m358\"><b>Госпиталь</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2749,7 +2749,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -2775,7 +2775,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     }
    ]
   },
@@ -2792,7 +2792,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li></ul>"
     }
    ]
   },
@@ -2809,7 +2809,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li></ul>"
     }
    ]
   },
@@ -2826,7 +2826,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -2856,7 +2856,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m209\"><b>Аларил</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -2882,7 +2882,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m252\">Перекресток</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m252\"><b>Перекресток</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m252\"><b>Перекресток</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2910,7 +2910,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m66\">Нижний Кеменак</span>, <span data-maps=\"m68\">Администрация шахты</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m68\"><b>Администрация шахты</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m66\">Нижний Кеменак</span> → <span data-maps=\"m68\"><b>Администрация шахты</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2935,7 +2935,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m69\">Чертоги стражи</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m69\"><b>Чертоги стражи</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m69\"><b>Чертоги стражи</b></span></small></li></ul>"
     }
    ]
   },
@@ -2952,7 +2952,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></small></li></ul>"
     }
    ]
   },
@@ -2969,7 +2969,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -2994,7 +2994,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></small></li></ul>"
     }
    ]
   },
@@ -3011,7 +3011,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -3036,7 +3036,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></small></li></ul>"
     }
    ]
   },
@@ -3053,7 +3053,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>, <span data-maps=\"m426\">Штаб Варника</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m426\"><b>Штаб Варника</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m359\">Штаб Оставшихся</span> → <span data-maps=\"m426\"><b>Штаб Варника</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -3084,7 +3084,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>, <span data-maps=\"m359\">Штаб Оставшихся</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m359\"><b>Штаб Оставшихся</b></span> <small>— путь: <span data-maps=\"m382\">Университетская Талия</span> → <span data-maps=\"m359\"><b>Штаб Оставшихся</b></span></small></li></ul>"
     }
    ]
   },
@@ -3101,7 +3101,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m382\">Университетская Талия</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m382\"><b>Университетская Талия</b></span></li></ul>"
     }
    ]
   },
@@ -3122,7 +3122,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m209\">Аларил</span>, <span data-maps=\"m14\">Пещеры под Башнями</span>, <span data-maps=\"m12\">Пещеры под Топями</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m12\"><b>Пещеры под Топями</b></span> <small>— путь: <span data-maps=\"m209\">Аларил</span> → <span data-maps=\"m14\">Пещеры под Башнями</span> → <span data-maps=\"m12\"><b>Пещеры под Топями</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -3147,7 +3147,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m267\">Беирн</span>, <span data-maps=\"m279\">Склон</span>, <span data-maps=\"m287\">Пещера великанов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m287\"><b>Пещера великанов</b></span> <small>— путь: <span data-maps=\"m267\">Беирн</span> → <span data-maps=\"m279\">Склон</span> → <span data-maps=\"m287\"><b>Пещера великанов</b></span></small></li></ul>"
     }
    ]
   },
@@ -3164,11 +3164,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "<span style=\"color:red\">НПС перемещается в указанной зоне</span>"
+     "html": "<span class=\"c-red\">НПС перемещается в указанной зоне</span>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m36\"><b>Горы Колдов</b></span></li></ul>"
     }
    ]
   },
@@ -3185,7 +3185,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m36\">Горы Колдов</span>, <span data-maps=\"m81\">Пещеры насекомых</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m81\"><b>Пещеры насекомых</b></span> <small>— путь: <span data-maps=\"m36\">Горы Колдов</span> → <span data-maps=\"m81\"><b>Пещеры насекомых</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -3210,7 +3210,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m120\">Вымершее поселение</span>, <span data-maps=\"m18\">Шахта</span>, <span data-maps=\"m19\">Шахта - коридор</span>, <span data-maps=\"m20\">Шахта - гробница</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m20\"><b>Шахта - гробница</b></span> <small>— путь: <span data-maps=\"m120\">Вымершее поселение</span> → <span data-maps=\"m18\">Шахта</span> → <span data-maps=\"m19\">Шахта - коридор</span> → <span data-maps=\"m20\"><b>Шахта - гробница</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -3242,7 +3242,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m121\">Разбойничий Лес</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m121\"><b>Разбойничий Лес</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -3271,7 +3271,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m101\"><b>Трентис</b></span></li></ul>"
     }
    ]
   },
@@ -3292,7 +3292,7 @@
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m104\"><b>Порт</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m104\"><b>Порт</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -3317,7 +3317,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m104\"><b>Порт</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m104\"><b>Порт</b></span></small></li></ul>"
     }
    ]
   },
@@ -3334,11 +3334,11 @@
    "blocks": [
     {
      "title": "Описание",
-     "html": "За 1<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/> перевозит на <span data-maps=\"m217\" style=\"color:#e0d074\">Дикий остров</span>"
+     "html": "За 1<img data-items=\"itemGold\" src=\"data/raresImg/gold.png\" title=\"Gold\"/> перевозит на <span class=\"c-yellow\" data-maps=\"m217\">Дикий остров</span>"
     },
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m101\">Трентис</span>, <span data-maps=\"m104\">Порт</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m104\"><b>Порт</b></span> <small>— путь: <span data-maps=\"m101\">Трентис</span> → <span data-maps=\"m104\"><b>Порт</b></span></small></li></ul>"
     }
    ]
   },
@@ -3355,7 +3355,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m165\">Гарнизон Дмортер</span>, <span data-maps=\"m172\">Пещера</span>, <span data-maps=\"m427\">Кузня Судьбы</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m427\"><b>Кузня Судьбы</b></span> <small>— путь: <span data-maps=\"m165\">Гарнизон Дмортер</span> → <span data-maps=\"m172\">Пещера</span> → <span data-maps=\"m427\"><b>Кузня Судьбы</b></span></small></li></ul>"
     }
    ],
    "backrefs": [
@@ -3380,7 +3380,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m465\">Монастырские земли</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m465\"><b>Монастырские земли</b></span></li></ul>"
     }
    ]
   },
@@ -3397,7 +3397,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m465\">Монастырские земли</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m465\"><b>Монастырские земли</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -3424,7 +3424,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m465\">Монастырские земли</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m465\"><b>Монастырские земли</b></span></li></ul>"
     }
    ],
    "backrefs": [
@@ -3450,7 +3450,7 @@
    "blocks": [
     {
      "title": "Где найти",
-     "html": "<span data-maps=\"m465\">Монастырские земли</span>"
+     "html": "<ul class=\"plain-list\"><li><span data-maps=\"m465\"><b>Монастырские земли</b></span></li></ul>"
     }
    ],
    "backrefs": [

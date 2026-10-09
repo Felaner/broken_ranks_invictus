@@ -85,7 +85,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Хуберта</span> <img data-items=\"facesHuberta\" src=\"data/raresImg/npc/facesHuberta.npc.png\" title=\"Хуберт\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Хуберта</span> <img data-items=\"facesHuberta\" src=\"data/raresImg/npc/facesHuberta.npc.png\" title=\"Хуберт\"/>"
     },
     {
      "title": "Навыки",
@@ -159,7 +159,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Годрева</span> <img data-items=\"godrewa\" src=\"data/raresImg/npc/godrewa.npc.png\" title=\"Годрев\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Годрева</span> <img data-items=\"godrewa\" src=\"data/raresImg/npc/godrewa.npc.png\" title=\"Годрев\"/>"
     },
     {
      "title": "Навыки",
@@ -229,7 +229,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Ведьмы Хёберль</span> <img data-items=\"wiedzmahoberla\" src=\"data/raresImg/npc/wiedzmahoberla.npc.png\" title=\"Ведьма Хёберль\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Ведьмы Хёберль</span> <img data-items=\"wiedzmahoberla\" src=\"data/raresImg/npc/wiedzmahoberla.npc.png\" title=\"Ведьма Хёберль\"/>"
     },
     {
      "title": "Навыки",
@@ -303,7 +303,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Хуберта</span> <img data-items=\"facesHuberta\" src=\"data/raresImg/npc/facesHuberta.npc.png\" title=\"Хуберт\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Хуберта</span> <img data-items=\"facesHuberta\" src=\"data/raresImg/npc/facesHuberta.npc.png\" title=\"Хуберт\"/>"
     },
     {
      "title": "Навыки",
@@ -377,7 +377,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Виолы</span> <img data-items=\"violaa\" src=\"data/raresImg/npc/violaa.npc.png\" title=\"Виола\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Виолы</span> <img data-items=\"violaa\" src=\"data/raresImg/npc/violaa.npc.png\" title=\"Виола\"/>"
     },
     {
      "title": "Навыки",
@@ -451,7 +451,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Виолы</span> <img data-items=\"violaa\" src=\"data/raresImg/npc/violaa.npc.png\" title=\"Виола\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Виолы</span> <img data-items=\"violaa\" src=\"data/raresImg/npc/violaa.npc.png\" title=\"Виола\"/>"
     },
     {
      "title": "Навыки",
@@ -529,11 +529,11 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
     },
     {
      "title": "Доп. бонус",
-     "html": "<span style=\"color:#1af0f3\">Повышенный шанс на <span style=\"color:#e06ec9\">двойные атаки</span> и <span style=\"color:#e06ec9\">попадание ментальными атаками</span>.</span>"
+     "html": "<span class=\"c-cyan\">Повышенный шанс на <span class=\"c-purple\">двойные атаки</span> и <span class=\"c-purple\">попадание ментальными атаками</span>.</span>"
     },
     {
      "title": "Навыки",
@@ -614,7 +614,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
     },
     {
      "title": "Навыки",
@@ -695,11 +695,11 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
     },
     {
      "title": "Доп. бонус",
-     "html": "<span style=\"color:#1af0f3\">Повышенный шанс на <span style=\"color:#e06ec9\">критические удары</span>.</span>"
+     "html": "<span class=\"c-cyan\">Повышенный шанс на <span class=\"c-purple\">критические удары</span>.</span>"
     },
     {
      "title": "Навыки",
@@ -780,7 +780,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Геремона</span> <img data-items=\"heremonaO\" src=\"data/raresImg/npc/heremonaG.npc.png\" title=\"Геремон\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Геремона</span> <img data-items=\"heremonaO\" src=\"data/raresImg/npc/heremonaG.npc.png\" title=\"Геремон\"/>"
     },
     {
      "title": "Навыки",
@@ -864,7 +864,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Азарии</span> <img data-items=\"azariaa\" src=\"data/raresImg/npc/azariaa.npc.png\" title=\"Азария\"/>"
     },
     {
      "title": "Навыки",
@@ -936,7 +936,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 1</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 1</span>"
     },
     {
      "title": "Выкуп",
@@ -1014,7 +1014,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 1</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 1</span>"
     },
     {
      "title": "Выкуп",
@@ -1092,7 +1092,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 1</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 1</span>"
     },
     {
      "title": "Выкуп",
@@ -1166,7 +1166,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 1</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 1</span>"
     },
     {
      "title": "Выкуп",
@@ -1244,7 +1244,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 1</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 1</span>"
     },
     {
      "title": "Выкуп",
@@ -1326,7 +1326,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 2</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 2</span>"
     },
     {
      "title": "Выкуп",
@@ -1404,7 +1404,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 2</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 2</span>"
     },
     {
      "title": "Выкуп",
@@ -1482,7 +1482,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 2</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 2</span>"
     },
     {
      "title": "Выкуп",
@@ -1560,7 +1560,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 2</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 2</span>"
     },
     {
      "title": "Выкуп",
@@ -1638,7 +1638,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 3</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 3</span>"
     },
     {
      "title": "Выкуп",
@@ -1712,7 +1712,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 3</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 3</span>"
     },
     {
      "title": "Выкуп",
@@ -1790,7 +1790,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 3</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 3</span>"
     },
     {
      "title": "Выкуп",
@@ -1868,7 +1868,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Клетке гильдий 3</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Клетке гильдий 3</span>"
     },
     {
      "title": "Выкуп",
@@ -1946,7 +1946,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Навыки",
@@ -2016,7 +2016,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Навыки",
@@ -2086,7 +2086,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Навыки",
@@ -2156,7 +2156,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
     },
     {
      "title": "Навыки",
@@ -2226,7 +2226,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Навыки",
@@ -2296,7 +2296,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
     },
     {
      "title": "Навыки",
@@ -2366,7 +2366,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
     },
     {
      "title": "Навыки",
@@ -2436,7 +2436,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается у <span style=\"color:#e0d074\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
+     "html": "Покупается у <span class=\"c-yellow\">Работорговца</span> <img data-items=\"facesHandlarzNiewolnikowa\" src=\"data/raresImg/npc/facesHandlarzNiewolnikowa.npc.png\" title=\"Работорговец\"/>"
     },
     {
      "title": "Навыки",
@@ -2506,7 +2506,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Покупается в <span style=\"color:#e0d074\">Деревне Романа <img data-items=\"roman1a\" src=\"data/raresImg/npc/roman1a.npc.png\" title=\"Роман\"/>, Мертвом поселении</span>"
+     "html": "Покупается в <span class=\"c-yellow\">Деревне Романа <img data-items=\"roman1a\" src=\"data/raresImg/npc/roman1a.npc.png\" title=\"Роман\"/>, Мертвом поселении</span>"
     },
     {
      "title": "Навыки",
@@ -2572,7 +2572,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Выкупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Выкупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Выкуп",
@@ -2622,7 +2622,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Выкупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Выкупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Выкуп",
@@ -2672,7 +2672,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Выкупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Выкупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Выкуп",
@@ -2722,7 +2722,7 @@
     },
     {
      "title": "Где взять",
-     "html": "Выкупается у <span style=\"color:#e0d074\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
+     "html": "Выкупается у <span class=\"c-yellow\">Дрессировщика Питера</span> <img data-items=\"facesTreserPitera\" src=\"data/raresImg/npc/facesTreserPitera.npc.png\" title=\"Дрессировщик Питер\"/>"
     },
     {
      "title": "Выкуп",
