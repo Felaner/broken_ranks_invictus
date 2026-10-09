@@ -228,13 +228,7 @@ class Recon:
         page.close()
 
 
-def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("sections", nargs="*", help=f"разделы: {', '.join(SECTIONS)} (по умолчанию все)")
-    ap.add_argument("--cats", type=int, default=40, help="сколько категорий кликать на странице")
-    ap.add_argument("--cards", type=int, default=3, help="сколько карточек открывать в каждой категории")
-    ap.add_argument("--subpages", type=int, default=3, help="сколько подстраниц-ссылок разведывать")
-    ap.add_argument("--wait", type=int, default=1200, help="пауза после клика, мс")
+def add_browser_args(ap):
     ap.add_argument("--headed", action="store_true", help="показать окно браузера")
     ap.add_argument("--browser", choices=["chromium", "chrome", "msedge", "firefox"], default="chromium",
                     help="chrome / msedge — установленный Google Chrome или Microsoft Edge; "
@@ -242,29 +236,44 @@ def main():
     ap.add_argument("--proxy", help="прокси, например http://127.0.0.1:8080 или socks5://127.0.0.1:1080")
     ap.add_argument("--no-doh", dest="doh", action="store_false",
                     help="Firefox: не включать DNS через HTTPS (Cloudflare)")
+
+
+def launch_browser(p, args):
+    launch = {"headless": not args.headed}
+    if args.proxy:
+        launch["proxy"] = {"server": args.proxy}
+    if args.browser == "firefox":
+        if args.doh:
+            # Как в обычном Firefox с «DNS через HTTPS»: помогает, если провайдер блокирует сайт через DNS.
+            launch["firefox_user_prefs"] = {
+                "network.trr.mode": 2,
+                "network.trr.uri": "https://mozilla.cloudflare-dns.com/dns-query",
+            }
+        browser = p.firefox.launch(**launch)
+    else:
+        if args.browser != "chromium":
+            launch["channel"] = args.browser
+        if os.environ.get("BR_CHROMIUM"):
+            launch["executable_path"] = os.environ["BR_CHROMIUM"]
+        browser = p.chromium.launch(**launch)
+    return browser
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("sections", nargs="*", help=f"разделы: {', '.join(SECTIONS)} (по умолчанию все)")
+    ap.add_argument("--cats", type=int, default=40, help="сколько категорий кликать на странице")
+    ap.add_argument("--cards", type=int, default=3, help="сколько карточек открывать в каждой категории")
+    ap.add_argument("--subpages", type=int, default=3, help="сколько подстраниц-ссылок разведывать")
+    ap.add_argument("--wait", type=int, default=1200, help="пауза после клика, мс")
+    add_browser_args(ap)
     args = ap.parse_args()
     unknown = set(args.sections) - set(SECTIONS)
     if unknown:
         ap.error(f"неизвестные разделы: {', '.join(sorted(unknown))}")
 
     with sync_playwright() as p:
-        launch = {"headless": not args.headed}
-        if args.proxy:
-            launch["proxy"] = {"server": args.proxy}
-        if args.browser == "firefox":
-            if args.doh:
-                # Как в обычном Firefox с «DNS через HTTPS»: помогает, если провайдер блокирует сайт через DNS.
-                launch["firefox_user_prefs"] = {
-                    "network.trr.mode": 2,
-                    "network.trr.uri": "https://mozilla.cloudflare-dns.com/dns-query",
-                }
-            browser = p.firefox.launch(**launch)
-        else:
-            if args.browser != "chromium":
-                launch["channel"] = args.browser
-            if os.environ.get("BR_CHROMIUM"):
-                launch["executable_path"] = os.environ["BR_CHROMIUM"]
-            browser = p.chromium.launch(**launch)
+        browser = launch_browser(p, args)
         rc = Recon(browser, args)
         for sid in args.sections or SECTIONS:
             print(f"== {sid}")
