@@ -739,8 +739,7 @@
   const SLOTS = [
     { id: "helmet", name: "Шлем", cats: ["helmets"] },
     { id: "amulet", name: "Амулет", cats: ["amulets"] },
-    { id: "bracers", name: "Наручи", cats: ["bracers"] },
-    { id: "gloves", name: "Перчатки", cats: ["gloves"] },
+    { id: "gloves", name: "Перчатки / наручи", cats: ["gloves", "bracers"] },
     { id: "ring1", name: "Кольцо", cats: ["rings"] },
     { id: "ring2", name: "Кольцо", cats: ["rings"] },
     { id: "offhand", name: "Щит", cats: ["shield", "sets"] },
@@ -760,8 +759,13 @@
   // Доля бонуса комплекта от числа надетых частей (по статье «Сеты»).
   const SET_SHARE = { 3: [0, 0, 0.4, 1], 4: [0, 0, 0.25, 0.5, 1], 5: [0, 0, 0.2, 0.4, 0.6, 1] };
 
+  // Модификаторы в процентах и их базовые значения (из окна игры: крит 2%, восстановление ресурсов 5%).
+  const PCT_MOD = /^(Шанс|Восстановление|Модификатор|Уменьшение|Получаемый|Расход|Вытягивание|Дополнительный урон)/i;
+  const MOD_BASE = { "Шанс критического удара": 2, "Восстановление маны": 5, "Восстановление выносливости": 5 };
+
   const emptyBuild = () => ({ cls: "", lvl: 1, base: {}, items: {} });
   let build = Object.assign(emptyBuild(), store.get("build", {}));
+  if (build.items.bracers) { build.items.gloves = build.items.gloves || build.items.bracers; delete build.items.bracers; }
   const saveBuild = () => store.set("build", build);
 
   const fnum = (e, label) => {
@@ -806,11 +810,17 @@
     const total = {}, fromItems = {}, mods = new Map(), res = {};
     for (const [label, key] of BASE_STATS) total[label] = num(build.base[key]) || 0;
     const addMod = (name, val, pct, k = 1) => {
-      const v = k < 1 ? Math.floor(val * k) : val * k;
-      if (!pct && name in total) { total[name] += v; fromItems[name] = (fromItems[name] || 0) + v; return; }
-      const key = name + (pct ? " %" : "");
-      mods.set(key, (mods.get(key) || 0) + v);
+      if (!pct && name in total) {
+        // Характеристики игра округляет вниз (Сила +8 × 40% = +3), проценты — нет.
+        const v = Math.floor(val * k);
+        total[name] += v;
+        fromItems[name] = (fromItems[name] || 0) + v;
+        return;
+      }
+      const key = name + (pct || PCT_MOD.test(name) ? " %" : "");
+      mods.set(key, (mods.get(key) || 0) + val * k);
     };
+    for (const [name, v] of Object.entries(MOD_BASE)) mods.set(name + " %", v);
     for (const [label] of RESISTS) res[label] = 0;
     let weaponDmg = 0;
     for (const [slot, e] of items) {
@@ -821,7 +831,9 @@
       }
       for (const [label] of RESISTS) res[label] += fnum(e, label);
       if (slot.id === "weapon") weaponDmg = fnum(e, "Урон");
-      for (const b of e.blocks) if (b.title === "Модификаторы") for (const [n, v, p] of parseMods(b.html)) addMod(n, v, p);
+      // У частей комплекта блок «Модификаторы» — это бонус всего комплекта, он считается ниже.
+      const inKit = e.blocks.some(b => b.title === "Комплект");
+      if (!inKit) for (const b of e.blocks) if (b.title === "Модификаторы") for (const [n, v, p] of parseMods(b.html)) addMod(n, v, p);
     }
     // Комплекты.
     const equippedIds = new Set(items.map(([, e]) => e.id));
@@ -917,7 +929,8 @@
         <td class="pct">${p > 82 ? "≈" : ""}${fmtN(Math.round(pct * 100) / 100)}%</td></tr>`;
     }).join("");
     const modRows = [...r.mods.entries()].sort((a, b) => a[0].localeCompare(b[0], "ru"))
-      .map(([k, v]) => `<li>${esc(k.replace(/ %$/, ""))} <b>${v > 0 ? "+" : ""}${fmtN(v)}${k.endsWith(" %") ? "%" : ""}</b></li>`).join("");
+      .map(([k, v]) => `<li>${esc(k.replace(/ %$/, ""))}${MOD_BASE[k.replace(/ %$/, "")] != null ? "*" : ""}
+        <b>${v > 0 ? "+" : ""}${fmtN(v)}${k.endsWith(" %") ? "%" : ""}</b></li>`).join("");
     const setRows = r.sets.map(s => `<li><a href="${entryHref(s.kit)}">${esc(s.kit.name)}</a> — ${s.have}/${s.total},
         бонус ${Math.round(s.share * 100)}%</li>`).join("");
 
@@ -958,7 +971,8 @@
           <h3>Комплекты</h3>
           ${setRows ? `<ul class="b-list">${setRows}</ul>` : `<p class="muted small">Нет надетых частей комплектов.</p>`}
           <h3>Модификаторы</h3>
-          ${modRows ? `<ul class="b-list">${modRows}</ul>` : `<p class="muted small">Нет модификаторов.</p>`}
+          <ul class="b-list">${modRows}</ul>
+          <p class="muted small">* с учётом базового значения (крит 2%, восстановление ресурсов в бою 5%).</p>
           <h3>Прочее</h3>
           <ul class="b-list">
             <li>Урон оружия <b>${fmtN(r.weaponDmg)}</b></li>
