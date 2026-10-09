@@ -75,7 +75,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 1200 Kondycja : 800"
+     "Уровень: 35, ранг: 3, здоровье: 1100, мана: 1200, выносливость: 800"
     ]
    ],
    "blocks": [
@@ -101,7 +101,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Kruk.png\"/></span></span> </td><td colspan=\"2\">Klasyczny kruk. Wyszkolony przez najlepsze wiedźmy. Nikt nie opędzi się przed czarną mocą jego skrzydeł ani nie uchowa przed złowieszczym spojrzeniem. <p><br/> <b>Атакует ментально.</b> </p><p><b>Использует</b>: Игла в глаз, Мистицизм, Боевой клич, Укол куклы. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Kruk.png\"/></span></span> </td><td colspan=\"2\">Классический ворон, обученный лучшими ведьмами. Никто не отобьётся от чёрной силы его крыльев и не укроется от зловещего взгляда. <p><br/> <b>Атакует ментально.</b> </p><p><b>Использует</b>: Игла в глаз, Мистицизм, Боевой клич, Укол куклы. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -150,7 +150,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 7 Ranga : 1 Punkty życia : 350 Mana : 350 Kondycja : 650"
+     "Уровень: 7, ранг: 1, здоровье: 350, мана: 350, выносливость: 650"
     ]
    ],
    "blocks": [
@@ -221,7 +221,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 22 Ranga : 2 Punkty życia : 700 Mana : 400 Kondycja : 600"
+     "Уровень: 22, ранг: 2, здоровье: 700, мана: 400, выносливость: 600"
     ]
    ],
    "blocks": [
@@ -243,11 +243,11 @@
     },
     {
      "title": "Доп. информация",
-     "html": "<b>Требуемый уровень</b>: 22 <p><b>Цена</b>: <span style=\"color:#ffd700\">6 000  золота</span> </p><p><b>Покупка</b>: у Ведьмы Хоберль на <span data-items=\"wb_bagna\">Болоте</span> </p><p>Możliwość otrzymania w trakcie zadania głównego \"Zielona Granica\" </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
+     "html": "<b>Требуемый уровень</b>: 22 <p><b>Цена</b>: <span style=\"color:#ffd700\">6 000  золота</span> </p><p><b>Покупка</b>: у Ведьмы Хоберль на <span data-items=\"wb_bagna\">Болоте</span> </p><p>Можно получить во время основного задания «Зелёная граница» </p><p>Может получать опыт — <span style=\"color:#5db42b\"><b>ДА</b></span> </p>"
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/18/Nietoperz.png\"/></span></span> </td><td colspan=\"2\">Niepozorny gacek, który potrafi pomóc w walce. Swoimi kłami przegryzie skórę ofiary, wywołując krwawienie, może również zakazić ranę. Potrafi zadać dodatkowe obrażenia falami dźwiękowymi. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Звуковая волна, Укус, Заражение. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/18/Nietoperz.png\"/></span></span> </td><td colspan=\"2\">Неприметная летучая мышка, которая умеет помочь в бою. Прокусывает кожу жертвы, вызывая кровотечение, и может заразить рану. Наносит дополнительный урон звуковыми волнами. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Звуковая волна, Укус, Заражение. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -296,7 +296,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
+     "Уровень: 35, ранг: 3, здоровье: 1200, мана: 800, выносливость: 1200"
     ]
    ],
    "blocks": [
@@ -322,7 +322,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Bia%C5%82y_Ogar.png\"/></span></span> </td><td colspan=\"2\">Biały ogar to uniwersalny pies myśliwski. Dopada ofiarę i zaciska szczęki na jej szyi. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Bia%C5%82y_Ogar.png\"/></span></span> </td><td colspan=\"2\">Белый ог — универсальный охотничий пёс. Настигает жертву и смыкает челюсти на её шее. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -371,7 +371,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
+     "Уровень: 35, ранг: 3, здоровье: 1200, мана: 800, выносливость: 1200"
     ]
    ],
    "blocks": [
@@ -397,7 +397,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/ac/Czarny_Ogar.png\"/></span></span> </td><td colspan=\"2\">Czarny ogar to uniwersalny pies myśliwski, prawie jak biały ogar. Dopada ofiarę i rozszarpuje na strzępy. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/ac/Czarny_Ogar.png\"/></span></span> </td><td colspan=\"2\">Чёрный ог — универсальный охотничий пёс, почти как белый ог. Настигает жертву и рвёт её в клочья. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Транс, Боевой клич, Рёв, Укус. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -446,7 +446,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 800 Kondycja : 1200"
+     "Уровень: 35, ранг: 3, здоровье: 1100, мана: 800, выносливость: 1200"
     ]
    ],
    "blocks": [
@@ -472,7 +472,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Ярость, Твоя старуха, Боевой клич, Бросок камнем. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Необычный зверь прямо с тропических островов. Необычно дрессированный. Необычно смелый. И красивый по-своему. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Ярость, Твоя старуха, Боевой клич, Бросок камнем. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -521,7 +521,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 1900 Mana : 1200 Kondycja : 1300"
+     "Уровень: 65, ранг: 5, здоровье: 1900, мана: 1200, выносливость: 1300"
     ]
    ],
    "blocks": [
@@ -607,7 +607,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1500 Kondycja : 1100"
+     "Уровень: 65, ранг: 5, здоровье: 1800, мана: 1500, выносливость: 1100"
     ]
    ],
    "blocks": [
@@ -637,7 +637,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Атакует физически, издалека, ментально.</b> </p><p><b>Преобладают атаки по площади.</b> </p><p><b>Использует</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Водный элементаль, который больше, чем просто вода. Его сила — огонь, земля, энергия, лёд и пространство, где он может бушевать всеми своими стихиями. <p><br/> <b>Атакует физически, издалека, ментально.</b> </p><p><b>Преобладают атаки по площади.</b> </p><p><b>Использует</b>: Аура тени, Огненный дождь, Групповая зевота, Град, Ледяной снаряд, Магическая искра, Шаровая молния, Энергетические разряды, Буря, Высасывание души, Групповая аура холода. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -689,7 +689,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1100 Kondycja : 1300"
+     "Уровень: 65, ранг: 5, здоровье: 2000, мана: 1100, выносливость: 1300"
     ]
    ],
    "blocks": [
@@ -723,7 +723,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/97/Era.png\"/></span></span> </td><td colspan=\"2\">Stworzona z wody, pełną mocą tego żywiołu zniszczy wszystko, co stanie jej na drodze. Ogłuszy i ukatrupi, wiernie wspomagając swojego pana w walce. Żywiołak, który wysysa życie i ma większą szansę na atak krytyczny. <p><br/> <b>Атакует физически, издалека, ментально</b> </p><p><b>Использует</b>: Front kick, Haduoken, Krytyczne uderzenie, Ogłuszenie, Penetrujące uderzenie, Poświęcenie, Potężne uderzenie, Ryk, Trans, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/97/Era.png\"/></span></span> </td><td colspan=\"2\">Созданная из воды, она всей мощью этой стихии сокрушит всё на своём пути. Оглушит и прикончит, верно помогая хозяину в бою. Элементаль, который высасывает жизнь и чаще наносит критические удары. <p><br/> <b>Атакует физически, издалека, ментально</b> </p><p><b>Использует</b>: Фронт-кик, Хадукен, Критический удар, Оглушение, Пробивающий удар, Самопожертвование, Мощный удар, Рёв, Транс, Обычная атака. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -775,7 +775,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 1700 Mana : 1000 Kondycja : 700"
+     "Уровень: 65, ранг: 5, здоровье: 1700, мана: 1000, выносливость: 700"
     ]
    ],
    "blocks": [
@@ -805,7 +805,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Атакует физически, ментально</b> </p><p><b>Использует</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Хохграт — разумное растение, созданное магией жизни. Сражается неохотно, но умеет поддерживать спутников иначе. <p><br/> <b>Атакует физически, ментально</b> </p><p><b>Использует</b>: Мистицизм, Удар, Природная стойкость, Аура чистоты, Источник природы, Лечение. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -860,7 +860,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 30 Ranga : 2 Punkty życia : 780 Mana : 700 Kondycja : 1300"
+     "Уровень: 30, ранг: 2, здоровье: 780, мана: 700, выносливость: 1300"
     ]
    ],
    "blocks": [
@@ -937,7 +937,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 50 Ranga : 4 Punkty życia : 1350 Mana : 800 Kondycja : 1200"
+     "Уровень: 50, ранг: 4, здоровье: 1350, мана: 800, выносливость: 1200"
     ]
    ],
    "blocks": [
@@ -967,7 +967,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Hiena.png\"/></span></span> </td><td colspan=\"2\">Hiena okalecza swoje ofiary w wyjątkowo paskudny sposób, sprawiając, że wykrwawiają się na śmierć w przeciągu sekund. Dodatkowo swoim dzikim zawodzeniem potrafi osłąbić wrogów swojego pana, dzięki czemu dobiera się do ich gardeł z przerażającą łatwością. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Gryzienie, Zwykły atak, Ryk, Okrzyk bojowy, Bolesne uderzenie, Latające kolano. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Hiena.png\"/></span></span> </td><td colspan=\"2\">Гиена калечит жертв особенно мерзко — они истекают кровью за считанные секунды. А своим диким воем она ослабляет врагов хозяина и с пугающей лёгкостью добирается до их глоток. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Укус, Обычная атака, Рёв, Боевой клич, Болезненный удар, Летящее колено. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1016,7 +1016,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 50 Ranga : 4 Punkty życia : 1400 Mana : 1000 Kondycja : 1000"
+     "Уровень: 50, ранг: 4, здоровье: 1400, мана: 1000, выносливость: 1000"
     ]
    ],
    "blocks": [
@@ -1046,7 +1046,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/0c/Kobra.png\"/></span></span> </td><td colspan=\"2\">Kobra potrafi w mgnieniu oka znaleźć się tam, gdzie się jej najmniej spodziewają. Bezszelestnie atakuje z ogromną precyzją, zatruwając na śmierć każdego, kogo wskaże jej właściciel. Idealna pomoc dla osób walczących z dystansu. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Trujące plucie, Rzyg, Potężne uderzenie, Otępienie, Ukłucie lalki, Trująca tarcza. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/0c/Kobra.png\"/></span></span> </td><td colspan=\"2\">Кобра в мгновение ока оказывается там, где её меньше всего ждут. Бесшумно атакует с огромной точностью, насмерть отравляя любого, на кого укажет хозяин. Идеальная помощь для тех, кто сражается издалека. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Ядовитый плевок, Рвота, Мощный удар, Отупение, Укол куклы, Ядовитый щит. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1095,7 +1095,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 50 Ranga : 4 Punkty życia : 1500 Mana : 800 Kondycja : 1200"
+     "Уровень: 50, ранг: 4, здоровье: 1500, мана: 800, выносливость: 1200"
     ]
    ],
    "blocks": [
@@ -1125,7 +1125,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d3/Jaguar.png\"/></span></span> </td><td colspan=\"2\">Potężny dziki kot, który z furią rzuca się na wrogów, szarpiąc i tnąc. Jego ofiary najczęściej umierają z wykrwawienia, nie wiedząc nawet, co je zabiło. Dziki kot jest świetnym towarzyszem dla każdego bohatera. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d3/Jaguar.png\"/></span></span> </td><td colspan=\"2\">Могучий дикий кот, который с яростью бросается на врагов, рвёт и режет. Его жертвы чаще всего умирают от потери крови, даже не поняв, что их убило. Отличный спутник для любого героя. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Природная стойкость, Рёв, Боевой клич, Укус, Обычная атака. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1204,7 +1204,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Атакует издалека и ментально.</b><br/> <b>Использует</b>: Отупение, Отравление, Игла в глаз, Удар тени. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Маленький злобный демон: кроме острых зубов и когтей у него есть несколько чар вуду, которыми он лишает воли, выкалывает глаз и убивает любого, кто угрожает хозяину. <p><br/><b>Атакует издалека и ментально.</b><br/> <b>Использует</b>: Отупение, Отравление, Игла в глаз, Удар тени. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1283,7 +1283,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Атакует физически, издалека и ментально.</b><br/> <b>Использует</b>: Рой ос, Лечение, Ядовитый плевок, Удар, Рвота. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Эфирное воплощение светлых сторон Природы. Хрупкий облик Мотылька скрывает огромную разрушительную силу. Наносит сильные удары, призывает рой ос и использует сильные яды — это для врагов. К хозяину же заботлив и умеет его лечить. <p><br/><b>Атакует физически, издалека и ментально.</b><br/> <b>Использует</b>: Рой ос, Лечение, Ядовитый плевок, Удар, Рвота. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1332,7 +1332,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1100 Kondycja : 1300"
+     "Уровень: 65, ранг: 5, здоровье: 1800, мана: 1100, выносливость: 1300"
     ]
    ],
    "blocks": [
@@ -1362,7 +1362,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Рёв, Рвота, Укус, Болезненный удар, Плевок ядом. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Скорпион любому отравит жизнь — кроме хозяина. Чудовище наполнено ядами такой силы, что многие противники впадают в панику от одной мысли о них. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Рёв, Рвота, Укус, Болезненный удар, Плевок ядом. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1411,7 +1411,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1600 Kondycja : 800"
+     "Уровень: 65, ранг: 5, здоровье: 2000, мана: 1600, выносливость: 800"
     ]
    ],
    "blocks": [
@@ -1441,7 +1441,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/ff/Fenix.png\"/></span></span> </td><td colspan=\"2\">Żywioł ognia na usługach człowieka. Roziskrzony ptak spopieli każdego, kto waży się podnieść rękę na jego pana. Miota kule ognia, chroni się za ognistą tarczą i wyprali mózg każdego, kto ośmieli się z nim zmierzyć. Idealne dopełnienie postaci walczącej w zwarciu. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Wrażliwość na ogień, Inkantacja, Ognista sfera, Magiczna iskra, Meteoryt, Kula ognia, Podpalenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/ff/Fenix.png\"/></span></span> </td><td colspan=\"2\">Стихия огня на службе человека. Искрящаяся птица испепелит любого, кто посмеет поднять руку на её хозяина. Мечет огненные шары, прячется за огненным щитом и выжигает мозги каждому, кто осмелится с ней сразиться. Идеальное дополнение к персонажу ближнего боя. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Уязвимость к огню, Инкантация, Огненная сфера, Магическая искра, Метеорит, Огненный шар, Поджог. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1490,7 +1490,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
+     "Уровень: 65, ранг: 5, здоровье: 2000, мана: 900, выносливость: 1500"
     ]
    ],
    "blocks": [
@@ -1520,7 +1520,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/ee/Pantera.png\"/></span></span> </td><td colspan=\"2\">Pantera wtapia się w otoczenie i wyskakuje z nicości jak czarna błyskawica. Jej oręż to potężne szczęki i łapy, który bez trudu powala nawet orka, Obżarta mięsem ofiary, mruczeniem umila wędrówkę swojego pana. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/ee/Pantera.png\"/></span></span> </td><td colspan=\"2\">Пантера сливается с окружением и выскакивает из ниоткуда, как чёрная молния. Её оружие — мощные челюсти и лапы, которые без труда валят даже орка. Наевшись мяса жертвы, она мурлычет, скрашивая хозяину путь. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Природная стойкость, Рёв, Боевой клич, Укус, Обычная атака. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1569,7 +1569,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
+     "Уровень: 65, ранг: 5, здоровье: 2000, мана: 900, выносливость: 1500"
     ]
    ],
    "blocks": [
@@ -1599,7 +1599,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/82/Papug.png\"/></span></span> </td><td colspan=\"2\">Przyjaciel z dalekich krajów. Spokojny, medytujący, egzotyczny ptak, którego kojące barwy i łagodne usposobienie dają poczucie bezpieczeństwa. Ale tylko dla jego pana. Pozostałych potrafi zlikwidować kilkoma nieznaczącymi acz morderczymi ruchami. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Kontrola oddechu, Fala dźwiękowa, Gryzienie, Potężne uderzenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/82/Papug.png\"/></span></span> </td><td colspan=\"2\">Друг из далёких стран. Спокойная, медитирующая экзотическая птица, чьи успокаивающие цвета и мягкий нрав дают чувство безопасности — но только хозяину. Остальных она устраняет несколькими незаметными, но смертельными движениями. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Контроль дыхания, Звуковая волна, Укус, Мощный удар. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1648,7 +1648,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1000 Kondycja : 1800"
+     "Уровень: 80, ранг: 10, здоровье: 2600, мана: 1000, выносливость: 1800"
     ]
    ],
    "blocks": [
@@ -1674,7 +1674,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Рёв, Удар головой, Таран, Укус, Защита. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Лохмач — зверюга, которую исключительно трудно победить. Разогнавшись, он неудержим. Если противник не поддастся панике, зверь разобьёт его броню и свалит его с ног. Отлично подходит лучникам и магам. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Рёв, Удар головой, Таран, Укус, Защита. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1723,7 +1723,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 80 Ranga : 10 Punkty życia : 2400 Mana : 1000 Kondycja : 1800"
+     "Уровень: 80, ранг: 10, здоровье: 2400, мана: 1000, выносливость: 1800"
     ]
    ],
    "blocks": [
@@ -1802,7 +1802,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1800 Kondycja : 1000"
+     "Уровень: 80, ранг: 10, здоровье: 2600, мана: 1800, выносливость: 1000"
     ]
    ],
    "blocks": [
@@ -1832,7 +1832,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d0/Darkling.png\"/></span></span> </td><td colspan=\"2\">Twój prywatny smok. Wzbudza nie tylko podziw, ale i lęk. Wytrzymały i odporny, atakuje ogniem i dotkliwie kąsa. Błyskawicznie rozszarpie i spopieli wszystko, co mu stanie na drodze. Szczególnie przydatny dla postaci walczącej w zwarciu. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Gruboskórność, Ryk, Magiczna iskra, Kula ognia, Potężne uderzenie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d0/Darkling.png\"/></span></span> </td><td colspan=\"2\">Твой личный дракон. Вызывает не только восхищение, но и страх. Выносливый и стойкий, атакует огнём и больно кусает. Мгновенно разорвёт и испепелит всё на пути. Особенно полезен персонажам ближнего боя. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Толстокожесть, Рёв, Магическая искра, Огненный шар, Мощный удар. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -1881,7 +1881,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 80 Ranga : 10 Punkty życia : 2700 Mana : 1800 Kondycja : 1000"
+     "Уровень: 80, ранг: 10, здоровье: 2700, мана: 1800, выносливость: 1000"
     ]
    ],
    "blocks": [
@@ -1960,7 +1960,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 60 Ranga : 13 Punkty życia : 1600 Mana : 1100 Kondycja : 1100"
+     "Уровень: 60, ранг: 13, здоровье: 1600, мана: 1100, выносливость: 1100"
     ]
    ],
    "blocks": [
@@ -1982,7 +1982,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/59/Maab.png\"/></span></span> </td><td colspan=\"2\">Skorupiak o tytanowym pancerzu, który chroni wybranych członków drużyny, Oprócz tego potrafi dodać sił sojusznikom oraz przerazić przeciwników. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Okrzyk bojowy, Ryk, Gruboskórność, Siła jedności, Gryzienie, Plucie jadem, Ochrona. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/59/Maab.png\"/></span></span> </td><td colspan=\"2\">Ракообразное с титановым панцирем, защищающее выбранных членов отряда. Кроме того, умеет придать сил союзникам и напугать противников. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Боевой клич, Рёв, Толстокожесть, Сила единства, Укус, Плевок ядом, Защита. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2031,7 +2031,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 50 Ranga : 3 Punkty życia : 1550 Mana : 900 Kondycja : 1600"
+     "Уровень: 50, ранг: 3, здоровье: 1550, мана: 900, выносливость: 1600"
     ]
    ],
    "blocks": [
@@ -2053,7 +2053,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/91/Stefan.png\"/></span></span> </td><td colspan=\"2\">Przemykający pod stopami szczur wzbudza strach, a w obliczu zagrożenia wpada w furię i dotkliwie gryzie. Może doprowadzić do zakażenia. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Gryzienie, Rzyg, Zakażenie, Furia, Okrzyk bojowy, Zwykły atak. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/91/Stefan.png\"/></span></span> </td><td colspan=\"2\">Шмыгающая под ногами крыса вызывает страх, а при опасности впадает в ярость и больно кусает. Может занести инфекцию. <p><br/> <b>Атакует физически и ментально.</b> </p><p><b>Использует</b>: Укус, Рвота, Заражение, Ярость, Боевой клич, Обычная атака. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2102,7 +2102,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 900 Kondycja : 1600"
+     "Уровень: 40, ранг: 3, здоровье: 1400, мана: 900, выносливость: 1600"
     ]
    ],
    "blocks": [
@@ -2173,7 +2173,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 55 Ranga : 4 Punkty życia : 1500 Mana : 1500 Kondycja : 600"
+     "Уровень: 55, ранг: 4, здоровье: 1500, мана: 1500, выносливость: 600"
     ]
    ],
    "blocks": [
@@ -2195,7 +2195,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Лечение, Групповое лечение, Корень, Осы, Шаровая молния. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Благодаря умению лечить Коновал — надёжная поддержка в походе. Может вылечить всех союзников разом, а если надо — и сам атакует. <p><br/> <b>Атакует издалека и ментально.</b> </p><p><b>Использует</b>: Лечение, Групповое лечение, Корень, Осы, Шаровая молния. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2244,7 +2244,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 1300 Kondycja : 800"
+     "Уровень: 40, ранг: 3, здоровье: 1400, мана: 1300, выносливость: 800"
     ]
    ],
    "blocks": [
@@ -2266,7 +2266,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Plujka.png\"/></span></span> </td><td colspan=\"2\">Mała i kolorowa żabka, która wydając różne dźwięki, oślepia i otępia przeciwników. Pluje jadem i poparzy każdego, kto spróbuje ją dotknąć. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Otępienie, Szpila w oko, Zatrucie, Rzyg, Hak w brzuch, Ukłucie lalki, Aura cienia, Plucie jadem, Gryzienie. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Plujka.png\"/></span></span> </td><td colspan=\"2\">Маленькая пёстрая лягушка, которая разными звуками ослепляет и оглушает противников. Плюётся ядом и обжигает всякого, кто попробует её тронуть. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Отупение, Игла в глаз, Отравление, Рвота, Удар в живот, Укол куклы, Аура тени, Плевок ядом, Укус. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2315,7 +2315,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 45 Ranga : 3 Punkty życia : 1500 Mana : 1700 Kondycja : 700"
+     "Уровень: 45, ранг: 3, здоровье: 1500, мана: 1700, выносливость: 700"
     ]
    ],
    "blocks": [
@@ -2337,7 +2337,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/74/Spopielacz.png\"/></span></span> </td><td colspan=\"2\">Wirtuoz żywiołu ognia. Atakuje w bezpośrednim starciu lub z dystansu. Za jednym zamachem potrafi unicestwić całą grupę wrogów. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Magiczna iskra, Wrażliwość na ogień, Ognista sfera, Inkantacja, Podpalenie, Kula ognia, Deszcz ognia, Meteoryt, Okrzyk bojowy. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/74/Spopielacz.png\"/></span></span> </td><td colspan=\"2\">Виртуоз стихии огня. Атакует в ближнем бою или издалека. Одним махом может уничтожить целую группу врагов. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Магическая искра, Уязвимость к огню, Огненная сфера, Инкантация, Поджог, Огненный шар, Огненный дождь, Метеорит, Боевой клич. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2386,7 +2386,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 75 Ranga : 7 Punkty życia : 2000 Mana : 1300 Kondycja : 1500"
+     "Уровень: 75, ранг: 7, здоровье: 2000, мана: 1300, выносливость: 1500"
     ]
    ],
    "blocks": [
@@ -2408,7 +2408,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/a8/GnidaPet.png\"/></span></span> </td><td colspan=\"2\">Plugawy twór magicznych eksperymentów. Atakuje z zaskoczenia, uderzając we wrażliwe punkty osłabia celność ataków oraz skuteczność zasłony przeciwnika. <p><br/> <b>Атакует физически и издалека.</b> </p><p><b>Использует</b>: Lewy prawy, Front Kick, Kontrola oddechu, Bolesne uderzenie, Cios w wątrobę, Latające kolano, Uniki, Haduoken, Uderzenie Chi, Rzyg. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/a8/GnidaPet.png\"/></span></span> </td><td colspan=\"2\">Мерзкое порождение магических экспериментов. Нападает внезапно, бьёт по уязвимым точкам и снижает точность атак и эффективность защиты противника. <p><br/> <b>Атакует физически и издалека.</b> </p><p><b>Использует</b>: Левой-правой, Фронт-кик, Контроль дыхания, Болезненный удар, Удар в печень, Летящее колено, Уклонения, Хадукен, Удар Ци, Рвота. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2457,7 +2457,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 65 Ranga : 5 Punkty życia : 2200 Mana : 1000 Kondycja : 1200"
+     "Уровень: 65, ранг: 5, здоровье: 2200, мана: 1000, выносливость: 1200"
     ]
    ],
    "blocks": [
@@ -2479,7 +2479,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/5f/Amorek.png\"/></span></span> </td><td colspan=\"2\">To urocze latające stworzenie zamienia przeciwników w bezradne kukły. Na jego strzały i urok nie ma odpornych, jak na Amorka przystało. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Atak zaciemniający, Szpila w oko, Plucie trujące, Plucie kaleczące, Twoja stara, Aura zimna. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/5f/Amorek.png\"/></span></span> </td><td colspan=\"2\">Это милое летающее существо превращает противников в беспомощных кукол. Против его стрел и чар нет защиты — как и положено Амуру. <p><br/> <b>Атакует физически, издалека и ментально.</b> </p><p><b>Использует</b>: Затемняющая атака, Игла в глаз, Ядовитый плевок, Калечащий плевок, Твоя старуха, Аура холода. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
@@ -2528,7 +2528,7 @@
     ],
     [
      "Статистика",
-     "Poziom : 90 Ranga : 10 Punkty życia : 2900 Mana : 1000 Kondycja : 1800"
+     "Уровень: 90, ранг: 10, здоровье: 2900, мана: 1000, выносливость: 1800"
     ]
    ],
    "blocks": [
@@ -2554,7 +2554,7 @@
     },
     {
      "title": "Описание",
-     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Атакует физически, ментально и издалека.</b> </p><p><b>Использует</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
+     "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Злобная и упрямая скотина, но незаменимый боевой товарищ. Ревёт, поднимает на рога, топчет и кусает. Не слишком священная эта корова. <p><br/> <b>Атакует физически, ментально и издалека.</b> </p><p><b>Использует</b>: Рёв, Боевой клич, Землетрясение, Таран, Удар головой, Укус, Критический удар, Толстокожесть, Ярость. </p> </td></tr></table>"
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",

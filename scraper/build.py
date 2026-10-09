@@ -683,6 +683,18 @@ TR_PATTERNS = [
 ]
 
 
+class Untranslated(Exception):
+    pass
+
+
+def tr_strict(text):
+    """Перевод фрагмента целиком или исключение — чтобы не смешивать языки в одной фразе."""
+    t = tr_core(text.strip())
+    if t is None:
+        raise Untranslated(text)
+    return t
+
+
 def tr_names(text):
     """Перевод перечня названий («Pies, Psiok;») по словарю и базе, непереведённое остаётся."""
     parts = re.split(r"(,\s*|;\s*|\s+i\s+)", text)
@@ -738,6 +750,13 @@ TR_FUNCS = [
     (re.compile(r"^([\d\s]+) platyny - (kompletny )?zestaw(.*)$"),
      lambda m: f"{m.group(1).strip()} платины — {'полный ' if m.group(2) else ''}комплект" + tr_names(m.group(3))),
     (re.compile(r"^(\d+) - (\d+) poziom postaci:$"), lambda m: f"{m.group(1)}–{m.group(2)} уровень персонажа:"),
+    (re.compile(r"^Poziom : ([\d\s]+) Ranga : (\d+) Punkty życia : ([\d\s]+) Mana : ([\d\s]+) Kondycja : ([\d\s]+)$"),
+     lambda m: f"Уровень: {m.group(1).strip()}, ранг: {m.group(2)}, здоровье: {m.group(3).strip()}, "
+               f"мана: {m.group(4).strip()}, выносливость: {m.group(5).strip()}"),
+    (re.compile(r"^Specyfik umożliwiający kontrolę mocy podczas ulepszania sprzętu rangi ([IVX\-]+)\.$"),
+     lambda m: f"Средство для контроля силы при улучшении снаряжения ранга {m.group(1).replace('-', '–')}."),
+    (re.compile(r"^Składnik używany do produkcji (.+?)\. Wykonuje (?:ją|go|je) (.+?) w (.+?)\.$"),
+     lambda m: f"Ингредиент для изготовления: {tr_strict(m.group(1))}. Изготавливает {tr_names(m.group(2))} — {tr_strict(m.group(3))}."),
 ]
 
 
@@ -753,7 +772,10 @@ def tr_core(core):
     for rx, fn in TR_FUNCS:
         m = rx.match(core)
         if m:
-            return fn(m)
+            try:
+                return fn(m)
+            except Untranslated:
+                return None
     m = re.match(r"^(.*?)([\s,.:;!?)]*)$", core)
     if m.group(1).lower() in PL2RU:
         return PL2RU[m.group(1).lower()] + m.group(2)
