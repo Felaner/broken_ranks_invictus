@@ -1,0 +1,228 @@
+"use strict";
+
+if (window.location.href.includes(`https://anteikutaern.at.ua/legends/`) || window.location.href.includes(`https://anteikutaern.ucoz.pl/legends/`) || window.location.href.includes(`https://anteikutaern.at.ua/anews/`) || window.location.href.includes(`https://anteikutaern.ucoz.pl/anews/`) || window.location.href.includes(`https://anteikutaern.at.ua/others/fortuna/`) || window.location.href.includes(`https://anteikutaern.ucoz.pl/others/fortuna/`)) {
+    window.fbApi = {
+        proxyUrl: `https://script.google.com/macros/s/AKfycbxU8G5Xm-yhSUZliVX7oT2jwUojZdWoKNSYUV11bMuFwhkOCmRakgL2DF-gAVMGjDvK/exec`,
+        cache: null,
+        
+        async preloadAllInteractions() {
+            if (!this.cache) {
+                this.cache = await this.jsonpRequest(`${this.proxyUrl}?action=get_all`);
+            }
+            return this.cache;
+        },
+        
+        getInteractions(itemId) {
+            if (this.cache && this.cache[itemId]) {
+                return Promise.resolve(this.cache[itemId]);
+            }
+            return this.jsonpRequest(`${this.proxyUrl}?action=get&itemId=${itemId}`);
+        },
+        
+        jsonpRequest(url) {
+            return new Promise((resolve) => {
+                const callbackName = `cb_${Math.floor(Math.random() * 1000000)}`;
+                window[callbackName] = (data) => {
+                    delete window[callbackName];
+                    document.body.removeChild(script);
+                    resolve(data);
+                };
+                const script = document.createElement(`script`);
+                script.src = `${url}&callback=${callbackName}`;
+                document.body.appendChild(script);
+            });
+        },
+        
+        async toggleLike(itemId, actionType) {
+            const data = await this.jsonpRequest(`${this.proxyUrl}?action=set&itemId=${itemId}&type=${actionType}`);
+            if (this.cache && this.cache[itemId]) {
+                this.cache[itemId][actionType] = data.newCount;
+            }
+            return data.newCount;
+        },
+
+        /* --- НОВЫЕ МЕТОДЫ ДЛЯ ВИКТОРИНЫ --- */
+        getQuizData() {
+            return this.jsonpRequest(`${this.proxyUrl}?action=quiz_get_data`);
+        },
+
+        submitQuizGuess(nick, guess) {
+            const encodedNick = encodeURIComponent(nick);
+            const encodedGuess = encodeURIComponent(guess);
+            return this.jsonpRequest(`${this.proxyUrl}?action=quiz_submit&nick=${encodedNick}&guess=${encodedGuess}`);
+        }
+    };
+}
+
+const loaderCont = document.createElement('div');
+loaderCont.classList.add('loader-container');
+loaderCont.setAttribute('data-item', 'loader');
+const loaderr = document.createElement('div');
+loaderr.classList.add('loader');
+document.body.prepend(loaderCont);
+const ttexto = document.querySelector('.loader-container');
+ttexto.innerHTML = '<span style="color:#e8dcdc;margin-left: 10px;">Идет загрузка скриптов</span>';
+loaderCont.prepend(loaderr);
+
+const hilltopAd = document.createElement('script');
+hilltopAd.async = true;
+hilltopAd.referrerPolicy = 'no-referrer-when-downgrade';
+hilltopAd.settings = {};
+
+if (window.location.hostname.includes('ucoz.pl')) {
+    hilltopAd.src = `//smooth-survey.com/cqD.9U6Bbq2B5UlcS/WBQF9QNvz/E/3hM/z-Uoz/Nmy/0R3zMPTncEzvNETyQBxY`;
+} else {
+    hilltopAd.src = `//smooth-survey.com/coDr9.6YbY2e5elISzWxQj9hNMzpEq3/M/zZQG5bN/yq0/3/MATtchz_NlT/AJxP`;
+}
+
+// document.head.append(hilltopAd);
+
+const metric = document.createElement('script');
+const metric2 = document.createElement('noscript');
+metric.setAttribute('type', `text/javascript`);
+metric.defer = true;
+metric.innerHTML = `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(81337741, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true });`;
+metric2.innerHTML = `<div><img src="https://mc.yandex.ru/watch/81337741" style="position:absolute; left:-9999px;" alt="" /></div>`;
+
+document.head.append(metric);
+document.head.append(metric2);
+
+const vers = 453;
+const rnd = Math.floor(Math.random() * 100000) + 1;
+const title = document.head.querySelector('title');
+const link = document.head.querySelectorAll('link');
+const scrEq = document.createElement('script');
+const stylEq = document.createElement('link');
+const scrCanvas = document.createElement('script');
+const scrMenu = document.createElement('script');
+
+scrEq.setAttribute('src', `/raresImg/tableeqT.js?${vers}`);
+scrMenu.setAttribute('src', `/raresImg/anteikumenu.js?${vers}`);
+scrCanvas.setAttribute('src', `https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js`);
+
+// link.forEach(link => {
+// if (link.getAttribute('href') === 'index.css') {
+// link.setAttribute('href', `index.css?${vers}`);
+// }
+// });
+
+stylEq.setAttribute('href', `/raresImg/tableeq.css?${vers}`);
+stylEq.setAttribute('rel', `stylesheet`);
+document.head.append(stylEq);
+document.body.append(scrCanvas);
+document.body.append(scrMenu);
+document.body.append(scrEq);
+
+// $(document).ready(function()
+// {
+//     if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+//         $('.loader-container').remove();
+//     }
+    
+// });
+// $(window).on('load', function()
+// {
+//     $('.loader-container').remove();
+// });
+
+function createStarryDustEffect() {
+    const canvas = document.createElement('canvas');
+    document.body.appendChild(canvas);
+    const ctx = canvas.getContext('2d');
+
+    // Make the canvas cover the visible portion of the window
+    canvas.style.position = 'fixed'; // Fix canvas in place
+    canvas.style.top = '0';
+    canvas.style.left = '0';
+    canvas.style.zIndex = '1';
+    canvas.style.pointerEvents = 'none'; // Ensure the canvas does not interfere with interactions
+
+    function resizeCanvas() {
+        // Update canvas size based on visible portion of the window
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+
+    // Initially resize the canvas
+    resizeCanvas();
+
+    const particles = [];
+    const particleCount = 300; // Number of particles
+
+    class Particle {
+        constructor() {
+            this.reset();
+        }
+
+        reset() {
+            // Randomly position the particle within the visible area
+            this.x = Math.random() * canvas.width;
+            this.y = Math.random() * canvas.height;
+            this.radius = Math.random() * 1.5 + 0.3; // Smaller particles
+            this.alpha = 0; // Start with a transparent particle
+            this.fadeSpeed = Math.random() * 0.01 + 0.005; // Slower fade speed for smoother transitions
+            this.speedX = (Math.random() - 0.5) * 0.1; // Slower movement in X direction for smoothness
+            this.speedY = (Math.random() - 0.5) * 0.1; // Slower movement in Y direction for smoothness
+            this.life = Math.random() * 100 + 50; // Particle lifespan
+            this.lifeElapsed = 0;
+        }
+
+        draw() {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(255, 255, 255, ${this.alpha})`;
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        update() {
+            this.x += this.speedX;
+            this.y += this.speedY;
+
+            // Update position when the particle goes off-screen
+            if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+            if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+
+            // Increase opacity up to a point, then fade out
+            if (this.lifeElapsed < this.life / 2) {
+                this.alpha = Math.min(this.alpha + this.fadeSpeed, 1);
+            } else {
+                this.alpha = Math.max(this.alpha - this.fadeSpeed, 0);
+            }
+
+            this.lifeElapsed++;
+
+            // Reset particle once its life ends
+            if (this.lifeElapsed >= this.life) {
+                this.reset();
+            }
+        }
+    }
+
+    function initParticles() {
+        for (let i = 0; i < particleCount; i++) {
+            particles.push(new Particle());
+        }
+    }
+
+    function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(particle => {
+            particle.update();
+            particle.draw();
+        });
+        requestAnimationFrame(animate);
+    }
+
+    // Adjust canvas size when window is resized
+    window.addEventListener('resize', resizeCanvas);
+
+    initParticles();
+    animate();
+}
+
+// Call the function to start the effect
+createStarryDustEffect();
+
+
+
