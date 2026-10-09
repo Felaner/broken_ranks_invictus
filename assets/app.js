@@ -606,7 +606,7 @@
       <h3>Для правообладателей</h3>
       <p>Если вы правообладатель и считаете, что какой-либо материал размещён неправомерно, сообщите об этом —
         он будет оперативно исправлен или удалён: Telegram ${TG} или
-        <a href="https://github.com/Felaner/broken_ranks_invictus/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+        <a href="https://github.com/Felaner/felaner.github.io/issues" target="_blank" rel="noopener">GitHub</a>.</p>
     </div>`;
   }
 
