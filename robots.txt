@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://felaner.github.io/broken_ranks_invictus/sitemap.xml
+Sitemap: https://felaner.github.io/sitemap.xml

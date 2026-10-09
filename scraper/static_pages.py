@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "e"
 # Адрес опубликованного сайта (со слешем в конце). Его же нужно указать в Яндекс.Вебмастере и Search Console.
-SITE_URL = "https://felaner.github.io/broken_ranks_invictus/"
+SITE_URL = "https://felaner.github.io/"
 SITE_NAME = "Broken Ranks Fandom Wiki"
 
 SEC_TITLES = {"equipment": "Экипировка", "pets": "Питомцы", "mobs": "Противники", "items": "Предметы",
