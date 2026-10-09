@@ -23,6 +23,7 @@ import argparse
 import gzip
 import hashlib
 import json
+import random
 import re
 import sys
 import time
@@ -77,6 +78,9 @@ def main():
     ap.add_argument("start", nargs="?", default="https://www.wikibr.pl/", help="адрес сайта")
     add_browser_args(ap)
     ap.add_argument("--max-pages", type=int, default=6000, help="максимум страниц за всё время")
+    ap.add_argument("--full", dest="api_only", action="store_false",
+                    help="MediaWiki: обходить все страницы, а не только выборку (данные и так берутся через API)")
+    ap.add_argument("--sample", type=int, default=150, help="MediaWiki: сколько страниц сохранить как образцы вёрстки")
     ap.add_argument("--shots", type=int, default=25, help="сколько первых страниц сфотографировать")
     ap.add_argument("--delay", type=float, default=0.3, help="пауза между страницами, сек")
     ap.add_argument("--wait", type=int, default=600, help="ожидание отрисовки страницы, мс")
@@ -148,14 +152,44 @@ def main():
                         cont = "&apcontinue=" + c
                 (mw / "allpages.json").write_text(json.dumps(pages_all, ensure_ascii=False, indent=1), "utf-8")
                 print(f"  страниц в списке: {len(pages_all)}")
+                # Исходный текст (wikitext) всех страниц пачками по 50 — это и есть основные данные.
+                wt_file = mw / "wikitext.jsonl.gz"
+                if not wt_file.exists():
+                    ids = [x["pageid"] for x in pages_all]
+                    rows = []
+                    for i in range(0, len(ids), 50):
+                        chunk = "|".join(map(str, ids[i:i + 50]))
+                        txt = page.evaluate("async u => { const r = await fetch(u); return r.ok ? await r.text() : null; }",
+                                            f"{api_url}?action=query&prop=revisions|categories|pageimages&rvprop=content"
+                                            f"&rvslots=main&cllimit=max&piprop=original&format=json&pageids={chunk}")
+                        if not txt:
+                            print(f"  ! не удалось получить пачку {i // 50 + 1}")
+                            continue
+                        for pg in json.loads(txt).get("query", {}).get("pages", {}).values():
+                            rev = (pg.get("revisions") or [{}])[0]
+                            content = rev.get("slots", {}).get("main", {}).get("*", rev.get("*", ""))
+                            rows.append({"pageid": pg.get("pageid"), "ns": pg.get("ns"), "title": pg.get("title"),
+                                         "categories": [c["title"] for c in pg.get("categories", [])],
+                                         "image": pg.get("original", {}).get("source"), "wikitext": content})
+                        print(f"  wikitext: {min(i + 50, len(ids))}/{len(ids)}", end="\r", flush=True)
+                    print()
+                    wt_file.write_bytes(gzip.compress("\n".join(json.dumps(r, ensure_ascii=False) for r in rows).encode()))
+                    print(f"  исходный текст {len(rows)} страниц сохранён в {wt_file.name}")
+                if args.api_only:
+                    # Для изучения вёрстки хватит небольшой выборки отрисованных страниц.
+                    args.max_pages = min(args.max_pages, args.sample)
                 base = json.loads(info)["query"]["general"].get("server", "") + \
                     json.loads(info)["query"]["general"].get("articlepath", "/wiki/$1")
+                found = []
                 for x in pages_all:
                     if x["ns"] == 0 or x["ns"] == 14:
                         u = norm_url(urljoin(start, base.replace("$1", x["title"].replace(" ", "_"))), host)
                         if u and u not in seen:
                             seen.add(u)
-                            queue.append(u)
+                            found.append(u)
+                # Вперемешку, чтобы выборка образцов захватила страницы всех типов, а не первые по алфавиту.
+                random.Random(1).shuffle(found)
+                queue.extend(found)
                 break
 
         n_done_start = len(done)
