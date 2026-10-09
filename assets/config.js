@@ -48,6 +48,13 @@ window.BR_CONFIG = {
       icon: "✨",
       source: "https://anteikutaern.at.ua/",
       categories: []
+    },
+    {
+      id: "guides",
+      title: "Статьи",
+      icon: "📖",
+      source: "https://www.wikibr.pl/",
+      categories: []
     }
   ]
 };

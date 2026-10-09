@@ -167,12 +167,16 @@
       lists: Array.isArray(e.lists) ? e.lists : [],
       blocks: Array.isArray(e.blocks) ? e.blocks : [],
       backrefs: Array.isArray(e.backrefs) ? e.backrefs : [],
+      wikibr: Array.isArray(e.wikibr) ? e.wikibr : [],
+      namePL: e.namePL || "",
+      lang: e.lang || "",
       image: e.image || "",
       nameEN: e.nameEN || "",
       sourceUrl: e.sourceUrl || "",
-      search: norm(name + " " + (e.nameEN || "")),
-      searchFull: norm([name, e.nameEN, e.description, ...flatVals,
-        ...(e.blocks || []).map(b => stripTags(b.html))].join(" ")),
+      search: norm([name, e.nameEN, e.namePL].filter(Boolean).join(" ")),
+      searchFull: norm([name, e.nameEN, e.namePL, e.description, ...flatVals,
+        ...(e.blocks || []).map(b => stripTags(b.html)),
+        ...(e.wikibr || []).flatMap(w => w.blocks.map(b => stripTags(b.html)))].join(" ")),
     };
   }
 
@@ -224,6 +228,7 @@
     facets: {},
     mark: "all",
     mapZoom: 1,
+    wide: store.get("wide", false),
     list: [],           // текущий отображаемый список (для навигации стрелками)
     routeKey: "",
   };
@@ -716,6 +721,15 @@
 
   const BACKREF_LIMIT = 40;
 
+  // Полоски здоровья / маны / выносливости, как на wikibr.pl.
+  const BAR_LABELS = { "Здоровье": "hp", "Мана": "mana", "Выносливость": "stam" };
+  function barsHtml(e) {
+    const bars = e.fields.filter(([k]) => BAR_LABELS[k]);
+    if (!bars.length) return "";
+    return `<div class="bars">${bars.map(([k, v]) => `<div class="bar ${BAR_LABELS[k]}"><span>${esc(k)}</span>
+      <b>${esc(fv(v))}</b>${isDiff(v) ? `<small>${esc(DIFFS.find(d => d[0] === view.diff)[1].toLowerCase())}</small>` : ""}</div>`).join("")}</div>`;
+  }
+
   function renderBackrefs(e) {
     return e.backrefs.map((g, gi) => {
       const items = g.ids.map(id => db.byId.get(id)).filter(Boolean);
@@ -736,7 +750,7 @@
     if (!e) {
       els.detail.hidden = true;
       els.backdrop.hidden = !document.body.classList.contains("nav-open");
-      document.body.classList.remove("detail-open");
+      document.body.classList.remove("detail-open", "detail-wide");
       return;
     }
     const sec = db.sections[e.section];
@@ -754,6 +768,7 @@
         <a class="icon-btn" ${prev ? `href="${entryHrefHere(prev)}"` : "aria-disabled=true"} title="Предыдущая (←)">‹</a>
         <a class="icon-btn" ${next ? `href="${entryHrefHere(next)}"` : "aria-disabled=true"} title="Следующая (→)">›</a>
         <span class="spacer"></span>
+        <button class="icon-btn" id="wideBtn" title="Шире / уже">⤢</button>
         <button class="icon-btn mark-btn ${marks.has(e.id) ? "on" : ""}" id="markBtn" title="Есть у меня">✓</button>
         <button class="icon-btn cmp-btn ${compare.has(e.id) ? "on" : ""}" id="cmpBtn" title="Сравнить">⚖</button>
         <button class="icon-btn fav-btn ${favorites.has(e.id) ? "on" : ""}" id="favBtn" title="В избранное">★</button>
@@ -763,7 +778,8 @@
         ${iconHtml(e, "ico-lg")}
         <div>
           <h2>${esc(e.name)}</h2>
-          ${e.nameEN && e.nameEN !== e.name ? `<div class="name-en">${esc(e.nameEN)}</div>` : ""}
+          ${[e.nameEN, e.namePL].filter((n, i, a) => n && n !== e.name && a.indexOf(n) === i).length
+            ? `<div class="name-en">${esc([e.nameEN, e.namePL].filter((n, i, a) => n && n !== e.name && a.indexOf(n) === i).join(" · "))}</div>` : ""}
           <div class="crumbs">
             <a href="${href(["s", sec.id])}">${esc(sec.title)}</a>
             ${cat ? ` / <a href="${href(["s", sec.id, cat.id])}">${esc(cat.name)}</a>` : ""}
@@ -773,7 +789,8 @@
       </div>
       ${hasDiff(e) ? diffSwitch("diffDetail") : ""}
       ${e.image ? `<div class="model"><img src="${esc(e.image)}" alt="" onerror="this.parentNode.remove()"></div>` : ""}
-      ${e.fields.length ? `<table class="props">${e.fields.map(([k, v]) =>
+      ${barsHtml(e)}
+      ${e.fields.filter(([k]) => !BAR_LABELS[k]).length ? `<table class="props">${e.fields.filter(([k]) => !BAR_LABELS[k]).map(([k, v]) =>
         `<tr><th>${esc(k)}</th><td>${linkify(fv(v))}${isDiff(v) ? ` <small class="muted">(${esc(DIFFS.find(d => d[0] === view.diff)[1].toLowerCase())})</small>` : ""}</td></tr>`).join("")}</table>` : ""}
       ${e.description ? `<div class="desc">${esc(e.description).replace(/\n/g, "<br>")}</div>` : ""}
       ${e.blocks.map(b => `<div class="block">
@@ -782,6 +799,12 @@
       </div>`).join("")}
       ${extraMaps.length ? `<div class="block"><h3>На карте</h3><div class="block-html">${extraMaps.map(mid =>
         `<span data-maps="${esc(mid)}">${esc(db.mapById.get(mid)?.name || mid)}</span>`).join(", ")}</div></div>` : ""}
+      ${e.wikibr.map(w => `<details class="wb-sec" open>
+        <summary><span class="wb-badge">PL</span> Данные wikibr.pl <a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)} ↗</a></summary>
+        ${w.fields.length ? `<table class="props">${w.fields.map(([k, v]) =>
+          `<tr><th>${esc(k)}</th><td class="block-html">${/[<]/.test(v) ? v : esc(v)}</td></tr>`).join("")}</table>` : ""}
+        ${w.blocks.map(b => `<div class="block"><h3>${esc(b.title)}</h3><div class="block-html">${b.html}</div></div>`).join("")}
+      </details>`).join("")}
       ${renderBackrefs(e)}
       ${e.lists.map(l => `<div class="detail-list">
         <h3>${esc(l.title)}</h3>
@@ -805,6 +828,13 @@
     $("#closeDetail").addEventListener("click", closeDetail);
     $("#favBtn").addEventListener("click", () => { favorites.toggle(e.id); refresh(); });
     $("#markBtn").addEventListener("click", () => { marks.toggle(e.id); refresh(); });
+    $("#wideBtn").addEventListener("click", () => {
+      view.wide = !document.body.classList.contains("detail-wide");
+      store.set("wide", view.wide);
+      document.body.classList.toggle("detail-wide", view.wide);
+    });
+    // Длинные статьи читать удобнее в широкой панели.
+    document.body.classList.toggle("detail-wide", e.section === "guides" || !!view.wide);
     $("#cmpBtn").addEventListener("click", () => { compare.toggle(e.id, COMPARE_MAX); refresh(); });
     $("#noteText").addEventListener("input", ev => {
       const t = ev.target.value;

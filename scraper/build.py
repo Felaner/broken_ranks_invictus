@@ -381,6 +381,7 @@ def build_entry(o, section, category):
         "category": category,
         "name": title,
         "nameEN": o.get("titleEN", ""),
+        "namePL": o.get("titlePL", ""),
         "icon": icon_of(o),
         "image": model,
         "level": level,
@@ -600,6 +601,98 @@ def build_maps():
           f"порталов: {sum(len(x['portals']) for x in out)}")
 
 
+# ---------- wikibr.pl ----------
+
+WIKIBR_URL = "https://www.wikibr.pl/index.php/"
+WB_KIND_SECTIONS = {"item": ("items", "equipment", "pets"), "mob": ("mobs",), "champion": ("mobs",),
+                    "pet": ("pets",)}
+WB_CATS = [("guides", "Гайды", ("guide",)), ("classes", "Классы", ("class",)),
+           ("locations", "Локации", ("location",)), ("instances", "Инстансы", ("instance",)),
+           ("other", "Прочее с wikibr.pl", ("item", "mob", "pet", "champion"))]
+needed_wikibr = set()
+
+
+def slug(t):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", t.replace("ł", "l").replace("Ł", "L"))
+    return re.sub(r"[^a-z0-9]+", "_", t.encode("ascii", "ignore").decode().lower()).strip("_") or "x"
+
+
+def wb_norm(t):
+    return re.sub(r"\s+", " ", (t or "").lower()).strip()
+
+
+def add_wikibr():
+    """Дополняет записи данными wikibr.pl и создаёт раздел «Статьи» для остального."""
+    f = SRC / "wikibr.json"
+    if not f.exists():
+        return
+    pages = json.loads(f.read_text("utf-8"))["pages"]
+    redirects = {t: p["target"] for t, p in pages.items() if p["kind"] == "redirect"}
+    by_pl = {}
+    for sid, (_, entries) in SECTIONS_OUT.items():
+        for e in entries:
+            if e.get("namePL"):
+                by_pl.setdefault(wb_norm(e["namePL"]), []).append((sid, e))
+
+    title_to_id, attached, new_entries = {}, [], []
+    for title, p in pages.items():
+        if p["kind"] == "redirect":
+            continue
+        cands = by_pl.get(wb_norm(title), [])
+        if p["kind"] in WB_KIND_SECTIONS:
+            pref = [e for sid, e in cands if sid in WB_KIND_SECTIONS[p["kind"]]]
+            cands = pref or [e for _, e in cands]
+        else:
+            cands = []
+        info = {"title": title, "url": WIKIBR_URL + title.replace(" ", "_"),
+                "fields": p.get("fields", []), "blocks": p.get("blocks", [])}
+        if cands:
+            for e in cands:
+                e.setdefault("wikibr", []).append(info)
+            attached.append(info)
+            title_to_id[title] = cands[0]["id"]
+        else:
+            cat = next(c for c, _, kinds in WB_CATS if p["kind"] in kinds)
+            eid = "wb_" + slug(title)
+            img = p.get("image")
+            new_entries.append({
+                "id": eid, "category": cat, "name": title, "nameEN": "", "namePL": title,
+                "icon": wb_img(img) if img else "", "image": "", "level": None,
+                "fields": p.get("fields", []), "blocks": p.get("blocks", []),
+                "sourceUrl": info["url"], "lang": "pl",
+            })
+            title_to_id[title] = eid
+    for src, dst in redirects.items():
+        if dst in title_to_id:
+            title_to_id[src] = title_to_id[dst]
+
+    def convert(html):
+        def link(m):
+            tid = title_to_id.get(m.group(1)) or title_to_id.get(redirects.get(m.group(1), ""))
+            return f'data-items="{tid}"' if tid else ""
+        html = re.sub(r'data-wikibr="([^"]+)"', link, html)
+        return re.sub(r'data-wikibr-img="([^"]+)"', lambda m: f'src="{wb_img(m.group(1))}"', html)
+
+    for info in attached:
+        info["blocks"] = [{"title": b["title"], "html": convert(b["html"])} for b in info["blocks"]]
+        info["fields"] = [[k, convert(v)] for k, v in info["fields"]]
+    for e in new_entries:
+        e["blocks"] = [{"title": b["title"], "html": convert(b["html"])} for b in e["blocks"]]
+        e["fields"] = [[k, convert(v)] for k, v in e["fields"]]
+    cats = [{"id": c, "name": n} for c, n, _ in WB_CATS]
+    write("guides", cats, new_entries)
+    print(f"wikibr: дополнено записей {len(attached)}, новых статей {len(new_entries)}")
+
+
+def wb_img(path):
+    """'/images/5/56/X.png' -> 'data/wikibr/images/5/56/X.png' (+ в список на скачивание)."""
+    from urllib.parse import unquote
+    if not (DATA / "wikibr" / unquote(path).lstrip("/")).exists():
+        needed_wikibr.add(path)
+    return "data/wikibr" + path
+
+
 def write(sid, cats, entries):
     SECTIONS_OUT[sid] = (cats, entries)
 
@@ -620,18 +713,24 @@ def write_out(sid, cats, entries):
 
 def main():
     DATA.mkdir(exist_ok=True)
+    if (SRC.parent / "mirror" / "wikibr.pl" / "pages.tsv").exists():
+        import wikibr
+        wikibr.main()
     write("equipment", *equipment())
     write("pets", *by_class("petsMain", PET_CATS, "pets"))
     write("mobs", *mobs())
     write("items", *items())
     write("npc", [], [build_entry(o, "npc", "_") for o in DB["npcMain"].values()])
     write("skills", [], [build_entry(o, "skills", "_") for o in DB["skillsMain"].values()])
+    add_wikibr()
     add_backrefs()
     for sid, (cats, entries) in SECTIONS_OUT.items():
         write_out(sid, cats, entries)
     build_maps()
     (SRC / "needed_images.txt").write_text("\n".join(sorted(needed_images)) + "\n", "utf-8")
     print(f"Недостающих картинок: {len(needed_images)} (scraper/source/needed_images.txt)")
+    (SRC / "needed_wikibr.txt").write_text("\n".join(sorted(needed_wikibr)) + "\n", "utf-8")
+    print(f"Недостающих картинок wikibr.pl: {len(needed_wikibr)} (scraper/source/needed_wikibr.txt)")
 
 
 if __name__ == "__main__":

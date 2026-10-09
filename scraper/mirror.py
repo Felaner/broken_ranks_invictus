@@ -21,6 +21,7 @@
     python scraper/mirror.py --browser firefox
     python scraper/mirror.py --browser firefox --max-pages 50    # сначала пробно
     python scraper/mirror.py https://другой-сайт/ --browser firefox
+    python scraper/mirror.py --browser firefox --images   # картинки из scraper/source/needed_wikibr.txt
 """
 
 import argparse
@@ -77,6 +78,57 @@ def norm_url(url, host):
     return p._replace(netloc=p.netloc.lower()).geturl()
 
 
+IMG_BATCH_JS = r"""
+async (urls) => {
+  const toB64 = blob => new Promise(res => {
+    const r = new FileReader();
+    r.onload = () => res(String(r.result).split(',')[1] || '');
+    r.readAsDataURL(blob);
+  });
+  return Promise.all(urls.map(async url => {
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) return { url, status: resp.status };
+      return { url, status: resp.status, b64: await toB64(await resp.blob()) };
+    } catch (e) { return { url, status: 0 }; }
+  }));
+}
+"""
+
+
+def download_images(start, args):
+    """Скачивает картинки, нужные вики, через браузер (как и страницы) в data/wikibr/."""
+    root = Path(__file__).resolve().parent
+    listing = root / "source" / "needed_wikibr.txt"
+    out = root.parent / "data" / "wikibr"
+    paths = [x.strip() for x in listing.read_text("utf-8").splitlines() if x.strip()] if listing.exists() else []
+    todo = [x for x in paths if not (out / unquote(x).lstrip("/")).exists()]
+    print(f"Картинок в списке: {len(paths)}, скачать: {len(todo)}")
+    if not todo:
+        return
+    missing = []
+    with sync_playwright() as p:
+        browser = launch_browser(p, args)
+        page = browser.new_page()
+        page.goto(start, wait_until="domcontentloaded", timeout=60000)
+        origin = f"{urlparse(page.url).scheme}://{urlparse(page.url).netloc}"
+        for i in range(0, len(todo), 12):
+            batch = todo[i:i + 12]
+            for r, path in zip(page.evaluate(IMG_BATCH_JS, [origin + x for x in batch]), batch):
+                if r.get("b64"):
+                    f = out / unquote(path).lstrip("/")
+                    f.parent.mkdir(parents=True, exist_ok=True)
+                    f.write_bytes(__import__("base64").b64decode(r["b64"]))
+                else:
+                    missing.append(f"{r['status']}\t{path}")
+            print(f"  {min(i + 12, len(todo))}/{len(todo)}", end="\r", flush=True)
+            time.sleep(args.delay / 3)
+        print()
+        browser.close()
+    (root / "source" / "missing_wikibr.txt").write_text("\n".join(missing) + "\n", "utf-8")
+    print(f"Готово. Не скачалось: {len(missing)} (scraper/source/missing_wikibr.txt)")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("start", nargs="?", default="https://www.wikibr.pl/", help="адрес сайта")
@@ -85,6 +137,8 @@ def main():
     ap.add_argument("--full", dest="api_only", action="store_false",
                     help="MediaWiki: дополнительно обойти сайт браузером (обычно не нужно — всё берётся через API)")
     ap.add_argument("--shots", type=int, default=25, help="сколько первых страниц сфотографировать")
+    ap.add_argument("--images", action="store_true",
+                    help="скачать картинки из scraper/source/needed_wikibr.txt в data/wikibr/ (после build.py)")
     ap.add_argument("--delay", type=float, default=0.3, help="пауза между страницами, сек")
     ap.add_argument("--wait", type=int, default=600, help="ожидание отрисовки страницы, мс")
     args = ap.parse_args()
@@ -104,6 +158,10 @@ def main():
 
     def save_state():
         state_file.write_text(json.dumps({"done": sorted(done), "queue": queue}, ensure_ascii=False), "utf-8")
+
+    if args.images:
+        download_images(start, args)
+        return
 
     with sync_playwright() as p:
         browser = launch_browser(p, args)

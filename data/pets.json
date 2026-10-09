@@ -44,6 +44,7 @@
    "category": "obichpets",
    "name": "Черный Ворон",
    "nameEN": "Black Raven",
+   "namePL": "Czarny Kruk",
    "icon": "data/raresImg/pets/crown.petlogo3d.webp",
    "image": "data/raresImg/pets/crown.petmodel3d.webp",
    "level": 35,
@@ -91,13 +92,44 @@
      "html": "<img data-items=\"petskin17\" src=\"data/raresImg/pet_skin/17.pet_skin.webp\"/> <img data-items=\"petskin18\" src=\"data/raresImg/pet_skin/18.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Czarny Kruk",
+     "url": "https://www.wikibr.pl/index.php/Czarny_Kruk",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 1200 Kondycja : 800"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Kruk.png\"/></span></span> </td><td colspan=\"2\">Klasyczny kruk. Wyszkolony przez najlepsze wiedźmy. Nikt nie opędzi się przed czarną mocą jego skrzydeł ani nie uchowa przed złowieszczym spojrzeniem. <p><br/> <b>Atakuje urokami.</b> </p><p><b>Używa</b>: Szpila w oko, Mistycyzm, Okrzyk bojowy, Ukłucie lalki. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "dogs7a",
    "category": "obichpets",
    "name": "Волкодав",
    "nameEN": "Wolfhound",
+   "namePL": "Wilczur",
    "icon": "data/raresImg/pets/wolf.petlogo3d.webp",
    "image": "data/raresImg/pets/wolfdog.petmodel3d.webp",
    "level": 8,
@@ -141,13 +173,45 @@
      "html": "<img data-items=\"skills24\" src=\"data/raresImg/skills/24.skills.png\"/> <img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Wilczur",
+     "url": "https://www.wikibr.pl/index.php/Wilczur",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 7 Ranga : 1 Punkty życia : 350 Mana : 350 Kondycja : 650"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 7 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 złota</span> </p><p><b>Zakup</b>: u Godrewa w <span data-items=\"wb_trentis\">Trentis</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/e0/WilczurPet.png\"/></span></span> </td><td colspan=\"2\">Burek jak to burek. Wiernie biega przy swoim panu, gdy trzeba ugryzie, wywołując krwawienie. Jeżąc sierść na karku wprowadza się w bojowy trans i może wywołać w przeciwnikach strach. Swoim skowytem może dodatkowo sparaliżować ofiarę, ułatwiając sobie wykończenie wroga. <p><br/> <b>Atakuje fizyczne.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_trentis",
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "bat4a",
    "category": "obichpets",
    "name": "Белая летучая мышь",
    "nameEN": "White Bat",
+   "namePL": "Biały Nietoperz",
    "icon": "data/raresImg/pets/batwite.petlogo3d.webp",
    "image": "data/raresImg/pets/whitebat.petmodel3d.webp",
    "level": 20,
@@ -195,13 +259,44 @@
      "html": "<img data-items=\"petskin6\" src=\"data/raresImg/pet_skin/6.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Biały Nietoperz",
+     "url": "https://www.wikibr.pl/index.php/Biały_Nietoperz",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 22 Ranga : 2 Punkty życia : 700 Mana : 400 Kondycja : 600"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 22 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 złota</span> </p><p><b>Zakup</b>: u Wiedźmy Hoberl na <span data-items=\"wb_bagna\">Bagnach</span> </p><p>Możliwość otrzymania w trakcie zadania głównego \"Zielona Granica\" </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/18/Nietoperz.png\"/></span></span> </td><td colspan=\"2\">Niepozorny gacek, który potrafi pomóc w walce. Swoimi kłami przegryzie skórę ofiary, wywołując krwawienie, może również zakazić ranę. Potrafi zadać dodatkowe obrażenia falami dźwiękowymi. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Fala dźwiękowa, Gryzienie, Zakażenie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "dogs1a",
    "category": "obichpets",
    "name": "Белый Огар",
    "nameEN": "White Hound",
+   "namePL": "Biały Ogar",
    "icon": "data/raresImg/pets/whitedog.petlogo3d.webp",
    "image": "data/raresImg/pets/whitedog.petmodel3d.webp",
    "level": 35,
@@ -249,13 +344,44 @@
      "html": "<img data-items=\"petskin7\" src=\"data/raresImg/pet_skin/7.pet_skin.webp\"/> <img data-items=\"petskin8\" src=\"data/raresImg/pet_skin/8.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Biały Ogar",
+     "url": "https://www.wikibr.pl/index.php/Biały_Ogar",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Huberta </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/12/Bia%C5%82y_Ogar.png\"/></span></span> </td><td colspan=\"2\">Biały ogar to uniwersalny pies myśliwski. Dopada ofiarę i zaciska szczęki na jej szyi. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "dogs3a",
    "category": "obichpets",
    "name": "Черный Огар",
    "nameEN": "Black Hound",
+   "namePL": "Czarny Ogar",
    "icon": "data/raresImg/pets/blackdog.petlogo3d.webp",
    "image": "data/raresImg/pets/blackdog.petmodel3d.webp",
    "level": 35,
@@ -303,13 +429,44 @@
      "html": "<img data-items=\"petskin9\" src=\"data/raresImg/pet_skin/9.pet_skin.webp\"/> <img data-items=\"petskin10\" src=\"data/raresImg/pet_skin/10.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Czarny Ogar",
+     "url": "https://www.wikibr.pl/index.php/Czarny_Ogar",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 35 Ranga : 3 Punkty życia : 1200 Mana : 800 Kondycja : 1200"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/ac/Czarny_Ogar.png\"/></span></span> </td><td colspan=\"2\">Czarny ogar to uniwersalny pies myśliwski, prawie jak biały ogar. Dopada ofiarę i rozszarpuje na strzępy. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Trans, Okrzyk bojowy, Ryk, Gryzienie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "monkey2a",
    "category": "obichpets",
    "name": "Рыжая обезьяна",
    "nameEN": "Red Monkey",
+   "namePL": "Ruda małpa",
    "icon": "data/raresImg/pets/monkey.petlogo3d.webp",
    "image": "data/raresImg/pets/monkey.petmodel3d.webp",
    "level": 35,
@@ -357,13 +514,44 @@
      "html": "<img data-items=\"petskin26\" src=\"data/raresImg/pet_skin/26.pet_skin.webp\"/> <img data-items=\"petskin27\" src=\"data/raresImg/pet_skin/27.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Ruda małpa",
+     "url": "https://www.wikibr.pl/index.php/Ruda_małpa",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 35 Ranga : 3 Punkty życia : 1100 Mana : 800 Kondycja : 1200"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 35 <p><b>Cena</b>: <span style=\"color:#ffd700\">25 Imperiałów</span> </p><p><b>Zakup</b>: u Violi </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/1e/Ruda_ma%C5%82pa.png\"/></span></span> </td><td colspan=\"2\">Wyjątkowy zwierz prosto z tropikalnych wysp. Wyjątkowo tresowany. Wyjątkowo odważny. I piękny inaczej. <p><br/> <b>Atakuje dystansowo i urokami.</b> </p><p><b>Używa</b>: Furia, Twoja stara, Okrzyk bojowy, Rzut kamieniem. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "aquaton1a",
    "category": "receptpets",
    "name": "Тон",
    "nameEN": "Ton",
+   "namePL": "Ton",
    "icon": "data/raresImg/pets/ton.petlogo3d.webp",
    "image": "data/raresImg/pets/ton.petmodel3d.webp",
    "level": 65,
@@ -420,13 +608,43 @@
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "backrefs": []
+   "wikibr": [
+    {
+     "title": "Ton",
+     "url": "https://www.wikibr.pl/index.php/Ton",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 1900 Mana : 1200 Kondycja : 1300"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item718\">Przepis na Tona</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/6f/Ton.png\"/></span></span> </td><td colspan=\"2\">Woda zaklęta w kamień i drzewo równocześnie. Połączone byty, które stawiają na słabość przeciwnika. Podwójnymi atakami wyniszcza wroga tak skutecznie, że mord staje się łatwizną. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Bolesne uderzenie, Dyńka, Gruboskórność, Grupowa kontrola oddechu, Potężne uderzenie, Ryk, Lodowa tarcza, Taran, Twoja stara. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "aquasol1a",
    "category": "receptpets",
    "name": "Сол",
    "nameEN": "Sol",
+   "namePL": "Sol",
    "icon": "data/raresImg/pets/sol.petlogo3d.webp",
    "image": "data/raresImg/pets/soul.petmodel3d.webp",
    "level": 65,
@@ -479,13 +697,43 @@
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "backrefs": []
+   "wikibr": [
+    {
+     "title": "Sol",
+     "url": "https://www.wikibr.pl/index.php/Sol",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1500 Kondycja : 1100"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item719\">Przepis na Sola</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Sol.png\"/></span></span> </td><td colspan=\"2\">Wodny żywiołak, który jest czymś więcej, niż woda. Jego siła to ogień, ziemia, energia, lód i przestrzeń, gdzie może szaleć wszystkim swoim żywiołami. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami.</b> </p><p><b>Dominują ataki obszarowe.</b> </p><p><b>Używa</b>: Aura cienia, Deszcz ognia, Grupowy ziew, Gradobicie, Lodowy pocisk, Magiczna iskra, Piorun kulisty, Wyładowania energetyczne, Burza, Wyssanie duszy, Grupowa aura zimna. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "aquaera1a",
    "category": "receptpets",
    "name": "Эра",
    "nameEN": "Era",
+   "namePL": "Era",
    "icon": "data/raresImg/pets/era.petlogo3d.webp",
    "image": "data/raresImg/pets/era.petmodel3d.webp",
    "level": 65,
@@ -542,13 +790,43 @@
     }
    ],
    "sourceUrl": "https://anteikutaern.at.ua/pety/",
-   "backrefs": []
+   "wikibr": [
+    {
+     "title": "Era",
+     "url": "https://www.wikibr.pl/index.php/Era",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1100 Kondycja : 1300"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item720\">Przepis na Erę</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/97/Era.png\"/></span></span> </td><td colspan=\"2\">Stworzona z wody, pełną mocą tego żywiołu zniszczy wszystko, co stanie jej na drodze. Ogłuszy i ukatrupi, wiernie wspomagając swojego pana w walce. Żywiołak, który wysysa życie i ma większą szansę na atak krytyczny. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Front kick, Haduoken, Krytyczne uderzenie, Ogłuszenie, Penetrujące uderzenie, Poświęcenie, Potężne uderzenie, Ryk, Trans, Zwykły atak. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "treeture3a",
    "category": "receptpets",
    "name": "Хохграт",
    "nameEN": "Hohgrat",
+   "namePL": "Hohgrat",
    "icon": "data/raresImg/pets/hohgrat.petlogo3d.webp",
    "image": "data/raresImg/pets/hohgrat.petmodel3d.webp",
    "level": 65,
@@ -600,13 +878,44 @@
      "html": "<img data-items=\"petskin14\" src=\"data/raresImg/pet_skin/14.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Hohgrat",
+     "url": "https://www.wikibr.pl/index.php/Hohgrat",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 1700 Mana : 1000 Kondycja : 700"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Przywołanie</b>: Wymagany jest <span data-items=\"item505\">Receptura na Hohgrata</span> </p><p><b>Cena odkupienia</b>: 3 x <span data-items=\"item183\">Średnia Flasza Życia</span>, 3 x <span data-items=\"item193\">Średnia Flasza Kondycji</span>, 3 x <span data-items=\"item190\">Średnia Flasza Many</span> u Belenosa w Lesie Koldów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Hohgrat.png\"/></span></span> </td><td colspan=\"2\">Hohgrat to inteligentna roślina stworzona dzięki magii życia. Walczy niechętnie ale potrafi wspierać towarzyszy na inne sposoby. <p><br/> <b>Atakuje fizycznie, urokami</b> </p><p><b>Używa</b>: Mistycyzm, Uderzenie, Naturalna Odporność, Aura czystości, Źródło natury, Leczenie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "treeture5a",
    "category": "receptpets",
    "name": "Заключенный",
    "nameEN": "Imprisoned One",
+   "namePL": "Uwięziony",
    "icon": "data/raresImg/pets/zakly.petlogo3d.webp",
    "image": "data/raresImg/pets/prisoner.petmodel3d.webp",
    "level": 30,
@@ -654,13 +963,49 @@
      "html": "<img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills3\" src=\"data/raresImg/skills/3.skills.png\"/> <img data-items=\"skills13\" src=\"data/raresImg/skills/13.skills.png\"/> <img data-items=\"skills26\" src=\"data/raresImg/skills/26.skills.png\"/> <img data-items=\"skills14\" src=\"data/raresImg/skills/14.skills.png\"/> <img data-items=\"skills5\" src=\"data/raresImg/skills/5.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Uwięziony",
+     "url": "https://www.wikibr.pl/index.php/Uwięziony",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 30 Ranga : 2 Punkty życia : 780 Mana : 700 Kondycja : 1300"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 30 <p><b>Przywołanie</b>: Wymagana jest <span data-items=\"wb_receptura_adelweiga\">Receptura Adelweiga</span> </p><p><b>Cena odkupienia</b>: 2 x <span data-items=\"wb_dusza_nietoperza\">Dusza nietoperza</span>, 5 x <span data-items=\"wb_dusza_nieumarlego\">Dusza nieumarłego</span>, 4 x <span data-items=\"wb_dusza_gada\">Dusza gada</span>, 10 <span data-items=\"item679\">Imperiałów</span> u Azarii w Wiosce Druidów. </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/80/Uwi%C4%99zionyPet.png\"/></span></span> </td><td colspan=\"2\">Natura tego stworzenia jest niejasna. Ni to roślina, ni to zwierz. Nie zmienia to jednak trafu, że potrafi dzielnie wspierać swoich towarzyszy w walce z każdym niebezpieczeństwem. <p><br/> <b>Atakuje fizycznie, dystansowo, urokami</b> </p><p><b>Używa</b>: Okrzyk bojowy, Rzut głazem, Gruboskórność, Potężne uderzenie, Zwykły atak, Taran. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_dusza_nietoperza",
+      "wb_dusza_nieumarlego",
+      "wb_dusza_gada",
+      "wb_przeklety_las",
+      "wb_zwierzaki",
+      "wb_zrodlo_bytu"
+     ]
+    }
+   ]
   },
   {
    "id": "hyena1a",
    "category": "guildpets",
    "name": "Гиена",
    "nameEN": "Hyena",
+   "namePL": "Hiena",
    "icon": "data/raresImg/pets/hyena.petlogo3d.webp",
    "image": "data/raresImg/pets/hyena.petmodel3d.webp",
    "level": 50,
@@ -712,13 +1057,44 @@
      "html": "<img data-items=\"petskin13\" src=\"data/raresImg/pet_skin/13.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Hiena",
+     "url": "https://www.wikibr.pl/index.php/Hiena",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 50 Ranga : 4 Punkty życia : 1350 Mana : 800 Kondycja : 1200"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 500 000 złota</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/01/Hiena.png\"/></span></span> </td><td colspan=\"2\">Hiena okalecza swoje ofiary w wyjątkowo paskudny sposób, sprawiając, że wykrwawiają się na śmierć w przeciągu sekund. Dodatkowo swoim dzikim zawodzeniem potrafi osłąbić wrogów swojego pana, dzięki czemu dobiera się do ich gardeł z przerażającą łatwością. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Zwykły atak, Ryk, Okrzyk bojowy, Bolesne uderzenie, Latające kolano. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "cobra1a",
    "category": "guildpets",
    "name": "Кобра",
    "nameEN": "Cobra",
+   "namePL": "Kobra",
    "icon": "data/raresImg/pets/kobra.petlogo3d.webp",
    "image": "data/raresImg/pets/cobra.petmodel3d.webp",
    "level": 50,
@@ -770,13 +1146,44 @@
      "html": "<img data-items=\"petskin16\" src=\"data/raresImg/pet_skin/16.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Kobra",
+     "url": "https://www.wikibr.pl/index.php/Kobra",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 50 Ranga : 4 Punkty życia : 1400 Mana : 1000 Kondycja : 1000"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 500 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/0/0c/Kobra.png\"/></span></span> </td><td colspan=\"2\">Kobra potrafi w mgnieniu oka znaleźć się tam, gdzie się jej najmniej spodziewają. Bezszelestnie atakuje z ogromną precyzją, zatruwając na śmierć każdego, kogo wskaże jej właściciel. Idealna pomoc dla osób walczących z dystansu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Trujące plucie, Rzyg, Potężne uderzenie, Otępienie, Ukłucie lalki, Trująca tarcza. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "tiger4a",
    "category": "guildpets",
    "name": "Ягуар",
    "nameEN": "Jaguar",
+   "namePL": "Jaguar",
    "icon": "data/raresImg/pets/jaguar.petlogo3d.webp",
    "image": "data/raresImg/pets/jaguar.petmodel3d.webp",
    "level": 50,
@@ -828,13 +1235,44 @@
      "html": "<img data-items=\"petskin15\" src=\"data/raresImg/pet_skin/15.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Jaguar",
+     "url": "https://www.wikibr.pl/index.php/Jaguar",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 50 Ranga : 4 Punkty życia : 1500 Mana : 800 Kondycja : 1200"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">1 700 000 złota</span> i <span style=\"color:#7de0de\">300 platyny</span> </p><p><b>Zakup</b>: I Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d3/Jaguar.png\"/></span></span> </td><td colspan=\"2\">Potężny dziki kot, który z furią rzuca się na wrogów, szarpiąc i tnąc. Jego ofiary najczęściej umierają z wykrwawienia, nie wiedząc nawet, co je zabiło. Dziki kot jest świetnym towarzyszem dla każdego bohatera. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "plox6a",
    "category": "guildpets",
    "name": "Плокс",
    "nameEN": "Plox",
+   "namePL": "Plox",
    "icon": "data/raresImg/pets/plox.petlogo3d.webp",
    "image": "data/raresImg/pets/plox.petmodel3d.webp",
    "level": 50,
@@ -886,13 +1324,44 @@
      "html": "<img data-items=\"petskin24\" src=\"data/raresImg/pet_skin/24.pet_skin.webp\"/> <img data-items=\"petskin25\" src=\"data/raresImg/pet_skin/25.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Plox",
+     "url": "https://www.wikibr.pl/index.php/Plox",
+     "fields": [
+      [
+       "Статистика",
+       "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 4</span> </p> <div> <span><b>Punkty życia</b>: 1400</span></div> <div> <span><b>Mana</b>: 1300</span></div> <div> <span><b>Kondycja</b>: 700</span></div>"
+      ],
+      [
+       "Доп. информация",
+       "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/be/Plox.png\"/></span></span> </td><td colspan=\"2\">Mały złośliwy demon, który oprócz swoich ostrych zębów i pazurów rozporządza kilkoma urokami voodoo, którymi potrafi pozbawić woli, wydłubać oko i zabić każdego, kto zagrozi jego panu. <p><br/><b>Atakuje z dystansu i urokami.</b><br/> <b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "butterfly1a",
    "category": "guildpets",
    "name": "Бабочка",
    "nameEN": "Butterfly",
+   "namePL": "Motyl",
    "icon": "data/raresImg/pets/babochka.petlogo3d.webp",
    "image": "data/raresImg/pets/babochka.petmodel3d.webp",
    "level": 50,
@@ -944,13 +1413,44 @@
      "html": "<img data-items=\"petskin19\" src=\"data/raresImg/pet_skin/19.pet_skin.webp\"/> <img data-items=\"petskin21\" src=\"data/raresImg/pet_skin/21.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Motyl",
+     "url": "https://www.wikibr.pl/index.php/Motyl",
+     "fields": [
+      [
+       "Статистика",
+       "<p><span><b>Poziom</b>: 50</span> <span><b>Ranga</b>: 5</span> </p> <div> <span><b>Punkty życia</b>: 1300</span></div> <div> <span><b>Mana</b>: 1200</span></div> <div> <span><b>Kondycja</b>: 800</span></div>"
+      ],
+      [
+       "Доп. информация",
+       "<span><b>Wymagany poziom</b>: 50</span> <p><b>Zakup</b>: I klatka gildyjna </p><p><b>Cena</b>: <span style=\"color:#ffd700\">1 800 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/73/Motyl.png\"/></span></span> </td><td colspan=\"2\">Eteryczna manifestacja pozytywnych cech Natury. Delikatne kształty Motyla skrywają potężną, niszczycielską moc. Atakując zadaje silne ciosy, przyzywa rój os i posługuje się silnymi truciznami. To wobec wrogów. Wobec swojego pana jest opiekuńczy i potrafi go leczyć. <p><br/><b>Atakuje fizycznie, z dystansu i urokami.</b><br/> <b>Używa</b>: Rój os, Leczenie, Trujące plucie, Uderzenie, Rzyg. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "scorpio1a",
    "category": "guildpets",
    "name": "Скорпион",
    "nameEN": "Scorpio",
+   "namePL": "Skorpion",
    "icon": "data/raresImg/pets/skorpion.petlogo3d.webp",
    "image": "data/raresImg/pets/scorpion.petmodel3d.webp",
    "level": 65,
@@ -1002,13 +1502,44 @@
      "html": "<img data-items=\"petskin28\" src=\"data/raresImg/pet_skin/28.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Skorpion",
+     "url": "https://www.wikibr.pl/index.php/Skorpion",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 1800 Mana : 1100 Kondycja : 1300"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">6 000 000 złota</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/6/62/Skorpion.png\"/></span></span> </td><td colspan=\"2\">Skorpion każdemu potrafi zatruć życie. Poza swoim właścicielem. Potwora przepełniają trujące substancje, tak potężne, że wielu jego przeciwników na samą myśl o nich wpada w panikę. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Ryk, Rzyg, Gryzienie, Bolesne uderzenie, Plucie jadem. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "nightmare2a",
    "category": "guildpets",
    "name": "Феникс",
    "nameEN": "Phoenix",
+   "namePL": "Fenix",
    "icon": "data/raresImg/pets/fenix.petlogo3d.webp",
    "image": "data/raresImg/pets/fenix.petmodel3d.webp",
    "level": 65,
@@ -1060,13 +1591,44 @@
      "html": "<img data-items=\"petskin12\" src=\"data/raresImg/pet_skin/12.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Fenix",
+     "url": "https://www.wikibr.pl/index.php/Fenix",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 1600 Kondycja : 800"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/ff/Fenix.png\"/></span></span> </td><td colspan=\"2\">Żywioł ognia na usługach człowieka. Roziskrzony ptak spopieli każdego, kto waży się podnieść rękę na jego pana. Miota kule ognia, chroni się za ognistą tarczą i wyprali mózg każdego, kto ośmieli się z nim zmierzyć. Idealne dopełnienie postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Wrażliwość na ogień, Inkantacja, Ognista sfera, Magiczna iskra, Meteoryt, Kula ognia, Podpalenie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "tiger3a",
    "category": "guildpets",
    "name": "Пантера",
    "nameEN": "Panther",
+   "namePL": "Pantera",
    "icon": "data/raresImg/pets/pantera.petlogo3d.webp",
    "image": "data/raresImg/pets/pantera.petmodel3d.webp",
    "level": 65,
@@ -1118,13 +1680,44 @@
      "html": "<img data-items=\"petskin22\" src=\"data/raresImg/pet_skin/22.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Pantera",
+     "url": "https://www.wikibr.pl/index.php/Pantera",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">500 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/e/ee/Pantera.png\"/></span></span> </td><td colspan=\"2\">Pantera wtapia się w otoczenie i wyskakuje z nicości jak czarna błyskawica. Jej oręż to potężne szczęki i łapy, który bez trudu powala nawet orka, Obżarta mięsem ofiary, mruczeniem umila wędrówkę swojego pana. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Naturalna odporność, Ryk, Okrzyk bojowy, Gryzienie, Zwykły atak. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "nightmare3a",
    "category": "guildpets",
    "name": "Папуг",
    "nameEN": "Parrot",
+   "namePL": "Papug",
    "icon": "data/raresImg/pets/papug.petlogo3d.webp",
    "image": "data/raresImg/pets/popug.petmodel3d.webp",
    "level": 65,
@@ -1176,13 +1769,44 @@
      "html": "<img data-items=\"petskin23\" src=\"data/raresImg/pet_skin/23.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Papug",
+     "url": "https://www.wikibr.pl/index.php/Papug",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 2000 Mana : 900 Kondycja : 1500"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">2 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: II Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/82/Papug.png\"/></span></span> </td><td colspan=\"2\">Przyjaciel z dalekich krajów. Spokojny, medytujący, egzotyczny ptak, którego kojące barwy i łagodne usposobienie dają poczucie bezpieczeństwa. Ale tylko dla jego pana. Pozostałych potrafi zlikwidować kilkoma nieznaczącymi acz morderczymi ruchami. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Kontrola oddechu, Fala dźwiękowa, Gryzienie, Potężne uderzenie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "furry1a",
    "category": "guildpets",
    "name": "Лохмач",
    "nameEN": "Shaggy",
+   "namePL": "Kudłacz",
    "icon": "data/raresImg/pets/lokhmach.petlogo3d.webp",
    "image": "data/raresImg/pets/lokhmach.petmodel3d.webp",
    "level": 80,
@@ -1230,13 +1854,44 @@
      "html": "<img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills25\" src=\"data/raresImg/skills/25.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills13\" src=\"data/raresImg/skills/13.skills.png\"/> <img data-items=\"skills11\" src=\"data/raresImg/skills/11.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Kudłacz",
+     "url": "https://www.wikibr.pl/index.php/Kudłacz",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1000 Kondycja : 1800"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">9 000 000 złota</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/f/f2/Kud%C5%82acz.png\"/></span></span> </td><td colspan=\"2\">Kudłacz to besia wyjątkowo trudna do pokonania. Rozpędzony jest niepowstrzymany. Jeśli przeciwnik nie podda się panice, to bestia rozbije jego pancerz, a jego samego powali. Świetny dla łuczników i magów. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Ryk, Dyńka, Taran, Gryzienie, Ochrona. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "monkey4a",
    "category": "guildpets",
    "name": "Колотун",
    "nameEN": "Pounder",
+   "namePL": "Tłuk",
    "icon": "data/raresImg/pets/kolotun.petlogo3d.webp",
    "image": "data/raresImg/pets/kolotun.petmodel3d.webp",
    "level": 80,
@@ -1288,13 +1943,44 @@
      "html": "<img data-items=\"petskin29\" src=\"data/raresImg/pet_skin/29.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Tłuk",
+     "url": "https://www.wikibr.pl/index.php/Tłuk",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 80 Ranga : 10 Punkty życia : 2400 Mana : 1000 Kondycja : 1800"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 000 000 złota</span> i <span style=\"color:#7de0de\">400 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/8a/T%C5%82uk.png\"/></span></span> </td><td colspan=\"2\">Tłuk zatłucze każdego, kto wejdzie ci w drogę. Jego zakrzywione zęby zostawiają głębokie rany, powodując potężne krwawienie. Ogromna wytrzymałość stwora czynią z niego doskonałego kompana, szczególnie dla postaci walczących na odległość. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Twoja stara, Ryk, Gryzienie, Front kick, Bolesne uderzenie, Furia. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "pteranodon4a",
    "category": "guildpets",
    "name": "Дарклинг",
    "nameEN": "Darkling",
+   "namePL": "Darkling",
    "icon": "data/raresImg/pets/darkling.petlogo3d.webp",
    "image": "data/raresImg/pets/darkling.petmodel3d.webp",
    "level": 80,
@@ -1346,13 +2032,44 @@
      "html": "<img data-items=\"petskin11\" src=\"data/raresImg/pet_skin/11.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Darkling",
+     "url": "https://www.wikibr.pl/index.php/Darkling",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 80 Ranga : 10 Punkty życia : 2600 Mana : 1800 Kondycja : 1000"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 200 000 złota</span> i <span style=\"color:#7de0de\">600 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/d/d0/Darkling.png\"/></span></span> </td><td colspan=\"2\">Twój prywatny smok. Wzbudza nie tylko podziw, ale i lęk. Wytrzymały i odporny, atakuje ogniem i dotkliwie kąsa. Błyskawicznie rozszarpie i spopieli wszystko, co mu stanie na drodze. Szczególnie przydatny dla postaci walczącej w zwarciu. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gruboskórność, Ryk, Magiczna iskra, Kula ognia, Potężne uderzenie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "pteranodon1a",
    "category": "guildpets",
    "name": "Веточка",
    "nameEN": "Twig",
+   "namePL": "Twig",
    "icon": "data/raresImg/pets/vetochka.petlogo3d.webp",
    "image": "data/raresImg/pets/vetochka.petmodel3d.webp",
    "level": 80,
@@ -1404,13 +2121,44 @@
      "html": "<img data-items=\"petskin30\" src=\"data/raresImg/pet_skin/30.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Twig",
+     "url": "https://www.wikibr.pl/index.php/Twig",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 80 Ranga : 10 Punkty życia : 2700 Mana : 1800 Kondycja : 1000"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 80 <p><b>Cena</b>: <span style=\"color:#ffd700\">3 400 000 złota</span> i <span style=\"color:#7de0de\">700 platyny</span> </p><p><b>Zakup</b>: III Klatka gildyjna </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#5db42b\"><b>TAK</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/b/b2/Twig.png\"/></span></span> </td><td colspan=\"2\">Cieniutki jak gałązka, ale twardszy od stali. Twig posiada zdolności voodoo i stanowi nieocenione wsparcie dla właściciela. Pomoże walczyć w krainach, gdzie nie zawsze udaje się zebrać odpowiednią drużynę. Twig to przyjaciel dla wymagających. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Zatrucie, Szpila w oko, Uderzenie cienia, Ukłucie lalki, Potężne uderzenie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "crab3a",
    "category": "onetimepets",
    "name": "Мааб",
    "nameEN": "Maab",
+   "namePL": "Maab",
    "icon": "data/raresImg/pets/maab.petlogo3d.webp",
    "image": "data/raresImg/pets/maab.petmodel3d.webp",
    "level": 60,
@@ -1454,13 +2202,44 @@
      "html": "<img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills14\" src=\"data/raresImg/skills/14.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills25\" src=\"data/raresImg/skills/25.skills.png\"/> <img data-items=\"skills29\" src=\"data/raresImg/skills/29.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Maab",
+     "url": "https://www.wikibr.pl/index.php/Maab",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 60 Ranga : 13 Punkty życia : 1600 Mana : 1100 Kondycja : 1100"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 60 <p><b>Cena</b>: <span style=\"color:#ffd700\">50 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/59/Maab.png\"/></span></span> </td><td colspan=\"2\">Skorupiak o tytanowym pancerzu, który chroni wybranych członków drużyny, Oprócz tego potrafi dodać sił sojusznikom oraz przerazić przeciwników. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Okrzyk bojowy, Ryk, Gruboskórność, Siła jedności, Gryzienie, Plucie jadem, Ochrona. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "rat4a",
    "category": "onetimepets",
    "name": "Стефан",
    "nameEN": "Stephan",
+   "namePL": "Stefan",
    "icon": "data/raresImg/pets/stefan.petlogo3d.webp",
    "image": "data/raresImg/pets/stefan.petmodel3d.webp",
    "level": 50,
@@ -1504,13 +2283,44 @@
      "html": "<img data-items=\"skills5\" src=\"data/raresImg/skills/5.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills16\" src=\"data/raresImg/skills/16.skills.png\"/> <img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills17\" src=\"data/raresImg/skills/17.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Stefan",
+     "url": "https://www.wikibr.pl/index.php/Stefan",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 50 Ranga : 3 Punkty życia : 1550 Mana : 900 Kondycja : 1600"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 50 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/9/91/Stefan.png\"/></span></span> </td><td colspan=\"2\">Przemykający pod stopami szczur wzbudza strach, a w obliczu zagrożenia wpada w furię i dotkliwie gryzie. Może doprowadzić do zakażenia. <p><br/> <b>Atakuje fizycznie i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Rzyg, Zakażenie, Furia, Okrzyk bojowy, Zwykły atak. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "madbees2a",
    "category": "onetimepets",
    "name": "Це Це",
    "nameEN": "Tse Tse",
+   "namePL": "Tse Tse",
    "icon": "data/raresImg/pets/cece.petlogo3d.webp",
    "image": "",
    "level": 40,
@@ -1554,13 +2364,44 @@
      "html": "<img data-items=\"skills104\" src=\"data/raresImg/skills/104.skills.png\"/> <img data-items=\"skills18\" src=\"data/raresImg/skills/18.skills.png\"/> <img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills17\" src=\"data/raresImg/skills/17.skills.png\"/> <img data-items=\"skills65\" src=\"data/raresImg/skills/65.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills22\" src=\"data/raresImg/skills/22.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Tse Tse",
+     "url": "https://www.wikibr.pl/index.php/Tse_Tse",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 900 Kondycja : 1600"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">15 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/54/Tsetse.png\"/></span></span> </td><td colspan=\"2\">Nikt nie lubi, jak mu coś bzyczy nad uchem. Rój owadów budzi strach swoich przeciwników i błyskawicznie zabija trucizną. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Gryzienie, Mierzony cios, Zatrucie, Rzyg, Plucie jadem, Okrzyk bojowy, Ryk, Naturalna odporność, Zakażenie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "hobgoblin4a",
    "category": "onetimepets",
    "name": "Коновал",
    "nameEN": "Quack",
+   "namePL": "Konował",
    "icon": "data/raresImg/pets/konoval.petlogo3d.webp",
    "image": "data/raresImg/pets/kanaval.petmodel3d.webp",
    "level": 55,
@@ -1604,13 +2445,44 @@
      "html": "<img data-items=\"skills101\" src=\"data/raresImg/skills/101.skills.png\"/> <img data-items=\"skills51\" src=\"data/raresImg/skills/51.skills.png\"/> <img data-items=\"skills108\" src=\"data/raresImg/skills/108.skills.png\"/> <img data-items=\"skills109\" src=\"data/raresImg/skills/109.skills.png\"/> <img data-items=\"skills103\" src=\"data/raresImg/skills/103.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Konował",
+     "url": "https://www.wikibr.pl/index.php/Konował",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 55 Ranga : 4 Punkty życia : 1500 Mana : 1500 Kondycja : 600"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 55 <p><b>Cena</b>: <span style=\"color:#ffd700\">35 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/7f/Konowa%C5%82.png\"/></span></span> </td><td colspan=\"2\">Dzięki umiejętności leczenia Konował to solidne wsparcie podczas wyprawy. Potrafi uleczyć wszystkich sojuszników naraz. Jak trzeba to sam zaatakuje. <p><br/> <b>Atakuje z dystansu i urokami.</b> </p><p><b>Używa</b>: Leczenie, Grupowe leczenie, Korzeń, Osy, Piorun kulisty. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "frog2a",
    "category": "onetimepets",
    "name": "Плевака",
    "nameEN": "Spitter",
+   "namePL": "Plujka",
    "icon": "data/raresImg/pets/plevaka.petlogo3d.webp",
    "image": "data/raresImg/pets/plevatel.petmodel3d.webp",
    "level": 40,
@@ -1654,13 +2526,44 @@
      "html": "<img data-items=\"skills62\" src=\"data/raresImg/skills/62.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills65\" src=\"data/raresImg/skills/65.skills.png\"/> <img data-items=\"skills0\" src=\"data/raresImg/skills/0.skills.png\"/> <img data-items=\"skills61\" src=\"data/raresImg/skills/61.skills.png\"/> <img data-items=\"skills67\" src=\"data/raresImg/skills/67.skills.png\"/> <img data-items=\"skills68\" src=\"data/raresImg/skills/68.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Plujka",
+     "url": "https://www.wikibr.pl/index.php/Plujka",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 40 Ranga : 3 Punkty życia : 1400 Mana : 1300 Kondycja : 800"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 40 <p><b>Cena</b>: <span style=\"color:#ffd700\">20 Imperiałów</span> </p><p><b>Zakup</b>: u Tresera Pitera </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/1/10/Plujka.png\"/></span></span> </td><td colspan=\"2\">Mała i kolorowa żabka, która wydając różne dźwięki, oślepia i otępia przeciwników. Pluje jadem i poparzy każdego, kto spróbuje ją dotknąć. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Otępienie, Szpila w oko, Zatrucie, Rzyg, Hak w brzuch, Ukłucie lalki, Aura cienia, Plucie jadem, Gryzienie. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "goblin4a",
    "category": "onetimepets",
    "name": "Испепелитель",
    "nameEN": "Incinerator",
+   "namePL": "Spopielacz",
    "icon": "data/raresImg/pets/ispepelitel.petlogo3d.webp",
    "image": "data/raresImg/pets/ispepelitel.petmodel3d.webp",
    "level": 45,
@@ -1704,13 +2607,44 @@
      "html": "<img data-items=\"skills2\" src=\"data/raresImg/skills/2.skills.png\"/> <img data-items=\"skills30\" src=\"data/raresImg/skills/30.skills.png\"/> <img data-items=\"skills38\" src=\"data/raresImg/skills/38.skills.png\"/> <img data-items=\"skills39\" src=\"data/raresImg/skills/39.skills.png\"/> <img data-items=\"skills31\" src=\"data/raresImg/skills/31.skills.png\"/> <img data-items=\"skills37\" src=\"data/raresImg/skills/37.skills.png\"/> <img data-items=\"skills33\" src=\"data/raresImg/skills/33.skills.png\"/> <img data-items=\"skills34\" src=\"data/raresImg/skills/34.skills.png\"/> <img data-items=\"skills32\" src=\"data/raresImg/skills/32.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Spopielacz",
+     "url": "https://www.wikibr.pl/index.php/Spopielacz",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 45 Ranga : 3 Punkty życia : 1500 Mana : 1700 Kondycja : 700"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 45 <p><b>Cena</b>: <span style=\"color:#ffd700\">30 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/7/74/Spopielacz.png\"/></span></span> </td><td colspan=\"2\">Wirtuoz żywiołu ognia. Atakuje w bezpośrednim starciu lub z dystansu. Za jednym zamachem potrafi unicestwić całą grupę wrogów. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Magiczna iskra, Wrażliwość na ogień, Ognista sfera, Inkantacja, Podpalenie, Kula ognia, Deszcz ognia, Meteoryt, Okrzyk bojowy. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "breed4a",
    "category": "onetimepets",
    "name": "Гнида",
    "nameEN": "Wart",
+   "namePL": "Gnida",
    "icon": "data/raresImg/pets/gnida.petlogo3d.webp",
    "image": "data/raresImg/pets/gnida.petmodel3d.webp",
    "level": 75,
@@ -1754,13 +2688,44 @@
      "html": "<img data-items=\"skills73c\" src=\"data/raresImg/skills/73.skills.png\"/> <img data-items=\"skills74\" src=\"data/raresImg/skills/74.skills.png\"/> <img data-items=\"skills145c\" src=\"data/raresImg/skills/145.skills.png\"/> <img data-items=\"skills77\" src=\"data/raresImg/skills/77.skills.png\"/> <img data-items=\"skills71\" src=\"data/raresImg/skills/71.skills.png\"/> <img data-items=\"skills76\" src=\"data/raresImg/skills/76.skills.png\"/> <img data-items=\"skills72\" src=\"data/raresImg/skills/72.skills.png\"/> <img data-items=\"skills75\" src=\"data/raresImg/skills/75.skills.png\"/> <img data-items=\"skills78\" src=\"data/raresImg/skills/78.skills.png\"/> <img data-items=\"skills79\" src=\"data/raresImg/skills/79.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Gnida",
+     "url": "https://www.wikibr.pl/index.php/Gnida",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 75 Ranga : 7 Punkty życia : 2000 Mana : 1300 Kondycja : 1500"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 75 <p><b>Cena</b>: <span style=\"color:#ffd700\">45 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/a/a8/GnidaPet.png\"/></span></span> </td><td colspan=\"2\">Plugawy twór magicznych eksperymentów. Atakuje z zaskoczenia, uderzając we wrażliwe punkty osłabia celność ataków oraz skuteczność zasłony przeciwnika. <p><br/> <b>Atakuje fizycznie i z dystansu.</b> </p><p><b>Używa</b>: Lewy prawy, Front Kick, Kontrola oddechu, Bolesne uderzenie, Cios w wątrobę, Latające kolano, Uniki, Haduoken, Uderzenie Chi, Rzyg. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "harpykid2a",
    "category": "onetimepets",
    "name": "Купидон",
    "nameEN": "Cupid",
+   "namePL": "Amorek",
    "icon": "data/raresImg/pets/kupidon.petlogo3d.webp",
    "image": "data/raresImg/pets/kupidon.petmodel3d.webp",
    "level": 65,
@@ -1804,13 +2769,44 @@
      "html": "<img data-items=\"skills185\" src=\"data/raresImg/skills/185.skills.png\"/> <img data-items=\"skills62\" src=\"data/raresImg/skills/62.skills.png\"/> <img data-items=\"skills93\" src=\"data/raresImg/skills/93.skills.png\"/> <img data-items=\"skills96\" src=\"data/raresImg/skills/96.skills.png\"/> <img data-items=\"skills97\" src=\"data/raresImg/skills/97.skills.png\"/> <img data-items=\"skills42c\" src=\"data/raresImg/skills/42.skills.png\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Amorek",
+     "url": "https://www.wikibr.pl/index.php/Amorek",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 65 Ranga : 5 Punkty życia : 2200 Mana : 1000 Kondycja : 1200"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 65 <p><b>Cena</b>: <span style=\"color:#ffd700\">40 Imperiałów</span> </p><p><b>Zakup</b>: u Handlarza Niewolników </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/5/5f/Amorek.png\"/></span></span> </td><td colspan=\"2\">To urocze latające stworzenie zamienia przeciwników w bezradne kukły. Na jego strzały i urok nie ma odpornych, jak na Amorka przystało. <p><br/> <b>Atakuje fizycznie, z dystansu i urokami.</b> </p><p><b>Używa</b>: Atak zaciemniający, Szpila w oko, Plucie trujące, Plucie kaleczące, Twoja stara, Aura zimna. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "yak2a",
    "category": "onetimepets",
    "name": "Манька",
    "nameEN": "Moo-Cow",
+   "namePL": "Mućka",
    "icon": "data/raresImg/pets/korova.petlogo3d.webp",
    "image": "data/raresImg/pets/korova.petmodel3d.webp",
    "level": 70,
@@ -1858,13 +2854,46 @@
      "html": "<img data-items=\"petskin31\" src=\"data/raresImg/pet_skin/31.pet_skin.webp\"/>"
     }
    ],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Mućka",
+     "url": "https://www.wikibr.pl/index.php/Mućka",
+     "fields": [
+      [
+       "Статистика",
+       "Poziom : 90 Ranga : 10 Punkty życia : 2900 Mana : 1000 Kondycja : 1800"
+      ],
+      [
+       "Доп. информация",
+       "<b>Wymagany poziom</b>: 70 <p>Pojawia się losowo na polach w <span data-items=\"wb_przysiolek_trentis\">Przysiółku Trentis</span> oraz w <span data-items=\"wb_wymarla_osada\">Wymarłej osadzie</span> </p><p>Cena: <span style=\"color:#7de0de\">100 platyny</span> </p><p>Po odesłaniu możliwa do odbioru u <span data-items=\"wb_przysiolek_trentis\">Romana</span> za <span style=\"color:#ffd700\">1 000 złota</span> </p><p>Możliwość zdobywania doświadczenia - <span style=\"color:#AA0000\"><b>NIE</b></span> </p>"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td><span><span><img src=\"data/wikibr/images/8/85/Mu%C4%87ka.png\"/></span></span> </td><td colspan=\"2\">Złośliwe i uparte bydle, ale niezastąpiony towarzysz broni. Ryczy, bierze na rogi, tratuje i gryzie. Niezbyt święta ta krowa. <p><br/> <b>Atakuje fizycznie, mentalnie i z dystansu.</b> </p><p><b>Używa</b>: Ryk, Okrzyk bojowy, Trzęsienie ziemi, Taran, Dyńka, Gryzienie, Krytyczne uderzenie, Gruboskórność, Furia. </p> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_przysiolek_trentis",
+      "wb_wymarla_osada",
+      "wb_zwierzaki"
+     ]
+    }
+   ]
   },
   {
    "id": "badger1a",
    "category": "specialpets",
    "name": "Барсук(физ)",
    "nameEN": "Badger (phys)",
+   "namePL": "Borsuk (fiz)",
    "icon": "data/raresImg/pets/barsuk.petlogo3d.webp",
    "image": "data/raresImg/pets/barsuk.petmodel3d.webp",
    "level": null,
@@ -1915,6 +2944,7 @@
    "category": "specialpets",
    "name": "Барсук(маг)",
    "nameEN": "Badger (mage)",
+   "namePL": "Borsuk (mag)",
    "icon": "data/raresImg/pets/barsuk.petlogo3d.webp",
    "image": "data/raresImg/pets/barsuk.petmodel3d.webp",
    "level": null,
@@ -1965,6 +2995,7 @@
    "category": "specialpets",
    "name": "Назгулица(физ)",
    "nameEN": "Nazgulette (phys)",
+   "namePL": "Nazgulica (fiz)",
    "icon": "data/raresImg/pets/nazgulica.petlogo3d.webp",
    "image": "data/raresImg/pets/nazgulica.petmodel3d.webp",
    "level": null,
@@ -2015,6 +3046,7 @@
    "category": "specialpets",
    "name": "Назгулица(маг)",
    "nameEN": "Nazgulette (mage)",
+   "namePL": "Nazgulica (mag)",
    "icon": "data/raresImg/pets/nazgulica.petlogo3d.webp",
    "image": "data/raresImg/pets/nazgulica.petmodel3d.webp",
    "level": null,
@@ -2065,6 +3097,7 @@
    "category": "petskin",
    "name": "Боевая Эра",
    "nameEN": "Battle Era",
+   "namePL": "Era Bojowa",
    "icon": "data/raresImg/pet_skin/3.pet_skin.webp",
    "image": "data/raresImg/pet_skin/3.pet_skinmod.webp",
    "level": null,
@@ -2090,6 +3123,7 @@
    "category": "petskin",
    "name": "Боевой Сол",
    "nameEN": "Battle Sol",
+   "namePL": "Sol Bojowy",
    "icon": "data/raresImg/pet_skin/4.pet_skin.webp",
    "image": "data/raresImg/pet_skin/4.pet_skinmod.webp",
    "level": null,
@@ -2115,6 +3149,7 @@
    "category": "petskin",
    "name": "Лесной Тон",
    "nameEN": "Forest Ton",
+   "namePL": "Ton Leśny",
    "icon": "data/raresImg/pet_skin/5.pet_skin.webp",
    "image": "data/raresImg/pet_skin/5.pet_skinmod.webp",
    "level": null,
@@ -2140,6 +3175,7 @@
    "category": "petskin",
    "name": "Ржавая Летучая Мышь",
    "nameEN": "Rubiginous Bat",
+   "namePL": "Nietoperz Rdzawy",
    "icon": "data/raresImg/pet_skin/6.pet_skin.webp",
    "image": "data/raresImg/pet_skin/6.pet_skinmod.webp",
    "level": null,
@@ -2165,6 +3201,7 @@
    "category": "petskin",
    "name": "Пятнистый Белый Огар",
    "nameEN": "Spotted White Hound",
+   "namePL": "Biały Ogar Cętkowany",
    "icon": "data/raresImg/pet_skin/7.pet_skin.webp",
    "image": "data/raresImg/pet_skin/7.pet_skinmod.webp",
    "level": null,
@@ -2190,6 +3227,7 @@
    "category": "petskin",
    "name": "Карамельный Белый Огар",
    "nameEN": "Caramel White Hound",
+   "namePL": "Biały Ogar Karmelowy",
    "icon": "data/raresImg/pet_skin/8.pet_skin.webp",
    "image": "data/raresImg/pet_skin/8.pet_skinmod.webp",
    "level": null,
@@ -2215,6 +3253,7 @@
    "category": "petskin",
    "name": "Пещерный Черный Огар",
    "nameEN": "Cave Black Hound",
+   "namePL": "Czarny Ogar Jaskiniowy",
    "icon": "data/raresImg/pet_skin/9.pet_skin.webp",
    "image": "data/raresImg/pet_skin/9.pet_skinmod.webp",
    "level": null,
@@ -2240,6 +3279,7 @@
    "category": "petskin",
    "name": "Угольно-черный Огар",
    "nameEN": "Coal Black Hound",
+   "namePL": "Czarny Ogar Kopalniany",
    "icon": "data/raresImg/pet_skin/10.pet_skin.webp",
    "image": "data/raresImg/pet_skin/10.pet_skinmod.webp",
    "level": null,
@@ -2265,6 +3305,7 @@
    "category": "petskin",
    "name": "Кровавый Дарклинг",
    "nameEN": "Bloody Darkling",
+   "namePL": "Darkling Krwisty",
    "icon": "data/raresImg/pet_skin/11.pet_skin.webp",
    "image": "data/raresImg/pet_skin/11.pet_skinmod.webp",
    "level": null,
@@ -2290,6 +3331,7 @@
    "category": "petskin",
    "name": "Радужный Феникс",
    "nameEN": "Rainbow Phoenix",
+   "namePL": "Fenix Tęczowy",
    "icon": "data/raresImg/pet_skin/12.pet_skin.webp",
    "image": "data/raresImg/pet_skin/12.pet_skinmod.webp",
    "level": null,
@@ -2315,6 +3357,7 @@
    "category": "petskin",
    "name": "Тигровая Гиена",
    "nameEN": "Striped Hyena",
+   "namePL": "Hiena Tygrysia",
    "icon": "data/raresImg/pet_skin/13.pet_skin.webp",
    "image": "data/raresImg/pet_skin/13.pet_skinmod.webp",
    "level": null,
@@ -2340,6 +3383,7 @@
    "category": "petskin",
    "name": "Первобытный Хохграт",
    "nameEN": "Primal Hohgrat",
+   "namePL": "Hohgrat Pierwotny",
    "icon": "data/raresImg/pet_skin/14.pet_skin.webp",
    "image": "data/raresImg/pet_skin/14.pet_skinmod.webp",
    "level": null,
@@ -2365,6 +3409,7 @@
    "category": "petskin",
    "name": "Коричневый Ягуар",
    "nameEN": "Brown Jaguar",
+   "namePL": "Jaguar Brunatny",
    "icon": "data/raresImg/pet_skin/15.pet_skin.webp",
    "image": "data/raresImg/pet_skin/15.pet_skinmod.webp",
    "level": null,
@@ -2390,6 +3435,7 @@
    "category": "petskin",
    "name": "Нефритовая Кобра",
    "nameEN": "Jade Cobra",
+   "namePL": "Kobra Jadeitowa",
    "icon": "data/raresImg/pet_skin/16.pet_skin.webp",
    "image": "data/raresImg/pet_skin/16.pet_skinmod.webp",
    "level": null,
@@ -2415,6 +3461,7 @@
    "category": "petskin",
    "name": "Снежный Ворон",
    "nameEN": "Snow Raven",
+   "namePL": "Kruk Śnieżny",
    "icon": "data/raresImg/pet_skin/17.pet_skin.webp",
    "image": "data/raresImg/pet_skin/17.pet_skinmod.webp",
    "level": null,
@@ -2440,6 +3487,7 @@
    "category": "petskin",
    "name": "Лазурный Ворон",
    "nameEN": "Azure Raven",
+   "namePL": "Kruk Lazurowy",
    "icon": "data/raresImg/pet_skin/18.pet_skin.webp",
    "image": "data/raresImg/pet_skin/18.pet_skinmod.webp",
    "level": null,
@@ -2465,6 +3513,7 @@
    "category": "petskin",
    "name": "Бабочка Павлиний Глаз",
    "nameEN": "Monarch Butterfly",
+   "namePL": "Motyl Rusałka",
    "icon": "data/raresImg/pet_skin/19.pet_skin.webp",
    "image": "data/raresImg/pet_skin/19.pet_skinmod.webp",
    "level": null,
@@ -2490,6 +3539,7 @@
    "category": "petskin",
    "name": "Неизвестно",
    "nameEN": "Unknown",
+   "namePL": "Unknown",
    "icon": "data/raresImg/pet_skin/20.pet_skin.webp",
    "image": "data/raresImg/pet_skin/20.pet_skinmod.webp",
    "level": null,
@@ -2507,6 +3557,7 @@
    "category": "petskin",
    "name": "Изумрудная Бабочка",
    "nameEN": "Emerald Butterfly",
+   "namePL": "Motyl Szmaragdowy",
    "icon": "data/raresImg/pet_skin/21.pet_skin.webp",
    "image": "data/raresImg/pet_skin/21.pet_skinmod.webp",
    "level": null,
@@ -2532,6 +3583,7 @@
    "category": "petskin",
    "name": "Тигровая Пантера",
    "nameEN": "Striped Panther",
+   "namePL": "Pantera Tygrysia",
    "icon": "data/raresImg/pet_skin/22.pet_skin.webp",
    "image": "data/raresImg/pet_skin/22.pet_skinmod.webp",
    "level": null,
@@ -2557,6 +3609,7 @@
    "category": "petskin",
    "name": "Благородный Попугай",
    "nameEN": "Noble Parrot",
+   "namePL": "Papug Nobliwy",
    "icon": "data/raresImg/pet_skin/23.pet_skin.webp",
    "image": "data/raresImg/pet_skin/23.pet_skinmod.webp",
    "level": null,
@@ -2582,6 +3635,7 @@
    "category": "petskin",
    "name": "Горный Плокс",
    "nameEN": "Mountain Plox",
+   "namePL": "Plox Górski",
    "icon": "data/raresImg/pet_skin/24.pet_skin.webp",
    "image": "data/raresImg/pet_skin/24.pet_skinmod.webp",
    "level": null,
@@ -2607,6 +3661,7 @@
    "category": "petskin",
    "name": "Пустынный Плокс",
    "nameEN": "Desert Plox",
+   "namePL": "Plox Pustynny",
    "icon": "data/raresImg/pet_skin/25.pet_skin.webp",
    "image": "data/raresImg/pet_skin/25.pet_skinmod.webp",
    "level": null,
@@ -2632,6 +3687,7 @@
    "category": "petskin",
    "name": "Хищная Обезьяна",
    "nameEN": "Predatory Monkey",
+   "namePL": "Małpa Drapieżna",
    "icon": "data/raresImg/pet_skin/26.pet_skin.webp",
    "image": "data/raresImg/pet_skin/26.pet_skinmod.webp",
    "level": null,
@@ -2657,6 +3713,7 @@
    "category": "petskin",
    "name": "Ледяная Обезьяна",
    "nameEN": "Ice Monkey",
+   "namePL": "Małpa Lodowa",
    "icon": "data/raresImg/pet_skin/27.pet_skin.webp",
    "image": "data/raresImg/pet_skin/27.pet_skinmod.webp",
    "level": null,
@@ -2682,6 +3739,7 @@
    "category": "petskin",
    "name": "Токсичный Скорпион",
    "nameEN": "Toxic Scorpion",
+   "namePL": "Skorpion Toksyczny",
    "icon": "data/raresImg/pet_skin/28.pet_skin.webp",
    "image": "data/raresImg/pet_skin/28.pet_skinmod.webp",
    "level": null,
@@ -2707,6 +3765,7 @@
    "category": "petskin",
    "name": "Северный Колотун",
    "nameEN": "Northern Pounder",
+   "namePL": "Tłuk Północny",
    "icon": "data/raresImg/pet_skin/29.pet_skin.webp",
    "image": "data/raresImg/pet_skin/29.pet_skinmod.webp",
    "level": null,
@@ -2732,6 +3791,7 @@
    "category": "petskin",
    "name": "Глянцевый Твиг",
    "nameEN": "Shiny Twig",
+   "namePL": "Twig Połyskliwy",
    "icon": "data/raresImg/pet_skin/30.pet_skin.webp",
    "image": "data/raresImg/pet_skin/30.pet_skinmod.webp",
    "level": null,
@@ -2757,6 +3817,7 @@
    "category": "petskin",
    "name": "Луговая Манька",
    "nameEN": "Meadow Moo-Cow",
+   "namePL": "Mućka Łąkowa",
    "icon": "data/raresImg/pet_skin/31.pet_skin.webp",
    "image": "data/raresImg/pet_skin/31.pet_skinmod.webp",
    "level": null,
@@ -2782,6 +3843,7 @@
    "category": "petO",
    "name": "Шелест",
    "nameEN": "Rustle",
+   "namePL": "Szelest",
    "icon": "data/raresImg/pet2/4.pet2.png",
    "image": "",
    "level": 35,
@@ -2845,6 +3907,7 @@
    "category": "petB",
    "name": "Покров",
    "nameEN": "Shroud of Humanity",
+   "namePL": "Całun Ludzkości",
    "icon": "data/raresImg/pet1/7.pet1.png",
    "image": "",
    "level": 35,
@@ -2908,6 +3971,7 @@
    "category": "petP",
    "name": "Обложка",
    "nameEN": "Cover",
+   "namePL": "Okładka",
    "icon": "data/raresImg/pet3/11.pet3.png",
    "image": "",
    "level": 35,
@@ -2963,6 +4027,7 @@
    "category": "petO",
    "name": "Стиратель",
    "nameEN": "Eraser",
+   "namePL": "Ścierak",
    "icon": "data/raresImg/pet2/5.pet2.png",
    "image": "",
    "level": 35,
@@ -3026,6 +4091,7 @@
    "category": "petB",
    "name": "Видиум",
    "nameEN": "Vidium",
+   "namePL": "Vidium",
    "icon": "data/raresImg/pet1/8.pet1.png",
    "image": "",
    "level": 35,
@@ -3089,6 +4155,7 @@
    "category": "petP",
    "name": "Окорок",
    "nameEN": "Haunch",
+   "namePL": "Udziec",
    "icon": "data/raresImg/pet3/8.pet3.png",
    "image": "",
    "level": 35,
@@ -3144,6 +4211,7 @@
    "category": "petO",
    "name": "Исгир",
    "nameEN": "Isghir",
+   "namePL": "Isghir",
    "icon": "data/raresImg/pet2/6.pet2.png",
    "image": "",
    "level": 35,
@@ -3205,6 +4273,7 @@
    "category": "petB",
    "name": "Исгар",
    "nameEN": "Isgar",
+   "namePL": "Isgar",
    "icon": "data/raresImg/pet1/4.pet1.png",
    "image": "",
    "level": 35,
@@ -3266,6 +4335,7 @@
    "category": "petP",
    "name": "Искйелл",
    "nameEN": "Iskjell",
+   "namePL": "Iskjell",
    "icon": "data/raresImg/pet3/10.pet3.png",
    "image": "",
    "level": 35,
@@ -3315,6 +4385,7 @@
    "category": "petO",
    "name": "Извергатель",
    "nameEN": "Erupter",
+   "namePL": "Eruptor",
    "icon": "data/raresImg/pet2/7.pet2.png",
    "image": "",
    "level": 35,
@@ -3376,6 +4447,7 @@
    "category": "petB",
    "name": "Осколок",
    "nameEN": "Sliver",
+   "namePL": "Odłamek",
    "icon": "data/raresImg/pet1/6.pet1.png",
    "image": "",
    "level": 35,
@@ -3430,13 +4502,53 @@
     ]
    ],
    "blocks": [],
-   "sourceUrl": "https://anteikutaern.at.ua/pety/"
+   "sourceUrl": "https://anteikutaern.at.ua/pety/",
+   "wikibr": [
+    {
+     "title": "Odłamek",
+     "url": "https://www.wikibr.pl/index.php/Odłamek",
+     "fields": [
+      [
+       "Wartość",
+       "1 000"
+      ],
+      [
+       "Waga",
+       "0"
+      ]
+     ],
+     "blocks": [
+      {
+       "title": "Описание",
+       "html": "<table class=\"wb\"><tr><td colspan=\"2\">Surowiec umożliwiający inkrustację sprzętu. </td></tr></table>"
+      },
+      {
+       "title": "Sposoby pozyskiwania",
+       "html": "<table class=\"wb\"><tr><td colspan=\"2\"> <ul><li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Rarów, Setów, Rarów dla petów oraz Synergetyków,</li> <li>W procesie <span data-items=\"wb_modyfikacje_sprzetu\">rozbijania</span> Orbów.</li></ul> </td></tr></table>"
+      }
+     ]
+    }
+   ],
+   "backrefs": [
+    {
+     "title": "Упоминается в",
+     "ids": [
+      "wb_awans_epika",
+      "wb_jaskinia_golema",
+      "wb_jaskinia_golema_poznanie",
+      "wb_jaski_golema_wyzwanie",
+      "wb_modyfikacje_sprzetu",
+      "wb_zadania_codzienne"
+     ]
+    }
+   ]
   },
   {
    "id": "petP9",
    "category": "petP",
    "name": "Драгоценность",
    "nameEN": "Jewel",
+   "namePL": "Klejnot",
    "icon": "data/raresImg/pet3/9.pet3.png",
    "image": "",
    "level": 35,
@@ -3486,6 +4598,7 @@
    "category": "petP",
    "name": "Горелка",
    "nameEN": "Burner",
+   "namePL": "Palnik",
    "icon": "data/raresImg/pet3/7.pet3.png",
    "image": "",
    "level": 50,
@@ -3539,6 +4652,7 @@
    "category": "petP",
    "name": "Резистор",
    "nameEN": "Resistor",
+   "namePL": "Rezystor",
    "icon": "data/raresImg/pet3/12.pet3.png",
    "image": "",
    "level": 50,
@@ -3592,6 +4706,7 @@
    "category": "petP",
    "name": "Криоринг",
    "nameEN": "Cryoring",
+   "namePL": "Krioring",
    "icon": "data/raresImg/pet3/13.pet3.png",
    "image": "",
    "level": 50,
@@ -3645,6 +4760,7 @@
    "category": "petO",
    "name": "Ксанторн",
    "nameEN": "Xantorn",
+   "namePL": "Xantorn",
    "icon": "data/raresImg/pet2/8.pet2.png",
    "image": "",
    "level": 60,
@@ -3706,6 +4822,7 @@
    "category": "petB",
    "name": "Вригор",
    "nameEN": "Vrighor",
+   "namePL": "Vrighor",
    "icon": "data/raresImg/pet1/9.pet1.png",
    "image": "",
    "level": 60,
@@ -3767,6 +4884,7 @@
    "category": "petB",
    "name": "Ксоргор",
    "nameEN": "Xorgor",
+   "namePL": "Xorgor",
    "icon": "data/raresImg/pet1/5.pet1.png",
    "image": "",
    "level": 60,
@@ -3828,6 +4946,7 @@
    "category": "petO",
    "name": "Бастион",
    "nameEN": "Basteya",
+   "namePL": "Basteja",
    "icon": "data/raresImg/pet2/9.pet2.png",
    "image": "",
    "level": 45,
@@ -3890,6 +5009,7 @@
    "category": "petO",
    "name": "Гусария",
    "nameEN": "Hussarion",
+   "namePL": "Husarion",
    "icon": "data/raresImg/pet2/10.pet2.png",
    "image": "",
    "level": 45,
@@ -3952,6 +5072,7 @@
    "category": "petP",
    "name": "Затмение Мортуса",
    "nameEN": "Mortus's Howl",
+   "namePL": "Skowyt Mortusa",
    "icon": "data/raresImg/pet3/15.pet3.png",
    "image": "",
    "level": 80,
@@ -4014,6 +5135,7 @@
    "category": "petP",
    "name": "Зов Ритуала",
    "nameEN": "Ritual's Call",
+   "namePL": "Zew Rytuału",
    "icon": "data/raresImg/pet3/16.pet3.png",
    "image": "",
    "level": 80,
@@ -4092,6 +5214,7 @@
    "category": "petP",
    "name": "Падение Моока",
    "nameEN": "Mook's Fall",
+   "namePL": "Upadek Mooka",
    "icon": "data/raresImg/pet3/14.pet3.png",
    "image": "",
    "level": 80,
